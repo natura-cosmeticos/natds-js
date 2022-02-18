@@ -3,6 +3,7 @@ import IconButtonBase from '../IconButton/IconButtonBase'
 import { Label } from '../Label'
 import styles from './Shortcut.styles'
 import { ShortcutProps } from './Shortcut.props'
+import Badge from '../Badge'
 
 const Shortcut = React.forwardRef<HTMLButtonElement, ShortcutProps>(
   (props, ref) => {
@@ -12,31 +13,39 @@ const Shortcut = React.forwardRef<HTMLButtonElement, ShortcutProps>(
       disabled = false,
       onClick,
       testID,
-      variant = 'outlined',
+      variant = 'contained',
       color = 'primary',
       label,
       IconComponent,
-      id = 'shortcut',
-      ariaLabelledBy
+      id,
+      ariaLabelledBy,
+      notify = false,
+      value = 99,
+      limit
     } = props
-    const { container, content, labelText } = styles({ variant, color, disabled })
+    const {
+      container, content, labelText, badgeContainer, wrapper
+    } = styles({ variant, color, disabled })
 
     return (
-      <span className={container}>
-        <IconButtonBase
-          id={id}
-          ariaLabelledBy={ariaLabelledBy}
-          ref={ref}
-          ariaLabel={ariaLabel}
-          className={`${className} ${content}`}
-          disabled={disabled}
-          onClick={onClick}
-          size="mediumX"
-          testID={testID}
-          IconComponent={IconComponent}
-        />
+      <div className={wrapper}>
+        <span className={container}>
+          <IconButtonBase
+            className={`${className} ${content}`}
+            id={id}
+            ref={ref}
+            ariaLabel={ariaLabel}
+            ariaLabelledBy={ariaLabelledBy}
+            disabled={disabled}
+            onClick={onClick}
+            size="mediumX"
+            testID={testID}
+            IconComponent={IconComponent}
+          />
+          {notify && <Badge className={badgeContainer} variant="standard" value={value} limit={limit} />}
+        </span>
         {label && <Label className={labelText} label={label} htmlFor={id} id={ariaLabelledBy} />}
-      </span>
+      </div>
     )
   }
 )
