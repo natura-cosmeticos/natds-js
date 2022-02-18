@@ -13,6 +13,7 @@ Array [
   border-radius: 50%;
 }
 .wrapper-0-2-4 {
+  height: fit-content;
   outline: none;
   position: relative;
 }
@@ -64,8 +65,10 @@ Array [
   }
 }
   .wrapper-d0-0-2-9 {
+    flex-basis: 100%;
     cursor: default;
     display: block;
+    align-self: stretch;
   }
   .wrapper-d0-0-2-9:focus:after {  }
   .wrapper-d0-0-2-9:hover:after {
@@ -160,6 +163,7 @@ Array [
   border-radius: 50%;
 }
 .wrapper-0-2-4 {
+  height: fit-content;
   outline: none;
   position: relative;
 }
@@ -211,8 +215,10 @@ Array [
   }
 }
   .wrapper-d0-0-2-9 {
+    flex-basis: 100%;
     cursor: default;
     display: block;
+    align-self: stretch;
   }
   .wrapper-d0-0-2-9:focus:after {  }
   .wrapper-d0-0-2-9:hover:after {
@@ -309,6 +315,7 @@ Array [
   border-radius: 50%;
 }
 .wrapper-0-2-4 {
+  height: fit-content;
   outline: none;
   position: relative;
 }
@@ -360,8 +367,10 @@ Array [
   }
 }
   .wrapper-d0-0-2-9 {
+    flex-basis: 100%;
     cursor: default;
     display: block;
+    align-self: stretch;
   }
   .wrapper-d0-0-2-9:focus:after {  }
   .wrapper-d0-0-2-9:hover:after {
