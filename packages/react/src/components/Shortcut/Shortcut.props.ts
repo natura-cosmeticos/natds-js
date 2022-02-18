@@ -5,17 +5,17 @@ export interface ShortcutProps {
   className?: string
 
   /**
-   * Use to define a text that explains the expected action
+   * Allowing you to change the way an HTML element is "translated" into the accessibility tree
    */
   ariaLabel?: string,
 
   /**
-   * Use to define a text that explains the expected action
+   * It provides the user with a recognizable, accessible name for an interactive element
    */
   ariaLabelledBy?: string,
 
   /**
-   * If `true`, the icon button will be disabled.
+   * If `true`, the element will be disabled.
    * @default false
    */
   disabled?: boolean
@@ -31,29 +31,47 @@ export interface ShortcutProps {
   testID?: string;
 
   /**
-   * Optional ID for testing
+   * The id attribute specifies a unique id for an HTML element
    */
   id?: HTMLButtonElement['id'];
 
   /**
-   * Optional ID for testing
+   * Specify the variant of Shortcut you want to create.
+   * If no variant is specified, a 'contained' shortcut will be rendered.
    * @default contained
    */
   variant?: 'contained' | 'outlined'
 
   /**
-   * Optional ID for testing
+   * Specify a color of element.
+   * If no color is specified, a 'primary' color will be rendered.
    * @default primary
    */
   color?: 'primary' | 'neutral'
 
   /**
-   * Optional ID for testing
+   * Element to be rendered inside the Shortcut
    */
   IconComponent: React.ReactElement
 
   /**
-   * Optional ID for testing
+   * The label to be displayed in the Shotcut
    */
   label?: string
+
+  /**
+   * If `true`, the badge is rendered
+   * @default false
+   */
+  notify?: boolean
+
+  /**
+   * Used to determine the value of the badge
+   */
+  value?: number
+
+  /**
+   * Determine the limit of the badge
+   */
+  limit?: number
 }

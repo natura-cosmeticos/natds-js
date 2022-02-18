@@ -21,6 +21,14 @@ describe('Shortcut component', () => {
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
 
+  it('should render correctly with badge', () => {
+    const { styles, component } = renderWithTheme(
+      <Shortcut {...defaultProps} label="Shortcut label" notify value={10} limit={10} />
+    )
+
+    expect([styles.toString(), component.container]).toMatchSnapshot()
+  })
+
   it('should render correctly when is disabled', () => {
     const { styles, component } = renderWithTheme(<Shortcut {...defaultProps} disabled />)
 
