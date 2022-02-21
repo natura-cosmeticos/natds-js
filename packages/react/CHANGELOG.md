@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.19.6](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.19.4...@naturacosmeticos/natds-react@2.19.6) (2022-02-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @naturacosmeticos/natds-themes to v0.29.0 ([#1663](https://github.com/natura-cosmeticos/natds-js/issues/1663)) ([37d18da](https://github.com/natura-cosmeticos/natds-js/commit/37d18dafc87f7c1bf859565c536853ad630ee514))
+* **natds-react:** change properties of Ripple that affect the behavior of Button component ([#1660](https://github.com/natura-cosmeticos/natds-js/issues/1660)) ([cecca81](https://github.com/natura-cosmeticos/natds-js/commit/cecca8112bfac22e989c65840186c8d5763b3d74))
+
+
+
+
+
 ## [2.19.4](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.19.3...@naturacosmeticos/natds-react@2.19.4) (2022-02-17)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-react
