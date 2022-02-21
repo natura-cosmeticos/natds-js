@@ -60,18 +60,12 @@ export interface ShortcutProps {
   label?: string
 
   /**
-   * If `true`, the badge is rendered
-   * @default false
+   * Element to be rendered top of the Shortcut
    */
-  notify?: boolean
-
-  /**
-   * Used to determine the value of the badge
-   */
-  value?: number
+  BadgeComponent?: React.ReactElement
 
   /**
    * Determine the limit of the badge
    */
-  limit?: number
+  breakLine?: boolean
 }

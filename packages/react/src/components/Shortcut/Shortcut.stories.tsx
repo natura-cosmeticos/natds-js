@@ -3,6 +3,7 @@ import { Story, Meta } from '@storybook/react'
 import { Shortcut, ShortcutProps } from '.'
 import { Icon } from '../Icon'
 import StoryContainer from '../../helpers/StoryContainer'
+import Badge from '../Badge'
 
 const componentStatus = () => `
 - - -
@@ -36,7 +37,7 @@ export const Playground: Story<ShortcutProps> = (args) => (
   <Shortcut {...args} />
 )
 Playground.args = {
-  label: 'your label',
+  label: 'Text Example',
   IconComponent: <Icon size="semi" name="outlined-default-mockup" color="highEmphasis" />
 }
 
@@ -71,8 +72,9 @@ Disabled.args = {
 }
 
 export const Notify: Story<ShortcutProps> = (args) => (
-  <Shortcut {...args} notify value={99} limit={99} />
+  <Shortcut {...args} />
 )
 Notify.args = {
-  ...Playground.args
+  ...Playground.args,
+  BadgeComponent: <Badge variant="standard" value={99} limit={99} />
 }

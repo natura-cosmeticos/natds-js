@@ -3,7 +3,6 @@ import IconButtonBase from '../IconButton/IconButtonBase'
 import { Label } from '../Label'
 import styles from './Shortcut.styles'
 import { ShortcutProps } from './Shortcut.props'
-import Badge from '../Badge'
 
 const Shortcut = React.forwardRef<HTMLButtonElement, ShortcutProps>(
   (props, ref) => {
@@ -17,19 +16,20 @@ const Shortcut = React.forwardRef<HTMLButtonElement, ShortcutProps>(
       color = 'primary',
       label,
       IconComponent,
+      BadgeComponent,
       id,
       ariaLabelledBy,
-      notify = false,
-      value = 99,
-      limit
+      breakLine = true
     } = props
     const {
       container, content, labelText, badgeContainer, wrapper
-    } = styles({ variant, color, disabled })
+    } = styles({
+      variant, color, disabled, breakLine
+    })
 
     return (
       <div className={wrapper}>
-        <span className={container}>
+        <div className={container}>
           <IconButtonBase
             className={`${className} ${content}`}
             id={id}
@@ -42,8 +42,13 @@ const Shortcut = React.forwardRef<HTMLButtonElement, ShortcutProps>(
             testID={testID}
             IconComponent={IconComponent}
           />
-          {notify && <Badge className={badgeContainer} variant="standard" value={value} limit={limit} />}
-        </span>
+          {BadgeComponent
+            && (
+            <div className={badgeContainer}>
+              {BadgeComponent}
+            </div>
+            )}
+        </div>
         {label && <Label className={labelText} label={label} htmlFor={id} id={ariaLabelledBy} />}
       </div>
     )

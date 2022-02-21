@@ -2,6 +2,7 @@ import { fireEvent } from '@testing-library/dom'
 import React from 'react'
 import Shortcut, { ShortcutProps } from '.'
 import renderWithTheme from '../../helpers/renderWithTheme'
+import Badge from '../Badge'
 
 const defaultProps: ShortcutProps = {
   onClick: () => ({}),
@@ -23,7 +24,7 @@ describe('Shortcut component', () => {
 
   it('should render correctly with badge', () => {
     const { styles, component } = renderWithTheme(
-      <Shortcut {...defaultProps} label="Shortcut label" notify value={10} limit={10} />
+      <Shortcut {...defaultProps} label="Shortcut label" BadgeComponent={<Badge variant="standard" value={99} limit={99} />} />
     )
 
     expect([styles.toString(), component.container]).toMatchSnapshot()
@@ -39,10 +40,10 @@ describe('Shortcut component', () => {
     const onClickMock = jest.fn()
 
     const { component: { getByRole } } = renderWithTheme(
-      <Shortcut {...defaultProps} onClick={onClickMock} disabled label="Shortcut" />
+      <Shortcut {...defaultProps} onClick={onClickMock} disabled label="shortcut" id="shortcut" />
     )
 
-    fireEvent.click(getByRole('button', { name: 'Shortcut' }))
+    fireEvent.click(getByRole('button', { name: 'shortcut' }))
 
     expect(onClickMock).not.toHaveBeenCalledTimes(1)
   })
