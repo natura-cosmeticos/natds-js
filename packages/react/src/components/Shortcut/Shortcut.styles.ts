@@ -37,7 +37,10 @@ const styles = createUseStyles((theme: Theme) => ({
       backgroundColor: ({ color, variant }: ShortcutStyleProps) => color && variant && theme.shortcut[variant].color.hover[color].background,
       border: ({ color, variant }: ShortcutStyleProps) => color && variant && `1px solid ${theme.shortcut[variant].color.hover[color].border}`
     },
-    '&:focus:not([disabled])': {}
+    '&:focus:not([disabled])': {
+      backgroundColor: ({ color, variant }: ShortcutStyleProps) => color && variant && theme.shortcut[variant].color.focus[color].background,
+      border: ({ color, variant }: ShortcutStyleProps) => color && variant && `1px solid ${theme.shortcut[variant].color.focus[color].border}`
+    }
   },
   labelText: {
     fontFamily: [theme.shortcut.label.primary.fontFamily, theme.shortcut.label.fallback.fontFamily],
