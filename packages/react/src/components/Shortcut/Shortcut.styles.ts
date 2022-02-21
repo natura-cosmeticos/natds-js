@@ -3,7 +3,7 @@ import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { ShortcutProps } from './Shortcut.props'
 
-type ShortcutStyleProps = Pick<ShortcutProps, 'variant' | 'disabled' | 'color'>
+type ShortcutStyleProps = Pick<ShortcutProps, 'variant' | 'disabled' | 'color' | 'breakLine'>
 
 const setBoxShadow = (theme: Theme) => ({ variant, disabled }: ShortcutStyleProps) => variant === 'contained' && !disabled && theme.elevation.tiny
 const setLabelColor = (theme: Theme) => (
@@ -14,9 +14,10 @@ const setLabelColor = (theme: Theme) => (
 
 const styles = createUseStyles((theme: Theme) => ({
   wrapper: {
-    display: 'inline-flex',
+    display: 'flex',
     flexDirection: 'column',
-    alignItems: 'center'
+    alignItems: 'center',
+    width: theme.size.mediumX
   },
   container: {
     position: 'relative'
@@ -43,8 +44,12 @@ const styles = createUseStyles((theme: Theme) => ({
     fontSize: theme.shortcut.label.fontSize,
     fontWeight: theme.shortcut.label.primary.fontWeight,
     letterSpacing: theme.shortcut.label.letterSpacing,
+    width: theme.size.mediumX,
+    textAlign: 'center',
     marginTop: theme.spacing.tiny,
-    verticalAlign: 'top',
+    whiteSpace: ({ breakLine }: ShortcutStyleProps) => (breakLine ? 'normal' : 'nowrap'),
+    textOverflow: 'ellipsis',
+    overflow: 'hidden',
     color: setLabelColor(theme),
     '&:hover': {
       color: ({ color, variant, disabled }: ShortcutStyleProps) => color && variant && !disabled && theme.shortcut[variant].color.hover[color].label

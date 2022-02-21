@@ -2,7 +2,7 @@
 
 exports[`Shortcut component should render correctly when is disabled 1`] = `
 Array [
-  ".sharedRippleEffect-0-2-7 {
+  ".sharedRippleEffect-0-2-10 {
   top: 0;
   left: 0;
   width: 100%;
@@ -12,11 +12,11 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.wrapper-0-2-8 {
+.wrapper-0-2-11 {
   outline: none;
   position: relative;
 }
-.wrapper-0-2-8:focus:after {
+.wrapper-0-2-11:focus:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -27,7 +27,7 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.wrapper-0-2-8:hover:after {
+.wrapper-0-2-11:hover:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -37,20 +37,20 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.ripple-0-2-9 {
+.ripple-0-2-12 {
   opacity: 0;
   position: absolute;
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-.rippleContainer-0-2-10 {
+.rippleContainer-0-2-13 {
   inset: 0;
   position: absolute;
 }
-.rippleActive-0-2-11 {
+.rippleActive-0-2-14 {
   z-index: 99;
 }
-@keyframes keyframes-ripple-0-2-12 {
+@keyframes keyframes-ripple-0-2-15 {
   0% {
     transform: translate(-50%, -50%) scale(0);
   }
@@ -63,16 +63,16 @@ Array [
     z-index: 0;
   }
 }
-  .wrapper-d0-0-2-13 {
+  .wrapper-d0-0-2-16 {
     cursor: default;
     display: inline-block;
   }
-  .wrapper-d0-0-2-13:focus:after {  }
-  .wrapper-d0-0-2-13:hover:after {
+  .wrapper-d0-0-2-16:focus:after {  }
+  .wrapper-d0-0-2-16:hover:after {
     background-color: #000000;
     opacity: 0;
   }
-  .ripple-d1-0-2-14 {
+  .ripple-d1-0-2-17 {
     background-color: #000000;
     height: 0;
     left: 50%;
@@ -80,13 +80,13 @@ Array [
     transition: scale opacity 300ms;
     width: 0;
   }
-  .rippleContainer-d2-0-2-15 {
+  .rippleContainer-d2-0-2-18 {
     overflow: hidden;
   }
-  .rippleActive-d3-0-2-16 {
-    animation: keyframes-ripple-0-2-12 300ms;
+  .rippleActive-d3-0-2-19 {
+    animation: keyframes-ripple-0-2-15 300ms;
   }
-  .base-0-2-5 {
+  .base-0-2-8 {
     border: none;
     cursor: pointer;
     display: flex;
@@ -94,70 +94,359 @@ Array [
     align-items: center;
     justify-content: center;
   }
-  .base-0-2-5:disabled {
+  .base-0-2-8:disabled {
     cursor: default;
   }
-  .base-d0-0-2-6 {
+  .base-d0-0-2-9 {
     height: 56px;
     width: 56px;
   }
-  .container-0-2-1 {
-    display: inline-flex;
+  .wrapper-0-2-1 {
+    width: 56px;
+    display: flex;
     align-items: center;
     flex-direction: column;
   }
-  .content-0-2-2 {
+  .container-0-2-2 {
+    position: relative;
+  }
+  .content-0-2-3 {
     border-radius: 28px;
   }
-  .content-0-2-2:disabled {
+  .content-0-2-3:disabled {
     cursor: default;
     box-shadow: none;
   }
-  .content-0-2-2:hover:not([disabled]) {  }
-  .labelText-0-2-3 {
-    color: #333333;
+  .content-0-2-3:hover:not([disabled]) {  }
+  .content-0-2-3:focus:not([disabled]) {  }
+  .labelText-0-2-4 {
+    width: 56px;
+    overflow: hidden;
     font-size: 12px;
     margin-top: 8px;
+    text-align: center;
     font-family: Roboto, Arial;
     font-weight: 400;
+    text-overflow: ellipsis;
     letter-spacing: 0.38px;
-    vertical-align: center;
   }
-  .content-d0-0-2-4 {  }",
+  .labelText-0-2-4:hover {  }
+  .badgeContainer-0-2-5 {
+    top: 0;
+    right: 0;
+    position: absolute;
+  }
+  .content-d0-0-2-6 {
+    background-color: #f4ab34;
+    border: 1px solid #FFFFFF00;
+  }
+  .content-d0-0-2-6:disabled {
+    background-color: #bbbbbb;
+    border: 1px solid #FFFFFF00;
+  }
+  .content-d0-0-2-6:hover:not([disabled]) {
+    background-color: #ef8426;
+    border: 1px solid #FFFFFF00;
+  }
+  .labelText-d1-0-2-7 {
+    white-space: normal;
+    color: #777777;
+  }
+  .labelText-d1-0-2-7:hover {  }",
   <div>
-    <span
-      class="container-0-2-1"
+    <div
+      class="wrapper-0-2-1"
     >
       <div
-        class="wrapper-0-2-8 wrapper-d0-0-2-13"
-        data-testid="ripple-wrapper"
-        tabindex="-1"
+        class="container-0-2-2"
       >
         <div
-          class="rippleContainer-0-2-10 rippleContainer-d2-0-2-15"
+          class="wrapper-0-2-11 wrapper-d0-0-2-16"
+          data-testid="ripple-wrapper"
+          tabindex="-1"
         >
           <div
-            class="ripple-0-2-9 ripple-d1-0-2-14 "
-            data-testid="ripple-animation"
-          />
+            class="rippleContainer-0-2-13 rippleContainer-d2-0-2-18"
+          >
+            <div
+              class="ripple-0-2-12 ripple-d1-0-2-17 "
+              data-testid="ripple-animation"
+            />
+          </div>
+          <button
+            class=" content-0-2-3 content-d0-0-2-6 base-0-2-8 base-d0-0-2-9"
+            disabled=""
+            type="button"
+          >
+            <div />
+          </button>
         </div>
-        <button
-          class=" content-0-2-2 content-d0-0-2-4 base-0-2-5 base-d0-0-2-6"
-          disabled=""
-          id="shortcut"
-          type="button"
-        >
-          <div />
-        </button>
       </div>
-    </span>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Shortcut component should render correctly with badge 1`] = `
+Array [
+  ".sharedRippleEffect-0-2-10 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-11 {
+  outline: none;
+  position: relative;
+}
+.wrapper-0-2-11:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-11:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.ripple-0-2-12 {
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.rippleContainer-0-2-13 {
+  inset: 0;
+  position: absolute;
+}
+.rippleActive-0-2-14 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-15 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-16 {
+    cursor: pointer;
+    display: inline-block;
+  }
+  .wrapper-d0-0-2-16:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d0-0-2-16:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d1-0-2-17 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-18 {
+    overflow: hidden;
+  }
+  .rippleActive-d3-0-2-19 {
+    animation: keyframes-ripple-0-2-15 300ms;
+  }
+  .base-0-2-8 {
+    border: none;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .base-0-2-8:disabled {
+    cursor: default;
+  }
+  .base-d0-0-2-9 {
+    height: 56px;
+    width: 56px;
+  }
+  .labelContainer-0-2-25 {
+    color: #000000;
+    font-family: Helvetica Now Display, Arial;
+  }
+  .wrapper-0-2-1 {
+    width: 56px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .container-0-2-2 {
+    position: relative;
+  }
+  .content-0-2-3 {
+    border-radius: 28px;
+  }
+  .content-0-2-3:disabled {
+    cursor: default;
+    box-shadow: none;
+  }
+  .content-0-2-3:hover:not([disabled]) {  }
+  .content-0-2-3:focus:not([disabled]) {  }
+  .labelText-0-2-4 {
+    width: 56px;
+    overflow: hidden;
+    font-size: 12px;
+    margin-top: 8px;
+    text-align: center;
+    font-family: Roboto, Arial;
+    font-weight: 400;
+    text-overflow: ellipsis;
+    letter-spacing: 0.38px;
+  }
+  .labelText-0-2-4:hover {  }
+  .badgeContainer-0-2-5 {
+    top: 0;
+    right: 0;
+    position: absolute;
+  }
+  .content-d0-0-2-6 {
+    background-color: #f4ab34;
+    border: 1px solid #FFFFFF00;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+  }
+  .content-d0-0-2-6:disabled {
+    background-color: #bbbbbb;
+    border: 1px solid #FFFFFF00;
+  }
+  .content-d0-0-2-6:hover:not([disabled]) {
+    background-color: #ef8426;
+    border: 1px solid #FFFFFF00;
+  }
+  .labelText-d1-0-2-7 {
+    white-space: normal;
+    color: #333333;
+  }
+  .labelText-d1-0-2-7:hover {
+    color: #333333;
+  }
+  .badge-0-2-20 {
+    display: flex;
+    position: relative;
+  }
+  .badge-0-2-20:after {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    animation: keyframes-badge-0-2-22 1.6s infinite;
+    transition: opacity 4ms linear, transition 4ms linear;
+  }
+  .label-0-2-21 {
+    font-size: 12px;
+    font-family: Roboto, Arial;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.38px;
+  }
+@keyframes keyframes-badge-0-2-22 {
+  0% {
+    opacity: 0.48;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(2.25);
+  }
+}
+  .badge-d0-0-2-23 {
+    background-color: #e74627;
+    border-radius: 8px;
+    height: 16px;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+  .badge-d0-0-2-23:after {
+    background-color: #e74627;
+    border-radius: 8px;
+  }
+  .label-d1-0-2-24 {
+    color: #ffffff;
+  }",
+  <div>
+    <div
+      class="wrapper-0-2-1"
+    >
+      <div
+        class="container-0-2-2"
+      >
+        <div
+          class="wrapper-0-2-11 wrapper-d0-0-2-16"
+          data-testid="ripple-wrapper"
+          tabindex="-1"
+        >
+          <div
+            class="rippleContainer-0-2-13 rippleContainer-d2-0-2-18"
+          >
+            <div
+              class="ripple-0-2-12 ripple-d1-0-2-17 "
+              data-testid="ripple-animation"
+            />
+          </div>
+          <button
+            class=" content-0-2-3 content-d0-0-2-6 base-0-2-8 base-d0-0-2-9"
+            type="button"
+          >
+            <div />
+          </button>
+        </div>
+        <div
+          class="badgeContainer-0-2-5"
+        >
+          <div
+            class=" badge-0-2-20 badge-d0-0-2-23"
+            limit="99"
+            value="99"
+          >
+            <span
+              class="label-0-2-21 label-d1-0-2-24"
+            >
+              99+
+            </span>
+          </div>
+        </div>
+      </div>
+      <label
+        class="labelText-0-2-4 labelText-d1-0-2-7 labelContainer-0-2-25"
+      >
+        Shortcut label
+      </label>
+    </div>
   </div>,
 ]
 `;
 
 exports[`Shortcut component should render correctly with default props 1`] = `
 Array [
-  ".sharedRippleEffect-0-2-7 {
+  ".sharedRippleEffect-0-2-10 {
   top: 0;
   left: 0;
   width: 100%;
@@ -167,11 +456,11 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.wrapper-0-2-8 {
+.wrapper-0-2-11 {
   outline: none;
   position: relative;
 }
-.wrapper-0-2-8:focus:after {
+.wrapper-0-2-11:focus:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -182,7 +471,7 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.wrapper-0-2-8:hover:after {
+.wrapper-0-2-11:hover:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -192,20 +481,20 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.ripple-0-2-9 {
+.ripple-0-2-12 {
   opacity: 0;
   position: absolute;
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-.rippleContainer-0-2-10 {
+.rippleContainer-0-2-13 {
   inset: 0;
   position: absolute;
 }
-.rippleActive-0-2-11 {
+.rippleActive-0-2-14 {
   z-index: 99;
 }
-@keyframes keyframes-ripple-0-2-12 {
+@keyframes keyframes-ripple-0-2-15 {
   0% {
     transform: translate(-50%, -50%) scale(0);
   }
@@ -218,18 +507,18 @@ Array [
     z-index: 0;
   }
 }
-  .wrapper-d0-0-2-13 {
+  .wrapper-d0-0-2-16 {
     cursor: pointer;
     display: inline-block;
   }
-  .wrapper-d0-0-2-13:focus:after {
+  .wrapper-d0-0-2-16:focus:after {
     background-color: #000000;
   }
-  .wrapper-d0-0-2-13:hover:after {
+  .wrapper-d0-0-2-16:hover:after {
     background-color: #000000;
     opacity: 0;
   }
-  .ripple-d1-0-2-14 {
+  .ripple-d1-0-2-17 {
     background-color: #000000;
     height: 0;
     left: 50%;
@@ -237,13 +526,13 @@ Array [
     transition: scale opacity 300ms;
     width: 0;
   }
-  .rippleContainer-d2-0-2-15 {
+  .rippleContainer-d2-0-2-18 {
     overflow: hidden;
   }
-  .rippleActive-d3-0-2-16 {
-    animation: keyframes-ripple-0-2-12 300ms;
+  .rippleActive-d3-0-2-19 {
+    animation: keyframes-ripple-0-2-15 300ms;
   }
-  .base-0-2-5 {
+  .base-0-2-8 {
     border: none;
     cursor: pointer;
     display: flex;
@@ -251,69 +540,104 @@ Array [
     align-items: center;
     justify-content: center;
   }
-  .base-0-2-5:disabled {
+  .base-0-2-8:disabled {
     cursor: default;
   }
-  .base-d0-0-2-6 {
+  .base-d0-0-2-9 {
     height: 56px;
     width: 56px;
   }
-  .container-0-2-1 {
-    display: inline-flex;
+  .wrapper-0-2-1 {
+    width: 56px;
+    display: flex;
     align-items: center;
     flex-direction: column;
   }
-  .content-0-2-2 {
+  .container-0-2-2 {
+    position: relative;
+  }
+  .content-0-2-3 {
     border-radius: 28px;
   }
-  .content-0-2-2:disabled {
+  .content-0-2-3:disabled {
     cursor: default;
     box-shadow: none;
   }
-  .content-0-2-2:hover:not([disabled]) {  }
-  .labelText-0-2-3 {
-    color: #333333;
+  .content-0-2-3:hover:not([disabled]) {  }
+  .content-0-2-3:focus:not([disabled]) {  }
+  .labelText-0-2-4 {
+    width: 56px;
+    overflow: hidden;
     font-size: 12px;
     margin-top: 8px;
+    text-align: center;
     font-family: Roboto, Arial;
     font-weight: 400;
+    text-overflow: ellipsis;
     letter-spacing: 0.38px;
-    vertical-align: center;
   }
-  .content-d0-0-2-4 {  }",
+  .labelText-0-2-4:hover {  }
+  .badgeContainer-0-2-5 {
+    top: 0;
+    right: 0;
+    position: absolute;
+  }
+  .content-d0-0-2-6 {
+    background-color: #f4ab34;
+    border: 1px solid #FFFFFF00;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+  }
+  .content-d0-0-2-6:disabled {
+    background-color: #bbbbbb;
+    border: 1px solid #FFFFFF00;
+  }
+  .content-d0-0-2-6:hover:not([disabled]) {
+    background-color: #ef8426;
+    border: 1px solid #FFFFFF00;
+  }
+  .labelText-d1-0-2-7 {
+    white-space: normal;
+    color: #333333;
+  }
+  .labelText-d1-0-2-7:hover {
+    color: #333333;
+  }",
   <div>
-    <span
-      class="container-0-2-1"
+    <div
+      class="wrapper-0-2-1"
     >
       <div
-        class="wrapper-0-2-8 wrapper-d0-0-2-13"
-        data-testid="ripple-wrapper"
-        tabindex="-1"
+        class="container-0-2-2"
       >
         <div
-          class="rippleContainer-0-2-10 rippleContainer-d2-0-2-15"
+          class="wrapper-0-2-11 wrapper-d0-0-2-16"
+          data-testid="ripple-wrapper"
+          tabindex="-1"
         >
           <div
-            class="ripple-0-2-9 ripple-d1-0-2-14 "
-            data-testid="ripple-animation"
-          />
+            class="rippleContainer-0-2-13 rippleContainer-d2-0-2-18"
+          >
+            <div
+              class="ripple-0-2-12 ripple-d1-0-2-17 "
+              data-testid="ripple-animation"
+            />
+          </div>
+          <button
+            class=" content-0-2-3 content-d0-0-2-6 base-0-2-8 base-d0-0-2-9"
+            type="button"
+          >
+            <div />
+          </button>
         </div>
-        <button
-          class=" content-0-2-2 content-d0-0-2-4 base-0-2-5 base-d0-0-2-6"
-          id="shortcut"
-          type="button"
-        >
-          <div />
-        </button>
       </div>
-    </span>
+    </div>
   </div>,
 ]
 `;
 
 exports[`Shortcut component should render correctly with label 1`] = `
 Array [
-  ".sharedRippleEffect-0-2-7 {
+  ".sharedRippleEffect-0-2-10 {
   top: 0;
   left: 0;
   width: 100%;
@@ -323,11 +647,11 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.wrapper-0-2-8 {
+.wrapper-0-2-11 {
   outline: none;
   position: relative;
 }
-.wrapper-0-2-8:focus:after {
+.wrapper-0-2-11:focus:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -338,7 +662,7 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.wrapper-0-2-8:hover:after {
+.wrapper-0-2-11:hover:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -348,20 +672,20 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.ripple-0-2-9 {
+.ripple-0-2-12 {
   opacity: 0;
   position: absolute;
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-.rippleContainer-0-2-10 {
+.rippleContainer-0-2-13 {
   inset: 0;
   position: absolute;
 }
-.rippleActive-0-2-11 {
+.rippleActive-0-2-14 {
   z-index: 99;
 }
-@keyframes keyframes-ripple-0-2-12 {
+@keyframes keyframes-ripple-0-2-15 {
   0% {
     transform: translate(-50%, -50%) scale(0);
   }
@@ -374,18 +698,18 @@ Array [
     z-index: 0;
   }
 }
-  .wrapper-d0-0-2-13 {
+  .wrapper-d0-0-2-16 {
     cursor: pointer;
     display: inline-block;
   }
-  .wrapper-d0-0-2-13:focus:after {
+  .wrapper-d0-0-2-16:focus:after {
     background-color: #000000;
   }
-  .wrapper-d0-0-2-13:hover:after {
+  .wrapper-d0-0-2-16:hover:after {
     background-color: #000000;
     opacity: 0;
   }
-  .ripple-d1-0-2-14 {
+  .ripple-d1-0-2-17 {
     background-color: #000000;
     height: 0;
     left: 50%;
@@ -393,13 +717,13 @@ Array [
     transition: scale opacity 300ms;
     width: 0;
   }
-  .rippleContainer-d2-0-2-15 {
+  .rippleContainer-d2-0-2-18 {
     overflow: hidden;
   }
-  .rippleActive-d3-0-2-16 {
-    animation: keyframes-ripple-0-2-12 300ms;
+  .rippleActive-d3-0-2-19 {
+    animation: keyframes-ripple-0-2-15 300ms;
   }
-  .base-0-2-5 {
+  .base-0-2-8 {
     border: none;
     cursor: pointer;
     display: flex;
@@ -407,72 +731,106 @@ Array [
     align-items: center;
     justify-content: center;
   }
-  .base-0-2-5:disabled {
+  .base-0-2-8:disabled {
     cursor: default;
   }
-  .base-d0-0-2-6 {
+  .base-d0-0-2-9 {
     height: 56px;
     width: 56px;
   }
-  .labelContainer-0-2-17 {
+  .labelContainer-0-2-20 {
     color: #000000;
     font-family: Helvetica Now Display, Arial;
   }
-  .container-0-2-1 {
-    display: inline-flex;
+  .wrapper-0-2-1 {
+    width: 56px;
+    display: flex;
     align-items: center;
     flex-direction: column;
   }
-  .content-0-2-2 {
+  .container-0-2-2 {
+    position: relative;
+  }
+  .content-0-2-3 {
     border-radius: 28px;
   }
-  .content-0-2-2:disabled {
+  .content-0-2-3:disabled {
     cursor: default;
     box-shadow: none;
   }
-  .content-0-2-2:hover:not([disabled]) {  }
-  .labelText-0-2-3 {
-    color: #333333;
+  .content-0-2-3:hover:not([disabled]) {  }
+  .content-0-2-3:focus:not([disabled]) {  }
+  .labelText-0-2-4 {
+    width: 56px;
+    overflow: hidden;
     font-size: 12px;
     margin-top: 8px;
+    text-align: center;
     font-family: Roboto, Arial;
     font-weight: 400;
+    text-overflow: ellipsis;
     letter-spacing: 0.38px;
-    vertical-align: center;
   }
-  .content-d0-0-2-4 {  }",
+  .labelText-0-2-4:hover {  }
+  .badgeContainer-0-2-5 {
+    top: 0;
+    right: 0;
+    position: absolute;
+  }
+  .content-d0-0-2-6 {
+    background-color: #f4ab34;
+    border: 1px solid #FFFFFF00;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+  }
+  .content-d0-0-2-6:disabled {
+    background-color: #bbbbbb;
+    border: 1px solid #FFFFFF00;
+  }
+  .content-d0-0-2-6:hover:not([disabled]) {
+    background-color: #ef8426;
+    border: 1px solid #FFFFFF00;
+  }
+  .labelText-d1-0-2-7 {
+    white-space: normal;
+    color: #333333;
+  }
+  .labelText-d1-0-2-7:hover {
+    color: #333333;
+  }",
   <div>
-    <span
-      class="container-0-2-1"
+    <div
+      class="wrapper-0-2-1"
     >
       <div
-        class="wrapper-0-2-8 wrapper-d0-0-2-13"
-        data-testid="ripple-wrapper"
-        tabindex="-1"
+        class="container-0-2-2"
       >
         <div
-          class="rippleContainer-0-2-10 rippleContainer-d2-0-2-15"
+          class="wrapper-0-2-11 wrapper-d0-0-2-16"
+          data-testid="ripple-wrapper"
+          tabindex="-1"
         >
           <div
-            class="ripple-0-2-9 ripple-d1-0-2-14 "
-            data-testid="ripple-animation"
-          />
+            class="rippleContainer-0-2-13 rippleContainer-d2-0-2-18"
+          >
+            <div
+              class="ripple-0-2-12 ripple-d1-0-2-17 "
+              data-testid="ripple-animation"
+            />
+          </div>
+          <button
+            class=" content-0-2-3 content-d0-0-2-6 base-0-2-8 base-d0-0-2-9"
+            type="button"
+          >
+            <div />
+          </button>
         </div>
-        <button
-          class=" content-0-2-2 content-d0-0-2-4 base-0-2-5 base-d0-0-2-6"
-          id="shortcut"
-          type="button"
-        >
-          <div />
-        </button>
       </div>
       <label
-        class="labelText-0-2-3 labelContainer-0-2-17"
-        for="shortcut"
+        class="labelText-0-2-4 labelText-d1-0-2-7 labelContainer-0-2-20"
       >
         Shortcut label
       </label>
-    </span>
+    </div>
   </div>,
 ]
 `;
