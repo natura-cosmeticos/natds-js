@@ -13,6 +13,7 @@ Array [
   border-radius: 50%;
 }
 .wrapper-0-2-8 {
+  height: fit-content;
   outline: none;
   position: relative;
 }
@@ -66,6 +67,7 @@ Array [
   .wrapper-d0-0-2-13 {
     cursor: pointer;
     display: inline-block;
+    align-self: start;
   }
   .wrapper-d0-0-2-13:focus:after {
     background-color: #f4ab34;
@@ -286,6 +288,7 @@ Array [
   border-radius: 50%;
 }
 .wrapper-0-2-8 {
+  height: fit-content;
   outline: none;
   position: relative;
 }
@@ -339,6 +342,7 @@ Array [
   .wrapper-d0-0-2-13 {
     cursor: default;
     display: inline-block;
+    align-self: start;
   }
   .wrapper-d0-0-2-13:focus:after {  }
   .wrapper-d0-0-2-13:hover:after {
@@ -469,6 +473,7 @@ Array [
   border-radius: 50%;
 }
 .wrapper-0-2-8 {
+  height: fit-content;
   outline: none;
   position: relative;
 }
@@ -522,6 +527,7 @@ Array [
   .wrapper-d0-0-2-13 {
     cursor: pointer;
     display: inline-block;
+    align-self: start;
   }
   .wrapper-d0-0-2-13:focus:after {
     background-color: #000000;
@@ -653,6 +659,7 @@ Array [
   border-radius: 50%;
 }
 .wrapper-0-2-8 {
+  height: fit-content;
   outline: none;
   position: relative;
 }
@@ -706,6 +713,7 @@ Array [
   .wrapper-d0-0-2-13 {
     cursor: pointer;
     display: inline-block;
+    align-self: start;
   }
   .wrapper-d0-0-2-13:focus:after {
     background-color: #000000;

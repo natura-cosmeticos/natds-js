@@ -19,10 +19,13 @@ const styles = createUseStyles((theme: Theme) => ({
     zIndex: -1
   },
   wrapper: {
+    flexBasis: ({ fullWidth }: RippleStyleProps) => fullWidth && '100%',
     cursor: ({ disabled }: RippleStyleProps) => (disabled ? 'default' : 'pointer'),
     display: ({ fullWidth }: RippleStyleProps) => (fullWidth ? 'block' : 'inline-block'),
     position: 'relative',
+    alignSelf: ({ fullWidth }: RippleStyleProps) => (fullWidth ? 'stretch' : 'start'),
     outline: 'none',
+    height: 'fit-content',
     '&:focus:after': {
       extend: 'sharedRippleEffect',
       backgroundColor: ({ color, disabled }: RippleStyleProps) => !disabled && theme.color[color],
