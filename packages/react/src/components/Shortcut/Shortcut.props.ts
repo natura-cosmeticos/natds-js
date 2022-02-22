@@ -10,11 +10,6 @@ export interface ShortcutProps {
   ariaLabel?: string,
 
   /**
-   * It provides the user with a recognizable, accessible name for an interactive element
-   */
-  ariaLabelledBy?: string,
-
-  /**
    * If `true`, the element will be disabled.
    * @default false
    */

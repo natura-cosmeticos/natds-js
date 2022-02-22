@@ -13,7 +13,6 @@ export interface IconButtonBaseProps {
   testID?: string
   value?: string | number
   id?: HTMLButtonElement['id']
-  ariaLabelledBy?: string
 }
 
 type IconButtonBaseStyleProps = Required<Pick<IconButtonBaseProps, 'size'>>
@@ -41,8 +40,7 @@ const IconButtonBase = React.forwardRef<HTMLButtonElement, IconButtonBaseProps>(
   size,
   testID,
   value,
-  id,
-  ariaLabelledBy
+  id
 }, ref) => {
   const { base } = styles({ size })
 
@@ -50,7 +48,6 @@ const IconButtonBase = React.forwardRef<HTMLButtonElement, IconButtonBaseProps>(
     <Ripple disabled={disabled} isCentered>
       <button
         aria-label={ariaLabel}
-        aria-labelledby={ariaLabelledBy}
         className={`${className} ${base}`}
         data-testid={testID}
         disabled={disabled}

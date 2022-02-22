@@ -18,7 +18,6 @@ const Shortcut = React.forwardRef<HTMLButtonElement, ShortcutProps>(
       IconComponent,
       BadgeComponent,
       id,
-      ariaLabelledBy,
       breakLine = true
     } = props
     const {
@@ -35,7 +34,6 @@ const Shortcut = React.forwardRef<HTMLButtonElement, ShortcutProps>(
             id={id}
             ref={ref}
             ariaLabel={ariaLabel}
-            ariaLabelledBy={ariaLabelledBy}
             disabled={disabled}
             onClick={onClick}
             size="mediumX"
@@ -49,7 +47,7 @@ const Shortcut = React.forwardRef<HTMLButtonElement, ShortcutProps>(
             </div>
             )}
         </div>
-        {label && <Label className={labelText} label={label} htmlFor={id} id={ariaLabelledBy} />}
+        {label && <Label className={labelText} label={label} htmlFor={id} />}
       </div>
     )
   }
