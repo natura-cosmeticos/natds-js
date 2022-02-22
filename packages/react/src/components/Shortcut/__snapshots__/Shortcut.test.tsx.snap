@@ -13,6 +13,7 @@ Array [
   border-radius: 50%;
 }
 .wrapper-0-2-11 {
+  height: fit-content;
   outline: none;
   position: relative;
 }
@@ -66,6 +67,7 @@ Array [
   .wrapper-d0-0-2-16 {
     cursor: default;
     display: inline-block;
+    align-self: start;
   }
   .wrapper-d0-0-2-16:focus:after {  }
   .wrapper-d0-0-2-16:hover:after {
@@ -148,6 +150,10 @@ Array [
     background-color: #ef8426;
     border: 1px solid #FFFFFF00;
   }
+  .content-d0-0-2-6:focus:not([disabled]) {
+    background-color: #A67423;
+    border: 1px solid #FFFFFF00;
+  }
   .labelText-d1-0-2-7 {
     white-space: normal;
     color: #777777;
@@ -200,6 +206,7 @@ Array [
   border-radius: 50%;
 }
 .wrapper-0-2-11 {
+  height: fit-content;
   outline: none;
   position: relative;
 }
@@ -253,6 +260,7 @@ Array [
   .wrapper-d0-0-2-16 {
     cursor: pointer;
     display: inline-block;
+    align-self: start;
   }
   .wrapper-d0-0-2-16:focus:after {
     background-color: #000000;
@@ -340,6 +348,10 @@ Array [
   }
   .content-d0-0-2-6:hover:not([disabled]) {
     background-color: #ef8426;
+    border: 1px solid #FFFFFF00;
+  }
+  .content-d0-0-2-6:focus:not([disabled]) {
+    background-color: #A67423;
     border: 1px solid #FFFFFF00;
   }
   .labelText-d1-0-2-7 {
@@ -457,6 +469,7 @@ Array [
   border-radius: 50%;
 }
 .wrapper-0-2-11 {
+  height: fit-content;
   outline: none;
   position: relative;
 }
@@ -510,6 +523,7 @@ Array [
   .wrapper-d0-0-2-16 {
     cursor: pointer;
     display: inline-block;
+    align-self: start;
   }
   .wrapper-d0-0-2-16:focus:after {
     background-color: #000000;
@@ -595,6 +609,10 @@ Array [
     background-color: #ef8426;
     border: 1px solid #FFFFFF00;
   }
+  .content-d0-0-2-6:focus:not([disabled]) {
+    background-color: #A67423;
+    border: 1px solid #FFFFFF00;
+  }
   .labelText-d1-0-2-7 {
     white-space: normal;
     color: #333333;
@@ -648,6 +666,7 @@ Array [
   border-radius: 50%;
 }
 .wrapper-0-2-11 {
+  height: fit-content;
   outline: none;
   position: relative;
 }
@@ -701,6 +720,7 @@ Array [
   .wrapper-d0-0-2-16 {
     cursor: pointer;
     display: inline-block;
+    align-self: start;
   }
   .wrapper-d0-0-2-16:focus:after {
     background-color: #000000;
@@ -788,6 +808,10 @@ Array [
   }
   .content-d0-0-2-6:hover:not([disabled]) {
     background-color: #ef8426;
+    border: 1px solid #FFFFFF00;
+  }
+  .content-d0-0-2-6:focus:not([disabled]) {
+    background-color: #A67423;
     border: 1px solid #FFFFFF00;
   }
   .labelText-d1-0-2-7 {
