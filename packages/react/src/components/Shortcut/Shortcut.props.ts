@@ -18,7 +18,7 @@ export interface ShortcutProps {
   /**
    * The click handler
    */
-  onClick: () => void
+  onClick: (e?: React.MouseEvent<HTMLButtonElement>) => void
 
   /**
    * Optional ID for testing
@@ -28,7 +28,7 @@ export interface ShortcutProps {
   /**
    * The id attribute specifies a unique id for an HTML element
    */
-  id?: HTMLButtonElement['id'];
+  id: HTMLButtonElement['id'];
 
   /**
    * Specify the variant of Shortcut you want to create.
@@ -50,7 +50,7 @@ export interface ShortcutProps {
   IconComponent: React.ReactElement
 
   /**
-   * The label to be displayed in the Shotcut
+   * The label to be displayed below the Shortcut
    */
   label?: string
 
@@ -60,7 +60,8 @@ export interface ShortcutProps {
   BadgeComponent?: React.ReactElement
 
   /**
-   * Determine the limit of the badge
+   * If true, the text will wrap on two or more lines within the component boundary.
+   * If false, the exceeded text will be replaced by an ellipsis
    */
   breakLine?: boolean
 }

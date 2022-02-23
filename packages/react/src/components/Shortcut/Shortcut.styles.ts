@@ -27,6 +27,16 @@ const styles = createUseStyles((theme: Theme) => ({
     border: ({ color, variant }: ShortcutStyleProps) => color && variant && `1px solid ${theme.shortcut[variant].color.enable[color].border}`,
     boxShadow: setBoxShadow(theme),
     borderRadius: theme.shortcut.borderRadius,
+    '&:after': {
+      backgroundColor: theme.color.highlight,
+      content: '" "',
+      height: '100%',
+      left: 0,
+      opacity: 0,
+      position: 'absolute',
+      top: 0,
+      width: '100%'
+    },
     '&:disabled': {
       backgroundColor: ({ color, variant }: ShortcutStyleProps) => color && variant && theme.shortcut[variant].color.disable[color].background,
       border: ({ color, variant }: ShortcutStyleProps) => color && variant && `1px solid ${theme.shortcut[variant].color.disable[color].border}`,

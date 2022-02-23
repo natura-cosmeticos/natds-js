@@ -28,7 +28,7 @@ export default {
   title: 'Components/Shortcut',
   component: Shortcut,
   parameters: {
-    componentSubtitle: '',
+    componentSubtitle: 'Used for quick access to a page and facilitate navigation.',
     docs: { description: { component: componentStatus } }
   }
 } as Meta
@@ -37,6 +37,7 @@ export const Playground: Story<ShortcutProps> = (args) => (
   <Shortcut {...args} />
 )
 Playground.args = {
+  id: 'shortcut-id',
   label: 'Text Example',
   IconComponent: <Icon size="semi" name="outlined-default-mockup" color="highEmphasis" />
 }
@@ -55,12 +56,14 @@ export const Disabled: Story<ShortcutProps> = (args) => (
   <StoryContainer>
     <Shortcut
       {...args}
+      id="contained-disabled"
       variant="contained"
       disabled
       IconComponent={<Icon size="semi" name="outlined-default-mockup" color="mediumEmphasis" />}
     />
     <Shortcut
       {...args}
+      id="outlined-disabled"
       variant="outlined"
       disabled
       IconComponent={<Icon size="semi" name="outlined-default-mockup" color="lowEmphasis" />}

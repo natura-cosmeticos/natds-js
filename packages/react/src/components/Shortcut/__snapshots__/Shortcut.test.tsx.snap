@@ -115,6 +115,16 @@ Array [
   .content-0-2-3 {
     border-radius: 28px;
   }
+  .content-0-2-3:after {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: \\" \\";
+    opacity: 0;
+    position: absolute;
+    background-color: #000000;
+  }
   .content-0-2-3:disabled {
     cursor: default;
     box-shadow: none;
@@ -182,6 +192,7 @@ Array [
           <button
             class=" content-0-2-3 content-d0-0-2-6 base-0-2-8 base-d0-0-2-9"
             disabled=""
+            id="shortcut-id"
             type="button"
           >
             <div />
@@ -314,6 +325,16 @@ Array [
   .content-0-2-3 {
     border-radius: 28px;
   }
+  .content-0-2-3:after {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: \\" \\";
+    opacity: 0;
+    position: absolute;
+    background-color: #000000;
+  }
   .content-0-2-3:disabled {
     cursor: default;
     box-shadow: none;
@@ -425,6 +446,7 @@ Array [
           </div>
           <button
             class=" content-0-2-3 content-d0-0-2-6 base-0-2-8 base-d0-0-2-9"
+            id="shortcut-id"
             type="button"
           >
             <div />
@@ -448,6 +470,7 @@ Array [
       </div>
       <label
         class="labelText-0-2-4 labelText-d1-0-2-7 labelContainer-0-2-25"
+        for="shortcut-id"
       >
         Shortcut label
       </label>
@@ -573,6 +596,16 @@ Array [
   .content-0-2-3 {
     border-radius: 28px;
   }
+  .content-0-2-3:after {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: \\" \\";
+    opacity: 0;
+    position: absolute;
+    background-color: #000000;
+  }
   .content-0-2-3:disabled {
     cursor: default;
     box-shadow: none;
@@ -642,6 +675,7 @@ Array [
           </div>
           <button
             class=" content-0-2-3 content-d0-0-2-6 base-0-2-8 base-d0-0-2-9"
+            id="shortcut-id"
             type="button"
           >
             <div />
@@ -774,6 +808,16 @@ Array [
   .content-0-2-3 {
     border-radius: 28px;
   }
+  .content-0-2-3:after {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: \\" \\";
+    opacity: 0;
+    position: absolute;
+    background-color: #000000;
+  }
   .content-0-2-3:disabled {
     cursor: default;
     box-shadow: none;
@@ -843,6 +887,7 @@ Array [
           </div>
           <button
             class=" content-0-2-3 content-d0-0-2-6 base-0-2-8 base-d0-0-2-9"
+            id="shortcut-id"
             type="button"
           >
             <div />
@@ -851,6 +896,7 @@ Array [
       </div>
       <label
         class="labelText-0-2-4 labelText-d1-0-2-7 labelContainer-0-2-20"
+        for="shortcut-id"
       >
         Shortcut label
       </label>
