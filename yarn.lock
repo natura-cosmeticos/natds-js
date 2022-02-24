@@ -2722,6 +2722,15 @@
     svg2vectordrawable "2.6.26"
     webp-converter "^2.3.3"
 
+"@naturacosmeticos/natds-themes@0.29.1":
+  version "0.29.1"
+  resolved "https://registry.yarnpkg.com/@naturacosmeticos/natds-themes/-/natds-themes-0.29.1.tgz#0d7ddb95fba2cb3773446ae61e4a3cf2e3cf57b8"
+  integrity sha512-zISAtx62ySKeg8Ee5NSonm3gIUZJYK3JBNpuR7B+EuNrWPiZ5u1Uc/lIb8VgudlZ4vtT8lX8gV312ptZ8C5VdA==
+  dependencies:
+    open-color "^1.8.0"
+    svg2vectordrawable "2.6.26"
+    webp-converter "^2.3.3"
+
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz#7619c2eb21b25483f6d167548b4cfd5a7488c3d5"
