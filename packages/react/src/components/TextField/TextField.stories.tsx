@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Story, Meta } from '@storybook/react'
 import { TextField, TextFieldProps } from '.'
 import StoryContainer from '../../helpers/StoryContainer'
+import { Icon } from '../Icon'
 
 const componentStatus = `
 ---
@@ -123,7 +124,7 @@ export const ActionIcon: Story<TextFieldProps> = (args) => (
 ActionIcon.args = {
   ...Playground.args,
   action: 'icon',
-  iconName: 'filled-action-love',
+  IconComponent: <Icon name="filled-action-love" color="highEmphasis" />,
   onClick: () => '',
   ariaLabel: 'heart icon button'
 }

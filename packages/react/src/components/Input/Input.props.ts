@@ -1,4 +1,3 @@
-import { IconName } from '@naturacosmeticos/natds-icons'
 import { Size } from '@naturacosmeticos/natds-themes'
 
 export type InputSize = keyof Pick<Size, 'medium' | 'mediumX'>
@@ -108,11 +107,9 @@ export type InputActionIcon = BaseProps & ({
   action: 'icon'
 
   /**
-   * Set the icon to be rendered.
-   * Check all available names in [Icon Library](https://ds.natura.design/28db352be/p/94367e-icon-library/b/6154b9)
-   * @default outlined-default-mockup
+   * Element to be rendered inside the IconButton.
    */
-  iconName: IconName
+  IconComponent: React.ReactElement;
 
   /**
    * Use to define a text that explains the expected action
