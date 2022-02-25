@@ -7,6 +7,7 @@ import { IconButton } from '../IconButton'
 import { DialogHeader } from './DialogHeader'
 import { DialogBody } from './DialogBody'
 import { DialogFooter } from './DialogFooter'
+import { Icon } from '../Icon'
 
 const componentStatus = `
 ---
@@ -47,9 +48,21 @@ export const Playground: Story<DialogProps> = ({ open, ...args }) => {
       <Dialog {...args} open={showDialog} onEscapeKeyDown={() => setShowDialog(false)}>
         <DialogHeader title="Example" id="dialog-title">
           <div style={{ display: 'flex', gap: 16 }}>
-            <IconButton iconName="outlined-default-mockup" onClick={() => ''} ariaLabel="any icon" />
-            <IconButton iconName="outlined-default-mockup" onClick={() => ''} ariaLabel="any icon" />
-            <IconButton iconName="outlined-default-mockup" onClick={() => ''} ariaLabel="any icon" />
+            <IconButton
+              onClick={() => ''}
+              ariaLabel="any icon"
+              IconComponent={<Icon name="outlined-default-mockup" color="highEmphasis" />}
+            />
+            <IconButton
+              onClick={() => ''}
+              ariaLabel="any icon"
+              IconComponent={<Icon name="outlined-default-mockup" color="highEmphasis" />}
+            />
+            <IconButton
+              onClick={() => ''}
+              ariaLabel="any icon"
+              IconComponent={<Icon name="outlined-default-mockup" color="highEmphasis" />}
+            />
           </div>
         </DialogHeader>
         <DialogBody showDivider>
