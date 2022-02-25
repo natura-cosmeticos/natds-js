@@ -1,4 +1,3 @@
-import { IconName } from '@naturacosmeticos/natds-icons'
 import { Color, Size } from '@naturacosmeticos/natds-themes'
 
 export type IconButtonColors = keyof Pick<Color, 'highEmphasis' | 'primary' | 'surface'>
