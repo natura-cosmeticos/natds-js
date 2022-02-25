@@ -12,6 +12,7 @@ export interface IconButtonBaseProps {
   size: keyof Size
   testID?: string
   value?: string | number
+  id?: HTMLButtonElement['id']
 }
 
 type IconButtonBaseStyleProps = Required<Pick<IconButtonBaseProps, 'size'>>
@@ -38,7 +39,8 @@ const IconButtonBase = React.forwardRef<HTMLButtonElement, IconButtonBaseProps>(
   onClick,
   size,
   testID,
-  value
+  value,
+  id
 }, ref) => {
   const { base } = styles({ size })
 
@@ -53,6 +55,7 @@ const IconButtonBase = React.forwardRef<HTMLButtonElement, IconButtonBaseProps>(
         type="button"
         value={value}
         ref={ref}
+        id={id}
       >
         {IconComponent}
       </button>
