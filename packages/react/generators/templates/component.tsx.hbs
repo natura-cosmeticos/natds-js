@@ -1,0 +1,25 @@
+import React from 'react'
+import styles from './{{ pascalCase name }}.styles'
+import { {{ pascalCase name }}Props } from './{{ pascalCase name }}.props'
+
+const {{ pascalCase name }} = React.forwardRef<HTMLElement, {{ pascalCase name }}Props>(
+  (props, ref) => {
+    const {
+      className = '',
+      ...rest
+    } = props
+    const { example } = styles()
+
+    return (
+      <span
+        className={`${className} ${example}`}
+        ref={ref}
+        {...rest}
+      >
+        {props.children}
+      </span>
+    )
+  }
+)
+
+export default {{ pascalCase name }}
