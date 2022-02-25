@@ -2,16 +2,7 @@
 
 exports[`Icon Button component should render correctly when is disabled 1`] = `
 Array [
-  ".icon-0-2-15 {
-  font-family: natds-icons;
-  user-select: none;
-  pointer-events: none;
-}
-.icon-d0-0-2-16 {
-  color: #777777;
-  font-size: 24px;
-}
-.sharedRippleEffect-0-2-5 {
+  ".sharedRippleEffect-0-2-5 {
   top: 0;
   left: 0;
   width: 100%;
@@ -139,6 +130,15 @@ Array [
     background-color: transparent;
     border-radius: 16px;
     width: 32px;
+  }
+  .icon-0-2-15 {
+    font-family: natds-icons;
+    user-select: none;
+    pointer-events: none;
+  }
+  .icon-d0-0-2-16 {
+    color: #777777;
+    font-size: 24px;
   }",
   <div>
     <div
@@ -164,7 +164,7 @@ Array [
           aria-hidden="true"
           class=" icon-0-2-15 icon-d0-0-2-16 natds-icons natds-icons-outlined-default-mockup"
           data-testid="icon-outlined-default-mockup"
-          role="button"
+          role="img"
         />
       </button>
     </div>
@@ -174,16 +174,7 @@ Array [
 
 exports[`Icon Button component should render correctly when the backgroundStyle is float 1`] = `
 Array [
-  ".icon-0-2-15 {
-  font-family: natds-icons;
-  user-select: none;
-  pointer-events: none;
-}
-.icon-d0-0-2-16 {
-  color: #333333;
-  font-size: 24px;
-}
-.sharedRippleEffect-0-2-5 {
+  ".sharedRippleEffect-0-2-5 {
   top: 0;
   left: 0;
   width: 100%;
@@ -314,6 +305,15 @@ Array [
     border-radius: 16px;
     box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14);
     width: 32px;
+  }
+  .icon-0-2-15 {
+    font-family: natds-icons;
+    user-select: none;
+    pointer-events: none;
+  }
+  .icon-d0-0-2-16 {
+    color: #333333;
+    font-size: 24px;
   }",
   <div>
     <div
@@ -338,7 +338,7 @@ Array [
           aria-hidden="true"
           class=" icon-0-2-15 icon-d0-0-2-16 natds-icons natds-icons-outlined-default-mockup"
           data-testid="icon-outlined-default-mockup"
-          role="button"
+          role="img"
         />
       </button>
     </div>
@@ -348,16 +348,7 @@ Array [
 
 exports[`Icon Button component should render correctly when the backgroundStyle is float and is disabled 1`] = `
 Array [
-  ".icon-0-2-15 {
-  font-family: natds-icons;
-  user-select: none;
-  pointer-events: none;
-}
-.icon-d0-0-2-16 {
-  color: #777777;
-  font-size: 24px;
-}
-.sharedRippleEffect-0-2-5 {
+  ".sharedRippleEffect-0-2-5 {
   top: 0;
   left: 0;
   width: 100%;
@@ -485,6 +476,15 @@ Array [
     background-color: #bbbbbb;
     border-radius: 16px;
     width: 32px;
+  }
+  .icon-0-2-15 {
+    font-family: natds-icons;
+    user-select: none;
+    pointer-events: none;
+  }
+  .icon-d0-0-2-16 {
+    color: #777777;
+    font-size: 24px;
   }",
   <div>
     <div
@@ -510,7 +510,7 @@ Array [
           aria-hidden="true"
           class=" icon-0-2-15 icon-d0-0-2-16 natds-icons natds-icons-outlined-default-mockup"
           data-testid="icon-outlined-default-mockup"
-          role="button"
+          role="img"
         />
       </button>
     </div>
@@ -520,16 +520,7 @@ Array [
 
 exports[`Icon Button component should render correctly when the backgroundStyle is overlay 1`] = `
 Array [
-  ".icon-0-2-15 {
-  font-family: natds-icons;
-  user-select: none;
-  pointer-events: none;
-}
-.icon-d0-0-2-16 {
-  color: #333333;
-  font-size: 24px;
-}
-.sharedRippleEffect-0-2-5 {
+  ".sharedRippleEffect-0-2-5 {
   top: 0;
   left: 0;
   width: 100%;
@@ -660,6 +651,15 @@ Array [
     border-radius: 16px;
     opacity: 0.56;
     width: 32px;
+  }
+  .icon-0-2-15 {
+    font-family: natds-icons;
+    user-select: none;
+    pointer-events: none;
+  }
+  .icon-d0-0-2-16 {
+    color: #333333;
+    font-size: 24px;
   }",
   <div>
     <div
@@ -684,7 +684,7 @@ Array [
           aria-hidden="true"
           class=" icon-0-2-15 icon-d0-0-2-16 natds-icons natds-icons-outlined-default-mockup"
           data-testid="icon-outlined-default-mockup"
-          role="button"
+          role="img"
         />
       </button>
     </div>
@@ -694,16 +694,7 @@ Array [
 
 exports[`Icon Button component should render correctly when the backgroundStyle is overlay and is disabled 1`] = `
 Array [
-  ".icon-0-2-15 {
-  font-family: natds-icons;
-  user-select: none;
-  pointer-events: none;
-}
-.icon-d0-0-2-16 {
-  color: #bbbbbb;
-  font-size: 24px;
-}
-.sharedRippleEffect-0-2-5 {
+  ".sharedRippleEffect-0-2-5 {
   top: 0;
   left: 0;
   width: 100%;
@@ -832,6 +823,15 @@ Array [
     border-radius: 16px;
     opacity: 0.56;
     width: 32px;
+  }
+  .icon-0-2-15 {
+    font-family: natds-icons;
+    user-select: none;
+    pointer-events: none;
+  }
+  .icon-d0-0-2-16 {
+    color: #bbbbbb;
+    font-size: 24px;
   }",
   <div>
     <div
@@ -857,7 +857,7 @@ Array [
           aria-hidden="true"
           class=" icon-0-2-15 icon-d0-0-2-16 natds-icons natds-icons-outlined-default-mockup"
           data-testid="icon-outlined-default-mockup"
-          role="button"
+          role="img"
         />
       </button>
     </div>
@@ -867,16 +867,7 @@ Array [
 
 exports[`Icon Button component should render correctly when the color is primary 1`] = `
 Array [
-  ".icon-0-2-15 {
-  font-family: natds-icons;
-  user-select: none;
-  pointer-events: none;
-}
-.icon-d0-0-2-16 {
-  color: #f4ab34;
-  font-size: 24px;
-}
-.sharedRippleEffect-0-2-5 {
+  ".sharedRippleEffect-0-2-5 {
   top: 0;
   left: 0;
   width: 100%;
@@ -1006,6 +997,15 @@ Array [
     background-color: transparent;
     border-radius: 16px;
     width: 32px;
+  }
+  .icon-0-2-15 {
+    font-family: natds-icons;
+    user-select: none;
+    pointer-events: none;
+  }
+  .icon-d0-0-2-16 {
+    color: #f4ab34;
+    font-size: 24px;
   }",
   <div>
     <div
@@ -1030,7 +1030,7 @@ Array [
           aria-hidden="true"
           class=" icon-0-2-15 icon-d0-0-2-16 natds-icons natds-icons-outlined-default-mockup"
           data-testid="icon-outlined-default-mockup"
-          role="button"
+          role="img"
         />
       </button>
     </div>
@@ -1040,16 +1040,7 @@ Array [
 
 exports[`Icon Button component should render correctly when the color is surface 1`] = `
 Array [
-  ".icon-0-2-15 {
-  font-family: natds-icons;
-  user-select: none;
-  pointer-events: none;
-}
-.icon-d0-0-2-16 {
-  color: #ffffff;
-  font-size: 24px;
-}
-.sharedRippleEffect-0-2-5 {
+  ".sharedRippleEffect-0-2-5 {
   top: 0;
   left: 0;
   width: 100%;
@@ -1179,6 +1170,15 @@ Array [
     background-color: transparent;
     border-radius: 16px;
     width: 32px;
+  }
+  .icon-0-2-15 {
+    font-family: natds-icons;
+    user-select: none;
+    pointer-events: none;
+  }
+  .icon-d0-0-2-16 {
+    color: #ffffff;
+    font-size: 24px;
   }",
   <div>
     <div
@@ -1203,7 +1203,7 @@ Array [
           aria-hidden="true"
           class=" icon-0-2-15 icon-d0-0-2-16 natds-icons natds-icons-outlined-default-mockup"
           data-testid="icon-outlined-default-mockup"
-          role="button"
+          role="img"
         />
       </button>
     </div>
@@ -1213,16 +1213,7 @@ Array [
 
 exports[`Icon Button component should render correctly when the size is medium 1`] = `
 Array [
-  ".icon-0-2-15 {
-  font-family: natds-icons;
-  user-select: none;
-  pointer-events: none;
-}
-.icon-d0-0-2-16 {
-  color: #333333;
-  font-size: 40px;
-}
-.sharedRippleEffect-0-2-5 {
+  ".sharedRippleEffect-0-2-5 {
   top: 0;
   left: 0;
   width: 100%;
@@ -1352,6 +1343,15 @@ Array [
     background-color: transparent;
     border-radius: 24px;
     width: 48px;
+  }
+  .icon-0-2-15 {
+    font-family: natds-icons;
+    user-select: none;
+    pointer-events: none;
+  }
+  .icon-d0-0-2-16 {
+    color: #333333;
+    font-size: 40px;
   }",
   <div>
     <div
@@ -1376,7 +1376,7 @@ Array [
           aria-hidden="true"
           class=" icon-0-2-15 icon-d0-0-2-16 natds-icons natds-icons-outlined-default-mockup"
           data-testid="icon-outlined-default-mockup"
-          role="button"
+          role="img"
         />
       </button>
     </div>
@@ -1386,16 +1386,7 @@ Array [
 
 exports[`Icon Button component should render correctly when the size is semiX 1`] = `
 Array [
-  ".icon-0-2-15 {
-  font-family: natds-icons;
-  user-select: none;
-  pointer-events: none;
-}
-.icon-d0-0-2-16 {
-  color: #333333;
-  font-size: 32px;
-}
-.sharedRippleEffect-0-2-5 {
+  ".sharedRippleEffect-0-2-5 {
   top: 0;
   left: 0;
   width: 100%;
@@ -1525,6 +1516,15 @@ Array [
     background-color: transparent;
     border-radius: 20px;
     width: 40px;
+  }
+  .icon-0-2-15 {
+    font-family: natds-icons;
+    user-select: none;
+    pointer-events: none;
+  }
+  .icon-d0-0-2-16 {
+    color: #333333;
+    font-size: 32px;
   }",
   <div>
     <div
@@ -1549,7 +1549,7 @@ Array [
           aria-hidden="true"
           class=" icon-0-2-15 icon-d0-0-2-16 natds-icons natds-icons-outlined-default-mockup"
           data-testid="icon-outlined-default-mockup"
-          role="button"
+          role="img"
         />
       </button>
     </div>
@@ -1559,16 +1559,7 @@ Array [
 
 exports[`Icon Button component should render correctly with default props 1`] = `
 Array [
-  ".icon-0-2-15 {
-  font-family: natds-icons;
-  user-select: none;
-  pointer-events: none;
-}
-.icon-d0-0-2-16 {
-  color: #333333;
-  font-size: 24px;
-}
-.sharedRippleEffect-0-2-5 {
+  ".sharedRippleEffect-0-2-5 {
   top: 0;
   left: 0;
   width: 100%;
@@ -1698,6 +1689,15 @@ Array [
     background-color: transparent;
     border-radius: 16px;
     width: 32px;
+  }
+  .icon-0-2-15 {
+    font-family: natds-icons;
+    user-select: none;
+    pointer-events: none;
+  }
+  .icon-d0-0-2-16 {
+    color: #333333;
+    font-size: 24px;
   }",
   <div>
     <div
@@ -1722,7 +1722,7 @@ Array [
           aria-hidden="true"
           class=" icon-0-2-15 icon-d0-0-2-16 natds-icons natds-icons-outlined-default-mockup"
           data-testid="icon-outlined-default-mockup"
-          role="button"
+          role="img"
         />
       </button>
     </div>
