@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.20.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.19.6...@naturacosmeticos/natds-react@2.20.0) (2022-02-25)
+
+
+### Features
+
+* **natds-react:** add new Shortcut component ([#1664](https://github.com/natura-cosmeticos/natds-js/issues/1664)) ([06ef3fd](https://github.com/natura-cosmeticos/natds-js/commit/06ef3fd09a3cdd1b212da7ffaf30d2538005804c))
+
+
+
+
+
 ## [2.19.6](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.19.4...@naturacosmeticos/natds-react@2.19.6) (2022-02-21)
 
 
