@@ -4,6 +4,7 @@ import userEvent from '@testing-library/user-event'
 import TextField from './TextField'
 import renderWithTheme from '../../helpers/renderWithTheme'
 import { TextFieldProps } from './TextField.props'
+import { Icon } from '../Icon'
 
 const defaultProps: TextFieldProps = {
   onBlur: () => '',
@@ -59,7 +60,16 @@ describe('TextField component', () => {
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
   it('should render correctly when it has an icon button action', () => {
-    const { styles, component } = renderWithTheme(<TextField {...defaultProps} required action="icon" iconName="filled-action-love" ariaLabel="any label" onClick={() => ''} />)
+    const { styles, component } = renderWithTheme(
+      <TextField
+        {...defaultProps}
+        required
+        action="icon"
+        IconComponent={<Icon name="filled-action-love" color="highEmphasis" />}
+        ariaLabel="any label"
+        onClick={() => ''}
+      />
+    )
 
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
