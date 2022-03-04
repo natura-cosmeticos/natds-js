@@ -2,6 +2,7 @@ import React from 'react'
 import InputAction from '.'
 import renderWithTheme from '../../../helpers/renderWithTheme'
 import { InputActionIcon, InputActionImage, InputProps } from '../Input.props'
+import { Icon } from '../../Icon'
 
 const defaultProps: InputProps = {
   onBlur: () => '',
@@ -13,7 +14,7 @@ const defaultProps: InputProps = {
 const iconProps: InputActionIcon = {
   ...defaultProps,
   action: 'icon',
-  iconName: 'filled-action-rating',
+  IconComponent: <Icon name="filled-action-rating" color="highEmphasis" />,
   onClick: () => '',
   ariaLabel: 'some rating icon button'
 }

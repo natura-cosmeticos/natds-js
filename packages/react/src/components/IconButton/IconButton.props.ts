@@ -1,4 +1,3 @@
-import { IconName } from '@naturacosmeticos/natds-icons'
 import { Color, Size } from '@naturacosmeticos/natds-themes'
 
 export type IconButtonColors = keyof Pick<Color, 'highEmphasis' | 'primary' | 'surface'>
@@ -22,23 +21,15 @@ export interface IconButtonProps {
   className?: string
 
   /**
-   * The icon color
-   * @default highEmphasis
-   */
-  color?: IconButtonColors
-
-  /**
    * If `true`, the icon button will be disabled.
    * @default false
    */
   disabled?: boolean
 
   /**
-   * Set the icon to be rendered.
-   * Check all available names in [Icon Library](https://ds.natura.design/28db352be/p/94367e-icon-library/b/6154b9)
-   * @default outlined-default-mockup
+   * Element to be rendered inside the IconButton.
    */
-  iconName: IconName
+  IconComponent: React.ReactElement;
 
   /**
    * The click handler

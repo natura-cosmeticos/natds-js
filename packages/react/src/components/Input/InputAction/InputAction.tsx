@@ -16,7 +16,7 @@ const InputAction = (props: InputProps): JSX.Element => {
         isIconAction(props)
         && (
           <IconButton
-            iconName={props.iconName}
+            IconComponent={props.IconComponent}
             onClick={props.onClick}
             ariaLabel={props.ariaLabel}
             disabled={props.disabled || props.readOnly}

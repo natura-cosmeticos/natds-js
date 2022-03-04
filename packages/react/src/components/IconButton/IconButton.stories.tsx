@@ -2,6 +2,7 @@ import React from 'react'
 import { Story, Meta } from '@storybook/react'
 import { IconButton, IconButtonProps } from '.'
 import StoryContainer from '../../helpers/StoryContainer'
+import { Icon } from '../Icon'
 
 const componentStatus = `
 ---
@@ -35,23 +36,45 @@ export default {
 } as Meta
 
 export const Playground: Story<IconButtonProps> = (args) => <IconButton {...args} onClick={() => console.log('clicked!')} />
-Playground.args = { iconName: 'outlined-default-mockup' }
+Playground.args = {
+  IconComponent: <Icon size="standard" name="outlined-default-mockup" color="highEmphasis" />
+}
 
 export const Color: Story<IconButtonProps> = (args) => (
   <StoryContainer>
     <IconButton {...args} />
-    <IconButton {...args} color="primary" />
-    <IconButton {...args} color="surface" />
+    <IconButton
+      {...args}
+      IconComponent={<Icon size="standard" name="outlined-default-mockup" color="primary" />}
+    />
+    <IconButton
+      {...args}
+      IconComponent={<Icon size="standard" name="outlined-default-mockup" color="surface" />}
+    />
   </StoryContainer>
 )
+Color.args = {
+  ...Playground.args
+}
 
 export const Size: Story<IconButtonProps> = (args) => (
   <StoryContainer>
     <IconButton {...args} />
-    <IconButton {...args} size="semiX" />
-    <IconButton {...args} size="medium" />
+    <IconButton
+      {...args}
+      size="semiX"
+      IconComponent={<Icon size="semi" name="outlined-default-mockup" color="highEmphasis" />}
+    />
+    <IconButton
+      {...args}
+      size="medium"
+      IconComponent={<Icon size="semiX" name="outlined-default-mockup" color="highEmphasis" />}
+    />
   </StoryContainer>
 )
+Size.args = {
+  ...Playground.args
+}
 
 export const BackgroundStyle: Story<IconButtonProps> = (args) => (
   <StoryContainer>
@@ -60,12 +83,26 @@ export const BackgroundStyle: Story<IconButtonProps> = (args) => (
     <IconButton {...args} backgroundStyle="overlay" />
   </StoryContainer>
 )
+BackgroundStyle.args = {
+  ...Playground.args
+}
 
 export const Disabled: Story<IconButtonProps> = (args) => (
   <StoryContainer>
-    <IconButton {...args} />
-    <IconButton {...args} backgroundStyle="float" />
-    <IconButton {...args} backgroundStyle="overlay" />
+    <IconButton
+      {...args}
+      IconComponent={<Icon size="standard" name="outlined-default-mockup" color="mediumEmphasis" />}
+    />
+    <IconButton
+      {...args}
+      backgroundStyle="float"
+      IconComponent={<Icon size="standard" name="outlined-default-mockup" color="mediumEmphasis" />}
+    />
+    <IconButton
+      {...args}
+      backgroundStyle="overlay"
+      IconComponent={<Icon size="standard" name="outlined-default-mockup" color="lowEmphasis" />}
+    />
   </StoryContainer>
 )
 Disabled.args = { ...Playground.args, disabled: true }
