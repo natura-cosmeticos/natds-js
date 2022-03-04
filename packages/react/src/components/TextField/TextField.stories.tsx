@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import { Story, Meta } from '@storybook/react'
 import { TextField, TextFieldProps } from '.'
+import { Label } from '../Label'
+import { Input, InputHelperText } from '../Input'
 import StoryContainer from '../../helpers/StoryContainer'
 
 const componentStatus = `
@@ -32,6 +34,7 @@ const componentStatus = `
 export default {
   title: 'Components/TextField',
   component: TextField,
+  subcomponents: { Label, InputHelperText, Input },
   parameters: {
     componentSubtitle: 'Text fields let users enter and edit text',
     docs: { description: { component: componentStatus } },
