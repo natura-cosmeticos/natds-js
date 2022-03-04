@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.21.1](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.21.0...@naturacosmeticos/natds-react@2.21.1) (2022-03-04)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-react
+
+
+
+
+
 # [2.21.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.20.1...@naturacosmeticos/natds-react@2.21.0) (2022-03-04)
 
 
