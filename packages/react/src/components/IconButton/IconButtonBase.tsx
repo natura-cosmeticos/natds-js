@@ -8,7 +8,7 @@ export interface IconButtonBaseProps {
   className?: string
   disabled?: boolean
   IconComponent: React.ReactElement
-  onClick: (e?: React.MouseEvent<HTMLButtonElement>) => void
+  onClick?: (e?: React.MouseEvent<HTMLButtonElement>) => void
   size: keyof Size
   testID?: string
   value?: string | number

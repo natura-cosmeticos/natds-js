@@ -6,6 +6,19 @@ export type RatingInputSize = keyof Pick<Size, 'semi' | 'semiX' | 'medium'>
 export type RatingCounterSize = keyof Pick<Size, 'small' | 'standard' | 'semi' | 'semiX'>
 export type RatingReadOnlySize = keyof Pick<Size, 'small' | 'standard' | 'semi' | 'semiX'>
 
+export type BaseComponentProps = {
+  ariaLabel: string
+  disabled?: boolean
+  iconActive?: boolean
+  iconFilled?: boolean
+  isClickable?: boolean
+  onClick?: (e: any) => void
+  onMouseEnter?: () => void
+  onMouseLeave?: () => void
+  size: keyof Size
+  testID?: string
+  value?: number
+}
 export interface RatingBaseProps {
   /**
    * Use to define a text that explains the meaning of EACH Rating.
