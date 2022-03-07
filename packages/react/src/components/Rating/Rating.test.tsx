@@ -3,13 +3,19 @@
 import React from 'react'
 import { fireEvent, waitFor } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
-import RatingBase, { getRatingColor, RatingBaseProps } from './RatingBase'
+import RatingBase from './RatingBase'
 import mockTheme from '../../ThemeProvider/mock-theme.json'
 import renderWithTheme from '../../helpers/renderWithTheme'
-import { RatingCounterProps, RatingInputProps, RatingReadOnlyProps } from './Rating.props'
+import {
+  BaseComponentProps,
+  RatingCounterProps,
+  RatingInputProps,
+  RatingReadOnlyProps
+} from './Rating.props'
 import Rating from './Rating'
+import { getRatingColor } from './Rating.styles'
 
-const ratingBaseProps: RatingBaseProps = {
+const ratingBaseProps: BaseComponentProps = {
   ariaLabel: 'rating',
   onClick: () => '',
   size: 'semi'

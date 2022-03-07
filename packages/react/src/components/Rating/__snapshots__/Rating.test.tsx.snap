@@ -141,43 +141,43 @@ Array [
   .ratingIcon-d0-0-2-9 > i {
     color: #F8B546;
   }
-  .labelContainer-0-2-24 {
-    color: #000000;
-    font-family: Helvetica Now Display, Arial;
-  }
   .container-0-2-1 {
     display: flex;
   }
   .container-0-2-1 > label {  }
-  .rating-0-2-2 {
-    display: flex;
+  .container-d0-0-2-2 {
+    flex-direction: row;
+    align-items: center;
+  }
+  .container-d0-0-2-2 > label {
+    order: 1;
   }
   .labelText-0-2-3 {
     color: #777777;
   }
-  .container-d0-0-2-4 {
-    flex-direction: row;
-    align-items: center;
-  }
-  .container-d0-0-2-4 > label {
-    order: 1;
-  }
-  .rating-d1-0-2-5 {
-    order: 2;
-  }
-  .labelText-d2-0-2-6 {
+  .labelText-d0-0-2-4 {
     font-family: Roboto, Arial;
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 0.22px;
     line-height: 1.5;
+  }
+  .rating-0-2-5 {
+    display: flex;
+  }
+  .rating-d0-0-2-6 {
+    order: 2;
+  }
+  .labelContainer-0-2-24 {
+    color: #000000;
+    font-family: Helvetica Now Display, Arial;
   }",
   <div>
     <div
-      class=" container-0-2-1 container-d0-0-2-4"
+      class=" container-0-2-1 container-d0-0-2-2"
     >
       <div
-        class="rating-0-2-2 rating-d1-0-2-5"
+        class="rating-0-2-5 rating-d0-0-2-6"
       >
         <div
           class="ratingContainer-0-2-7"
@@ -215,7 +215,7 @@ Array [
         </div>
       </div>
       <label
-        class="labelText-0-2-3 labelText-d2-0-2-6 labelContainer-0-2-24"
+        class="labelText-0-2-3 labelText-d0-0-2-4 labelContainer-0-2-24"
       >
         Placeholder
       </label>
@@ -365,43 +365,43 @@ Array [
   .ratingIcon-d0-0-2-9 > i {
     color: #F8B546;
   }
-  .labelContainer-0-2-24 {
-    color: #000000;
-    font-family: Helvetica Now Display, Arial;
-  }
   .container-0-2-1 {
     display: flex;
   }
   .container-0-2-1 > label {  }
-  .rating-0-2-2 {
-    display: flex;
+  .container-d0-0-2-2 {
+    flex-direction: row;
+    align-items: center;
+  }
+  .container-d0-0-2-2 > label {
+    order: 2;
   }
   .labelText-0-2-3 {
     color: #777777;
   }
-  .container-d0-0-2-4 {
-    flex-direction: row;
-    align-items: center;
-  }
-  .container-d0-0-2-4 > label {
-    order: 2;
-  }
-  .rating-d1-0-2-5 {
-    order: 2;
-  }
-  .labelText-d2-0-2-6 {
+  .labelText-d0-0-2-4 {
     font-family: Roboto, Arial;
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 0.22px;
     line-height: 1.5;
+  }
+  .rating-0-2-5 {
+    display: flex;
+  }
+  .rating-d0-0-2-6 {
+    order: 2;
+  }
+  .labelContainer-0-2-24 {
+    color: #000000;
+    font-family: Helvetica Now Display, Arial;
   }",
   <div>
     <div
-      class=" container-0-2-1 container-d0-0-2-4"
+      class=" container-0-2-1 container-d0-0-2-2"
     >
       <div
-        class="rating-0-2-2 rating-d1-0-2-5"
+        class="rating-0-2-5 rating-d0-0-2-6"
       >
         <div
           class="ratingContainer-0-2-7"
@@ -439,7 +439,7 @@ Array [
         </div>
       </div>
       <label
-        class="labelText-0-2-3 labelText-d2-0-2-6 labelContainer-0-2-24"
+        class="labelText-0-2-3 labelText-d0-0-2-4 labelContainer-0-2-24"
       >
         Placeholder
       </label>
@@ -748,41 +748,41 @@ Array [
     cursor: pointer;
     color: #777777;
   }
-  .labelContainer-0-2-52 {
-    color: #000000;
-    font-family: Helvetica Now Display, Arial;
-  }
   .container-0-2-1 {
     display: flex;
   }
   .container-0-2-1 > label {  }
-  .rating-0-2-2 {
-    display: flex;
+  .container-d0-0-2-2 {
+    flex-direction: column;
+  }
+  .container-d0-0-2-2 > label {
+    margin-top: 4px;
+    order: 1;
   }
   .labelText-0-2-3 {
     color: #777777;
   }
-  .container-d0-0-2-4 {
-    flex-direction: column;
-  }
-  .container-d0-0-2-4 > label {
-    margin-top: 4px;
-    order: 1;
-  }
-  .rating-d1-0-2-5 {  }
-  .labelText-d2-0-2-6 {
+  .labelText-d0-0-2-4 {
     font-family: Roboto, Arial;
     font-size: 12px;
     font-weight: 400;
     letter-spacing: 0.38px;
     line-height: 1.5;
+  }
+  .rating-0-2-5 {
+    display: flex;
+  }
+  .rating-d0-0-2-6 {  }
+  .labelContainer-0-2-52 {
+    color: #000000;
+    font-family: Helvetica Now Display, Arial;
   }",
   <div>
     <div
-      class=" container-0-2-1 container-d0-0-2-4"
+      class=" container-0-2-1 container-d0-0-2-2"
     >
       <div
-        class="rating-0-2-2 rating-d1-0-2-5"
+        class="rating-0-2-5 rating-d0-0-2-6"
       >
         <div
           class="ratingContainer-0-2-7"
@@ -951,7 +951,7 @@ Array [
         </div>
       </div>
       <label
-        class="labelText-0-2-3 labelText-d2-0-2-6 labelContainer-0-2-52"
+        class="labelText-0-2-3 labelText-d0-0-2-4 labelContainer-0-2-52"
       >
         Placeholder
       </label>
@@ -1245,41 +1245,41 @@ Array [
   .ratingIcon-d4-0-2-45 > i {
     color: #777777;
   }
-  .labelContainer-0-2-52 {
-    color: #000000;
-    font-family: Helvetica Now Display, Arial;
-  }
   .container-0-2-1 {
     display: flex;
   }
   .container-0-2-1 > label {  }
-  .rating-0-2-2 {
-    display: flex;
+  .container-d0-0-2-2 {
+    flex-direction: column;
+  }
+  .container-d0-0-2-2 > label {
+    margin-top: 4px;
+    order: 1;
   }
   .labelText-0-2-3 {
     color: #777777;
   }
-  .container-d0-0-2-4 {
-    flex-direction: column;
-  }
-  .container-d0-0-2-4 > label {
-    margin-top: 4px;
-    order: 1;
-  }
-  .rating-d1-0-2-5 {  }
-  .labelText-d2-0-2-6 {
+  .labelText-d0-0-2-4 {
     font-family: Roboto, Arial;
     font-size: 12px;
     font-weight: 400;
     letter-spacing: 0.38px;
     line-height: 1.5;
+  }
+  .rating-0-2-5 {
+    display: flex;
+  }
+  .rating-d0-0-2-6 {  }
+  .labelContainer-0-2-52 {
+    color: #000000;
+    font-family: Helvetica Now Display, Arial;
   }",
   <div>
     <div
-      class=" container-0-2-1 container-d0-0-2-4"
+      class=" container-0-2-1 container-d0-0-2-2"
     >
       <div
-        class="rating-0-2-2 rating-d1-0-2-5"
+        class="rating-0-2-5 rating-d0-0-2-6"
       >
         <div
           class="ratingContainer-0-2-7"
@@ -1453,7 +1453,7 @@ Array [
         </div>
       </div>
       <label
-        class="labelText-0-2-3 labelText-d2-0-2-6 labelContainer-0-2-52"
+        class="labelText-0-2-3 labelText-d0-0-2-4 labelContainer-0-2-52"
       >
         Placeholder
       </label>
@@ -1762,41 +1762,41 @@ Array [
     cursor: pointer;
     color: #777777;
   }
-  .labelContainer-0-2-52 {
-    color: #000000;
-    font-family: Helvetica Now Display, Arial;
-  }
   .container-0-2-1 {
     display: flex;
   }
   .container-0-2-1 > label {  }
-  .rating-0-2-2 {
-    display: flex;
+  .container-d0-0-2-2 {
+    flex-direction: column;
+  }
+  .container-d0-0-2-2 > label {
+    margin-top: 4px;
+    order: 1;
   }
   .labelText-0-2-3 {
     color: #777777;
   }
-  .container-d0-0-2-4 {
-    flex-direction: column;
-  }
-  .container-d0-0-2-4 > label {
-    margin-top: 4px;
-    order: 1;
-  }
-  .rating-d1-0-2-5 {  }
-  .labelText-d2-0-2-6 {
+  .labelText-d0-0-2-4 {
     font-family: Roboto, Arial;
     font-size: 12px;
     font-weight: 400;
     letter-spacing: 0.38px;
     line-height: 1.5;
+  }
+  .rating-0-2-5 {
+    display: flex;
+  }
+  .rating-d0-0-2-6 {  }
+  .labelContainer-0-2-52 {
+    color: #000000;
+    font-family: Helvetica Now Display, Arial;
   }",
   <div>
     <div
-      class=" container-0-2-1 container-d0-0-2-4"
+      class=" container-0-2-1 container-d0-0-2-2"
     >
       <div
-        class="rating-0-2-2 rating-d1-0-2-5"
+        class="rating-0-2-5 rating-d0-0-2-6"
       >
         <div
           class="ratingContainer-0-2-7"
@@ -1965,7 +1965,7 @@ Array [
         </div>
       </div>
       <label
-        class="labelText-0-2-3 labelText-d2-0-2-6 labelContainer-0-2-52"
+        class="labelText-0-2-3 labelText-d0-0-2-4 labelContainer-0-2-52"
       >
         Placeholder
       </label>
@@ -2274,41 +2274,41 @@ Array [
     cursor: pointer;
     color: #777777;
   }
-  .labelContainer-0-2-52 {
-    color: #000000;
-    font-family: Helvetica Now Display, Arial;
-  }
   .container-0-2-1 {
     display: flex;
   }
   .container-0-2-1 > label {  }
-  .rating-0-2-2 {
-    display: flex;
+  .container-d0-0-2-2 {
+    flex-direction: column;
+  }
+  .container-d0-0-2-2 > label {
+    margin-top: 4px;
+    order: 1;
   }
   .labelText-0-2-3 {
     color: #777777;
   }
-  .container-d0-0-2-4 {
-    flex-direction: column;
-  }
-  .container-d0-0-2-4 > label {
-    margin-top: 4px;
-    order: 1;
-  }
-  .rating-d1-0-2-5 {  }
-  .labelText-d2-0-2-6 {
+  .labelText-d0-0-2-4 {
     font-family: Roboto, Arial;
     font-size: 12px;
     font-weight: 400;
     letter-spacing: 0.38px;
     line-height: 1.5;
+  }
+  .rating-0-2-5 {
+    display: flex;
+  }
+  .rating-d0-0-2-6 {  }
+  .labelContainer-0-2-52 {
+    color: #000000;
+    font-family: Helvetica Now Display, Arial;
   }",
   <div>
     <div
-      class=" container-0-2-1 container-d0-0-2-4"
+      class=" container-0-2-1 container-d0-0-2-2"
     >
       <div
-        class="rating-0-2-2 rating-d1-0-2-5"
+        class="rating-0-2-5 rating-d0-0-2-6"
       >
         <div
           class="ratingContainer-0-2-7"
@@ -2477,7 +2477,7 @@ Array [
         </div>
       </div>
       <label
-        class="labelText-0-2-3 labelText-d2-0-2-6 labelContainer-0-2-52"
+        class="labelText-0-2-3 labelText-d0-0-2-4 labelContainer-0-2-52"
       >
         Placebolder
       </label>
@@ -2488,32 +2488,32 @@ Array [
 
 exports[`Rating Read-Only should render correctly with given props 1`] = `
 Array [
-  ".icon-0-2-22 {
+  ".icon-0-2-20 {
   font-family: natds-icons;
   user-select: none;
   pointer-events: none;
 }
-.icon-d0-0-2-23 {
+.icon-d0-0-2-21 {
   color: #000000;
   font-size: 32px;
 }
-.icon-d1-0-2-30 {
+.icon-d1-0-2-28 {
   color: #000000;
   font-size: 32px;
 }
-.icon-d2-0-2-37 {
+.icon-d2-0-2-35 {
   color: #000000;
   font-size: 32px;
 }
-.icon-d3-0-2-44 {
+.icon-d3-0-2-42 {
   color: #000000;
   font-size: 32px;
 }
-.icon-d4-0-2-51 {
+.icon-d4-0-2-49 {
   color: #000000;
   font-size: 32px;
 }
-.sharedRippleEffect-0-2-12 {
+.sharedRippleEffect-0-2-10 {
   top: 0;
   left: 0;
   width: 100%;
@@ -2523,12 +2523,12 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.wrapper-0-2-13 {
+.wrapper-0-2-11 {
   height: fit-content;
   outline: none;
   position: relative;
 }
-.wrapper-0-2-13:focus:after {
+.wrapper-0-2-11:focus:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -2539,7 +2539,7 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.wrapper-0-2-13:hover:after {
+.wrapper-0-2-11:hover:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -2549,20 +2549,20 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.ripple-0-2-14 {
+.ripple-0-2-12 {
   opacity: 0;
   position: absolute;
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-.rippleContainer-0-2-15 {
+.rippleContainer-0-2-13 {
   inset: 0;
   position: absolute;
 }
-.rippleActive-0-2-16 {
+.rippleActive-0-2-14 {
   z-index: 99;
 }
-@keyframes keyframes-ripple-0-2-17 {
+@keyframes keyframes-ripple-0-2-15 {
   0% {
     transform: translate(-50%, -50%) scale(0);
   }
@@ -2575,17 +2575,17 @@ Array [
     z-index: 0;
   }
 }
-  .wrapper-d0-0-2-18 {
+  .wrapper-d0-0-2-16 {
     cursor: default;
     display: inline-block;
     align-self: start;
   }
-  .wrapper-d0-0-2-18:focus:after {  }
-  .wrapper-d0-0-2-18:hover:after {
+  .wrapper-d0-0-2-16:focus:after {  }
+  .wrapper-d0-0-2-16:hover:after {
     background-color: #000000;
     opacity: 0;
   }
-  .ripple-d1-0-2-19 {
+  .ripple-d1-0-2-17 {
     background-color: #000000;
     height: 0;
     left: 50%;
@@ -2593,23 +2593,23 @@ Array [
     transition: scale opacity 300ms;
     width: 0;
   }
-  .rippleContainer-d2-0-2-20 {
+  .rippleContainer-d2-0-2-18 {
     overflow: hidden;
   }
-  .rippleActive-d3-0-2-21 {
-    animation: keyframes-ripple-0-2-17 300ms;
+  .rippleActive-d3-0-2-19 {
+    animation: keyframes-ripple-0-2-15 300ms;
   }
-  .wrapper-d4-0-2-26 {
+  .wrapper-d4-0-2-24 {
     cursor: default;
     display: inline-block;
     align-self: start;
   }
-  .wrapper-d4-0-2-26:focus:after {  }
-  .wrapper-d4-0-2-26:hover:after {
+  .wrapper-d4-0-2-24:focus:after {  }
+  .wrapper-d4-0-2-24:hover:after {
     background-color: #000000;
     opacity: 0;
   }
-  .ripple-d5-0-2-27 {
+  .ripple-d5-0-2-25 {
     background-color: #000000;
     height: 0;
     left: 50%;
@@ -2617,23 +2617,23 @@ Array [
     transition: scale opacity 300ms;
     width: 0;
   }
-  .rippleContainer-d6-0-2-28 {
+  .rippleContainer-d6-0-2-26 {
     overflow: hidden;
   }
-  .rippleActive-d7-0-2-29 {
-    animation: keyframes-ripple-0-2-17 300ms;
+  .rippleActive-d7-0-2-27 {
+    animation: keyframes-ripple-0-2-15 300ms;
   }
-  .wrapper-d8-0-2-33 {
+  .wrapper-d8-0-2-31 {
     cursor: default;
     display: inline-block;
     align-self: start;
   }
-  .wrapper-d8-0-2-33:focus:after {  }
-  .wrapper-d8-0-2-33:hover:after {
+  .wrapper-d8-0-2-31:focus:after {  }
+  .wrapper-d8-0-2-31:hover:after {
     background-color: #000000;
     opacity: 0;
   }
-  .ripple-d9-0-2-34 {
+  .ripple-d9-0-2-32 {
     background-color: #000000;
     height: 0;
     left: 50%;
@@ -2641,23 +2641,23 @@ Array [
     transition: scale opacity 300ms;
     width: 0;
   }
-  .rippleContainer-d10-0-2-35 {
+  .rippleContainer-d10-0-2-33 {
     overflow: hidden;
   }
-  .rippleActive-d11-0-2-36 {
-    animation: keyframes-ripple-0-2-17 300ms;
+  .rippleActive-d11-0-2-34 {
+    animation: keyframes-ripple-0-2-15 300ms;
   }
-  .wrapper-d12-0-2-40 {
+  .wrapper-d12-0-2-38 {
     cursor: default;
     display: inline-block;
     align-self: start;
   }
-  .wrapper-d12-0-2-40:focus:after {  }
-  .wrapper-d12-0-2-40:hover:after {
+  .wrapper-d12-0-2-38:focus:after {  }
+  .wrapper-d12-0-2-38:hover:after {
     background-color: #000000;
     opacity: 0;
   }
-  .ripple-d13-0-2-41 {
+  .ripple-d13-0-2-39 {
     background-color: #000000;
     height: 0;
     left: 50%;
@@ -2665,23 +2665,23 @@ Array [
     transition: scale opacity 300ms;
     width: 0;
   }
-  .rippleContainer-d14-0-2-42 {
+  .rippleContainer-d14-0-2-40 {
     overflow: hidden;
   }
-  .rippleActive-d15-0-2-43 {
-    animation: keyframes-ripple-0-2-17 300ms;
+  .rippleActive-d15-0-2-41 {
+    animation: keyframes-ripple-0-2-15 300ms;
   }
-  .wrapper-d16-0-2-47 {
+  .wrapper-d16-0-2-45 {
     cursor: default;
     display: inline-block;
     align-self: start;
   }
-  .wrapper-d16-0-2-47:focus:after {  }
-  .wrapper-d16-0-2-47:hover:after {
+  .wrapper-d16-0-2-45:focus:after {  }
+  .wrapper-d16-0-2-45:hover:after {
     background-color: #000000;
     opacity: 0;
   }
-  .ripple-d17-0-2-48 {
+  .ripple-d17-0-2-46 {
     background-color: #000000;
     height: 0;
     left: 50%;
@@ -2689,13 +2689,13 @@ Array [
     transition: scale opacity 300ms;
     width: 0;
   }
-  .rippleContainer-d18-0-2-49 {
+  .rippleContainer-d18-0-2-47 {
     overflow: hidden;
   }
-  .rippleActive-d19-0-2-50 {
-    animation: keyframes-ripple-0-2-17 300ms;
+  .rippleActive-d19-0-2-48 {
+    animation: keyframes-ripple-0-2-15 300ms;
   }
-  .base-0-2-10 {
+  .base-0-2-8 {
     border: none;
     cursor: pointer;
     display: flex;
@@ -2703,37 +2703,37 @@ Array [
     align-items: center;
     justify-content: center;
   }
-  .base-0-2-10:disabled {
+  .base-0-2-8:disabled {
     cursor: default;
   }
-  .base-d0-0-2-11 {
+  .base-d0-0-2-9 {
     height: 32px;
     width: 32px;
   }
-  .base-d1-0-2-25 {
+  .base-d1-0-2-23 {
     height: 32px;
     width: 32px;
   }
-  .base-d2-0-2-32 {
+  .base-d2-0-2-30 {
     height: 32px;
     width: 32px;
   }
-  .base-d3-0-2-39 {
+  .base-d3-0-2-37 {
     height: 32px;
     width: 32px;
   }
-  .base-d4-0-2-46 {
+  .base-d4-0-2-44 {
     height: 32px;
     width: 32px;
   }
-  .ratingContainer-0-2-7 {
+  .ratingContainer-0-2-5 {
     display: flex;
   }
-  .ratingIcon-0-2-8 {
+  .ratingIcon-0-2-6 {
     position: relative;
     background-color: transparent;
   }
-  .ratingIcon-0-2-8:after {
+  .ratingIcon-0-2-6:after {
     top: 0;
     left: 0;
     width: 100%;
@@ -2744,79 +2744,75 @@ Array [
     border-radius: 50%;
     background-color: #000000;
   }
-  .ratingIcon-0-2-8:hover:not([disabled]):after {
+  .ratingIcon-0-2-6:hover:not([disabled]):after {
     opacity: 0.04;
   }
-  .ratingIcon-0-2-8:focus:not([disabled]):after {
+  .ratingIcon-0-2-6:focus:not([disabled]):after {
     opacity: 0.12;
   }
-  .ratingIcon-0-2-8 > i {  }
-  .ratingIcon-d0-0-2-9 {  }
-  .ratingIcon-d0-0-2-9 > i {
+  .ratingIcon-0-2-6 > i {  }
+  .ratingIcon-d0-0-2-7 {  }
+  .ratingIcon-d0-0-2-7 > i {
     color: #777777;
   }
-  .ratingIcon-d1-0-2-24 {  }
-  .ratingIcon-d1-0-2-24 > i {
+  .ratingIcon-d1-0-2-22 {  }
+  .ratingIcon-d1-0-2-22 > i {
     color: #777777;
   }
-  .ratingIcon-d2-0-2-31 {  }
-  .ratingIcon-d2-0-2-31 > i {
+  .ratingIcon-d2-0-2-29 {  }
+  .ratingIcon-d2-0-2-29 > i {
     color: #777777;
   }
-  .ratingIcon-d3-0-2-38 {  }
-  .ratingIcon-d3-0-2-38 > i {
+  .ratingIcon-d3-0-2-36 {  }
+  .ratingIcon-d3-0-2-36 > i {
     color: #777777;
   }
-  .ratingIcon-d4-0-2-45 {  }
-  .ratingIcon-d4-0-2-45 > i {
+  .ratingIcon-d4-0-2-43 {  }
+  .ratingIcon-d4-0-2-43 > i {
     color: #777777;
   }
   .container-0-2-1 {
     display: flex;
   }
   .container-0-2-1 > label {  }
-  .rating-0-2-2 {
-    display: flex;
-  }
-  .labelText-0-2-3 {
-    color: #777777;
-  }
-  .container-d0-0-2-4 {
+  .container-d0-0-2-2 {
     flex-direction: row;
   }
-  .container-d0-0-2-4 > label {
+  .container-d0-0-2-2 > label {
     order: 2;
   }
-  .rating-d1-0-2-5 {
-    order: 2;
+  .rating-0-2-3 {
+    display: flex;
   }
-  .labelText-d2-0-2-6 {  }",
+  .rating-d0-0-2-4 {
+    order: 2;
+  }",
   <div>
     <div
-      class=" container-0-2-1 container-d0-0-2-4"
+      class=" container-0-2-1 container-d0-0-2-2"
     >
       <div
-        class="rating-0-2-2 rating-d1-0-2-5"
+        class="rating-0-2-3 rating-d0-0-2-4"
       >
         <div
-          class="ratingContainer-0-2-7"
+          class="ratingContainer-0-2-5"
         >
           <div
-            class="wrapper-0-2-13 wrapper-d0-0-2-18"
+            class="wrapper-0-2-11 wrapper-d0-0-2-16"
             data-testid="ripple-wrapper"
             tabindex="-1"
           >
             <div
-              class="rippleContainer-0-2-15 rippleContainer-d2-0-2-20"
+              class="rippleContainer-0-2-13 rippleContainer-d2-0-2-18"
             >
               <div
-                class="ripple-0-2-14 ripple-d1-0-2-19 "
+                class="ripple-0-2-12 ripple-d1-0-2-17 "
                 data-testid="ripple-animation"
               />
             </div>
             <button
               aria-label=""
-              class="ratingIcon-0-2-8 ratingIcon-d0-0-2-9 base-0-2-10 base-d0-0-2-11"
+              class="ratingIcon-0-2-6 ratingIcon-d0-0-2-7 base-0-2-8 base-d0-0-2-9"
               data-testid="undefined-1"
               disabled=""
               type="button"
@@ -2825,7 +2821,7 @@ Array [
               <i
                 aria-hidden="true"
                 aria-label=""
-                class=" icon-0-2-22 icon-d0-0-2-23 natds-icons natds-icons-filled-action-rating"
+                class=" icon-0-2-20 icon-d0-0-2-21 natds-icons natds-icons-filled-action-rating"
                 data-testid="icon-filled-action-rating"
                 role="button"
               />
@@ -2833,24 +2829,24 @@ Array [
           </div>
         </div>
         <div
-          class="ratingContainer-0-2-7"
+          class="ratingContainer-0-2-5"
         >
           <div
-            class="wrapper-0-2-13 wrapper-d4-0-2-26"
+            class="wrapper-0-2-11 wrapper-d4-0-2-24"
             data-testid="ripple-wrapper"
             tabindex="-1"
           >
             <div
-              class="rippleContainer-0-2-15 rippleContainer-d6-0-2-28"
+              class="rippleContainer-0-2-13 rippleContainer-d6-0-2-26"
             >
               <div
-                class="ripple-0-2-14 ripple-d5-0-2-27 "
+                class="ripple-0-2-12 ripple-d5-0-2-25 "
                 data-testid="ripple-animation"
               />
             </div>
             <button
               aria-label=""
-              class="ratingIcon-0-2-8 ratingIcon-d1-0-2-24 base-0-2-10 base-d1-0-2-25"
+              class="ratingIcon-0-2-6 ratingIcon-d1-0-2-22 base-0-2-8 base-d1-0-2-23"
               data-testid="undefined-2"
               disabled=""
               type="button"
@@ -2859,7 +2855,7 @@ Array [
               <i
                 aria-hidden="true"
                 aria-label=""
-                class=" icon-0-2-22 icon-d1-0-2-30 natds-icons natds-icons-filled-action-rating"
+                class=" icon-0-2-20 icon-d1-0-2-28 natds-icons natds-icons-filled-action-rating"
                 data-testid="icon-filled-action-rating"
                 role="button"
               />
@@ -2867,24 +2863,24 @@ Array [
           </div>
         </div>
         <div
-          class="ratingContainer-0-2-7"
+          class="ratingContainer-0-2-5"
         >
           <div
-            class="wrapper-0-2-13 wrapper-d8-0-2-33"
+            class="wrapper-0-2-11 wrapper-d8-0-2-31"
             data-testid="ripple-wrapper"
             tabindex="-1"
           >
             <div
-              class="rippleContainer-0-2-15 rippleContainer-d10-0-2-35"
+              class="rippleContainer-0-2-13 rippleContainer-d10-0-2-33"
             >
               <div
-                class="ripple-0-2-14 ripple-d9-0-2-34 "
+                class="ripple-0-2-12 ripple-d9-0-2-32 "
                 data-testid="ripple-animation"
               />
             </div>
             <button
               aria-label=""
-              class="ratingIcon-0-2-8 ratingIcon-d2-0-2-31 base-0-2-10 base-d2-0-2-32"
+              class="ratingIcon-0-2-6 ratingIcon-d2-0-2-29 base-0-2-8 base-d2-0-2-30"
               data-testid="undefined-3"
               disabled=""
               type="button"
@@ -2893,7 +2889,7 @@ Array [
               <i
                 aria-hidden="true"
                 aria-label=""
-                class=" icon-0-2-22 icon-d2-0-2-37 natds-icons natds-icons-filled-action-rating"
+                class=" icon-0-2-20 icon-d2-0-2-35 natds-icons natds-icons-filled-action-rating"
                 data-testid="icon-filled-action-rating"
                 role="button"
               />
@@ -2901,24 +2897,24 @@ Array [
           </div>
         </div>
         <div
-          class="ratingContainer-0-2-7"
+          class="ratingContainer-0-2-5"
         >
           <div
-            class="wrapper-0-2-13 wrapper-d12-0-2-40"
+            class="wrapper-0-2-11 wrapper-d12-0-2-38"
             data-testid="ripple-wrapper"
             tabindex="-1"
           >
             <div
-              class="rippleContainer-0-2-15 rippleContainer-d14-0-2-42"
+              class="rippleContainer-0-2-13 rippleContainer-d14-0-2-40"
             >
               <div
-                class="ripple-0-2-14 ripple-d13-0-2-41 "
+                class="ripple-0-2-12 ripple-d13-0-2-39 "
                 data-testid="ripple-animation"
               />
             </div>
             <button
               aria-label=""
-              class="ratingIcon-0-2-8 ratingIcon-d3-0-2-38 base-0-2-10 base-d3-0-2-39"
+              class="ratingIcon-0-2-6 ratingIcon-d3-0-2-36 base-0-2-8 base-d3-0-2-37"
               data-testid="undefined-4"
               disabled=""
               type="button"
@@ -2927,7 +2923,7 @@ Array [
               <i
                 aria-hidden="true"
                 aria-label=""
-                class=" icon-0-2-22 icon-d3-0-2-44 natds-icons natds-icons-filled-action-rating"
+                class=" icon-0-2-20 icon-d3-0-2-42 natds-icons natds-icons-filled-action-rating"
                 data-testid="icon-filled-action-rating"
                 role="button"
               />
@@ -2935,24 +2931,24 @@ Array [
           </div>
         </div>
         <div
-          class="ratingContainer-0-2-7"
+          class="ratingContainer-0-2-5"
         >
           <div
-            class="wrapper-0-2-13 wrapper-d16-0-2-47"
+            class="wrapper-0-2-11 wrapper-d16-0-2-45"
             data-testid="ripple-wrapper"
             tabindex="-1"
           >
             <div
-              class="rippleContainer-0-2-15 rippleContainer-d18-0-2-49"
+              class="rippleContainer-0-2-13 rippleContainer-d18-0-2-47"
             >
               <div
-                class="ripple-0-2-14 ripple-d17-0-2-48 "
+                class="ripple-0-2-12 ripple-d17-0-2-46 "
                 data-testid="ripple-animation"
               />
             </div>
             <button
               aria-label=""
-              class="ratingIcon-0-2-8 ratingIcon-d4-0-2-45 base-0-2-10 base-d4-0-2-46"
+              class="ratingIcon-0-2-6 ratingIcon-d4-0-2-43 base-0-2-8 base-d4-0-2-44"
               data-testid="undefined-5"
               disabled=""
               type="button"
@@ -2961,7 +2957,7 @@ Array [
               <i
                 aria-hidden="true"
                 aria-label=""
-                class=" icon-0-2-22 icon-d4-0-2-51 natds-icons natds-icons-filled-action-rating"
+                class=" icon-0-2-20 icon-d4-0-2-49 natds-icons natds-icons-filled-action-rating"
                 data-testid="icon-filled-action-rating"
                 role="button"
               />
@@ -2976,32 +2972,32 @@ Array [
 
 exports[`Rating Read-Only should render correctly with rate equal 3 1`] = `
 Array [
-  ".icon-0-2-22 {
+  ".icon-0-2-20 {
   font-family: natds-icons;
   user-select: none;
   pointer-events: none;
 }
-.icon-d0-0-2-23 {
+.icon-d0-0-2-21 {
   color: #000000;
   font-size: 32px;
 }
-.icon-d1-0-2-30 {
+.icon-d1-0-2-28 {
   color: #000000;
   font-size: 32px;
 }
-.icon-d2-0-2-37 {
+.icon-d2-0-2-35 {
   color: #000000;
   font-size: 32px;
 }
-.icon-d3-0-2-44 {
+.icon-d3-0-2-42 {
   color: #000000;
   font-size: 32px;
 }
-.icon-d4-0-2-51 {
+.icon-d4-0-2-49 {
   color: #000000;
   font-size: 32px;
 }
-.sharedRippleEffect-0-2-12 {
+.sharedRippleEffect-0-2-10 {
   top: 0;
   left: 0;
   width: 100%;
@@ -3011,12 +3007,12 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.wrapper-0-2-13 {
+.wrapper-0-2-11 {
   height: fit-content;
   outline: none;
   position: relative;
 }
-.wrapper-0-2-13:focus:after {
+.wrapper-0-2-11:focus:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -3027,7 +3023,7 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.wrapper-0-2-13:hover:after {
+.wrapper-0-2-11:hover:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -3037,20 +3033,20 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.ripple-0-2-14 {
+.ripple-0-2-12 {
   opacity: 0;
   position: absolute;
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-.rippleContainer-0-2-15 {
+.rippleContainer-0-2-13 {
   inset: 0;
   position: absolute;
 }
-.rippleActive-0-2-16 {
+.rippleActive-0-2-14 {
   z-index: 99;
 }
-@keyframes keyframes-ripple-0-2-17 {
+@keyframes keyframes-ripple-0-2-15 {
   0% {
     transform: translate(-50%, -50%) scale(0);
   }
@@ -3063,17 +3059,17 @@ Array [
     z-index: 0;
   }
 }
-  .wrapper-d0-0-2-18 {
+  .wrapper-d0-0-2-16 {
     cursor: default;
     display: inline-block;
     align-self: start;
   }
-  .wrapper-d0-0-2-18:focus:after {  }
-  .wrapper-d0-0-2-18:hover:after {
+  .wrapper-d0-0-2-16:focus:after {  }
+  .wrapper-d0-0-2-16:hover:after {
     background-color: #000000;
     opacity: 0;
   }
-  .ripple-d1-0-2-19 {
+  .ripple-d1-0-2-17 {
     background-color: #000000;
     height: 0;
     left: 50%;
@@ -3081,23 +3077,23 @@ Array [
     transition: scale opacity 300ms;
     width: 0;
   }
-  .rippleContainer-d2-0-2-20 {
+  .rippleContainer-d2-0-2-18 {
     overflow: hidden;
   }
-  .rippleActive-d3-0-2-21 {
-    animation: keyframes-ripple-0-2-17 300ms;
+  .rippleActive-d3-0-2-19 {
+    animation: keyframes-ripple-0-2-15 300ms;
   }
-  .wrapper-d4-0-2-26 {
+  .wrapper-d4-0-2-24 {
     cursor: default;
     display: inline-block;
     align-self: start;
   }
-  .wrapper-d4-0-2-26:focus:after {  }
-  .wrapper-d4-0-2-26:hover:after {
+  .wrapper-d4-0-2-24:focus:after {  }
+  .wrapper-d4-0-2-24:hover:after {
     background-color: #000000;
     opacity: 0;
   }
-  .ripple-d5-0-2-27 {
+  .ripple-d5-0-2-25 {
     background-color: #000000;
     height: 0;
     left: 50%;
@@ -3105,23 +3101,23 @@ Array [
     transition: scale opacity 300ms;
     width: 0;
   }
-  .rippleContainer-d6-0-2-28 {
+  .rippleContainer-d6-0-2-26 {
     overflow: hidden;
   }
-  .rippleActive-d7-0-2-29 {
-    animation: keyframes-ripple-0-2-17 300ms;
+  .rippleActive-d7-0-2-27 {
+    animation: keyframes-ripple-0-2-15 300ms;
   }
-  .wrapper-d8-0-2-33 {
+  .wrapper-d8-0-2-31 {
     cursor: default;
     display: inline-block;
     align-self: start;
   }
-  .wrapper-d8-0-2-33:focus:after {  }
-  .wrapper-d8-0-2-33:hover:after {
+  .wrapper-d8-0-2-31:focus:after {  }
+  .wrapper-d8-0-2-31:hover:after {
     background-color: #000000;
     opacity: 0;
   }
-  .ripple-d9-0-2-34 {
+  .ripple-d9-0-2-32 {
     background-color: #000000;
     height: 0;
     left: 50%;
@@ -3129,23 +3125,23 @@ Array [
     transition: scale opacity 300ms;
     width: 0;
   }
-  .rippleContainer-d10-0-2-35 {
+  .rippleContainer-d10-0-2-33 {
     overflow: hidden;
   }
-  .rippleActive-d11-0-2-36 {
-    animation: keyframes-ripple-0-2-17 300ms;
+  .rippleActive-d11-0-2-34 {
+    animation: keyframes-ripple-0-2-15 300ms;
   }
-  .wrapper-d12-0-2-40 {
+  .wrapper-d12-0-2-38 {
     cursor: default;
     display: inline-block;
     align-self: start;
   }
-  .wrapper-d12-0-2-40:focus:after {  }
-  .wrapper-d12-0-2-40:hover:after {
+  .wrapper-d12-0-2-38:focus:after {  }
+  .wrapper-d12-0-2-38:hover:after {
     background-color: #000000;
     opacity: 0;
   }
-  .ripple-d13-0-2-41 {
+  .ripple-d13-0-2-39 {
     background-color: #000000;
     height: 0;
     left: 50%;
@@ -3153,23 +3149,23 @@ Array [
     transition: scale opacity 300ms;
     width: 0;
   }
-  .rippleContainer-d14-0-2-42 {
+  .rippleContainer-d14-0-2-40 {
     overflow: hidden;
   }
-  .rippleActive-d15-0-2-43 {
-    animation: keyframes-ripple-0-2-17 300ms;
+  .rippleActive-d15-0-2-41 {
+    animation: keyframes-ripple-0-2-15 300ms;
   }
-  .wrapper-d16-0-2-47 {
+  .wrapper-d16-0-2-45 {
     cursor: default;
     display: inline-block;
     align-self: start;
   }
-  .wrapper-d16-0-2-47:focus:after {  }
-  .wrapper-d16-0-2-47:hover:after {
+  .wrapper-d16-0-2-45:focus:after {  }
+  .wrapper-d16-0-2-45:hover:after {
     background-color: #000000;
     opacity: 0;
   }
-  .ripple-d17-0-2-48 {
+  .ripple-d17-0-2-46 {
     background-color: #000000;
     height: 0;
     left: 50%;
@@ -3177,13 +3173,13 @@ Array [
     transition: scale opacity 300ms;
     width: 0;
   }
-  .rippleContainer-d18-0-2-49 {
+  .rippleContainer-d18-0-2-47 {
     overflow: hidden;
   }
-  .rippleActive-d19-0-2-50 {
-    animation: keyframes-ripple-0-2-17 300ms;
+  .rippleActive-d19-0-2-48 {
+    animation: keyframes-ripple-0-2-15 300ms;
   }
-  .base-0-2-10 {
+  .base-0-2-8 {
     border: none;
     cursor: pointer;
     display: flex;
@@ -3191,37 +3187,37 @@ Array [
     align-items: center;
     justify-content: center;
   }
-  .base-0-2-10:disabled {
+  .base-0-2-8:disabled {
     cursor: default;
   }
-  .base-d0-0-2-11 {
+  .base-d0-0-2-9 {
     height: 32px;
     width: 32px;
   }
-  .base-d1-0-2-25 {
+  .base-d1-0-2-23 {
     height: 32px;
     width: 32px;
   }
-  .base-d2-0-2-32 {
+  .base-d2-0-2-30 {
     height: 32px;
     width: 32px;
   }
-  .base-d3-0-2-39 {
+  .base-d3-0-2-37 {
     height: 32px;
     width: 32px;
   }
-  .base-d4-0-2-46 {
+  .base-d4-0-2-44 {
     height: 32px;
     width: 32px;
   }
-  .ratingContainer-0-2-7 {
+  .ratingContainer-0-2-5 {
     display: flex;
   }
-  .ratingIcon-0-2-8 {
+  .ratingIcon-0-2-6 {
     position: relative;
     background-color: transparent;
   }
-  .ratingIcon-0-2-8:after {
+  .ratingIcon-0-2-6:after {
     top: 0;
     left: 0;
     width: 100%;
@@ -3232,79 +3228,75 @@ Array [
     border-radius: 50%;
     background-color: #000000;
   }
-  .ratingIcon-0-2-8:hover:not([disabled]):after {
+  .ratingIcon-0-2-6:hover:not([disabled]):after {
     opacity: 0.04;
   }
-  .ratingIcon-0-2-8:focus:not([disabled]):after {
+  .ratingIcon-0-2-6:focus:not([disabled]):after {
     opacity: 0.12;
   }
-  .ratingIcon-0-2-8 > i {  }
-  .ratingIcon-d0-0-2-9 {  }
-  .ratingIcon-d0-0-2-9 > i {
+  .ratingIcon-0-2-6 > i {  }
+  .ratingIcon-d0-0-2-7 {  }
+  .ratingIcon-d0-0-2-7 > i {
     color: #F8B546;
   }
-  .ratingIcon-d1-0-2-24 {  }
-  .ratingIcon-d1-0-2-24 > i {
+  .ratingIcon-d1-0-2-22 {  }
+  .ratingIcon-d1-0-2-22 > i {
     color: #F8B546;
   }
-  .ratingIcon-d2-0-2-31 {  }
-  .ratingIcon-d2-0-2-31 > i {
+  .ratingIcon-d2-0-2-29 {  }
+  .ratingIcon-d2-0-2-29 > i {
     color: #F8B546;
   }
-  .ratingIcon-d3-0-2-38 {  }
-  .ratingIcon-d3-0-2-38 > i {
+  .ratingIcon-d3-0-2-36 {  }
+  .ratingIcon-d3-0-2-36 > i {
     color: #777777;
   }
-  .ratingIcon-d4-0-2-45 {  }
-  .ratingIcon-d4-0-2-45 > i {
+  .ratingIcon-d4-0-2-43 {  }
+  .ratingIcon-d4-0-2-43 > i {
     color: #777777;
   }
   .container-0-2-1 {
     display: flex;
   }
   .container-0-2-1 > label {  }
-  .rating-0-2-2 {
-    display: flex;
-  }
-  .labelText-0-2-3 {
-    color: #777777;
-  }
-  .container-d0-0-2-4 {
+  .container-d0-0-2-2 {
     flex-direction: row;
   }
-  .container-d0-0-2-4 > label {
+  .container-d0-0-2-2 > label {
     order: 2;
   }
-  .rating-d1-0-2-5 {
-    order: 2;
+  .rating-0-2-3 {
+    display: flex;
   }
-  .labelText-d2-0-2-6 {  }",
+  .rating-d0-0-2-4 {
+    order: 2;
+  }",
   <div>
     <div
-      class=" container-0-2-1 container-d0-0-2-4"
+      class=" container-0-2-1 container-d0-0-2-2"
     >
       <div
-        class="rating-0-2-2 rating-d1-0-2-5"
+        class="rating-0-2-3 rating-d0-0-2-4"
       >
         <div
-          class="ratingContainer-0-2-7"
+          class="ratingContainer-0-2-5"
         >
           <div
-            class="wrapper-0-2-13 wrapper-d0-0-2-18"
+            class="wrapper-0-2-11 wrapper-d0-0-2-16"
             data-testid="ripple-wrapper"
             tabindex="-1"
           >
             <div
-              class="rippleContainer-0-2-15 rippleContainer-d2-0-2-20"
+              class="rippleContainer-0-2-13 rippleContainer-d2-0-2-18"
             >
               <div
-                class="ripple-0-2-14 ripple-d1-0-2-19 "
+                class="ripple-0-2-12 ripple-d1-0-2-17 "
                 data-testid="ripple-animation"
               />
             </div>
             <button
               aria-label=""
-              class="ratingIcon-0-2-8 ratingIcon-d0-0-2-9 base-0-2-10 base-d0-0-2-11"
+              class="ratingIcon-0-2-6 ratingIcon-d0-0-2-7 base-0-2-8 base-d0-0-2-9"
               data-testid="undefined-1"
               disabled=""
               type="button"
@@ -3313,7 +3305,7 @@ Array [
               <i
                 aria-hidden="true"
                 aria-label=""
-                class=" icon-0-2-22 icon-d0-0-2-23 natds-icons natds-icons-filled-action-rating"
+                class=" icon-0-2-20 icon-d0-0-2-21 natds-icons natds-icons-filled-action-rating"
                 data-testid="icon-filled-action-rating"
                 role="button"
               />
@@ -3321,24 +3313,24 @@ Array [
           </div>
         </div>
         <div
-          class="ratingContainer-0-2-7"
+          class="ratingContainer-0-2-5"
         >
           <div
-            class="wrapper-0-2-13 wrapper-d4-0-2-26"
+            class="wrapper-0-2-11 wrapper-d4-0-2-24"
             data-testid="ripple-wrapper"
             tabindex="-1"
           >
             <div
-              class="rippleContainer-0-2-15 rippleContainer-d6-0-2-28"
+              class="rippleContainer-0-2-13 rippleContainer-d6-0-2-26"
             >
               <div
-                class="ripple-0-2-14 ripple-d5-0-2-27 "
+                class="ripple-0-2-12 ripple-d5-0-2-25 "
                 data-testid="ripple-animation"
               />
             </div>
             <button
               aria-label=""
-              class="ratingIcon-0-2-8 ratingIcon-d1-0-2-24 base-0-2-10 base-d1-0-2-25"
+              class="ratingIcon-0-2-6 ratingIcon-d1-0-2-22 base-0-2-8 base-d1-0-2-23"
               data-testid="undefined-2"
               disabled=""
               type="button"
@@ -3347,7 +3339,7 @@ Array [
               <i
                 aria-hidden="true"
                 aria-label=""
-                class=" icon-0-2-22 icon-d1-0-2-30 natds-icons natds-icons-filled-action-rating"
+                class=" icon-0-2-20 icon-d1-0-2-28 natds-icons natds-icons-filled-action-rating"
                 data-testid="icon-filled-action-rating"
                 role="button"
               />
@@ -3355,24 +3347,24 @@ Array [
           </div>
         </div>
         <div
-          class="ratingContainer-0-2-7"
+          class="ratingContainer-0-2-5"
         >
           <div
-            class="wrapper-0-2-13 wrapper-d8-0-2-33"
+            class="wrapper-0-2-11 wrapper-d8-0-2-31"
             data-testid="ripple-wrapper"
             tabindex="-1"
           >
             <div
-              class="rippleContainer-0-2-15 rippleContainer-d10-0-2-35"
+              class="rippleContainer-0-2-13 rippleContainer-d10-0-2-33"
             >
               <div
-                class="ripple-0-2-14 ripple-d9-0-2-34 "
+                class="ripple-0-2-12 ripple-d9-0-2-32 "
                 data-testid="ripple-animation"
               />
             </div>
             <button
               aria-label=""
-              class="ratingIcon-0-2-8 ratingIcon-d2-0-2-31 base-0-2-10 base-d2-0-2-32"
+              class="ratingIcon-0-2-6 ratingIcon-d2-0-2-29 base-0-2-8 base-d2-0-2-30"
               data-testid="undefined-3"
               disabled=""
               type="button"
@@ -3381,7 +3373,7 @@ Array [
               <i
                 aria-hidden="true"
                 aria-label=""
-                class=" icon-0-2-22 icon-d2-0-2-37 natds-icons natds-icons-filled-action-rating"
+                class=" icon-0-2-20 icon-d2-0-2-35 natds-icons natds-icons-filled-action-rating"
                 data-testid="icon-filled-action-rating"
                 role="button"
               />
@@ -3389,24 +3381,24 @@ Array [
           </div>
         </div>
         <div
-          class="ratingContainer-0-2-7"
+          class="ratingContainer-0-2-5"
         >
           <div
-            class="wrapper-0-2-13 wrapper-d12-0-2-40"
+            class="wrapper-0-2-11 wrapper-d12-0-2-38"
             data-testid="ripple-wrapper"
             tabindex="-1"
           >
             <div
-              class="rippleContainer-0-2-15 rippleContainer-d14-0-2-42"
+              class="rippleContainer-0-2-13 rippleContainer-d14-0-2-40"
             >
               <div
-                class="ripple-0-2-14 ripple-d13-0-2-41 "
+                class="ripple-0-2-12 ripple-d13-0-2-39 "
                 data-testid="ripple-animation"
               />
             </div>
             <button
               aria-label=""
-              class="ratingIcon-0-2-8 ratingIcon-d3-0-2-38 base-0-2-10 base-d3-0-2-39"
+              class="ratingIcon-0-2-6 ratingIcon-d3-0-2-36 base-0-2-8 base-d3-0-2-37"
               data-testid="undefined-4"
               disabled=""
               type="button"
@@ -3415,7 +3407,7 @@ Array [
               <i
                 aria-hidden="true"
                 aria-label=""
-                class=" icon-0-2-22 icon-d3-0-2-44 natds-icons natds-icons-filled-action-rating"
+                class=" icon-0-2-20 icon-d3-0-2-42 natds-icons natds-icons-filled-action-rating"
                 data-testid="icon-filled-action-rating"
                 role="button"
               />
@@ -3423,24 +3415,24 @@ Array [
           </div>
         </div>
         <div
-          class="ratingContainer-0-2-7"
+          class="ratingContainer-0-2-5"
         >
           <div
-            class="wrapper-0-2-13 wrapper-d16-0-2-47"
+            class="wrapper-0-2-11 wrapper-d16-0-2-45"
             data-testid="ripple-wrapper"
             tabindex="-1"
           >
             <div
-              class="rippleContainer-0-2-15 rippleContainer-d18-0-2-49"
+              class="rippleContainer-0-2-13 rippleContainer-d18-0-2-47"
             >
               <div
-                class="ripple-0-2-14 ripple-d17-0-2-48 "
+                class="ripple-0-2-12 ripple-d17-0-2-46 "
                 data-testid="ripple-animation"
               />
             </div>
             <button
               aria-label=""
-              class="ratingIcon-0-2-8 ratingIcon-d4-0-2-45 base-0-2-10 base-d4-0-2-46"
+              class="ratingIcon-0-2-6 ratingIcon-d4-0-2-43 base-0-2-8 base-d4-0-2-44"
               data-testid="undefined-5"
               disabled=""
               type="button"
@@ -3449,7 +3441,7 @@ Array [
               <i
                 aria-hidden="true"
                 aria-label=""
-                class=" icon-0-2-22 icon-d4-0-2-51 natds-icons natds-icons-filled-action-rating"
+                class=" icon-0-2-20 icon-d4-0-2-49 natds-icons natds-icons-filled-action-rating"
                 data-testid="icon-filled-action-rating"
                 role="button"
               />
