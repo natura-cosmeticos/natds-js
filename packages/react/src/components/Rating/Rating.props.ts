@@ -12,7 +12,7 @@ export type BaseComponentProps = {
   iconActive?: boolean
   iconFilled?: boolean
   isClickable?: boolean
-  onClick: (e: any) => void
+  onClick?: (e: any) => void
   onMouseEnter?: () => void
   onMouseLeave?: () => void
   size: keyof Size

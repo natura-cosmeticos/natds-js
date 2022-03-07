@@ -19,7 +19,6 @@ const RatingCounter = ({ ariaLabelGroup, testID, ...props }: RatingProps) => {
             <RatingBase
               ariaLabel={props.ariaLabel}
               key={index.toString()}
-              onClick={() => ''}
               value={index + 1}
               size={props.size}
               testID={`${testID}-${index + 1}`}

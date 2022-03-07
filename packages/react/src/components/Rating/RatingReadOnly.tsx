@@ -27,7 +27,6 @@ const RatingReadOnly = ({ ariaLabelGroup, testID, ...props }: RatingProps) => {
             iconActive={isActive(index)}
             iconFilled={isFilled(index)}
             key={index.toString()}
-            onClick={() => ''}
             value={index + 1}
             size={props.size}
             testID={`${testID}-${index + 1}`}
