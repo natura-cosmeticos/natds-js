@@ -4,9 +4,9 @@ import { Story } from '@storybook/react'
 import { argTypes } from './Card.argTypes'
 
 import { Card } from './Card'
+import { ICardProps } from './Card.props'
 import { Typography } from '../Typography'
 import { Button } from '../Button'
-import { ICardProps } from './Card.props'
 
 export default {
   argTypes,
