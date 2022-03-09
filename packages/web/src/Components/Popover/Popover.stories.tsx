@@ -96,9 +96,6 @@ RightPlacement.args = {
   id: 'right-placement',
   placement: placements.right
 }
-RightPlacement.parameters = {
-  chromatic: { disable: true }
-}
 
 export const RightStartPlacement : Story<IPopoverProps> = Template.bind({})
 RightStartPlacement.args = {
@@ -106,18 +103,12 @@ RightStartPlacement.args = {
   id: 'right-start-placement',
   placement: placements['right-start']
 }
-RightStartPlacement.parameters = {
-  chromatic: { pauseAnimationAtEnd: true }
-}
 
 export const RightEndPlacement : Story<IPopoverProps> = Template.bind({})
 RightEndPlacement.args = {
   ...InitiallyOpen.args,
   id: 'right-end-placement',
   placement: placements['right-end']
-}
-RightEndPlacement.parameters = {
-  chromatic: { pauseAnimationAtEnd: true }
 }
 
 export const LeftPlacement : Story<IPopoverProps> = Template.bind({})
