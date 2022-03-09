@@ -1498,7 +1498,7 @@
     jest-util "^27.5.1"
     slash "^3.0.0"
 
-"@jest/core@^27.4.5", "@jest/core@^27.5.1":
+"@jest/core@^27.5.1":
   version "27.5.1"
   resolved "https://registry.yarnpkg.com/@jest/core/-/core-27.5.1.tgz#267ac5f704e09dc52de2922cbf3af9edcd64b626"
   integrity sha512-AK6/UTrvQD0Cd24NSqmIA6rKsu0tKIxfiCducZvqxYdmMisOYAsdItspT+fQDQYARPf8XgjAFZi0ogW2agH5nQ==
@@ -4063,12 +4063,12 @@
     jest-diff "^27.0.0"
     pretty-format "^27.0.0"
 
-"@types/jest@27.0.3":
-  version "27.0.3"
-  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-27.0.3.tgz#0cf9dfe9009e467f70a342f0f94ead19842a783a"
-  integrity sha512-cmmwv9t7gBYt7hNKH5Spu7Kuu/DotGa+Ff+JGRKZ4db5eh8PnKS4LuebJ3YLUoyOyIHraTGyULn23YtEAm0VSg==
+"@types/jest@27.4.1":
+  version "27.4.1"
+  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-27.4.1.tgz#185cbe2926eaaf9662d340cc02e548ce9e11ab6d"
+  integrity sha512-23iPJADSmicDVrWk+HT58LMJtzLAnB2AgIzplQuq/bSrGaxCrlvRFjGbXmamnnk/mAmCdLStiGqggu28ocUyiw==
   dependencies:
-    jest-diff "^27.0.0"
+    jest-matcher-utils "^27.0.0"
     pretty-format "^27.0.0"
 
 "@types/json-schema@^7.0.4", "@types/json-schema@^7.0.5", "@types/json-schema@^7.0.7", "@types/json-schema@^7.0.8":
@@ -10270,7 +10270,7 @@ jest-circus@^27.5.1:
     stack-utils "^2.0.3"
     throat "^6.0.1"
 
-jest-cli@^27.4.5:
+jest-cli@^27.5.1:
   version "27.5.1"
   resolved "https://registry.yarnpkg.com/jest-cli/-/jest-cli-27.5.1.tgz#278794a6e6458ea8029547e6c6cbf673bd30b145"
   integrity sha512-Hc6HOOwYq4/74/c62dEE3r5elx8wjYqxY0r0G/nFrLDPMFRu6RA/u8qINOIkvhxG7mMQ5EJsOGfRpI8L6eFUVw==
@@ -10463,7 +10463,7 @@ jest-leak-detector@^27.5.1:
     jest-get-type "^27.5.1"
     pretty-format "^27.5.1"
 
-jest-matcher-utils@^27.5.1:
+jest-matcher-utils@^27.0.0, jest-matcher-utils@^27.5.1:
   version "27.5.1"
   resolved "https://registry.yarnpkg.com/jest-matcher-utils/-/jest-matcher-utils-27.5.1.tgz#9c0cdbda8245bc22d2331729d1091308b40cf8ab"
   integrity sha512-z2uTx/T6LBaCoNWNFWwChLBKYxTMcGBRjAt+2SbP929/Fflb9aa5LGma654Rz8z9HLxsrUaYzxE9T/EFIL/PAw==
@@ -10707,14 +10707,14 @@ jest-worker@^27.5.1:
     merge-stream "^2.0.0"
     supports-color "^8.0.0"
 
-jest@27.4.5:
-  version "27.4.5"
-  resolved "https://registry.yarnpkg.com/jest/-/jest-27.4.5.tgz#66e45acba44137fac26be9d3cc5bb031e136dc0f"
-  integrity sha512-uT5MiVN3Jppt314kidCk47MYIRilJjA/l2mxwiuzzxGUeJIvA8/pDaJOAX5KWvjAo7SCydcW0/4WEtgbLMiJkg==
+jest@27.5.1:
+  version "27.5.1"
+  resolved "https://registry.yarnpkg.com/jest/-/jest-27.5.1.tgz#dadf33ba70a779be7a6fc33015843b51494f63fc"
+  integrity sha512-Yn0mADZB89zTtjkPJEXwrac3LHudkQMR+Paqa8uxJHCBr9agxztUifWCyiYrjhMPBoUVBjyny0I7XH6ozDr7QQ==
   dependencies:
-    "@jest/core" "^27.4.5"
+    "@jest/core" "^27.5.1"
     import-local "^3.0.2"
-    jest-cli "^27.4.5"
+    jest-cli "^27.5.1"
 
 jmespath@0.16.0:
   version "0.16.0"
