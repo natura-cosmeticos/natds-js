@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.5.7](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@4.5.6...@naturacosmeticos/natds-web@4.5.7) (2022-03-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @naturacosmeticos/natds-icons to v1.11.0 ([#1651](https://github.com/natura-cosmeticos/natds-js/issues/1651)) ([8e52641](https://github.com/natura-cosmeticos/natds-js/commit/8e5264140f567f42e49ca66a90211a999bb58290))
+* **deps:** update dependency @naturacosmeticos/natds-icons to v1.11.2 ([#1662](https://github.com/natura-cosmeticos/natds-js/issues/1662)) ([339e3ea](https://github.com/natura-cosmeticos/natds-js/commit/339e3ea65dc675d9221ef863906f3147e72a04d0))
+* **natds-web:** remove Chromatic ([#1678](https://github.com/natura-cosmeticos/natds-js/issues/1678)) ([26d0f74](https://github.com/natura-cosmeticos/natds-js/commit/26d0f7492b9283a4aea7a7aa8f0b9e6359fe538e))
+* update natds-icons ([#1670](https://github.com/natura-cosmeticos/natds-js/issues/1670)) ([1622d2f](https://github.com/natura-cosmeticos/natds-js/commit/1622d2fa5f94a25d52c8069020f6312943926e4c))
+
+
+
+
+
 ## [4.5.6](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@4.5.5...@naturacosmeticos/natds-web@4.5.6) (2022-02-10)
 
 
