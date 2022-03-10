@@ -52,7 +52,8 @@
     "test": "jest --testPathPattern=src --verbose",
     "test:ci": "jest  --testPathPattern=src --coverage && codecov -t",
     "test:regression": "loki",
-    "test:watch": "jest --watch --detectOpenHandles"
+    "test:watch": "jest --watch --detectOpenHandles",
+    "generate": "yarn plop --plopfile ./generators/plopfile.js"
   },
   "dependencies": {
     "@naturacosmeticos/natds-icons": "1.11.3",
