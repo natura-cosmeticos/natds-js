@@ -6,22 +6,28 @@ Array [
   flex: auto;
   width: auto;
   display: flex;
+  padding: 4px 8px;
+  font-size: 20px;
   min-height: 56px;
   align-items: center;
-  padding-left: 8px;
-  padding-right: 8px;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  line-height: 1.25;
   flex-direction: row;
+  letter-spacing: 0.24px;
   justify-content: space-between;
 }
 .appBar-d0-0-2-2 {
-  background: #ffffff;
+  background-color: #ffffff;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
   color: #333333;
 }",
   <div>
     <div
       class=" appBar-0-2-1 appBar-d0-0-2-2"
-    />
+    >
+      app bar
+    </div>
   </div>,
 ]
 `;
@@ -32,22 +38,28 @@ Array [
   flex: auto;
   width: auto;
   display: flex;
+  padding: 4px 8px;
+  font-size: 20px;
   min-height: 56px;
   align-items: center;
-  padding-left: 8px;
-  padding-right: 8px;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  line-height: 1.25;
   flex-direction: row;
+  letter-spacing: 0.24px;
   justify-content: space-between;
 }
 .appBar-d0-0-2-2 {
-  background: #333333;
+  background-color: #333333;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
-  color: #fafafa;
+  color: #ffffff;
 }",
   <div>
     <div
       class=" appBar-0-2-1 appBar-d0-0-2-2"
-    />
+    >
+      app bar
+    </div>
   </div>,
 ]
 `;
@@ -58,22 +70,28 @@ Array [
   flex: auto;
   width: auto;
   display: flex;
+  padding: 4px 8px;
+  font-size: 20px;
   min-height: 56px;
   align-items: center;
-  padding-left: 8px;
-  padding-right: 8px;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  line-height: 1.25;
   flex-direction: row;
+  letter-spacing: 0.24px;
   justify-content: space-between;
 }
 .appBar-d0-0-2-2 {
-  background: none;
+  background-color: transparent;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
   color: #000000;
 }",
   <div>
     <div
       class=" appBar-0-2-1 appBar-d0-0-2-2"
-    />
+    >
+      app bar
+    </div>
   </div>,
 ]
 `;
@@ -84,22 +102,28 @@ Array [
   flex: auto;
   width: auto;
   display: flex;
+  padding: 4px 8px;
+  font-size: 20px;
   min-height: 56px;
   align-items: center;
-  padding-left: 8px;
-  padding-right: 8px;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  line-height: 1.25;
   flex-direction: row;
+  letter-spacing: 0.24px;
   justify-content: space-between;
 }
 .appBar-d0-0-2-2 {
-  background: #f4ab34;
+  background-color: #f4ab34;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
   color: #333333;
 }",
   <div>
     <div
       class=" appBar-0-2-1 appBar-d0-0-2-2"
-    />
+    >
+      app bar
+    </div>
   </div>,
 ]
 `;
@@ -110,22 +134,28 @@ Array [
   flex: auto;
   width: auto;
   display: flex;
+  padding: 4px 8px;
+  font-size: 20px;
   min-height: 56px;
   align-items: center;
-  padding-left: 8px;
-  padding-right: 8px;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  line-height: 1.25;
   flex-direction: row;
+  letter-spacing: 0.24px;
   justify-content: space-between;
 }
 .appBar-d0-0-2-2 {
-  background: #ffffff;
+  background-color: #ffffff;
   box-shadow: none;
   color: #333333;
 }",
   <div>
     <div
       class=" appBar-0-2-1 appBar-d0-0-2-2"
-    />
+    >
+      app bar
+    </div>
   </div>,
 ]
 `;
