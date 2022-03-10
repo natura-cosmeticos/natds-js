@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppBar component should render correctly with default props 1`] = `
+Array [
+  ".appBar-0-2-1 {
+  flex: auto;
+  width: auto;
+  display: flex;
+  min-height: 56px;
+  align-items: center;
+  padding-left: 8px;
+  padding-right: 8px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.appBar-d0-0-2-2 {
+  background: #ffffff;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+  color: #333333;
+}",
+  <div>
+    <div
+      class=" appBar-0-2-1 appBar-d0-0-2-2"
+    />
+  </div>,
+]
+`;
+
+exports[`AppBar component should render correctly with inverse color variant 1`] = `
+Array [
+  ".appBar-0-2-1 {
+  flex: auto;
+  width: auto;
+  display: flex;
+  min-height: 56px;
+  align-items: center;
+  padding-left: 8px;
+  padding-right: 8px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.appBar-d0-0-2-2 {
+  background: #333333;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+  color: #fafafa;
+}",
+  <div>
+    <div
+      class=" appBar-0-2-1 appBar-d0-0-2-2"
+    />
+  </div>,
+]
+`;
+
+exports[`AppBar component should render correctly with none color variant 1`] = `
+Array [
+  ".appBar-0-2-1 {
+  flex: auto;
+  width: auto;
+  display: flex;
+  min-height: 56px;
+  align-items: center;
+  padding-left: 8px;
+  padding-right: 8px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.appBar-d0-0-2-2 {
+  background: none;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+  color: #000000;
+}",
+  <div>
+    <div
+      class=" appBar-0-2-1 appBar-d0-0-2-2"
+    />
+  </div>,
+]
+`;
+
+exports[`AppBar component should render correctly with primary color variant 1`] = `
+Array [
+  ".appBar-0-2-1 {
+  flex: auto;
+  width: auto;
+  display: flex;
+  min-height: 56px;
+  align-items: center;
+  padding-left: 8px;
+  padding-right: 8px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.appBar-d0-0-2-2 {
+  background: #f4ab34;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+  color: #333333;
+}",
+  <div>
+    <div
+      class=" appBar-0-2-1 appBar-d0-0-2-2"
+    />
+  </div>,
+]
+`;
+
+exports[`AppBar component should render correctly without elevation 1`] = `
+Array [
+  ".appBar-0-2-1 {
+  flex: auto;
+  width: auto;
+  display: flex;
+  min-height: 56px;
+  align-items: center;
+  padding-left: 8px;
+  padding-right: 8px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.appBar-d0-0-2-2 {
+  background: #ffffff;
+  box-shadow: none;
+  color: #333333;
+}",
+  <div>
+    <div
+      class=" appBar-0-2-1 appBar-d0-0-2-2"
+    />
+  </div>,
+]
+`;
