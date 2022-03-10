@@ -26,19 +26,11 @@ const styles = createUseStyles((theme: Theme) => ({
       }
     },
     boxShadow: ({ elevation }: AppBarProps) => (elevation ? theme.elevation.tiny : 'none'),
-    color: ({ color }: AppBarProps) => {
-      switch (color) {
-        case 'primary':
-          return theme.color.onPrimary
-        case 'inverse':
-          // TODO: review this color, it should match highEmphasis
-          return theme.color.background
-        case 'none':
-          return theme.color.highlight
-        default:
-          return theme.color.onSurface
-      }
-    }
+    fontFamily: [theme.appBarTop.title.primary.fontFamily, theme.appBarTop.title.fallback.fontFamily],
+    fontSize: theme.appBarTop.title.fontSize,
+    fontWeight: theme.appBarTop.title.primary.fontWeight,
+    letterSpacing: theme.appBarTop.title.letterSpacing,
+    lineHeight: theme.appBarTop.title.lineHeight
   }
 }))
 
