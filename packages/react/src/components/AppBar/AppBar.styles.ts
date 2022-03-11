@@ -1,9 +1,8 @@
-/* eslint-disable max-len */
 import { createUseStyles } from 'react-jss'
 import type { Theme } from '@naturacosmeticos/natds-themes'
-import type { AppBarProps } from './AppBar.props'
+import type { AppBarStyleOptions } from './AppBar.props'
 
-const getBackgroundColor = (theme: Theme) => ({ color }: AppBarProps) => {
+const getBackgroundColor = (theme: Theme) => ({ color }: AppBarStyleOptions) => {
   const backgroundColor = {
     default: theme.color.surface,
     primary: theme.color.primary,
@@ -14,7 +13,7 @@ const getBackgroundColor = (theme: Theme) => ({ color }: AppBarProps) => {
   return color && backgroundColor[color]
 }
 
-const getTextColor = (theme: Theme) => ({ color }: AppBarProps) => {
+const getTextColor = (theme: Theme) => ({ color }: AppBarStyleOptions) => {
   const backgroundColor = {
     default: theme.color.onSurface,
     primary: theme.color.onPrimary,
@@ -26,6 +25,28 @@ const getTextColor = (theme: Theme) => ({ color }: AppBarProps) => {
 }
 
 const styles = createUseStyles((theme: Theme) => ({
+  container: ({ behaviour, hide }: AppBarStyleOptions) => {
+    const shared = {
+      position: 'fixed',
+      top: 0,
+      left: 0,
+      width: '100%'
+    }
+
+    if (behaviour === 'fixed') {
+      return {
+        ...shared
+      }
+    }
+
+    return {
+      ...shared,
+      transition: '0.3s ease-in-out',
+      WebkitTransition: '0.3s ease-in-out',
+      top: hide ? -1 * (theme.size.mediumX + theme.spacing.micro * 2) : 0
+    }
+  },
+
   appBar: {
     alignItems: 'center',
     display: 'flex',
@@ -36,9 +57,12 @@ const styles = createUseStyles((theme: Theme) => ({
     padding: [theme.spacing.micro, theme.spacing.tiny],
     width: 'auto',
     backgroundColor: getBackgroundColor(theme),
-    boxShadow: ({ elevation }: AppBarProps) => (elevation ? theme.elevation.tiny : 'none'),
+    boxShadow: ({ elevation }: AppBarStyleOptions) => (elevation ? theme.elevation.tiny : 'none'),
     color: getTextColor(theme),
-    fontFamily: [theme.appBarTop.title.primary.fontFamily, theme.appBarTop.title.fallback.fontFamily],
+    fontFamily: [
+      theme.appBarTop.title.primary.fontFamily,
+      theme.appBarTop.title.fallback.fontFamily
+    ],
     fontSize: theme.appBarTop.title.fontSize,
     fontWeight: theme.appBarTop.title.primary.fontWeight,
     letterSpacing: theme.appBarTop.title.letterSpacing,

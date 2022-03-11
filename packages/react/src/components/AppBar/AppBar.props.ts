@@ -5,6 +5,14 @@ export type AppBarProps = {
    */
   className?: string
   /**
+   * If `fixed` the AppBar is fixed leaving the content
+   * scrolling from behind, when using `scroll` it hides
+   * the AppBar when scrolling up and reveals when scrolling
+   * down
+   * @default 'fixed'
+   */
+  behaviour?: 'fixed' | 'scroll'
+  /**
    * Override or extend the styles applied to the component
    */
   color?: 'default' | 'primary' | 'none' | 'inverse'
@@ -17,4 +25,8 @@ export type AppBarProps = {
    * Optional ID for testing
    */
   testID?: string
+}
+
+export type AppBarStyleOptions = AppBarProps & {
+  hide: boolean
 }
