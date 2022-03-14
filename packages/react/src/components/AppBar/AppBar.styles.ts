@@ -30,7 +30,8 @@ const styles = createUseStyles((theme: Theme) => ({
       position: 'fixed',
       top: 0,
       left: 0,
-      width: '100%'
+      width: '100%',
+      zIndex: 1
     }
 
     if (behaviour === 'fixed') {
@@ -46,7 +47,6 @@ const styles = createUseStyles((theme: Theme) => ({
       top: hide ? -1 * (theme.size.mediumX + theme.spacing.micro * 2) : 0
     }
   },
-
   appBar: {
     alignItems: 'center',
     display: 'flex',
