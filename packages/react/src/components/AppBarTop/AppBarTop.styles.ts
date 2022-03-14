@@ -1,6 +1,6 @@
 import { createUseStyles } from 'react-jss'
 import type { Theme } from '@naturacosmeticos/natds-themes'
-import type { AppBarStyleOptions } from './AppBar.props'
+import type { AppBarStyleOptions } from './AppBarTop.props'
 
 const getBackgroundColor = (theme: Theme) => ({ color }: AppBarStyleOptions) => {
   const backgroundColor = {

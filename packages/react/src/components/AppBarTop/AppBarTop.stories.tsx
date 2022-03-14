@@ -3,7 +3,7 @@ import React from 'react'
 import { Story, Meta } from '@storybook/react'
 import { IconButton } from '../IconButton'
 import { Icon } from '../Icon'
-import { AppBar, AppBarProps } from '.'
+import { AppBarTop, AppBarProps } from '.'
 import { Logo } from '../Logo'
 
 const componentStatus = `
@@ -36,15 +36,15 @@ With the following attribute status:
 `
 
 export default {
-  title: 'Components/AppBar',
-  component: AppBar,
+  title: 'Components/AppBarTop',
+  component: AppBarTop,
   parameters: {
     componentSubtitle: 'The App Bar Top displays information and actions relating to the current screen.',
     docs: { description: { component: componentStatus } }
   }
 } as Meta
 
-export const Playground: Story<AppBarProps> = (args) => <AppBar {...args} />
+export const Playground: Story<AppBarProps> = (args) => <AppBarTop {...args} />
 Playground.args = {
   children: 'App Bar - Top',
   // @ts-ignore
@@ -53,10 +53,10 @@ Playground.args = {
 
 export const Color: Story<AppBarProps> = (args) => (
   <div style={{ display: 'flex', gap: 8, flexDirection: 'column' }}>
-    <AppBar {...args} color="default">Default</AppBar>
-    <AppBar {...args} color="primary">Primary</AppBar>
-    <AppBar {...args} color="inverse">Inverse</AppBar>
-    <AppBar {...args} color="none">None</AppBar>
+    <AppBarTop {...args} color="default">Default</AppBarTop>
+    <AppBarTop {...args} color="primary">Primary</AppBarTop>
+    <AppBarTop {...args} color="inverse">Inverse</AppBarTop>
+    <AppBarTop {...args} color="none">None</AppBarTop>
   </div>
 )
 
@@ -66,8 +66,8 @@ Color.args = {
 
 export const Elevation: Story<AppBarProps> = (args) => (
   <div style={{ display: 'flex', gap: 8, flexDirection: 'column' }}>
-    <AppBar {...args}>Elevation</AppBar>
-    <AppBar {...args} elevation={false}>No Elevation</AppBar>
+    <AppBarTop {...args}>Elevation</AppBarTop>
+    <AppBarTop {...args} elevation={false}>No Elevation</AppBarTop>
   </div>
 )
 
@@ -76,7 +76,7 @@ Elevation.args = {
 }
 
 export const WithLogo: Story<AppBarProps> = (args) => (
-  <AppBar {...args}>
+  <AppBarTop {...args}>
     <div style={{ display: 'flex', alignItems: 'center', width: '100%' }}>
       <IconButton IconComponent={<Icon name="outlined-navigation-menu" color="highlight" />} ariaLabel="menu" onClick={() => ''} />
       <div style={{ flexGrow: 1, justifyContent: 'center', display: 'flex' }}>
@@ -87,7 +87,7 @@ export const WithLogo: Story<AppBarProps> = (args) => (
         <IconButton IconComponent={<Icon name="outlined-finance-bag" color="highlight" />} ariaLabel="profile" onClick={() => ''} />
       </>
     </div>
-  </AppBar>
+  </AppBarTop>
 )
 WithLogo.args = {
   ...Playground.args

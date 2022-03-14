@@ -1,8 +1,8 @@
 import React, { useLayoutEffect, useState } from 'react'
-import styles from './AppBar.styles'
-import type { AppBarProps } from './AppBar.props'
+import styles from './AppBarTop.styles'
+import type { AppBarProps } from './AppBarTop.props'
 
-const AppBar = React.forwardRef<HTMLDivElement, AppBarProps>(
+const AppBarTop = React.forwardRef<HTMLDivElement, AppBarProps>(
   (
     {
       className = '',
@@ -59,4 +59,4 @@ const AppBar = React.forwardRef<HTMLDivElement, AppBarProps>(
   }
 )
 
-export default AppBar
+export default AppBarTop

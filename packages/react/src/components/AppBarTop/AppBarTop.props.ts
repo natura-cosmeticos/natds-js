@@ -5,9 +5,9 @@ export type AppBarProps = {
    */
   className?: string
   /**
-   * If `fixed` the AppBar is fixed leaving the content
+   * If `fixed` the AppBarTop is fixed leaving the content
    * scrolling from behind, when using `scroll` it hides
-   * the AppBar when scrolling up and reveals when scrolling
+   * the AppBarTop when scrolling up and reveals when scrolling
    * down
    * @default 'fixed'
    */
