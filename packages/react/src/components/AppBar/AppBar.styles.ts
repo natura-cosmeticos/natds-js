@@ -27,7 +27,7 @@ const getTextColor = (theme: Theme) => ({ color }: AppBarStyleOptions) => {
 const styles = createUseStyles((theme: Theme) => ({
   container: ({ behaviour, hide }: AppBarStyleOptions) => {
     const shared = {
-      position: 'fixed',
+      position: 'static',
       top: 0,
       left: 0,
       width: '100%',
