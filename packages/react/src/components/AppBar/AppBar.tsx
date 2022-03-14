@@ -46,7 +46,7 @@ const AppBar = React.forwardRef<HTMLDivElement, AppBarProps>(
     })
 
     return (
-      <div className={container}>
+      <header className={container}>
         <div
           {...props}
           className={`${className} ${appBar}`}
@@ -55,7 +55,7 @@ const AppBar = React.forwardRef<HTMLDivElement, AppBarProps>(
         >
           {children}
         </div>
-      </div>
+      </header>
     )
   }
 )

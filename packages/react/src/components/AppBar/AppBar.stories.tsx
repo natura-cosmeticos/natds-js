@@ -25,8 +25,8 @@ With the following attribute status:
   - ✅ **Content Type** (available but with alternative composition)
   - ✅ **Content Proeminent** (available but with alternative composition)
   - **Behaviour**
-      - ❌ \`fixed\`
-      - ❌ \`scroll\`
+      - ✅  \`fixed\`
+      - ✅  \`scroll\`
   - **Action**
       - ✅ \`left\` (available but with alternative composition)
       - ✅ \`right\` (available but with alternative composition)
@@ -65,25 +65,12 @@ export const Elevation: Story<AppBarProps> = (args) => (
   </div>
 )
 
-export const WithIcons: Story<AppBarProps> = (args) => (
-  <AppBar {...args}>
-    <div style={{ display: 'flex', alignItems: 'center', width: '100%' }}>
-      <IconButton IconComponent={<Icon name="outlined-navigation-menu" color="highlight" />} ariaLabel="menu" onClick={() => ''} />
-      <h2 style={{ fontSize: 20, margin: '0 8px', flexGrow: 1 }}>AppBar - Top</h2>
-      <>
-        <IconButton IconComponent={<Icon name="outlined-action-search" color="highlight" />} ariaLabel="search" onClick={() => ''} />
-        <IconButton IconComponent={<Icon name="outlined-social-myprofile" color="highlight" />} ariaLabel="profile" onClick={() => ''} />
-      </>
-    </div>
-  </AppBar>
-)
-
 export const WithLogo: Story<AppBarProps> = (args) => (
   <AppBar {...args}>
     <div style={{ display: 'flex', alignItems: 'center', width: '100%' }}>
       <IconButton IconComponent={<Icon name="outlined-navigation-menu" color="highlight" />} ariaLabel="menu" onClick={() => ''} />
-      <div style={{ flexGrow: 1, justifyContent: 'center', margin: '0 8px' }}>
-        <Logo size="huge" />
+      <div style={{ flexGrow: 1, justifyContent: 'center', display: 'flex' }}>
+        <Logo size="hugeX" />
       </div>
       <>
         <IconButton IconComponent={<Icon name="outlined-action-search" color="highlight" />} ariaLabel="search" onClick={() => ''} />
