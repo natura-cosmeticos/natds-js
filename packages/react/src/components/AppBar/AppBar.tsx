@@ -46,10 +46,9 @@ const AppBar = React.forwardRef<HTMLDivElement, AppBarProps>(
     })
 
     return (
-      <header className={container}>
+      <header className={`${className} ${container}`} {...props}>
         <div
-          {...props}
-          className={`${className} ${appBar}`}
+          className={appBar}
           data-testid={testID}
           ref={ref}
         >

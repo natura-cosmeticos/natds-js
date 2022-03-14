@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
 import React from 'react'
 import { Story, Meta } from '@storybook/react'
 import { IconButton } from '../IconButton'
@@ -45,7 +46,9 @@ export default {
 
 export const Playground: Story<AppBarProps> = (args) => <AppBar {...args} />
 Playground.args = {
-  children: 'App Bar - Top'
+  children: 'App Bar - Top',
+  // @ts-ignore
+  style: { position: 'static' }
 }
 
 export const Color: Story<AppBarProps> = (args) => (
@@ -56,7 +59,10 @@ export const Color: Story<AppBarProps> = (args) => (
     <AppBar {...args} color="none">None</AppBar>
   </div>
 )
-Color.args = {}
+
+Color.args = {
+  ...Playground.args
+}
 
 export const Elevation: Story<AppBarProps> = (args) => (
   <div style={{ display: 'flex', gap: 8, flexDirection: 'column' }}>
@@ -64,6 +70,10 @@ export const Elevation: Story<AppBarProps> = (args) => (
     <AppBar {...args} elevation={false}>No Elevation</AppBar>
   </div>
 )
+
+Elevation.args = {
+  ...Playground.args
+}
 
 export const WithLogo: Story<AppBarProps> = (args) => (
   <AppBar {...args}>
@@ -79,3 +89,6 @@ export const WithLogo: Story<AppBarProps> = (args) => (
     </div>
   </AppBar>
 )
+WithLogo.args = {
+  ...Playground.args
+}
