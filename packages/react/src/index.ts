@@ -3,7 +3,6 @@ export { useTheme, createUseStyles } from 'react-jss'
 
 // Components
 export * from './components/AppBarTop'
-export * from './components/AppBarItem'
 export * from './components/Avatar'
 export * from './components/Badge'
 export * from './components/Button'

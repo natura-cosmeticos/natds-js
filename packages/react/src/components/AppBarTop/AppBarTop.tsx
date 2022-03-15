@@ -2,7 +2,7 @@ import React, { useLayoutEffect, useState } from 'react'
 import styles from './AppBarTop.styles'
 import type { AppBarProps } from './AppBarTop.props'
 
-const AppBarTop = React.forwardRef<HTMLDivElement, AppBarProps>(
+const AppBarTop = React.forwardRef<HTMLElement, AppBarProps>(
   (
     {
       className = '',
@@ -11,6 +11,7 @@ const AppBarTop = React.forwardRef<HTMLDivElement, AppBarProps>(
       elevation = true,
       testID,
       children,
+      role,
       ...props
     },
     ref
@@ -46,12 +47,8 @@ const AppBarTop = React.forwardRef<HTMLDivElement, AppBarProps>(
     })
 
     return (
-      <header className={`${className} ${container}`} {...props}>
-        <div
-          className={appBar}
-          data-testid={testID}
-          ref={ref}
-        >
+      <header ref={ref} className={`${className} ${container}`} {...props} role={role} data-testid={testID}>
+        <div className={appBar}>
           {children}
         </div>
       </header>

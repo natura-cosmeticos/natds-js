@@ -43,7 +43,6 @@ const styles = createUseStyles((theme: Theme) => ({
     return {
       ...shared,
       transition: '0.3s ease-in-out',
-      WebkitTransition: '0.3s ease-in-out',
       top: hide ? -1 * (theme.size.mediumX + theme.spacing.micro * 2) : 0
     }
   },
