@@ -1,0 +1,283 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tag component should render correctly with default props 1`] = `
+Array [
+  ".surface-0-2-1 {
+  display: inline-box;
+  padding: 0 8px;
+  position: relative;
+}
+.surface-d0-0-2-2 {
+  background-color: #f4ab34;
+  border-radius: 8px;
+  height: 16px;
+}
+.container-0-2-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content-0-2-4 {
+  padding-left: 4px;
+  padding-right: 8px;
+}
+.label-0-2-5 {
+  font-size: 12px;
+  text-align: center;
+  font-family: Roboto, Arial;
+  font-weight: 400, 400;
+  line-height: 1.25;
+  user-select: none;
+  white-space: nowrap;
+  letter-spacing: 0.38px;
+}
+.label-d0-0-2-6 {
+  color: #333333;
+}",
+  <div>
+    <span
+      class=" surface-0-2-1 surface-d0-0-2-2"
+      text="Design System"
+    >
+      <span
+        class="container-0-2-3"
+      >
+        <span
+          class="label-0-2-5 label-d0-0-2-6"
+        >
+          Design System
+        </span>
+      </span>
+    </span>
+  </div>,
+]
+`;
+
+exports[`Tag component should render correctly with different border 1`] = `
+Array [
+  ".surface-0-2-1 {
+  display: inline-box;
+  padding: 0 8px;
+  position: relative;
+}
+.surface-d0-0-2-2 {
+  background-color: #f4ab34;
+  border-radius: 8px 0px 0px 8px;
+  height: 16px;
+}
+.container-0-2-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content-0-2-4 {
+  padding-left: 4px;
+  padding-right: 8px;
+}
+.label-0-2-5 {
+  font-size: 12px;
+  text-align: center;
+  font-family: Roboto, Arial;
+  font-weight: 400, 400;
+  line-height: 1.25;
+  user-select: none;
+  white-space: nowrap;
+  letter-spacing: 0.38px;
+}
+.label-d0-0-2-6 {
+  color: #333333;
+}",
+  <div>
+    <span
+      class=" surface-0-2-1 surface-d0-0-2-2"
+      text="Design System"
+    >
+      <span
+        class="container-0-2-3"
+      >
+        <span
+          class="label-0-2-5 label-d0-0-2-6"
+        >
+          Design System
+        </span>
+      </span>
+    </span>
+  </div>,
+]
+`;
+
+exports[`Tag component should render correctly with different color 1`] = `
+Array [
+  ".surface-0-2-1 {
+  display: inline-box;
+  padding: 0 8px;
+  position: relative;
+}
+.surface-d0-0-2-2 {
+  background-color: #569a32;
+  border-radius: 8px;
+  height: 16px;
+}
+.container-0-2-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content-0-2-4 {
+  padding-left: 4px;
+  padding-right: 8px;
+}
+.label-0-2-5 {
+  font-size: 12px;
+  text-align: center;
+  font-family: Roboto, Arial;
+  font-weight: 400, 400;
+  line-height: 1.25;
+  user-select: none;
+  white-space: nowrap;
+  letter-spacing: 0.38px;
+}
+.label-d0-0-2-6 {
+  color: #ffffff;
+}",
+  <span
+    class=" surface-0-2-1 surface-d0-0-2-2"
+    data-testid="success-color"
+    text="Design System"
+  >
+    <span
+      class="container-0-2-3"
+    >
+      <span
+        class="label-0-2-5 label-d0-0-2-6"
+      >
+        Design System
+      </span>
+    </span>
+  </span>,
+]
+`;
+
+exports[`Tag component should render correctly with different size 1`] = `
+Array [
+  ".surface-0-2-1 {
+  display: inline-box;
+  padding: 0 8px;
+  position: relative;
+}
+.surface-d0-0-2-2 {
+  background-color: #f4ab34;
+  border-radius: 12px;
+  height: 24px;
+}
+.container-0-2-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content-0-2-4 {
+  padding-left: 4px;
+  padding-right: 8px;
+}
+.label-0-2-5 {
+  font-size: 12px;
+  text-align: center;
+  font-family: Roboto, Arial;
+  font-weight: 400, 400;
+  line-height: 1.25;
+  user-select: none;
+  white-space: nowrap;
+  letter-spacing: 0.38px;
+}
+.label-d0-0-2-6 {
+  color: #333333;
+}",
+  <span
+    class=" surface-0-2-1 surface-d0-0-2-2"
+    data-testid="standard-size"
+    text="Design System"
+  >
+    <span
+      class="container-0-2-3"
+    >
+      <span
+        class="label-0-2-5 label-d0-0-2-6"
+      >
+        Design System
+      </span>
+    </span>
+  </span>,
+]
+`;
+
+exports[`Tag component should render icon only border position is equal to default 1`] = `
+Array [
+  ".surface-0-2-1 {
+  display: inline-box;
+  padding: 0 8px;
+  position: relative;
+}
+.surface-d0-0-2-2 {
+  background-color: #f4ab34;
+  border-radius: 8px;
+  height: 16px;
+}
+.container-0-2-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content-0-2-4 {
+  padding-left: 4px;
+  padding-right: 8px;
+}
+.label-0-2-5 {
+  font-size: 12px;
+  text-align: center;
+  font-family: Roboto, Arial;
+  font-weight: 400, 400;
+  line-height: 1.25;
+  user-select: none;
+  white-space: nowrap;
+  letter-spacing: 0.38px;
+}
+.label-d0-0-2-6 {
+  color: #333333;
+}
+.icon-0-2-7 {
+  font-family: natds-icons;
+  user-select: none;
+  pointer-events: none;
+}
+.icon-d0-0-2-8 {
+  color: #333333;
+  font-size: 16px;
+}",
+  <span
+    class=" surface-0-2-1 surface-d0-0-2-2"
+    data-testid="icon-render"
+    iconcomponent="[object Object]"
+    text="Design System"
+  >
+    <span
+      class="container-0-2-3"
+    >
+      <span
+        class="container-0-2-3 content-0-2-4"
+      >
+        <i
+          aria-hidden="true"
+          class=" icon-0-2-7 icon-d0-0-2-8 natds-icons natds-icons-outlined-default-mockup"
+          data-testid="icon-outlined-default-mockup"
+          role="img"
+        />
+      </span>
+      <span
+        class="label-0-2-5 label-d0-0-2-6"
+      >
+        Design System
+      </span>
+    </span>
+  </span>,
+]
+`;
