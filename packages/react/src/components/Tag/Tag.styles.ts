@@ -5,15 +5,6 @@ import { TagProps } from './Tag.props'
 
 type TagStyleProps = Pick<TagProps, 'size' | 'color' | 'borderPosition' | 'customBackgroundColor' | 'customLabelColor'>
 
-const getHeightStyles = (theme: Theme) => ({ size }: TagStyleProps) => {
-  const height = {
-    small: theme.size.small,
-    standard: theme.size.standard
-  }
-
-  return size && height[size]
-}
-
 const getBorderStyles = (theme: Theme) => ({ borderPosition, size }: TagStyleProps) => {
   const border = {
     default: size && theme.tag[size].borderRadius.enable,
@@ -24,33 +15,21 @@ const getBorderStyles = (theme: Theme) => ({ borderPosition, size }: TagStylePro
   return borderPosition && border[borderPosition]
 }
 
-export const useSurfaceStyles = createUseStyles((theme: Theme) => ({
-  surface: {
-    display: 'inline-box',
-    position: 'relative',
+const styles = createUseStyles((theme: Theme) => ({
+  container: {
+    display: 'flex',
     backgroundColor: ({ customBackgroundColor, color = 'primary' }: TagStyleProps) => (
       customBackgroundColor || theme.tag.color.background[color]
     ),
     borderRadius: getBorderStyles(theme),
-    height: getHeightStyles(theme),
-    padding: `0 ${theme.spacing.tiny}px`
-  }
-}))
-
-export const useContainerStyles = createUseStyles((theme: Theme) => ({
-  container: {
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center'
+    minHeight: ({ size }: TagStyleProps) => size && theme.size[size],
+    padding: [0, theme.spacing.tiny],
+    width: 'fit-content'
   },
   content: {
-    paddingLeft: theme.spacing.micro,
-    paddingRight: theme.spacing.tiny
-  }
-}))
-
-export const useLabelStyles = createUseStyles((theme: Theme) => ({
-  label: {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
     color: ({ customLabelColor, color = 'primary' }: TagStyleProps) => (
       customLabelColor || theme.tag.color.label[color]
     ),
@@ -61,6 +40,8 @@ export const useLabelStyles = createUseStyles((theme: Theme) => ({
     lineHeight: theme.tag.label.lineHeight,
     textAlign: 'center',
     userSelect: 'none',
-    whiteSpace: 'nowrap'
+    gap: theme.spacing.tiny
   }
 }))
+
+export default styles

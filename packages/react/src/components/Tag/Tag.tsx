@@ -1,16 +1,8 @@
 import React from 'react'
-import { useSurfaceStyles, useContainerStyles } from './Tag.styles'
+import styles from './Tag.styles'
 import { TagProps } from './Tag.props'
-import TagIcon from './TagIcon'
-import TagLabel from './TagLabel'
 
-export const renderVariant = (props: TagProps) => {
-  const { borderPosition } = props
-
-  return borderPosition === 'default' ? <TagIcon {...props} borderPosition="default" /> : <TagLabel {...props} />
-}
-
-const Tag = React.forwardRef<HTMLSpanElement, TagProps>(
+const Tag = React.forwardRef<HTMLDivElement, TagProps>(
   (props, ref) => {
     const {
       className = '',
@@ -20,27 +12,25 @@ const Tag = React.forwardRef<HTMLSpanElement, TagProps>(
       borderPosition = 'default',
       customBackgroundColor,
       customLabelColor,
+      children,
       ...rest
     } = props
 
-    const { surface } = useSurfaceStyles({
-      borderPosition, color, size, customBackgroundColor
+    const { container, content } = styles({
+      borderPosition, color, size, customBackgroundColor, customLabelColor
     })
-    const { container } = useContainerStyles()
 
     return (
-      <span
-        className={`${className} ${surface}`}
+      <div
+        className={`${className} ${container}`}
         data-testid={testID}
         ref={ref}
         {...rest}
       >
-        <span className={container}>
-          {renderVariant({
-            ...props, size, color, borderPosition, customBackgroundColor, customLabelColor
-          })}
+        <span className={content}>
+          {children}
         </span>
-      </span>
+      </div>
     )
   }
 )

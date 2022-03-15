@@ -9,12 +9,27 @@ const componentStatus = () => `
 
 **NOTE FOR UXs**: This component is available in the following variants:
 
-  - ❌ Standard
+  - ✅ Standard
 
 With the following attribute statuses:
 
   - **Attributes:**
-    - ❌ \`Types\`
+  - **Position**
+    - ✅ \`center\`
+    - ✅ \`right\`
+    - ✅ \`left\`
+  - **Color**
+    - ✅ \`primary\`
+    - ✅ \`secondary\`
+    - ✅ \`success\`
+    - ✅ \`alert\`
+    - ✅ \`warning\`
+    - ✅ \`link\`
+    - ✅ \`custom\`
+  - **Size**
+    - ✅ \`small\`
+    - ✅ \`standard\`
+    - ✅ **Icon**
 
 - - -
 `
@@ -23,56 +38,56 @@ export default {
   title: 'Components/Tag',
   component: Tag,
   parameters: {
-    componentSubtitle: '',
+    componentSubtitle: 'Tags are used to label, categorize, or organize items using keywords that describe them.',
     docs: { description: { component: componentStatus } }
   }
 } as Meta
 
 export const Playground: Story<TagProps> = (args) => (
-  <Tag {...args} />
+  <div style={{ width: 100 }}>
+    <Tag {...args} />
+  </div>
 )
 Playground.args = {
-  text: 'Design System'
+  children: 'Design System'
 }
 
 export const Position: Story<TagProps> = () => (
   <StoryContainer>
-    <Tag text="Default" />
-    <Tag text="Right" borderPosition="right" />
-    <Tag text="Left" borderPosition="left" />
+    <Tag>default</Tag>
+    <Tag borderPosition="right">right</Tag>
+    <Tag borderPosition="left">left</Tag>
   </StoryContainer>
 )
 
 export const Color: Story<TagProps> = () => (
   <StoryContainer>
-    <Tag text="primary" color="primary" />
-    <Tag text="secondary" color="secondary" />
-    <Tag text="success" color="success" />
-    <Tag text="alert" color="alert" />
-    <Tag text="warning" color="warning" />
-    <Tag text="link" color="link" />
-    <Tag text="custom" customBackgroundColor="#FF00FF" customLabelColor="#FFFFFF" />
+    <Tag color="primary">primary</Tag>
+    <Tag color="secondary">secondary</Tag>
+    <Tag color="success">success</Tag>
+    <Tag color="alert">alert</Tag>
+    <Tag color="warning">warning</Tag>
+    <Tag color="link">link</Tag>
+    <Tag customBackgroundColor="#FF00FF" customLabelColor="#FFFFFF">custom</Tag>
   </StoryContainer>
 )
 
 export const Size: Story<TagProps> = () => (
   <StoryContainer>
-    <Tag text="small" size="small" />
-    <Tag text="standard" size="standard" />
+    <Tag size="small">small</Tag>
+    <Tag size="standard">standard</Tag>
   </StoryContainer>
 )
 
 export const Icon: Story<TagProps> = () => (
   <StoryContainer>
-    <Tag
-      text="small"
-      size="small"
-      IconComponent={<IconElement name="outlined-default-mockup" color="highEmphasis" size="small" />}
-    />
-    <Tag
-      text="standard"
-      size="standard"
-      IconComponent={<IconElement name="outlined-default-mockup" color="highEmphasis" size="standard" />}
-    />
+    <Tag size="small">
+      <IconElement name="outlined-default-mockup" color="highEmphasis" size="small" />
+      small
+    </Tag>
+    <Tag size="standard">
+      <IconElement name="outlined-default-mockup" color="highEmphasis" size="standard" />
+      standard
+    </Tag>
   </StoryContainer>
 )

@@ -5,7 +5,7 @@ import { Icon } from '../Icon'
 import { TagProps } from './Tag.props'
 
 const tagProps: TagProps = {
-  text: 'Design System'
+  children: 'Design System'
 }
 
 describe('Tag component', () => {
@@ -25,7 +25,7 @@ describe('Tag component', () => {
     const { styles, component: { getByTestId } } = renderWithTheme(<Tag {...tagProps} size="standard" testID="standard-size" />)
     const component = getByTestId('standard-size')
 
-    expect(component).toHaveStyle({ height: '24px' })
+    expect(component).toHaveStyle({ 'min-height': '24px' })
     expect([styles.toString(), component]).toMatchSnapshot()
   })
 
@@ -39,12 +39,10 @@ describe('Tag component', () => {
 
   it('should render icon only border position is equal to default', () => {
     const { styles, component: { getByTestId } } = renderWithTheme(
-      <Tag
-        {...tagProps}
-        testID="icon-render"
-        borderPosition="default"
-        IconComponent={<Icon name="outlined-default-mockup" color="highEmphasis" size="small" />}
-      />
+      <Tag testID="icon-render">
+        <Icon name="outlined-default-mockup" color="highEmphasis" size="small" />
+        Design System
+      </Tag>
     )
     const component = getByTestId('icon-render')
     const element = getByTestId('icon-outlined-default-mockup')
