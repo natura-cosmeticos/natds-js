@@ -2,6 +2,7 @@ import { Color, Size } from '@naturacosmeticos/natds-themes'
 
 export type TagColors = keyof Pick<Color, 'primary' | 'secondary' | 'success' | 'alert' | 'warning' | 'link'>
 export type TagSizes = keyof Pick<Size, 'small' | 'standard'>
+
 // It was done that way for the documentation to show types explicitly.
 export type TagPositions = keyof {
   default: 'default';
@@ -20,7 +21,7 @@ export interface TagBaseProps {
    */
   testID?: string;
 
-  /** Optional position of the tag.
+  /** Optional border position of the tag.
    * @default `default`
    * @optional
    */
@@ -44,12 +45,12 @@ export interface TagBaseProps {
    */
   text: string;
 
-  /** Define a label for the tag.
+  /** Define a custom hexadecimal background color.
    * @required
    */
   customBackgroundColor?: string;
 
-  /** Define a label for the tag.
+  /** Define a custom hexadecimal label color.
    * @required
    */
   customLabelColor?: string;
