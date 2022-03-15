@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Drawer component should render correctly with default props 1`] = `
+Array [
+  ".overlayContainer-0-2-1 {}
+.drawer-0-2-2 {}
+.overlayContainer-d0-0-2-3 {
+  width: 100%;
+  height: 100%;
+  z-index: 1100;
+  position: absolute;
+  background-color: #00000080;
+}
+.drawer-d1-0-2-4 {
+  top: 0;
+  left: -280px;
+  width: 280px;
+  height: 100%;
+  z-index: 1200;
+  position: absolute;
+  transform: translateX(280px);
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.14);
+  transition: 0.3s ease-in-out;
+  background-color: #ffffff;
+  -webkit-transform: translateX(280px);
+  -webkit-transition: 0.3s ease-in-out;
+}",
+  <div>
+    <div
+      class="overlayContainer-0-2-1 overlayContainer-d0-0-2-3"
+    />
+    <div
+      class=" drawer-0-2-2 drawer-d1-0-2-4"
+    />
+  </div>,
+]
+`;
