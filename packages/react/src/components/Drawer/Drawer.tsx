@@ -5,7 +5,7 @@ import { DrawerProps } from './Drawer.props'
 const Drawer: React.FC<DrawerProps> = ({
   open,
   className = '',
-  width = 280,
+  width = 256,
   testID,
   elevation = true,
   overlay = true,
