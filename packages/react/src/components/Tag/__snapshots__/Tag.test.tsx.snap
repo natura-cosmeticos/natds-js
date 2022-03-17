@@ -1,5 +1,60 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Tag component should render correctly icon inside the component 1`] = `
+Array [
+  ".container-0-2-1 {
+  display: flex;
+  padding: 0 8px;
+  align-items: center;
+}
+.content-0-2-2 {
+  gap: 8px;
+  overflow: hidden;
+  font-size: 12px;
+  font-family: Roboto, Arial;
+  font-weight: 400, 400;
+  line-height: 1.25;
+  user-select: none;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  letter-spacing: 0.38px;
+}
+.container-d0-0-2-3 {
+  background-color: #f4ab34;
+  border-radius: 8px;
+  height: 16px;
+}
+.content-d1-0-2-4 {
+  color: #333333;
+}
+.icon-0-2-5 {
+  font-family: natds-icons;
+  user-select: none;
+  pointer-events: none;
+}
+.icon-d0-0-2-6 {
+  color: #333333;
+  font-size: 16px;
+}",
+  <div
+    class=" container-0-2-1 container-d0-0-2-3"
+    data-testid="icon-render"
+  >
+    <i
+      aria-hidden="true"
+      class=" icon-0-2-5 icon-d0-0-2-6 natds-icons natds-icons-outlined-default-mockup"
+      data-testid="icon-outlined-default-mockup"
+      role="img"
+    />
+    <span
+      class="content-0-2-2 content-d1-0-2-4"
+    >
+      Design System
+    </span>
+  </div>,
+]
+`;
+
 exports[`Tag component should render correctly with border left 1`] = `
 Array [
   ".container-0-2-1 {
