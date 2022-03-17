@@ -4,6 +4,16 @@ import { createUseStyles } from 'react-jss'
 import type { Theme } from '@naturacosmeticos/natds-themes'
 import type { DrawerProps } from './Drawer.props'
 
+const getSize = ({ size }: DrawerProps) => {
+  const width = {
+    small: 256,
+    medium: 375,
+    large: 600
+  }
+
+  return size ? width[size] : width.small
+}
+
 const styles = createUseStyles((theme: Theme) => ({
   overlayContainer: (props: DrawerProps) => ({
     zIndex: 1100,
@@ -14,7 +24,7 @@ const styles = createUseStyles((theme: Theme) => ({
   }),
 
   drawer: (props: DrawerProps) => {
-    const x = props.open ? props.width! : 0
+    const x = props.open ? getSize(props) : 0
 
     return {
       zIndex: 1200,
@@ -22,8 +32,8 @@ const styles = createUseStyles((theme: Theme) => ({
       top: 0,
       transition: '0.3s ease-in-out',
       WebkitTransition: '0.3s ease-in-out',
-      width: props.width!,
-      left: props.width! * -1,
+      width: getSize(props),
+      left: getSize(props) * -1,
       WebkitTransform: `translateX(${x}px)`,
       transform: `translateX(${x}px)`,
       boxShadow: theme.elevation.small,

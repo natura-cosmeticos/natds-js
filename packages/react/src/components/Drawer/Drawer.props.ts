@@ -18,12 +18,12 @@ export type DrawerProps = {
    */
   overlay?: boolean
   /**
+    * The Drawer's width size
+    * @default small
+  */
+  size?: 'small' | 'medium' | 'large'
+  /**
    * Optional ID for testing
    */
   testID?: string
-  /**
-   * The Drawer's width size
-   * @default 280
-   */
-  width?: number
 }
