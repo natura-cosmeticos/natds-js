@@ -4,7 +4,7 @@ import { Tag, TagProps } from '.'
 import { Icon as IconElement } from '../Icon'
 import StoryContainer from '../../helpers/StoryContainer'
 
-const componentStatus = () => `
+const componentStatus = `
 - - -
 
 **NOTE FOR UXs**: This component is available in the following variants:
@@ -29,7 +29,7 @@ With the following attribute statuses:
   - **Size**
     - ✅ \`small\`
     - ✅ \`standard\`
-    - ✅ **Icon**
+  - ✅ **Icon**
 
 - - -
 `
@@ -43,10 +43,8 @@ export default {
   }
 } as Meta
 
-export const Playground: Story<TagProps> = (args) => (
-  <div style={{ width: 100 }}>
-    <Tag {...args} />
-  </div>
+export const Playground: Story<TagProps> = (args: TagProps) => (
+  <Tag {...args} />
 )
 Playground.args = {
   children: 'Design System'
