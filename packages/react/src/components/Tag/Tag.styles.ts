@@ -16,15 +16,20 @@ const getBorderStyles = (theme: Theme) => ({ position, size }: TagStyleProps) =>
 }
 
 const styles = createUseStyles((theme: Theme) => ({
+  wrapper: {
+    display: 'flex'
+  },
   container: {
     display: 'flex',
     alignItems: 'center',
+    gap: theme.size.tiny,
     backgroundColor: ({ customBackgroundColor, color = 'primary' }: TagStyleProps) => (
       customBackgroundColor || theme.tag.color.background[color]
     ),
     borderRadius: getBorderStyles(theme),
     height: ({ size }: TagStyleProps) => size && theme.size[size],
-    padding: [0, theme.spacing.tiny]
+    padding: [0, theme.spacing.tiny],
+    overflow: 'hidden'
   },
   content: {
     color: ({ customLabelColor, color = 'primary' }: TagStyleProps) => (
@@ -35,7 +40,6 @@ const styles = createUseStyles((theme: Theme) => ({
     fontWeight: [theme.tag.label.primary.fontWeight, theme.tag.label.fallback.fontWeight],
     letterSpacing: theme.tag.label.letterSpacing,
     lineHeight: theme.tag.label.lineHeight,
-    gap: theme.size.tiny,
     userSelect: 'none',
     overflow: 'hidden',
     textOverflow: 'ellipsis',
