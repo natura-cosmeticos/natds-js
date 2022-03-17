@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.23.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.21.3...@naturacosmeticos/natds-react@2.23.0) (2022-03-16)
+
+
+### Features
+
+* **natds-react:** adds new AppBar component ([#1684](https://github.com/natura-cosmeticos/natds-js/issues/1684)) ([0831bb1](https://github.com/natura-cosmeticos/natds-js/commit/0831bb1f8b1c98648ea80afb68b2a1d6fff89739))
+
+
+
+
+
+# [2.22.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.21.3...@naturacosmeticos/natds-react@2.22.0) (2022-03-16)
+
+
+### Features
+
+* **natds-react:** adds new AppBar component ([#1684](https://github.com/natura-cosmeticos/natds-js/issues/1684)) ([0831bb1](https://github.com/natura-cosmeticos/natds-js/commit/0831bb1f8b1c98648ea80afb68b2a1d6fff89739))
+
+
+
+
+
 ## [2.21.3](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.21.2...@naturacosmeticos/natds-react@2.21.3) (2022-03-07)
 
 
