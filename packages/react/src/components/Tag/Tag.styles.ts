@@ -3,33 +3,30 @@ import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { TagProps } from './Tag.props'
 
-type TagStyleProps = Pick<TagProps, 'size' | 'color' | 'borderPosition' | 'customBackgroundColor' | 'customLabelColor'>
+type TagStyleProps = Pick<TagProps, 'size' | 'color' | 'position' | 'customBackgroundColor' | 'customLabelColor'>
 
-const getBorderStyles = (theme: Theme) => ({ borderPosition, size }: TagStyleProps) => {
+const getBorderStyles = (theme: Theme) => ({ position, size }: TagStyleProps) => {
   const border = {
-    default: size && theme.tag[size].borderRadius.enable,
-    right: size && `${theme.tag[size].borderRadius.disable}px ${theme.tag[size].borderRadius.enable}px ${theme.tag[size].borderRadius.enable}px ${theme.tag[size].borderRadius.disable}px`,
-    left: size && `${theme.tag[size].borderRadius.enable}px ${theme.tag[size].borderRadius.disable}px ${theme.tag[size].borderRadius.disable}px ${theme.tag[size].borderRadius.enable}px`
+    center: size && theme.tag[size].borderRadius.enable,
+    left: size && `${theme.tag[size].borderRadius.disable}px ${theme.tag[size].borderRadius.enable}px ${theme.tag[size].borderRadius.enable}px ${theme.tag[size].borderRadius.disable}px`,
+    right: size && `${theme.tag[size].borderRadius.enable}px ${theme.tag[size].borderRadius.disable}px ${theme.tag[size].borderRadius.disable}px ${theme.tag[size].borderRadius.enable}px`
   }
 
-  return borderPosition && border[borderPosition]
+  return position && border[position]
 }
 
 const styles = createUseStyles((theme: Theme) => ({
   container: {
     display: 'flex',
+    alignItems: 'center',
     backgroundColor: ({ customBackgroundColor, color = 'primary' }: TagStyleProps) => (
       customBackgroundColor || theme.tag.color.background[color]
     ),
     borderRadius: getBorderStyles(theme),
-    minHeight: ({ size }: TagStyleProps) => size && theme.size[size],
-    padding: [0, theme.spacing.tiny],
-    width: 'fit-content'
+    height: ({ size }: TagStyleProps) => size && theme.size[size],
+    padding: [0, theme.spacing.tiny]
   },
   content: {
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
     color: ({ customLabelColor, color = 'primary' }: TagStyleProps) => (
       customLabelColor || theme.tag.color.label[color]
     ),
@@ -38,9 +35,11 @@ const styles = createUseStyles((theme: Theme) => ({
     fontWeight: [theme.tag.label.primary.fontWeight, theme.tag.label.fallback.fontWeight],
     letterSpacing: theme.tag.label.letterSpacing,
     lineHeight: theme.tag.label.lineHeight,
-    textAlign: 'center',
+    gap: theme.size.tiny,
     userSelect: 'none',
-    gap: theme.spacing.tiny
+    overflow: 'hidden',
+    textOverflow: 'ellipsis',
+    whiteSpace: 'nowrap'
   }
 }))
 

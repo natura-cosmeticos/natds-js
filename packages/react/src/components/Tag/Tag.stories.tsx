@@ -54,9 +54,9 @@ Playground.args = {
 
 export const Position: Story<TagProps> = () => (
   <StoryContainer>
-    <Tag>default</Tag>
-    <Tag borderPosition="right">right</Tag>
-    <Tag borderPosition="left">left</Tag>
+    <Tag>center</Tag>
+    <Tag position="right">right</Tag>
+    <Tag position="left">left</Tag>
   </StoryContainer>
 )
 
@@ -81,12 +81,16 @@ export const Size: Story<TagProps> = () => (
 
 export const Icon: Story<TagProps> = () => (
   <StoryContainer>
-    <Tag size="small">
-      <IconElement name="outlined-default-mockup" color="highEmphasis" size="small" />
+    <Tag
+      size="small"
+      IconComponent={<IconElement name="outlined-default-mockup" color="highEmphasis" size="small" />}
+    >
       small
     </Tag>
-    <Tag size="standard">
-      <IconElement name="outlined-default-mockup" color="highEmphasis" size="standard" />
+    <Tag
+      size="standard"
+      IconComponent={<IconElement name="outlined-default-mockup" color="highEmphasis" size="standard" />}
+    >
       standard
     </Tag>
   </StoryContainer>

@@ -15,17 +15,23 @@ describe('Tag component', () => {
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
 
-  it('should render correctly with different border', () => {
-    const { styles, component } = renderWithTheme(<Tag {...tagProps} borderPosition="left" />)
+  it('should render correctly with border left', () => {
+    const { styles, component } = renderWithTheme(<Tag {...tagProps} position="left" />)
 
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
 
-  it('should render correctly with different size', () => {
+  it('should render correctly with border right', () => {
+    const { styles, component } = renderWithTheme(<Tag {...tagProps} position="right" />)
+
+    expect([styles.toString(), component.container]).toMatchSnapshot()
+  })
+
+  it('should render correctly with standard size', () => {
     const { styles, component: { getByTestId } } = renderWithTheme(<Tag {...tagProps} size="standard" testID="standard-size" />)
     const component = getByTestId('standard-size')
 
-    expect(component).toHaveStyle({ 'min-height': '24px' })
+    expect(component).toHaveStyle({ height: '24px' })
     expect([styles.toString(), component]).toMatchSnapshot()
   })
 
@@ -37,10 +43,12 @@ describe('Tag component', () => {
     expect([styles.toString(), component]).toMatchSnapshot()
   })
 
-  it('should render icon only border position is equal to default', () => {
+  it('should render correctly icon inside the component', () => {
     const { styles, component: { getByTestId } } = renderWithTheme(
-      <Tag testID="icon-render">
-        <Icon name="outlined-default-mockup" color="highEmphasis" size="small" />
+      <Tag
+        testID="icon-render"
+        IconComponent={<Icon name="outlined-default-mockup" color="highEmphasis" size="small" />}
+      >
         Design System
       </Tag>
     )

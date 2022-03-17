@@ -1,29 +1,28 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Tag component should render correctly with default props 1`] = `
+exports[`Tag component should render correctly with border left 1`] = `
 Array [
   ".container-0-2-1 {
-  width: fit-content;
   display: flex;
   padding: 0 8px;
+  align-items: center;
 }
 .content-0-2-2 {
   gap: 8px;
-  display: flex;
+  overflow: hidden;
   font-size: 12px;
-  text-align: center;
-  align-items: center;
   font-family: Roboto, Arial;
   font-weight: 400, 400;
   line-height: 1.25;
   user-select: none;
+  white-space: nowrap;
+  text-overflow: ellipsis;
   letter-spacing: 0.38px;
-  justify-content: center;
 }
 .container-d0-0-2-3 {
   background-color: #f4ab34;
-  border-radius: 8px;
-  min-height: 16px;
+  border-radius: 0px 8px 8px 0px;
+  height: 16px;
 }
 .content-d1-0-2-4 {
   color: #333333;
@@ -42,30 +41,70 @@ Array [
 ]
 `;
 
-exports[`Tag component should render correctly with different border 1`] = `
+exports[`Tag component should render correctly with border right 1`] = `
 Array [
   ".container-0-2-1 {
-  width: fit-content;
   display: flex;
   padding: 0 8px;
+  align-items: center;
 }
 .content-0-2-2 {
   gap: 8px;
-  display: flex;
+  overflow: hidden;
   font-size: 12px;
-  text-align: center;
-  align-items: center;
   font-family: Roboto, Arial;
   font-weight: 400, 400;
   line-height: 1.25;
   user-select: none;
+  white-space: nowrap;
+  text-overflow: ellipsis;
   letter-spacing: 0.38px;
-  justify-content: center;
 }
 .container-d0-0-2-3 {
   background-color: #f4ab34;
   border-radius: 8px 0px 0px 8px;
-  min-height: 16px;
+  height: 16px;
+}
+.content-d1-0-2-4 {
+  color: #333333;
+}",
+  <div>
+    <div
+      class=" container-0-2-1 container-d0-0-2-3"
+    >
+      <span
+        class="content-0-2-2 content-d1-0-2-4"
+      >
+        Design System
+      </span>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Tag component should render correctly with default props 1`] = `
+Array [
+  ".container-0-2-1 {
+  display: flex;
+  padding: 0 8px;
+  align-items: center;
+}
+.content-0-2-2 {
+  gap: 8px;
+  overflow: hidden;
+  font-size: 12px;
+  font-family: Roboto, Arial;
+  font-weight: 400, 400;
+  line-height: 1.25;
+  user-select: none;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  letter-spacing: 0.38px;
+}
+.container-d0-0-2-3 {
+  background-color: #f4ab34;
+  border-radius: 8px;
+  height: 16px;
 }
 .content-d1-0-2-4 {
   color: #333333;
@@ -87,27 +126,26 @@ Array [
 exports[`Tag component should render correctly with different color 1`] = `
 Array [
   ".container-0-2-1 {
-  width: fit-content;
   display: flex;
   padding: 0 8px;
+  align-items: center;
 }
 .content-0-2-2 {
   gap: 8px;
-  display: flex;
+  overflow: hidden;
   font-size: 12px;
-  text-align: center;
-  align-items: center;
   font-family: Roboto, Arial;
   font-weight: 400, 400;
   line-height: 1.25;
   user-select: none;
+  white-space: nowrap;
+  text-overflow: ellipsis;
   letter-spacing: 0.38px;
-  justify-content: center;
 }
 .container-d0-0-2-3 {
   background-color: #569a32;
   border-radius: 8px;
-  min-height: 16px;
+  height: 16px;
 }
 .content-d1-0-2-4 {
   color: #ffffff;
@@ -125,30 +163,29 @@ Array [
 ]
 `;
 
-exports[`Tag component should render correctly with different size 1`] = `
+exports[`Tag component should render correctly with standard size 1`] = `
 Array [
   ".container-0-2-1 {
-  width: fit-content;
   display: flex;
   padding: 0 8px;
+  align-items: center;
 }
 .content-0-2-2 {
   gap: 8px;
-  display: flex;
+  overflow: hidden;
   font-size: 12px;
-  text-align: center;
-  align-items: center;
   font-family: Roboto, Arial;
   font-weight: 400, 400;
   line-height: 1.25;
   user-select: none;
+  white-space: nowrap;
+  text-overflow: ellipsis;
   letter-spacing: 0.38px;
-  justify-content: center;
 }
 .container-d0-0-2-3 {
   background-color: #f4ab34;
   border-radius: 12px;
-  min-height: 24px;
+  height: 24px;
 }
 .content-d1-0-2-4 {
   color: #333333;
@@ -169,27 +206,26 @@ Array [
 exports[`Tag component should render icon only border position is equal to default 1`] = `
 Array [
   ".container-0-2-1 {
-  width: fit-content;
   display: flex;
   padding: 0 8px;
+  align-items: center;
 }
 .content-0-2-2 {
   gap: 8px;
-  display: flex;
+  overflow: hidden;
   font-size: 12px;
-  text-align: center;
-  align-items: center;
   font-family: Roboto, Arial;
   font-weight: 400, 400;
   line-height: 1.25;
   user-select: none;
+  white-space: nowrap;
+  text-overflow: ellipsis;
   letter-spacing: 0.38px;
-  justify-content: center;
 }
 .container-d0-0-2-3 {
   background-color: #f4ab34;
   border-radius: 8px;
-  min-height: 16px;
+  height: 16px;
 }
 .content-d1-0-2-4 {
   color: #333333;
@@ -207,15 +243,15 @@ Array [
     class=" container-0-2-1 container-d0-0-2-3"
     data-testid="icon-render"
   >
+    <i
+      aria-hidden="true"
+      class=" icon-0-2-5 icon-d0-0-2-6 natds-icons natds-icons-outlined-default-mockup"
+      data-testid="icon-outlined-default-mockup"
+      role="img"
+    />
     <span
       class="content-0-2-2 content-d1-0-2-4"
     >
-      <i
-        aria-hidden="true"
-        class=" icon-0-2-5 icon-d0-0-2-6 natds-icons natds-icons-outlined-default-mockup"
-        data-testid="icon-outlined-default-mockup"
-        role="img"
-      />
       Design System
     </span>
   </div>,

@@ -9,15 +9,16 @@ const Tag = React.forwardRef<HTMLDivElement, TagProps>(
       testID,
       size = 'small',
       color = 'primary',
-      borderPosition = 'default',
+      position = 'center',
       customBackgroundColor,
       customLabelColor,
       children,
+      IconComponent,
       ...rest
     } = props
 
     const { container, content } = styles({
-      borderPosition, color, size, customBackgroundColor, customLabelColor
+      position, color, size, customBackgroundColor, customLabelColor
     })
 
     return (
@@ -27,6 +28,7 @@ const Tag = React.forwardRef<HTMLDivElement, TagProps>(
         ref={ref}
         {...rest}
       >
+        <>{IconComponent}</>
         <span className={content}>
           {children}
         </span>

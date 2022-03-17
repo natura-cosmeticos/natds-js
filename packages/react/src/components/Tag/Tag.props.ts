@@ -2,7 +2,7 @@ import { Color, Size } from '@naturacosmeticos/natds-themes'
 
 export type TagColors = keyof Pick<Color, 'primary' | 'secondary' | 'success' | 'alert' | 'warning' | 'link'>
 export type TagSizes = keyof Pick<Size, 'small' | 'standard'>
-export type TagPositions = 'default' | 'left' | 'right'
+export type TagPositions = 'center' | 'left' | 'right'
 
 export interface TagProps {
   /**
@@ -16,10 +16,10 @@ export interface TagProps {
   testID?: string;
 
   /** Optional border position of the tag.
-   * @default `default`
+   * @default `center`
    * @optional
    */
-  borderPosition?: TagPositions;
+  position?: TagPositions;
 
   /** Optional size of the tag.
    * @default `small`
@@ -48,4 +48,9 @@ export interface TagProps {
    * @required
    */
   children?: React.ReactNode;
+
+  /**
+   * Element to be rendered inside the Tag
+   */
+  IconComponent?: React.ReactElement
 }
