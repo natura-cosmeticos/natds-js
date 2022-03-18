@@ -2,32 +2,24 @@ import React from 'react'
 import styles from './Drawer.styles'
 import { DrawerProps } from './Drawer.props'
 
-const Drawer: React.FC<DrawerProps> = ({
-  open,
+const Drawer = React.forwardRef<HTMLDivElement, DrawerProps>(({
   className = '',
-  size = 'small',
   testID,
-  elevation = true,
-  overlay = true,
   ...props
-}) => {
-  const { overlayContainer, drawer } = styles({
-    open,
-    size,
-    elevation,
-    overlay
-  })
+}, ref) => {
+  const { overlayContainer, drawer } = styles(props)
 
   return (
     <>
-      <div className={overlayContainer} />
       <div
-        {...props}
         className={`${className} ${drawer}`}
         data-testid={testID}
+        ref={ref}
+        {...props}
       />
+      <div className={overlayContainer} />
     </>
   )
-}
+})
 
 export default Drawer

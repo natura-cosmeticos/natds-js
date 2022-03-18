@@ -5,35 +5,41 @@ Array [
   ".overlayContainer-0-2-1 {}
 .drawer-0-2-2 {}
 .overlayContainer-d0-0-2-3 {
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  z-index: 1100;
-  position: absolute;
-  background-color: #00000080;
+  opacity: 0.56;
+  z-index: 1199;
+  position: fixed;
+  background-color: #000000;
 }
 .drawer-d1-0-2-4 {
   top: 0;
   left: -256px;
   width: 256px;
   height: 100%;
+  display: flex;
   z-index: 1200;
+  overflow: hidden;
   position: absolute;
+  flex-flow: column nowrap;
   transform: translateX(256px);
   box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.14);
   transition: 0.3s ease-in-out;
+  justify-content: space-between;
   background-color: #ffffff;
-  -webkit-transform: translateX(256px);
-  -webkit-transition: 0.3s ease-in-out;
 }",
   <div>
     <div
-      class="overlayContainer-0-2-1 overlayContainer-d0-0-2-3"
-    />
-    <div
       class=" drawer-0-2-2 drawer-d1-0-2-4"
+      open=""
     >
       something
     </div>
+    <div
+      class="overlayContainer-0-2-1 overlayContainer-d0-0-2-3"
+    />
   </div>,
 ]
 `;
@@ -43,35 +49,41 @@ Array [
   ".overlayContainer-0-2-1 {}
 .drawer-0-2-2 {}
 .overlayContainer-d0-0-2-3 {
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  z-index: 1100;
-  position: absolute;
-  background-color: #00000080;
+  opacity: 0.56;
+  z-index: 1199;
+  position: fixed;
+  background-color: #000000;
 }
 .drawer-d1-0-2-4 {
   top: 0;
   left: -600px;
   width: 600px;
   height: 100%;
+  display: flex;
   z-index: 1200;
+  overflow: hidden;
   position: absolute;
+  flex-flow: column nowrap;
   transform: translateX(600px);
   box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.14);
   transition: 0.3s ease-in-out;
+  justify-content: space-between;
   background-color: #ffffff;
-  -webkit-transform: translateX(600px);
-  -webkit-transition: 0.3s ease-in-out;
 }",
   <div>
     <div
-      class="overlayContainer-0-2-1 overlayContainer-d0-0-2-3"
-    />
-    <div
       class=" drawer-0-2-2 drawer-d1-0-2-4"
+      open=""
     >
       something
     </div>
+    <div
+      class="overlayContainer-0-2-1 overlayContainer-d0-0-2-3"
+    />
   </div>,
 ]
 `;
@@ -81,35 +93,41 @@ Array [
   ".overlayContainer-0-2-1 {}
 .drawer-0-2-2 {}
 .overlayContainer-d0-0-2-3 {
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  z-index: 1100;
-  position: absolute;
-  background-color: #00000080;
+  opacity: 0.56;
+  z-index: 1199;
+  position: fixed;
+  background-color: #000000;
 }
 .drawer-d1-0-2-4 {
   top: 0;
   left: -375px;
   width: 375px;
   height: 100%;
+  display: flex;
   z-index: 1200;
+  overflow: hidden;
   position: absolute;
+  flex-flow: column nowrap;
   transform: translateX(375px);
   box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.14);
   transition: 0.3s ease-in-out;
+  justify-content: space-between;
   background-color: #ffffff;
-  -webkit-transform: translateX(375px);
-  -webkit-transition: 0.3s ease-in-out;
 }",
   <div>
     <div
-      class="overlayContainer-0-2-1 overlayContainer-d0-0-2-3"
-    />
-    <div
       class=" drawer-0-2-2 drawer-d1-0-2-4"
+      open=""
     >
       something
     </div>
+    <div
+      class="overlayContainer-0-2-1 overlayContainer-d0-0-2-3"
+    />
   </div>,
 ]
 `;
