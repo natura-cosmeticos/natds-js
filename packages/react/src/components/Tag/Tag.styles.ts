@@ -22,7 +22,7 @@ const styles = createUseStyles((theme: Theme) => ({
   container: {
     display: 'flex',
     alignItems: 'center',
-    gap: theme.size.tiny,
+    gap: theme.size.micro,
     backgroundColor: ({ customBackgroundColor, color = 'primary' }: TagStyleProps) => (
       customBackgroundColor || theme.tag.color.background[color]
     ),

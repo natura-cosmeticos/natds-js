@@ -16,20 +16,20 @@ export interface TagProps {
   testID?: string;
 
   /** Optional border position of the tag.
-   * @default `center`
+   * @default center
    * @optional
    */
   position?: TagPositions;
 
   /** Optional size of the tag.
-   * @default `small`
+   * @default small
    * @optional
    */
   size?: TagSizes;
 
   /**
    * Optional color of the tag.
-   * @default `primary`
+   * @default primary
    * @optional
    */
   color?: TagColors;
