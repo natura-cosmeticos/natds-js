@@ -18,7 +18,7 @@ const componentStatus = `
 
 **NOTE FOR UX**: This component is available in the following variants:
 
-  - ❌ \`base\`
+  - ✅ \`base\`
   - ❌ \`standard\`
 
 With the following attribute status:
@@ -44,8 +44,71 @@ export default {
   }
 } as Meta
 
+export const Playground: Story<DrawerProps> = (args) => {
+  const [showDrawer, setShowDrawer] = useState(true)
+  const {
+    footer,
+    header,
+    headerButton,
+    headerTitle,
+    main,
+    sectionItem
+  } = styles()
+
+  return (
+    <>
+      <Button onClick={() => setShowDrawer(!showDrawer)}>Open Drawer</Button>
+      <Drawer {...args} open={showDrawer}>
+        <div className={header}>
+          <Avatar type="image" src="https://pbs.twimg.com/profile_images/1493260750386835462/Z13XvXbo_400x400.jpg" alt="avatar" />
+          <h6 className={headerTitle}>Hello, Design System</h6>
+          <div className={headerButton}>
+            <IconButton
+              onClick={() => setShowDrawer(!showDrawer)}
+              ariaLabel="close drawer"
+              IconComponent={<Icon name="outlined-navigation-close" />}
+            />
+          </div>
+        </div>
+        <Divider />
+        <div className={main}>
+          <ul style={{ padding: 0, margin: 0, width: '100%' }}>
+            {items.body.map((item, id) => (
+              <ListItem key={id} interaction="action">
+                <div style={{ display: 'flex', gap: 16, alignItems: 'center' }}>
+                  <Icon name={item.icon as IconName} />
+                  <span className={sectionItem}>
+                    {item.name}
+                    {item.new && <Badge variant="pulse" />}
+                  </span>
+                </div>
+              </ListItem>
+            ))}
+          </ul>
+        </div>
+        <div className={footer}>
+          <Divider />
+          <ul style={{ padding: 0, margin: 0, overflow: 'auto' }}>
+            {items.footer.map((item, id) => (
+              <ListItem key={id} interaction="action">
+                <div style={{ display: 'flex', gap: 16, alignItems: 'center' }}>
+                  <Icon name={item.icon as IconName} />
+                  <span className={sectionItem}>
+                    {item.name}
+                    {item.new && <Badge variant="pulse" />}
+                  </span>
+                </div>
+              </ListItem>
+            ))}
+          </ul>
+        </div>
+      </Drawer>
+    </>
+  )
+}
+
 const items = {
-  header: [
+  body: [
     {
       name: 'Favorites',
       icon: 'outlined-action-love',
@@ -65,9 +128,7 @@ const items = {
       name: 'Orders',
       icon: 'outlined-action-request',
       new: false
-    }
-  ],
-  body: [
+    },
     {
       name: 'Gifts',
       icon: 'outlined-content-gift',
@@ -81,11 +142,6 @@ const items = {
     {
       name: 'Body',
       icon: 'outlined-product-dailycare',
-      new: false
-    },
-    {
-      name: 'Hair',
-      icon: 'outlined-product-hair',
       new: false
     },
     {
@@ -119,20 +175,6 @@ const items = {
 }
 
 const styles = createUseStyles((theme: Theme) => ({
-  headerTitle: {
-    fontFamily: [
-      theme.navigationDrawer.header.title.primary.fontFamily,
-      theme.navigationDrawer.header.title.fallback.fontFamily
-    ],
-    fontWeight: [
-      theme.navigationDrawer.header.title.primary.fontWeight,
-      theme.navigationDrawer.header.title.fallback.fontWeight
-    ],
-    fontSize: theme.navigationDrawer.header.title.fontSize,
-    letterSpacing: theme.navigationDrawer.header.title.letterSpacing,
-    lineHeight: theme.navigationDrawer.header.title.lineHeight,
-    margin: [16, 0]
-  },
   sectionItem: {
     fontFamily: [
       theme.navigationDrawer.section.item.primary.fontFamily,
@@ -148,10 +190,9 @@ const styles = createUseStyles((theme: Theme) => ({
     display: 'flex',
     gap: theme.spacing.micro
   },
-  footer: {
-    position: 'absolute',
-    bottom: 0,
-    width: '100%'
+  footer: {},
+  header: {
+    padding: theme.spacing.small
   },
   headerButton: {
     display: 'flex',
@@ -160,79 +201,23 @@ const styles = createUseStyles((theme: Theme) => ({
     position: 'absolute',
     top: 0,
     right: 0
+  },
+  headerTitle: {
+    fontFamily: [
+      theme.navigationDrawer.header.title.primary.fontFamily,
+      theme.navigationDrawer.header.title.fallback.fontFamily
+    ],
+    fontWeight: theme.navigationDrawer.header.title.primary.fontWeight,
+    fontSize: theme.navigationDrawer.header.title.fontSize,
+    letterSpacing: theme.navigationDrawer.header.title.letterSpacing,
+    lineHeight: theme.navigationDrawer.header.title.lineHeight,
+    margin: [theme.spacing.small, 0, theme.spacing.micro]
+  },
+  main: {
+    flex: '1 1 auto',
+    display: 'flex',
+    overflow: 'hidden',
+    position: 'relative',
+    overflowY: 'auto'
   }
 }))
-
-export const Playground: Story<DrawerProps> = (args) => {
-  const [showDrawer, setShowDrawer] = useState(true)
-  const {
-    headerTitle, headerButton, sectionItem, footer
-  } = styles()
-
-  return (
-    <>
-      <Button onClick={() => setShowDrawer(!showDrawer)}>Open Drawer</Button>
-      <Drawer {...args} open={showDrawer}>
-        <header>
-          <div style={{ padding: 8 }}>
-            <Avatar type="image" src="https://pbs.twimg.com/profile_images/1493260750386835462/Z13XvXbo_400x400.jpg" alt="avatar" />
-            <h6 className={headerTitle}>Hello, Design System</h6>
-          </div>
-          <div className={headerButton}>
-            <IconButton
-              onClick={() => setShowDrawer(!showDrawer)}
-              ariaLabel="close drawer"
-              IconComponent={<Icon name="outlined-navigation-close" />}
-            />
-          </div>
-        </header>
-        <div>
-          <Divider />
-          <ul style={{ padding: 0, margin: 0 }}>
-            {items.header.map((item, id) => (
-              <ListItem key={id} interaction="action">
-                <div style={{ display: 'flex', gap: 16, alignItems: 'center' }}>
-                  <Icon name={item.icon as IconName} />
-                  <span className={sectionItem}>
-                    {item.name}
-                    {item.new && <Badge variant="pulse" />}
-                  </span>
-                </div>
-              </ListItem>
-            ))}
-          </ul>
-          <Divider />
-          <ul style={{ padding: 0, margin: 0 }}>
-            {items.body.map((item, id) => (
-              <ListItem key={id} interaction="action">
-                <div style={{ display: 'flex', gap: 16, alignItems: 'center' }}>
-                  <Icon name={item.icon as IconName} />
-                  <span className={sectionItem}>
-                    {item.name}
-                    {item.new && <Badge variant="pulse" />}
-                  </span>
-                </div>
-              </ListItem>
-            ))}
-          </ul>
-        </div>
-        <footer className={footer}>
-          <Divider />
-          <ul style={{ padding: 0, margin: 0 }}>
-            {items.footer.map((item, id) => (
-              <ListItem key={id} interaction="action">
-                <div style={{ display: 'flex', gap: 16, alignItems: 'center' }}>
-                  <Icon name={item.icon as IconName} />
-                  <span className={sectionItem}>
-                    {item.name}
-                    {item.new && <Badge variant="pulse" />}
-                  </span>
-                </div>
-              </ListItem>
-            ))}
-          </ul>
-        </footer>
-      </Drawer>
-    </>
-  )
-}
