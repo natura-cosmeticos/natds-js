@@ -4,11 +4,17 @@ export type CollapseProps = {
    */
   className?: string
   /**
-   * If `true`, the collapsed content will be shown, it'll be hidden otherwise
+   * Controls when the content should be show or hide
+   * @default false
    */
-  open: boolean
+  open?: boolean
   /**
    * Optional ID for testing
    */
   testID?: string
+
+  /**
+   * The content of collapse
+   */
+  children: React.ReactNode
 }

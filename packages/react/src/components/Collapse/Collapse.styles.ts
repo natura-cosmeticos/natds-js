@@ -2,7 +2,7 @@ import { createUseStyles } from 'react-jss'
 import type { CollapseProps } from './Collapse.props'
 
 const styles = createUseStyles({
-  collapse: ({ open }: CollapseProps) => ({
+  collapse: ({ open = false }: CollapseProps) => ({
     overflow: 'hidden',
     height: open ? 'auto' : 0,
     /**
