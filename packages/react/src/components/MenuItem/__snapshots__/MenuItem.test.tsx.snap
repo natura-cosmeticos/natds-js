@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MenuItem component should render correctly with default props 1`] = `
+Array [
+  ".menuItem-0-2-1 {}
+.menuItem-d0-0-2-2 {
+  color: #333333;
+  width: 100%;
+  cursor: pointer;
+  height: 40px;
+  display: flex;
+  padding: 0 16px;
+  font-size: 16px;
+  list-style: none;
+  align-items: center;
+  border-left: none;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.51px;
+}
+.menuItem-d0-0-2-2:hover {
+  background-color: #f1f3f5;
+}
+.menuItem-d0-0-2-2:focus {
+  background-color: #e9ecef;
+}",
+  <div>
+    <li
+      class=" menuItem-0-2-1 menuItem-d0-0-2-2"
+      tabindex="0"
+    >
+      <a>
+        Menu Item
+      </a>
+    </li>
+  </div>,
+]
+`;
