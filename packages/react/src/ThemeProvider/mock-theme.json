@@ -391,8 +391,8 @@
   },
   "image": {
     "borderRadius": {
-      "enable": 4,
-      "disable": 0
+      "medium": 4,
+      "none": 0
     }
   },
   "link": {
@@ -626,12 +626,12 @@
       "color": {
         "enable": {
           "primary": {
-            "background": "#ffffff",
+            "background": "#FFFFFF00",
             "border": "#f4ab34",
             "label": "#333333"
           },
           "neutral": {
-            "background": "#ffffff",
+            "background": "#FFFFFF00",
             "border": "#bbbbbb",
             "label": "#333333"
           }
