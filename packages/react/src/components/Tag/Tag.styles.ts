@@ -37,7 +37,7 @@ const styles = createUseStyles((theme: Theme) => ({
     ),
     fontFamily: [theme.tag.label.primary.fontFamily, theme.tag.label.fallback.fontFamily],
     fontSize: theme.tag.label.fontSize,
-    fontWeight: [theme.tag.label.primary.fontWeight, theme.tag.label.fallback.fontWeight],
+    fontWeight: theme.tag.label.primary.fontWeight,
     letterSpacing: theme.tag.label.letterSpacing,
     lineHeight: theme.tag.label.lineHeight,
     userSelect: 'none',
