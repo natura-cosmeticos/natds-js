@@ -5,7 +5,7 @@ import { Icon } from '../Icon'
 import StoryContainer from '../../helpers/StoryContainer'
 import Badge from '../Badge'
 
-const componentStatus = () => `
+const componentStatus = `
 - - -
 
 **NOTE FOR UXs**: This component is available in the following variants:
