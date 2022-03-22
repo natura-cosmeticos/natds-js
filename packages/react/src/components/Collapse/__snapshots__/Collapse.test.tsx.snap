@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Collapse component should render correctly with default props and closed 1`] = `
+Array [
+  ".collapse-0-2-1 {}
+.collapse-d0-0-2-2 {
+  height: 0;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s ease-in-out;
+}",
+  <div>
+    <div
+      class=" collapse-0-2-1 collapse-d0-0-2-2"
+    >
+      something
+    </div>
+  </div>,
+]
+`;
+
+exports[`Collapse component should render correctly with default props and opened 1`] = `
+Array [
+  ".collapse-0-2-1 {}
+.collapse-d0-0-2-2 {
+  height: auto;
+  overflow: hidden;
+  max-height: 100vh;
+  transition: max-height 0.3s ease-in-out;
+}",
+  <div>
+    <div
+      class=" collapse-0-2-1 collapse-d0-0-2-2"
+      open=""
+    >
+      something
+    </div>
+  </div>,
+]
+`;
