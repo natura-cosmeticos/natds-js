@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.24.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.23.0...@naturacosmeticos/natds-react@2.24.0) (2022-03-22)
+
+
+### Features
+
+* **natds-react:** adds new Tag component ([#1685](https://github.com/natura-cosmeticos/natds-js/issues/1685)) ([c3ce5bd](https://github.com/natura-cosmeticos/natds-js/commit/c3ce5bd32983507217306826dcf91ba33ffd771f))
+
+
+
+
+
 # [2.23.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.21.3...@naturacosmeticos/natds-react@2.23.0) (2022-03-16)
 
 
