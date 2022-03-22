@@ -1,0 +1,295 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tag component should render correctly icon inside the component 1`] = `
+Array [
+  ".wrapper-0-2-1 {
+  display: flex;
+}
+.container-0-2-2 {
+  gap: 4px;
+  display: flex;
+  padding: 0 8px;
+  overflow: hidden;
+  align-items: center;
+}
+.content-0-2-3 {
+  overflow: hidden;
+  font-size: 12px;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  user-select: none;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  letter-spacing: 0.38px;
+}
+.container-d0-0-2-4 {
+  background-color: #f4ab34;
+  border-radius: 8px;
+  height: 16px;
+}
+.content-d1-0-2-5 {
+  color: #333333;
+}
+.icon-0-2-6 {
+  font-family: natds-icons;
+  user-select: none;
+  pointer-events: none;
+}
+.icon-d0-0-2-7 {
+  color: #333333;
+  font-size: 16px;
+}",
+  <div
+    class=" container-0-2-2 container-d0-0-2-4"
+    data-testid="icon-render"
+  >
+    <i
+      aria-hidden="true"
+      class=" icon-0-2-6 icon-d0-0-2-7 natds-icons natds-icons-outlined-default-mockup"
+      data-testid="icon-outlined-default-mockup"
+      role="img"
+    />
+    <span
+      class="content-0-2-3 content-d1-0-2-5"
+    >
+      Design System
+    </span>
+  </div>,
+]
+`;
+
+exports[`Tag component should render correctly with border left 1`] = `
+Array [
+  ".wrapper-0-2-1 {
+  display: flex;
+}
+.container-0-2-2 {
+  gap: 4px;
+  display: flex;
+  padding: 0 8px;
+  overflow: hidden;
+  align-items: center;
+}
+.content-0-2-3 {
+  overflow: hidden;
+  font-size: 12px;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  user-select: none;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  letter-spacing: 0.38px;
+}
+.container-d0-0-2-4 {
+  background-color: #f4ab34;
+  border-radius: 0px 8px 8px 0px;
+  height: 16px;
+}
+.content-d1-0-2-5 {
+  color: #333333;
+}",
+  <div>
+    <div
+      class="wrapper-0-2-1"
+    >
+      <div
+        class=" container-0-2-2 container-d0-0-2-4"
+      >
+        <span
+          class="content-0-2-3 content-d1-0-2-5"
+        >
+          Design System
+        </span>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Tag component should render correctly with border right 1`] = `
+Array [
+  ".wrapper-0-2-1 {
+  display: flex;
+}
+.container-0-2-2 {
+  gap: 4px;
+  display: flex;
+  padding: 0 8px;
+  overflow: hidden;
+  align-items: center;
+}
+.content-0-2-3 {
+  overflow: hidden;
+  font-size: 12px;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  user-select: none;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  letter-spacing: 0.38px;
+}
+.container-d0-0-2-4 {
+  background-color: #f4ab34;
+  border-radius: 8px 0px 0px 8px;
+  height: 16px;
+}
+.content-d1-0-2-5 {
+  color: #333333;
+}",
+  <div>
+    <div
+      class="wrapper-0-2-1"
+    >
+      <div
+        class=" container-0-2-2 container-d0-0-2-4"
+      >
+        <span
+          class="content-0-2-3 content-d1-0-2-5"
+        >
+          Design System
+        </span>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Tag component should render correctly with default props 1`] = `
+Array [
+  ".wrapper-0-2-1 {
+  display: flex;
+}
+.container-0-2-2 {
+  gap: 4px;
+  display: flex;
+  padding: 0 8px;
+  overflow: hidden;
+  align-items: center;
+}
+.content-0-2-3 {
+  overflow: hidden;
+  font-size: 12px;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  user-select: none;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  letter-spacing: 0.38px;
+}
+.container-d0-0-2-4 {
+  background-color: #f4ab34;
+  border-radius: 8px;
+  height: 16px;
+}
+.content-d1-0-2-5 {
+  color: #333333;
+}",
+  <div>
+    <div
+      class="wrapper-0-2-1"
+    >
+      <div
+        class=" container-0-2-2 container-d0-0-2-4"
+      >
+        <span
+          class="content-0-2-3 content-d1-0-2-5"
+        >
+          Design System
+        </span>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Tag component should render correctly with different color 1`] = `
+Array [
+  ".wrapper-0-2-1 {
+  display: flex;
+}
+.container-0-2-2 {
+  gap: 4px;
+  display: flex;
+  padding: 0 8px;
+  overflow: hidden;
+  align-items: center;
+}
+.content-0-2-3 {
+  overflow: hidden;
+  font-size: 12px;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  user-select: none;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  letter-spacing: 0.38px;
+}
+.container-d0-0-2-4 {
+  background-color: #569a32;
+  border-radius: 8px;
+  height: 16px;
+}
+.content-d1-0-2-5 {
+  color: #ffffff;
+}",
+  <div
+    class=" container-0-2-2 container-d0-0-2-4"
+    data-testid="success-color"
+  >
+    <span
+      class="content-0-2-3 content-d1-0-2-5"
+    >
+      Design System
+    </span>
+  </div>,
+]
+`;
+
+exports[`Tag component should render correctly with standard size 1`] = `
+Array [
+  ".wrapper-0-2-1 {
+  display: flex;
+}
+.container-0-2-2 {
+  gap: 4px;
+  display: flex;
+  padding: 0 8px;
+  overflow: hidden;
+  align-items: center;
+}
+.content-0-2-3 {
+  overflow: hidden;
+  font-size: 12px;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  user-select: none;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  letter-spacing: 0.38px;
+}
+.container-d0-0-2-4 {
+  background-color: #f4ab34;
+  border-radius: 12px;
+  height: 24px;
+}
+.content-d1-0-2-5 {
+  color: #333333;
+}",
+  <div
+    class=" container-0-2-2 container-d0-0-2-4"
+    data-testid="standard-size"
+  >
+    <span
+      class="content-0-2-3 content-d1-0-2-5"
+    >
+      Design System
+    </span>
+  </div>,
+]
+`;
