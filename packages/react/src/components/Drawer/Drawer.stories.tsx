@@ -18,7 +18,7 @@ const componentStatus = `
 
 **NOTE FOR UX**: This component is available in the following variants:
 
-  - ❌ \`base\`
+  - ❌ \`modal\`
   - ✅ \`standard\`
 
 With the following attribute status:
@@ -32,6 +32,7 @@ With the following attribute status:
       - ✅ \`small\`
       - ✅ \`medium\`
       - ✅ \`large\`
+
 ---
 `
 
