@@ -18,8 +18,8 @@ const componentStatus = `
 
 **NOTE FOR UX**: This component is available in the following variants:
 
-  - ✅ \`base\`
-  - ❌ \`standard\`
+  - ❌ \`base\`
+  - ✅ \`standard\`
 
 With the following attribute status:
 
