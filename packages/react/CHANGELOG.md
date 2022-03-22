@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.26.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.25.0...@naturacosmeticos/natds-react@2.26.0) (2022-03-22)
+
+
+### Features
+
+* **natds-react:** adds new Drawer component ([#1686](https://github.com/natura-cosmeticos/natds-js/issues/1686)) ([110dff6](https://github.com/natura-cosmeticos/natds-js/commit/110dff636363886c3bd1aaa27d347b5f2db0edbc))
+
+
+
+
+
 # [2.25.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.24.1...@naturacosmeticos/natds-react@2.25.0) (2022-03-22)
 
 
