@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.25.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.24.1...@naturacosmeticos/natds-react@2.25.0) (2022-03-22)
+
+
+### Features
+
+* **natds-react:** adds new Collapse component ([#1689](https://github.com/natura-cosmeticos/natds-js/issues/1689)) ([c205348](https://github.com/natura-cosmeticos/natds-js/commit/c2053481f013016ee0c938c50d5273021b34046d))
+
+
+
+
+
 ## [2.24.1](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.24.0...@naturacosmeticos/natds-react@2.24.1) (2022-03-22)
 
 
