@@ -12,8 +12,9 @@ Array [
   <div>
     <div
       class=" collapse-0-2-1 collapse-d0-0-2-2"
-      data-testid=""
-    />
+    >
+      something
+    </div>
   </div>,
 ]
 `;
@@ -30,8 +31,10 @@ Array [
   <div>
     <div
       class=" collapse-0-2-1 collapse-d0-0-2-2"
-      data-testid=""
-    />
+      open=""
+    >
+      something
+    </div>
   </div>,
 ]
 `;
