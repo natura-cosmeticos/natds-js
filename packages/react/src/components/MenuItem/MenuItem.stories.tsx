@@ -7,14 +7,14 @@ const componentStatus = `
 
 **NOTE FOR UXs**: This component is available in the following variants:
 
-  - ❌ Standard
+  - ✅ Standard
 
 With the following attribute statuses:
 
   - ✅ **Submenu**
-  - ❌ **Actived**
-  - ❌ **Selected**
-  - ❌ **Disabled**
+  - ✅ **Actived**
+  - ✅ **Selected**
+  - ✅ **Disabled**
   - ✅ **Add** (available but with alternative composition)
   - **Action**
       - ✅ \`left\` (available but with alternative composition)

@@ -1,14 +1,39 @@
-/* eslint-disable complexity */
+/* eslint-disable max-len */
 import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { MenuItemProps } from './MenuItem.props'
 
+// eslint-disable-next-line complexity
+const getBackgroundColorByState = (theme: Theme) => (
+  { selected = false, activated = false, submenu = false }: MenuItemProps
+) => {
+  if (activated && !selected && !submenu) {
+    return `${theme.color.highlight}09`
+  }
+  if (selected && !activated) {
+    return `${theme.color.primary}29`
+  }
+  if (selected && activated) {
+    return `${theme.color.primary}29`
+  }
+  return 'transparent'
+}
+
+const getHover = (theme: Theme) => ({ disabled }: MenuItemProps) => (
+  disabled && disabled ? 'transparent' : `${theme.color.highlight}09`
+)
+
+const getFocus = (theme: Theme) => ({ disabled }: MenuItemProps) => (
+  disabled && disabled ? 'transparent' : `${theme.color.highlight}29`
+)
+
 const styles = createUseStyles((theme: Theme) => ({
-  menuItem: ({ disabled = false, submenu = false }: MenuItemProps) => ({
+  menuItem: {
     alignItems: 'center',
-    borderLeft: submenu ? `1px solid ${theme.color.lowEmphasis}` : 'none',
-    color: disabled ? theme.color.lowEmphasis : theme.color.highEmphasis,
-    cursor: disabled ? 'default' : 'pointer',
+    borderLeft: ({ submenu }: MenuItemProps) => (submenu && submenu ? `1px solid ${theme.color.lowEmphasis}` : 'none'),
+    backgroundColor: getBackgroundColorByState(theme),
+    color: ({ disabled }: MenuItemProps) => disabled && (disabled ? theme.color.lowEmphasis : theme.color.highEmphasis),
+    cursor: ({ disabled }: MenuItemProps) => disabled && (disabled ? 'default' : 'pointer'),
     display: 'flex',
     fontFamily: [
       theme.navigationDrawer.section.item.primary.fontFamily,
@@ -21,14 +46,15 @@ const styles = createUseStyles((theme: Theme) => ({
     lineHeight: theme.body1.lineHeight,
     listStyle: 'none',
     padding: [0, theme.spacing.small],
+    position: 'relative',
     width: '100%',
     '&:hover': {
-      backgroundColor: disabled ? 'transparent' : theme.color.neutral100
+      backgroundColor: getHover(theme)
     },
     '&:focus': {
-      backgroundColor: disabled ? 'transparent' : theme.color.neutral200
+      backgroundColor: getFocus(theme)
     }
-  })
+  }
 }))
 
 export default styles

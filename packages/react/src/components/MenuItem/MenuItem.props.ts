@@ -39,7 +39,7 @@ export interface MenuItemProps {
    * If `true`, a low emphasis color will be applied on background
    * @default false
    */
-  actived?: boolean;
+  activated?: boolean;
 
   /**
    * If `true`, a border will be displayed on the left of the container.
