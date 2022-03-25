@@ -1,39 +1,711 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`MenuItem component should render correctly with default props 1`] = `
+exports[`MenuItem component should render correctly with activated props 1`] = `
 Array [
-  ".menuItem-0-2-1 {}
-.menuItem-d0-0-2-2 {
-  color: #333333;
+  ".menuItem-0-2-1 {
   width: 100%;
-  cursor: pointer;
   height: 40px;
   display: flex;
   padding: 0 16px;
+  position: relative;
   font-size: 16px;
   list-style: none;
   align-items: center;
-  border-left: none;
   font-family: Roboto, Arial;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.51px;
 }
+.menuItem-0-2-1:hover {}
+.menuItem-0-2-1:focus {}
+.menuItem-d0-0-2-2 {
+  border-left: none;
+  background-color: #00000009;
+}
 .menuItem-d0-0-2-2:hover {
-  background-color: #f1f3f5;
+  background-color: #00000009;
 }
 .menuItem-d0-0-2-2:focus {
-  background-color: #e9ecef;
-}",
+  background-color: #00000029;
+}
+.sharedRippleEffect-0-2-3 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+}
+.wrapper-0-2-4 {
+  height: fit-content;
+  outline: none;
+  position: relative;
+}
+.wrapper-0-2-4:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+}
+.wrapper-0-2-4:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+}
+.ripple-0-2-5 {
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.rippleContainer-0-2-6 {
+  inset: 0;
+  position: absolute;
+}
+.rippleActive-0-2-7 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-8 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-9 {
+    flex-basis: 100%;
+    cursor: pointer;
+    display: block;
+    align-self: stretch;
+  }
+  .wrapper-d0-0-2-9:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d0-0-2-9:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d1-0-2-10 {
+    background-color: #000000;
+    height: 0;
+    left: 0;
+    top: 0;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-11 {
+    overflow: hidden;
+  }
+  .rippleActive-d3-0-2-12 {
+    animation: keyframes-ripple-0-2-8 300ms;
+  }",
   <div>
-    <li
-      class=" menuItem-0-2-1 menuItem-d0-0-2-2"
-      tabindex="0"
+    <div
+      class="wrapper-0-2-4 wrapper-d0-0-2-9"
+      data-testid="ripple-wrapper"
+      tabindex="-1"
     >
-      <a>
-        Menu Item
-      </a>
-    </li>
+      <div
+        class="rippleContainer-0-2-6 rippleContainer-d2-0-2-11"
+      >
+        <div
+          class="ripple-0-2-5 ripple-d1-0-2-10 "
+          data-testid="ripple-animation"
+        />
+      </div>
+      <li
+        aria-disabled="false"
+        class=" menuItem-0-2-1 menuItem-d0-0-2-2"
+        tabindex="0"
+      >
+        <a>
+          Menu Item
+        </a>
+      </li>
+    </div>
+  </div>,
+]
+`;
+
+exports[`MenuItem component should render correctly with default props 1`] = `
+Array [
+  ".menuItem-0-2-1 {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  padding: 0 16px;
+  position: relative;
+  font-size: 16px;
+  list-style: none;
+  align-items: center;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.51px;
+}
+.menuItem-0-2-1:hover {}
+.menuItem-0-2-1:focus {}
+.menuItem-d0-0-2-2 {
+  border-left: none;
+  background-color: transparent;
+}
+.menuItem-d0-0-2-2:hover {
+  background-color: #00000009;
+}
+.menuItem-d0-0-2-2:focus {
+  background-color: #00000029;
+}
+.sharedRippleEffect-0-2-3 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+}
+.wrapper-0-2-4 {
+  height: fit-content;
+  outline: none;
+  position: relative;
+}
+.wrapper-0-2-4:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+}
+.wrapper-0-2-4:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+}
+.ripple-0-2-5 {
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.rippleContainer-0-2-6 {
+  inset: 0;
+  position: absolute;
+}
+.rippleActive-0-2-7 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-8 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-9 {
+    flex-basis: 100%;
+    cursor: pointer;
+    display: block;
+    align-self: stretch;
+  }
+  .wrapper-d0-0-2-9:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d0-0-2-9:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d1-0-2-10 {
+    background-color: #000000;
+    height: 0;
+    left: 0;
+    top: 0;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-11 {
+    overflow: hidden;
+  }
+  .rippleActive-d3-0-2-12 {
+    animation: keyframes-ripple-0-2-8 300ms;
+  }",
+  <div>
+    <div
+      class="wrapper-0-2-4 wrapper-d0-0-2-9"
+      data-testid="ripple-wrapper"
+      tabindex="-1"
+    >
+      <div
+        class="rippleContainer-0-2-6 rippleContainer-d2-0-2-11"
+      >
+        <div
+          class="ripple-0-2-5 ripple-d1-0-2-10 "
+          data-testid="ripple-animation"
+        />
+      </div>
+      <li
+        aria-disabled="false"
+        class=" menuItem-0-2-1 menuItem-d0-0-2-2"
+        tabindex="0"
+      >
+        <a>
+          Menu Item
+        </a>
+      </li>
+    </div>
+  </div>,
+]
+`;
+
+exports[`MenuItem component should render correctly with disabled props 1`] = `
+Array [
+  ".menuItem-0-2-1 {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  padding: 0 16px;
+  position: relative;
+  font-size: 16px;
+  list-style: none;
+  align-items: center;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.51px;
+}
+.menuItem-0-2-1:hover {}
+.menuItem-0-2-1:focus {}
+.menuItem-d0-0-2-2 {
+  border-left: none;
+  background-color: transparent;
+  color: #bbbbbb;
+  cursor: default;
+}
+.menuItem-d0-0-2-2:hover {
+  background-color: transparent;
+}
+.menuItem-d0-0-2-2:focus {
+  background-color: transparent;
+}
+.sharedRippleEffect-0-2-3 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+}
+.wrapper-0-2-4 {
+  height: fit-content;
+  outline: none;
+  position: relative;
+}
+.wrapper-0-2-4:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+}
+.wrapper-0-2-4:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+}
+.ripple-0-2-5 {
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.rippleContainer-0-2-6 {
+  inset: 0;
+  position: absolute;
+}
+.rippleActive-0-2-7 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-8 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-9 {
+    flex-basis: 100%;
+    cursor: default;
+    display: block;
+    align-self: stretch;
+  }
+  .wrapper-d0-0-2-9:focus:after {  }
+  .wrapper-d0-0-2-9:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d1-0-2-10 {
+    background-color: #000000;
+    height: 0;
+    left: 0;
+    top: 0;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-11 {
+    overflow: hidden;
+  }
+  .rippleActive-d3-0-2-12 {
+    animation: keyframes-ripple-0-2-8 300ms;
+  }",
+  <div>
+    <div
+      class="wrapper-0-2-4 wrapper-d0-0-2-9"
+      data-testid="ripple-wrapper"
+      tabindex="-1"
+    >
+      <div
+        class="rippleContainer-0-2-6 rippleContainer-d2-0-2-11"
+      >
+        <div
+          class="ripple-0-2-5 ripple-d1-0-2-10 "
+          data-testid="ripple-animation"
+        />
+      </div>
+      <li
+        aria-disabled="true"
+        class=" menuItem-0-2-1 menuItem-d0-0-2-2"
+        tabindex="0"
+      >
+        <a>
+          Menu Item
+        </a>
+      </li>
+    </div>
+  </div>,
+]
+`;
+
+exports[`MenuItem component should render correctly with selected props 1`] = `
+Array [
+  ".menuItem-0-2-1 {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  padding: 0 16px;
+  position: relative;
+  font-size: 16px;
+  list-style: none;
+  align-items: center;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.51px;
+}
+.menuItem-0-2-1:hover {}
+.menuItem-0-2-1:focus {}
+.menuItem-d0-0-2-2 {
+  border-left: none;
+  background-color: #f4ab3429;
+}
+.menuItem-d0-0-2-2:hover {
+  background-color: #00000009;
+}
+.menuItem-d0-0-2-2:focus {
+  background-color: #00000029;
+}
+.sharedRippleEffect-0-2-3 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+}
+.wrapper-0-2-4 {
+  height: fit-content;
+  outline: none;
+  position: relative;
+}
+.wrapper-0-2-4:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+}
+.wrapper-0-2-4:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+}
+.ripple-0-2-5 {
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.rippleContainer-0-2-6 {
+  inset: 0;
+  position: absolute;
+}
+.rippleActive-0-2-7 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-8 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-9 {
+    flex-basis: 100%;
+    cursor: pointer;
+    display: block;
+    align-self: stretch;
+  }
+  .wrapper-d0-0-2-9:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d0-0-2-9:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d1-0-2-10 {
+    background-color: #000000;
+    height: 0;
+    left: 0;
+    top: 0;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-11 {
+    overflow: hidden;
+  }
+  .rippleActive-d3-0-2-12 {
+    animation: keyframes-ripple-0-2-8 300ms;
+  }",
+  <div>
+    <div
+      class="wrapper-0-2-4 wrapper-d0-0-2-9"
+      data-testid="ripple-wrapper"
+      tabindex="-1"
+    >
+      <div
+        class="rippleContainer-0-2-6 rippleContainer-d2-0-2-11"
+      >
+        <div
+          class="ripple-0-2-5 ripple-d1-0-2-10 "
+          data-testid="ripple-animation"
+        />
+      </div>
+      <li
+        aria-disabled="false"
+        class=" menuItem-0-2-1 menuItem-d0-0-2-2"
+        tabindex="0"
+      >
+        <a>
+          Menu Item
+        </a>
+      </li>
+    </div>
+  </div>,
+]
+`;
+
+exports[`MenuItem component should render correctly with submenu props 1`] = `
+Array [
+  ".menuItem-0-2-1 {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  padding: 0 16px;
+  position: relative;
+  font-size: 16px;
+  list-style: none;
+  align-items: center;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.51px;
+}
+.menuItem-0-2-1:hover {}
+.menuItem-0-2-1:focus {}
+.menuItem-d0-0-2-2 {
+  border-left: 1px solid #bbbbbb;
+  background-color: transparent;
+}
+.menuItem-d0-0-2-2:hover {
+  background-color: #00000009;
+}
+.menuItem-d0-0-2-2:focus {
+  background-color: #00000029;
+}
+.sharedRippleEffect-0-2-3 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+}
+.wrapper-0-2-4 {
+  height: fit-content;
+  outline: none;
+  position: relative;
+}
+.wrapper-0-2-4:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+}
+.wrapper-0-2-4:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+}
+.ripple-0-2-5 {
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.rippleContainer-0-2-6 {
+  inset: 0;
+  position: absolute;
+}
+.rippleActive-0-2-7 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-8 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-9 {
+    flex-basis: 100%;
+    cursor: pointer;
+    display: block;
+    align-self: stretch;
+  }
+  .wrapper-d0-0-2-9:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d0-0-2-9:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d1-0-2-10 {
+    background-color: #000000;
+    height: 0;
+    left: 0;
+    top: 0;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-11 {
+    overflow: hidden;
+  }
+  .rippleActive-d3-0-2-12 {
+    animation: keyframes-ripple-0-2-8 300ms;
+  }",
+  <div>
+    <div
+      class="wrapper-0-2-4 wrapper-d0-0-2-9"
+      data-testid="ripple-wrapper"
+      tabindex="-1"
+    >
+      <div
+        class="rippleContainer-0-2-6 rippleContainer-d2-0-2-11"
+      >
+        <div
+          class="ripple-0-2-5 ripple-d1-0-2-10 "
+          data-testid="ripple-animation"
+        />
+      </div>
+      <li
+        aria-disabled="false"
+        class=" menuItem-0-2-1 menuItem-d0-0-2-2"
+        tabindex="0"
+      >
+        <a>
+          Menu Item
+        </a>
+      </li>
+    </div>
   </div>,
 ]
 `;

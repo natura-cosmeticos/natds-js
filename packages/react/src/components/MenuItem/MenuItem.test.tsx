@@ -8,4 +8,28 @@ describe('MenuItem component', () => {
 
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
+
+  it('should render correctly with submenu props', () => {
+    const { styles, component } = renderWithTheme(<MenuItem submenu>Menu Item</MenuItem>)
+
+    expect([styles.toString(), component.container]).toMatchSnapshot()
+  })
+
+  it('should render correctly with disabled props', () => {
+    const { styles, component } = renderWithTheme(<MenuItem disabled>Menu Item</MenuItem>)
+
+    expect([styles.toString(), component.container]).toMatchSnapshot()
+  })
+
+  it('should render correctly with selected props', () => {
+    const { styles, component } = renderWithTheme(<MenuItem selected>Menu Item</MenuItem>)
+
+    expect([styles.toString(), component.container]).toMatchSnapshot()
+  })
+
+  it('should render correctly with activated props', () => {
+    const { styles, component } = renderWithTheme(<MenuItem activated>Menu Item</MenuItem>)
+
+    expect([styles.toString(), component.container]).toMatchSnapshot()
+  })
 })
