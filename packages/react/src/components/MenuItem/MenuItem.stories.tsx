@@ -47,6 +47,18 @@ Submenu.args = {
   submenu: true
 }
 
+export const Activated: Story<MenuItemProps> = Playground.bind({})
+Activated.args = {
+  ...Playground.args,
+  activated: true
+}
+
+export const Selected: Story<MenuItemProps> = Playground.bind({})
+Selected.args = {
+  ...Playground.args,
+  selected: true
+}
+
 export const Disabled: Story<MenuItemProps> = Playground.bind({})
 Disabled.args = {
   ...Playground.args,

@@ -3,6 +3,11 @@ import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { MenuItemProps } from './MenuItem.props'
 
+type PseudoBackgroundColorStyleProps = {
+  theme: Theme;
+  opacity: string;
+}
+
 // eslint-disable-next-line complexity
 const getBackgroundColorByState = (theme: Theme) => (
   { selected = false, activated = false, submenu = false }: MenuItemProps
@@ -10,21 +15,16 @@ const getBackgroundColorByState = (theme: Theme) => (
   if (activated && !selected && !submenu) {
     return `${theme.color.highlight}09`
   }
-  if (selected && !activated) {
-    return `${theme.color.primary}29`
-  }
-  if (selected && activated) {
+  if ((selected && !activated) || (selected && activated)) {
     return `${theme.color.primary}29`
   }
   return 'transparent'
 }
 
-const getHover = (theme: Theme) => ({ disabled }: MenuItemProps) => (
-  disabled && disabled ? 'transparent' : `${theme.color.highlight}09`
-)
-
-const getFocus = (theme: Theme) => ({ disabled }: MenuItemProps) => (
-  disabled && disabled ? 'transparent' : `${theme.color.highlight}29`
+const getPseudoBackgroundColor = (
+  { theme, opacity }: PseudoBackgroundColorStyleProps
+) => ({ disabled }: MenuItemProps) => (
+  disabled && disabled ? 'transparent' : `${theme.color.highlight}${opacity}`
 )
 
 const styles = createUseStyles((theme: Theme) => ({
@@ -49,10 +49,10 @@ const styles = createUseStyles((theme: Theme) => ({
     position: 'relative',
     width: '100%',
     '&:hover': {
-      backgroundColor: getHover(theme)
+      backgroundColor: getPseudoBackgroundColor({ theme, opacity: '09' })
     },
     '&:focus': {
-      backgroundColor: getFocus(theme)
+      backgroundColor: getPseudoBackgroundColor({ theme, opacity: '29' })
     }
   }
 }))
