@@ -12,23 +12,23 @@ const MenuItem = React.forwardRef<HTMLLIElement, MenuItemProps>(({
   href,
   ...props
 }, ref) => {
-  const { menuItem } = styles({ ...props, children, disabled })
+  const { listItem, menuItem } = styles({ ...props, children, disabled })
 
   return (
-    <Ripple disabled={disabled} fullWidth>
-      <li
-        data-testid={testID}
-        className={`${className} ${menuItem}`}
-        ref={ref}
-        tabIndex={0}
-        onClick={onClick}
-        aria-disabled={disabled}
-      >
-        <a href={href} {...props}>
+    <li
+      data-testid={testID}
+      className={`${className} ${listItem}`}
+      ref={ref}
+      tabIndex={0}
+      onClick={onClick}
+      aria-disabled={disabled}
+    >
+      <Ripple disabled={disabled} fullWidth>
+        <a href={href} {...props} className={menuItem}>
           {children}
         </a>
-      </li>
-    </Ripple>
+      </Ripple>
+    </li>
   )
 })
 

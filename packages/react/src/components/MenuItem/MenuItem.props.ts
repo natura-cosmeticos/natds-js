@@ -47,13 +47,13 @@ export interface MenuItemProps {
    */
   submenu?: boolean;
 
-  /**
-   *
+  /** The URL to link to when the button is clicked.
+   * If defined, an `a` element will be used as the root node.
    */
   href?: React.AnchorHTMLAttributes<HTMLAnchorElement>['href']
 
   /**
-   *
+   * Specifies the language of the linked document.
    */
   hrefLang?: React.AnchorHTMLAttributes<HTMLAnchorElement>['hrefLang']
 }

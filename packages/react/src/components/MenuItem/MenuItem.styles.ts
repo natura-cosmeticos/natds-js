@@ -28,6 +28,10 @@ const getPseudoBackgroundColor = (
 )
 
 const styles = createUseStyles((theme: Theme) => ({
+  listItem: {
+    listStyle: 'none',
+    width: '100%'
+  },
   menuItem: {
     alignItems: 'center',
     borderLeft: ({ submenu }: MenuItemProps) => (submenu && submenu ? `1px solid ${theme.color.lowEmphasis}` : 'none'),
@@ -44,10 +48,8 @@ const styles = createUseStyles((theme: Theme) => ({
     height: theme.size.semiX,
     letterSpacing: theme.body1.letterSpacing,
     lineHeight: theme.body1.lineHeight,
-    listStyle: 'none',
     padding: [0, theme.spacing.small],
     position: 'relative',
-    width: '100%',
     '&:hover': {
       backgroundColor: getPseudoBackgroundColor({ theme, opacity: '09' })
     },
