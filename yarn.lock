@@ -2693,10 +2693,10 @@
   resolved "https://registry.yarnpkg.com/@naturacosmeticos/natds-icons/-/natds-icons-1.11.3.tgz#e7de13d8fde2c44f9c68e73de75f02906fefdfb8"
   integrity sha512-NQVrs5aUaCc7eyrPRh5TlgRYZqT0SXDHq/VVcWUG/R7j9wzFFvCs/IbcAjeNJR4cVNDqq2ruAIl9ZnHanw5Qpw==
 
-"@naturacosmeticos/natds-themes@0.29.1":
-  version "0.29.1"
-  resolved "https://registry.yarnpkg.com/@naturacosmeticos/natds-themes/-/natds-themes-0.29.1.tgz#0d7ddb95fba2cb3773446ae61e4a3cf2e3cf57b8"
-  integrity sha512-zISAtx62ySKeg8Ee5NSonm3gIUZJYK3JBNpuR7B+EuNrWPiZ5u1Uc/lIb8VgudlZ4vtT8lX8gV312ptZ8C5VdA==
+"@naturacosmeticos/natds-themes@0.29.2":
+  version "0.29.2"
+  resolved "https://registry.yarnpkg.com/@naturacosmeticos/natds-themes/-/natds-themes-0.29.2.tgz#67be5bb182ae264f0833751f18d9940f872a5619"
+  integrity sha512-boUsNc0ndfxP/qWRQ3ZwJycpkVe6YBCTakHOPVq4Xz7DiAvPI1NcCSm6tmNvCA1bhRiKD4yWLm8DDLkYUOypPg==
   dependencies:
     open-color "^1.8.0"
     svg2vectordrawable "2.6.26"
@@ -14346,10 +14346,10 @@ rollup-pluginutils@^2.8.1:
   dependencies:
     estree-walker "^0.6.1"
 
-rollup@2.61.1:
-  version "2.61.1"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.61.1.tgz#1a5491f84543cf9e4caf6c61222d9a3f8f2ba454"
-  integrity sha512-BbTXlEvB8d+XFbK/7E5doIcRtxWPRiqr0eb5vQ0+2paMM04Ye4PZY5nHOQef2ix24l/L0SpLd5hwcH15QHPdvA==
+rollup@2.70.1:
+  version "2.70.1"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.70.1.tgz#824b1f1f879ea396db30b0fc3ae8d2fead93523e"
+  integrity sha512-CRYsI5EuzLbXdxC6RnYhOuRdtz4bhejPMSWjsFLfVM/7w/85n2szZv6yExqUXsBdz5KT8eoubeyDUDjhLHEslA==
   optionalDependencies:
     fsevents "~2.3.2"
 

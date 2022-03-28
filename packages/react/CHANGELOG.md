@@ -3,6 +3,50 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.26.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.25.0...@naturacosmeticos/natds-react@2.26.0) (2022-03-22)
+
+
+### Features
+
+* **natds-react:** adds new Drawer component ([#1686](https://github.com/natura-cosmeticos/natds-js/issues/1686)) ([110dff6](https://github.com/natura-cosmeticos/natds-js/commit/110dff636363886c3bd1aaa27d347b5f2db0edbc))
+
+
+
+
+
+# [2.25.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.24.1...@naturacosmeticos/natds-react@2.25.0) (2022-03-22)
+
+
+### Features
+
+* **natds-react:** adds new Collapse component ([#1689](https://github.com/natura-cosmeticos/natds-js/issues/1689)) ([c205348](https://github.com/natura-cosmeticos/natds-js/commit/c2053481f013016ee0c938c50d5273021b34046d))
+
+
+
+
+
+## [2.24.1](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.24.0...@naturacosmeticos/natds-react@2.24.1) (2022-03-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @naturacosmeticos/natds-themes to v0.29.2 ([#1692](https://github.com/natura-cosmeticos/natds-js/issues/1692)) ([51df804](https://github.com/natura-cosmeticos/natds-js/commit/51df804247ec1d9b522f98a77dafad966737a1a7))
+
+
+
+
+
+# [2.24.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.23.0...@naturacosmeticos/natds-react@2.24.0) (2022-03-22)
+
+
+### Features
+
+* **natds-react:** adds new Tag component ([#1685](https://github.com/natura-cosmeticos/natds-js/issues/1685)) ([c3ce5bd](https://github.com/natura-cosmeticos/natds-js/commit/c3ce5bd32983507217306826dcf91ba33ffd771f))
+
+
+
+
+
 # [2.23.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.21.3...@naturacosmeticos/natds-react@2.23.0) (2022-03-16)
 
 
