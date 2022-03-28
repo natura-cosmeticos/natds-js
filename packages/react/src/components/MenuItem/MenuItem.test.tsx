@@ -9,8 +9,14 @@ describe('MenuItem component', () => {
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
 
-  it('should render correctly with submenu props', () => {
-    const { styles, component } = renderWithTheme(<MenuItem submenu>Menu Item</MenuItem>)
+  it('should render correctly with submenu type props', () => {
+    const { styles, component } = renderWithTheme(<MenuItem type="submenu">Menu Item</MenuItem>)
+
+    expect([styles.toString(), component.container]).toMatchSnapshot()
+  })
+
+  it('should render correctly with title type props', () => {
+    const { styles, component } = renderWithTheme(<MenuItem type="title">Menu Item</MenuItem>)
 
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })

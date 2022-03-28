@@ -10,9 +10,9 @@ type PseudoBackgroundColorStyleProps = {
 
 // eslint-disable-next-line complexity
 const getBackgroundColorByState = (theme: Theme) => (
-  { selected = false, activated = false, submenu = false }: MenuItemProps
+  { selected = false, activated = false, type = 'regular' }: MenuItemProps
 ) => {
-  if (activated && !selected && !submenu) {
+  if (activated && !selected && type !== 'submenu') {
     return `${theme.color.highlight}09`
   }
   if ((selected && !activated) || (selected && activated)) {
@@ -34,7 +34,7 @@ const styles = createUseStyles((theme: Theme) => ({
   },
   menuItem: {
     alignItems: 'center',
-    borderLeft: ({ submenu }: MenuItemProps) => (submenu && submenu ? `1px solid ${theme.color.lowEmphasis}` : 'none'),
+    borderLeft: ({ type }: MenuItemProps) => (type === 'submenu' ? `1px solid ${theme.color.lowEmphasis}` : 'none'),
     backgroundColor: getBackgroundColorByState(theme),
     color: ({ disabled }: MenuItemProps) => disabled && (disabled ? theme.color.lowEmphasis : theme.color.highEmphasis),
     cursor: ({ disabled }: MenuItemProps) => disabled && (disabled ? 'default' : 'pointer'),
@@ -43,11 +43,11 @@ const styles = createUseStyles((theme: Theme) => ({
       theme.navigationDrawer.section.item.primary.fontFamily,
       theme.navigationDrawer.section.item.fallback.fontFamily
     ],
-    fontSize: theme.body1.fontSize,
-    fontWeight: theme.body1.fontWeight,
+    fontSize: ({ type }: MenuItemProps) => (type === 'title' ? theme.subtitle1.fontSize : theme.body1.fontSize),
+    fontWeight: ({ type }: MenuItemProps) => (type === 'title' ? theme.subtitle1.fontWeight : theme.body1.fontWeight),
     height: theme.size.semiX,
-    letterSpacing: theme.body1.letterSpacing,
-    lineHeight: theme.body1.lineHeight,
+    letterSpacing: ({ type }: MenuItemProps) => (type === 'title' ? theme.subtitle1.letterSpacing : theme.body1.letterSpacing),
+    lineHeight: ({ type }: MenuItemProps) => (type === 'title' ? theme.subtitle1.lineHeight : theme.body1.lineHeight),
     padding: [0, theme.spacing.small],
     position: 'relative',
     '&:hover': {

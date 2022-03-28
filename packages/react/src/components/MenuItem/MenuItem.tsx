@@ -9,10 +9,13 @@ const MenuItem = React.forwardRef<HTMLLIElement, MenuItemProps>(({
   onClick,
   children,
   disabled = false,
+  type = 'regular',
   href,
   ...props
 }, ref) => {
-  const { listItem, menuItem } = styles({ ...props, children, disabled })
+  const { listItem, menuItem } = styles({
+    ...props, children, disabled, type
+  })
 
   return (
     <li

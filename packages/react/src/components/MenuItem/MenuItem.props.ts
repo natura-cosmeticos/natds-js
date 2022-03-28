@@ -42,10 +42,11 @@ export interface MenuItemProps {
   activated?: boolean;
 
   /**
-   * If `true`, a border will be displayed on the left of the container.
-   * @default false
+   * If `submenu`, a border will be displayed on the left of the container and the
+   * `title` props increases the fontWeight.
+   * @default regular
    */
-  submenu?: boolean;
+  type?: 'submenu' | 'title' | 'regular';
 
   /** The URL to link to when the button is clicked.
    * If defined, an `a` element will be used as the root node.
