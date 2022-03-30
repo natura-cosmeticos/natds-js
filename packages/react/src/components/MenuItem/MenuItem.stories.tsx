@@ -1,6 +1,8 @@
 import React from 'react'
 import { Story, Meta } from '@storybook/react'
+import Icon from '../Icon'
 import { MenuItem, MenuItemProps } from '.'
+import Badge from '../Badge'
 
 const componentStatus = `
 ---
@@ -38,7 +40,17 @@ export const Playground: Story<MenuItemProps> = (args) => (
   </ul>
 )
 Playground.args = {
-  children: 'Menu Item'
+  children:
+  <div style={{ width: '100%', display: 'flex', justifyContent: 'space-between' }}>
+    <div style={{ display: 'flex', alignItems: 'center', gap: 20 }}>
+      <Icon name="outlined-default-mockup" size="standard" color="highEmphasis" />
+      <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
+        Menu Item
+        <Badge variant="standard" color="alert" value={100} limit={99} />
+      </div>
+    </div>
+    <Icon name="outlined-default-mockup" size="standard" color="highEmphasis" />
+  </div>
 }
 
 export const Submenu: Story<MenuItemProps> = Playground.bind({})
@@ -67,6 +79,10 @@ Selected.args = {
 
 export const Disabled: Story<MenuItemProps> = Playground.bind({})
 Disabled.args = {
-  ...Playground.args,
-  disabled: true
+  disabled: true,
+  children:
+  <div style={{ display: 'flex', alignItems: 'center', gap: 20 }}>
+    <Icon name="outlined-default-mockup" size="standard" color="lowEmphasis" />
+    <div>Menu Item</div>
+  </div>
 }
