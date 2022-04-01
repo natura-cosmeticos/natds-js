@@ -9,7 +9,6 @@ type RippleStyleProps = Required<Pick<RippleProps, 'color' | 'hideOverflow' | 'd
 
 const styles = createUseStyles((theme: Theme) => ({
   sharedRippleEffect: {
-    borderRadius: '50%',
     content: '" "',
     height: '100%',
     left: 0,
