@@ -4,6 +4,12 @@ import { TabItemProps } from './TabItem.props'
 
 type TabButtonProps = Required<Pick<TabItemProps, 'isActive'>>
 
+const toggleColorEmphasis = (theme: Theme) => ({ isActive }: TabButtonProps) => (
+  isActive
+    ? theme.color.highEmphasis
+    : theme.color.mediumEmphasis
+)
+
 const styles = createUseStyles((theme: Theme) => ({
   wrapper: {
     flex: 1,
@@ -13,12 +19,18 @@ const styles = createUseStyles((theme: Theme) => ({
   },
   tabButton: {
     display: 'flex',
+    gap: theme.spacing.tiny,
     width: '100%',
     height: theme.size.medium,
     alignItems: 'center',
     justifyContent: 'center',
     background: 'none',
-    border: 'none'
+    border: 'none',
+    textTransform: 'uppercase',
+    color: toggleColorEmphasis(theme),
+    '& i': {
+      color: toggleColorEmphasis(theme)
+    }
   }
 }))
 
