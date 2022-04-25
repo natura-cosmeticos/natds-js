@@ -8,9 +8,10 @@ import { TabProps } from './Tab.props'
 const Tab = React.forwardRef<HTMLUListElement, TabProps>(
   (props, ref) => {
     const {
+      iconPosition = 'left',
       items
     } = props
-    const { container } = styles()
+    const { container } = styles({ iconPosition })
 
     return (
       <ul className={container} ref={ref}>

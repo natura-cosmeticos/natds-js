@@ -34,13 +34,13 @@ export const Playground: Story<TabProps> = (args) => (
 Playground.args = {
   items: [{
     isActive: true,
-    component: <div>tab 1</div>
+    component: <>tab 1</>
   },
   {
     component:
-  <div>
-    <Icon size="semi" name="outlined-default-mockup" color="highEmphasis" />
+  <>
+    <Icon size="standard" name="outlined-default-mockup" color="highEmphasis" />
     tab 2
-  </div>
+  </>
   }]
 }

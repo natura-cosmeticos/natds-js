@@ -15,5 +15,13 @@ export interface TabProps {
    */
   testID?: string;
 
+  /**
+   * Array of elements that will be render as TabItem
+   */
   items: TabItem[]
+
+  /**
+   * Define icon position
+   */
+  iconPosition?: 'left' | 'top'
 }
