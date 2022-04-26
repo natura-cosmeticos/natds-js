@@ -23,12 +23,17 @@ export interface TabProps {
   items: TabItem[]
 
   /**
-   * Define icon position
+   * Define icon position relative by text
    */
   iconPosition?: 'left' | 'top'
 
   /**
-   * Define items position
+   * Define tabs aligns
    */
   itemsPosition?: 'left' | 'center' | 'right'
+
+  /**
+   * Define height of container
+   */
+  size?: 'normal' | 'large'
 }

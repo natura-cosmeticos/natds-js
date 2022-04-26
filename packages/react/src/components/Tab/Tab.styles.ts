@@ -2,9 +2,9 @@ import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { TabProps } from './Tab.props'
 
-type TabButtonIconPosition = Pick<TabProps, 'iconPosition' | 'itemsPosition'>
+type TabContainerProps = Pick<TabProps, 'iconPosition' | 'itemsPosition' | 'size'>
 
-const setItemsPosition = () => ({ itemsPosition }: TabButtonIconPosition) => {
+const setItemsPosition = () => ({ itemsPosition }: TabContainerProps) => {
   if (itemsPosition === 'right') {
     return 'flex-end'
   }
@@ -19,7 +19,7 @@ const setItemsPosition = () => ({ itemsPosition }: TabButtonIconPosition) => {
 const styles = createUseStyles((theme: Theme) => ({
   container: {
     width: '100%',
-    height: theme.size.medium,
+    height: (props: TabContainerProps) => (props.size === 'normal' ? theme.size.medium : theme.size.largeX),
     padding: 0,
     listStyle: 'none',
     display: 'flex',
@@ -28,7 +28,7 @@ const styles = createUseStyles((theme: Theme) => ({
     backgroundColor: theme.color.surface,
     boxShadow: theme.elevation.micro,
     '& button': {
-      flexDirection: (props: TabButtonIconPosition) => (props.iconPosition === 'left' ? 'row' : 'column')
+      flexDirection: (props: TabContainerProps) => (props.iconPosition === 'left' ? 'row' : 'column')
     }
   }
 }))

@@ -10,9 +10,10 @@ const Tab = React.forwardRef<HTMLUListElement, TabProps>(
     const {
       iconPosition = 'left',
       itemsPosition = 'left',
+      size = 'normal',
       items
     } = props
-    const { container } = styles({ iconPosition, itemsPosition })
+    const { container } = styles({ iconPosition, itemsPosition, size })
 
     return (
       <ul className={container} ref={ref}>
