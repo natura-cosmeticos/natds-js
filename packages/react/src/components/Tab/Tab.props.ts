@@ -26,4 +26,9 @@ export interface TabProps {
    * Define icon position
    */
   iconPosition?: 'left' | 'top'
+
+  /**
+   * Define items position
+   */
+  itemsPosition?: 'left' | 'center' | 'right'
 }

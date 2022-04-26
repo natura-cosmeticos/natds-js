@@ -9,9 +9,10 @@ const Tab = React.forwardRef<HTMLUListElement, TabProps>(
   (props, ref) => {
     const {
       iconPosition = 'left',
+      itemsPosition = 'left',
       items
     } = props
-    const { container } = styles({ iconPosition })
+    const { container } = styles({ iconPosition, itemsPosition })
 
     return (
       <ul className={container} ref={ref}>
