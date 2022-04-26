@@ -18,9 +18,9 @@ const toggleColorEmphasis = (theme: Theme) => ({ isActive, isDisabled }: TabButt
 
 const styles = createUseStyles((theme: Theme) => ({
   wrapper: {
-    flex: 1,
     minWidth: theme.size.largeX,
     height: theme.size.medium,
+    padding: `0 ${theme.spacing.small}px`,
     borderBottom: (props: TabButtonProps) => props.isActive && `2px solid ${theme.color.primary}`,
     pointerEvents: (props: TabButtonProps) => (props.isDisabled ? 'none' : 'auto'),
     '&:hover[not:disabled]': {
