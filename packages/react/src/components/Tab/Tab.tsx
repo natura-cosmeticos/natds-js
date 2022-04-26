@@ -1,7 +1,5 @@
 import React from 'react'
 
-import TabItem from '../TabItem'
-
 import styles from './Tab.styles'
 import { TabProps } from './Tab.props'
 
@@ -10,18 +8,13 @@ const Tab = React.forwardRef<HTMLUListElement, TabProps>(
     const {
       iconPosition = 'left',
       itemsPosition = 'left',
-      size = 'normal',
-      items
+      size = 'normal'
     } = props
     const { container } = styles({ iconPosition, itemsPosition, size })
 
     return (
       <ul className={container} ref={ref}>
-        {items.map((item) => (
-          <TabItem isActive={item.isActive} isDisabled={item.isDisabled}>
-            {item.component}
-          </TabItem>
-        ))}
+        {props.children}
       </ul>
     )
   }

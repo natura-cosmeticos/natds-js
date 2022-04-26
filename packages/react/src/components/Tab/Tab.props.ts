@@ -1,16 +1,6 @@
 import React from 'react'
 
-interface TabItem {
-  component: React.ReactNode
-  isActive?: boolean
-  isDisabled?: boolean
-}
-
 export interface TabProps {
-  /**
-   * Specify an optional className to be added to your Tab
-   */
-  className?: string
 
   /**
    * Optional ID for testing
@@ -18,9 +8,9 @@ export interface TabProps {
   testID?: string;
 
   /**
-   * Array of elements that will be render as TabItem
+   * All TabItems component
    */
-  items: TabItem[]
+  children: React.ReactNode
 
   /**
    * Define icon position relative by text

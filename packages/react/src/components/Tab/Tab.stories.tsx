@@ -1,5 +1,6 @@
 import React from 'react'
 import { Story, Meta } from '@storybook/react'
+import TabItem from '../TabItem'
 import { Tab, TabProps } from '.'
 import Icon from '../Icon'
 
@@ -28,27 +29,18 @@ export default {
 } as Meta
 
 export const Playground: Story<TabProps> = (args) => (
-  <Tab {...args} />
+  <Tab {...args}>
+    <TabItem isActive>
+      <Icon size="standard" name="outlined-default-mockup" color="highEmphasis" />
+      Tab 1
+    </TabItem>
+    <TabItem>
+      <Icon size="standard" name="outlined-default-mockup" color="highEmphasis" />
+      Tab 2
+    </TabItem>
+    <TabItem isDisabled>
+      <Icon size="standard" name="outlined-default-mockup" color="highEmphasis" />
+      Tab 3
+    </TabItem>
+  </Tab>
 )
-
-Playground.args = {
-  items: [{
-    isActive: true,
-    component: <>tab 1</>
-  },
-  {
-    component:
-  <>
-    <Icon size="standard" name="outlined-default-mockup" color="highEmphasis" />
-    tab 2
-  </>
-  },
-  {
-    isDisabled: true,
-    component:
-  <>
-    <Icon size="standard" name="outlined-default-mockup" color="highEmphasis" />
-    tab 3
-  </>
-  }]
-}
