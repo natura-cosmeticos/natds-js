@@ -42,5 +42,13 @@ Playground.args = {
     <Icon size="standard" name="outlined-default-mockup" color="highEmphasis" />
     tab 2
   </>
+  },
+  {
+    isDisabled: true,
+    component:
+  <>
+    <Icon size="standard" name="outlined-default-mockup" color="highEmphasis" />
+    tab 3
+  </>
   }]
 }

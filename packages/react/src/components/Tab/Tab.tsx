@@ -15,7 +15,11 @@ const Tab = React.forwardRef<HTMLUListElement, TabProps>(
 
     return (
       <ul className={container} ref={ref}>
-        {items.map((item) => <TabItem isActive={item.isActive}>{item.component}</TabItem>)}
+        {items.map((item) => (
+          <TabItem isActive={item.isActive} isDisabled={item.isDisabled}>
+            {item.component}
+          </TabItem>
+        ))}
       </ul>
     )
   }

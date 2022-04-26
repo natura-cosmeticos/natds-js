@@ -1,8 +1,10 @@
 import React from 'react'
 
 interface TabItem {
-  component: React.ReactNode,
-  isActive?: boolean}
+  component: React.ReactNode
+  isActive?: boolean
+  isDisabled?: boolean
+}
 
 export interface TabProps {
   /**

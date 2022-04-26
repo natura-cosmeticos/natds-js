@@ -17,7 +17,12 @@ export interface TabItemProps {
   children: React.ReactNode
 
   /**
-   * Specify the content of your TabItem
+   * Define if tab is active
    */
    isActive?: boolean
+
+  /**
+   * Define if tab is disabled
+   */
+   isDisabled?: boolean
 }

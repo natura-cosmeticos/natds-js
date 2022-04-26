@@ -8,9 +8,10 @@ import { TabItemProps } from './TabItem.props'
 const TabItem = React.forwardRef<HTMLLIElement, TabItemProps>(
   (props, ref) => {
     const {
-      isActive = false
+      isActive = false,
+      isDisabled = false
     } = props
-    const { wrapper, tabButton } = styles({ isActive })
+    const { wrapper, tabButton } = styles({ isActive, isDisabled })
 
     return (
       <li className={wrapper} ref={ref}>
