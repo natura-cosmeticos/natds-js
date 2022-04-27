@@ -25,4 +25,9 @@ export interface TabItemProps {
    * Define if tab is disabled
    */
    isDisabled?: boolean
+
+  /**
+   * Dispatch when tab is clicked
+   */
+  onClick: () => void
 }

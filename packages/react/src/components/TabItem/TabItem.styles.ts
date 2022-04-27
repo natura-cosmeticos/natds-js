@@ -22,8 +22,8 @@ const styles = createUseStyles((theme: Theme) => ({
     height: '100%',
     padding: `0 ${theme.spacing.small}px`,
     borderBottom: (props: TabButtonProps) => props.isActive && `2px solid ${theme.color.primary}`,
-    pointerEvents: (props: TabButtonProps) => (props.isDisabled ? 'none' : 'auto'),
-    '&>div': {
+    pointerEvents: 'none',
+    '& > div': {
       height: '100%'
     },
     '&:hover[not:disabled]': {
@@ -40,6 +40,8 @@ const styles = createUseStyles((theme: Theme) => ({
     border: 'none',
     textTransform: 'uppercase',
     background: 'none',
+    cursor: (props: TabButtonProps) => (props.isDisabled ? 'not-allowed' : 'pointer'),
+    pointerEvents: (props: TabButtonProps) => (props.isDisabled ? 'none' : 'auto'),
     color: toggleColorEmphasis(theme),
     '& i': {
       color: toggleColorEmphasis(theme)

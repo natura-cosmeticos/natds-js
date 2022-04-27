@@ -24,21 +24,24 @@ export default {
   component: Tab,
   parameters: {
     componentSubtitle: '',
-    docs: { description: { component: componentStatus } }
+    docs: { description: { component: componentStatus } },
+    actions: { argTypesRegex: '^on.*' }
   }
 } as Meta
 
+const onClick = () => console.log('Tab is clicked')
+
 export const Playground: Story<TabProps> = (args) => (
   <Tab {...args}>
-    <TabItem isActive>
+    <TabItem onClick={onClick} isActive>
       <Icon size="standard" name="outlined-default-mockup" color="highEmphasis" />
       Tab 1
     </TabItem>
-    <TabItem>
+    <TabItem onClick={onClick}>
       <Icon size="standard" name="outlined-default-mockup" color="highEmphasis" />
       Tab 2
     </TabItem>
-    <TabItem isDisabled>
+    <TabItem onClick={onClick} isDisabled>
       <Icon size="standard" name="outlined-default-mockup" color="highEmphasis" />
       Tab 3
     </TabItem>
