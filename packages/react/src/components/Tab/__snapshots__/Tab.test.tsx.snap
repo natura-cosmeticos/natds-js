@@ -1,0 +1,1921 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tab component should render correctly with align center 1`] = `
+Array [
+  ".sharedRippleEffect-0-2-11 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+}
+.wrapper-0-2-12 {
+  height: fit-content;
+  outline: none;
+  position: relative;
+}
+.wrapper-0-2-12:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+}
+.wrapper-0-2-12:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+}
+.ripple-0-2-13 {
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.rippleContainer-0-2-14 {
+  inset: 0;
+  position: absolute;
+}
+.rippleActive-0-2-15 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-16 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-17 {
+    flex-basis: 100%;
+    cursor: pointer;
+    display: block;
+    align-self: stretch;
+  }
+  .wrapper-d0-0-2-17:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d0-0-2-17:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d1-0-2-18 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-19 {
+    overflow: hidden;
+  }
+  .rippleActive-d3-0-2-20 {
+    animation: keyframes-ripple-0-2-16 300ms;
+  }
+  .wrapper-d4-0-2-23 {
+    flex-basis: 100%;
+    cursor: pointer;
+    display: block;
+    align-self: stretch;
+  }
+  .wrapper-d4-0-2-23:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d4-0-2-23:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d5-0-2-24 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d6-0-2-25 {
+    overflow: hidden;
+  }
+  .rippleActive-d7-0-2-26 {
+    animation: keyframes-ripple-0-2-16 300ms;
+  }
+  .wrapper-d8-0-2-29 {
+    flex-basis: 100%;
+    cursor: pointer;
+    display: block;
+    align-self: stretch;
+  }
+  .wrapper-d8-0-2-29:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d8-0-2-29:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d9-0-2-30 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d10-0-2-31 {
+    overflow: hidden;
+  }
+  .rippleActive-d11-0-2-32 {
+    animation: keyframes-ripple-0-2-16 300ms;
+  }
+  .wrapper-0-2-7 {
+    height: 100%;
+    padding: 0 16px;
+    min-width: 72px;
+    pointer-events: none;
+  }
+  .wrapper-0-2-7 > div {
+    height: 100%;
+  }
+  .wrapper-0-2-7:hover {
+    background: #00000029;
+  }
+  .tabButton-0-2-8 {
+    gap: 8px;
+    width: 100%;
+    border: none;
+    height: 100%;
+    display: flex;
+    background: none;
+    align-items: center;
+    text-transform: uppercase;
+    justify-content: center;
+  }
+  .tabButton-0-2-8 i {  }
+  .wrapper-d0-0-2-9 {  }
+  .tabButton-d1-0-2-10 {
+    cursor: pointer;
+    pointer-events: auto;
+    color: #777777;
+  }
+  .tabButton-d1-0-2-10 i {
+    color: #777777;
+  }
+  .wrapper-d2-0-2-21 {  }
+  .tabButton-d3-0-2-22 {
+    cursor: pointer;
+    pointer-events: auto;
+    color: #777777;
+  }
+  .tabButton-d3-0-2-22 i {
+    color: #777777;
+  }
+  .wrapper-d4-0-2-27 {  }
+  .tabButton-d5-0-2-28 {
+    cursor: pointer;
+    pointer-events: auto;
+    color: #777777;
+  }
+  .tabButton-d5-0-2-28 i {
+    color: #777777;
+  }
+  .wrapper-0-2-1 {
+    position: relative;
+  }
+  .container-0-2-2 {
+    width: 100%;
+    display: flex;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
+    overflow-x: hidden;
+    align-items: center;
+    scroll-behavior: smooth;
+  }
+  .container-0-2-2 button {  }
+  .navigation-0-2-3 {
+    top: 0;
+    border: 0;
+    bottom: 0;
+    cursor: pointer;
+    z-index: 1;
+    position: absolute;
+  }
+  .navigation-0-2-3 > i {
+    color: #777777;
+  }
+  .navigationPrev-0-2-4 {
+    left: 0;
+    background: linear-gradient(to right, #ffffff, transparent);
+  }
+  .navigationNext-0-2-5 {
+    right: 0;
+    background: linear-gradient(to left, #ffffff, transparent);
+  }
+  .container-d0-0-2-6 {
+    height: 48px;
+    justify-content: center;
+    background-color: #ffffff;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14);
+  }
+  .container-d0-0-2-6 button {
+    flex-direction: row;
+  }",
+  <div>
+    <div
+      class="wrapper-0-2-1"
+    >
+      <ul
+        class="container-0-2-2 container-d0-0-2-6"
+      >
+        <li
+          class="wrapper-0-2-7 wrapper-d0-0-2-9"
+        >
+          <div
+            class="wrapper-0-2-12 wrapper-d0-0-2-17"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
+          >
+            <div
+              class="rippleContainer-0-2-14 rippleContainer-d2-0-2-19"
+            >
+              <div
+                class="ripple-0-2-13 ripple-d1-0-2-18 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="tabButton-0-2-8 tabButton-d1-0-2-10"
+              type="button"
+            >
+              Tab 1
+            </button>
+          </div>
+        </li>
+        <li
+          class="wrapper-0-2-7 wrapper-d2-0-2-21"
+        >
+          <div
+            class="wrapper-0-2-12 wrapper-d4-0-2-23"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
+          >
+            <div
+              class="rippleContainer-0-2-14 rippleContainer-d6-0-2-25"
+            >
+              <div
+                class="ripple-0-2-13 ripple-d5-0-2-24 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="tabButton-0-2-8 tabButton-d3-0-2-22"
+              type="button"
+            >
+              Tab 2
+            </button>
+          </div>
+        </li>
+        <li
+          class="wrapper-0-2-7 wrapper-d4-0-2-27"
+        >
+          <div
+            class="wrapper-0-2-12 wrapper-d8-0-2-29"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
+          >
+            <div
+              class="rippleContainer-0-2-14 rippleContainer-d10-0-2-31"
+            >
+              <div
+                class="ripple-0-2-13 ripple-d9-0-2-30 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="tabButton-0-2-8 tabButton-d5-0-2-28"
+              type="button"
+            >
+              Tab 3
+            </button>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Tab component should render correctly with align right 1`] = `
+Array [
+  ".sharedRippleEffect-0-2-11 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+}
+.wrapper-0-2-12 {
+  height: fit-content;
+  outline: none;
+  position: relative;
+}
+.wrapper-0-2-12:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+}
+.wrapper-0-2-12:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+}
+.ripple-0-2-13 {
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.rippleContainer-0-2-14 {
+  inset: 0;
+  position: absolute;
+}
+.rippleActive-0-2-15 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-16 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-17 {
+    flex-basis: 100%;
+    cursor: pointer;
+    display: block;
+    align-self: stretch;
+  }
+  .wrapper-d0-0-2-17:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d0-0-2-17:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d1-0-2-18 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-19 {
+    overflow: hidden;
+  }
+  .rippleActive-d3-0-2-20 {
+    animation: keyframes-ripple-0-2-16 300ms;
+  }
+  .wrapper-d4-0-2-23 {
+    flex-basis: 100%;
+    cursor: pointer;
+    display: block;
+    align-self: stretch;
+  }
+  .wrapper-d4-0-2-23:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d4-0-2-23:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d5-0-2-24 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d6-0-2-25 {
+    overflow: hidden;
+  }
+  .rippleActive-d7-0-2-26 {
+    animation: keyframes-ripple-0-2-16 300ms;
+  }
+  .wrapper-d8-0-2-29 {
+    flex-basis: 100%;
+    cursor: pointer;
+    display: block;
+    align-self: stretch;
+  }
+  .wrapper-d8-0-2-29:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d8-0-2-29:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d9-0-2-30 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d10-0-2-31 {
+    overflow: hidden;
+  }
+  .rippleActive-d11-0-2-32 {
+    animation: keyframes-ripple-0-2-16 300ms;
+  }
+  .wrapper-0-2-7 {
+    height: 100%;
+    padding: 0 16px;
+    min-width: 72px;
+    pointer-events: none;
+  }
+  .wrapper-0-2-7 > div {
+    height: 100%;
+  }
+  .wrapper-0-2-7:hover {
+    background: #00000029;
+  }
+  .tabButton-0-2-8 {
+    gap: 8px;
+    width: 100%;
+    border: none;
+    height: 100%;
+    display: flex;
+    background: none;
+    align-items: center;
+    text-transform: uppercase;
+    justify-content: center;
+  }
+  .tabButton-0-2-8 i {  }
+  .wrapper-d0-0-2-9 {  }
+  .tabButton-d1-0-2-10 {
+    cursor: pointer;
+    pointer-events: auto;
+    color: #777777;
+  }
+  .tabButton-d1-0-2-10 i {
+    color: #777777;
+  }
+  .wrapper-d2-0-2-21 {  }
+  .tabButton-d3-0-2-22 {
+    cursor: pointer;
+    pointer-events: auto;
+    color: #777777;
+  }
+  .tabButton-d3-0-2-22 i {
+    color: #777777;
+  }
+  .wrapper-d4-0-2-27 {  }
+  .tabButton-d5-0-2-28 {
+    cursor: pointer;
+    pointer-events: auto;
+    color: #777777;
+  }
+  .tabButton-d5-0-2-28 i {
+    color: #777777;
+  }
+  .wrapper-0-2-1 {
+    position: relative;
+  }
+  .container-0-2-2 {
+    width: 100%;
+    display: flex;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
+    overflow-x: hidden;
+    align-items: center;
+    scroll-behavior: smooth;
+  }
+  .container-0-2-2 button {  }
+  .navigation-0-2-3 {
+    top: 0;
+    border: 0;
+    bottom: 0;
+    cursor: pointer;
+    z-index: 1;
+    position: absolute;
+  }
+  .navigation-0-2-3 > i {
+    color: #777777;
+  }
+  .navigationPrev-0-2-4 {
+    left: 0;
+    background: linear-gradient(to right, #ffffff, transparent);
+  }
+  .navigationNext-0-2-5 {
+    right: 0;
+    background: linear-gradient(to left, #ffffff, transparent);
+  }
+  .container-d0-0-2-6 {
+    height: 48px;
+    justify-content: center;
+    background-color: #ffffff;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14);
+  }
+  .container-d0-0-2-6 button {
+    flex-direction: row;
+  }",
+  <div>
+    <div
+      class="wrapper-0-2-1"
+    >
+      <ul
+        class="container-0-2-2 container-d0-0-2-6"
+      >
+        <li
+          class="wrapper-0-2-7 wrapper-d0-0-2-9"
+        >
+          <div
+            class="wrapper-0-2-12 wrapper-d0-0-2-17"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
+          >
+            <div
+              class="rippleContainer-0-2-14 rippleContainer-d2-0-2-19"
+            >
+              <div
+                class="ripple-0-2-13 ripple-d1-0-2-18 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="tabButton-0-2-8 tabButton-d1-0-2-10"
+              type="button"
+            >
+              Tab 1
+            </button>
+          </div>
+        </li>
+        <li
+          class="wrapper-0-2-7 wrapper-d2-0-2-21"
+        >
+          <div
+            class="wrapper-0-2-12 wrapper-d4-0-2-23"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
+          >
+            <div
+              class="rippleContainer-0-2-14 rippleContainer-d6-0-2-25"
+            >
+              <div
+                class="ripple-0-2-13 ripple-d5-0-2-24 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="tabButton-0-2-8 tabButton-d3-0-2-22"
+              type="button"
+            >
+              Tab 2
+            </button>
+          </div>
+        </li>
+        <li
+          class="wrapper-0-2-7 wrapper-d4-0-2-27"
+        >
+          <div
+            class="wrapper-0-2-12 wrapper-d8-0-2-29"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
+          >
+            <div
+              class="rippleContainer-0-2-14 rippleContainer-d10-0-2-31"
+            >
+              <div
+                class="ripple-0-2-13 ripple-d9-0-2-30 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="tabButton-0-2-8 tabButton-d5-0-2-28"
+              type="button"
+            >
+              Tab 3
+            </button>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Tab component should render correctly with color is false 1`] = `
+Array [
+  ".sharedRippleEffect-0-2-11 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+}
+.wrapper-0-2-12 {
+  height: fit-content;
+  outline: none;
+  position: relative;
+}
+.wrapper-0-2-12:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+}
+.wrapper-0-2-12:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+}
+.ripple-0-2-13 {
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.rippleContainer-0-2-14 {
+  inset: 0;
+  position: absolute;
+}
+.rippleActive-0-2-15 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-16 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-17 {
+    flex-basis: 100%;
+    cursor: pointer;
+    display: block;
+    align-self: stretch;
+  }
+  .wrapper-d0-0-2-17:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d0-0-2-17:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d1-0-2-18 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-19 {
+    overflow: hidden;
+  }
+  .rippleActive-d3-0-2-20 {
+    animation: keyframes-ripple-0-2-16 300ms;
+  }
+  .wrapper-d4-0-2-23 {
+    flex-basis: 100%;
+    cursor: pointer;
+    display: block;
+    align-self: stretch;
+  }
+  .wrapper-d4-0-2-23:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d4-0-2-23:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d5-0-2-24 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d6-0-2-25 {
+    overflow: hidden;
+  }
+  .rippleActive-d7-0-2-26 {
+    animation: keyframes-ripple-0-2-16 300ms;
+  }
+  .wrapper-d8-0-2-29 {
+    flex-basis: 100%;
+    cursor: pointer;
+    display: block;
+    align-self: stretch;
+  }
+  .wrapper-d8-0-2-29:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d8-0-2-29:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d9-0-2-30 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d10-0-2-31 {
+    overflow: hidden;
+  }
+  .rippleActive-d11-0-2-32 {
+    animation: keyframes-ripple-0-2-16 300ms;
+  }
+  .wrapper-0-2-7 {
+    height: 100%;
+    padding: 0 16px;
+    min-width: 72px;
+    pointer-events: none;
+  }
+  .wrapper-0-2-7 > div {
+    height: 100%;
+  }
+  .wrapper-0-2-7:hover {
+    background: #00000029;
+  }
+  .tabButton-0-2-8 {
+    gap: 8px;
+    width: 100%;
+    border: none;
+    height: 100%;
+    display: flex;
+    background: none;
+    align-items: center;
+    text-transform: uppercase;
+    justify-content: center;
+  }
+  .tabButton-0-2-8 i {  }
+  .wrapper-d0-0-2-9 {  }
+  .tabButton-d1-0-2-10 {
+    cursor: pointer;
+    pointer-events: auto;
+    color: #777777;
+  }
+  .tabButton-d1-0-2-10 i {
+    color: #777777;
+  }
+  .wrapper-d2-0-2-21 {  }
+  .tabButton-d3-0-2-22 {
+    cursor: pointer;
+    pointer-events: auto;
+    color: #777777;
+  }
+  .tabButton-d3-0-2-22 i {
+    color: #777777;
+  }
+  .wrapper-d4-0-2-27 {  }
+  .tabButton-d5-0-2-28 {
+    cursor: pointer;
+    pointer-events: auto;
+    color: #777777;
+  }
+  .tabButton-d5-0-2-28 i {
+    color: #777777;
+  }
+  .wrapper-0-2-1 {
+    position: relative;
+  }
+  .container-0-2-2 {
+    width: 100%;
+    display: flex;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
+    overflow-x: hidden;
+    align-items: center;
+    scroll-behavior: smooth;
+  }
+  .container-0-2-2 button {  }
+  .navigation-0-2-3 {
+    top: 0;
+    border: 0;
+    bottom: 0;
+    cursor: pointer;
+    z-index: 1;
+    position: absolute;
+  }
+  .navigation-0-2-3 > i {
+    color: #777777;
+  }
+  .navigationPrev-0-2-4 {
+    left: 0;
+    background: linear-gradient(to right, #ffffff, transparent);
+  }
+  .navigationNext-0-2-5 {
+    right: 0;
+    background: linear-gradient(to left, #ffffff, transparent);
+  }
+  .container-d0-0-2-6 {
+    height: 48px;
+    justify-content: flex-start;
+    background-color: transparent;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14);
+  }
+  .container-d0-0-2-6 button {
+    flex-direction: row;
+  }",
+  <div>
+    <div
+      class="wrapper-0-2-1"
+    >
+      <ul
+        class="container-0-2-2 container-d0-0-2-6"
+      >
+        <li
+          class="wrapper-0-2-7 wrapper-d0-0-2-9"
+        >
+          <div
+            class="wrapper-0-2-12 wrapper-d0-0-2-17"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
+          >
+            <div
+              class="rippleContainer-0-2-14 rippleContainer-d2-0-2-19"
+            >
+              <div
+                class="ripple-0-2-13 ripple-d1-0-2-18 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="tabButton-0-2-8 tabButton-d1-0-2-10"
+              type="button"
+            >
+              Tab 1
+            </button>
+          </div>
+        </li>
+        <li
+          class="wrapper-0-2-7 wrapper-d2-0-2-21"
+        >
+          <div
+            class="wrapper-0-2-12 wrapper-d4-0-2-23"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
+          >
+            <div
+              class="rippleContainer-0-2-14 rippleContainer-d6-0-2-25"
+            >
+              <div
+                class="ripple-0-2-13 ripple-d5-0-2-24 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="tabButton-0-2-8 tabButton-d3-0-2-22"
+              type="button"
+            >
+              Tab 2
+            </button>
+          </div>
+        </li>
+        <li
+          class="wrapper-0-2-7 wrapper-d4-0-2-27"
+        >
+          <div
+            class="wrapper-0-2-12 wrapper-d8-0-2-29"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
+          >
+            <div
+              class="rippleContainer-0-2-14 rippleContainer-d10-0-2-31"
+            >
+              <div
+                class="ripple-0-2-13 ripple-d9-0-2-30 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="tabButton-0-2-8 tabButton-d5-0-2-28"
+              type="button"
+            >
+              Tab 3
+            </button>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Tab component should render correctly with default props 1`] = `
+Array [
+  ".sharedRippleEffect-0-2-11 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+}
+.wrapper-0-2-12 {
+  height: fit-content;
+  outline: none;
+  position: relative;
+}
+.wrapper-0-2-12:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+}
+.wrapper-0-2-12:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+}
+.ripple-0-2-13 {
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.rippleContainer-0-2-14 {
+  inset: 0;
+  position: absolute;
+}
+.rippleActive-0-2-15 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-16 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-17 {
+    flex-basis: 100%;
+    cursor: pointer;
+    display: block;
+    align-self: stretch;
+  }
+  .wrapper-d0-0-2-17:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d0-0-2-17:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d1-0-2-18 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-19 {
+    overflow: hidden;
+  }
+  .rippleActive-d3-0-2-20 {
+    animation: keyframes-ripple-0-2-16 300ms;
+  }
+  .wrapper-d4-0-2-23 {
+    flex-basis: 100%;
+    cursor: pointer;
+    display: block;
+    align-self: stretch;
+  }
+  .wrapper-d4-0-2-23:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d4-0-2-23:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d5-0-2-24 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d6-0-2-25 {
+    overflow: hidden;
+  }
+  .rippleActive-d7-0-2-26 {
+    animation: keyframes-ripple-0-2-16 300ms;
+  }
+  .wrapper-d8-0-2-29 {
+    flex-basis: 100%;
+    cursor: pointer;
+    display: block;
+    align-self: stretch;
+  }
+  .wrapper-d8-0-2-29:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d8-0-2-29:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d9-0-2-30 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d10-0-2-31 {
+    overflow: hidden;
+  }
+  .rippleActive-d11-0-2-32 {
+    animation: keyframes-ripple-0-2-16 300ms;
+  }
+  .wrapper-0-2-7 {
+    height: 100%;
+    padding: 0 16px;
+    min-width: 72px;
+    pointer-events: none;
+  }
+  .wrapper-0-2-7 > div {
+    height: 100%;
+  }
+  .wrapper-0-2-7:hover {
+    background: #00000029;
+  }
+  .tabButton-0-2-8 {
+    gap: 8px;
+    width: 100%;
+    border: none;
+    height: 100%;
+    display: flex;
+    background: none;
+    align-items: center;
+    text-transform: uppercase;
+    justify-content: center;
+  }
+  .tabButton-0-2-8 i {  }
+  .wrapper-d0-0-2-9 {  }
+  .tabButton-d1-0-2-10 {
+    cursor: pointer;
+    pointer-events: auto;
+    color: #777777;
+  }
+  .tabButton-d1-0-2-10 i {
+    color: #777777;
+  }
+  .wrapper-d2-0-2-21 {  }
+  .tabButton-d3-0-2-22 {
+    cursor: pointer;
+    pointer-events: auto;
+    color: #777777;
+  }
+  .tabButton-d3-0-2-22 i {
+    color: #777777;
+  }
+  .wrapper-d4-0-2-27 {  }
+  .tabButton-d5-0-2-28 {
+    cursor: pointer;
+    pointer-events: auto;
+    color: #777777;
+  }
+  .tabButton-d5-0-2-28 i {
+    color: #777777;
+  }
+  .wrapper-0-2-1 {
+    position: relative;
+  }
+  .container-0-2-2 {
+    width: 100%;
+    display: flex;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
+    overflow-x: hidden;
+    align-items: center;
+    scroll-behavior: smooth;
+  }
+  .container-0-2-2 button {  }
+  .navigation-0-2-3 {
+    top: 0;
+    border: 0;
+    bottom: 0;
+    cursor: pointer;
+    z-index: 1;
+    position: absolute;
+  }
+  .navigation-0-2-3 > i {
+    color: #777777;
+  }
+  .navigationPrev-0-2-4 {
+    left: 0;
+    background: linear-gradient(to right, #ffffff, transparent);
+  }
+  .navigationNext-0-2-5 {
+    right: 0;
+    background: linear-gradient(to left, #ffffff, transparent);
+  }
+  .container-d0-0-2-6 {
+    height: 48px;
+    justify-content: flex-start;
+    background-color: #ffffff;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14);
+  }
+  .container-d0-0-2-6 button {
+    flex-direction: row;
+  }",
+  <div>
+    <div
+      class="wrapper-0-2-1"
+    >
+      <ul
+        class="container-0-2-2 container-d0-0-2-6"
+      >
+        <li
+          class="wrapper-0-2-7 wrapper-d0-0-2-9"
+        >
+          <div
+            class="wrapper-0-2-12 wrapper-d0-0-2-17"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
+          >
+            <div
+              class="rippleContainer-0-2-14 rippleContainer-d2-0-2-19"
+            >
+              <div
+                class="ripple-0-2-13 ripple-d1-0-2-18 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="tabButton-0-2-8 tabButton-d1-0-2-10"
+              type="button"
+            >
+              Tab 1
+            </button>
+          </div>
+        </li>
+        <li
+          class="wrapper-0-2-7 wrapper-d2-0-2-21"
+        >
+          <div
+            class="wrapper-0-2-12 wrapper-d4-0-2-23"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
+          >
+            <div
+              class="rippleContainer-0-2-14 rippleContainer-d6-0-2-25"
+            >
+              <div
+                class="ripple-0-2-13 ripple-d5-0-2-24 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="tabButton-0-2-8 tabButton-d3-0-2-22"
+              type="button"
+            >
+              Tab 2
+            </button>
+          </div>
+        </li>
+        <li
+          class="wrapper-0-2-7 wrapper-d4-0-2-27"
+        >
+          <div
+            class="wrapper-0-2-12 wrapper-d8-0-2-29"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
+          >
+            <div
+              class="rippleContainer-0-2-14 rippleContainer-d10-0-2-31"
+            >
+              <div
+                class="ripple-0-2-13 ripple-d9-0-2-30 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="tabButton-0-2-8 tabButton-d5-0-2-28"
+              type="button"
+            >
+              Tab 3
+            </button>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Tab component should render correctly with elevation is false 1`] = `
+Array [
+  ".sharedRippleEffect-0-2-11 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+}
+.wrapper-0-2-12 {
+  height: fit-content;
+  outline: none;
+  position: relative;
+}
+.wrapper-0-2-12:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+}
+.wrapper-0-2-12:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+}
+.ripple-0-2-13 {
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.rippleContainer-0-2-14 {
+  inset: 0;
+  position: absolute;
+}
+.rippleActive-0-2-15 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-16 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-17 {
+    flex-basis: 100%;
+    cursor: pointer;
+    display: block;
+    align-self: stretch;
+  }
+  .wrapper-d0-0-2-17:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d0-0-2-17:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d1-0-2-18 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-19 {
+    overflow: hidden;
+  }
+  .rippleActive-d3-0-2-20 {
+    animation: keyframes-ripple-0-2-16 300ms;
+  }
+  .wrapper-d4-0-2-23 {
+    flex-basis: 100%;
+    cursor: pointer;
+    display: block;
+    align-self: stretch;
+  }
+  .wrapper-d4-0-2-23:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d4-0-2-23:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d5-0-2-24 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d6-0-2-25 {
+    overflow: hidden;
+  }
+  .rippleActive-d7-0-2-26 {
+    animation: keyframes-ripple-0-2-16 300ms;
+  }
+  .wrapper-d8-0-2-29 {
+    flex-basis: 100%;
+    cursor: pointer;
+    display: block;
+    align-self: stretch;
+  }
+  .wrapper-d8-0-2-29:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d8-0-2-29:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d9-0-2-30 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d10-0-2-31 {
+    overflow: hidden;
+  }
+  .rippleActive-d11-0-2-32 {
+    animation: keyframes-ripple-0-2-16 300ms;
+  }
+  .wrapper-0-2-7 {
+    height: 100%;
+    padding: 0 16px;
+    min-width: 72px;
+    pointer-events: none;
+  }
+  .wrapper-0-2-7 > div {
+    height: 100%;
+  }
+  .wrapper-0-2-7:hover {
+    background: #00000029;
+  }
+  .tabButton-0-2-8 {
+    gap: 8px;
+    width: 100%;
+    border: none;
+    height: 100%;
+    display: flex;
+    background: none;
+    align-items: center;
+    text-transform: uppercase;
+    justify-content: center;
+  }
+  .tabButton-0-2-8 i {  }
+  .wrapper-d0-0-2-9 {  }
+  .tabButton-d1-0-2-10 {
+    cursor: pointer;
+    pointer-events: auto;
+    color: #777777;
+  }
+  .tabButton-d1-0-2-10 i {
+    color: #777777;
+  }
+  .wrapper-d2-0-2-21 {  }
+  .tabButton-d3-0-2-22 {
+    cursor: pointer;
+    pointer-events: auto;
+    color: #777777;
+  }
+  .tabButton-d3-0-2-22 i {
+    color: #777777;
+  }
+  .wrapper-d4-0-2-27 {  }
+  .tabButton-d5-0-2-28 {
+    cursor: pointer;
+    pointer-events: auto;
+    color: #777777;
+  }
+  .tabButton-d5-0-2-28 i {
+    color: #777777;
+  }
+  .wrapper-0-2-1 {
+    position: relative;
+  }
+  .container-0-2-2 {
+    width: 100%;
+    display: flex;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
+    overflow-x: hidden;
+    align-items: center;
+    scroll-behavior: smooth;
+  }
+  .container-0-2-2 button {  }
+  .navigation-0-2-3 {
+    top: 0;
+    border: 0;
+    bottom: 0;
+    cursor: pointer;
+    z-index: 1;
+    position: absolute;
+  }
+  .navigation-0-2-3 > i {
+    color: #777777;
+  }
+  .navigationPrev-0-2-4 {
+    left: 0;
+    background: linear-gradient(to right, #ffffff, transparent);
+  }
+  .navigationNext-0-2-5 {
+    right: 0;
+    background: linear-gradient(to left, #ffffff, transparent);
+  }
+  .container-d0-0-2-6 {
+    height: 48px;
+    justify-content: flex-start;
+    background-color: #ffffff;
+    box-shadow: none;
+  }
+  .container-d0-0-2-6 button {
+    flex-direction: row;
+  }",
+  <div>
+    <div
+      class="wrapper-0-2-1"
+    >
+      <ul
+        class="container-0-2-2 container-d0-0-2-6"
+      >
+        <li
+          class="wrapper-0-2-7 wrapper-d0-0-2-9"
+        >
+          <div
+            class="wrapper-0-2-12 wrapper-d0-0-2-17"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
+          >
+            <div
+              class="rippleContainer-0-2-14 rippleContainer-d2-0-2-19"
+            >
+              <div
+                class="ripple-0-2-13 ripple-d1-0-2-18 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="tabButton-0-2-8 tabButton-d1-0-2-10"
+              type="button"
+            >
+              Tab 1
+            </button>
+          </div>
+        </li>
+        <li
+          class="wrapper-0-2-7 wrapper-d2-0-2-21"
+        >
+          <div
+            class="wrapper-0-2-12 wrapper-d4-0-2-23"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
+          >
+            <div
+              class="rippleContainer-0-2-14 rippleContainer-d6-0-2-25"
+            >
+              <div
+                class="ripple-0-2-13 ripple-d5-0-2-24 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="tabButton-0-2-8 tabButton-d3-0-2-22"
+              type="button"
+            >
+              Tab 2
+            </button>
+          </div>
+        </li>
+        <li
+          class="wrapper-0-2-7 wrapper-d4-0-2-27"
+        >
+          <div
+            class="wrapper-0-2-12 wrapper-d8-0-2-29"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
+          >
+            <div
+              class="rippleContainer-0-2-14 rippleContainer-d10-0-2-31"
+            >
+              <div
+                class="ripple-0-2-13 ripple-d9-0-2-30 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="tabButton-0-2-8 tabButton-d5-0-2-28"
+              type="button"
+            >
+              Tab 3
+            </button>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Tab component should render correctly with size large 1`] = `
+Array [
+  ".sharedRippleEffect-0-2-11 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+}
+.wrapper-0-2-12 {
+  height: fit-content;
+  outline: none;
+  position: relative;
+}
+.wrapper-0-2-12:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+}
+.wrapper-0-2-12:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+}
+.ripple-0-2-13 {
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.rippleContainer-0-2-14 {
+  inset: 0;
+  position: absolute;
+}
+.rippleActive-0-2-15 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-16 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-17 {
+    flex-basis: 100%;
+    cursor: pointer;
+    display: block;
+    align-self: stretch;
+  }
+  .wrapper-d0-0-2-17:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d0-0-2-17:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d1-0-2-18 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-19 {
+    overflow: hidden;
+  }
+  .rippleActive-d3-0-2-20 {
+    animation: keyframes-ripple-0-2-16 300ms;
+  }
+  .wrapper-d4-0-2-23 {
+    flex-basis: 100%;
+    cursor: pointer;
+    display: block;
+    align-self: stretch;
+  }
+  .wrapper-d4-0-2-23:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d4-0-2-23:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d5-0-2-24 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d6-0-2-25 {
+    overflow: hidden;
+  }
+  .rippleActive-d7-0-2-26 {
+    animation: keyframes-ripple-0-2-16 300ms;
+  }
+  .wrapper-d8-0-2-29 {
+    flex-basis: 100%;
+    cursor: pointer;
+    display: block;
+    align-self: stretch;
+  }
+  .wrapper-d8-0-2-29:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d8-0-2-29:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d9-0-2-30 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d10-0-2-31 {
+    overflow: hidden;
+  }
+  .rippleActive-d11-0-2-32 {
+    animation: keyframes-ripple-0-2-16 300ms;
+  }
+  .wrapper-0-2-7 {
+    height: 100%;
+    padding: 0 16px;
+    min-width: 72px;
+    pointer-events: none;
+  }
+  .wrapper-0-2-7 > div {
+    height: 100%;
+  }
+  .wrapper-0-2-7:hover {
+    background: #00000029;
+  }
+  .tabButton-0-2-8 {
+    gap: 8px;
+    width: 100%;
+    border: none;
+    height: 100%;
+    display: flex;
+    background: none;
+    align-items: center;
+    text-transform: uppercase;
+    justify-content: center;
+  }
+  .tabButton-0-2-8 i {  }
+  .wrapper-d0-0-2-9 {  }
+  .tabButton-d1-0-2-10 {
+    cursor: pointer;
+    pointer-events: auto;
+    color: #777777;
+  }
+  .tabButton-d1-0-2-10 i {
+    color: #777777;
+  }
+  .wrapper-d2-0-2-21 {  }
+  .tabButton-d3-0-2-22 {
+    cursor: pointer;
+    pointer-events: auto;
+    color: #777777;
+  }
+  .tabButton-d3-0-2-22 i {
+    color: #777777;
+  }
+  .wrapper-d4-0-2-27 {  }
+  .tabButton-d5-0-2-28 {
+    cursor: pointer;
+    pointer-events: auto;
+    color: #777777;
+  }
+  .tabButton-d5-0-2-28 i {
+    color: #777777;
+  }
+  .wrapper-0-2-1 {
+    position: relative;
+  }
+  .container-0-2-2 {
+    width: 100%;
+    display: flex;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
+    overflow-x: hidden;
+    align-items: center;
+    scroll-behavior: smooth;
+  }
+  .container-0-2-2 button {  }
+  .navigation-0-2-3 {
+    top: 0;
+    border: 0;
+    bottom: 0;
+    cursor: pointer;
+    z-index: 1;
+    position: absolute;
+  }
+  .navigation-0-2-3 > i {
+    color: #777777;
+  }
+  .navigationPrev-0-2-4 {
+    left: 0;
+    background: linear-gradient(to right, #ffffff, transparent);
+  }
+  .navigationNext-0-2-5 {
+    right: 0;
+    background: linear-gradient(to left, #ffffff, transparent);
+  }
+  .container-d0-0-2-6 {
+    height: 72px;
+    justify-content: flex-start;
+    background-color: #ffffff;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14);
+  }
+  .container-d0-0-2-6 button {
+    flex-direction: row;
+  }",
+  <div>
+    <div
+      class="wrapper-0-2-1"
+    >
+      <ul
+        class="container-0-2-2 container-d0-0-2-6"
+      >
+        <li
+          class="wrapper-0-2-7 wrapper-d0-0-2-9"
+        >
+          <div
+            class="wrapper-0-2-12 wrapper-d0-0-2-17"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
+          >
+            <div
+              class="rippleContainer-0-2-14 rippleContainer-d2-0-2-19"
+            >
+              <div
+                class="ripple-0-2-13 ripple-d1-0-2-18 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="tabButton-0-2-8 tabButton-d1-0-2-10"
+              type="button"
+            >
+              Tab 1
+            </button>
+          </div>
+        </li>
+        <li
+          class="wrapper-0-2-7 wrapper-d2-0-2-21"
+        >
+          <div
+            class="wrapper-0-2-12 wrapper-d4-0-2-23"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
+          >
+            <div
+              class="rippleContainer-0-2-14 rippleContainer-d6-0-2-25"
+            >
+              <div
+                class="ripple-0-2-13 ripple-d5-0-2-24 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="tabButton-0-2-8 tabButton-d3-0-2-22"
+              type="button"
+            >
+              Tab 2
+            </button>
+          </div>
+        </li>
+        <li
+          class="wrapper-0-2-7 wrapper-d4-0-2-27"
+        >
+          <div
+            class="wrapper-0-2-12 wrapper-d8-0-2-29"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
+          >
+            <div
+              class="rippleContainer-0-2-14 rippleContainer-d10-0-2-31"
+            >
+              <div
+                class="ripple-0-2-13 ripple-d9-0-2-30 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="tabButton-0-2-8 tabButton-d5-0-2-28"
+              type="button"
+            >
+              Tab 3
+            </button>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>,
+]
+`;
