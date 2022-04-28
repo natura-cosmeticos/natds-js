@@ -26,7 +26,7 @@ const styles = createUseStyles((theme: Theme) => ({
     '& > div': {
       height: '100%'
     },
-    '&:hover[not:disabled]': {
+    '&:hover': {
       background: `${theme.color.highlight}29`
     }
   },
