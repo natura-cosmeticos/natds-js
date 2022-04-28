@@ -3,7 +3,7 @@ import { Theme } from '@naturacosmeticos/natds-themes'
 import { TabProps } from './Tab.props'
 
 type TabContainerProps = Pick<TabProps,
-    'iconPosition' |
+    'alignIcon' |
     'align' |
     'size' |
     'position'|
@@ -47,7 +47,7 @@ const styles = createUseStyles((theme: Theme) => ({
     overflowX: 'hidden',
     scrollBehavior: 'smooth',
     '& button': {
-      flexDirection: (props: TabContainerProps) => (props.iconPosition === 'left' ? 'row' : 'column')
+      flexDirection: (props: TabContainerProps) => (props.alignIcon === 'left' ? 'row' : 'column')
     }
   },
   navigation: {
