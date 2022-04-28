@@ -17,7 +17,7 @@ const TabItem = React.forwardRef<HTMLLIElement, TabItemProps>(
     return (
       <li className={wrapper} ref={ref}>
         <Ripple isCentered fullWidth>
-          <button type="button" onClick={onClick} className={tabButton}>{props.children}</button>
+          <button type="button" onClick={onClick} className={tabButton} disabled={isDisabled}>{props.children}</button>
         </Ripple>
       </li>
     )
