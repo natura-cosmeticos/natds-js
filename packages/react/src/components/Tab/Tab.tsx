@@ -10,7 +10,8 @@ const Tab = React.forwardRef<HTMLDivElement, TabProps>(
       iconPosition = 'left',
       itemsPosition = 'left',
       size = 'normal',
-      position = 'fixed'
+      position = 'fixed',
+      elevation = true
     } = props
 
     const {
@@ -20,12 +21,12 @@ const Tab = React.forwardRef<HTMLDivElement, TabProps>(
       navigationPrev,
       navigationNext
     } = styles({
-      iconPosition, itemsPosition, size, position
+      iconPosition, itemsPosition, size, position, elevation
     })
 
     const listRef = createRef<HTMLUListElement>()
     const [itemWitdth, setItemWidth] = useState(0)
-    const [showNavigation, setShowNavigation] = useState(() => position === 'scrollable')
+    const [showNavigation] = useState(() => position === 'scrollable')
 
     useEffect(() => {
       if (!listRef.current) return

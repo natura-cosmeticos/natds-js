@@ -31,4 +31,9 @@ export interface TabProps {
    * Define behavior of container when width is over
    */
    position?: 'fixed' | 'scrollable'
+
+  /**
+   * Toggle box shadow effects
+   */
+  elevation?: boolean
 }
