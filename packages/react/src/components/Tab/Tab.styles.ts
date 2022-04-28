@@ -4,19 +4,19 @@ import { TabProps } from './Tab.props'
 
 type TabContainerProps = Pick<TabProps,
     'iconPosition' |
-    'itemsPosition' |
+    'align' |
     'size' |
     'position'|
     'elevation' |
     'color'
   >
 
-const setItemsPosition = () => ({ itemsPosition }: TabContainerProps) => {
-  if (itemsPosition === 'right') {
+const setAlignTabs = () => ({ align }: TabContainerProps) => {
+  if (align === 'right') {
     return 'flex-end'
   }
 
-  if (itemsPosition === 'center') {
+  if (align === 'center') {
     return 'center'
   }
 
@@ -34,7 +34,7 @@ const styles = createUseStyles((theme: Theme) => ({
     listStyle: 'none',
     display: 'flex',
     alignItems: 'center',
-    justifyContent: setItemsPosition(),
+    justifyContent: setAlignTabs(),
     backgroundColor:
       (props: TabContainerProps) => (
         props.color ? theme.color.surface : 'transparent'

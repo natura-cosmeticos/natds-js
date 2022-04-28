@@ -18,9 +18,9 @@ export interface TabProps {
   iconPosition?: 'left' | 'top'
 
   /**
-   * Define tabs aligns
+   * Define align of tabs
    */
-  itemsPosition?: 'left' | 'center' | 'right'
+  align?: 'left' | 'center' | 'right'
 
   /**
    * Define height of container
