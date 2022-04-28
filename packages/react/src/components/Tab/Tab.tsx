@@ -11,7 +11,8 @@ const Tab = React.forwardRef<HTMLDivElement, TabProps>(
       itemsPosition = 'left',
       size = 'normal',
       position = 'fixed',
-      elevation = true
+      elevation = true,
+      color = true
     } = props
 
     const {
@@ -21,7 +22,7 @@ const Tab = React.forwardRef<HTMLDivElement, TabProps>(
       navigationPrev,
       navigationNext
     } = styles({
-      iconPosition, itemsPosition, size, position, elevation
+      iconPosition, itemsPosition, size, position, elevation, color
     })
 
     const listRef = createRef<HTMLUListElement>()

@@ -2,7 +2,14 @@ import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { TabProps } from './Tab.props'
 
-type TabContainerProps = Pick<TabProps, 'iconPosition' | 'itemsPosition' | 'size' | 'position' | 'elevation'>
+type TabContainerProps = Pick<TabProps,
+    'iconPosition' |
+    'itemsPosition' |
+    'size' |
+    'position'|
+    'elevation' |
+    'color'
+  >
 
 const setItemsPosition = () => ({ itemsPosition }: TabContainerProps) => {
   if (itemsPosition === 'right') {
@@ -28,7 +35,10 @@ const styles = createUseStyles((theme: Theme) => ({
     display: 'flex',
     alignItems: 'center',
     justifyContent: setItemsPosition(),
-    backgroundColor: theme.color.surface,
+    backgroundColor:
+      (props: TabContainerProps) => (
+        props.color ? theme.color.surface : 'transparent'
+      ),
     boxShadow:
       (props: TabContainerProps) => (
         props.elevation ? theme.elevation.micro : theme.elevation.none

@@ -33,7 +33,12 @@ export interface TabProps {
    position?: 'fixed' | 'scrollable'
 
   /**
-   * Toggle box shadow effects
-   */
+  * Toggle box shadow effects
+  */
   elevation?: boolean
+
+  /**
+  * Toggle background color of container
+  */
+  color?: boolean
 }
