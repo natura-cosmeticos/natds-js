@@ -26,4 +26,9 @@ export interface TabProps {
    * Define height of container
    */
   size?: 'normal' | 'large'
+
+  /**
+   * Define behavior of container when width is over
+   */
+   position?: 'fixed' | 'scrollable'
 }

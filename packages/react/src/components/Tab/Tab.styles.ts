@@ -2,7 +2,7 @@ import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { TabProps } from './Tab.props'
 
-type TabContainerProps = Pick<TabProps, 'iconPosition' | 'itemsPosition' | 'size'>
+type TabContainerProps = Pick<TabProps, 'iconPosition' | 'itemsPosition' | 'size' | 'position'>
 
 const setItemsPosition = () => ({ itemsPosition }: TabContainerProps) => {
   if (itemsPosition === 'right') {
@@ -17,6 +17,9 @@ const setItemsPosition = () => ({ itemsPosition }: TabContainerProps) => {
 }
 
 const styles = createUseStyles((theme: Theme) => ({
+  wrapper: {
+    position: 'relative'
+  },
   container: {
     width: '100%',
     height: (props: TabContainerProps) => (props.size === 'normal' ? theme.size.medium : theme.size.largeX),
@@ -27,9 +30,31 @@ const styles = createUseStyles((theme: Theme) => ({
     justifyContent: setItemsPosition(),
     backgroundColor: theme.color.surface,
     boxShadow: theme.elevation.micro,
+    overflow: 'hidden',
+    overflowX: 'hidden',
+    scrollBehavior: 'smooth',
     '& button': {
       flexDirection: (props: TabContainerProps) => (props.iconPosition === 'left' ? 'row' : 'column')
     }
+  },
+  navigation: {
+    position: 'absolute',
+    top: 0,
+    bottom: 0,
+    zIndex: 1,
+    border: 0,
+    cursor: 'pointer',
+    '& > i': {
+      color: theme.color.mediumEmphasis
+    }
+  },
+  navigationPrev: {
+    left: 0,
+    background: `linear-gradient(to right, ${theme.color.surface}, transparent)`
+  },
+  navigationNext: {
+    right: 0,
+    background: `linear-gradient(to left, ${theme.color.surface}, transparent)`
   }
 }))
 

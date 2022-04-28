@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { createRef } from 'react'
 import { Story, Meta } from '@storybook/react'
 import TabItem from '../TabItem'
 import { Tab, TabProps } from '.'
@@ -78,20 +78,32 @@ export const OnlyIcons: Story<TabProps> = (args) => (
 
 export const WithHorizontalScroll: Story<TabProps> = (args) => (
   <div style={{ maxWidth: 400 }}>
-    <Tab {...args}>
+    <Tab {...args} position="scrollable">
       <TabItem onClick={onClick} isActive>
         Tab 1
       </TabItem>
       <TabItem onClick={onClick}>
         Tab 2
       </TabItem>
-      <TabItem onClick={onClick} isDisabled>
+      <TabItem onClick={onClick}>
         Tab 3
       </TabItem>
-      <TabItem onClick={onClick} isDisabled>
+      <TabItem onClick={onClick}>
         Tab 4
       </TabItem>
-      <TabItem onClick={onClick} isDisabled>
+      <TabItem onClick={onClick}>
+        Tab 5
+      </TabItem>
+      <TabItem onClick={onClick}>
+        Tab 2
+      </TabItem>
+      <TabItem onClick={onClick}>
+        Tab 3
+      </TabItem>
+      <TabItem onClick={onClick}>
+        Tab 4
+      </TabItem>
+      <TabItem onClick={onClick}>
         Tab 5
       </TabItem>
     </Tab>
