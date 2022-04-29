@@ -5,7 +5,6 @@ import { TabProps } from './Tab.props'
 type TabContainerProps = Pick<TabProps,
     'alignIcon' |
     'align' |
-    'size' |
     'position'|
     'elevation' |
     'color'
@@ -29,7 +28,7 @@ const styles = createUseStyles((theme: Theme) => ({
   },
   container: {
     width: '100%',
-    height: (props: TabContainerProps) => (props.size === 'normal' ? theme.size.medium : theme.size.largeX),
+    height: (props: TabContainerProps) => (props.alignIcon === 'left' ? theme.size.medium : theme.size.largeX),
     padding: 0,
     listStyle: 'none',
     display: 'flex',

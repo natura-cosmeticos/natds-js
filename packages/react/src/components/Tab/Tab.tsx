@@ -9,7 +9,6 @@ const Tab = React.forwardRef<HTMLDivElement, TabProps>(
     const {
       alignIcon = 'left',
       align = 'left',
-      size = 'normal',
       position = 'fixed',
       elevation = true,
       color = true
@@ -22,7 +21,7 @@ const Tab = React.forwardRef<HTMLDivElement, TabProps>(
       navigationPrev,
       navigationNext
     } = styles({
-      alignIcon, align, size, position, elevation, color
+      alignIcon, align, position, elevation, color
     })
 
     const listRef = createRef<HTMLUListElement>()

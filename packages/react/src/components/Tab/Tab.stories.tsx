@@ -1,4 +1,4 @@
-import React, { createRef } from 'react'
+import React from 'react'
 import { Story, Meta } from '@storybook/react'
 import TabItem from '../TabItem'
 import { Tab, TabProps } from '.'
@@ -20,9 +20,6 @@ With the following attribute statuses:
     - ✅ \`left\`
     - ✅ \`center\`
     - ✅ \`right\`
-  - **Size:**
-    - ✅ \`normal\`
-    - ✅ \`large\`
   - **Position:**
     - ✅ \`fixed\`
     - ✅ \`scrollable\`
@@ -59,7 +56,7 @@ export const Playground: Story<TabProps> = (args) => (
 )
 
 export const WithIcons: Story<TabProps> = (args) => (
-  <Tab {...args} size="large">
+  <Tab {...args}>
     <TabItem onClick={onClick} isActive>
       <Icon size="standard" name="outlined-default-mockup" color="highEmphasis" />
       Tab 1
@@ -76,7 +73,7 @@ export const WithIcons: Story<TabProps> = (args) => (
 )
 
 export const OnlyIcons: Story<TabProps> = (args) => (
-  <Tab {...args} size="large">
+  <Tab {...args}>
     <TabItem onClick={onClick} isActive>
       <Icon size="standard" name="outlined-default-mockup" color="highEmphasis" />
     </TabItem>

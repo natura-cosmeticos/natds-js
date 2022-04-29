@@ -61,24 +61,6 @@ describe('Tab component', () => {
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
 
-  it('should render correctly with size large', () => {
-    const { styles, component } = renderWithTheme(
-      <Tab size="large">
-        <TabItem onClick={onClick}>
-          Tab 1
-        </TabItem>
-        <TabItem onClick={onClick}>
-          Tab 2
-        </TabItem>
-        <TabItem onClick={onClick}>
-          Tab 3
-        </TabItem>
-      </Tab>
-    )
-
-    expect([styles.toString(), component.container]).toMatchSnapshot()
-  })
-
   it('should render correctly with elevation is false', () => {
     const { styles, component } = renderWithTheme(
       <Tab elevation={false}>
