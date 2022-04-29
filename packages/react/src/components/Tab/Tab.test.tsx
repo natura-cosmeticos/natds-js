@@ -1,4 +1,5 @@
 import React from 'react'
+import { fireEvent, screen } from '@testing-library/react'
 import TabItem from '../TabItem'
 import Tab from '.'
 import renderWithTheme from '../../helpers/renderWithTheme'
@@ -112,5 +113,56 @@ describe('Tab component', () => {
     )
 
     expect([styles.toString(), component.container]).toMatchSnapshot()
+  })
+
+  it('should render correctly with position is scrollable', () => {
+    const { styles, component } = renderWithTheme(
+      <Tab position="scrollable">
+        <TabItem onClick={onClick}>
+          Tab 1
+        </TabItem>
+        <TabItem onClick={onClick}>
+          Tab 2
+        </TabItem>
+        <TabItem onClick={onClick}>
+          Tab 3
+        </TabItem>
+      </Tab>
+    )
+
+    expect([styles.toString(), component.container]).toMatchSnapshot()
+  })
+
+  it('should scroll when navigation buttons is clicked', () => {
+    renderWithTheme(
+      <div style={{ width: '200px' }}>
+        <Tab position="scrollable">
+          <TabItem onClick={onClick} isActive>
+            Tab 1
+          </TabItem>
+          <TabItem onClick={onClick}>
+            Tab 2
+          </TabItem>
+          <TabItem onClick={onClick}>
+            Tab 3
+          </TabItem>
+          <TabItem onClick={onClick}>
+            Tab 4
+          </TabItem>
+          <TabItem onClick={onClick}>
+            Tab 5
+          </TabItem>
+        </Tab>
+      </div>
+    )
+
+    const btnPrev = screen.getByTestId('btn-prev')
+    const btnNext = screen.getByTestId('btn-next')
+
+    fireEvent.click(btnNext)
+    fireEvent.click(btnPrev)
+
+    expect(btnPrev).toBeInTheDocument()
+    expect(btnNext).toBeInTheDocument()
   })
 })

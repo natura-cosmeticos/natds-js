@@ -53,7 +53,7 @@ const Tab = React.forwardRef<HTMLDivElement, TabProps>(
     return (
       <div className={wrapper} ref={ref}>
         {showNavigation && (
-        <button type="button" className={`${navigation} ${navigationPrev}`} onClick={handlePrev}>
+        <button type="button" className={`${navigation} ${navigationPrev}`} onClick={handlePrev} data-testid="btn-prev">
           <Icon name="filled-navigation-arrowleft" />
         </button>
         )}
@@ -63,7 +63,7 @@ const Tab = React.forwardRef<HTMLDivElement, TabProps>(
         </ul>
 
         {showNavigation && (
-        <button type="button" className={`${navigation} ${navigationNext}`} onClick={handleNext}>
+        <button type="button" className={`${navigation} ${navigationNext}`} onClick={handleNext} data-testid="btn-next">
           <Icon name="filled-navigation-arrowright" />
         </button>
         )}
