@@ -13,9 +13,10 @@ const componentStatus = `
 
 With the following attribute statuses:
 
-  - **Icon:** (available but with alternative composition)
+  - **Icon:** 
     - ✅ \`left\`
     - ✅ \`top\`
+    - ✅ \`icon\` (available but with alternative composition)
   - **Align:**
     - ✅ \`left\`
     - ✅ \`center\`
