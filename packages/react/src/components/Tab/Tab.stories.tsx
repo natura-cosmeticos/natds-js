@@ -9,11 +9,11 @@ const componentStatus = `
 
 **NOTE FOR UXs**: This component is available in the following variants:
 
-  - ✅ Standard
+  - ✅ Standard (available but with alternative composition)
 
 With the following attribute statuses:
 
-  - **Align Icon:**
+  - **Icon:**
     - ✅ \`left\`
     - ✅ \`top\`
   - **Align:**
@@ -25,6 +25,7 @@ With the following attribute statuses:
     - ✅ \`scrollable\`
   - ✅ \`elevation\`
   - ✅ \`color\`
+  - ✅ \`disabled\` (available but with alternative composition)
 
 - - -
 `
