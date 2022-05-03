@@ -1,5 +1,5 @@
 import React from 'react'
-import { fireEvent, screen } from '@testing-library/react'
+import { screen } from '@testing-library/react'
 import TabItem from '../TabItem'
 import Tab from '.'
 import renderWithTheme from '../../helpers/renderWithTheme'
