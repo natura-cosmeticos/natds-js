@@ -1,41 +1,47 @@
 /* eslint-disable complexity */
 import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
-import { TypographyProps } from './Typography.props'
 
-type TypographyVariant = Pick<TypographyProps, 'variant'>
+type TypographyVariant = {
+  variant: 'heading1' |
+  'heading2' |
+  'heading3' |
+  'heading4' |
+  'heading5' |
+  'heading6' |
+  'subtitle1' |
+  'subtitle2' |
+  'body1' |
+  'body2' |
+  'caption' |
+  'overline'
+}
 
-const setStyleByVariant = (theme: Theme) => ({ variant }: TypographyVariant) => {
-  const headingBase = {
-    fontFamily: theme.typography.fontFamily
+const setFontFamily = (theme: Theme) => ({ variant }: TypographyVariant) => {
+  if (variant.includes('heading')) {
+    return theme.typography.headline.fontFamily
   }
 
-  // const sutitleBase = {
-  //   fontFamily: theme.typography.fontSize.
-  // }
+  return theme.typography.body.regular.fontFamily
+}
 
-  switch (variant) {
-    case 'heading1':
-      return { ...headingBase, fontSize: 96 }
-    case 'heading2':
-      return { ...headingBase, fontSize: 60 }
-    case 'heading3':
-      return { ...headingBase, fontSize: 48 }
-    case 'heading4':
-      return { ...headingBase, fontSize: 34 }
-    case 'heading5':
-      return { ...headingBase, fontSize: 24 }
-    case 'heading6':
-      return { ...headingBase, fontSize: 20 }
-    case 'subtitle1':
-      return { ...headingBase, fontSize: 20 }
-    default:
-      break
+const setTextTransform = () => ({ variant }: TypographyVariant) => {
+  if (variant === 'overline') {
+    return 'uppercase'
   }
+
+  return 'none'
 }
 
 const styles = createUseStyles((theme: Theme) => ({
-  example: setStyleByVariant(theme)
+  text: {
+    fontFamily: setFontFamily(theme),
+    fontWeight: ({ variant }: TypographyVariant) => theme[variant].fontWeight,
+    fontSize: ({ variant }: TypographyVariant) => theme[variant].fontSize,
+    lineHeight: ({ variant }: TypographyVariant) => theme[variant].lineHeight,
+    letterSpacing: ({ variant }: TypographyVariant) => theme[variant].letterSpacing,
+    textTransform: setTextTransform()
+  }
 
 }))
 
