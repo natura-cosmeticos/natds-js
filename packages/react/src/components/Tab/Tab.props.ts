@@ -13,9 +13,9 @@ export interface TabProps {
   children: React.ReactNode
 
   /**
-   * Define align icon relative by text
+   * Define align of icon relative by text
    */
-  alignIcon?: 'left' | 'top'
+  icon?: 'left' | 'top'
 
   /**
    * Define align of tabs

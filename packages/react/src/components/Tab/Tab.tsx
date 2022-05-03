@@ -7,7 +7,7 @@ import { TabProps } from './Tab.props'
 const Tab = React.forwardRef<HTMLDivElement, TabProps>(
   (props, ref) => {
     const {
-      alignIcon = 'left',
+      icon = 'left',
       align = 'left',
       position = 'fixed',
       elevation = true,
@@ -21,7 +21,7 @@ const Tab = React.forwardRef<HTMLDivElement, TabProps>(
       navigationPrev,
       navigationNext
     } = styles({
-      alignIcon, align, position, elevation, color
+      icon, align, position, elevation, color
     })
 
     const listRef = createRef<HTMLUListElement>()
