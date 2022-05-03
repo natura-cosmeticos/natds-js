@@ -115,7 +115,7 @@ describe('Tab component', () => {
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
 
-  it('should scroll when navigation buttons is clicked', () => {
+  it('should render navigation buttons when position is scrollable', () => {
     renderWithTheme(
       <div style={{ width: '200px' }}>
         <Tab position="scrollable">
@@ -140,9 +140,6 @@ describe('Tab component', () => {
 
     const btnPrev = screen.getByTestId('btn-prev')
     const btnNext = screen.getByTestId('btn-next')
-
-    fireEvent.click(btnNext)
-    fireEvent.click(btnPrev)
 
     expect(btnPrev).toBeInTheDocument()
     expect(btnNext).toBeInTheDocument()
