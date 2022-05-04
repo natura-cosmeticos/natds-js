@@ -78,4 +78,22 @@ describe('Typography component', () => {
       expect(styles.includes('font-size: 14px;')).toBeTruthy()
     })
   })
+
+  describe('Body variants', () => {
+    it('should render the component as body1', () => {
+      const { styles, component } = renderWithTheme(<Typography variant="body1">hello</Typography>)
+
+      expect([styles.toString(), component.container]).toMatchSnapshot()
+      expect(component.getByText(/hello/i)).toBeInTheDocument()
+      expect(styles.includes('font-size: 16px;')).toBeTruthy()
+    })
+
+    it('should render the component as body2', () => {
+      const { styles, component } = renderWithTheme(<Typography variant="body2">hello</Typography>)
+
+      expect([styles.toString(), component.container]).toMatchSnapshot()
+      expect(component.getByText(/hello/i)).toBeInTheDocument()
+      expect(styles.includes('font-size: 14px;')).toBeTruthy()
+    })
+  })
 })

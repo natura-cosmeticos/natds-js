@@ -1,5 +1,51 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Typography component Body variants should render the component as body1 1`] = `
+Array [
+  ".text-0-2-1 {}
+.text-d0-0-2-2 {
+  font-family: Helvetica Now Display;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.51px;
+  text-transform: none;
+}",
+  <div>
+    <div>
+      <p
+        class="text-0-2-1 text-d0-0-2-2"
+      >
+        hello
+      </p>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Typography component Body variants should render the component as body2 1`] = `
+Array [
+  ".text-0-2-1 {}
+.text-d0-0-2-2 {
+  font-family: Helvetica Now Display;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.22px;
+  text-transform: none;
+}",
+  <div>
+    <div>
+      <p
+        class="text-0-2-1 text-d0-0-2-2"
+      >
+        hello
+      </p>
+    </div>
+  </div>,
+]
+`;
+
 exports[`Typography component Heading variants should render the component as heading1 1`] = `
 Array [
   ".text-0-2-1 {}
