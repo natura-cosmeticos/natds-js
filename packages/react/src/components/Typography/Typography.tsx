@@ -20,6 +20,8 @@ const Typography = React.forwardRef<HTMLDivElement, TypographyProps>(
         nameElement = `h${suffix}`
       } else if (variant === 'caption' || variant === 'overline') {
         nameElement = 'span'
+      } else if (variant.includes('subtitle')) {
+        nameElement = 'h2'
       } else {
         nameElement = 'p'
       }
