@@ -29,7 +29,7 @@ const Typography = React.forwardRef<HTMLDivElement, TypographyProps>(
 
     return (
       <div ref={ref} {...rest}>
-        <CustomTag className={text}>hello</CustomTag>
+        <CustomTag className={text}>{props.children}</CustomTag>
       </div>
     )
   }
