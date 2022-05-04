@@ -96,4 +96,14 @@ describe('Typography component', () => {
       expect(styles.includes('font-size: 14px;')).toBeTruthy()
     })
   })
+
+  describe('Caption variant', () => {
+    it('should render the component as caption', () => {
+      const { styles, component } = renderWithTheme(<Typography variant="caption">hello</Typography>)
+
+      expect([styles.toString(), component.container]).toMatchSnapshot()
+      expect(component.getByText(/hello/i)).toBeInTheDocument()
+      expect(styles.includes('font-size: 12px;')).toBeTruthy()
+    })
+  })
 })
