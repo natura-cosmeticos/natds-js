@@ -25,5 +25,12 @@ export interface TypographyProps {
     'body1' |
     'body2' |
     'caption' |
-    'overline'
+    'overline',
+
+  /**
+   * Children to be rendered inside the Typography.
+   * Should be pass a string like e.g. Lorem Ipsum
+   * @required
+   */
+   children?: React.ReactNode;
 }
