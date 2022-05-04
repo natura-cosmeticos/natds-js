@@ -1,29 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Typography component should render the component as body1 when variant is not defined 1`] = `
-Array [
-  ".text-0-2-1 {}
-.text-d0-0-2-2 {
-  font-family: Helvetica Now Display;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.51px;
-  text-transform: none;
-}",
-  <div>
-    <div>
-      <p
-        class="text-0-2-1 text-d0-0-2-2"
-      >
-        hello
-      </p>
-    </div>
-  </div>,
-]
-`;
-
-exports[`Typography component should render the component as heading1 1`] = `
+exports[`Typography component Heading variants should render the component as heading1 1`] = `
 Array [
   ".text-0-2-1 {}
 .text-d0-0-2-2 {
@@ -46,7 +23,7 @@ Array [
 ]
 `;
 
-exports[`Typography component should render the component as heading2 1`] = `
+exports[`Typography component Heading variants should render the component as heading2 1`] = `
 Array [
   ".text-0-2-1 {}
 .text-d0-0-2-2 {
@@ -69,7 +46,7 @@ Array [
 ]
 `;
 
-exports[`Typography component should render the component as heading3 1`] = `
+exports[`Typography component Heading variants should render the component as heading3 1`] = `
 Array [
   ".text-0-2-1 {}
 .text-d0-0-2-2 {
@@ -92,7 +69,7 @@ Array [
 ]
 `;
 
-exports[`Typography component should render the component as heading4 1`] = `
+exports[`Typography component Heading variants should render the component as heading4 1`] = `
 Array [
   ".text-0-2-1 {}
 .text-d0-0-2-2 {
@@ -115,7 +92,7 @@ Array [
 ]
 `;
 
-exports[`Typography component should render the component as heading5 1`] = `
+exports[`Typography component Heading variants should render the component as heading5 1`] = `
 Array [
   ".text-0-2-1 {}
 .text-d0-0-2-2 {
@@ -138,7 +115,7 @@ Array [
 ]
 `;
 
-exports[`Typography component should render the component as heading6 1`] = `
+exports[`Typography component Heading variants should render the component as heading6 1`] = `
 Array [
   ".text-0-2-1 {}
 .text-d0-0-2-2 {
@@ -156,6 +133,75 @@ Array [
       >
         hello
       </h6>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Typography component Subtitle variants should render the component as subtitle1 1`] = `
+Array [
+  ".text-0-2-1 {}
+.text-d0-0-2-2 {
+  font-family: Helvetica Now Display;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.13px;
+  text-transform: none;
+}",
+  <div>
+    <div>
+      <h2
+        class="text-0-2-1 text-d0-0-2-2"
+      >
+        hello
+      </h2>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Typography component Subtitle variants should render the component as subtitle2 1`] = `
+Array [
+  ".text-0-2-1 {}
+.text-d0-0-2-2 {
+  font-family: Helvetica Now Display;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.11px;
+  text-transform: none;
+}",
+  <div>
+    <div>
+      <h2
+        class="text-0-2-1 text-d0-0-2-2"
+      >
+        hello
+      </h2>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Typography component should render the component as body1 when variant is not defined 1`] = `
+Array [
+  ".text-0-2-1 {}
+.text-d0-0-2-2 {
+  font-family: Helvetica Now Display;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.51px;
+  text-transform: none;
+}",
+  <div>
+    <div>
+      <p
+        class="text-0-2-1 text-d0-0-2-2"
+      >
+        hello
+      </p>
     </div>
   </div>,
 ]
