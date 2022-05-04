@@ -106,4 +106,15 @@ describe('Typography component', () => {
       expect(styles.includes('font-size: 12px;')).toBeTruthy()
     })
   })
+
+  describe('Overline variant', () => {
+    it('should render the component as overline', () => {
+      const { styles, component } = renderWithTheme(<Typography variant="overline">hello</Typography>)
+
+      expect([styles.toString(), component.container]).toMatchSnapshot()
+      expect(component.getByText(/hello/i)).toBeInTheDocument()
+      expect(styles.includes('font-size: 12px;')).toBeTruthy()
+      expect(styles.includes('text-transform: uppercase;')).toBeTruthy()
+    })
+  })
 })
