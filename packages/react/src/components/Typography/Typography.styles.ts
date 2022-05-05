@@ -38,7 +38,7 @@ const styles = createUseStyles((theme: Theme) => ({
     fontFamily: setFontFamily(theme),
     fontWeight: ({ variant }: TypographyVariant) => theme[variant].fontWeight,
     fontSize: ({ variant }: TypographyVariant) => theme[variant].fontSize,
-    lineHeight: ({ variant }: TypographyVariant) => theme[variant].fontSize,
+    lineHeight: ({ variant }: TypographyVariant) => theme[variant].lineHeight,
     letterSpacing: ({ variant }: TypographyVariant) => theme[variant].letterSpacing,
     textTransform: setTextTransform()
   }
