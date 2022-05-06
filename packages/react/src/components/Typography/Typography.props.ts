@@ -32,5 +32,5 @@ export interface TypographyProps {
    * Should be pass a string like e.g. Lorem Ipsum
    * @required
    */
-   children?: React.ReactNode;
+   children: React.ReactNode;
 }
