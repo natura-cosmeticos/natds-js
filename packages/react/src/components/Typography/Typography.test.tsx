@@ -66,7 +66,7 @@ describe('Typography component', () => {
       const { styles, component } = renderWithTheme(<Typography variant="subtitle1">hello</Typography>)
 
       expect([styles.toString(), component.container]).toMatchSnapshot()
-      expect(component.getByRole('heading')).toBeInTheDocument()
+      expect(component.getByText(/hello/i)).toBeInTheDocument()
       expect(styles.includes('font-size: 16px;')).toBeTruthy()
     })
 
@@ -74,7 +74,7 @@ describe('Typography component', () => {
       const { styles, component } = renderWithTheme(<Typography variant="subtitle2">hello</Typography>)
 
       expect([styles.toString(), component.container]).toMatchSnapshot()
-      expect(component.getByRole('heading')).toBeInTheDocument()
+      expect(component.getByText(/hello/i)).toBeInTheDocument()
       expect(styles.includes('font-size: 14px;')).toBeTruthy()
     })
   })
