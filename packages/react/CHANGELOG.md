@@ -3,6 +3,38 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.29.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.28.0-alpha.DSY-2688.3.0...@naturacosmeticos/natds-react@2.29.0) (2022-05-12)
+
+
+
+## 2.28.1 (2022-05-12)
+
+
+
+## 2.27.1 (2022-05-05)
+
+
+### Features
+
+* added disable prop on button ([91d1929](https://github.com/natura-cosmeticos/natds-js/commit/91d1929ae727146017f050bbe6473bb87b506929))
+* **react:** added color props ([e4dadf5](https://github.com/natura-cosmeticos/natds-js/commit/e4dadf5138ebaa311268467e5367dd28e0ddbc79))
+* **react:** added elevation props ([f43fd0a](https://github.com/natura-cosmeticos/natds-js/commit/f43fd0a582458134511472fcba7b5a7048fb18ee))
+* **react:** added isDisabled behavior ([efe8b97](https://github.com/natura-cosmeticos/natds-js/commit/efe8b970eedc5bc6394a7d97d121997d8fa42e84))
+* **react:** added itemsPosition to align items ([6813148](https://github.com/natura-cosmeticos/natds-js/commit/68131484f1a6c6d508c5b9308dfe79a8c224e451))
+* **react:** added scrollable behavior ([f335a51](https://github.com/natura-cosmeticos/natds-js/commit/f335a51b15251cfa15aac60776ccf24341be64f0))
+* **react:** added size to define height of container ([e60010e](https://github.com/natura-cosmeticos/natds-js/commit/e60010e80d90f705785a0d29868f49606b26d1c7))
+* **react:** create new stories ([c0549b0](https://github.com/natura-cosmeticos/natds-js/commit/c0549b089a98ceb1a7b111d0cab10fe59b51e97a))
+* **react:** create onClick for each tab item ([7b73bbe](https://github.com/natura-cosmeticos/natds-js/commit/7b73bbeccc32ee481f04cedfed1fafe44028daab))
+* **react:** create tab item component ([490ee48](https://github.com/natura-cosmeticos/natds-js/commit/490ee488d84bf8049d72686b957878bc67399626))
+* **react:** define icon position by orientation ([be42750](https://github.com/natura-cosmeticos/natds-js/commit/be42750c2e6190e4c3a13458ebf527101e2bd310))
+* **react:** expert all files in index ([6fe0a65](https://github.com/natura-cosmeticos/natds-js/commit/6fe0a65fe2d8797d45f851a68e84d0440044df62))
+* **react:** render tab items from map ([b6f8c67](https://github.com/natura-cosmeticos/natds-js/commit/b6f8c672d02853be8e18ce5c5c38a730bdd80098))
+* **react:** toggle color emphasis ([66c2b4b](https://github.com/natura-cosmeticos/natds-js/commit/66c2b4babf7f54573c23b9d7557ce9c9cb252c98))
+
+
+
+
+
 # [2.28.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.28.0-alpha.DSY-2686.11.0...@naturacosmeticos/natds-react@2.28.0) (2022-05-05)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-react
