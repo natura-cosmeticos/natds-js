@@ -1,56 +1,41 @@
 import React from 'react'
 import { Story, Meta } from '@storybook/react'
-import { Theme } from '@naturacosmeticos/natds-themes'
-import { useTheme } from 'react-jss'
+import { Typography, TypographyProps } from '.'
+
+const componentStatus = `
+- - -
+
+The component of Text is rendered inside a DIV. This happen because the component has dynamic behavior depending of variant value.
+
+- - -
+
+**NOTE FOR UXs**: This component is available in the following variants:
+
+  - ✅ Heading1
+  - ✅ Heading2
+  - ✅ Heading3
+  - ✅ Heading4
+  - ✅ Heading5
+  - ✅ Heading6
+  - ✅ Subtitle1
+  - ✅ Subtitle2
+  - ✅ Subtitle2
+  - ✅ Body1
+  - ✅ Body2
+  - ✅ Caption
+  - ✅ Overline
+
+- - -
+`
 
 export default {
   title: 'Components/Typography',
+  component: Typography,
   parameters: {
-    previewTabs: {
-      'storybook/docs/panel': {
-        hidden: true
-      }
-    }
+    docs: { description: { component: componentStatus } }
   }
 } as Meta
 
-export const CustomFonts: Story = () => {
-  const theme: Theme = useTheme()
-
-  return (
-    <>
-      <h2 style={{
-        fontFamily: `"${theme.typography.headline.fontFamily}", ${theme.typography.fallback.fontFamily}`,
-        fontWeight: theme.typography.headline.fontWeight,
-        color: theme.color.highlight
-      }}
-      >
-        Headline
-      </h2>
-      <h2 style={{
-        fontFamily: `"${theme.typography.display.fontFamily}", ${theme.typography.fallback.fontFamily}`,
-        fontWeight: theme.typography.display.fontWeight,
-        color: theme.color.highlight
-      }}
-      >
-        Display
-      </h2>
-      <h2 style={{
-        fontFamily: `"${theme.typography.body.regular.fontFamily}", ${theme.typography.fallback.fontFamily} `,
-        fontWeight: theme.typography.body.regular.fontWeight,
-        color: theme.color.highlight
-      }}
-      >
-        Body Regular
-      </h2>
-      <h2 style={{
-        fontFamily: `"${theme.typography.body.bold.fontFamily}", ${theme.typography.fallback.fontFamily}`,
-        fontWeight: theme.typography.body.bold.fontWeight,
-        color: theme.color.highlight
-      }}
-      >
-        Body Bold
-      </h2>
-    </>
-  )
-}
+export const Playground: Story<TypographyProps> = (args) => (
+  <Typography {...args}>Hello world</Typography>
+)
