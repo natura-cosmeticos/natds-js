@@ -1,3 +1,9 @@
+# ⚠️ [DEPRECATED]
+
+React Web Lib will be discontinued soon and will no longer receive support and updates. To consult [obsolete documentation click here](https://natds-web.natura.design/).
+
+NATDS-React is the new React Web Lib for the Natura Design System, [see all details here](https://www.npmjs.com/package/@naturacosmeticos/natds-react).
+
 # Natura Design System - React Web
 
 React components for web development inside Natura.
