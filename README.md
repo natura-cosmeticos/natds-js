@@ -10,21 +10,21 @@ If your project is using `react` and `react-dom` version `16.8.4` or higher:
 
 ```shell script
 # npm
-npm i --save @naturacosmeticos/natds-web
+npm i --save @naturacosmeticos/natds-react
 
 # yarn
-yarn add @naturacosmeticos/natds-web
+yarn add @naturacosmeticos/natds-react
 ```
 
-The `natds-web` package includes style tokens
+The `natds-react` package includes style tokens
 
-**Need more info about this package?** Please refer to [natds-web Documentation](./packages/web/README.md)
+**Need more info about this package?** Please refer to [natds-react Documentation](./packages/react/README.md)
 
 **Troubles?** Please refer to the [Troubleshooting Guide](./TROUBLESHOOTING.md) of this package.
 
 ## How to use
 
-Check our [Design System Storybook](https://natds-web.natura.design/) for all React components.
+Check our [Design System Storybook](https://natds-web.natura.design/react/index.html) for all React components.
 
 ### Not a React-based project?
 
