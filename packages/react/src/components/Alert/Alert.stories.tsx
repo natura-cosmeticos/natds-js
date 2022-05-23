@@ -27,12 +27,10 @@ export default {
   }
 } as Meta
 
-// export const Playground: Story<AlertProps> = (args) => (
-//   <Alert {...args} />
-// )
+const MockIcon = <Icon size="standard" name="outlined-default-mockup" color="highEmphasis" />
 
 export const Playground: Story<AlertProps> = (args) => (
-  <Alert {...args} icon={<Icon size="standard" name="outlined-default-mockup" color="highEmphasis" />}>
+  <Alert {...args} title="Title" icon={MockIcon}>
     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
   </Alert>
 )

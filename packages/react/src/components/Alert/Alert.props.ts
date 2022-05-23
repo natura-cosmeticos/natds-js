@@ -9,9 +9,11 @@ export interface AlertProps {
   /**
    * Optional ID for testing
    */
-  testID?: string;
+  testID?: string
 
-  variant?: 'info' | 'success' | 'error' | 'warning' | 'custom'
+  color?: 'info' | 'success' | 'error' | 'warning' | 'custom'
+
+  type?: 'contained' | 'outlined'
 
   title?: string;
 

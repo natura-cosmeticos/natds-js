@@ -1,18 +1,19 @@
 import React from 'react'
 import styles from './Alert.styles'
 import { AlertProps } from './Alert.props'
-import Icon from '../Icon'
 
 const Alert = React.forwardRef<HTMLDivElement, AlertProps>(
   (props, ref) => {
     const {
       className = '',
-      variant = 'info',
+      color = 'info',
       icon,
+      title,
+      type = 'contained',
       ...rest
     } = props
 
-    const { wrapper } = styles()
+    const { wrapper, content } = styles({ color, borderType: type })
 
     return (
       <div
@@ -22,7 +23,10 @@ const Alert = React.forwardRef<HTMLDivElement, AlertProps>(
       >
         {icon && icon}
 
-        {props.children}
+        <div className={content}>
+          {title && <h6>{title}</h6>}
+          {props.children}
+        </div>
       </div>
     )
   }
