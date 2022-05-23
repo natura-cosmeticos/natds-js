@@ -1,3 +1,5 @@
+import React from 'react'
+
 export interface AlertProps {
   /**
    * Specify an optional className to be added to your Alert
@@ -8,4 +10,12 @@ export interface AlertProps {
    * Optional ID for testing
    */
   testID?: string;
+
+  variant?: 'info' | 'success' | 'error' | 'warning' | 'custom'
+
+  title?: string;
+
+  icon?: React.ReactNode
+
+  children: React.ReactNode
 }
