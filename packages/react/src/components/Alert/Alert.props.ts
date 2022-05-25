@@ -1,3 +1,4 @@
+import { IconName } from '@naturacosmeticos/natds-icons'
 import React from 'react'
 
 export interface AlertProps {
@@ -11,13 +12,60 @@ export interface AlertProps {
    */
   testID?: string
 
+  /**
+   * Parameter to define the style that will be applied
+   * @default info
+  */
   color?: 'info' | 'success' | 'error' | 'warning' | 'custom'
 
+  /**
+   * Parameter to define border styles
+   * @default info
+  */
   type?: 'contained' | 'outlined'
 
-  title?: string;
+  /**
+   * The text to be define as Heading
+  */
+  title?: string
 
-  icon?: React.ReactNode
+  /**
+   * Parameter to render a custom Icon using color as custom
+  */
+  customIcon?: IconName
 
+  /**
+   * Parameter to render a custom Icon using color as custom
+   * @default true
+  */
+  showIcon?: boolean
+
+  /**
+   * The body text of component to render on the left side
+  */
   children: React.ReactNode
+
+  /**
+   * Parameter to set custom background color
+   * Should be a hexadecimal color like e.g. #000000
+  */
+  customBackgroundColor?: string
+
+  /**
+   * Parameter to set custom font color
+   * Should be a hexadecimal color like e.g. #000000
+  */
+  customTextColor?: string
+
+  /**
+   * Parameter to set custom icon color
+   * Should be a hexadecimal color like e.g. #000000
+  */
+  customIconColor?: string
+
+  /**
+   * Parameter to set custom border color
+   * Should be a hexadecimal color like e.g. #000000
+  */
+  customBorderColor?: string
 }

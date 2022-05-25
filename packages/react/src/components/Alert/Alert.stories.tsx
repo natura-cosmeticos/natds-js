@@ -1,6 +1,5 @@
 import React from 'react'
 import { Story, Meta } from '@storybook/react'
-import Icon from '../Icon'
 import { Alert, AlertProps } from '.'
 
 const componentStatus = `
@@ -27,10 +26,35 @@ export default {
   }
 } as Meta
 
-const MockIcon = <Icon size="standard" name="outlined-default-mockup" color="highEmphasis" />
-
 export const Playground: Story<AlertProps> = (args) => (
-  <Alert {...args} title="Title" icon={MockIcon}>
+  <Alert {...args} title="Title">
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+  </Alert>
+)
+
+export const WithoutIcon: Story<AlertProps> = (args) => (
+  <Alert {...args} title="Title">
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+  </Alert>
+)
+
+export const WithoutTitle: Story<AlertProps> = (args) => (
+  <Alert {...args}>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+  </Alert>
+)
+
+export const Custom: Story<AlertProps> = (args) => (
+  <Alert
+    {...args}
+    customIcon="outlined-default-mockup"
+    type="outlined"
+    color="custom"
+    customBackgroundColor="#FF00FF"
+    customBorderColor="#FF00FF"
+    customIconColor="#FF00FF"
+    customTextColor="#FF00FF"
+  >
     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
   </Alert>
 )
