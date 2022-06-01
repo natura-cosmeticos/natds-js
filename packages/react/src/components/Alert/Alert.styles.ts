@@ -14,25 +14,25 @@ type StyleProps = {
   customBorderColor?: string
 }
 
-const setBaseStyle = (theme: Theme) => ({
+const setBaseStyle = () => ({
   color, borderType, customBackgroundColor, customIconColor, customBorderColor
 }: StyleProps) => {
   const variantStyle = {
     info: {
-      background: `${theme.color.link}29`,
-      border: borderType === 'outlined' ? `solid 1px ${theme.color.link}` : 'none'
+      background: '#D0EBFF',
+      border: borderType === 'outlined' ? 'solid 1px #1C7ED6' : 'none'
     },
     success: {
-      background: `${theme.color.success}29`,
-      border: borderType === 'outlined' ? `solid 1px ${theme.color.success}` : 'none'
+      background: '#D3F9D8',
+      border: borderType === 'outlined' ? 'solid 1px #37B24D' : 'none'
     },
     error: {
-      background: `${theme.color.alert}29`,
-      border: borderType === 'outlined' ? `solid 1px ${theme.color.alert}` : 'none'
+      background: '#FFE3E3',
+      border: borderType === 'outlined' ? 'solid 1px #F03E3E' : 'none'
     },
     warning: {
-      background: `${theme.color.warning}29`,
-      border: borderType === 'outlined' ? `solid 1px ${theme.color.warning}` : 'none'
+      background: '#FFF3BF',
+      border: borderType === 'outlined' ? 'solid 1px #F59F00' : 'none'
     },
     custom: {
       background: `${customBackgroundColor}29`,
@@ -48,7 +48,7 @@ const setBaseStyle = (theme: Theme) => ({
 
 const styles = createUseStyles((theme: Theme) => ({
   wrapper: (props: StyleProps) => ({
-    ...setBaseStyle(theme)(props),
+    ...setBaseStyle()(props),
     display: 'flex',
     gap: theme.spacing.tiny,
     fontFamily: theme.typography.body.regular.fontFamily,

@@ -7,12 +7,20 @@ const componentStatus = `
 
 **NOTE FOR UXs**: This component is available in the following variants:
 
-  - ❌ Standard
+  - ✅ Standard
 
 With the following attribute statuses:
 
   - **Attributes:**
-    - ❌ \`Types\`
+    - ✅ Color
+    - ✅ Type
+    - ✅ Title
+    - ✅ CustomIcon
+    - ✅ ShowIcon
+    - ✅ CustomBackgroundColor
+    - ✅ CustomTextColor
+    - ✅ CustomIconColor
+    - ✅ CustomBorderColor
 
 - - -
 `

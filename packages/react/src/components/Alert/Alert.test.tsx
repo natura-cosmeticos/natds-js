@@ -71,7 +71,7 @@ describe('Alert border styles', () => {
       <Alert color="success" type="outlined">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</Alert>
     )
 
-    expect(styles.toString()).toContain('border: solid 1px #569a32;')
+    expect(styles.toString()).toContain('border: solid 1px #37B24D;')
   })
 })
 
