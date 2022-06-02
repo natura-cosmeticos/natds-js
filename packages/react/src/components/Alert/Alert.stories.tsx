@@ -41,7 +41,7 @@ export const Playground: Story<AlertProps> = (args) => (
 )
 
 export const WithoutIcon: Story<AlertProps> = (args) => (
-  <Alert {...args} title="Title">
+  <Alert {...args} title="Title" showIcon={false}>
     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
   </Alert>
 )
