@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Alert component should render component with info styles if color is not defined 1`] = `
+Array [
+  ".icon-0-2-5 {
+  font-family: natds-icons;
+  user-select: none;
+  pointer-events: none;
+}
+.icon-d0-0-2-6 {
+  color: #333333;
+  font-size: 24px;
+}
+.wrapper-0-2-1 {}
+.content-0-2-2 {}
+.content-0-2-2 > h6 {
+  margin: 0 0 8px 0;
+  font-size: 20px;
+}
+.wrapper-d0-0-2-3 {
+  gap: 8px;
+  border: none;
+  display: flex;
+  padding: 16px;
+  background: #D0EBFF;
+  font-family: Helvetica Now Display;
+  border-radius: 4px;
+}
+.content-d1-0-2-4 {
+  color: #333333;
+}",
+  <div>
+    <div
+      class=" wrapper-0-2-1 wrapper-d0-0-2-3"
+    >
+      <i
+        aria-hidden="true"
+        class=" icon-0-2-5 icon-d0-0-2-6 natds-icons natds-icons-outlined-alert-info"
+        data-testid="icon-outlined-alert-info"
+        role="img"
+      />
+      <div
+        class="content-0-2-2 content-d1-0-2-4"
+      >
+        <h6>
+          Title
+        </h6>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+      </div>
+    </div>
+  </div>,
+]
+`;
