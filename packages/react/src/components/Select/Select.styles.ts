@@ -16,16 +16,9 @@ const getBorderColor = (theme:Theme) => ({ isFilled }: SelectStyleProps) => {
 
 const styles = createUseStyles((theme: Theme) => ({
   wrapper: {
-    position: 'relative',
     display: 'flex',
     flexDirection: 'column',
-    fontFamily: theme.textField.label.primary.fontFamily,
-    '& > i': {
-      position: 'absolute',
-      right: theme.spacing.small,
-      bottom: theme.spacing.small
-
-    }
+    fontFamily: theme.textField.label.primary.fontFamily
   },
   labelText: {
     color: theme.color.mediumEmphasis,
@@ -35,7 +28,16 @@ const styles = createUseStyles((theme: Theme) => ({
     lineHeight: theme.textField.label.lineHeight,
     marginBottom: theme.spacing.micro
   },
+  inputWrapper: {
+    position: 'relative',
+    '& > i': {
+      position: 'absolute',
+      right: theme.spacing.small,
+      bottom: theme.spacing.small
+    }
+  },
   input: {
+    width: '100%',
     height: ({ size }: SelectStyleProps) => theme.size[size],
     position: 'relative',
     backgroundColor: theme.color.surface,

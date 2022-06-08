@@ -19,32 +19,36 @@ const Select = React.forwardRef<HTMLDivElement, SelectProps>(
       required = false,
       onChange
     } = props
-    const { wrapper, labelText, input } = styles({ size, isFilled: !!value })
+    const {
+      wrapper, labelText, inputWrapper, input
+    } = styles({ size, isFilled: !!value })
 
     return (
       <div data-testid={testID} ref={ref} className={wrapper}>
         <Label htmlFor={name} label={label} className={labelText} required={required} />
 
-        <select
-          value={value}
-          name={name}
-          id={name}
-          className={input}
-          onChange={onChange}
-          required={required}
-        >
-          {!!placeholder && <option selected disabled>{placeholder}</option>}
+        <div className={inputWrapper}>
+          <select
+            value={value}
+            name={name}
+            id={name}
+            className={input}
+            onChange={onChange}
+            required={required}
+          >
+            {!!placeholder && <option selected disabled>{placeholder}</option>}
 
-          {options.map(
-            ({ value: valueOption, label: labelOption }) => (
-              <option key={valueOption} value={valueOption}>
-                {labelOption}
-              </option>
-            )
-          )}
-        </select>
+            {options.map(
+              ({ value: valueOption, label: labelOption }) => (
+                <option key={valueOption} value={valueOption}>
+                  {labelOption}
+                </option>
+              )
+            )}
+          </select>
 
-        <Icon name="outlined-navigation-arrowbottom" />
+          <Icon name="outlined-navigation-arrowbottom" />
+        </div>
 
         {!!helperText && <InputHelperText helperText={helperText} />}
       </div>
