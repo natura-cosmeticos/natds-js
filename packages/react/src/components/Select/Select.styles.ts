@@ -32,14 +32,15 @@ const styles = createUseStyles((theme: Theme) => ({
     backgroundColor: theme.color.surface,
     border: `1px solid ${theme.color.lowEmphasis}`,
     borderRadius: theme.textField.borderRadius,
-    padding: theme.spacing.small,
+    padding: `0 ${theme.spacing.small}px`,
     color: theme.color.lowEmphasis,
-    fontSize: theme.subtitle2.fontSize,
+    fontSize: theme.body1.fontSize,
     fontWeight: theme.textField.content.primary.fontWeight,
     letterSpacing: theme.textField.content.letterSpacing,
     lineHeight: theme.textField.content.lineHeight,
     appearance: 'none',
     outline: 'none',
+    boxSizing: 'border-box',
 
     '&:focus': {
       borderColor: theme.color.primary,
