@@ -18,6 +18,8 @@ export interface SelectProps {
 
   name: string
 
+  placeholder?: string
+
   options: OptionProps[]
 
   size?: 'medium' | 'mediumX'

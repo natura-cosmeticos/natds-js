@@ -10,6 +10,7 @@ const Select = React.forwardRef<HTMLDivElement, SelectProps>(
       testID,
       label,
       name,
+      placeholder,
       options,
       size = 'mediumX',
       value,
@@ -30,7 +31,7 @@ const Select = React.forwardRef<HTMLDivElement, SelectProps>(
           onChange={onChange}
           required={required}
         >
-          <option selected disabled>Placeholder</option>
+          {placeholder && <option selected disabled>{placeholder}</option>}
           {options.map(
             ({ value: valueOption, label: labelOption }) => (
               <option key={valueOption} value={valueOption}>
