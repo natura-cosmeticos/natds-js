@@ -31,7 +31,8 @@ const Select = React.forwardRef<HTMLDivElement, SelectProps>(
           onChange={onChange}
           required={required}
         >
-          {placeholder && <option selected disabled>{placeholder}</option>}
+          {!!placeholder && <option selected disabled>{placeholder}</option>}
+
           {options.map(
             ({ value: valueOption, label: labelOption }) => (
               <option key={valueOption} value={valueOption}>
