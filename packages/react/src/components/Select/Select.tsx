@@ -13,15 +13,23 @@ const Select = React.forwardRef<HTMLDivElement, SelectProps>(
       options,
       size = 'mediumX',
       value,
+      required = false,
       onChange
     } = props
-    const { wrapper, labelText, input } = styles({ size })
+    const { wrapper, labelText, input } = styles({ size, isFilled: !!value })
 
     return (
       <div data-testid={testID} ref={ref} className={wrapper}>
-        <Label htmlFor={name} label={label} className={labelText} />
+        <Label htmlFor={name} label={label} className={labelText} required={required} />
 
-        <select value={value} name={name} id={name} className={input} onChange={onChange}>
+        <select
+          value={value}
+          name={name}
+          id={name}
+          className={input}
+          onChange={onChange}
+          required={required}
+        >
           <option selected disabled>Placeholder</option>
           {options.map(
             ({ value: valueOption, label: labelOption }) => (
