@@ -30,17 +30,25 @@ const styles = createUseStyles((theme: Theme) => ({
     height: ({ size }: SelectStyleProps) => theme.size[size],
     position: 'relative',
     backgroundColor: theme.color.surface,
-    border: `1px solid ${theme.color.mediumEmphasis}`,
+    border: `1px solid ${theme.color.lowEmphasis}`,
     borderRadius: theme.textField.borderRadius,
     padding: theme.spacing.small,
-    color: theme.color.mediumEmphasis,
+    color: theme.color.lowEmphasis,
     fontSize: theme.subtitle2.fontSize,
     fontWeight: theme.textField.content.primary.fontWeight,
     letterSpacing: theme.textField.content.letterSpacing,
     lineHeight: theme.textField.content.lineHeight,
     appearance: 'none',
+    outline: 'none',
 
     '&:focus': {
+      borderColor: theme.color.primary,
+      color: theme.color.mediumEmphasis
+    },
+
+    '&:hover': {
+      borderColor: theme.color.highEmphasis,
+      color: theme.color.highEmphasis
     }
   }
 }))
