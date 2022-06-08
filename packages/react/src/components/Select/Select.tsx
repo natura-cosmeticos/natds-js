@@ -7,11 +7,13 @@ import Icon from '../Icon'
 const Select = React.forwardRef<HTMLDivElement, SelectProps>(
   (props, ref) => {
     const {
+      testID,
       label,
       name,
       options,
       size = 'mediumX',
-      testID
+      value,
+      onChange
     } = props
     const { wrapper, labelText, input } = styles({ size })
 
@@ -19,11 +21,11 @@ const Select = React.forwardRef<HTMLDivElement, SelectProps>(
       <div data-testid={testID} ref={ref} className={wrapper}>
         <Label htmlFor={name} label={label} className={labelText} />
 
-        <select name={name} id={name} className={input}>
+        <select value={value} name={name} id={name} className={input} onChange={onChange}>
           <option selected disabled>Placeholder</option>
           {options.map(
-            ({ value, label: labelOption }) => (
-              <option key={value} value={value}>
+            ({ value: valueOption, label: labelOption }) => (
+              <option key={valueOption} value={valueOption}>
                 {labelOption}
               </option>
             )

@@ -12,7 +12,7 @@ export interface SelectProps {
   /**
    * Optional ID for testing
    */
-  testID?: string;
+  testID?: string
 
   label: string
 
@@ -21,4 +21,8 @@ export interface SelectProps {
   options: OptionProps[]
 
   size?: 'medium' | 'mediumX'
+
+  value: string
+
+  onChange: React.ChangeEventHandler<HTMLSelectElement>,
 }
