@@ -3,6 +3,7 @@ import styles from './Select.styles'
 import { SelectProps } from './Select.props'
 import Label from '../Label'
 import Icon from '../Icon'
+import { InputHelperText } from '../Input'
 
 const Select = React.forwardRef<HTMLDivElement, SelectProps>(
   (props, ref) => {
@@ -13,6 +14,7 @@ const Select = React.forwardRef<HTMLDivElement, SelectProps>(
       placeholder,
       options,
       size = 'mediumX',
+      helperText,
       value,
       required = false,
       onChange
@@ -43,6 +45,8 @@ const Select = React.forwardRef<HTMLDivElement, SelectProps>(
         </select>
 
         <Icon name="outlined-navigation-arrowbottom" />
+
+        {!!helperText && <InputHelperText helperText={helperText} />}
       </div>
     )
   }

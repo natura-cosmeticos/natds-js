@@ -36,5 +36,5 @@ const options: OptionProps[] = [{
 }]
 
 export const Playground: Story<SelectProps> = (args) => (
-  <Select {...args} label="All options" name="option" options={options} />
+  <Select {...args} options={options} />
 )

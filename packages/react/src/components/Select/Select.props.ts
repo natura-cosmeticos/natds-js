@@ -28,5 +28,7 @@ export interface SelectProps {
 
   required?: boolean
 
+  helperText?: string
+
   onChange: React.ChangeEventHandler<HTMLSelectElement>,
 }
