@@ -1,3 +1,8 @@
+export interface OptionProps {
+  value: string
+  label: string
+}
+
 export interface SelectProps {
   /**
    * Specify an optional className to be added to your Select
@@ -8,4 +13,12 @@ export interface SelectProps {
    * Optional ID for testing
    */
   testID?: string;
+
+  label: string
+
+  name: string
+
+  options: OptionProps[]
+
+  size?: 'medium' | 'mediumX'
 }
