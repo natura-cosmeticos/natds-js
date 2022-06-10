@@ -5,7 +5,7 @@ type SelectStyleProps = {
   size: 'medium' | 'mediumX'
   isFilled: boolean,
   isDisabled: boolean
-  feedback?: 'error' | 'success' | undefined
+  feedback?: 'error' | 'success'
 }
 
 const getBorderColor = (theme:Theme) => ({ isFilled, feedback, isDisabled }: SelectStyleProps) => {
