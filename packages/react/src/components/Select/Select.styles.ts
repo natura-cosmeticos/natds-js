@@ -3,15 +3,26 @@ import { Theme } from '@naturacosmeticos/natds-themes'
 
 type SelectStyleProps = {
   size: 'medium' | 'mediumX'
-  isFilled: boolean
+  isFilled: boolean,
+  feedback?: 'error' | 'success'
 }
 
-const getBorderColor = (theme:Theme) => ({ isFilled }: SelectStyleProps) => {
-  if (isFilled) {
-    return theme.color.highEmphasis
-  }
+const getBorderColor = (theme:Theme) => ({ isFilled, feedback }: SelectStyleProps) => {
+  if (isFilled) return theme.color.highEmphasis
+
+  if (feedback === 'error') return theme.color.alert
+
+  if (feedback === 'success') return theme.color.success
 
   return theme.color.lowEmphasis
+}
+
+const getLabelColor = (theme: Theme) => ({ feedback }: SelectStyleProps) => {
+  if (feedback === 'error') return theme.color.alert
+
+  if (feedback === 'success') return theme.color.success
+
+  return theme.color.mediumEmphasis
 }
 
 const styles = createUseStyles((theme: Theme) => ({
@@ -21,7 +32,7 @@ const styles = createUseStyles((theme: Theme) => ({
     fontFamily: theme.textField.label.primary.fontFamily
   },
   labelText: {
-    color: theme.color.mediumEmphasis,
+    color: getLabelColor(theme),
     fontSize: theme.textField.label.fontSize,
     fontWeight: theme.textField.label.primary.fontWeight,
     letterSpacing: theme.textField.label.letterSpacing,

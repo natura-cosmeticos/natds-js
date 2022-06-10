@@ -16,12 +16,13 @@ const Select = React.forwardRef<HTMLDivElement, SelectProps>(
       size = 'mediumX',
       helperText,
       value,
+      feedback,
       required = false,
       onChange
     } = props
     const {
       wrapper, labelText, inputWrapper, input
-    } = styles({ size, isFilled: !!value })
+    } = styles({ size, isFilled: !!value, feedback })
 
     return (
       <div data-testid={testID} ref={ref} className={wrapper}>
@@ -47,10 +48,10 @@ const Select = React.forwardRef<HTMLDivElement, SelectProps>(
             )}
           </select>
 
-          <Icon name="outlined-navigation-arrowbottom" />
+          <Icon size="semi" name="outlined-navigation-arrowbottom" />
         </div>
 
-        {!!helperText && <InputHelperText helperText={helperText} />}
+        {!!helperText && <InputHelperText helperText={helperText} feedback={feedback} />}
       </div>
     )
   }
