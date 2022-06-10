@@ -36,5 +36,29 @@ const options: OptionProps[] = [{
 }]
 
 export const Playground: Story<SelectProps> = (args) => (
-  <Select {...args} options={options} />
+  <Select {...args} label="Label" options={options} />
+)
+
+export const WithPlaceholder: Story<SelectProps> = (args) => (
+  <Select {...args} label="Label" placeholder="Placeholder" options={options} helperText="Helper Text" />
+)
+
+export const WithHelperText: Story<SelectProps> = (args) => (
+  <Select {...args} label="Label" options={options} helperText="Helper Text" />
+)
+
+export const HasError: Story<SelectProps> = (args) => (
+  <Select {...args} label="Label" options={options} feedback="error" helperText="Helper Text" />
+)
+
+export const HasSuccess: Story<SelectProps> = (args) => (
+  <Select {...args} label="Label" options={options} feedback="success" helperText="Helper Text" />
+)
+
+export const Required: Story<SelectProps> = (args) => (
+  <Select {...args} label="Label" options={options} required />
+)
+
+export const Disabled: Story<SelectProps> = (args) => (
+  <Select {...args} label="Label" options={options} disabled />
 )
