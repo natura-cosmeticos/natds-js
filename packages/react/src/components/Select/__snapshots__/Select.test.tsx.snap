@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select component should render correctly with default props 1`] = `
+<div>
+  <div
+    class="wrapper-0-2-1"
+  >
+    <label
+      class="labelText-0-2-2 labelText-d0-0-2-5 labelContainer-0-2-7"
+      for="select"
+    >
+      Label
+    </label>
+    <div
+      class="inputWrapper-0-2-3"
+    >
+      <select
+        class="input-0-2-4 input-d1-0-2-6"
+        id="select"
+        name="select"
+      >
+        <option
+          value="1"
+        >
+          Option 1
+        </option>
+        <option
+          value="2"
+        >
+          Option 2
+        </option>
+      </select>
+      <i
+        aria-hidden="true"
+        class=" icon-0-2-8 icon-d0-0-2-9 natds-icons natds-icons-outlined-navigation-arrowbottom"
+        data-testid="icon-outlined-navigation-arrowbottom"
+        role="img"
+      />
+    </div>
+  </div>
+</div>
+`;

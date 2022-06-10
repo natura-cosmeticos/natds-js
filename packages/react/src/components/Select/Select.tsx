@@ -41,7 +41,7 @@ const Select = React.forwardRef<HTMLDivElement, SelectProps>(
             required={required}
             disabled={disabled}
           >
-            {!!placeholder && <option selected disabled>{placeholder}</option>}
+            {!!placeholder && <option data-testid="placeholder-option" selected disabled>{placeholder}</option>}
 
             {options.map(
               ({ value: valueOption, label: labelOption }) => (
