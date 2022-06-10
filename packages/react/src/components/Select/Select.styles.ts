@@ -4,10 +4,13 @@ import { Theme } from '@naturacosmeticos/natds-themes'
 type SelectStyleProps = {
   size: 'medium' | 'mediumX'
   isFilled: boolean,
-  feedback?: 'error' | 'success'
+  isDisabled: boolean
+  feedback?: 'error' | 'success' | undefined
 }
 
-const getBorderColor = (theme:Theme) => ({ isFilled, feedback }: SelectStyleProps) => {
+const getBorderColor = (theme:Theme) => ({ isFilled, feedback, isDisabled }: SelectStyleProps) => {
+  if (isDisabled) return theme.color.lowEmphasis
+
   if (isFilled) return theme.color.highEmphasis
 
   if (feedback === 'error') return theme.color.alert
@@ -17,7 +20,9 @@ const getBorderColor = (theme:Theme) => ({ isFilled, feedback }: SelectStyleProp
   return theme.color.lowEmphasis
 }
 
-const getLabelColor = (theme: Theme) => ({ feedback }: SelectStyleProps) => {
+const getLabelColor = (theme: Theme) => ({ feedback, isDisabled }: SelectStyleProps) => {
+  if (isDisabled) return theme.color.lowEmphasis
+
   if (feedback === 'error') return theme.color.alert
 
   if (feedback === 'success') return theme.color.success
@@ -37,7 +42,10 @@ const styles = createUseStyles((theme: Theme) => ({
     fontWeight: theme.textField.label.primary.fontWeight,
     letterSpacing: theme.textField.label.letterSpacing,
     lineHeight: theme.textField.label.lineHeight,
-    marginBottom: theme.spacing.micro
+    marginBottom: theme.spacing.micro,
+    '&:disabled': {
+      color: 'blue'
+    }
   },
   inputWrapper: {
     position: 'relative',
@@ -66,12 +74,12 @@ const styles = createUseStyles((theme: Theme) => ({
     outline: 'none',
     boxSizing: 'border-box',
 
-    '&:focus': {
+    '&:focus:enabled': {
       borderColor: theme.color.primary,
       color: theme.color.mediumEmphasis
     },
 
-    '&:hover': {
+    '&:hover:enabled': {
       borderColor: theme.color.highEmphasis,
       color: theme.color.highEmphasis
     }

@@ -18,11 +18,14 @@ const Select = React.forwardRef<HTMLDivElement, SelectProps>(
       value,
       feedback,
       required = false,
+      disabled = false,
       onChange
     } = props
     const {
       wrapper, labelText, inputWrapper, input
-    } = styles({ size, isFilled: !!value, feedback })
+    } = styles({
+      size, isFilled: !!value, feedback, isDisabled: disabled
+    })
 
     return (
       <div data-testid={testID} ref={ref} className={wrapper}>
@@ -36,6 +39,7 @@ const Select = React.forwardRef<HTMLDivElement, SelectProps>(
             className={input}
             onChange={onChange}
             required={required}
+            disabled={disabled}
           >
             {!!placeholder && <option selected disabled>{placeholder}</option>}
 
@@ -51,7 +55,14 @@ const Select = React.forwardRef<HTMLDivElement, SelectProps>(
           <Icon size="semi" name="outlined-navigation-arrowbottom" />
         </div>
 
-        {!!helperText && <InputHelperText helperText={helperText} feedback={feedback} />}
+        {!!helperText
+          && (
+          <InputHelperText
+            helperText={helperText}
+            feedback={feedback}
+            disabled={disabled}
+          />
+          )}
       </div>
     )
   }

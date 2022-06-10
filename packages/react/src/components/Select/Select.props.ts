@@ -30,7 +30,9 @@ export interface SelectProps {
 
   helperText?: string
 
-  feedback?: 'success' | 'error'
+  feedback?: 'success' | 'error' | undefined
+
+  disabled?: boolean
 
   onChange: React.ChangeEventHandler<HTMLSelectElement>,
 
