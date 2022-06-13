@@ -40,6 +40,7 @@ const Select = React.forwardRef<HTMLDivElement, SelectProps>(
             onChange={onChange}
             required={required}
             disabled={disabled}
+            aria-label={labelText}
           >
             {!!placeholder && <option data-testid="placeholder-option" selected disabled>{placeholder}</option>}
 
