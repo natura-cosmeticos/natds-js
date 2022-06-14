@@ -48,12 +48,7 @@ const styles = createUseStyles((theme: Theme) => ({
     }
   },
   inputWrapper: {
-    position: 'relative',
-    '& > i': {
-      position: 'absolute',
-      right: theme.spacing.small,
-      bottom: theme.spacing.small
-    }
+    position: 'relative'
   },
   input: {
     width: '100%',
@@ -83,6 +78,15 @@ const styles = createUseStyles((theme: Theme) => ({
       borderColor: theme.color.highEmphasis,
       color: theme.color.highEmphasis
     }
+  },
+  icon: {
+    color: ({ isDisabled }: SelectStyleProps) => (isDisabled ? theme.color.lowEmphasis : 'inherit'),
+    position: 'absolute',
+    top: 0,
+    right: theme.spacing.small,
+    height: '100%',
+    display: 'flex',
+    alignItems: 'center'
   }
 }))
 

@@ -22,7 +22,7 @@ const Select = React.forwardRef<HTMLDivElement, SelectProps>(
       onChange
     } = props
     const {
-      wrapper, labelText, inputWrapper, input
+      wrapper, labelText, inputWrapper, input, icon
     } = styles({
       size, isFilled: !!value, feedback, isDisabled: disabled
     })
@@ -46,14 +46,14 @@ const Select = React.forwardRef<HTMLDivElement, SelectProps>(
 
             {options.map(
               ({ value: valueOption, label: labelOption }) => (
-                <option key={valueOption} value={valueOption}>
+                <option key={valueOption} value={valueOption} selected={valueOption === value}>
                   {labelOption}
                 </option>
               )
             )}
           </select>
 
-          <Icon size="semi" name="outlined-navigation-arrowbottom" />
+          <Icon size="semi" name="outlined-navigation-arrowbottom" className={icon} />
         </div>
 
         {!!helperText
