@@ -27,5 +27,34 @@ export default {
 } as Meta
 
 export const Playground: Story<ChipProps> = (args) => (
-  <Chip {...args} />
+  <Chip {...args} labelText="Chip label" />
+)
+
+export const WithIcon: Story<ChipProps> = (args) => (
+  <div style={{ display: 'flex', gap: '16px' }}>
+    <Chip {...args} labelText="Chip label" leftIcon="outlined-default-mockup" />
+    <Chip {...args} labelText="Chip label" rightIcon="outlined-default-mockup" />
+    <Chip {...args} labelText="Chip label" leftIcon="outlined-default-mockup" rightIcon="outlined-default-mockup" />
+  </div>
+)
+
+export const WithAvatar: Story<ChipProps> = (args) => (
+  <Chip {...args} labelText="Chip label" avatarURL="/img_placeholder.png" />
+)
+
+export const Disabled: Story<ChipProps> = (args) => (
+  <Chip {...args} labelText="Chip label" disabled />
+)
+
+export const Selected: Story<ChipProps> = (args) => (
+  <div style={{ display: 'flex', gap: '16px' }}>
+    <Chip {...args} labelText="Neutral" color="neutral" selected />
+    <Chip {...args} labelText="Primary" color="primary" selected />
+    <Chip {...args} labelText="Secondary" color="secondary" selected />
+    <Chip {...args} labelText="Custom" color="custom" customBackground="#FF00FF" customBorderColor="#FF00FF" selected />
+  </div>
+)
+
+export const Custom: Story<ChipProps> = (args) => (
+  <Chip {...args} labelText="Chip label" color="custom" customBackground="#FF00FF" customBorderColor="#FF00FF" />
 )

@@ -1,23 +1,53 @@
 import React from 'react'
 import styles from './Chip.styles'
 import { ChipProps } from './Chip.props'
+import Icon from '../Icon'
+import Avatar from '../Avatar'
+import Ripple from '../Ripple'
 
-const Chip = React.forwardRef<HTMLElement, ChipProps>(
+const Chip = React.forwardRef<HTMLButtonElement, ChipProps>(
   (props, ref) => {
     const {
-      className = '',
+      labelText,
+      leftIcon,
+      rightIcon,
+      color = 'neutral',
+      avatarURL,
+      disabled = false,
+      selected = false,
+      customBackground,
+      customBorderColor,
+      size = 'semi',
       ...rest
     } = props
-    const { example } = styles()
+
+    const { wrapper, label } = styles({
+      color,
+      hasAvatar: !!avatarURL,
+      hasLeftIcon: !!leftIcon,
+      hasRightIcon: !!rightIcon,
+      isDisabled: disabled,
+      isSelected: selected,
+      customBackground,
+      customBorderColor,
+      size
+    })
 
     return (
-      <span
-        className={`${className} ${example}`}
-        ref={ref}
-        {...rest}
-      >
-        {props.children}
-      </span>
+      <Ripple disabled={disabled} isCentered>
+        <button
+          ref={ref}
+          type="button"
+          className={wrapper}
+          disabled={disabled}
+          {...rest}
+        >
+          {!!avatarURL && <Avatar type="image" src={avatarURL} size="standard" />}
+          {!!leftIcon && <Icon size="standard" name={leftIcon} color="highEmphasis" />}
+          <span className={label}>{labelText}</span>
+          {!!rightIcon && <Icon size="standard" name={rightIcon} color="highEmphasis" />}
+        </button>
+      </Ripple>
     )
   }
 )
