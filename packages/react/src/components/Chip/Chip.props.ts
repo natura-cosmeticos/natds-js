@@ -34,7 +34,7 @@ export interface ChipProps {
   /**
    * The source URL of the image you want to display
    */
-  avatarURL?: string
+   avatar?: string
 
   /**
    * If `true` click are disable and change style of the component

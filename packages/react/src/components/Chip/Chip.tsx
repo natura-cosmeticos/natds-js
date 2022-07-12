@@ -12,7 +12,7 @@ const Chip = React.forwardRef<HTMLButtonElement, ChipProps>(
       leftIcon,
       rightIcon,
       color = 'neutral',
-      avatarURL,
+      avatar,
       disabled = false,
       selected = false,
       customBackground,
@@ -23,7 +23,7 @@ const Chip = React.forwardRef<HTMLButtonElement, ChipProps>(
 
     const { wrapper, label } = styles({
       color,
-      hasAvatar: !!avatarURL,
+      hasAvatar: !!avatar,
       hasLeftIcon: !!leftIcon,
       hasRightIcon: !!rightIcon,
       isDisabled: disabled,
@@ -42,7 +42,7 @@ const Chip = React.forwardRef<HTMLButtonElement, ChipProps>(
           disabled={disabled}
           {...rest}
         >
-          {!!avatarURL && <Avatar type="image" src={avatarURL} size="standard" />}
+          {!!avatar && <Avatar type="image" src={avatar} size="standard" />}
           {!!leftIcon && <Icon size="standard" name={leftIcon} color="highEmphasis" />}
           <span className={label}>{labelText}</span>
           {!!rightIcon && <Icon size="standard" name={rightIcon} color="highEmphasis" />}
