@@ -8,6 +8,7 @@ import Ripple from '../Ripple'
 const Chip = React.forwardRef<HTMLButtonElement, ChipProps>(
   (props, ref) => {
     const {
+      className = '',
       labelText,
       leftIcon,
       rightIcon,
@@ -39,7 +40,7 @@ const Chip = React.forwardRef<HTMLButtonElement, ChipProps>(
         <button
           ref={ref}
           type="button"
-          className={wrapper}
+          className={`${className} ${wrapper}`}
           disabled={disabled}
           onClick={onClick}
           {...rest}
