@@ -62,4 +62,9 @@ export interface ChipProps {
    * Parameter to define height of component
   */
   size?: 'semi' | 'semiX' | 'medium'
+
+  /**
+   * Provide a function to be called when the chip element is clicked
+   */
+   onClick: () => void;
 }

@@ -18,6 +18,7 @@ const Chip = React.forwardRef<HTMLButtonElement, ChipProps>(
       customBackground,
       customBorderColor,
       size = 'semi',
+      onClick,
       ...rest
     } = props
 
@@ -40,6 +41,7 @@ const Chip = React.forwardRef<HTMLButtonElement, ChipProps>(
           type="button"
           className={wrapper}
           disabled={disabled}
+          onClick={onClick}
           {...rest}
         >
           {!!avatar && <Avatar type="image" src={avatar} size="standard" />}

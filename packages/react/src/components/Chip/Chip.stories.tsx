@@ -31,7 +31,7 @@ export default {
 } as Meta
 
 export const Playground: Story<ChipProps> = (args) => (
-  <Chip {...args} labelText="Chip label" />
+  <Chip {...args} labelText="Chip label" onClick={() => console.log('clicked!')} />
 )
 
 export const WithIcon: Story<ChipProps> = (args) => (
