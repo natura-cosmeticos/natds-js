@@ -43,7 +43,7 @@ export const WithIcon: Story<ChipProps> = (args) => (
 )
 
 export const WithAvatar: Story<ChipProps> = (args) => (
-  <Chip {...args} labelText="Chip label" avatar="/img_placeholder.png" />
+  <Chip {...args} labelText="Chip label" avatar="https://via.placeholder.com/200x200" />
 )
 
 export const Disabled: Story<ChipProps> = (args) => (
