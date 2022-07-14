@@ -62,3 +62,11 @@ export const Selected: Story<ChipProps> = (args) => (
 export const Custom: Story<ChipProps> = (args) => (
   <Chip {...args} labelText="Chip label" color="custom" customBackground="#FF00FF" customBorderColor="#FF00FF" />
 )
+
+export const Sizes: Story<ChipProps> = (args) => (
+  <div style={{ display: 'flex', gap: '16px' }}>
+    <Chip {...args} labelText="Chip label" size="semi" />
+    <Chip {...args} labelText="Chip label" size="semiX" />
+    <Chip {...args} labelText="Chip label" size="medium" />
+  </div>
+)
