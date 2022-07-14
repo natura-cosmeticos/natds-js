@@ -1,4 +1,5 @@
 import { screen } from '@testing-library/react'
+import userEvent from '@testing-library/user-event'
 import React from 'react'
 import Chip from '.'
 import renderWithTheme from '../../helpers/renderWithTheme'
@@ -48,5 +49,18 @@ describe('Chip component', () => {
     />)
 
     expect(screen.getAllByTestId('icon-outlined-default-mockup')).toHaveLength(2)
+  })
+
+  it('should calls onClick when chip is clicked', () => {
+    const handleClick = jest.fn()
+
+    renderWithTheme(<Chip
+      labelText="Chip label"
+      onClick={handleClick}
+    />)
+
+    userEvent.click(screen.getByRole('button'))
+
+    expect(handleClick).toBeCalled()
   })
 })

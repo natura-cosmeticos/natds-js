@@ -66,5 +66,5 @@ export interface ChipProps {
   /**
    * Provide a function to be called when the chip element is clicked
    */
-   onClick: () => void;
+   onClick?: () => void;
 }
