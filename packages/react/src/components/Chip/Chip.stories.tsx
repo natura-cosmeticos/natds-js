@@ -38,12 +38,27 @@ export const WithIcon: Story<ChipProps> = (args) => (
   <div style={{ display: 'flex', gap: '16px' }}>
     <Chip {...args} labelText="Chip label" leftIcon="outlined-default-mockup" />
     <Chip {...args} labelText="Chip label" rightIcon="outlined-default-mockup" />
-    <Chip {...args} labelText="Chip label" leftIcon="outlined-default-mockup" rightIcon="outlined-default-mockup" />
+    <Chip
+      {...args}
+      labelText="Chip label"
+      leftIcon="outlined-default-mockup"
+      rightIcon="outlined-default-mockup"
+    />
   </div>
 )
 
 export const WithAvatar: Story<ChipProps> = (args) => (
-  <Chip {...args} labelText="Chip label" avatar="https://via.placeholder.com/200x200" />
+  <div style={{ display: 'flex', gap: '16px' }}>
+    <Chip {...args} labelText="Chip label" leftAvatar="https://via.placeholder.com/200x200" />
+    <Chip {...args} labelText="Chip label" rightAvatar="https://via.placeholder.com/200x200" />
+    <Chip
+      {...args}
+      labelText="Chip label"
+      leftAvatar="https://via.placeholder.com/200x200"
+      rightAvatar="https://via.placeholder.com/200x200"
+    />
+
+  </div>
 )
 
 export const Disabled: Story<ChipProps> = (args) => (

@@ -5,7 +5,8 @@ type ChipStyleProps = {
   color: 'neutral' | 'primary' | 'secondary' | 'custom',
   hasLeftIcon: boolean,
   hasRightIcon: boolean,
-  hasAvatar: boolean,
+  hasLeftAvatar: boolean,
+  hasRightAvatar: boolean,
   isDisabled: boolean,
   isSelected: boolean,
   customBackground?: string
@@ -80,8 +81,8 @@ const styles = createUseStyles((theme: Theme) => ({
   label: {
     fontFamily: theme.typography.fontFamily.primary,
     fontSize: theme.body2.fontSize,
-    marginLeft: ({ hasLeftIcon, hasAvatar }) => (hasLeftIcon || hasAvatar ? theme.spacing.micro : '0'),
-    marginRight: ({ hasRightIcon }) => (hasRightIcon ? theme.spacing.micro : '0')
+    marginLeft: ({ hasLeftIcon, hasLeftAvatar }) => (hasLeftIcon || hasLeftAvatar ? theme.spacing.micro : '0'),
+    marginRight: ({ hasRightIcon, hasRightAvatar }) => (hasRightIcon || hasRightAvatar ? theme.spacing.micro : '0')
   }
 }))
 

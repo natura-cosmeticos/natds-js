@@ -32,9 +32,14 @@ export interface ChipProps {
   color?: 'neutral' | 'primary' | 'secondary' | 'custom'
 
   /**
-   * The source URL of the image you want to display
+   * The source URL of the image you want to display on the left side
    */
-   avatar?: string
+   leftAvatar?: string
+
+  /**
+   * The source URL of the image you want to display on the left right
+   */
+   rightAvatar?: string
 
   /**
    * If `true` click are disable and change style of the component
