@@ -58,6 +58,7 @@ const styles = createUseStyles((theme: Theme) => ({
     background: getBackgroundColor(theme),
     cursor: 'pointer',
     position: 'relative',
+    overflow: 'hidden',
 
     '&:hover:not([disabled])': {
       background: '#F0F0F0'
