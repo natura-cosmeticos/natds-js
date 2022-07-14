@@ -23,8 +23,14 @@ describe('Chip component', () => {
     expect(styles.toString()).toContain('border-color: #ff6b0b')
   })
 
-  it('should render Avatar when URL is passed', () => {
-    renderWithTheme(<Chip labelText="Chip label" avatar="placeholder.png" />)
+  it('should render Avatar left side', () => {
+    renderWithTheme(<Chip labelText="Chip label" leftAvatar="placeholder.png" />)
+
+    expect(screen.getByRole('img')).toBeInTheDocument()
+  })
+
+  it('should render Avatar right side', () => {
+    renderWithTheme(<Chip labelText="Chip label" rightAvatar="placeholder.png" />)
 
     expect(screen.getByRole('img')).toBeInTheDocument()
   })
