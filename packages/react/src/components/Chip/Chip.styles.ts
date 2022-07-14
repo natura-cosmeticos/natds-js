@@ -54,7 +54,7 @@ const styles = createUseStyles((theme: Theme) => ({
     border: '1px solid',
     borderColor: getBorderColor(theme),
     borderRadius: ({ size }) => (size === 'semi' ? '16px' : '32px'),
-    color: theme.color.onPrimary,
+    color: theme.color.highEmphasis,
     background: getBackgroundColor(theme),
     cursor: 'pointer',
     position: 'relative',
