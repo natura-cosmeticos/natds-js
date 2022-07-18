@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.32.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.31.0...@naturacosmeticos/natds-react@2.32.0) (2022-07-15)
+
+
+### Features
+
+* **natds-react:** adds new Switch component ([febb5fd](https://github.com/natura-cosmeticos/natds-js/commit/febb5fd54302339689c0d71909217a7b743cadb4))
+
+
+
+
+
 # [2.31.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.31.0-alpha.DSY-2789.7.0...@naturacosmeticos/natds-react@2.31.0) (2022-06-15)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-react
