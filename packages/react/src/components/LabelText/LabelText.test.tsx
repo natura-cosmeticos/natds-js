@@ -10,7 +10,7 @@ describe('LabelText component', () => {
   })
 
   it('should render with default styles if hasError isnt passed', () => {
-    const { styles, component } = renderWithTheme(<LabelText>Meu primeiro componente</LabelText>)
+    const { styles } = renderWithTheme(<LabelText>Meu primeiro componente</LabelText>)
 
     expect(styles.toString().includes('#333333')).toBeTruthy()
   })
