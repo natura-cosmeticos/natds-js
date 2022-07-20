@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LabelText component should render correctly with default props 1`] = `
+Array [
+  ".description-0-2-1 {}
+.description-d0-0-2-2 {
+  color: #333333;
+  font-size: 16px;
+  background: transparent;
+  font-family: Helvetica Now Display;
+}",
+  <div>
+    <p
+      class=" description-0-2-1 description-d0-0-2-2"
+    >
+      Meu primeiro componente
+    </p>
+  </div>,
+]
+`;
