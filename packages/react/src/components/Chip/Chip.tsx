@@ -19,6 +19,7 @@ const Chip = React.forwardRef<HTMLButtonElement, ChipProps>(
       selected = false,
       customBackground,
       customBorderColor,
+      customLabelColor,
       size = 'semi',
       onClick,
       ...rest
@@ -34,6 +35,7 @@ const Chip = React.forwardRef<HTMLButtonElement, ChipProps>(
       isSelected: selected,
       customBackground,
       customBorderColor,
+      customLabelColor,
       size
     })
 

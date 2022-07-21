@@ -70,7 +70,15 @@ export const Selected: Story<ChipProps> = (args) => (
     <Chip {...args} labelText="Neutral" color="neutral" selected />
     <Chip {...args} labelText="Primary" color="primary" selected />
     <Chip {...args} labelText="Secondary" color="secondary" selected />
-    <Chip {...args} labelText="Custom" color="custom" customBackground="#FF00FF" customBorderColor="#FF00FF" selected />
+    <Chip
+      {...args}
+      labelText="Custom"
+      color="custom"
+      customBackground="#FF00FF"
+      customBorderColor="#FF00FF"
+      customLabelColor="#fff"
+      selected
+    />
   </div>
 )
 

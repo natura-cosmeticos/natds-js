@@ -52,6 +52,12 @@ export interface ChipProps {
   selected?: boolean
 
   /**
+   * Parameter to set custom label color
+   * Should be a hexadecimal color like e.g. #000000
+  */
+  customLabelColor?: string
+
+  /**
    * Parameter to set custom background color
    * Should be a hexadecimal color like e.g. #000000
   */

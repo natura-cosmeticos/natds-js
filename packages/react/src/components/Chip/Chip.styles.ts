@@ -11,6 +11,7 @@ type ChipStyleProps = {
   isSelected: boolean,
   customBackground?: string
   customBorderColor?: string,
+  customLabelColor?: string,
   size: 'semi' | 'semiX' | 'medium'
 }
 
@@ -45,6 +46,23 @@ const getBackgroundColor = (theme:Theme) => ({
   return 'transparent'
 }
 
+// eslint-disable-next-line complexity
+const getLabelColor = (theme:Theme) => ({
+  color,
+  isSelected,
+  customLabelColor
+}: ChipStyleProps) => {
+  if (isSelected) {
+    if (color === 'neutral' || color === 'primary') return theme.color.onPrimary
+
+    if (color === 'secondary') return theme.color.onSecondary
+
+    if (color === 'custom') return customLabelColor
+  }
+
+  return theme.color.highEmphasis
+}
+
 const styles = createUseStyles((theme: Theme) => ({
   wrapper: {
     display: 'flex',
@@ -55,7 +73,7 @@ const styles = createUseStyles((theme: Theme) => ({
     border: '1px solid',
     borderColor: getBorderColor(theme),
     borderRadius: ({ size }) => (size === 'semi' ? '16px' : '32px'),
-    color: theme.color.highEmphasis,
+    color: getLabelColor(theme),
     background: getBackgroundColor(theme),
     cursor: 'pointer',
     position: 'relative',
