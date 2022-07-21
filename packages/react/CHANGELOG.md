@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.33.1](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.33.0...@naturacosmeticos/natds-react@2.33.1) (2022-07-21)
+
+
+### Bug Fixes
+
+* export chip ([2b8e7bd](https://github.com/natura-cosmeticos/natds-js/commit/2b8e7bd67ae0c4ee1f4f96464c8791bf10a7c585))
+
+
+
+
+
 # [2.33.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.33.0-alpha.DSY-2767.7.0...@naturacosmeticos/natds-react@2.33.0) (2022-07-21)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-react
