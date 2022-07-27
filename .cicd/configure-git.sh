@@ -13,3 +13,6 @@ git config --global user.email "designsystem@natura.net"
 git config --global user.name "Natura Design System Team"
 
 npm config set '//registry.npmjs.org/:_authToken' "${NATDS_NPM_TOKEN}"
+
+
+npm config set '//registry.npmjs.org/:_authToken' "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" 
