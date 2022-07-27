@@ -13,6 +13,7 @@ const componentStatus = `
 With the following attribute statuses:
 
   - ✅  **Disabled**
+  WIP
 
 - - -
 `
