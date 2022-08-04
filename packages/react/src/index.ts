@@ -1,7 +1,7 @@
 export * from './ThemeProvider'
 export { useTheme, createUseStyles } from 'react-jss'
 
-// Components
+// Components required
 export * from './components/AppBarTop'
 export * from './components/Avatar'
 export * from './components/Badge'
