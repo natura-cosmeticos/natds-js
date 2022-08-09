@@ -1,7 +1,6 @@
 export * from './ThemeProvider'
 export { useTheme, createUseStyles } from 'react-jss'
 
-// Components
 export * from './components/AppBarTop'
 export * from './components/Avatar'
 export * from './components/Badge'
@@ -31,5 +30,5 @@ export * from './components/Alert'
 export * from './components/Select'
 export * from './components/Switch'
 export * from './components/Tag'
-export * from './components/Chip'
 export * from './components/Typography'
+export * from './components/Chip'
