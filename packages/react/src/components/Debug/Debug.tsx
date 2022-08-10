@@ -16,7 +16,7 @@ const Debug = React.forwardRef<HTMLElement, DebugProps>(
         ref={ref}
         {...rest}
       >
-        {props.children}
+        Debug
       </span>
     )
   }
