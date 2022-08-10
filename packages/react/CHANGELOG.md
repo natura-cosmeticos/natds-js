@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.35.1](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.35.0...@naturacosmeticos/natds-react@2.35.1) (2022-08-10)
+
+
+### Bug Fixes
+
+* remove debug ([9ca3e71](https://github.com/natura-cosmeticos/natds-js/commit/9ca3e71306ef35a56d1740b07eea6e893cb7be9d))
+
+
+
+
+
 # [2.35.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.34.2...@naturacosmeticos/natds-react@2.35.0) (2022-08-10)
 
 
