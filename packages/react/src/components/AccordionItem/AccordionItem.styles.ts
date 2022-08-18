@@ -1,13 +1,16 @@
 import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
-import { color } from '@storybook/theming'
+
+type StyleProps = {
+  isActive: boolean
+}
 
 const styles = createUseStyles((theme: Theme) => ({
   wrapper: {
+    flex: 1,
     display: 'flex',
     flexDirection: 'column',
     background: theme.color.surface,
-    padding: `${theme.spacing.small}px ${theme.spacing.standard}px`,
     fontFamily: theme.typography.fontFamily.primary,
     color: theme.color.highEmphasis
   },
@@ -16,13 +19,28 @@ const styles = createUseStyles((theme: Theme) => ({
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'space-between',
-    fontWeight: theme.typography.fontWeight.medium
-
+    padding: `${theme.spacing.small}px ${theme.spacing.standard}px`,
+    fontWeight: theme.typography.fontWeight.medium,
+    '&:hover': {
+      background: `${theme.color.neutral100}`,
+      cursor: 'pointer'
+    }
   },
   content: {
     minHeight: theme.size.semiX,
-    padding: `${theme.spacing.small}px 0`,
-    fontWeight: theme.typography.fontWeight.regular
+    padding: `${theme.spacing.small}px ${theme.spacing.standard}px`,
+    fontWeight: theme.typography.fontWeight.regular,
+    animation: '$fadeIn 1s forwards'
+  },
+  '@keyframes fadeIn': {
+    '0%': {
+      opacity: 0,
+      transform: 'translateY(-10px)'
+    },
+    '100%': {
+      opacity: 1,
+      transform: 'translateY(0)'
+    }
   }
 }))
 

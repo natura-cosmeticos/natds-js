@@ -1,5 +1,6 @@
 import React from 'react'
 import { Story, Meta } from '@storybook/react'
+import StoryContainer from '../../helpers/StoryContainer'
 import { AccordionItem, AccordionItemProps } from '.'
 
 const componentStatus = `
@@ -27,5 +28,7 @@ export default {
 } as Meta
 
 export const Playground: Story<AccordionItemProps> = (args) => (
-  <AccordionItem {...args} />
+  <StoryContainer>
+    <AccordionItem {...args} />
+  </StoryContainer>
 )
