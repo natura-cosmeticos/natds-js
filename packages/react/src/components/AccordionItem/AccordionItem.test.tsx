@@ -5,7 +5,7 @@ import renderWithTheme from '../../helpers/renderWithTheme'
 describe('AccordionItem component', () => {
   it('should render component with info styles if color is not defined', () => {
     const { styles, component } = renderWithTheme(
-      <AccordionItem onClick={() => ({})}>Accordion Content</AccordionItem>
+      <AccordionItem title="Lorem" onClick={() => ({})}>Accordion Content</AccordionItem>
     )
 
     expect([styles.toString(), component.container]).toMatchSnapshot()
