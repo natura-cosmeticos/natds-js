@@ -1,5 +1,6 @@
 import React from 'react'
 import { Story, Meta } from '@storybook/react'
+import { useState } from '@storybook/addons'
 import StoryContainer from '../../helpers/StoryContainer'
 import { AccordionItem, AccordionItemProps } from '.'
 
@@ -27,8 +28,14 @@ export default {
   }
 } as Meta
 
-export const Playground: Story<AccordionItemProps> = (args) => (
-  <StoryContainer>
-    <AccordionItem {...args} />
-  </StoryContainer>
-)
+export const Playground: Story<AccordionItemProps> = (args) => {
+  const [isActive, setIsActive] = useState(false)
+
+  const onClick = () => setIsActive(!isActive)
+
+  return (
+    <StoryContainer>
+      <AccordionItem {...args} isActive={isActive} onClick={onClick} />
+    </StoryContainer>
+  )
+}

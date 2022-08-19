@@ -20,4 +20,6 @@ export interface AccordionItemProps {
    * @default false
   */
    isActive?: boolean
+
+   onClick: () => void
 }

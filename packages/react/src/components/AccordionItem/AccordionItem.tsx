@@ -9,6 +9,7 @@ const AccordionItem = React.forwardRef<HTMLDivElement, AccordionItemProps>(
       className = '',
       color = 'regular',
       isActive = false,
+      onClick,
       ...rest
     } = props
     const { wrapper, header, content } = styles({ color, isActive })
@@ -19,7 +20,7 @@ const AccordionItem = React.forwardRef<HTMLDivElement, AccordionItemProps>(
         ref={ref}
         {...rest}
       >
-        <div className={header} onClick={() => console.log('click')}>
+        <div className={header} onClick={onClick}>
           Header
           <Icon
             name={
