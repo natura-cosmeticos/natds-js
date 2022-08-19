@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccordionItem component should render component with info styles if color is not defined 1`] = `
+Array [
+  ".wrapper-0-2-1 {
+  flex: 1;
+  display: flex;
+  background: #ffffff;
+  font-family: Roboto;
+  flex-direction: column;
+}
+.header-0-2-2 {}
+.content-0-2-3 {
+  padding: 16px 24px;
+  min-height: 40px;
+  font-weight: 400;
+}
+.wrapper-d0-0-2-4 {
+  color: #333333;
+  pointer-events: auto;
+}
+.header-d1-0-2-5 {
+  flex: 1;
+  display: flex;
+  padding: 16px 24px;
+  position: relative;
+  background: #ffffff;
+  align-items: center;
+  font-weight: 500;
+  justify-content: space-between;
+}
+.header-d1-0-2-5:before {}
+.header-d1-0-2-5:active:after {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: \\" \\";
+  opacity: 0.08;
+  position: absolute;
+  background-color: #000000;
+}
+.header-d1-0-2-5:hover {
+  cursor: pointer;
+}
+.header-d1-0-2-5:hover:before {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: \\" \\";
+  opacity: 0.04;
+  position: absolute;
+  background-color: #000000;
+}
+.icon-0-2-6 {
+  font-family: natds-icons;
+  user-select: none;
+  pointer-events: none;
+}
+.icon-d0-0-2-7 {
+  color: #f4ab34;
+  font-size: 24px;
+}",
+  <div>
+    <div
+      class=" wrapper-0-2-1 wrapper-d0-0-2-4"
+    >
+      <div
+        class="header-0-2-2 header-d1-0-2-5"
+      >
+        Header
+        <i
+          aria-hidden="true"
+          class=" icon-0-2-6 icon-d0-0-2-7 natds-icons natds-icons-outlined-navigation-arrowbottom"
+          data-testid="icon-outlined-navigation-arrowbottom"
+          role="img"
+        />
+      </div>
+    </div>
+  </div>,
+]
+`;
