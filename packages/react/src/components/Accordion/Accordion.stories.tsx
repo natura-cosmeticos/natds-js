@@ -25,7 +25,7 @@ const Item = () => {
   const onClick = () => setIsActive(!isActive)
 
   return (
-    <AccordionItem isActive={isActive} onClick={onClick}>
+    <AccordionItem title="Lorem ipsum" isActive={isActive} onClick={onClick}>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi deserunt,
       ratione alias recusandae error fuga vero obcaecati impedit in dicta esse
       ad debitis iure voluptatem ipsam atque! Quam, doloribus alias!
