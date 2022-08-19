@@ -2,7 +2,7 @@ import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 
 type StyleProps = {
-  isActive: boolean
+  color: 'regular' | 'primary'
 }
 
 const styles = createUseStyles((theme: Theme) => ({
@@ -21,26 +21,26 @@ const styles = createUseStyles((theme: Theme) => ({
     justifyContent: 'space-between',
     padding: `${theme.spacing.small}px ${theme.spacing.standard}px`,
     fontWeight: theme.typography.fontWeight.medium,
+    position: 'relative',
+    background: ({ color }: StyleProps) => (color === 'regular' ? theme.color.surface : theme.color.primary),
     '&:hover': {
-      background: `${theme.color.neutral100}`,
       cursor: 'pointer'
+    },
+    '&:hover:after': {
+      content: '" "',
+      position: 'absolute',
+      top: 0,
+      bottom: 0,
+      left: 0,
+      right: 0,
+      backgroundColor: theme.color.highlight,
+      opacity: theme.opacity.lower
     }
   },
   content: {
     minHeight: theme.size.semiX,
     padding: `${theme.spacing.small}px ${theme.spacing.standard}px`,
-    fontWeight: theme.typography.fontWeight.regular,
-    animation: '$fadeIn 1s forwards'
-  },
-  '@keyframes fadeIn': {
-    '0%': {
-      opacity: 0,
-      transform: 'translateY(-10px)'
-    },
-    '100%': {
-      opacity: 1,
-      transform: 'translateY(0)'
-    }
+    fontWeight: theme.typography.fontWeight.regular
   }
 }))
 

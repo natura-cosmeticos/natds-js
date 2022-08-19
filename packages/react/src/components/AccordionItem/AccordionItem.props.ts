@@ -8,4 +8,10 @@ export interface AccordionItemProps {
    * Optional ID for testing
    */
   testID?: string;
+
+  /**
+   * Parameter to define the style that will be applied
+   * @default info
+  */
+   color?: 'regular' | 'primary'
 }

@@ -7,9 +7,10 @@ const AccordionItem = React.forwardRef<HTMLDivElement, AccordionItemProps>(
   (props, ref) => {
     const {
       className = '',
+      color = 'regular',
       ...rest
     } = props
-    const { wrapper, header, content } = styles()
+    const { wrapper, header, content } = styles({ color })
 
     const [isActive, setIsActive] = useState(true)
 
@@ -28,7 +29,7 @@ const AccordionItem = React.forwardRef<HTMLDivElement, AccordionItemProps>(
               : 'outlined-navigation-arrowbottom'
 }
             size="standard"
-            color="primary"
+            color={color === 'regular' ? 'primary' : 'highEmphasis'}
           />
         </div>
 
