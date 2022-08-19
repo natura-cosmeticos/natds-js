@@ -55,12 +55,20 @@ const styles = createUseStyles((theme: Theme) => ({
   header: (props: StyleProps) => ({
     flex: 1,
     display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'space-between',
+    flexDirection: 'column',
     padding: `${theme.spacing.small}px ${theme.spacing.standard}px`,
-    fontWeight: theme.typography.fontWeight.medium,
     position: 'relative',
     background: setBackgroundColor(theme)(props),
+    '& > div': {
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'space-between',
+      fontWeight: theme.typography.fontWeight.medium
+    },
+    '& > span': {
+      fontSize: theme.typography.fontSize.level1,
+      marginTop: theme.spacing.small
+    },
     '&:before': {
       ...applyOpenStyle(theme)(props)
     },

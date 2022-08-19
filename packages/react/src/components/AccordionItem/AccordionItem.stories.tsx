@@ -35,7 +35,7 @@ export const Playground: Story<AccordionItemProps> = (args) => {
 
   return (
     <StoryContainer>
-      <AccordionItem {...args} isActive={isActive} onClick={onClick}>
+      <AccordionItem {...args} title="Subtitle 1" isActive={isActive} onClick={onClick}>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi deserunt,
         ratione alias recusandae error fuga vero obcaecati impedit in dicta esse
         ad debitis iure voluptatem ipsam atque! Quam, doloribus alias!
@@ -51,7 +51,7 @@ export const Primary: Story<AccordionItemProps> = (args) => {
 
   return (
     <StoryContainer>
-      <AccordionItem {...args} color="primary" isActive={isActive} onClick={onClick}>
+      <AccordionItem {...args} title="Subtitle 1" color="primary" isActive={isActive} onClick={onClick}>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi deserunt,
         ratione alias recusandae error fuga vero obcaecati impedit in dicta esse
         ad debitis iure voluptatem ipsam atque! Quam, doloribus alias!
@@ -62,10 +62,26 @@ export const Primary: Story<AccordionItemProps> = (args) => {
 
 export const Disabled: Story<AccordionItemProps> = (args) => (
   <StoryContainer>
-    <AccordionItem {...args} isDisabled onClick={() => ({})}>
+    <AccordionItem {...args} title="Subtitle 1" isDisabled onClick={() => ({})}>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi deserunt,
       ratione alias recusandae error fuga vero obcaecati impedit in dicta esse
       ad debitis iure voluptatem ipsam atque! Quam, doloribus alias!
     </AccordionItem>
   </StoryContainer>
 )
+
+export const Legend: Story<AccordionItemProps> = (args) => {
+  const [isActive, setIsActive] = useState(true)
+
+  const onClick = () => setIsActive(!isActive)
+
+  return (
+    <StoryContainer>
+      <AccordionItem {...args} title="Subtitle 1" legend="Legend" isActive={isActive} onClick={onClick}>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi deserunt,
+        ratione alias recusandae error fuga vero obcaecati impedit in dicta esse
+        ad debitis iure voluptatem ipsam atque! Quam, doloribus alias!
+      </AccordionItem>
+    </StoryContainer>
+  )
+}

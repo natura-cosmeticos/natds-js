@@ -8,6 +8,8 @@ const AccordionItem = React.forwardRef<HTMLDivElement, AccordionItemProps>(
   (props, ref) => {
     const {
       className = '',
+      title,
+      legend,
       color = 'regular',
       isActive = false,
       isDisabled = false,
@@ -32,16 +34,20 @@ const AccordionItem = React.forwardRef<HTMLDivElement, AccordionItemProps>(
         {...rest}
       >
         <div className={header} onClick={onClick}>
-          Header
-          <Icon
-            name={
+          <div>
+            {title}
+            <Icon
+              name={
             isActive
               ? 'outlined-navigation-arrowtop'
               : 'outlined-navigation-arrowbottom'
 }
-            size="standard"
-            color={setIconColor()}
-          />
+              size="standard"
+              color={setIconColor()}
+            />
+          </div>
+
+          {legend && <span>{legend}</span>}
         </div>
 
         {isActive && (

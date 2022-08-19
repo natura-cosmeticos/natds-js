@@ -11,6 +11,10 @@ export interface AccordionItemProps {
    */
   testID?: string;
 
+  title: string
+
+  legend?: string
+
   /**
    * Parameter to define the style that will be applied
    * @default info
