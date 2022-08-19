@@ -10,6 +10,7 @@ const AccordionItem = React.forwardRef<HTMLDivElement, AccordionItemProps>(
       color = 'regular',
       isActive = false,
       onClick,
+      children,
       ...rest
     } = props
     const { wrapper, header, content } = styles({ color, isActive })
@@ -35,9 +36,7 @@ const AccordionItem = React.forwardRef<HTMLDivElement, AccordionItemProps>(
 
         {isActive && (
         <div className={content}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi deserunt,
-          ratione alias recusandae error fuga vero obcaecati impedit in dicta esse
-          ad debitis iure voluptatem ipsam atque! Quam, doloribus alias!
+          {children}
         </div>
         )}
       </div>

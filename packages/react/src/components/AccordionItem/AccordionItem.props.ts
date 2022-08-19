@@ -1,3 +1,5 @@
+import React from 'react'
+
 export interface AccordionItemProps {
   /**
    * Specify an optional className to be added to your AccordionItem
@@ -22,4 +24,6 @@ export interface AccordionItemProps {
    isActive?: boolean
 
    onClick: () => void
+
+   children: React.ReactNode
 }

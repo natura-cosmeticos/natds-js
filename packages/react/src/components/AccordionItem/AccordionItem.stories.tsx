@@ -35,7 +35,27 @@ export const Playground: Story<AccordionItemProps> = (args) => {
 
   return (
     <StoryContainer>
-      <AccordionItem {...args} isActive={isActive} onClick={onClick} />
+      <AccordionItem {...args} isActive={isActive} onClick={onClick}>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi deserunt,
+        ratione alias recusandae error fuga vero obcaecati impedit in dicta esse
+        ad debitis iure voluptatem ipsam atque! Quam, doloribus alias!
+      </AccordionItem>
+    </StoryContainer>
+  )
+}
+
+export const Primary: Story<AccordionItemProps> = (args) => {
+  const [isActive, setIsActive] = useState(false)
+
+  const onClick = () => setIsActive(!isActive)
+
+  return (
+    <StoryContainer>
+      <AccordionItem {...args} color="primary" isActive={isActive} onClick={onClick}>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi deserunt,
+        ratione alias recusandae error fuga vero obcaecati impedit in dicta esse
+        ad debitis iure voluptatem ipsam atque! Quam, doloribus alias!
+      </AccordionItem>
     </StoryContainer>
   )
 }
