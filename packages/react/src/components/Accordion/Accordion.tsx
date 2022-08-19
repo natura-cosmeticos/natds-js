@@ -8,11 +8,11 @@ const Accordion = React.forwardRef<HTMLDivElement, AccordionProps>(
       className = '',
       ...rest
     } = props
-    const { example } = styles()
+    const { wrapper } = styles()
 
     return (
       <div
-        className={`${className} ${example}`}
+        className={`${className} ${wrapper}`}
         ref={ref}
         {...rest}
       >
