@@ -25,9 +25,17 @@ Array [
   padding: 16px 24px;
   position: relative;
   background: #ffffff;
+  flex-direction: column;
+}
+.header-d1-0-2-5 > div {
+  display: flex;
   align-items: center;
   font-weight: 500;
   justify-content: space-between;
+}
+.header-d1-0-2-5 > span {
+  font-size: 13px;
+  margin-top: 16px;
 }
 .header-d1-0-2-5:before {}
 .header-d1-0-2-5:active:after {
@@ -69,13 +77,14 @@ Array [
       <div
         class="header-0-2-2 header-d1-0-2-5"
       >
-        Header
-        <i
-          aria-hidden="true"
-          class=" icon-0-2-6 icon-d0-0-2-7 natds-icons natds-icons-outlined-navigation-arrowbottom"
-          data-testid="icon-outlined-navigation-arrowbottom"
-          role="img"
-        />
+        <div>
+          <i
+            aria-hidden="true"
+            class=" icon-0-2-6 icon-d0-0-2-7 natds-icons natds-icons-outlined-navigation-arrowbottom"
+            data-testid="icon-outlined-navigation-arrowbottom"
+            role="img"
+          />
+        </div>
       </div>
     </div>
   </div>,
