@@ -14,4 +14,10 @@ export interface AccordionItemProps {
    * @default info
   */
    color?: 'regular' | 'primary'
+
+  /**
+   * Define state of item (open/close)
+   * @default false
+  */
+   isActive?: boolean
 }

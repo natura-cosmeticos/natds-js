@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import styles from './AccordionItem.styles'
 import { AccordionItemProps } from './AccordionItem.props'
 import Icon from '../Icon'
@@ -8,11 +8,10 @@ const AccordionItem = React.forwardRef<HTMLDivElement, AccordionItemProps>(
     const {
       className = '',
       color = 'regular',
+      isActive = false,
       ...rest
     } = props
-    const { wrapper, header, content } = styles({ color })
-
-    const [isActive, setIsActive] = useState(true)
+    const { wrapper, header, content } = styles({ color, isActive })
 
     return (
       <div
@@ -20,7 +19,7 @@ const AccordionItem = React.forwardRef<HTMLDivElement, AccordionItemProps>(
         ref={ref}
         {...rest}
       >
-        <div className={header} onClick={() => setIsActive(!isActive)}>
+        <div className={header} onClick={() => console.log('click')}>
           Header
           <Icon
             name={
