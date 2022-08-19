@@ -1,4 +1,5 @@
 import React from 'react'
+import { Color } from '@naturacosmeticos/natds-themes'
 import styles from './AccordionItem.styles'
 import { AccordionItemProps } from './AccordionItem.props'
 import Icon from '../Icon'
@@ -9,11 +10,20 @@ const AccordionItem = React.forwardRef<HTMLDivElement, AccordionItemProps>(
       className = '',
       color = 'regular',
       isActive = false,
+      isDisabled = false,
       onClick,
       children,
       ...rest
     } = props
-    const { wrapper, header, content } = styles({ color, isActive })
+    const { wrapper, header, content } = styles({ color, isActive, isDisabled })
+
+    const setIconColor = (): keyof Color => {
+      if (isDisabled) {
+        return 'mediumEmphasis'
+      }
+
+      return color === 'regular' ? 'primary' : 'highEmphasis'
+    }
 
     return (
       <div
@@ -30,7 +40,7 @@ const AccordionItem = React.forwardRef<HTMLDivElement, AccordionItemProps>(
               : 'outlined-navigation-arrowbottom'
 }
             size="standard"
-            color={color === 'regular' ? 'primary' : 'highEmphasis'}
+            color={setIconColor()}
           />
         </div>
 

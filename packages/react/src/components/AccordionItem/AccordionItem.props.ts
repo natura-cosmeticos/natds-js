@@ -23,6 +23,8 @@ export interface AccordionItemProps {
   */
    isActive?: boolean
 
+   isDisabled?: boolean
+
    onClick: () => void
 
    children: React.ReactNode

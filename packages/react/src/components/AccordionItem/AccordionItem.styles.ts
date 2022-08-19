@@ -3,7 +3,8 @@ import { Theme } from '@naturacosmeticos/natds-themes'
 
 type StyleProps = {
   color: 'regular' | 'primary',
-  isActive: boolean
+  isActive: boolean,
+  isDisabled: boolean
 }
 
 const overlay = (theme: Theme) => ({
@@ -17,7 +18,7 @@ const overlay = (theme: Theme) => ({
   opacity: theme.opacity.lower
 })
 
-const applyOpenStyle = (theme: Theme) => (isActive: boolean) => {
+const applyOpenStyle = (theme: Theme) => ({ isActive }: StyleProps) => {
   if (isActive) {
     return overlay(theme)
   }
@@ -32,6 +33,14 @@ const applyClickStyle = (theme: Theme) => {
   return baseOverlay
 }
 
+const setBackgroundColor = (theme: Theme) => ({ isDisabled, color }: StyleProps) => {
+  if (isDisabled) {
+    return theme.color.lowEmphasis
+  }
+
+  return color === 'regular' ? theme.color.surface : theme.color.primary
+}
+
 const styles = createUseStyles((theme: Theme) => ({
   wrapper: {
     flex: 1,
@@ -39,9 +48,11 @@ const styles = createUseStyles((theme: Theme) => ({
     flexDirection: 'column',
     background: theme.color.surface,
     fontFamily: theme.typography.fontFamily.primary,
-    color: theme.color.highEmphasis
+    color: ({ isDisabled }: StyleProps) => (
+      isDisabled ? theme.color.mediumEmphasis : theme.color.highEmphasis),
+    pointerEvents: ({ isDisabled }: StyleProps) => (isDisabled ? 'none' : 'auto')
   },
-  header: ({ color, isActive }: StyleProps) => ({
+  header: (props: StyleProps) => ({
     flex: 1,
     display: 'flex',
     alignItems: 'center',
@@ -49,9 +60,9 @@ const styles = createUseStyles((theme: Theme) => ({
     padding: `${theme.spacing.small}px ${theme.spacing.standard}px`,
     fontWeight: theme.typography.fontWeight.medium,
     position: 'relative',
-    background: color === 'regular' ? theme.color.surface : theme.color.primary,
+    background: setBackgroundColor(theme)(props),
     '&:before': {
-      ...applyOpenStyle(theme)(isActive)
+      ...applyOpenStyle(theme)(props)
     },
     '&:active:after': {
       ...applyClickStyle(theme)
