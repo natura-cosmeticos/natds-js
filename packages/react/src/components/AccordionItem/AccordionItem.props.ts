@@ -11,25 +11,41 @@ export interface AccordionItemProps {
    */
   testID?: string;
 
+  /**
+   * Set text header of AccordionItem
+   */
   title: string
 
+  /**
+   * Optional text usign as "subtitle"
+   */
   legend?: string
 
   /**
    * Parameter to define the style that will be applied
    * @default info
   */
-   color?: 'regular' | 'primary'
+  color?: 'regular' | 'primary'
 
   /**
    * Define state of item (open/close)
    * @default false
   */
-   isActive?: boolean
+  isActive?: boolean
 
-   isDisabled?: boolean
+  /**
+   * If "true" disable event click and change color style
+   * @default false
+  */
+  isDisabled?: boolean
 
-   onClick: () => void
+  /**
+   * Function to toggle state between open and close
+  */
+  onClick: () => void
 
-   children: React.ReactNode
+  /**
+   * Content will be render when AccordionItem is open
+  */
+  children: React.ReactNode
 }
