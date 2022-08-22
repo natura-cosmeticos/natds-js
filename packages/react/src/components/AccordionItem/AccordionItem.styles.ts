@@ -82,6 +82,9 @@ const styles = createUseStyles((theme: Theme) => ({
       ...overlay(theme)
     }
   }),
+  legend: {
+    color: ({ color }: StyleProps) => (color === 'regular' ? theme.color.mediumEmphasis : theme.color.highEmphasis)
+  },
   content: {
     minHeight: theme.size.semiX,
     padding: `${theme.spacing.small}px ${theme.spacing.standard}px`,

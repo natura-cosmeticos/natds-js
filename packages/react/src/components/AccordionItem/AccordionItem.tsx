@@ -9,7 +9,7 @@ const AccordionItem = React.forwardRef<HTMLDivElement, AccordionItemProps>(
     const {
       className = '',
       title,
-      legend,
+      legend: legendText,
       color = 'regular',
       isActive = false,
       isDisabled = false,
@@ -17,7 +17,9 @@ const AccordionItem = React.forwardRef<HTMLDivElement, AccordionItemProps>(
       children,
       ...rest
     } = props
-    const { wrapper, header, content } = styles({ color, isActive, isDisabled })
+    const {
+      wrapper, header, content, legend
+    } = styles({ color, isActive, isDisabled })
 
     const setIconColor = (): keyof Color => {
       if (isDisabled) {
@@ -47,7 +49,7 @@ const AccordionItem = React.forwardRef<HTMLDivElement, AccordionItemProps>(
             />
           </div>
 
-          {legend && <span>{legend}</span>}
+          {legendText && <span className={legend}>{legendText}</span>}
         </div>
 
         {isActive && (
