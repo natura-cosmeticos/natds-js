@@ -9,12 +9,7 @@ const componentStatus = `
 
 **NOTE FOR UXs**: This component is available in the following variants:
 
-  - ❌ Standard
-
-With the following attribute statuses:
-
-  - **Attributes:**
-    - ❌ \`Types\`
+  - ✅ Standard
 
 - - -
 `
