@@ -41,6 +41,14 @@ const setBackgroundColor = (theme: Theme) => ({ isDisabled, color }: StyleProps)
   return color === 'regular' ? theme.color.surface : theme.color.primary
 }
 
+const setLegendColor = (theme: Theme) => ({ isDisabled, color }: StyleProps) => {
+  if (isDisabled) {
+    return theme.color.mediumEmphasis
+  }
+
+  return color === 'regular' ? theme.color.mediumEmphasis : theme.color.highEmphasis
+}
+
 const styles = createUseStyles((theme: Theme) => ({
   wrapper: {
     flex: 1,
@@ -83,7 +91,7 @@ const styles = createUseStyles((theme: Theme) => ({
     }
   }),
   legend: {
-    color: ({ color }: StyleProps) => (color === 'regular' ? theme.color.mediumEmphasis : theme.color.highEmphasis)
+    color: setLegendColor(theme)
   },
   content: {
     minHeight: theme.size.semiX,
