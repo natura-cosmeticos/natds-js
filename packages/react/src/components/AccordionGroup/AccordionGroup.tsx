@@ -1,8 +1,8 @@
 import React from 'react'
-import styles from './Accordion.styles'
-import { AccordionProps } from './Accordion.props'
+import styles from './AccordionGroup.styles'
+import { AccordionGroupProps } from './AccordionGroup.props'
 
-const Accordion = React.forwardRef<HTMLDivElement, AccordionProps>(
+const AccordionGroup = React.forwardRef<HTMLDivElement, AccordionGroupProps>(
   (props, ref) => {
     const {
       className = '',
@@ -22,4 +22,4 @@ const Accordion = React.forwardRef<HTMLDivElement, AccordionProps>(
   }
 )
 
-export default Accordion
+export default AccordionGroup

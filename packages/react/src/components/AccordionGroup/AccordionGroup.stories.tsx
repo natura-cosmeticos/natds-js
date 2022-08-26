@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Story, Meta } from '@storybook/react'
 import AccordionItem from '../AccordionItem'
 import StoryContainer from '../../helpers/StoryContainer'
-import { Accordion, AccordionProps } from '.'
+import { AccordionGroup, AccordionGroupProps } from '.'
 
 const componentStatus = `
 - - -
@@ -29,20 +29,20 @@ const Item = () => {
 }
 
 export default {
-  title: 'Components/Accordion',
-  component: Accordion,
+  title: 'Components/AccordionGroup',
+  component: AccordionGroup,
   parameters: {
     componentSubtitle: '',
     docs: { description: { component: componentStatus } }
   }
 } as Meta
 
-export const Playground: Story<AccordionProps> = (args) => (
+export const Playground: Story<AccordionGroupProps> = (args) => (
   <StoryContainer>
-    <Accordion {...args}>
+    <AccordionGroup {...args}>
       <Item />
       <Item />
       <Item />
-    </Accordion>
+    </AccordionGroup>
   </StoryContainer>
 )

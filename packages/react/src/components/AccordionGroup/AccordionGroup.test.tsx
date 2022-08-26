@@ -1,11 +1,11 @@
 import React from 'react'
-import Accordion from '.'
+import AccordionGroup from '.'
 import renderWithTheme from '../../helpers/renderWithTheme'
 
-describe('Accordion component', () => {
+describe('AccordionGroup component', () => {
   it('should render component with info styles if color is not defined', () => {
     const { styles, component } = renderWithTheme(
-      <Accordion />
+      <AccordionGroup />
     )
 
     expect([styles.toString(), component.container]).toMatchSnapshot()
