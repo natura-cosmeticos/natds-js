@@ -2,8 +2,10 @@ import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 
 const styles = createUseStyles((theme: Theme) => ({
-  example: {
-    display: 'flex'
+  wrapper: {
+    width: '100%',
+    display: 'grid',
+    gap: theme.spacing.small
   }
 }))
 
