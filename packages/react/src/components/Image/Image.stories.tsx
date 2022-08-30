@@ -1,6 +1,7 @@
 import React from 'react'
 import { Story, Meta } from '@storybook/react'
 import { Image, ImageProps } from '.'
+import StoryContainer from '../../helpers/StoryContainer'
 
 const componentStatus = `
 - - -
@@ -26,6 +27,10 @@ export default {
   }
 } as Meta
 
+// https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-web@latest/dist/assets/product-empty-256x256.png
+
 export const Playground: Story<ImageProps> = (args) => (
-  <Image {...args} />
+  <StoryContainer>
+    <Image {...args} sourceImage="https://picsum.photos/256" />
+  </StoryContainer>
 )

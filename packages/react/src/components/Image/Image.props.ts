@@ -8,4 +8,8 @@ export interface ImageProps {
    * Optional ID for testing
    */
   testID?: string;
+
+  sourceImage: string
+
+  alternativeText?: string
 }
