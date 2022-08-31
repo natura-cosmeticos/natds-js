@@ -10,6 +10,7 @@ const Image = React.forwardRef<HTMLImageElement, ImageProps>(
       alternativeText = '',
       highlight = false,
       fade,
+      children,
       ...rest
     } = props
     const { wrapper, overlay } = styles({ highlight, fade })
@@ -25,7 +26,7 @@ const Image = React.forwardRef<HTMLImageElement, ImageProps>(
             console.log('deu ruim')
           }}
         />
-        {highlight && <div className={overlay} />}
+        {highlight && <div className={overlay}>{children}</div>}
       </div>
     )
   }

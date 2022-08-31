@@ -31,6 +31,8 @@ export default {
 
 export const Playground: Story<ImageProps> = (args) => (
   <StoryContainer>
-    <Image {...args} sourceImage="https://picsum.photos/256" />
+    <Image {...args} sourceImage="https://picsum.photos/256">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </Image>
   </StoryContainer>
 )

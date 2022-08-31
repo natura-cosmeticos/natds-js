@@ -23,6 +23,7 @@ const styles = createUseStyles((theme: Theme) => ({
     position: 'relative'
   },
   overlay: {
+    padding: theme.spacing.micro,
     position: 'absolute',
     top: 0,
     bottom: 0,
