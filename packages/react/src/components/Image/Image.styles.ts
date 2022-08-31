@@ -2,12 +2,17 @@ import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 
 type StyleProps = {
-  highlight: boolean
+  highlight: boolean,
+  fade: 'top' | 'bottom' | 'right' | 'left' | undefined
 }
 
-const setBackground = () => ({ highlight }: StyleProps) => {
-  if (highlight) {
+const setBackground = () => ({ highlight, fade }: StyleProps) => {
+  if (highlight && !fade) {
     return 'rgba(0, 0, 0, 0.48)'
+  }
+
+  if (highlight && fade) {
+    return `linear-gradient(to ${fade}, #000, transparent)`
   }
 
   return 'transparent'

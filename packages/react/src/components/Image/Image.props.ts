@@ -14,4 +14,6 @@ export interface ImageProps {
   alternativeText?: string
 
   highlight?: boolean
+
+  fade?: 'top' | 'bottom' | 'right' | 'left'
 }

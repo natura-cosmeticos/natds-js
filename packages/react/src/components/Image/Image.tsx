@@ -9,12 +9,13 @@ const Image = React.forwardRef<HTMLImageElement, ImageProps>(
       sourceImage,
       alternativeText = '',
       highlight = false,
+      fade,
       ...rest
     } = props
-    const { wrapper, overlay } = styles({ highlight })
+    const { wrapper, overlay } = styles({ highlight, fade })
 
     return (
-      <div className={wrapper}>
+      <div className={`${className} ${wrapper}`}>
         <img
           {...rest}
           ref={ref}
