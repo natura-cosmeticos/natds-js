@@ -12,4 +12,6 @@ export interface ImageProps {
   sourceImage: string
 
   alternativeText?: string
+
+  highlight?: boolean
 }

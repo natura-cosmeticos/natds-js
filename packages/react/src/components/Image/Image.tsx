@@ -7,22 +7,25 @@ const Image = React.forwardRef<HTMLImageElement, ImageProps>(
     const {
       className = '',
       sourceImage,
-      alternativeText,
+      alternativeText = '',
+      highlight = false,
       ...rest
     } = props
-    const { example } = styles()
+    const { wrapper, overlay } = styles({ highlight })
 
     return (
-      <img
-        className={`${className} ${example}`}
-        {...rest}
-        ref={ref}
-        src={sourceImage}
-        alt={alternativeText}
-        onError={() => {
-          console.log('deu ruim')
-        }}
-      />
+      <div className={wrapper}>
+        <img
+          {...rest}
+          ref={ref}
+          src={sourceImage}
+          alt={alternativeText}
+          onError={() => {
+            console.log('deu ruim')
+          }}
+        />
+        {highlight && <div className={overlay} />}
+      </div>
     )
   }
 )
