@@ -20,7 +20,11 @@ const setBackground = () => ({ highlight, fade }: StyleProps) => {
 
 const styles = createUseStyles((theme: Theme) => ({
   wrapper: {
-    position: 'relative'
+    position: 'relative',
+    '& > img': {
+      width: '100%',
+      height: '100%'
+    }
   },
   overlay: {
     padding: theme.spacing.micro,

@@ -27,11 +27,25 @@ export default {
   }
 } as Meta
 
-// https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-web@latest/dist/assets/product-empty-256x256.png
-
 export const Playground: Story<ImageProps> = (args) => (
   <StoryContainer>
     <Image {...args} sourceImage="https://picsum.photos/256">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </Image>
+  </StoryContainer>
+)
+
+export const Highlight: Story<ImageProps> = (args) => (
+  <StoryContainer>
+    <Image {...args} highlight sourceImage="https://picsum.photos/256">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </Image>
+  </StoryContainer>
+)
+
+export const WithFallback: Story<ImageProps> = (args) => (
+  <StoryContainer>
+    <Image {...args} sourceImage="INVALID_URL" fallbackImage="https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-web@latest/dist/assets/product-empty-256x256.png">
       Lorem ipsum dolor sit amet consectetur adipisicing elit.
     </Image>
   </StoryContainer>
