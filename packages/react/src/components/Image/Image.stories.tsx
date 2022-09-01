@@ -65,7 +65,7 @@ export const WithComponent: Story<ImageProps> = (args) => (
   <StoryContainer>
     <Image {...args} highlight sourceImage="https://picsum.photos/256">
       <div style={{ color: '#fff' }}>
-        <Icon name="outlined-default-mockup" color="#ffffff" />
+        <Icon name="outlined-default-mockup" />
         Lorem ipsum
       </div>
     </Image>
