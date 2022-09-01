@@ -4,7 +4,7 @@ import renderWithTheme from '../../helpers/renderWithTheme'
 
 describe('Image component', () => {
   it('should render correctly with default props', () => {
-    const { styles, component } = renderWithTheme(<Image />)
+    const { styles, component } = renderWithTheme(<Image sourceImage="#" />)
 
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
