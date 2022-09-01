@@ -33,7 +33,7 @@ const Image = React.forwardRef<HTMLImageElement, ImageProps>(
           alt={alternativeText}
           onError={({ currentTarget }) => onError(currentTarget)}
         />
-        {highlight && <div className={overlay}>{children}</div>}
+        {highlight && <div className={overlay} data-testid="image-overlay">{children}</div>}
       </div>
     )
   }
