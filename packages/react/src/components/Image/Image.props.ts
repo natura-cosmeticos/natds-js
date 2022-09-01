@@ -21,5 +21,7 @@ export interface ImageProps {
 
   fade?: 'top' | 'bottom' | 'right' | 'left'
 
+  border?: 'medium' | 'circle'
+
   children?: React.ReactNode
 }

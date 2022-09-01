@@ -3,7 +3,8 @@ import { Theme } from '@naturacosmeticos/natds-themes'
 
 type StyleProps = {
   highlight: boolean,
-  fade: 'top' | 'bottom' | 'right' | 'left' | undefined
+  fade: 'top' | 'bottom' | 'right' | 'left' | undefined,
+  border: 'medium' | 'circle' | undefined
 }
 
 const setBackground = () => ({ highlight, fade }: StyleProps) => {
@@ -18,9 +19,19 @@ const setBackground = () => ({ highlight, fade }: StyleProps) => {
   return 'transparent'
 }
 
+const setBorderRadius = (theme: Theme) => ({ border }: StyleProps) => {
+  if (!border) {
+    return 'none'
+  }
+
+  return border === 'medium' ? theme.borderRadius.medium : '50%'
+}
+
 const styles = createUseStyles((theme: Theme) => ({
   wrapper: {
     position: 'relative',
+    borderRadius: setBorderRadius(theme),
+    overflow: 'hidden',
     '& > img': {
       width: '100%',
       height: '100%'

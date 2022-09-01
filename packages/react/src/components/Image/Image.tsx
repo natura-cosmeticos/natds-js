@@ -11,10 +11,11 @@ const Image = React.forwardRef<HTMLImageElement, ImageProps>(
       alternativeText = '',
       highlight = false,
       fade,
+      border,
       children,
       ...rest
     } = props
-    const { wrapper, overlay } = styles({ highlight, fade })
+    const { wrapper, overlay } = styles({ highlight, fade, border })
 
     const onError = (currentTarget: EventTarget & HTMLImageElement) => {
       if (fallbackImage) {

@@ -71,3 +71,10 @@ export const WithComponent: Story<ImageProps> = (args) => (
     </Image>
   </StoryContainer>
 )
+
+export const WithBorder: Story<ImageProps> = (args) => (
+  <StoryContainer>
+    <Image {...args} border="medium" sourceImage="https://picsum.photos/256" />
+    <Image {...args} border="circle" sourceImage="https://picsum.photos/256" />
+  </StoryContainer>
+)
