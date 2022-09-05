@@ -38,9 +38,7 @@ export const Playground: Story<ImageProps> = (args) => (
 
 export const Highlight: Story<ImageProps> = (args) => (
   <StoryContainer>
-    <Image {...args} highlight sourceImage="https://picsum.photos/256">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-    </Image>
+    <Image {...args} highlight sourceImage="https://picsum.photos/256" />
   </StoryContainer>
 )
 
