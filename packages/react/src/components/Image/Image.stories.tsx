@@ -2,7 +2,7 @@ import React from 'react'
 import { Story, Meta } from '@storybook/react'
 import { Image, ImageProps } from '.'
 import StoryContainer from '../../helpers/StoryContainer'
-import Icon from '../Icon'
+import Typography from '../Typography'
 
 const componentStatus = `
 - - -
@@ -65,8 +65,7 @@ export const WithComponent: Story<ImageProps> = (args) => (
   <StoryContainer>
     <Image {...args} highlight sourceImage="https://picsum.photos/256">
       <div style={{ color: '#fff' }}>
-        <Icon name="outlined-default-mockup" />
-        Lorem ipsum
+        <Typography variant="caption">Lorem Ipsum</Typography>
       </div>
     </Image>
   </StoryContainer>

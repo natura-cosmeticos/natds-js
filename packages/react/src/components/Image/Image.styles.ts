@@ -38,7 +38,7 @@ const styles = createUseStyles((theme: Theme) => ({
     }
   },
   overlay: {
-    padding: theme.spacing.micro,
+    padding: theme.spacing.small,
     position: 'absolute',
     top: 0,
     bottom: 0,
