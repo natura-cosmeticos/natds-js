@@ -13,7 +13,7 @@ const setBackground = () => ({ highlight, fade }: StyleProps) => {
   }
 
   if (highlight && fade) {
-    return `linear-gradient(to ${fade}, #000, transparent)`
+    return `linear-gradient(to ${fade}, transparent, #000)`
   }
 
   return 'transparent'
