@@ -12,26 +12,26 @@ type SelectStyleProps = {
 }
 
 const getBorderColor = (theme:Theme) => ({ isFilled, feedback, isDisabled }: SelectStyleProps) => {
-  if (isDisabled) return theme.color.lowEmphasis
-
+  
   if (isFilled) return theme.color.highEmphasis
-
+  
   if (feedback === 'error') return theme.color.alert
-
+  
   if (feedback === 'success') return theme.color.success
-
+  
+  if (isDisabled) return theme.color.lowEmphasis
   return theme.color.lowEmphasis
 }
 
 const getLabelColor = (theme:Theme) => ({ feedback, isDisabled, isFilled }: SelectStyleProps) => {
-  if (isDisabled) return theme.color.lowEmphasis
-
+  
   if (isFilled) return theme.color.highEmphasis
-
+  
   if (feedback === 'error') return theme.color.alert
-
+  
   if (feedback === 'success') return theme.color.success
-
+  
+  if (isDisabled) return theme.color.lowEmphasis
   return theme.color.lowEmphasis
 }
 
@@ -119,6 +119,8 @@ const styles = createUseStyles((theme: Theme) => ({
     paddingBottom: theme.size.tiny,
     width: '100%',
     borderRadius: theme.borderRadius.medium,
+    margin: '0px',
+    padding: '0px'
   },
   optionsItem:{
     display: 'flex',
