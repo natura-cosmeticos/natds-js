@@ -124,10 +124,9 @@ export const WithHelperText: Story<AutocompleteProps> = (args) => {
 
 export const HasSuccess: Story<AutocompleteProps> = (args) => {
   return(
-    <Autocomplete {...args} placeholder={'Placeholder'} label={'Label'} helperText="Helper Text" />
+    <Autocomplete {...args} placeholder={'Placeholder'}  feedback={'success'} label={'Label'} helperText="Helper Text" />
   )
 }
-HasSuccess.args = {feedback:'success'}
 
 export const HasError: Story<AutocompleteProps> = (args) => {
   return(
@@ -172,12 +171,8 @@ export const Position: Story<AutocompleteProps> = (args) => {
   const handleChange = (value: string) => {
     setValue(value)
     const newFilter = options.filter((opt)=> opt.label.toLowerCase().includes(value.toLowerCase()))
-    if(newFilter.length > 0){
-
-      setFilterOptions(newFilter)
-    }else{
-      setFilterOptions(()=>[{value: '0', label: 'Item não encontrado'}])
-    }
+    setFilterOptions(newFilter)
+    
  
   }
  return( 
