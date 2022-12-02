@@ -37,7 +37,7 @@ const Autocomplete = React.forwardRef<HTMLInputElement, AutocompleteProps>(
       menuOptionsWrapper,
       optionsItem 
     } = styles({
-      size, isFilled: !!value, feedback: feedback, isDisabled: disabled, position: position, readonly: readonly
+      size, isFilled: !!value, feedback, isDisabled: disabled, position, readonly
     })
 
     const handleToggle = ()=>{
@@ -58,7 +58,8 @@ const Autocomplete = React.forwardRef<HTMLInputElement, AutocompleteProps>(
       >
         <Label htmlFor={name} label={label} className={labelText} required={required} />
         <div className={inputWrapper}>
-          <input 
+          <input
+            data-testid="input-search"
             value={value}
             onKeyDown={()=> setMenutoggle(true)}
             ref={ref}
@@ -82,29 +83,32 @@ const Autocomplete = React.forwardRef<HTMLInputElement, AutocompleteProps>(
         {
           options && menuToggle &&
           <div className={surfaceWrapper}>
-            <div className={menuOptionsWrapper}>
+            <ul className={menuOptionsWrapper}>
               {
-                options?.map((optionItem, index )=>{
+                options.length > 0 ?
+                options.map((optionItem, index )=>{
                   return(
 
-                    <div 
-                     onClick={
+                    <li
+                      role={'option'}
+                      key={`${optionItem}-${index}`}
+                      className={optionsItem}
+                      onClick={
                       ()=> {
                         handleSelect?.(optionItem)
                         setMenutoggle(false)
                       }
                       } 
-                     key={`${optionItem}-${index}`} 
-                     className={optionsItem}
+                     
                      >
                       {
                         optionItem.label
                       }
-                    </div>
+                    </li>
                   )
-                })
+                }): <li className={optionsItem}> Item não encontrado</li>
               }
-            </div>
+            </ul>
           </div>
           }
         </div>
