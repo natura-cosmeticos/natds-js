@@ -83,7 +83,7 @@ const Autocomplete = React.forwardRef<HTMLInputElement, AutocompleteProps>(
         {
           options && menuToggle &&
           <div className={surfaceWrapper}>
-            <ul className={menuOptionsWrapper}>
+            <ul data-testid="ul-options" className={menuOptionsWrapper}>
               {
                 options.length > 0 ?
                 options.map((optionItem, index )=>{
