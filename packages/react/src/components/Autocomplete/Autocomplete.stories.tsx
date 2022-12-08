@@ -1,10 +1,9 @@
 import React, { useState } from 'react'
 import { Story, Meta } from '@storybook/react'
+import { useTheme } from 'react-jss'
+import { Theme } from '@naturacosmeticos/natds-themes'
 import { Autocomplete, AutocompleteProps } from '.'
 import { OptionProps } from './Autocomplete.props'
-import { Theme } from '@naturacosmeticos/natds-themes'
-import { useTheme } from 'react-jss'
-
 
 const componentStatus = `
 - - -
@@ -52,7 +51,7 @@ const options: OptionProps[] = [{
 {
   value: '6',
   label: 'Essencial Deo Parfum'
-},
+}
 ]
 
 export default {
@@ -69,134 +68,112 @@ export const Playground: Story<AutocompleteProps> = (args) => {
   const [value, setValue] = useState<string | undefined>(options[0].label)
   const [filterOptions, setFilterOptions] = useState<OptionProps[]>(options)
 
-  const handleSelect = (value: OptionProps) =>{
-    setValue(value.label)
+  const handleSelect = (values: OptionProps) => {
+    setValue(values.label)
     // handleChange(value)
   }
 
-  const handleChange = (value: string) => {
-    setValue(value)
-    const newFilter = options.filter((opt)=> opt.label.toLowerCase().includes(value.toLowerCase()))
-    if(newFilter.length > 0){
-
+  const handleChange = (values: string) => {
+    setValue(values)
+    const newFilter = options.filter(
+      (opt) => opt.label.toLowerCase().includes(values.toLowerCase())
+    )
+    if (newFilter.length > 0) {
       setFilterOptions(newFilter)
-    }else{
-      setFilterOptions(()=>[{value: '0', label: 'Item não encontrado'}])
+    } else {
+      setFilterOptions([{ value: 'false', label: 'false' }])
     }
   }
- return( 
- 
-  <div style={{
-    height: '300px',
-    // border: '1px solid yellow', 
-    display: 'flex', 
-    flexDirection: 'column',
-    justifyContent: 'start',
-    color: theme.color.highEmphasis
-    
-    }}>
+  return (
+    <div style={{
+      height: '300px',
+      // border: '1px solid yellow',
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'start',
+      color: theme.color.highEmphasis
+    }}
+    >
 
-    <Autocomplete  
-     {...args}
-     placeholder={'Placeholder'} 
-     label={'Label' } 
-     onChange={(e)=> handleChange(e.target.value) } 
-     options={filterOptions} 
-     value={value} 
-     handleSelect={handleSelect}
-     />
-  </div>
- )
-}
-
-export const WithPlaceholder: Story<AutocompleteProps> = (args) => {
-  return(
-    <Autocomplete {...args}  />
-  )
-}
-WithPlaceholder.args = {placeholder:'Placeholder', label:'Label'}
-
-export const WithHelperText: Story<AutocompleteProps> = (args) => {
-  return(
-    <Autocomplete {...args} placeholder={'Placeholder'} label={'Label'} helperText="Helper Text" />
+      <Autocomplete
+        {...args}
+        placeholder="Placeholder"
+        label="Label"
+        notFound="Item não encontrado"
+        onChange={(e) => handleChange(e.target.value)}
+        options={filterOptions}
+        value={value}
+        handleSelect={handleSelect}
+      />
+    </div>
   )
 }
 
-export const HasSuccess: Story<AutocompleteProps> = (args) => {
-  return(
-    <Autocomplete {...args} placeholder={'Placeholder'}  feedback={'success'} label={'Label'} helperText="Helper Text" />
-  )
-}
+export const WithPlaceholder: Story<AutocompleteProps> = (args) => <Autocomplete {...args} />
 
-export const HasError: Story<AutocompleteProps> = (args) => {
-  return(
-    <Autocomplete  {...args} placeholder={'Placeholder'} label={'Label'}  helperText="Helper Text" />
-  )
-}
-HasError.args = {feedback:'error'}
+WithPlaceholder.args = { placeholder: 'Placeholder', label: 'Label' }
 
-export const Required: Story<AutocompleteProps> = (args) => {
-  return(
-    <Autocomplete  {...args} placeholder={'Placeholder'} label={'Label'}/>
-  )
-}
-Required.args = {required:true}
+export const WithHelperText: Story<AutocompleteProps> = (args) => <Autocomplete {...args} placeholder="Placeholder" label="Label" helperText="Helper Text" />
 
-export const ReadOnly: Story<AutocompleteProps> = (args) => {
-  return(
-    <Autocomplete  {...args} placeholder={'Placeholder'} label={'Label'}/>
-  )
-}
-ReadOnly.args = {readonly:true}
+export const HasSuccess: Story<AutocompleteProps> = (args) => <Autocomplete {...args} placeholder="Placeholder" feedback="success" label="Label" helperText="Helper Text" />
 
-export const Disabled: Story<AutocompleteProps> = (args) => {
-  return(
-    <Autocomplete  {...args} placeholder={'Placeholder'} label={'Label'}/>
-  )
-}
-Disabled.args = {disabled:true}
+export const HasError: Story<AutocompleteProps> = (args) => <Autocomplete {...args} placeholder="Placeholder" label="Label" helperText="Helper Text" />
+HasError.args = { feedback: 'error' }
 
+export const Required: Story<AutocompleteProps> = (args) => <Autocomplete {...args} placeholder="Placeholder" label="Label" />
 
+Required.args = { required: true }
+
+export const ReadOnly: Story<AutocompleteProps> = (args) => <Autocomplete {...args} placeholder="Placeholder" label="Label" />
+
+ReadOnly.args = { readonly: true }
+
+export const Disabled: Story<AutocompleteProps> = (args) => <Autocomplete {...args} placeholder="Placeholder" label="Label" />
+Disabled.args = { disabled: true }
 
 export const Position: Story<AutocompleteProps> = (args) => {
   const theme: Theme = useTheme()
   const [value, setValue] = useState<string | undefined>(options[0].label)
   const [filterOptions, setFilterOptions] = useState<OptionProps[]>(options)
 
-  const handleSelect = (value: OptionProps) =>{
-    setValue(value.label)
+  const handleSelect = (values: OptionProps) => {
+    setValue(values.label)
     // handleChange(value)
   }
 
-  const handleChange = (value: string) => {
-    setValue(value)
-    const newFilter = options.filter((opt)=> opt.label.toLowerCase().includes(value.toLowerCase()))
-    setFilterOptions(newFilter)
-    
- 
+  const handleChange = (values: string) => {
+    setValue(values)
+    const newFilter = options.filter(
+      (opt) => opt.label.toLowerCase().includes(values.toLowerCase())
+    )
+    if (newFilter.length > 0) {
+      setFilterOptions(newFilter)
+    } else {
+      setFilterOptions([{ value: 'false', label: 'false' }])
+    }
   }
- return( 
- 
-  <div style={{
-    height: '300px',
-    // border: '1px solid yellow', 
-    display: 'flex', 
-    flexDirection: 'column',
-    justifyContent: 'end',
-    color: theme.color.lowEmphasis
-    
-    }}>
 
-    <Autocomplete  
-     {...args}
-     placeholder={'Placeholder'} 
-     label={'Label' } 
-     onChange={(e)=> handleChange(e.target.value) } 
-     options={filterOptions} 
-     value={value} 
-     handleSelect={handleSelect}
-     position={'bottom'}
-     />
-  </div>
- )
+  return (
+    <div style={{
+      height: '300px',
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'end',
+      color: theme.color.lowEmphasis
+    }}
+    >
+
+      <Autocomplete
+        {...args}
+        value={value}
+        placeholder="Placeholder"
+        label="Label"
+        notFound="Item não encontrado"
+        onChange={(e) => handleChange(e.target.value)}
+        options={filterOptions}
+        handleSelect={handleSelect}
+        position="bottom"
+      />
+    </div>
+  )
 }

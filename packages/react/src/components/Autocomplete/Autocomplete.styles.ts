@@ -1,8 +1,7 @@
 import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 
-
-type SelectStyleProps = {
+type AutoCompleteStyleProps = {
   size: 'medium' | 'mediumX'
   isFilled: boolean,
   isDisabled: boolean
@@ -11,31 +10,15 @@ type SelectStyleProps = {
   readonly?: boolean
 }
 
-const getBorderColor = (theme:Theme) => ({ isFilled, feedback, isDisabled }: SelectStyleProps) => {
-  
+const getColor = (theme:Theme) => (
+  { isFilled, feedback, isDisabled }: AutoCompleteStyleProps
+) => {
   if (isFilled) return theme.color.highEmphasis
-  
   if (feedback === 'error') return theme.color.alert
-  
   if (feedback === 'success') return theme.color.success
-  
   if (isDisabled) return theme.color.lowEmphasis
   return theme.color.lowEmphasis
 }
-
-const getLabelColor = (theme:Theme) => ({ feedback, isDisabled, isFilled }: SelectStyleProps) => {
-  
-  if (isFilled) return theme.color.highEmphasis
-  
-  if (feedback === 'error') return theme.color.alert
-  
-  if (feedback === 'success') return theme.color.success
-  
-  if (isDisabled) return theme.color.lowEmphasis
-  return theme.color.lowEmphasis
-}
-
-
 
 const styles = createUseStyles((theme: Theme) => ({
   wrapper: {
@@ -44,7 +27,7 @@ const styles = createUseStyles((theme: Theme) => ({
     fontFamily: theme.textField.label.primary.fontFamily
   },
   labelText: {
-    color: getLabelColor(theme),
+    color: getColor(theme),
     fontSize: theme.textField.label.fontSize,
     fontWeight: theme.textField.label.primary.fontWeight,
     letterSpacing: theme.textField.label.letterSpacing,
@@ -55,21 +38,20 @@ const styles = createUseStyles((theme: Theme) => ({
     }
   },
   inputWrapper: {
-    position: 'relative',
-    // border: '1px solid red',
+    position: 'relative'
   },
   input: {
     width: '100%',
-    height: ({ size }: SelectStyleProps) => theme.size[size],
+    height: ({ size }: AutoCompleteStyleProps) => theme.size[size],
     position: 'relative',
     cursor: 'pointer',
-    backgroundColor: ({readonly}: SelectStyleProps) => (
+    backgroundColor: ({ readonly }: AutoCompleteStyleProps) => (
       readonly ? theme.color.neutral100 : theme.color.surface),
     border: '1px solid',
-    borderColor: getBorderColor(theme),
+    borderColor: getColor(theme),
     borderRadius: theme.textField.borderRadius,
     padding: `0 ${theme.spacing.small}px`,
-    color: ({ isFilled }: SelectStyleProps) => (
+    color: ({ isFilled }: AutoCompleteStyleProps) => (
       isFilled ? theme.color.highEmphasis : theme.color.mediumEmphasis),
     fontSize: theme.body1.fontSize,
     fontWeight: theme.textField.content.primary.fontWeight,
@@ -90,7 +72,7 @@ const styles = createUseStyles((theme: Theme) => ({
     }
   },
   icon: {
-    color: ({ isDisabled }: SelectStyleProps) => (isDisabled ? theme.color.lowEmphasis : 'inherit'),
+    color: ({ isDisabled }: AutoCompleteStyleProps) => (isDisabled ? theme.color.lowEmphasis : 'inherit'),
     position: 'absolute',
     top: 0,
     right: theme.spacing.small,
@@ -98,20 +80,18 @@ const styles = createUseStyles((theme: Theme) => ({
     display: 'flex',
     alignItems: 'center'
   },
-  surfaceWrapper:{
+  surfaceWrapper: {
     position: 'absolute',
     width: '100%',
-    // border: '1px solid red',
     borderRadius: theme.borderRadius.medium,
     backgroundColor: theme.color.surface,
     boxShadow: theme.elevation.largeX,
     maxHeight: '208px',
     minHeight: '48px',
     overflowY: 'auto',
-    // top:({position}: SelectStyleProps) => (position === 'bottom' ?  '-208px' : 'initial'),
-    bottom: ({position}: SelectStyleProps) => (position === 'bottom' ?  '56px' : 'initial')
+    bottom: ({ position }: AutoCompleteStyleProps) => (position === 'bottom' ? '56px' : 'initial')
   },
-  menuOptionsWrapper:{
+  menuOptionsWrapper: {
     display: 'flex',
     // position: 'absolute',
     flexDirection: 'column',
@@ -122,7 +102,7 @@ const styles = createUseStyles((theme: Theme) => ({
     margin: '0px',
     padding: '0px'
   },
-  optionsItem:{
+  optionsItem: {
     display: 'flex',
     alignItems: 'center',
     width: '100%',
@@ -130,16 +110,13 @@ const styles = createUseStyles((theme: Theme) => ({
     color: theme.color.mediumEmphasis,
     borderRadius: theme.borderRadius.medium,
     '&:hover': {
-      backgroundColor: theme.color.neutral200,
+      backgroundColor: theme.color.neutral200
     },
     transition: 'all 0.3s',
     paddingLeft: theme.size.small,
     paddingRight: theme.size.small,
-    boxSizing: 'border-box',
-    
-    
-
-    }
+    boxSizing: 'border-box'
+  }
 }))
 
 export default styles

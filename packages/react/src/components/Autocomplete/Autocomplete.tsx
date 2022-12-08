@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react'
+import React, { useEffect, useState } from 'react'
 import styles from './Autocomplete.styles'
 import { AutocompleteProps } from './Autocomplete.props'
 import Label from '../Label'
@@ -17,6 +17,7 @@ const Autocomplete = React.forwardRef<HTMLInputElement, AutocompleteProps>(
       options,
       feedback,
       placeholder,
+      notFound,
       position,
       readonly = false,
       handleSelect,
@@ -28,32 +29,32 @@ const Autocomplete = React.forwardRef<HTMLInputElement, AutocompleteProps>(
       ...rest
     } = props
 
-    const { wrapper, 
-      labelText, 
-      inputWrapper, 
-      input, 
-      icon, 
-      surfaceWrapper, 
+    const {
+      wrapper,
+      labelText,
+      inputWrapper,
+      input,
+      icon,
+      surfaceWrapper,
       menuOptionsWrapper,
-      optionsItem 
+      optionsItem
     } = styles({
       size, isFilled: !!value, feedback, isDisabled: disabled, position, readonly
     })
 
-    const handleToggle = ()=>{
+    const handleToggle = () => {
       setMenutoggle(false)
     }
 
-    useEffect(()=>{
-      document.addEventListener('click',handleToggle, false)
-      return ()=> document.removeEventListener('click',handleToggle, false)
-    },[])
+    useEffect(() => {
+      document.addEventListener('click', handleToggle, false)
+      return () => document.removeEventListener('click', handleToggle, false)
+    }, [])
 
     return (
       <div
         className={`${className} ${wrapper}`}
         data-testid={testID}
-        
         {...rest}
       >
         <Label htmlFor={name} label={label} className={labelText} required={required} />
@@ -61,55 +62,55 @@ const Autocomplete = React.forwardRef<HTMLInputElement, AutocompleteProps>(
           <input
             data-testid="input-search"
             value={value}
-            onKeyDown={()=> setMenutoggle(true)}
+            onKeyDown={() => setMenutoggle(true)}
             ref={ref}
             name={name}
             placeholder={placeholder}
             id={name}
-            onClick={(e)=> {
+            onClick={(e) => {
               e.stopPropagation()
-              setMenutoggle(!menuToggle)}
-            }
+              setMenutoggle(!menuToggle)
+            }}
             className={input}
             onChange={onChange}
             required={required}
             disabled={disabled}
             aria-label={labelText}
             readOnly={readonly}
-            type="text" 
+            type="text"
           />
 
-        <Icon size="semi" name={menuToggle ? 'outlined-navigation-arrowtop': 'outlined-navigation-arrowbottom'} className={icon} />
-        {
-          options && menuToggle &&
+          <Icon size="semi" name={menuToggle ? 'outlined-navigation-arrowtop' : 'outlined-navigation-arrowbottom'} className={icon} />
+          {
+          menuToggle && (
           <div className={surfaceWrapper}>
             <ul data-testid="ul-options" className={menuOptionsWrapper}>
-              {
-                options.length > 0 ?
-                options.map((optionItem, index )=>{
-                  return(
 
-                    <li
-                      role={'option'}
-                      key={`${optionItem}-${index}`}
-                      className={optionsItem}
-                      onClick={
-                      ()=> {
-                        handleSelect?.(optionItem)
-                        setMenutoggle(false)
-                      }
-                      } 
-                     
-                     >
-                      {
-                        optionItem.label
-                      }
-                    </li>
-                  )
-                }): <li className={optionsItem}> Item não encontrado</li>
+              {
+                options?.map((optionItem, index) => (
+
+                  <li
+                    role="option"
+                    key={`${optionItem}-${index + 1}`}
+                    className={optionsItem}
+                    onClick={
+                    () => {
+                      handleSelect?.(optionItem)
+                      setMenutoggle(false)
+                    }
+                }
+                  >
+                    {
+
+                    optionItem.value !== 'false' ? optionItem.label : notFound
+                  }
+                  </li>
+                ))
+
               }
             </ul>
           </div>
+          )
           }
         </div>
 
@@ -122,7 +123,6 @@ const Autocomplete = React.forwardRef<HTMLInputElement, AutocompleteProps>(
           />
           )}
 
-          
       </div>
     )
   }

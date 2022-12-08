@@ -4,7 +4,7 @@ export interface OptionProps {
 }
 
 export interface AutocompleteProps {
- 
+
 /**
    * Specify an optional className to be added to your Select
    */
@@ -15,9 +15,10 @@ export interface AutocompleteProps {
   */
  testID?: string
 
-
-  //style?: 'outlined'; //validar essa prop com JEF - Style é palavra reservada
-  
+ /**
+  * Default outlined
+  */
+ variant?: 'outlined | contained'
 
   /**
    * Define if this field is read only
@@ -28,7 +29,6 @@ export interface AutocompleteProps {
    * Auxiliary text will be render after element
    */
   helpertext?: boolean;
-
 
   /**
    * The handleSelect event occurs when the value of an element has been selected.
@@ -85,7 +85,15 @@ export interface AutocompleteProps {
    */
   disabled?: boolean
 
+  /**
+   * Define if menuOption at bottom or top
+   */
   position?: 'bottom' | 'top'
+
+  /**
+   * Define message for item not found
+   */
+  notFound?: string
 
   /**
    * The onChange event occurs when the value of an element has been changed.

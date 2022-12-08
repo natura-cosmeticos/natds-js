@@ -14,12 +14,11 @@ const options: OptionProps[] = [{
   label: 'Option 2'
 }]
 
-
 const onChangeSpy = jest.fn
 
 describe('Autocomplete component', () => {
   it('should render correctly with default props', () => {
-    const { styles, component } = renderWithTheme(<Autocomplete options={options}/>)
+    const { styles, component } = renderWithTheme(<Autocomplete options={options} />)
 
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
@@ -70,30 +69,25 @@ describe('Autocomplete component', () => {
         placeholder="Placeholder"
       />
     )
-  
+
     expect(screen.getByTestId('input-search')).toBeInTheDocument()
   })
 
   it('should render correctly when the variant is contained and disabled is true', () => {
-    const { styles, component } = renderWithTheme(<Autocomplete  disabled  />)
+    const { styles, component } = renderWithTheme(<Autocomplete disabled />)
 
     expect(component.getByTestId('input-search')).toBeDisabled()
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
 
   it('should render correctly when the variant is contained and feedback is success', () => {
-    const { styles, component } = renderWithTheme(<Autocomplete  feedback="success" />)
+    const { styles, component } = renderWithTheme(<Autocomplete feedback="success" />)
 
-    
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
 
   it('should render correctly when the variant is contained and feedback is error', () => {
-    const { styles, component } = renderWithTheme(<Autocomplete  feedback="error" />)
-
-    
+    const { styles, component } = renderWithTheme(<Autocomplete feedback="error" />)
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
-
 })
-
