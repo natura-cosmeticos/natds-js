@@ -90,6 +90,7 @@ const Autocomplete = React.forwardRef<HTMLInputElement, AutocompleteProps>(
                 options?.map((optionItem, index) => (
 
                   <li
+                    data-testid={`li-options-${index + 1}`}
                     role="option"
                     key={`${optionItem}-${index + 1}`}
                     className={optionsItem}

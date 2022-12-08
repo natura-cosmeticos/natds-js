@@ -38,6 +38,20 @@ describe('Autocomplete component', () => {
     option.parentElement?.click()
     expect(option).not.toBeInTheDocument()
   })
+
+  it('should click in select li', () => {
+    const { component } = renderWithTheme(
+      <Autocomplete label="Label" options={options} value="" onChange={onChangeSpy} />
+    )
+    const autoComplete = component.getByTestId('input-search')
+
+    userEvent.click(autoComplete)
+
+    const lioption = component.getByTestId('li-options-1')
+    userEvent.click(lioption)
+    expect(lioption).not.toBeInTheDocument()
+  })
+
   it('should open toggleMenu in onKeydown', () => {
     const { component } = renderWithTheme(
       <Autocomplete label="Label" name="select" options={options} value="" onChange={onChangeSpy} helperText="Helper text" />
