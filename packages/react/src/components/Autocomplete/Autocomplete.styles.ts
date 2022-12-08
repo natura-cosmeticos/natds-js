@@ -13,10 +13,10 @@ type AutoCompleteStyleProps = {
 const getColor = (theme:Theme) => (
   { isFilled, feedback, isDisabled }: AutoCompleteStyleProps
 ) => {
+  if (isDisabled) return theme.color.lowEmphasis
   if (isFilled) return theme.color.highEmphasis
   if (feedback === 'error') return theme.color.alert
   if (feedback === 'success') return theme.color.success
-  if (isDisabled) return theme.color.lowEmphasis
   return theme.color.lowEmphasis
 }
 
