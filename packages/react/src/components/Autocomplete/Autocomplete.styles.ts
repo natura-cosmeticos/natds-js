@@ -28,6 +28,7 @@ const styles = createUseStyles((theme: Theme) => ({
   },
   labelText: {
     color: getColor(theme),
+    fontFamily: [theme.typography.body.regular.fontFamily, theme.typography.fallback.fontFamily],
     fontSize: theme.textField.label.fontSize,
     fontWeight: theme.textField.label.primary.fontWeight,
     letterSpacing: theme.textField.label.letterSpacing,

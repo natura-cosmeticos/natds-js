@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import styles from './Autocomplete.styles'
 import { AutocompleteProps } from './Autocomplete.props'
-import Label from '../Label'
 import { InputHelperText } from '../Input'
 import Icon from '../Icon'
 
@@ -57,7 +56,11 @@ const Autocomplete = React.forwardRef<HTMLInputElement, AutocompleteProps>(
         data-testid={testID}
         {...rest}
       >
-        <Label htmlFor={name} label={label} className={labelText} required={required} />
+        <label htmlFor={name} className={`${labelText}`}>
+          {label}
+          {required && '*'}
+        </label>
+
         <div className={inputWrapper}>
           <input
             data-testid="input-search"
