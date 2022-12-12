@@ -24,6 +24,11 @@ With the following attribute statuses:
     - ✅ Feedback
     - ✅ Required
     - ✅ Disabled
+    - ✅ Readonly
+    - ✅ Position
+    - ✅ handleSelect
+    - ✅ NotFound
+    - ✅ Placeholder
 
 - - -
 `
@@ -60,6 +65,14 @@ export default {
   parameters: {
     componentSubtitle: '',
     docs: { description: { component: componentStatus } }
+  },
+  argTypes: {
+    feedback: {
+      options: ['success', 'error', undefined],
+      controls: {
+        type: 'radio'
+      }
+    }
   }
 } as Meta
 
@@ -97,9 +110,6 @@ export const Playground: Story<AutocompleteProps> = (args) => {
 
       <Autocomplete
         {...args}
-        placeholder="Placeholder"
-        label="Label"
-        notFound="Item não encontrado"
         onChange={(e) => handleChange(e.target.value)}
         options={filterOptions}
         value={value}
@@ -107,6 +117,16 @@ export const Playground: Story<AutocompleteProps> = (args) => {
       />
     </div>
   )
+}
+Playground.args = {
+  placeholder: ' Placeholder ',
+  label: 'Label',
+  notFound: 'Item não encontrado',
+  helperText: '',
+  feedback: undefined,
+  required: false,
+  readonly: false,
+  position: 'top'
 }
 
 export const WithPlaceholder: Story<AutocompleteProps> = (args) => <Autocomplete {...args} />
