@@ -26,11 +26,6 @@ export interface AutocompleteProps {
   readonly?: boolean;
 
   /**
-   * Auxiliary text will be render after element
-   */
-  helpertext?: boolean;
-
-  /**
    * The handleSelect event occurs when the value of an element has been selected.
    */
   handleSelect?: (value: OptionProps)=> void
