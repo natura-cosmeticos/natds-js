@@ -36,7 +36,7 @@ export const Playground: Story<SnackbarProps> = (args) => {
     setBtnStatus(true)
     setTimeout(() => {
       setBtnStatus(false)
-    }, 5000)
+    }, 2000)
   }
   return (
     <>
@@ -51,21 +51,12 @@ export const Playground: Story<SnackbarProps> = (args) => {
             <span>Default</span>
           </Button>
         )}
-      //   buttonComponent={(
-      //     <IconButton
-      //       ariaLabel="teste"
-      //       onClick={() => ''}
-      //       IconComponent={(
-      //         <Icon
-      //           name="outlined-default-mockup"
-      //           color="surface"
-      //         />
-      //         )}
-      //     />
-      // )}
-        icon={<Icon name="outlined-default-mockup" color="surface" />}
-
-      />
+        icon={
+          <Icon name="outlined-default-mockup" color="surface" />
+      }
+      >
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae veritat!
+      </Snackbar>
       <Button
         disabled={btnStatusD}
         onClick={() => {
