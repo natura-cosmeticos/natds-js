@@ -17,31 +17,19 @@ export interface snackbarStyleProps {
     feedback: 'default' | 'success' | 'error' | 'warning' | 'info',
     actionButton?: 'none' | 'inlineButton' | 'blockButton' | 'iconButton';
     timer: number;
+    animation?: boolean
   }
 export interface ItimeProps {
   timer: 'minimum' | 'intermediary' | 'indeterminate' | number;
 }
 
-export const timerFN = (time: ItimeProps): number | undefined => {
-  if (typeof time === 'string') {
-    const switchFN = (tm: string) => ({
-      minimum: 5,
-      intermadiary: 10,
-      indeterminate: 0
-
-    })[tm]
-    return switchFN(time)
-  }
-  if (typeof time === 'undefined') {
-    return 0
-  }
-  if (typeof time === 'number') {
-    return time
-  }
-  return 0
+interface IgetPositionReturn {
+    top: string;
+    bottom: string;
+    left: string;
+    right: string;
 }
-
-const getPosition = (pos: string) => ({
+export const getPosition = (pos: string): IgetPositionReturn | undefined => ({
   topLeft: {
     top: '8px',
     bottom: 'unset',
@@ -79,30 +67,25 @@ const getPosition = (pos: string) => ({
     right: 'unset'
   }
 })[pos]
-const getPositionAnimation = (posAnimation: string, time: number) => {
-  // const timerN = timerFN(time)
-  const animeFN = (animeP: string) => ({
-    // eslint-disable-next-line quotes
+export const getPositionAnimation = (
+  posAnimation: string, time: number, animation: boolean | undefined
+): string | undefined => {
+  const animeFN = (animeP: string): string | undefined => ({
     topLeft: `$openSnackL 0.6s, $closeSnackL 0.6s ${(time - 0.5)}s`,
-    // eslint-disable-next-line quotes
     topCenter: `$openSnackT 0.6s, $closeSnackT 0.6s ${(time - 0.5)}s`,
-    // eslint-disable-next-line quotes
     topRight: `$openSnackR 0.6s, $closeSnackR 0.6s ${(time - 0.5)}s`,
-    // eslint-disable-next-line quotes
     bottomLeft: `$openSnackL 0.6s, $closeSnackL 0.6s ${(time - 0.5)}s`,
-    // eslint-disable-next-line quotes
     bottomCenter: `$openSnackB 0.6s, $closeSnackB 0.6s ${(time - 0.5)}s`,
-    // eslint-disable-next-line quotes
     bottomRight: `$openSnackR 0.6s, $closeSnackR 0.6s ${(time - 0.5)}s`
 
   })[animeP]
-  if (time) {
+  if (animation) {
     return animeFN(posAnimation)
   }
   return ''
 }
 
-const getColor = (theme: Theme) => (feedback: string) => ({
+export const getColor = (theme: Theme) => (feedback: string): string | undefined => ({
   default: theme.color.highlight,
   success: theme.color.success,
   error: theme.color.alert,
@@ -137,31 +120,26 @@ const styles = createUseStyles<RuleNames, snackbarStyleProps, Theme>((theme: The
     justifyContent: 'space-between',
     alignItems: 'center',
     flexDirection: ({ actionButton }) => `${actionButton === 'blockButton' ? 'column' : 'row'}`,
-    // height: '100%',
     padding: `${theme.spacing.small}px`,
     boxSizing: 'border-box',
-    // border: '1px solid red'
     overflow: 'hidden',
     gap: '16px'
   },
   wrapperRow: {
     display: 'flex',
     alignItems: 'start',
-    // border: '1px solid yellow',
     width: '100%',
     gap: '8px'
   },
   wrapperColumm: {
     display: 'flex',
     flexDirection: 'column',
-    // border: '1px solid green',
     flexWrap: 'wrap',
     gap: '8px'
   },
   wrapperAction: {
     display: 'flex',
     justifyContent: 'end',
-    // border: '1px solid red',
     width: ({ actionButton }) => `${actionButton === 'blockButton' ? '100%' : 'auto'}`,
     gap: '8px',
     color: theme.color.surface
@@ -178,7 +156,7 @@ const styles = createUseStyles<RuleNames, snackbarStyleProps, Theme>((theme: The
     boxSizing: 'border-box'
   },
   show: {
-    animation: ({ position, timer }) => getPositionAnimation(position, timer),
+    animation: ({ position, timer, animation }) => getPositionAnimation(position, timer, animation),
     animationFillMode: 'forwards',
     visibility: 'visible'
   },
@@ -236,18 +214,18 @@ const styles = createUseStyles<RuleNames, snackbarStyleProps, Theme>((theme: The
   },
   '@keyframes closeSnackB': {
     from: {
-      bottom: '0px'
+      bottom: '8px'
     },
     to: {
-      bottom: '-56px'
+      bottom: '-224px'
     }
   },
   '@keyframes closeSnackT': {
     from: {
-      top: '0px'
+      top: '8px'
     },
     to: {
-      top: '-56px'
+      top: '-224px'
     }
   }
 }))

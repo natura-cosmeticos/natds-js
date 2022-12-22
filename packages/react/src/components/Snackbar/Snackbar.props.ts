@@ -43,14 +43,18 @@ export interface SnackbarProps {
   timer: number;
 
   /**
-   * Define an time to your Snackbar
+   * Define if amimation true / false to your Snackbar
    */
-  // animation?: 'topLeft' | 'topCenter' | 'topRight' | 'bottomLeft' | 'bottomCenter'
-  // | 'bottomRight';
+  animation?: boolean
 
   /**
    * Define an button Component to your Snackbar
    */
   buttonComponent?: React.ReactNode
+
+  /**
+   * Define an children Component to your Snackbar
+   */
+  children?: React.ReactNode
 
 }

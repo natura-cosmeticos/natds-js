@@ -10,10 +10,12 @@ const Snackbar = React.forwardRef<refProp, SnackbarProps>(
   // eslint-disable-next-line complexity
   (props, ref) => {
     const {
+      testID,
       className = '',
       position = 'topCenter',
       feedback = 'default',
       actionButton,
+      animation = false,
       timer,
       buttonComponent,
       ...rest
@@ -23,14 +25,14 @@ const Snackbar = React.forwardRef<refProp, SnackbarProps>(
       snackbarContainer, wrapper, wrapperRow, wrapperColumm, wrapperAction, bodyText,
       wrapperIcon, show, close
     } = styles({
-      position, feedback, actionButton, timer
+      position, feedback, actionButton, timer, animation
     })
 
     const [state, setState] = useState(false)
     useImperativeHandle(ref, () => ({
       show() {
         setState(!state)
-        if (timer) {
+        if (animation) {
           setTimeout(() => {
             setState(false)
           }, timer * 1000)
@@ -40,25 +42,25 @@ const Snackbar = React.forwardRef<refProp, SnackbarProps>(
 
     return (
       <div
+        data-testid={testID}
         className={`${className} ${state ? show : close} ${snackbarContainer}`}
         {...rest}
       >
-        {props.children}
         <div className={wrapper}>
           <div className={wrapperRow}>
             {
               rest.icon && (
-              <div className={wrapperIcon}>
+              <div data-testid="icon-item" className={wrapperIcon}>
                 {rest.icon}
               </div>
               )
             }
-            <div className={wrapperColumm}>
+            <div className={wrapperColumm} data-testid="title-item">
               {
                 rest.title && <div className={bodyText}>{rest.title}</div>
               }
               <div className={bodyText}>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae veritat!
+                {props.children}
               </div>
 
             </div>
@@ -68,7 +70,7 @@ const Snackbar = React.forwardRef<refProp, SnackbarProps>(
             && (
               <div className={wrapperAction}>
 
-                <span>{buttonComponent}</span>
+                <span data-testid="btn-component">{buttonComponent}</span>
 
               </div>
             )
