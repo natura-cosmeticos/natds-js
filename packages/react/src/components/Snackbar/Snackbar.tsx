@@ -33,9 +33,7 @@ const Snackbar = React.forwardRef<refProp, SnackbarProps>(
       show() {
         setState(!state)
         if (animation) {
-          setTimeout(() => {
-            setState(false)
-          }, timer * 1000)
+          setTimeout(() => setState(false), timer * 1000)
         }
       }
     }))
@@ -68,7 +66,7 @@ const Snackbar = React.forwardRef<refProp, SnackbarProps>(
           {
             actionButton !== 'none'
             && (
-              <div className={wrapperAction}>
+              <div data-testid="btn-action-wrapper" className={wrapperAction}>
 
                 <span data-testid="btn-component">{buttonComponent}</span>
 
