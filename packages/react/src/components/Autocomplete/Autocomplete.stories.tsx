@@ -99,11 +99,11 @@ export const Playground: Story<AutocompleteProps> = (args) => {
   }
   return (
     <div style={{
-      height: '300px',
+      height: '500px',
       // border: '1px solid yellow',
       display: 'flex',
       flexDirection: 'column',
-      justifyContent: 'start',
+      justifyContent: 'center',
       color: theme.color.highEmphasis
     }}
     >

@@ -99,7 +99,9 @@ const Autocomplete = React.forwardRef<HTMLInputElement, AutocompleteProps>(
                     className={optionsItem}
                     onClick={
                     () => {
-                      handleSelect?.(optionItem)
+                      if (!readonly && optionItem.value !== 'false') {
+                        handleSelect?.(optionItem)
+                      }
                       setMenutoggle(false)
                     }
                 }
