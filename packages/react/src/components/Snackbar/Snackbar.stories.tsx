@@ -10,12 +10,20 @@ const componentStatus = `
 
 **NOTE FOR UXs**: This component is available in the following variants:
 
-  - ❌ Standard
+- ✅ Standard
 
 With the following attribute statuses:
 
   - **Attributes:**
-    - ❌ \`Types\`
+  - ✅ Title
+  - ✅ Icon
+  - ✅ Action Button
+  - ✅ Feedback
+  - ✅ Position
+  - ✅ Timer
+  - ✅ Animation
+  - ✅ buttonComponent
+
 
 - - -
 `
