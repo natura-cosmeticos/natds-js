@@ -15,11 +15,6 @@ export interface AutocompleteProps {
   */
  testID?: string
 
- /**
-  * Default outlined
-  */
- variant?: 'outlined | contained'
-
   /**
    * Define if this field is read only
    */
