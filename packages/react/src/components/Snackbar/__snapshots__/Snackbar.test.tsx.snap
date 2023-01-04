@@ -129,7 +129,7 @@ Array [
   }
 }
   .snackbarContainer-d0-0-2-18 {
-    background-color: #000000;
+    background-color: #333333;
     right: 8px ;
     top: 8px;
     bottom: unset;
@@ -141,7 +141,10 @@ Array [
   .wrapperAction-d2-0-2-20 {
     width: auto;
   }
-  .show-d3-0-2-21 {
+  .bodyText-d3-0-2-21 {
+    color: #ffffff;
+  }
+  .show-d4-0-2-22 {
     animation: ;
   }",
   <div>
@@ -159,7 +162,7 @@ Array [
             data-testid="title-item"
           >
             <div
-              class="bodyText-0-2-6"
+              class="bodyText-0-2-6 bodyText-d3-0-2-21"
             >
                Texto children
             </div>
@@ -308,7 +311,7 @@ Array [
   }
 }
   .snackbarContainer-d0-0-2-18 {
-    background-color: #000000;
+    background-color: #333333;
     right: 8px ;
     top: 8px;
     bottom: unset;
@@ -320,11 +323,15 @@ Array [
   .wrapperAction-d2-0-2-20 {
     width: auto;
   }
-  .show-d3-0-2-21 {
+  .bodyText-d3-0-2-21 {
+    color: #ffffff;
+  }
+  .show-d4-0-2-22 {
     animation: ;
   }",
   <div>
     <div
+      actionbutton="inlineButton"
       class=" close-0-2-9 snackbarContainer-0-2-1 snackbarContainer-d0-0-2-18"
     >
       <div
@@ -338,7 +345,7 @@ Array [
             data-testid="title-item"
           >
             <div
-              class="bodyText-0-2-6"
+              class="bodyText-0-2-6 bodyText-d3-0-2-21"
             />
           </div>
         </div>
@@ -358,7 +365,7 @@ Array [
 
 exports[`Snackbar component should render correctly with buttonComponent Prop 1`] = `
 Array [
-  ".sharedRippleEffect-0-2-28 {
+  ".sharedRippleEffect-0-2-29 {
   top: 0;
   left: 0;
   width: 100%;
@@ -367,12 +374,12 @@ Array [
   z-index: -1;
   position: absolute;
 }
-.wrapper-0-2-29 {
+.wrapper-0-2-30 {
   height: fit-content;
   outline: none;
   position: relative;
 }
-.wrapper-0-2-29:focus:after {
+.wrapper-0-2-30:focus:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -382,7 +389,7 @@ Array [
   z-index: -1;
   position: absolute;
 }
-.wrapper-0-2-29:hover:after {
+.wrapper-0-2-30:hover:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -391,20 +398,20 @@ Array [
   z-index: -1;
   position: absolute;
 }
-.ripple-0-2-30 {
+.ripple-0-2-31 {
   opacity: 0;
   position: absolute;
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-.rippleContainer-0-2-31 {
+.rippleContainer-0-2-32 {
   inset: 0;
   position: absolute;
 }
-.rippleActive-0-2-32 {
+.rippleActive-0-2-33 {
   z-index: 99;
 }
-@keyframes keyframes-ripple-0-2-33 {
+@keyframes keyframes-ripple-0-2-34 {
   0% {
     transform: translate(-50%, -50%) scale(0);
   }
@@ -417,19 +424,19 @@ Array [
     z-index: 0;
   }
 }
-  .wrapper-d0-0-2-34 {
+  .wrapper-d0-0-2-35 {
     cursor: pointer;
     display: inline-block;
     align-self: start;
   }
-  .wrapper-d0-0-2-34:focus:after {
+  .wrapper-d0-0-2-35:focus:after {
     background-color: #000000;
   }
-  .wrapper-d0-0-2-34:hover:after {
+  .wrapper-d0-0-2-35:hover:after {
     background-color: #000000;
     opacity: 0;
   }
-  .ripple-d1-0-2-35 {
+  .ripple-d1-0-2-36 {
     background-color: #000000;
     height: 0;
     left: 0;
@@ -437,31 +444,31 @@ Array [
     transition: scale opacity 300ms;
     width: 0;
   }
-  .rippleContainer-d2-0-2-36 {
+  .rippleContainer-d2-0-2-37 {
     overflow: hidden;
   }
-  .rippleActive-d3-0-2-37 {
-    animation: keyframes-ripple-0-2-33 300ms;
+  .rippleActive-d3-0-2-38 {
+    animation: keyframes-ripple-0-2-34 300ms;
   }
-  .button-0-2-22 {
+  .button-0-2-23 {
     cursor: pointer;
     outline: 0;
     overflow: hidden;
     position: relative;
     border-radius: 4px;
   }
-  .button-0-2-22:disabled {
+  .button-0-2-23:disabled {
     cursor: default;
     box-shadow: none;
   }
-  .button-0-2-22:hover:not([disabled]) {  }
-  .button-0-2-22:focus:not([disabled]) {  }
-  .labelContainer-0-2-23 {
+  .button-0-2-23:hover:not([disabled]) {  }
+  .button-0-2-23:focus:not([disabled]) {  }
+  .labelContainer-0-2-24 {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .label-0-2-24 {
+  .label-0-2-25 {
     font-size: 14px;
     text-align: center;
     font-family: Roboto, Arial;
@@ -472,7 +479,7 @@ Array [
     letter-spacing: 1.23px;
     text-transform: uppercase;
   }
-  .button-d0-0-2-25 {
+  .button-d0-0-2-26 {
     background-color: #f4ab34;
     border: 1px solid #FFFFFF00;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
@@ -482,25 +489,25 @@ Array [
     padding-right: 8px;
     width: auto;
   }
-  .button-d0-0-2-25:disabled {
+  .button-d0-0-2-26:disabled {
     background-color: #bbbbbb;
     border: 1px solid #FFFFFF00;
     color: #333333;
   }
-  .button-d0-0-2-25:hover:not([disabled]) {
+  .button-d0-0-2-26:hover:not([disabled]) {
     background-color: #ef8426;
     border: 1px solid #FFFFFF00;
     color: #333333;
   }
-  .button-d0-0-2-25:focus:not([disabled]) {
+  .button-d0-0-2-26:focus:not([disabled]) {
     background-color: #A67423;
     border: 1px solid #FFFFFF00;
     color: #333333;
   }
-  .labelContainer-d1-0-2-26 {
+  .labelContainer-d1-0-2-27 {
     flex-direction: row-reverse;
   }
-  .label-d2-0-2-27 {  }
+  .label-d2-0-2-28 {  }
   .snackbarContainer-0-2-1 {
     color: #ffffff;
     width: 328px;
@@ -628,7 +635,7 @@ Array [
   }
 }
   .snackbarContainer-d0-0-2-18 {
-    background-color: #000000;
+    background-color: #333333;
     right: 8px ;
     top: 8px;
     bottom: unset;
@@ -640,7 +647,10 @@ Array [
   .wrapperAction-d2-0-2-20 {
     width: auto;
   }
-  .show-d3-0-2-21 {
+  .bodyText-d3-0-2-21 {
+    color: #ffffff;
+  }
+  .show-d4-0-2-22 {
     animation: ;
   }",
   <div>
@@ -658,7 +668,7 @@ Array [
             data-testid="title-item"
           >
             <div
-              class="bodyText-0-2-6"
+              class="bodyText-0-2-6 bodyText-d3-0-2-21"
             >
                
               Texto children
@@ -673,28 +683,28 @@ Array [
             data-testid="btn-component"
           >
             <div
-              class="wrapper-0-2-29 wrapper-d0-0-2-34"
+              class="wrapper-0-2-30 wrapper-d0-0-2-35"
               data-testid="ripple-wrapper"
               tabindex="-1"
             >
               <div
-                class="rippleContainer-0-2-31 rippleContainer-d2-0-2-36"
+                class="rippleContainer-0-2-32 rippleContainer-d2-0-2-37"
               >
                 <div
-                  class="ripple-0-2-30 ripple-d1-0-2-35 "
+                  class="ripple-0-2-31 ripple-d1-0-2-36 "
                   data-testid="ripple-animation"
                 />
               </div>
               <button
-                class="button-0-2-22 button-d0-0-2-25"
+                class="button-0-2-23 button-d0-0-2-26"
                 data-testid="btn-include-component"
                 type="button"
               >
                 <div
-                  class="labelContainer-0-2-23 labelContainer-d1-0-2-26"
+                  class="labelContainer-0-2-24 labelContainer-d1-0-2-27"
                 >
                   <span
-                    class="label-0-2-24 label-d2-0-2-27"
+                    class="label-0-2-25 label-d2-0-2-28"
                   >
                     Click
                   </span>
@@ -838,7 +848,7 @@ Array [
   }
 }
   .snackbarContainer-d0-0-2-18 {
-    background-color: #000000;
+    background-color: #333333;
     right: 8px ;
     top: 8px;
     bottom: unset;
@@ -850,7 +860,10 @@ Array [
   .wrapperAction-d2-0-2-20 {
     width: auto;
   }
-  .show-d3-0-2-21 {
+  .bodyText-d3-0-2-21 {
+    color: #ffffff;
+  }
+  .show-d4-0-2-22 {
     animation: ;
   }",
   <div>
@@ -868,7 +881,7 @@ Array [
             data-testid="title-item"
           >
             <div
-              class="bodyText-0-2-6"
+              class="bodyText-0-2-6 bodyText-d3-0-2-21"
             />
           </div>
         </div>
@@ -1015,7 +1028,7 @@ Array [
   }
 }
   .snackbarContainer-d0-0-2-18 {
-    background-color: #000000;
+    background-color: #333333;
     right: 8px ;
     top: 8px;
     bottom: unset;
@@ -1027,7 +1040,10 @@ Array [
   .wrapperAction-d2-0-2-20 {
     width: auto;
   }
-  .show-d3-0-2-21 {
+  .bodyText-d3-0-2-21 {
+    color: #ffffff;
+  }
+  .show-d4-0-2-22 {
     animation: ;
   }",
   <div>
@@ -1045,7 +1061,7 @@ Array [
             data-testid="title-item"
           >
             <div
-              class="bodyText-0-2-6"
+              class="bodyText-0-2-6 bodyText-d3-0-2-21"
             />
           </div>
         </div>
@@ -1204,7 +1220,10 @@ Array [
   .wrapperAction-d2-0-2-20 {
     width: auto;
   }
-  .show-d3-0-2-21 {
+  .bodyText-d3-0-2-21 {
+    color: #ffffff;
+  }
+  .show-d4-0-2-22 {
     animation: ;
   }",
   <div>
@@ -1222,7 +1241,7 @@ Array [
             data-testid="title-item"
           >
             <div
-              class="bodyText-0-2-6"
+              class="bodyText-0-2-6 bodyText-d3-0-2-21"
             />
           </div>
         </div>
@@ -1381,7 +1400,10 @@ Array [
   .wrapperAction-d2-0-2-20 {
     width: auto;
   }
-  .show-d3-0-2-21 {
+  .bodyText-d3-0-2-21 {
+    color: #ffffff;
+  }
+  .show-d4-0-2-22 {
     animation: ;
   }",
   <div>
@@ -1399,7 +1421,7 @@ Array [
             data-testid="title-item"
           >
             <div
-              class="bodyText-0-2-6"
+              class="bodyText-0-2-6 bodyText-d3-0-2-21"
             />
           </div>
         </div>
@@ -1558,7 +1580,10 @@ Array [
   .wrapperAction-d2-0-2-20 {
     width: auto;
   }
-  .show-d3-0-2-21 {
+  .bodyText-d3-0-2-21 {
+    color: #ffffff;
+  }
+  .show-d4-0-2-22 {
     animation: ;
   }",
   <div>
@@ -1577,7 +1602,7 @@ Array [
             data-testid="title-item"
           >
             <div
-              class="bodyText-0-2-6"
+              class="bodyText-0-2-6 bodyText-d3-0-2-21"
             />
           </div>
         </div>
@@ -1736,7 +1761,10 @@ Array [
   .wrapperAction-d2-0-2-20 {
     width: auto;
   }
-  .show-d3-0-2-21 {
+  .bodyText-d3-0-2-21 {
+    color: #000000;
+  }
+  .show-d4-0-2-22 {
     animation: ;
   }",
   <div>
@@ -1754,7 +1782,7 @@ Array [
             data-testid="title-item"
           >
             <div
-              class="bodyText-0-2-6"
+              class="bodyText-0-2-6 bodyText-d3-0-2-21"
             />
           </div>
         </div>
@@ -1901,7 +1929,7 @@ Array [
   }
 }
   .snackbarContainer-d0-0-2-18 {
-    background-color: #000000;
+    background-color: #333333;
     right: unset;
     top: unset;
     bottom: 8px;
@@ -1913,7 +1941,10 @@ Array [
   .wrapperAction-d2-0-2-20 {
     width: auto;
   }
-  .show-d3-0-2-21 {
+  .bodyText-d3-0-2-21 {
+    color: #ffffff;
+  }
+  .show-d4-0-2-22 {
     animation: ;
   }",
   <div>
@@ -1932,7 +1963,7 @@ Array [
             data-testid="title-item"
           >
             <div
-              class="bodyText-0-2-6"
+              class="bodyText-0-2-6 bodyText-d3-0-2-21"
             />
           </div>
         </div>
@@ -2079,7 +2110,7 @@ Array [
   }
 }
   .snackbarContainer-d0-0-2-18 {
-    background-color: #000000;
+    background-color: #333333;
     right: unset;
     top: unset;
     bottom: 8px;
@@ -2091,7 +2122,10 @@ Array [
   .wrapperAction-d2-0-2-20 {
     width: auto;
   }
-  .show-d3-0-2-21 {
+  .bodyText-d3-0-2-21 {
+    color: #ffffff;
+  }
+  .show-d4-0-2-22 {
     animation: ;
   }",
   <div>
@@ -2110,7 +2144,7 @@ Array [
             data-testid="title-item"
           >
             <div
-              class="bodyText-0-2-6"
+              class="bodyText-0-2-6 bodyText-d3-0-2-21"
             />
           </div>
         </div>
@@ -2257,7 +2291,7 @@ Array [
   }
 }
   .snackbarContainer-d0-0-2-18 {
-    background-color: #000000;
+    background-color: #333333;
     right: 8px;
     top: unset;
     bottom: 8px;
@@ -2269,7 +2303,10 @@ Array [
   .wrapperAction-d2-0-2-20 {
     width: auto;
   }
-  .show-d3-0-2-21 {
+  .bodyText-d3-0-2-21 {
+    color: #ffffff;
+  }
+  .show-d4-0-2-22 {
     animation: ;
   }",
   <div>
@@ -2288,7 +2325,7 @@ Array [
             data-testid="title-item"
           >
             <div
-              class="bodyText-0-2-6"
+              class="bodyText-0-2-6 bodyText-d3-0-2-21"
             />
           </div>
         </div>
@@ -2435,7 +2472,7 @@ Array [
   }
 }
   .snackbarContainer-d0-0-2-18 {
-    background-color: #000000;
+    background-color: #333333;
     right: 8px ;
     top: 8px;
     bottom: unset;
@@ -2447,7 +2484,10 @@ Array [
   .wrapperAction-d2-0-2-20 {
     width: auto;
   }
-  .show-d3-0-2-21 {
+  .bodyText-d3-0-2-21 {
+    color: #ffffff;
+  }
+  .show-d4-0-2-22 {
     animation: ;
   }",
   <div>
@@ -2465,7 +2505,7 @@ Array [
             data-testid="title-item"
           >
             <div
-              class="bodyText-0-2-6"
+              class="bodyText-0-2-6 bodyText-d3-0-2-21"
             />
           </div>
         </div>
@@ -2612,7 +2652,7 @@ Array [
   }
 }
   .snackbarContainer-d0-0-2-18 {
-    background-color: #000000;
+    background-color: #333333;
     right: unset;
     top: 8px;
     bottom: unset;
@@ -2624,7 +2664,10 @@ Array [
   .wrapperAction-d2-0-2-20 {
     width: auto;
   }
-  .show-d3-0-2-21 {
+  .bodyText-d3-0-2-21 {
+    color: #ffffff;
+  }
+  .show-d4-0-2-22 {
     animation: ;
   }",
   <div>
@@ -2642,7 +2685,7 @@ Array [
             data-testid="title-item"
           >
             <div
-              class="bodyText-0-2-6"
+              class="bodyText-0-2-6 bodyText-d3-0-2-21"
             />
           </div>
         </div>
@@ -2789,7 +2832,7 @@ Array [
   }
 }
   .snackbarContainer-d0-0-2-18 {
-    background-color: #000000;
+    background-color: #333333;
     right: 8px ;
     top: 8px;
     bottom: unset;
@@ -2801,7 +2844,10 @@ Array [
   .wrapperAction-d2-0-2-20 {
     width: auto;
   }
-  .show-d3-0-2-21 {
+  .bodyText-d3-0-2-21 {
+    color: #ffffff;
+  }
+  .show-d4-0-2-22 {
     animation: ;
   }",
   <div>
@@ -2819,7 +2865,7 @@ Array [
             data-testid="title-item"
           >
             <div
-              class="bodyText-0-2-6"
+              class="bodyText-0-2-6 bodyText-d3-0-2-21"
             />
           </div>
         </div>
@@ -2966,7 +3012,7 @@ Array [
   }
 }
   .snackbarContainer-d0-0-2-18 {
-    background-color: #000000;
+    background-color: #333333;
     right: 8px ;
     top: 8px;
     bottom: unset;
@@ -2978,7 +3024,10 @@ Array [
   .wrapperAction-d2-0-2-20 {
     width: auto;
   }
-  .show-d3-0-2-21 {
+  .bodyText-d3-0-2-21 {
+    color: #ffffff;
+  }
+  .show-d4-0-2-22 {
     animation: ;
   }",
   <div>
@@ -2997,12 +3046,12 @@ Array [
             data-testid="title-item"
           >
             <div
-              class="bodyText-0-2-6"
+              class="bodyText-0-2-6 bodyText-d3-0-2-21"
             >
               Title
             </div>
             <div
-              class="bodyText-0-2-6"
+              class="bodyText-0-2-6 bodyText-d3-0-2-21"
             />
           </div>
         </div>
@@ -3149,7 +3198,7 @@ Array [
   }
 }
   .snackbarContainer-d0-0-2-18 {
-    background-color: #000000;
+    background-color: #333333;
     right: 8px ;
     top: 8px;
     bottom: unset;
@@ -3161,12 +3210,15 @@ Array [
   .wrapperAction-d2-0-2-20 {
     width: auto;
   }
-  .show-d3-0-2-21 {
+  .bodyText-d3-0-2-21 {
+    color: #ffffff;
+  }
+  .show-d4-0-2-22 {
     animation: keyframes-openSnackT-0-2-13 0.6s, keyframes-closeSnackT-0-2-17 0.6s 4.5s;
   }",
   <div>
     <div
-      class=" show-0-2-8 show-d3-0-2-21 snackbarContainer-0-2-1 snackbarContainer-d0-0-2-18"
+      class=" show-0-2-8 show-d4-0-2-22 snackbarContainer-0-2-1 snackbarContainer-d0-0-2-18"
       data-testid="ref-test"
     >
       <div
@@ -3180,7 +3232,7 @@ Array [
             data-testid="title-item"
           >
             <div
-              class="bodyText-0-2-6"
+              class="bodyText-0-2-6 bodyText-d3-0-2-21"
             >
                Texto children
             </div>
