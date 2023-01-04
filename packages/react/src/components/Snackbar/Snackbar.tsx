@@ -16,7 +16,7 @@ const Snackbar = React.forwardRef<refProp, SnackbarProps>(
       feedback = 'default',
       directionButton,
       animation = false,
-      timer = 10,
+      timer,
       buttonComponent,
       ...rest
     } = props
