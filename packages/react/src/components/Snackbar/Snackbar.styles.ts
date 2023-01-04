@@ -93,14 +93,6 @@ export const getColor = (theme: Theme) => (feedback: string): string | undefined
   info: theme.color.link
 })[feedback]
 
-export const getColorText = (theme: Theme) => (feedback: string): string | undefined => ({
-  default: theme.color.surface,
-  success: theme.color.surface,
-  error: theme.color.surface,
-  warning: theme.color.highlight,
-  info: theme.color.surface
-})[feedback]
-
 const styles = createUseStyles<RuleNames, snackbarStyleProps, Theme>((theme: Theme) => ({
   snackbarContainer: {
     fontFamily: theme.snackbar.content.fallback.fontFamily,
@@ -158,7 +150,9 @@ const styles = createUseStyles<RuleNames, snackbarStyleProps, Theme>((theme: The
     boxSizing: 'border-box',
     flexWrap: 'wrap',
     wordBreak: 'break-all',
-    color: ({ feedback }: snackbarStyleProps) => getColorText(theme)(feedback)
+    // color: ({ feedback }: snackbarStyleProps) => getColorText(theme)(feedback)
+    color: ({ feedback }: snackbarStyleProps) => (
+      feedback === 'warning' ? theme.color.highEmphasis : theme.color.surface)
   },
   wrapperIcon: {
     display: 'flex',
