@@ -15,7 +15,7 @@ type RuleNames =
 export interface snackbarStyleProps {
     position: 'topLeft' | 'topCenter' | 'topRight' | 'bottomLeft' | 'bottomCenter' | 'bottomRight';
     feedback: 'default' | 'success' | 'error' | 'warning' | 'info',
-    actionButton?: 'none' | 'inlineButton' | 'blockButton' | 'iconButton';
+    directionButton?: 'none' | 'inlineButton' | 'blockButton';
     timer: number;
     animation?: boolean
   }
@@ -86,11 +86,19 @@ export const getPositionAnimation = (
 }
 
 export const getColor = (theme: Theme) => (feedback: string): string | undefined => ({
-  default: theme.color.highlight,
+  default: theme.color.highEmphasis,
   success: theme.color.success,
   error: theme.color.alert,
   warning: theme.color.warning,
   info: theme.color.link
+})[feedback]
+
+export const getColorText = (theme: Theme) => (feedback: string): string | undefined => ({
+  default: theme.color.surface,
+  success: theme.color.surface,
+  error: theme.color.surface,
+  warning: theme.color.highlight,
+  info: theme.color.surface
 })[feedback]
 
 const styles = createUseStyles<RuleNames, snackbarStyleProps, Theme>((theme: Theme) => ({
@@ -119,7 +127,7 @@ const styles = createUseStyles<RuleNames, snackbarStyleProps, Theme>((theme: The
     width: '100%',
     justifyContent: 'space-between',
     alignItems: 'center',
-    flexDirection: ({ actionButton }) => `${actionButton === 'blockButton' ? 'column' : 'row'}`,
+    flexDirection: ({ directionButton }) => `${directionButton === 'blockButton' ? 'column' : 'row'}`,
     padding: `${theme.spacing.small}px`,
     boxSizing: 'border-box',
     overflow: 'hidden',
@@ -140,7 +148,7 @@ const styles = createUseStyles<RuleNames, snackbarStyleProps, Theme>((theme: The
   wrapperAction: {
     display: 'flex',
     justifyContent: 'end',
-    width: ({ actionButton }) => `${actionButton === 'blockButton' ? '100%' : 'auto'}`,
+    width: ({ directionButton }) => `${directionButton === 'blockButton' ? '100%' : 'auto'}`,
     gap: '8px',
     color: theme.color.surface
   },
@@ -149,7 +157,8 @@ const styles = createUseStyles<RuleNames, snackbarStyleProps, Theme>((theme: The
     whiteSpace: 'normal',
     boxSizing: 'border-box',
     flexWrap: 'wrap',
-    wordBreak: 'break-all'
+    wordBreak: 'break-all',
+    color: ({ feedback }: snackbarStyleProps) => getColorText(theme)(feedback)
   },
   wrapperIcon: {
     display: 'flex',

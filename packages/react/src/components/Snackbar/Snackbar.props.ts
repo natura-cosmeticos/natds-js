@@ -24,7 +24,7 @@ export interface SnackbarProps {
   /**
    * Define if an button action to be added to your Snackbar
    */
-  actionButton?: 'none' | 'inlineButton' | 'blockButton';
+  directionButton?: 'none' | 'inlineButton' | 'blockButton';
 
   /**
    * Define if an button action to be added to your Snackbar

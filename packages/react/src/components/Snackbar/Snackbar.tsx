@@ -14,9 +14,9 @@ const Snackbar = React.forwardRef<refProp, SnackbarProps>(
       className = '',
       position = 'topCenter',
       feedback = 'default',
-      actionButton,
+      directionButton,
       animation = false,
-      timer,
+      timer = 10,
       buttonComponent,
       ...rest
     } = props
@@ -25,7 +25,7 @@ const Snackbar = React.forwardRef<refProp, SnackbarProps>(
       snackbarContainer, wrapper, wrapperRow, wrapperColumm, wrapperAction, bodyText,
       wrapperIcon, show, close
     } = styles({
-      position, feedback, actionButton, timer, animation
+      position, feedback, directionButton, timer, animation
     })
 
     const [state, setState] = useState(false)
@@ -64,7 +64,7 @@ const Snackbar = React.forwardRef<refProp, SnackbarProps>(
             </div>
           </div>
           {
-            actionButton !== 'none'
+            directionButton !== 'none'
             && (
               <div data-testid="btn-action-wrapper" className={wrapperAction}>
 
