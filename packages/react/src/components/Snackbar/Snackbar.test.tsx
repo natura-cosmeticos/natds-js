@@ -221,7 +221,7 @@ describe('Snackbar component', () => {
 
       <Snackbar
         timer={5}
-        actionButton="inlineButton"
+        directionButton="inlineButton"
       />
 
     )
