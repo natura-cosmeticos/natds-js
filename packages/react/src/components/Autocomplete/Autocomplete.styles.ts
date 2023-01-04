@@ -17,7 +17,7 @@ const getColor = (theme:Theme) => (
   if (feedback === 'success') return theme.color.success
   if (isDisabled) return theme.color.lowEmphasis
   if (isFilled) return theme.color.highEmphasis
-  return theme.color.lowEmphasis
+  return theme.color.highEmphasis
 }
 
 const styles = createUseStyles((theme: Theme) => ({
@@ -45,15 +45,15 @@ const styles = createUseStyles((theme: Theme) => ({
     width: '100%',
     height: ({ size }: AutoCompleteStyleProps) => theme.size[size],
     position: 'relative',
-    cursor: 'pointer',
+    // cursor: 'pointer',
     backgroundColor: ({ readonly }: AutoCompleteStyleProps) => (
       readonly ? theme.color.neutral100 : theme.color.surface),
     border: '1px solid',
     borderColor: getColor(theme),
     borderRadius: theme.textField.borderRadius,
     padding: `0 ${theme.spacing.small}px`,
-    color: ({ isFilled }: AutoCompleteStyleProps) => (
-      isFilled ? theme.color.highEmphasis : theme.color.mediumEmphasis),
+    color: ({ isDisabled }: AutoCompleteStyleProps) => (
+      isDisabled ? theme.color.lowEmphasis : theme.color.highEmphasis),
     fontSize: theme.body1.fontSize,
     fontWeight: theme.textField.content.primary.fontWeight,
     letterSpacing: theme.textField.content.letterSpacing,
@@ -61,6 +61,10 @@ const styles = createUseStyles((theme: Theme) => ({
     appearance: 'none',
     outline: 'none',
     boxSizing: 'border-box',
+    '&::placeholder': {
+      color: ({ isDisabled }: AutoCompleteStyleProps) => (
+        isDisabled ? theme.color.lowEmphasis : theme.color.highEmphasis)
+    },
 
     '&:focus:enabled': {
       borderColor: theme.color.primary,
@@ -79,7 +83,8 @@ const styles = createUseStyles((theme: Theme) => ({
     right: theme.spacing.small,
     height: '100%',
     display: 'flex',
-    alignItems: 'center'
+    alignItems: 'center',
+    cursor: 'pointer'
   },
   surfaceWrapper: {
     position: 'absolute',
@@ -94,7 +99,6 @@ const styles = createUseStyles((theme: Theme) => ({
   },
   menuOptionsWrapper: {
     display: 'flex',
-    // position: 'absolute',
     flexDirection: 'column',
     paddingTop: theme.size.tiny,
     paddingBottom: theme.size.tiny,
@@ -108,7 +112,8 @@ const styles = createUseStyles((theme: Theme) => ({
     alignItems: 'center',
     width: '100%',
     height: '48px',
-    color: theme.color.mediumEmphasis,
+    color: ({ isDisabled }: AutoCompleteStyleProps) => (
+      isDisabled ? theme.color.lowEmphasis : theme.color.mediumEmphasis),
     borderRadius: theme.borderRadius.medium,
     '&:hover': {
       backgroundColor: theme.color.neutral200
