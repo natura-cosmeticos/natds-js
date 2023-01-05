@@ -52,6 +52,7 @@ const styles = createUseStyles((theme: Theme) => ({
     borderColor: getColor(theme),
     borderRadius: theme.textField.borderRadius,
     padding: `0 ${theme.spacing.small}px`,
+    paddingRight: '45px',
     color: ({ isDisabled }: AutoCompleteStyleProps) => (
       isDisabled ? theme.color.lowEmphasis : theme.color.highEmphasis),
     fontSize: theme.body1.fontSize,
