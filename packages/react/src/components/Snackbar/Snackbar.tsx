@@ -40,6 +40,7 @@ const Snackbar = React.forwardRef<refProp, SnackbarProps>(
 
     return (
       <div
+        data-timer={timer}
         data-testid={testID}
         className={`${className} ${state ? show : close} ${snackbarContainer}`}
         {...rest}

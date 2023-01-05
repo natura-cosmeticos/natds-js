@@ -228,4 +228,14 @@ describe('Snackbar component', () => {
     expect(screen.getByTestId('btn-action-wrapper')).toBeInTheDocument()
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
+
+  it('should render correctly with timer prop', () => {
+    const { styles, component } = renderWithTheme(
+
+      <Snackbar />
+
+    )
+    expect(component.container.querySelector('[data-timer="10"]')).toBeInTheDocument()
+    expect([styles.toString(), component.container]).toMatchSnapshot()
+  })
 })
