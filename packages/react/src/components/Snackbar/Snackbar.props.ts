@@ -40,7 +40,7 @@ export interface SnackbarProps {
    * Define an time to your Snackbar
    */
   // timer: 'minimum' | 'intermediary' | 'indeterminate' | number;
-  timer: number;
+  timer?: number;
 
   /**
    * Define if amimation true / false to your Snackbar
