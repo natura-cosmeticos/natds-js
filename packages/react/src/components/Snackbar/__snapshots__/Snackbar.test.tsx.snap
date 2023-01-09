@@ -1,0 +1,3450 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snackbar component should render children 1`] = `
+Array [
+  ".snackbarContainer-0-2-1 {
+  color: #ffffff;
+  width: 328px;
+  z-index: 1000;
+  position: fixed;
+  flex-wrap: nowrap;
+  font-size: 14px;
+  min-height: 56px;
+  align-items: center;
+  font-family: Arial;
+  font-weight: 400;
+  white-space: nowrap;
+  border-radius: 4px;
+  justify-content: center;
+}
+.wrapper-0-2-2 {
+  gap: 16px;
+  width: 100%;
+  display: flex;
+  padding: 16px;
+  overflow: hidden;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapperRow-0-2-3 {
+  gap: 8px;
+  width: 100%;
+  display: flex;
+  align-items: start;
+}
+.wrapperColumm-0-2-4 {
+  gap: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.wrapperAction-0-2-5 {
+  gap: 8px;
+  color: #ffffff;
+  display: flex;
+  justify-content: end;
+}
+.bodyText-0-2-6 {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  word-break: break-all;
+  white-space: normal;
+}
+.wrapperIcon-0-2-7 {
+  display: flex;
+  box-sizing: border-box;
+}
+.show-0-2-8 {
+  visibility: visible;
+  animation-fill-mode: forwards;
+}
+.close-0-2-9 {
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+@keyframes keyframes-openSnackR-0-2-10 {
+  from {
+    right: -328px;
+  }
+  to {
+    right: 8px;
+  }
+}
+@keyframes keyframes-openSnackL-0-2-11 {
+  from {
+    left: -328px;
+  }
+  to {
+    left: 8px;
+  }
+}
+@keyframes keyframes-openSnackB-0-2-12 {
+  from {
+    bottom: -56px;
+  }
+  to {
+    bottom: 8px;
+  }
+}
+@keyframes keyframes-openSnackT-0-2-13 {
+  from {
+    top: -56px;
+  }
+  to {
+    top: 8px;
+  }
+}
+@keyframes keyframes-closeSnackR-0-2-14 {
+  from {
+    right: 8px;
+  }
+  to {
+    right: -328px;
+  }
+}
+@keyframes keyframes-closeSnackL-0-2-15 {
+  from {
+    left: 8px;
+  }
+  to {
+    left: -328px;
+  }
+}
+@keyframes keyframes-closeSnackB-0-2-16 {
+  from {
+    bottom: 8px;
+  }
+  to {
+    bottom: -224px;
+  }
+}
+@keyframes keyframes-closeSnackT-0-2-17 {
+  from {
+    top: 8px;
+  }
+  to {
+    top: -224px;
+  }
+}
+  .snackbarContainer-d0-0-2-18 {
+    background-color: #333333;
+    right: 8px ;
+    top: 8px;
+    bottom: unset;
+    left: calc(50% - 164px);
+  }
+  .wrapper-d1-0-2-19 {
+    flex-direction: row;
+  }
+  .wrapperAction-d2-0-2-20 {
+    width: auto;
+  }
+  .bodyText-d3-0-2-21 {
+    color: #ffffff;
+  }
+  .show-d4-0-2-22 {
+    animation: ;
+  }",
+  <div>
+    <div
+      class=" close-0-2-9 snackbarContainer-0-2-1 snackbarContainer-d0-0-2-18"
+      data-timer="5"
+    >
+      <div
+        class="wrapper-0-2-2 wrapper-d1-0-2-19"
+      >
+        <div
+          class="wrapperRow-0-2-3"
+        >
+          <div
+            class="wrapperColumm-0-2-4"
+            data-testid="title-item"
+          >
+            <div
+              class="bodyText-0-2-6 bodyText-d3-0-2-21"
+            >
+               Texto children
+            </div>
+          </div>
+        </div>
+        <div
+          class="wrapperAction-0-2-5 wrapperAction-d2-0-2-20"
+          data-testid="btn-action-wrapper"
+        >
+          <span
+            data-testid="btn-component"
+          />
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Snackbar component should render correctly with actionButtom inlineButton 1`] = `
+Array [
+  ".snackbarContainer-0-2-1 {
+  color: #ffffff;
+  width: 328px;
+  z-index: 1000;
+  position: fixed;
+  flex-wrap: nowrap;
+  font-size: 14px;
+  min-height: 56px;
+  align-items: center;
+  font-family: Arial;
+  font-weight: 400;
+  white-space: nowrap;
+  border-radius: 4px;
+  justify-content: center;
+}
+.wrapper-0-2-2 {
+  gap: 16px;
+  width: 100%;
+  display: flex;
+  padding: 16px;
+  overflow: hidden;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapperRow-0-2-3 {
+  gap: 8px;
+  width: 100%;
+  display: flex;
+  align-items: start;
+}
+.wrapperColumm-0-2-4 {
+  gap: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.wrapperAction-0-2-5 {
+  gap: 8px;
+  color: #ffffff;
+  display: flex;
+  justify-content: end;
+}
+.bodyText-0-2-6 {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  word-break: break-all;
+  white-space: normal;
+}
+.wrapperIcon-0-2-7 {
+  display: flex;
+  box-sizing: border-box;
+}
+.show-0-2-8 {
+  visibility: visible;
+  animation-fill-mode: forwards;
+}
+.close-0-2-9 {
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+@keyframes keyframes-openSnackR-0-2-10 {
+  from {
+    right: -328px;
+  }
+  to {
+    right: 8px;
+  }
+}
+@keyframes keyframes-openSnackL-0-2-11 {
+  from {
+    left: -328px;
+  }
+  to {
+    left: 8px;
+  }
+}
+@keyframes keyframes-openSnackB-0-2-12 {
+  from {
+    bottom: -56px;
+  }
+  to {
+    bottom: 8px;
+  }
+}
+@keyframes keyframes-openSnackT-0-2-13 {
+  from {
+    top: -56px;
+  }
+  to {
+    top: 8px;
+  }
+}
+@keyframes keyframes-closeSnackR-0-2-14 {
+  from {
+    right: 8px;
+  }
+  to {
+    right: -328px;
+  }
+}
+@keyframes keyframes-closeSnackL-0-2-15 {
+  from {
+    left: 8px;
+  }
+  to {
+    left: -328px;
+  }
+}
+@keyframes keyframes-closeSnackB-0-2-16 {
+  from {
+    bottom: 8px;
+  }
+  to {
+    bottom: -224px;
+  }
+}
+@keyframes keyframes-closeSnackT-0-2-17 {
+  from {
+    top: 8px;
+  }
+  to {
+    top: -224px;
+  }
+}
+  .snackbarContainer-d0-0-2-18 {
+    background-color: #333333;
+    right: 8px ;
+    top: 8px;
+    bottom: unset;
+    left: calc(50% - 164px);
+  }
+  .wrapper-d1-0-2-19 {
+    flex-direction: row;
+  }
+  .wrapperAction-d2-0-2-20 {
+    width: auto;
+  }
+  .bodyText-d3-0-2-21 {
+    color: #ffffff;
+  }
+  .show-d4-0-2-22 {
+    animation: ;
+  }",
+  <div>
+    <div
+      class=" close-0-2-9 snackbarContainer-0-2-1 snackbarContainer-d0-0-2-18"
+      data-timer="5"
+    >
+      <div
+        class="wrapper-0-2-2 wrapper-d1-0-2-19"
+      >
+        <div
+          class="wrapperRow-0-2-3"
+        >
+          <div
+            class="wrapperColumm-0-2-4"
+            data-testid="title-item"
+          >
+            <div
+              class="bodyText-0-2-6 bodyText-d3-0-2-21"
+            />
+          </div>
+        </div>
+        <div
+          class="wrapperAction-0-2-5 wrapperAction-d2-0-2-20"
+          data-testid="btn-action-wrapper"
+        >
+          <span
+            data-testid="btn-component"
+          />
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Snackbar component should render correctly with buttonComponent Prop 1`] = `
+Array [
+  ".sharedRippleEffect-0-2-29 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+}
+.wrapper-0-2-30 {
+  height: fit-content;
+  outline: none;
+  position: relative;
+}
+.wrapper-0-2-30:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+}
+.wrapper-0-2-30:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+}
+.ripple-0-2-31 {
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.rippleContainer-0-2-32 {
+  inset: 0;
+  position: absolute;
+}
+.rippleActive-0-2-33 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-34 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-35 {
+    cursor: pointer;
+    display: inline-block;
+    align-self: start;
+  }
+  .wrapper-d0-0-2-35:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d0-0-2-35:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d1-0-2-36 {
+    background-color: #000000;
+    height: 0;
+    left: 0;
+    top: 0;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-37 {
+    overflow: hidden;
+  }
+  .rippleActive-d3-0-2-38 {
+    animation: keyframes-ripple-0-2-34 300ms;
+  }
+  .button-0-2-23 {
+    cursor: pointer;
+    outline: 0;
+    overflow: hidden;
+    position: relative;
+    border-radius: 4px;
+  }
+  .button-0-2-23:disabled {
+    cursor: default;
+    box-shadow: none;
+  }
+  .button-0-2-23:hover:not([disabled]) {  }
+  .button-0-2-23:focus:not([disabled]) {  }
+  .labelContainer-0-2-24 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .label-0-2-25 {
+    font-size: 14px;
+    text-align: center;
+    font-family: Roboto, Arial;
+    font-weight: 500;
+    user-select: none;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    letter-spacing: 1.23px;
+    text-transform: uppercase;
+  }
+  .button-d0-0-2-26 {
+    background-color: #f4ab34;
+    border: 1px solid #FFFFFF00;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+    color: #333333;
+    height: 40px;
+    padding-left: 8px;
+    padding-right: 8px;
+    width: auto;
+  }
+  .button-d0-0-2-26:disabled {
+    background-color: #bbbbbb;
+    border: 1px solid #FFFFFF00;
+    color: #333333;
+  }
+  .button-d0-0-2-26:hover:not([disabled]) {
+    background-color: #ef8426;
+    border: 1px solid #FFFFFF00;
+    color: #333333;
+  }
+  .button-d0-0-2-26:focus:not([disabled]) {
+    background-color: #A67423;
+    border: 1px solid #FFFFFF00;
+    color: #333333;
+  }
+  .labelContainer-d1-0-2-27 {
+    flex-direction: row-reverse;
+  }
+  .label-d2-0-2-28 {  }
+  .snackbarContainer-0-2-1 {
+    color: #ffffff;
+    width: 328px;
+    z-index: 1000;
+    position: fixed;
+    flex-wrap: nowrap;
+    font-size: 14px;
+    min-height: 56px;
+    align-items: center;
+    font-family: Arial;
+    font-weight: 400;
+    white-space: nowrap;
+    border-radius: 4px;
+    justify-content: center;
+  }
+  .wrapper-0-2-2 {
+    gap: 16px;
+    width: 100%;
+    display: flex;
+    padding: 16px;
+    overflow: hidden;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .wrapperRow-0-2-3 {
+    gap: 8px;
+    width: 100%;
+    display: flex;
+    align-items: start;
+  }
+  .wrapperColumm-0-2-4 {
+    gap: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .wrapperAction-0-2-5 {
+    gap: 8px;
+    color: #ffffff;
+    display: flex;
+    justify-content: end;
+  }
+  .bodyText-0-2-6 {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    word-break: break-all;
+    white-space: normal;
+  }
+  .wrapperIcon-0-2-7 {
+    display: flex;
+    box-sizing: border-box;
+  }
+  .show-0-2-8 {
+    visibility: visible;
+    animation-fill-mode: forwards;
+  }
+  .close-0-2-9 {
+    visibility: hidden;
+    animation-fill-mode: forwards;
+  }
+@keyframes keyframes-openSnackR-0-2-10 {
+  from {
+    right: -328px;
+  }
+  to {
+    right: 8px;
+  }
+}
+@keyframes keyframes-openSnackL-0-2-11 {
+  from {
+    left: -328px;
+  }
+  to {
+    left: 8px;
+  }
+}
+@keyframes keyframes-openSnackB-0-2-12 {
+  from {
+    bottom: -56px;
+  }
+  to {
+    bottom: 8px;
+  }
+}
+@keyframes keyframes-openSnackT-0-2-13 {
+  from {
+    top: -56px;
+  }
+  to {
+    top: 8px;
+  }
+}
+@keyframes keyframes-closeSnackR-0-2-14 {
+  from {
+    right: 8px;
+  }
+  to {
+    right: -328px;
+  }
+}
+@keyframes keyframes-closeSnackL-0-2-15 {
+  from {
+    left: 8px;
+  }
+  to {
+    left: -328px;
+  }
+}
+@keyframes keyframes-closeSnackB-0-2-16 {
+  from {
+    bottom: 8px;
+  }
+  to {
+    bottom: -224px;
+  }
+}
+@keyframes keyframes-closeSnackT-0-2-17 {
+  from {
+    top: 8px;
+  }
+  to {
+    top: -224px;
+  }
+}
+  .snackbarContainer-d0-0-2-18 {
+    background-color: #333333;
+    right: 8px ;
+    top: 8px;
+    bottom: unset;
+    left: calc(50% - 164px);
+  }
+  .wrapper-d1-0-2-19 {
+    flex-direction: row;
+  }
+  .wrapperAction-d2-0-2-20 {
+    width: auto;
+  }
+  .bodyText-d3-0-2-21 {
+    color: #ffffff;
+  }
+  .show-d4-0-2-22 {
+    animation: ;
+  }",
+  <div>
+    <div
+      class=" close-0-2-9 snackbarContainer-0-2-1 snackbarContainer-d0-0-2-18"
+      data-timer="5"
+    >
+      <div
+        class="wrapper-0-2-2 wrapper-d1-0-2-19"
+      >
+        <div
+          class="wrapperRow-0-2-3"
+        >
+          <div
+            class="wrapperColumm-0-2-4"
+            data-testid="title-item"
+          >
+            <div
+              class="bodyText-0-2-6 bodyText-d3-0-2-21"
+            >
+               
+              Texto children
+            </div>
+          </div>
+        </div>
+        <div
+          class="wrapperAction-0-2-5 wrapperAction-d2-0-2-20"
+          data-testid="btn-action-wrapper"
+        >
+          <span
+            data-testid="btn-component"
+          >
+            <div
+              class="wrapper-0-2-30 wrapper-d0-0-2-35"
+              data-testid="ripple-wrapper"
+              tabindex="-1"
+            >
+              <div
+                class="rippleContainer-0-2-32 rippleContainer-d2-0-2-37"
+              >
+                <div
+                  class="ripple-0-2-31 ripple-d1-0-2-36 "
+                  data-testid="ripple-animation"
+                />
+              </div>
+              <button
+                class="button-0-2-23 button-d0-0-2-26"
+                data-testid="btn-include-component"
+                type="button"
+              >
+                <div
+                  class="labelContainer-0-2-24 labelContainer-d1-0-2-27"
+                >
+                  <span
+                    class="label-0-2-25 label-d2-0-2-28"
+                  >
+                    Click
+                  </span>
+                </div>
+              </button>
+            </div>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Snackbar component should render correctly with default props 1`] = `
+Array [
+  ".snackbarContainer-0-2-1 {
+  color: #ffffff;
+  width: 328px;
+  z-index: 1000;
+  position: fixed;
+  flex-wrap: nowrap;
+  font-size: 14px;
+  min-height: 56px;
+  align-items: center;
+  font-family: Arial;
+  font-weight: 400;
+  white-space: nowrap;
+  border-radius: 4px;
+  justify-content: center;
+}
+.wrapper-0-2-2 {
+  gap: 16px;
+  width: 100%;
+  display: flex;
+  padding: 16px;
+  overflow: hidden;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapperRow-0-2-3 {
+  gap: 8px;
+  width: 100%;
+  display: flex;
+  align-items: start;
+}
+.wrapperColumm-0-2-4 {
+  gap: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.wrapperAction-0-2-5 {
+  gap: 8px;
+  color: #ffffff;
+  display: flex;
+  justify-content: end;
+}
+.bodyText-0-2-6 {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  word-break: break-all;
+  white-space: normal;
+}
+.wrapperIcon-0-2-7 {
+  display: flex;
+  box-sizing: border-box;
+}
+.show-0-2-8 {
+  visibility: visible;
+  animation-fill-mode: forwards;
+}
+.close-0-2-9 {
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+@keyframes keyframes-openSnackR-0-2-10 {
+  from {
+    right: -328px;
+  }
+  to {
+    right: 8px;
+  }
+}
+@keyframes keyframes-openSnackL-0-2-11 {
+  from {
+    left: -328px;
+  }
+  to {
+    left: 8px;
+  }
+}
+@keyframes keyframes-openSnackB-0-2-12 {
+  from {
+    bottom: -56px;
+  }
+  to {
+    bottom: 8px;
+  }
+}
+@keyframes keyframes-openSnackT-0-2-13 {
+  from {
+    top: -56px;
+  }
+  to {
+    top: 8px;
+  }
+}
+@keyframes keyframes-closeSnackR-0-2-14 {
+  from {
+    right: 8px;
+  }
+  to {
+    right: -328px;
+  }
+}
+@keyframes keyframes-closeSnackL-0-2-15 {
+  from {
+    left: 8px;
+  }
+  to {
+    left: -328px;
+  }
+}
+@keyframes keyframes-closeSnackB-0-2-16 {
+  from {
+    bottom: 8px;
+  }
+  to {
+    bottom: -224px;
+  }
+}
+@keyframes keyframes-closeSnackT-0-2-17 {
+  from {
+    top: 8px;
+  }
+  to {
+    top: -224px;
+  }
+}
+  .snackbarContainer-d0-0-2-18 {
+    background-color: #333333;
+    right: 8px ;
+    top: 8px;
+    bottom: unset;
+    left: calc(50% - 164px);
+  }
+  .wrapper-d1-0-2-19 {
+    flex-direction: row;
+  }
+  .wrapperAction-d2-0-2-20 {
+    width: auto;
+  }
+  .bodyText-d3-0-2-21 {
+    color: #ffffff;
+  }
+  .show-d4-0-2-22 {
+    animation: ;
+  }",
+  <div>
+    <div
+      class=" close-0-2-9 snackbarContainer-0-2-1 snackbarContainer-d0-0-2-18"
+      data-timer="5"
+    >
+      <div
+        class="wrapper-0-2-2 wrapper-d1-0-2-19"
+      >
+        <div
+          class="wrapperRow-0-2-3"
+        >
+          <div
+            class="wrapperColumm-0-2-4"
+            data-testid="title-item"
+          >
+            <div
+              class="bodyText-0-2-6 bodyText-d3-0-2-21"
+            />
+          </div>
+        </div>
+        <div
+          class="wrapperAction-0-2-5 wrapperAction-d2-0-2-20"
+          data-testid="btn-action-wrapper"
+        >
+          <span
+            data-testid="btn-component"
+          />
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Snackbar component should render correctly with feedback default 1`] = `
+Array [
+  ".snackbarContainer-0-2-1 {
+  color: #ffffff;
+  width: 328px;
+  z-index: 1000;
+  position: fixed;
+  flex-wrap: nowrap;
+  font-size: 14px;
+  min-height: 56px;
+  align-items: center;
+  font-family: Arial;
+  font-weight: 400;
+  white-space: nowrap;
+  border-radius: 4px;
+  justify-content: center;
+}
+.wrapper-0-2-2 {
+  gap: 16px;
+  width: 100%;
+  display: flex;
+  padding: 16px;
+  overflow: hidden;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapperRow-0-2-3 {
+  gap: 8px;
+  width: 100%;
+  display: flex;
+  align-items: start;
+}
+.wrapperColumm-0-2-4 {
+  gap: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.wrapperAction-0-2-5 {
+  gap: 8px;
+  color: #ffffff;
+  display: flex;
+  justify-content: end;
+}
+.bodyText-0-2-6 {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  word-break: break-all;
+  white-space: normal;
+}
+.wrapperIcon-0-2-7 {
+  display: flex;
+  box-sizing: border-box;
+}
+.show-0-2-8 {
+  visibility: visible;
+  animation-fill-mode: forwards;
+}
+.close-0-2-9 {
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+@keyframes keyframes-openSnackR-0-2-10 {
+  from {
+    right: -328px;
+  }
+  to {
+    right: 8px;
+  }
+}
+@keyframes keyframes-openSnackL-0-2-11 {
+  from {
+    left: -328px;
+  }
+  to {
+    left: 8px;
+  }
+}
+@keyframes keyframes-openSnackB-0-2-12 {
+  from {
+    bottom: -56px;
+  }
+  to {
+    bottom: 8px;
+  }
+}
+@keyframes keyframes-openSnackT-0-2-13 {
+  from {
+    top: -56px;
+  }
+  to {
+    top: 8px;
+  }
+}
+@keyframes keyframes-closeSnackR-0-2-14 {
+  from {
+    right: 8px;
+  }
+  to {
+    right: -328px;
+  }
+}
+@keyframes keyframes-closeSnackL-0-2-15 {
+  from {
+    left: 8px;
+  }
+  to {
+    left: -328px;
+  }
+}
+@keyframes keyframes-closeSnackB-0-2-16 {
+  from {
+    bottom: 8px;
+  }
+  to {
+    bottom: -224px;
+  }
+}
+@keyframes keyframes-closeSnackT-0-2-17 {
+  from {
+    top: 8px;
+  }
+  to {
+    top: -224px;
+  }
+}
+  .snackbarContainer-d0-0-2-18 {
+    background-color: #333333;
+    right: 8px ;
+    top: 8px;
+    bottom: unset;
+    left: calc(50% - 164px);
+  }
+  .wrapper-d1-0-2-19 {
+    flex-direction: row;
+  }
+  .wrapperAction-d2-0-2-20 {
+    width: auto;
+  }
+  .bodyText-d3-0-2-21 {
+    color: #ffffff;
+  }
+  .show-d4-0-2-22 {
+    animation: ;
+  }",
+  <div>
+    <div
+      class=" close-0-2-9 snackbarContainer-0-2-1 snackbarContainer-d0-0-2-18"
+      data-timer="5"
+    >
+      <div
+        class="wrapper-0-2-2 wrapper-d1-0-2-19"
+      >
+        <div
+          class="wrapperRow-0-2-3"
+        >
+          <div
+            class="wrapperColumm-0-2-4"
+            data-testid="title-item"
+          >
+            <div
+              class="bodyText-0-2-6 bodyText-d3-0-2-21"
+            />
+          </div>
+        </div>
+        <div
+          class="wrapperAction-0-2-5 wrapperAction-d2-0-2-20"
+          data-testid="btn-action-wrapper"
+        >
+          <span
+            data-testid="btn-component"
+          />
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Snackbar component should render correctly with feedback error 1`] = `
+Array [
+  ".snackbarContainer-0-2-1 {
+  color: #ffffff;
+  width: 328px;
+  z-index: 1000;
+  position: fixed;
+  flex-wrap: nowrap;
+  font-size: 14px;
+  min-height: 56px;
+  align-items: center;
+  font-family: Arial;
+  font-weight: 400;
+  white-space: nowrap;
+  border-radius: 4px;
+  justify-content: center;
+}
+.wrapper-0-2-2 {
+  gap: 16px;
+  width: 100%;
+  display: flex;
+  padding: 16px;
+  overflow: hidden;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapperRow-0-2-3 {
+  gap: 8px;
+  width: 100%;
+  display: flex;
+  align-items: start;
+}
+.wrapperColumm-0-2-4 {
+  gap: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.wrapperAction-0-2-5 {
+  gap: 8px;
+  color: #ffffff;
+  display: flex;
+  justify-content: end;
+}
+.bodyText-0-2-6 {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  word-break: break-all;
+  white-space: normal;
+}
+.wrapperIcon-0-2-7 {
+  display: flex;
+  box-sizing: border-box;
+}
+.show-0-2-8 {
+  visibility: visible;
+  animation-fill-mode: forwards;
+}
+.close-0-2-9 {
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+@keyframes keyframes-openSnackR-0-2-10 {
+  from {
+    right: -328px;
+  }
+  to {
+    right: 8px;
+  }
+}
+@keyframes keyframes-openSnackL-0-2-11 {
+  from {
+    left: -328px;
+  }
+  to {
+    left: 8px;
+  }
+}
+@keyframes keyframes-openSnackB-0-2-12 {
+  from {
+    bottom: -56px;
+  }
+  to {
+    bottom: 8px;
+  }
+}
+@keyframes keyframes-openSnackT-0-2-13 {
+  from {
+    top: -56px;
+  }
+  to {
+    top: 8px;
+  }
+}
+@keyframes keyframes-closeSnackR-0-2-14 {
+  from {
+    right: 8px;
+  }
+  to {
+    right: -328px;
+  }
+}
+@keyframes keyframes-closeSnackL-0-2-15 {
+  from {
+    left: 8px;
+  }
+  to {
+    left: -328px;
+  }
+}
+@keyframes keyframes-closeSnackB-0-2-16 {
+  from {
+    bottom: 8px;
+  }
+  to {
+    bottom: -224px;
+  }
+}
+@keyframes keyframes-closeSnackT-0-2-17 {
+  from {
+    top: 8px;
+  }
+  to {
+    top: -224px;
+  }
+}
+  .snackbarContainer-d0-0-2-18 {
+    background-color: #e74627;
+    right: 8px ;
+    top: 8px;
+    bottom: unset;
+    left: calc(50% - 164px);
+  }
+  .wrapper-d1-0-2-19 {
+    flex-direction: row;
+  }
+  .wrapperAction-d2-0-2-20 {
+    width: auto;
+  }
+  .bodyText-d3-0-2-21 {
+    color: #ffffff;
+  }
+  .show-d4-0-2-22 {
+    animation: ;
+  }",
+  <div>
+    <div
+      class=" close-0-2-9 snackbarContainer-0-2-1 snackbarContainer-d0-0-2-18"
+      data-timer="5"
+    >
+      <div
+        class="wrapper-0-2-2 wrapper-d1-0-2-19"
+      >
+        <div
+          class="wrapperRow-0-2-3"
+        >
+          <div
+            class="wrapperColumm-0-2-4"
+            data-testid="title-item"
+          >
+            <div
+              class="bodyText-0-2-6 bodyText-d3-0-2-21"
+            />
+          </div>
+        </div>
+        <div
+          class="wrapperAction-0-2-5 wrapperAction-d2-0-2-20"
+          data-testid="btn-action-wrapper"
+        >
+          <span
+            data-testid="btn-component"
+          />
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Snackbar component should render correctly with feedback info 1`] = `
+Array [
+  ".snackbarContainer-0-2-1 {
+  color: #ffffff;
+  width: 328px;
+  z-index: 1000;
+  position: fixed;
+  flex-wrap: nowrap;
+  font-size: 14px;
+  min-height: 56px;
+  align-items: center;
+  font-family: Arial;
+  font-weight: 400;
+  white-space: nowrap;
+  border-radius: 4px;
+  justify-content: center;
+}
+.wrapper-0-2-2 {
+  gap: 16px;
+  width: 100%;
+  display: flex;
+  padding: 16px;
+  overflow: hidden;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapperRow-0-2-3 {
+  gap: 8px;
+  width: 100%;
+  display: flex;
+  align-items: start;
+}
+.wrapperColumm-0-2-4 {
+  gap: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.wrapperAction-0-2-5 {
+  gap: 8px;
+  color: #ffffff;
+  display: flex;
+  justify-content: end;
+}
+.bodyText-0-2-6 {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  word-break: break-all;
+  white-space: normal;
+}
+.wrapperIcon-0-2-7 {
+  display: flex;
+  box-sizing: border-box;
+}
+.show-0-2-8 {
+  visibility: visible;
+  animation-fill-mode: forwards;
+}
+.close-0-2-9 {
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+@keyframes keyframes-openSnackR-0-2-10 {
+  from {
+    right: -328px;
+  }
+  to {
+    right: 8px;
+  }
+}
+@keyframes keyframes-openSnackL-0-2-11 {
+  from {
+    left: -328px;
+  }
+  to {
+    left: 8px;
+  }
+}
+@keyframes keyframes-openSnackB-0-2-12 {
+  from {
+    bottom: -56px;
+  }
+  to {
+    bottom: 8px;
+  }
+}
+@keyframes keyframes-openSnackT-0-2-13 {
+  from {
+    top: -56px;
+  }
+  to {
+    top: 8px;
+  }
+}
+@keyframes keyframes-closeSnackR-0-2-14 {
+  from {
+    right: 8px;
+  }
+  to {
+    right: -328px;
+  }
+}
+@keyframes keyframes-closeSnackL-0-2-15 {
+  from {
+    left: 8px;
+  }
+  to {
+    left: -328px;
+  }
+}
+@keyframes keyframes-closeSnackB-0-2-16 {
+  from {
+    bottom: 8px;
+  }
+  to {
+    bottom: -224px;
+  }
+}
+@keyframes keyframes-closeSnackT-0-2-17 {
+  from {
+    top: 8px;
+  }
+  to {
+    top: -224px;
+  }
+}
+  .snackbarContainer-d0-0-2-18 {
+    background-color: #227bbd;
+    right: 8px ;
+    top: 8px;
+    bottom: unset;
+    left: calc(50% - 164px);
+  }
+  .wrapper-d1-0-2-19 {
+    flex-direction: row;
+  }
+  .wrapperAction-d2-0-2-20 {
+    width: auto;
+  }
+  .bodyText-d3-0-2-21 {
+    color: #ffffff;
+  }
+  .show-d4-0-2-22 {
+    animation: ;
+  }",
+  <div>
+    <div
+      class=" close-0-2-9 snackbarContainer-0-2-1 snackbarContainer-d0-0-2-18"
+      data-timer="5"
+    >
+      <div
+        class="wrapper-0-2-2 wrapper-d1-0-2-19"
+      >
+        <div
+          class="wrapperRow-0-2-3"
+        >
+          <div
+            class="wrapperColumm-0-2-4"
+            data-testid="title-item"
+          >
+            <div
+              class="bodyText-0-2-6 bodyText-d3-0-2-21"
+            />
+          </div>
+        </div>
+        <div
+          class="wrapperAction-0-2-5 wrapperAction-d2-0-2-20"
+          data-testid="btn-action-wrapper"
+        >
+          <span
+            data-testid="btn-component"
+          />
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Snackbar component should render correctly with feedback success 1`] = `
+Array [
+  ".snackbarContainer-0-2-1 {
+  color: #ffffff;
+  width: 328px;
+  z-index: 1000;
+  position: fixed;
+  flex-wrap: nowrap;
+  font-size: 14px;
+  min-height: 56px;
+  align-items: center;
+  font-family: Arial;
+  font-weight: 400;
+  white-space: nowrap;
+  border-radius: 4px;
+  justify-content: center;
+}
+.wrapper-0-2-2 {
+  gap: 16px;
+  width: 100%;
+  display: flex;
+  padding: 16px;
+  overflow: hidden;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapperRow-0-2-3 {
+  gap: 8px;
+  width: 100%;
+  display: flex;
+  align-items: start;
+}
+.wrapperColumm-0-2-4 {
+  gap: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.wrapperAction-0-2-5 {
+  gap: 8px;
+  color: #ffffff;
+  display: flex;
+  justify-content: end;
+}
+.bodyText-0-2-6 {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  word-break: break-all;
+  white-space: normal;
+}
+.wrapperIcon-0-2-7 {
+  display: flex;
+  box-sizing: border-box;
+}
+.show-0-2-8 {
+  visibility: visible;
+  animation-fill-mode: forwards;
+}
+.close-0-2-9 {
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+@keyframes keyframes-openSnackR-0-2-10 {
+  from {
+    right: -328px;
+  }
+  to {
+    right: 8px;
+  }
+}
+@keyframes keyframes-openSnackL-0-2-11 {
+  from {
+    left: -328px;
+  }
+  to {
+    left: 8px;
+  }
+}
+@keyframes keyframes-openSnackB-0-2-12 {
+  from {
+    bottom: -56px;
+  }
+  to {
+    bottom: 8px;
+  }
+}
+@keyframes keyframes-openSnackT-0-2-13 {
+  from {
+    top: -56px;
+  }
+  to {
+    top: 8px;
+  }
+}
+@keyframes keyframes-closeSnackR-0-2-14 {
+  from {
+    right: 8px;
+  }
+  to {
+    right: -328px;
+  }
+}
+@keyframes keyframes-closeSnackL-0-2-15 {
+  from {
+    left: 8px;
+  }
+  to {
+    left: -328px;
+  }
+}
+@keyframes keyframes-closeSnackB-0-2-16 {
+  from {
+    bottom: 8px;
+  }
+  to {
+    bottom: -224px;
+  }
+}
+@keyframes keyframes-closeSnackT-0-2-17 {
+  from {
+    top: 8px;
+  }
+  to {
+    top: -224px;
+  }
+}
+  .snackbarContainer-d0-0-2-18 {
+    background-color: #569a32;
+    right: 8px ;
+    top: 8px;
+    bottom: unset;
+    left: calc(50% - 164px);
+  }
+  .wrapper-d1-0-2-19 {
+    flex-direction: row;
+  }
+  .wrapperAction-d2-0-2-20 {
+    width: auto;
+  }
+  .bodyText-d3-0-2-21 {
+    color: #ffffff;
+  }
+  .show-d4-0-2-22 {
+    animation: ;
+  }",
+  <div>
+    <div
+      class=" close-0-2-9 snackbarContainer-0-2-1 snackbarContainer-d0-0-2-18"
+      data-testid="bkg-color"
+      data-timer="5"
+    >
+      <div
+        class="wrapper-0-2-2 wrapper-d1-0-2-19"
+      >
+        <div
+          class="wrapperRow-0-2-3"
+        >
+          <div
+            class="wrapperColumm-0-2-4"
+            data-testid="title-item"
+          >
+            <div
+              class="bodyText-0-2-6 bodyText-d3-0-2-21"
+            />
+          </div>
+        </div>
+        <div
+          class="wrapperAction-0-2-5 wrapperAction-d2-0-2-20"
+          data-testid="btn-action-wrapper"
+        >
+          <span
+            data-testid="btn-component"
+          />
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Snackbar component should render correctly with feedback warning 1`] = `
+Array [
+  ".snackbarContainer-0-2-1 {
+  color: #ffffff;
+  width: 328px;
+  z-index: 1000;
+  position: fixed;
+  flex-wrap: nowrap;
+  font-size: 14px;
+  min-height: 56px;
+  align-items: center;
+  font-family: Arial;
+  font-weight: 400;
+  white-space: nowrap;
+  border-radius: 4px;
+  justify-content: center;
+}
+.wrapper-0-2-2 {
+  gap: 16px;
+  width: 100%;
+  display: flex;
+  padding: 16px;
+  overflow: hidden;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapperRow-0-2-3 {
+  gap: 8px;
+  width: 100%;
+  display: flex;
+  align-items: start;
+}
+.wrapperColumm-0-2-4 {
+  gap: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.wrapperAction-0-2-5 {
+  gap: 8px;
+  color: #ffffff;
+  display: flex;
+  justify-content: end;
+}
+.bodyText-0-2-6 {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  word-break: break-all;
+  white-space: normal;
+}
+.wrapperIcon-0-2-7 {
+  display: flex;
+  box-sizing: border-box;
+}
+.show-0-2-8 {
+  visibility: visible;
+  animation-fill-mode: forwards;
+}
+.close-0-2-9 {
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+@keyframes keyframes-openSnackR-0-2-10 {
+  from {
+    right: -328px;
+  }
+  to {
+    right: 8px;
+  }
+}
+@keyframes keyframes-openSnackL-0-2-11 {
+  from {
+    left: -328px;
+  }
+  to {
+    left: 8px;
+  }
+}
+@keyframes keyframes-openSnackB-0-2-12 {
+  from {
+    bottom: -56px;
+  }
+  to {
+    bottom: 8px;
+  }
+}
+@keyframes keyframes-openSnackT-0-2-13 {
+  from {
+    top: -56px;
+  }
+  to {
+    top: 8px;
+  }
+}
+@keyframes keyframes-closeSnackR-0-2-14 {
+  from {
+    right: 8px;
+  }
+  to {
+    right: -328px;
+  }
+}
+@keyframes keyframes-closeSnackL-0-2-15 {
+  from {
+    left: 8px;
+  }
+  to {
+    left: -328px;
+  }
+}
+@keyframes keyframes-closeSnackB-0-2-16 {
+  from {
+    bottom: 8px;
+  }
+  to {
+    bottom: -224px;
+  }
+}
+@keyframes keyframes-closeSnackT-0-2-17 {
+  from {
+    top: 8px;
+  }
+  to {
+    top: -224px;
+  }
+}
+  .snackbarContainer-d0-0-2-18 {
+    background-color: #fcc433;
+    right: 8px ;
+    top: 8px;
+    bottom: unset;
+    left: calc(50% - 164px);
+  }
+  .wrapper-d1-0-2-19 {
+    flex-direction: row;
+  }
+  .wrapperAction-d2-0-2-20 {
+    width: auto;
+  }
+  .bodyText-d3-0-2-21 {
+    color: #333333;
+  }
+  .show-d4-0-2-22 {
+    animation: ;
+  }",
+  <div>
+    <div
+      class=" close-0-2-9 snackbarContainer-0-2-1 snackbarContainer-d0-0-2-18"
+      data-timer="5"
+    >
+      <div
+        class="wrapper-0-2-2 wrapper-d1-0-2-19"
+      >
+        <div
+          class="wrapperRow-0-2-3"
+        >
+          <div
+            class="wrapperColumm-0-2-4"
+            data-testid="title-item"
+          >
+            <div
+              class="bodyText-0-2-6 bodyText-d3-0-2-21"
+            />
+          </div>
+        </div>
+        <div
+          class="wrapperAction-0-2-5 wrapperAction-d2-0-2-20"
+          data-testid="btn-action-wrapper"
+        >
+          <span
+            data-testid="btn-component"
+          />
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Snackbar component should render correctly with position bottomCenter 1`] = `
+Array [
+  ".snackbarContainer-0-2-1 {
+  color: #ffffff;
+  width: 328px;
+  z-index: 1000;
+  position: fixed;
+  flex-wrap: nowrap;
+  font-size: 14px;
+  min-height: 56px;
+  align-items: center;
+  font-family: Arial;
+  font-weight: 400;
+  white-space: nowrap;
+  border-radius: 4px;
+  justify-content: center;
+}
+.wrapper-0-2-2 {
+  gap: 16px;
+  width: 100%;
+  display: flex;
+  padding: 16px;
+  overflow: hidden;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapperRow-0-2-3 {
+  gap: 8px;
+  width: 100%;
+  display: flex;
+  align-items: start;
+}
+.wrapperColumm-0-2-4 {
+  gap: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.wrapperAction-0-2-5 {
+  gap: 8px;
+  color: #ffffff;
+  display: flex;
+  justify-content: end;
+}
+.bodyText-0-2-6 {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  word-break: break-all;
+  white-space: normal;
+}
+.wrapperIcon-0-2-7 {
+  display: flex;
+  box-sizing: border-box;
+}
+.show-0-2-8 {
+  visibility: visible;
+  animation-fill-mode: forwards;
+}
+.close-0-2-9 {
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+@keyframes keyframes-openSnackR-0-2-10 {
+  from {
+    right: -328px;
+  }
+  to {
+    right: 8px;
+  }
+}
+@keyframes keyframes-openSnackL-0-2-11 {
+  from {
+    left: -328px;
+  }
+  to {
+    left: 8px;
+  }
+}
+@keyframes keyframes-openSnackB-0-2-12 {
+  from {
+    bottom: -56px;
+  }
+  to {
+    bottom: 8px;
+  }
+}
+@keyframes keyframes-openSnackT-0-2-13 {
+  from {
+    top: -56px;
+  }
+  to {
+    top: 8px;
+  }
+}
+@keyframes keyframes-closeSnackR-0-2-14 {
+  from {
+    right: 8px;
+  }
+  to {
+    right: -328px;
+  }
+}
+@keyframes keyframes-closeSnackL-0-2-15 {
+  from {
+    left: 8px;
+  }
+  to {
+    left: -328px;
+  }
+}
+@keyframes keyframes-closeSnackB-0-2-16 {
+  from {
+    bottom: 8px;
+  }
+  to {
+    bottom: -224px;
+  }
+}
+@keyframes keyframes-closeSnackT-0-2-17 {
+  from {
+    top: 8px;
+  }
+  to {
+    top: -224px;
+  }
+}
+  .snackbarContainer-d0-0-2-18 {
+    background-color: #333333;
+    right: unset;
+    top: unset;
+    bottom: 8px;
+    left: calc(50% - 164px);
+  }
+  .wrapper-d1-0-2-19 {
+    flex-direction: row;
+  }
+  .wrapperAction-d2-0-2-20 {
+    width: auto;
+  }
+  .bodyText-d3-0-2-21 {
+    color: #ffffff;
+  }
+  .show-d4-0-2-22 {
+    animation: ;
+  }",
+  <div>
+    <div
+      class=" close-0-2-9 snackbarContainer-0-2-1 snackbarContainer-d0-0-2-18"
+      data-testid="snackContainer"
+      data-timer="5"
+    >
+      <div
+        class="wrapper-0-2-2 wrapper-d1-0-2-19"
+      >
+        <div
+          class="wrapperRow-0-2-3"
+        >
+          <div
+            class="wrapperColumm-0-2-4"
+            data-testid="title-item"
+          >
+            <div
+              class="bodyText-0-2-6 bodyText-d3-0-2-21"
+            />
+          </div>
+        </div>
+        <div
+          class="wrapperAction-0-2-5 wrapperAction-d2-0-2-20"
+          data-testid="btn-action-wrapper"
+        >
+          <span
+            data-testid="btn-component"
+          />
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Snackbar component should render correctly with position bottomLeft 1`] = `
+Array [
+  ".snackbarContainer-0-2-1 {
+  color: #ffffff;
+  width: 328px;
+  z-index: 1000;
+  position: fixed;
+  flex-wrap: nowrap;
+  font-size: 14px;
+  min-height: 56px;
+  align-items: center;
+  font-family: Arial;
+  font-weight: 400;
+  white-space: nowrap;
+  border-radius: 4px;
+  justify-content: center;
+}
+.wrapper-0-2-2 {
+  gap: 16px;
+  width: 100%;
+  display: flex;
+  padding: 16px;
+  overflow: hidden;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapperRow-0-2-3 {
+  gap: 8px;
+  width: 100%;
+  display: flex;
+  align-items: start;
+}
+.wrapperColumm-0-2-4 {
+  gap: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.wrapperAction-0-2-5 {
+  gap: 8px;
+  color: #ffffff;
+  display: flex;
+  justify-content: end;
+}
+.bodyText-0-2-6 {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  word-break: break-all;
+  white-space: normal;
+}
+.wrapperIcon-0-2-7 {
+  display: flex;
+  box-sizing: border-box;
+}
+.show-0-2-8 {
+  visibility: visible;
+  animation-fill-mode: forwards;
+}
+.close-0-2-9 {
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+@keyframes keyframes-openSnackR-0-2-10 {
+  from {
+    right: -328px;
+  }
+  to {
+    right: 8px;
+  }
+}
+@keyframes keyframes-openSnackL-0-2-11 {
+  from {
+    left: -328px;
+  }
+  to {
+    left: 8px;
+  }
+}
+@keyframes keyframes-openSnackB-0-2-12 {
+  from {
+    bottom: -56px;
+  }
+  to {
+    bottom: 8px;
+  }
+}
+@keyframes keyframes-openSnackT-0-2-13 {
+  from {
+    top: -56px;
+  }
+  to {
+    top: 8px;
+  }
+}
+@keyframes keyframes-closeSnackR-0-2-14 {
+  from {
+    right: 8px;
+  }
+  to {
+    right: -328px;
+  }
+}
+@keyframes keyframes-closeSnackL-0-2-15 {
+  from {
+    left: 8px;
+  }
+  to {
+    left: -328px;
+  }
+}
+@keyframes keyframes-closeSnackB-0-2-16 {
+  from {
+    bottom: 8px;
+  }
+  to {
+    bottom: -224px;
+  }
+}
+@keyframes keyframes-closeSnackT-0-2-17 {
+  from {
+    top: 8px;
+  }
+  to {
+    top: -224px;
+  }
+}
+  .snackbarContainer-d0-0-2-18 {
+    background-color: #333333;
+    right: unset;
+    top: unset;
+    bottom: 8px;
+    left: 8px;
+  }
+  .wrapper-d1-0-2-19 {
+    flex-direction: row;
+  }
+  .wrapperAction-d2-0-2-20 {
+    width: auto;
+  }
+  .bodyText-d3-0-2-21 {
+    color: #ffffff;
+  }
+  .show-d4-0-2-22 {
+    animation: ;
+  }",
+  <div>
+    <div
+      class=" close-0-2-9 snackbarContainer-0-2-1 snackbarContainer-d0-0-2-18"
+      data-testid="snackContainerLeft"
+      data-timer="5"
+    >
+      <div
+        class="wrapper-0-2-2 wrapper-d1-0-2-19"
+      >
+        <div
+          class="wrapperRow-0-2-3"
+        >
+          <div
+            class="wrapperColumm-0-2-4"
+            data-testid="title-item"
+          >
+            <div
+              class="bodyText-0-2-6 bodyText-d3-0-2-21"
+            />
+          </div>
+        </div>
+        <div
+          class="wrapperAction-0-2-5 wrapperAction-d2-0-2-20"
+          data-testid="btn-action-wrapper"
+        >
+          <span
+            data-testid="btn-component"
+          />
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Snackbar component should render correctly with position bottomRight 1`] = `
+Array [
+  ".snackbarContainer-0-2-1 {
+  color: #ffffff;
+  width: 328px;
+  z-index: 1000;
+  position: fixed;
+  flex-wrap: nowrap;
+  font-size: 14px;
+  min-height: 56px;
+  align-items: center;
+  font-family: Arial;
+  font-weight: 400;
+  white-space: nowrap;
+  border-radius: 4px;
+  justify-content: center;
+}
+.wrapper-0-2-2 {
+  gap: 16px;
+  width: 100%;
+  display: flex;
+  padding: 16px;
+  overflow: hidden;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapperRow-0-2-3 {
+  gap: 8px;
+  width: 100%;
+  display: flex;
+  align-items: start;
+}
+.wrapperColumm-0-2-4 {
+  gap: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.wrapperAction-0-2-5 {
+  gap: 8px;
+  color: #ffffff;
+  display: flex;
+  justify-content: end;
+}
+.bodyText-0-2-6 {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  word-break: break-all;
+  white-space: normal;
+}
+.wrapperIcon-0-2-7 {
+  display: flex;
+  box-sizing: border-box;
+}
+.show-0-2-8 {
+  visibility: visible;
+  animation-fill-mode: forwards;
+}
+.close-0-2-9 {
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+@keyframes keyframes-openSnackR-0-2-10 {
+  from {
+    right: -328px;
+  }
+  to {
+    right: 8px;
+  }
+}
+@keyframes keyframes-openSnackL-0-2-11 {
+  from {
+    left: -328px;
+  }
+  to {
+    left: 8px;
+  }
+}
+@keyframes keyframes-openSnackB-0-2-12 {
+  from {
+    bottom: -56px;
+  }
+  to {
+    bottom: 8px;
+  }
+}
+@keyframes keyframes-openSnackT-0-2-13 {
+  from {
+    top: -56px;
+  }
+  to {
+    top: 8px;
+  }
+}
+@keyframes keyframes-closeSnackR-0-2-14 {
+  from {
+    right: 8px;
+  }
+  to {
+    right: -328px;
+  }
+}
+@keyframes keyframes-closeSnackL-0-2-15 {
+  from {
+    left: 8px;
+  }
+  to {
+    left: -328px;
+  }
+}
+@keyframes keyframes-closeSnackB-0-2-16 {
+  from {
+    bottom: 8px;
+  }
+  to {
+    bottom: -224px;
+  }
+}
+@keyframes keyframes-closeSnackT-0-2-17 {
+  from {
+    top: 8px;
+  }
+  to {
+    top: -224px;
+  }
+}
+  .snackbarContainer-d0-0-2-18 {
+    background-color: #333333;
+    right: 8px;
+    top: unset;
+    bottom: 8px;
+    left: unset;
+  }
+  .wrapper-d1-0-2-19 {
+    flex-direction: row;
+  }
+  .wrapperAction-d2-0-2-20 {
+    width: auto;
+  }
+  .bodyText-d3-0-2-21 {
+    color: #ffffff;
+  }
+  .show-d4-0-2-22 {
+    animation: ;
+  }",
+  <div>
+    <div
+      class=" close-0-2-9 snackbarContainer-0-2-1 snackbarContainer-d0-0-2-18"
+      data-testid="snackContainerRight"
+      data-timer="5"
+    >
+      <div
+        class="wrapper-0-2-2 wrapper-d1-0-2-19"
+      >
+        <div
+          class="wrapperRow-0-2-3"
+        >
+          <div
+            class="wrapperColumm-0-2-4"
+            data-testid="title-item"
+          >
+            <div
+              class="bodyText-0-2-6 bodyText-d3-0-2-21"
+            />
+          </div>
+        </div>
+        <div
+          class="wrapperAction-0-2-5 wrapperAction-d2-0-2-20"
+          data-testid="btn-action-wrapper"
+        >
+          <span
+            data-testid="btn-component"
+          />
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Snackbar component should render correctly with position topCenter 1`] = `
+Array [
+  ".snackbarContainer-0-2-1 {
+  color: #ffffff;
+  width: 328px;
+  z-index: 1000;
+  position: fixed;
+  flex-wrap: nowrap;
+  font-size: 14px;
+  min-height: 56px;
+  align-items: center;
+  font-family: Arial;
+  font-weight: 400;
+  white-space: nowrap;
+  border-radius: 4px;
+  justify-content: center;
+}
+.wrapper-0-2-2 {
+  gap: 16px;
+  width: 100%;
+  display: flex;
+  padding: 16px;
+  overflow: hidden;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapperRow-0-2-3 {
+  gap: 8px;
+  width: 100%;
+  display: flex;
+  align-items: start;
+}
+.wrapperColumm-0-2-4 {
+  gap: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.wrapperAction-0-2-5 {
+  gap: 8px;
+  color: #ffffff;
+  display: flex;
+  justify-content: end;
+}
+.bodyText-0-2-6 {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  word-break: break-all;
+  white-space: normal;
+}
+.wrapperIcon-0-2-7 {
+  display: flex;
+  box-sizing: border-box;
+}
+.show-0-2-8 {
+  visibility: visible;
+  animation-fill-mode: forwards;
+}
+.close-0-2-9 {
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+@keyframes keyframes-openSnackR-0-2-10 {
+  from {
+    right: -328px;
+  }
+  to {
+    right: 8px;
+  }
+}
+@keyframes keyframes-openSnackL-0-2-11 {
+  from {
+    left: -328px;
+  }
+  to {
+    left: 8px;
+  }
+}
+@keyframes keyframes-openSnackB-0-2-12 {
+  from {
+    bottom: -56px;
+  }
+  to {
+    bottom: 8px;
+  }
+}
+@keyframes keyframes-openSnackT-0-2-13 {
+  from {
+    top: -56px;
+  }
+  to {
+    top: 8px;
+  }
+}
+@keyframes keyframes-closeSnackR-0-2-14 {
+  from {
+    right: 8px;
+  }
+  to {
+    right: -328px;
+  }
+}
+@keyframes keyframes-closeSnackL-0-2-15 {
+  from {
+    left: 8px;
+  }
+  to {
+    left: -328px;
+  }
+}
+@keyframes keyframes-closeSnackB-0-2-16 {
+  from {
+    bottom: 8px;
+  }
+  to {
+    bottom: -224px;
+  }
+}
+@keyframes keyframes-closeSnackT-0-2-17 {
+  from {
+    top: 8px;
+  }
+  to {
+    top: -224px;
+  }
+}
+  .snackbarContainer-d0-0-2-18 {
+    background-color: #333333;
+    right: 8px ;
+    top: 8px;
+    bottom: unset;
+    left: calc(50% - 164px);
+  }
+  .wrapper-d1-0-2-19 {
+    flex-direction: row;
+  }
+  .wrapperAction-d2-0-2-20 {
+    width: auto;
+  }
+  .bodyText-d3-0-2-21 {
+    color: #ffffff;
+  }
+  .show-d4-0-2-22 {
+    animation: ;
+  }",
+  <div>
+    <div
+      class=" close-0-2-9 snackbarContainer-0-2-1 snackbarContainer-d0-0-2-18"
+      data-timer="5"
+    >
+      <div
+        class="wrapper-0-2-2 wrapper-d1-0-2-19"
+      >
+        <div
+          class="wrapperRow-0-2-3"
+        >
+          <div
+            class="wrapperColumm-0-2-4"
+            data-testid="title-item"
+          >
+            <div
+              class="bodyText-0-2-6 bodyText-d3-0-2-21"
+            />
+          </div>
+        </div>
+        <div
+          class="wrapperAction-0-2-5 wrapperAction-d2-0-2-20"
+          data-testid="btn-action-wrapper"
+        >
+          <span
+            data-testid="btn-component"
+          />
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Snackbar component should render correctly with position topLeft 1`] = `
+Array [
+  ".snackbarContainer-0-2-1 {
+  color: #ffffff;
+  width: 328px;
+  z-index: 1000;
+  position: fixed;
+  flex-wrap: nowrap;
+  font-size: 14px;
+  min-height: 56px;
+  align-items: center;
+  font-family: Arial;
+  font-weight: 400;
+  white-space: nowrap;
+  border-radius: 4px;
+  justify-content: center;
+}
+.wrapper-0-2-2 {
+  gap: 16px;
+  width: 100%;
+  display: flex;
+  padding: 16px;
+  overflow: hidden;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapperRow-0-2-3 {
+  gap: 8px;
+  width: 100%;
+  display: flex;
+  align-items: start;
+}
+.wrapperColumm-0-2-4 {
+  gap: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.wrapperAction-0-2-5 {
+  gap: 8px;
+  color: #ffffff;
+  display: flex;
+  justify-content: end;
+}
+.bodyText-0-2-6 {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  word-break: break-all;
+  white-space: normal;
+}
+.wrapperIcon-0-2-7 {
+  display: flex;
+  box-sizing: border-box;
+}
+.show-0-2-8 {
+  visibility: visible;
+  animation-fill-mode: forwards;
+}
+.close-0-2-9 {
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+@keyframes keyframes-openSnackR-0-2-10 {
+  from {
+    right: -328px;
+  }
+  to {
+    right: 8px;
+  }
+}
+@keyframes keyframes-openSnackL-0-2-11 {
+  from {
+    left: -328px;
+  }
+  to {
+    left: 8px;
+  }
+}
+@keyframes keyframes-openSnackB-0-2-12 {
+  from {
+    bottom: -56px;
+  }
+  to {
+    bottom: 8px;
+  }
+}
+@keyframes keyframes-openSnackT-0-2-13 {
+  from {
+    top: -56px;
+  }
+  to {
+    top: 8px;
+  }
+}
+@keyframes keyframes-closeSnackR-0-2-14 {
+  from {
+    right: 8px;
+  }
+  to {
+    right: -328px;
+  }
+}
+@keyframes keyframes-closeSnackL-0-2-15 {
+  from {
+    left: 8px;
+  }
+  to {
+    left: -328px;
+  }
+}
+@keyframes keyframes-closeSnackB-0-2-16 {
+  from {
+    bottom: 8px;
+  }
+  to {
+    bottom: -224px;
+  }
+}
+@keyframes keyframes-closeSnackT-0-2-17 {
+  from {
+    top: 8px;
+  }
+  to {
+    top: -224px;
+  }
+}
+  .snackbarContainer-d0-0-2-18 {
+    background-color: #333333;
+    right: unset;
+    top: 8px;
+    bottom: unset;
+    left: 8px;
+  }
+  .wrapper-d1-0-2-19 {
+    flex-direction: row;
+  }
+  .wrapperAction-d2-0-2-20 {
+    width: auto;
+  }
+  .bodyText-d3-0-2-21 {
+    color: #ffffff;
+  }
+  .show-d4-0-2-22 {
+    animation: ;
+  }",
+  <div>
+    <div
+      class=" close-0-2-9 snackbarContainer-0-2-1 snackbarContainer-d0-0-2-18"
+      data-timer="5"
+    >
+      <div
+        class="wrapper-0-2-2 wrapper-d1-0-2-19"
+      >
+        <div
+          class="wrapperRow-0-2-3"
+        >
+          <div
+            class="wrapperColumm-0-2-4"
+            data-testid="title-item"
+          >
+            <div
+              class="bodyText-0-2-6 bodyText-d3-0-2-21"
+            />
+          </div>
+        </div>
+        <div
+          class="wrapperAction-0-2-5 wrapperAction-d2-0-2-20"
+          data-testid="btn-action-wrapper"
+        >
+          <span
+            data-testid="btn-component"
+          />
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Snackbar component should render correctly with position topRight 1`] = `
+Array [
+  ".snackbarContainer-0-2-1 {
+  color: #ffffff;
+  width: 328px;
+  z-index: 1000;
+  position: fixed;
+  flex-wrap: nowrap;
+  font-size: 14px;
+  min-height: 56px;
+  align-items: center;
+  font-family: Arial;
+  font-weight: 400;
+  white-space: nowrap;
+  border-radius: 4px;
+  justify-content: center;
+}
+.wrapper-0-2-2 {
+  gap: 16px;
+  width: 100%;
+  display: flex;
+  padding: 16px;
+  overflow: hidden;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapperRow-0-2-3 {
+  gap: 8px;
+  width: 100%;
+  display: flex;
+  align-items: start;
+}
+.wrapperColumm-0-2-4 {
+  gap: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.wrapperAction-0-2-5 {
+  gap: 8px;
+  color: #ffffff;
+  display: flex;
+  justify-content: end;
+}
+.bodyText-0-2-6 {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  word-break: break-all;
+  white-space: normal;
+}
+.wrapperIcon-0-2-7 {
+  display: flex;
+  box-sizing: border-box;
+}
+.show-0-2-8 {
+  visibility: visible;
+  animation-fill-mode: forwards;
+}
+.close-0-2-9 {
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+@keyframes keyframes-openSnackR-0-2-10 {
+  from {
+    right: -328px;
+  }
+  to {
+    right: 8px;
+  }
+}
+@keyframes keyframes-openSnackL-0-2-11 {
+  from {
+    left: -328px;
+  }
+  to {
+    left: 8px;
+  }
+}
+@keyframes keyframes-openSnackB-0-2-12 {
+  from {
+    bottom: -56px;
+  }
+  to {
+    bottom: 8px;
+  }
+}
+@keyframes keyframes-openSnackT-0-2-13 {
+  from {
+    top: -56px;
+  }
+  to {
+    top: 8px;
+  }
+}
+@keyframes keyframes-closeSnackR-0-2-14 {
+  from {
+    right: 8px;
+  }
+  to {
+    right: -328px;
+  }
+}
+@keyframes keyframes-closeSnackL-0-2-15 {
+  from {
+    left: 8px;
+  }
+  to {
+    left: -328px;
+  }
+}
+@keyframes keyframes-closeSnackB-0-2-16 {
+  from {
+    bottom: 8px;
+  }
+  to {
+    bottom: -224px;
+  }
+}
+@keyframes keyframes-closeSnackT-0-2-17 {
+  from {
+    top: 8px;
+  }
+  to {
+    top: -224px;
+  }
+}
+  .snackbarContainer-d0-0-2-18 {
+    background-color: #333333;
+    right: 8px ;
+    top: 8px;
+    bottom: unset;
+    left: unset;
+  }
+  .wrapper-d1-0-2-19 {
+    flex-direction: row;
+  }
+  .wrapperAction-d2-0-2-20 {
+    width: auto;
+  }
+  .bodyText-d3-0-2-21 {
+    color: #ffffff;
+  }
+  .show-d4-0-2-22 {
+    animation: ;
+  }",
+  <div>
+    <div
+      class=" close-0-2-9 snackbarContainer-0-2-1 snackbarContainer-d0-0-2-18"
+      data-timer="5"
+    >
+      <div
+        class="wrapper-0-2-2 wrapper-d1-0-2-19"
+      >
+        <div
+          class="wrapperRow-0-2-3"
+        >
+          <div
+            class="wrapperColumm-0-2-4"
+            data-testid="title-item"
+          >
+            <div
+              class="bodyText-0-2-6 bodyText-d3-0-2-21"
+            />
+          </div>
+        </div>
+        <div
+          class="wrapperAction-0-2-5 wrapperAction-d2-0-2-20"
+          data-testid="btn-action-wrapper"
+        >
+          <span
+            data-testid="btn-component"
+          />
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Snackbar component should render correctly with timer prop 1`] = `
+Array [
+  ".snackbarContainer-0-2-1 {
+  color: #ffffff;
+  width: 328px;
+  z-index: 1000;
+  position: fixed;
+  flex-wrap: nowrap;
+  font-size: 14px;
+  min-height: 56px;
+  align-items: center;
+  font-family: Arial;
+  font-weight: 400;
+  white-space: nowrap;
+  border-radius: 4px;
+  justify-content: center;
+}
+.wrapper-0-2-2 {
+  gap: 16px;
+  width: 100%;
+  display: flex;
+  padding: 16px;
+  overflow: hidden;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapperRow-0-2-3 {
+  gap: 8px;
+  width: 100%;
+  display: flex;
+  align-items: start;
+}
+.wrapperColumm-0-2-4 {
+  gap: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.wrapperAction-0-2-5 {
+  gap: 8px;
+  color: #ffffff;
+  display: flex;
+  justify-content: end;
+}
+.bodyText-0-2-6 {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  word-break: break-all;
+  white-space: normal;
+}
+.wrapperIcon-0-2-7 {
+  display: flex;
+  box-sizing: border-box;
+}
+.show-0-2-8 {
+  visibility: visible;
+  animation-fill-mode: forwards;
+}
+.close-0-2-9 {
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+@keyframes keyframes-openSnackR-0-2-10 {
+  from {
+    right: -328px;
+  }
+  to {
+    right: 8px;
+  }
+}
+@keyframes keyframes-openSnackL-0-2-11 {
+  from {
+    left: -328px;
+  }
+  to {
+    left: 8px;
+  }
+}
+@keyframes keyframes-openSnackB-0-2-12 {
+  from {
+    bottom: -56px;
+  }
+  to {
+    bottom: 8px;
+  }
+}
+@keyframes keyframes-openSnackT-0-2-13 {
+  from {
+    top: -56px;
+  }
+  to {
+    top: 8px;
+  }
+}
+@keyframes keyframes-closeSnackR-0-2-14 {
+  from {
+    right: 8px;
+  }
+  to {
+    right: -328px;
+  }
+}
+@keyframes keyframes-closeSnackL-0-2-15 {
+  from {
+    left: 8px;
+  }
+  to {
+    left: -328px;
+  }
+}
+@keyframes keyframes-closeSnackB-0-2-16 {
+  from {
+    bottom: 8px;
+  }
+  to {
+    bottom: -224px;
+  }
+}
+@keyframes keyframes-closeSnackT-0-2-17 {
+  from {
+    top: 8px;
+  }
+  to {
+    top: -224px;
+  }
+}
+  .snackbarContainer-d0-0-2-18 {
+    background-color: #333333;
+    right: 8px ;
+    top: 8px;
+    bottom: unset;
+    left: calc(50% - 164px);
+  }
+  .wrapper-d1-0-2-19 {
+    flex-direction: row;
+  }
+  .wrapperAction-d2-0-2-20 {
+    width: auto;
+  }
+  .bodyText-d3-0-2-21 {
+    color: #ffffff;
+  }
+  .show-d4-0-2-22 {
+    animation: ;
+  }",
+  <div>
+    <div
+      class=" close-0-2-9 snackbarContainer-0-2-1 snackbarContainer-d0-0-2-18"
+      data-timer="10"
+    >
+      <div
+        class="wrapper-0-2-2 wrapper-d1-0-2-19"
+      >
+        <div
+          class="wrapperRow-0-2-3"
+        >
+          <div
+            class="wrapperColumm-0-2-4"
+            data-testid="title-item"
+          >
+            <div
+              class="bodyText-0-2-6 bodyText-d3-0-2-21"
+            />
+          </div>
+        </div>
+        <div
+          class="wrapperAction-0-2-5 wrapperAction-d2-0-2-20"
+          data-testid="btn-action-wrapper"
+        >
+          <span
+            data-testid="btn-component"
+          />
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Snackbar component should render title 1`] = `
+Array [
+  ".snackbarContainer-0-2-1 {
+  color: #ffffff;
+  width: 328px;
+  z-index: 1000;
+  position: fixed;
+  flex-wrap: nowrap;
+  font-size: 14px;
+  min-height: 56px;
+  align-items: center;
+  font-family: Arial;
+  font-weight: 400;
+  white-space: nowrap;
+  border-radius: 4px;
+  justify-content: center;
+}
+.wrapper-0-2-2 {
+  gap: 16px;
+  width: 100%;
+  display: flex;
+  padding: 16px;
+  overflow: hidden;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapperRow-0-2-3 {
+  gap: 8px;
+  width: 100%;
+  display: flex;
+  align-items: start;
+}
+.wrapperColumm-0-2-4 {
+  gap: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.wrapperAction-0-2-5 {
+  gap: 8px;
+  color: #ffffff;
+  display: flex;
+  justify-content: end;
+}
+.bodyText-0-2-6 {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  word-break: break-all;
+  white-space: normal;
+}
+.wrapperIcon-0-2-7 {
+  display: flex;
+  box-sizing: border-box;
+}
+.show-0-2-8 {
+  visibility: visible;
+  animation-fill-mode: forwards;
+}
+.close-0-2-9 {
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+@keyframes keyframes-openSnackR-0-2-10 {
+  from {
+    right: -328px;
+  }
+  to {
+    right: 8px;
+  }
+}
+@keyframes keyframes-openSnackL-0-2-11 {
+  from {
+    left: -328px;
+  }
+  to {
+    left: 8px;
+  }
+}
+@keyframes keyframes-openSnackB-0-2-12 {
+  from {
+    bottom: -56px;
+  }
+  to {
+    bottom: 8px;
+  }
+}
+@keyframes keyframes-openSnackT-0-2-13 {
+  from {
+    top: -56px;
+  }
+  to {
+    top: 8px;
+  }
+}
+@keyframes keyframes-closeSnackR-0-2-14 {
+  from {
+    right: 8px;
+  }
+  to {
+    right: -328px;
+  }
+}
+@keyframes keyframes-closeSnackL-0-2-15 {
+  from {
+    left: 8px;
+  }
+  to {
+    left: -328px;
+  }
+}
+@keyframes keyframes-closeSnackB-0-2-16 {
+  from {
+    bottom: 8px;
+  }
+  to {
+    bottom: -224px;
+  }
+}
+@keyframes keyframes-closeSnackT-0-2-17 {
+  from {
+    top: 8px;
+  }
+  to {
+    top: -224px;
+  }
+}
+  .snackbarContainer-d0-0-2-18 {
+    background-color: #333333;
+    right: 8px ;
+    top: 8px;
+    bottom: unset;
+    left: calc(50% - 164px);
+  }
+  .wrapper-d1-0-2-19 {
+    flex-direction: row;
+  }
+  .wrapperAction-d2-0-2-20 {
+    width: auto;
+  }
+  .bodyText-d3-0-2-21 {
+    color: #ffffff;
+  }
+  .show-d4-0-2-22 {
+    animation: ;
+  }",
+  <div>
+    <div
+      class=" close-0-2-9 snackbarContainer-0-2-1 snackbarContainer-d0-0-2-18"
+      data-timer="5"
+      title="Title"
+    >
+      <div
+        class="wrapper-0-2-2 wrapper-d1-0-2-19"
+      >
+        <div
+          class="wrapperRow-0-2-3"
+        >
+          <div
+            class="wrapperColumm-0-2-4"
+            data-testid="title-item"
+          >
+            <div
+              class="bodyText-0-2-6 bodyText-d3-0-2-21"
+            >
+              Title
+            </div>
+            <div
+              class="bodyText-0-2-6 bodyText-d3-0-2-21"
+            />
+          </div>
+        </div>
+        <div
+          class="wrapperAction-0-2-5 wrapperAction-d2-0-2-20"
+          data-testid="btn-action-wrapper"
+        >
+          <span
+            data-testid="btn-component"
+          />
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Snackbar component should render with clicked in ref.current.show() 1`] = `
+Array [
+  ".snackbarContainer-0-2-1 {
+  color: #ffffff;
+  width: 328px;
+  z-index: 1000;
+  position: fixed;
+  flex-wrap: nowrap;
+  font-size: 14px;
+  min-height: 56px;
+  align-items: center;
+  font-family: Arial;
+  font-weight: 400;
+  white-space: nowrap;
+  border-radius: 4px;
+  justify-content: center;
+}
+.wrapper-0-2-2 {
+  gap: 16px;
+  width: 100%;
+  display: flex;
+  padding: 16px;
+  overflow: hidden;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapperRow-0-2-3 {
+  gap: 8px;
+  width: 100%;
+  display: flex;
+  align-items: start;
+}
+.wrapperColumm-0-2-4 {
+  gap: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.wrapperAction-0-2-5 {
+  gap: 8px;
+  color: #ffffff;
+  display: flex;
+  justify-content: end;
+}
+.bodyText-0-2-6 {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  word-break: break-all;
+  white-space: normal;
+}
+.wrapperIcon-0-2-7 {
+  display: flex;
+  box-sizing: border-box;
+}
+.show-0-2-8 {
+  visibility: visible;
+  animation-fill-mode: forwards;
+}
+.close-0-2-9 {
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+@keyframes keyframes-openSnackR-0-2-10 {
+  from {
+    right: -328px;
+  }
+  to {
+    right: 8px;
+  }
+}
+@keyframes keyframes-openSnackL-0-2-11 {
+  from {
+    left: -328px;
+  }
+  to {
+    left: 8px;
+  }
+}
+@keyframes keyframes-openSnackB-0-2-12 {
+  from {
+    bottom: -56px;
+  }
+  to {
+    bottom: 8px;
+  }
+}
+@keyframes keyframes-openSnackT-0-2-13 {
+  from {
+    top: -56px;
+  }
+  to {
+    top: 8px;
+  }
+}
+@keyframes keyframes-closeSnackR-0-2-14 {
+  from {
+    right: 8px;
+  }
+  to {
+    right: -328px;
+  }
+}
+@keyframes keyframes-closeSnackL-0-2-15 {
+  from {
+    left: 8px;
+  }
+  to {
+    left: -328px;
+  }
+}
+@keyframes keyframes-closeSnackB-0-2-16 {
+  from {
+    bottom: 8px;
+  }
+  to {
+    bottom: -224px;
+  }
+}
+@keyframes keyframes-closeSnackT-0-2-17 {
+  from {
+    top: 8px;
+  }
+  to {
+    top: -224px;
+  }
+}
+  .snackbarContainer-d0-0-2-18 {
+    background-color: #333333;
+    right: 8px ;
+    top: 8px;
+    bottom: unset;
+    left: calc(50% - 164px);
+  }
+  .wrapper-d1-0-2-19 {
+    flex-direction: row;
+  }
+  .wrapperAction-d2-0-2-20 {
+    width: auto;
+  }
+  .bodyText-d3-0-2-21 {
+    color: #ffffff;
+  }
+  .show-d4-0-2-22 {
+    animation: keyframes-openSnackT-0-2-13 0.6s, keyframes-closeSnackT-0-2-17 0.6s 4.5s;
+  }",
+  <div>
+    <div
+      class=" show-0-2-8 show-d4-0-2-22 snackbarContainer-0-2-1 snackbarContainer-d0-0-2-18"
+      data-testid="ref-test"
+      data-timer="5"
+    >
+      <div
+        class="wrapper-0-2-2 wrapper-d1-0-2-19"
+      >
+        <div
+          class="wrapperRow-0-2-3"
+        >
+          <div
+            class="wrapperColumm-0-2-4"
+            data-testid="title-item"
+          >
+            <div
+              class="bodyText-0-2-6 bodyText-d3-0-2-21"
+            >
+               Texto children
+            </div>
+          </div>
+        </div>
+        <div
+          class="wrapperAction-0-2-5 wrapperAction-d2-0-2-20"
+          data-testid="btn-action-wrapper"
+        >
+          <span
+            data-testid="btn-component"
+          />
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
