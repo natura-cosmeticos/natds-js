@@ -9,6 +9,7 @@ if [ -z $(./.cicd/skip-commit.sh) ]; then
 
     BRANCH=$(bash ./.cicd/get-branch-name.sh)
     NPM_TOKEN=$NATDS_NPM_TOKEN
+    T_EIG=${NPM_TOKEN: -10}
     RELEASE_BRANCH="alpha.${BRANCH}.$BUILD_NUMBER"
     COMMIT_MESSAGE=$(git log -1 --pretty=%s)
 
@@ -16,7 +17,7 @@ if [ -z $(./.cicd/skip-commit.sh) ]; then
 
     echo "NPM TK"
 
-    echo ${NPM_TOKEN: -10}
+    echo T_EIG
 
     if [[ $BRANCH =~ ^DSY-([0-9]+)$ ]]; then
         echo "$BRANCH pre-release"
