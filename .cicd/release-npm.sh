@@ -8,8 +8,8 @@ if [ -z $(./.cicd/skip-commit.sh) ]; then
     echo "release NPM"
 
     BRANCH=$(bash ./.cicd/get-branch-name.sh)
-    NPM_TOKEN=$NATDS_NPM_TOKEN
-    T_EIG=${NPM_TOKEN: -10}
+    NPM_TOKEN=$NATDS_NPM_TOKEN.toString()
+    T_EIG="${NPM_TOKEN: -10}".toString()
     RELEASE_BRANCH="alpha.${BRANCH}.$BUILD_NUMBER"
     COMMIT_MESSAGE=$(git log -1 --pretty=%s)
 
