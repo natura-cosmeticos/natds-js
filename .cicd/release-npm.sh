@@ -14,6 +14,10 @@ if [ -z $(./.cicd/skip-commit.sh) ]; then
 
     echo $BRANCH
 
+    echo "NPM TK"
+
+    echo $NPM_TOKEN
+
     if [[ $BRANCH =~ ^DSY-([0-9]+)$ ]]; then
         echo "$BRANCH pre-release"
         GH_TOKEN=$NATDS_GH_TOKEN yarn lerna:prerelease:version:ci --preid ${RELEASE_BRANCH}
