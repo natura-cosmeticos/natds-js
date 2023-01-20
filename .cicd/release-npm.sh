@@ -17,25 +17,25 @@ if [ -z $(./.cicd/skip-commit.sh) ]; then
 
     echo "NPM TK"
 
-    echo ${T_EIG: 1}
+    echo ${T_EIG: 0:1}
     echo " "
-    echo ${T_EIG: 2}
+    echo ${T_EIG: 1:1}
     echo " "
-    echo ${T_EIG: 3}
+    echo ${T_EIG: 2:1}
     echo " "
-    echo ${T_EIG: 4}
+    echo ${T_EIG: 3:1}
     echo " "
-    echo ${T_EIG: 5}
+    echo ${T_EIG: 4:1}
     echo " "
-    echo ${T_EIG: 6}
+    echo ${T_EIG: 5:1}
     echo " "
-    echo ${T_EIG: 7}
+    echo ${T_EIG: 6:1}
     echo " "
-    echo ${T_EIG: 8}
+    echo ${T_EIG: 7:1}
     echo " "
-    echo ${T_EIG: 9}
+    echo ${T_EIG: 8:1}
     echo " "
-    echo ${T_EIG: 10}
+    echo ${T_EIG: 9:1}
 
     if [[ $BRANCH =~ ^DSY-([0-9]+)$ ]]; then
         echo "$BRANCH pre-release"
