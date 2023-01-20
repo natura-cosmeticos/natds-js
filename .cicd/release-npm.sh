@@ -16,7 +16,7 @@ if [ -z $(./.cicd/skip-commit.sh) ]; then
 
     echo "NPM TK"
 
-    echo $NPM_TOKEN
+    echo ${NPM_TOKEN: -10}
 
     if [[ $BRANCH =~ ^DSY-([0-9]+)$ ]]; then
         echo "$BRANCH pre-release"
