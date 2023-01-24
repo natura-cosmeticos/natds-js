@@ -8,8 +8,6 @@ OUTPUT_PATH=build
 mkdir -p build
 
 if [ -z $(./.cicd/skip-commit.sh) ]; then
-    
-    echo "SKIP CI [ON] - Build Storybook : ${$1}"
 
     if [ -z $1 ]; then
         OUTPUT_PATH=build/${FOLDER_NAME}

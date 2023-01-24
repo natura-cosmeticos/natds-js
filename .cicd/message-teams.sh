@@ -7,8 +7,6 @@ echo $BRANCH
 
 if ! [ -z $(./.cicd/skip-commit.sh) ]; then
 
-    echo "SKIP CI [OFF] - Release message on Teams"
-
     echo "create new file to edit"
     cp .cicd/message-teams.json .cicd/updated-message-teams.json
 
