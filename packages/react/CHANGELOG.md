@@ -3,6 +3,40 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.39.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.38.0...@naturacosmeticos/natds-react@2.39.0) (2023-01-24)
+
+
+### Bug Fixes
+
+* autocomplete component ([3313d59](https://github.com/natura-cosmeticos/natds-js/commit/3313d59a9f1846c0291d6e0d10c94b4d9c243e10))
+* autocomplete component ([f99f4c2](https://github.com/natura-cosmeticos/natds-js/commit/f99f4c228749bf25e30fcad447675e1f47f3b9ca))
+* autocomplete component ([8b0a8f2](https://github.com/natura-cosmeticos/natds-js/commit/8b0a8f2efc542ddfd9217f93536da90a0a6f8103))
+* autocomplete component ([33d782a](https://github.com/natura-cosmeticos/natds-js/commit/33d782a3cc88d83460b8c276874383a5485c97d4))
+* autocomplete component ([9595596](https://github.com/natura-cosmeticos/natds-js/commit/95955966b5cd01383f9c191f61bc5a9b9828c701))
+* autocomplete component ([0231469](https://github.com/natura-cosmeticos/natds-js/commit/0231469c52d497d44920c262548e5c66e752d519))
+* autocomplete component ([458cfb9](https://github.com/natura-cosmeticos/natds-js/commit/458cfb93cbe22df5697b6c3e707a86fced3320ab))
+* autocomplete component ([519df6c](https://github.com/natura-cosmeticos/natds-js/commit/519df6ceba82a7138a973ea4afea4520a7636d84))
+* function getLabelColor ([941d66b](https://github.com/natura-cosmeticos/natds-js/commit/941d66b20764924ccabaae6c82570a7c1a2c7e0c))
+* snackbar component ([b4cac92](https://github.com/natura-cosmeticos/natds-js/commit/b4cac92f9b2e64b3ee24932baa5af30c5a32db0f))
+* snackbar component ([821d821](https://github.com/natura-cosmeticos/natds-js/commit/821d82138a6aa90f84de1d97807bee5df66a54de))
+* snackbar component ([ceca841](https://github.com/natura-cosmeticos/natds-js/commit/ceca841ec1a7d38a14c3103aa9bd8bae4a1964da))
+
+
+### Features
+
+* add autocomplete component ([3fa0b78](https://github.com/natura-cosmeticos/natds-js/commit/3fa0b7860ef372a549f01c6e5252754a87f46bc5))
+* add autocomplete props ([45b92fa](https://github.com/natura-cosmeticos/natds-js/commit/45b92fa4af6e7baccdaab8812b4bc1c695023f29))
+* add autocomplete stories ([f4115f9](https://github.com/natura-cosmeticos/natds-js/commit/f4115f9b2aa995fb50270f0e5047ec35c23c81e1))
+* add autocomplete styles ([65b7513](https://github.com/natura-cosmeticos/natds-js/commit/65b75135697e78271ab423d5554ae3ae2940144f))
+* add autocomplete test ([e85acc2](https://github.com/natura-cosmeticos/natds-js/commit/e85acc2cb609d7c0c9c3ab0c88870bd5358420fb))
+* add index exports defaults ([e846f3c](https://github.com/natura-cosmeticos/natds-js/commit/e846f3c3ccc521c1f773f3ff3ed64ab348571e5b))
+* snackbar component ([4ba45e7](https://github.com/natura-cosmeticos/natds-js/commit/4ba45e7ee8de2cee4b0913ff2363a74bd61ecbd6))
+* snackbar component ([e3a50fa](https://github.com/natura-cosmeticos/natds-js/commit/e3a50fa6e4e44048807e4b77f5b6673bd7cc7ece))
+
+
+
+
+
 # [2.38.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.38.0-alpha.DSY-2874.2.0...@naturacosmeticos/natds-react@2.38.0) (2022-09-06)
  
 **Note:** Version bump only for package @naturacosmeticos/natds-react
