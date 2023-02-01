@@ -32,6 +32,7 @@ const styles = createUseStyles((theme: Theme) => ({
 
     return {
       backgroundColor: theme.color.surface,
+      color: theme.color.highEmphasis,
       boxShadow: theme.elevation.small,
       display: 'flex',
       flexFlow: 'column nowrap',
