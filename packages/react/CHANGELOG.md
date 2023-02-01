@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.39.1](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.39.0...@naturacosmeticos/natds-react@2.39.1) (2023-02-01)
+
+
+### Bug Fixes
+
+* mock-theme type props ([f9f92b8](https://github.com/natura-cosmeticos/natds-js/commit/f9f92b8ac7beb614adbc656b02ef6491a1a3d4e1))
+
+
+
+
+
 # [2.39.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.38.0...@naturacosmeticos/natds-react@2.39.0) (2023-01-24)
 
 
