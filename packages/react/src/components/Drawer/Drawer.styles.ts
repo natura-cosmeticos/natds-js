@@ -24,7 +24,7 @@ const styles = createUseStyles((theme: Theme) => ({
     position: 'fixed',
     top: 0,
     width: '100%',
-    zIndex: 1198
+    zIndex: 1199
   }),
 
   drawer: ({ open = false, size = 'small' }: DrawerProps) => {
@@ -45,7 +45,7 @@ const styles = createUseStyles((theme: Theme) => ({
       transform: `translateX(${x}px)`,
       transition: '0.3s ease-in-out',
       width: getSize(size),
-      zIndex: 1199
+      zIndex: 1200
     }
   }
 }))
