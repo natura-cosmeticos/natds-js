@@ -24,7 +24,7 @@ const styles = createUseStyles((theme: Theme) => ({
     position: 'fixed',
     top: 0,
     width: '100%',
-    zIndex: 1198
+    zIndex: 1199
   }),
 
   drawer: ({ open = false, size = 'small' }: DrawerProps) => {
