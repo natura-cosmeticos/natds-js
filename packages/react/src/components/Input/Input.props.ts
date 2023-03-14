@@ -59,6 +59,16 @@ export interface BaseProps {
   onFocus?: React.FocusEventHandler<HTMLInputElement | HTMLTextAreaElement>
 
   /**
+   * The onKeyDown event occurs when an element press downkeyboard.
+   */
+  onKeyDown?: React.KeyboardEventHandler<HTMLInputElement | HTMLTextAreaElement>
+
+  /**
+   * The onKeyUp event occurs when an element press upkeyboard.
+   */
+  onKeyUp?: React.KeyboardEventHandler<HTMLInputElement | HTMLTextAreaElement>
+
+  /**
    * The short hint displayed in the `input` before the user enters a value.
    */
   placeholder?: string,

@@ -15,6 +15,8 @@ const TextField = React.forwardRef<HTMLInputElement, TextFieldProps>(({
   onBlur,
   onChange,
   onFocus,
+  onKeyDown,
+  onKeyUp,
   placeholder,
   readOnly = false,
   required = false,
@@ -36,6 +38,8 @@ const TextField = React.forwardRef<HTMLInputElement, TextFieldProps>(({
         onBlur={onBlur}
         onChange={onChange}
         onFocus={onFocus}
+        onKeyDown={onKeyDown}
+        onKeyUp={onKeyUp}
         placeholder={placeholder}
         readOnly={readOnly}
         size={size}
