@@ -45,10 +45,23 @@ export default {
 
 export const Playground: Story<TextFieldProps> = (args) => {
   const [value, setValue] = useState<string>('')
+  const handleKey = (event: React.KeyboardEvent) => {
+    if (event.code === 'Enter') {
+      // eslint-disable-next-line no-console
+      console.log(event.code)
+      // eslint-disable-next-line no-alert
+      alert(event.key)
+    }
+  }
 
   return (
     <StoryContainer>
-      <TextField {...args} onChange={(e) => setValue(e.target.value)} value={value} />
+      <TextField
+        {...args}
+        onKeyDown={handleKey}
+        onChange={(e) => setValue(e.target.value)}
+        value={value}
+      />
     </StoryContainer>
   )
 }

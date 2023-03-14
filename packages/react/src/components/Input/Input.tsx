@@ -15,6 +15,8 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>((props, ref) => {
     onBlur,
     onChange,
     onFocus,
+    onKeyDown,
+    onKeyUp,
     placeholder,
     readOnly = false,
     size = 'mediumX',
@@ -38,6 +40,8 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>((props, ref) => {
               onBlur={onBlur}
               onChange={onChange}
               onFocus={onFocus}
+              onKeyDown={onKeyDown}
+              onKeyUp={onKeyUp}
               placeholder={placeholder}
               readOnly={readOnly}
               rows={minRows}
@@ -52,6 +56,8 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>((props, ref) => {
               onBlur={onBlur}
               onChange={onChange}
               onFocus={onFocus}
+              onKeyDown={onKeyDown}
+              onKeyUp={onKeyUp}
               placeholder={placeholder}
               readOnly={readOnly}
               type={type}
