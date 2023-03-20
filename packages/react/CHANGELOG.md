@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.41.1](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.41.0...@naturacosmeticos/natds-react@2.41.1) (2023-03-20)
+
+
+### Bug Fixes
+
+* **natds-react:** change drawer zindex ([ce6b263](https://github.com/natura-cosmeticos/natds-js/commit/ce6b26336d6a0b2ebc8dec7dc8e29dc83e19b85a))
+* **natds-react:** version 2.40.2 ([46168c8](https://github.com/natura-cosmeticos/natds-js/commit/46168c8546994b14dc86c5c4e017b33938c85cb5))
+* **natds-react:** version 2.41.1 ([085ca78](https://github.com/natura-cosmeticos/natds-js/commit/085ca7878c13b0e3117295aeccfc3e39511a956b))
+* **natds-react:** version themes 0.46.0 to 0.46.2 ([eacfdfd](https://github.com/natura-cosmeticos/natds-js/commit/eacfdfde6aca1527c3912be9bf00af5c02447935))
+
+
+
+
+
 # [2.41.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.41.0-alpha.DSY-3144.1.0...@naturacosmeticos/natds-react@2.41.0) (2023-03-14)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-react
