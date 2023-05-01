@@ -8,6 +8,7 @@ module.exports = {
     '!src/**/*.stories.tsx',
     '!src/**/*.subcomponent.tsx',
     '!src/**/*.styles.ts',
+    '!src/Templates/**',
     '!src/helpers/**'
   ],
   errorOnDeprecated: true,
