@@ -1,3 +1,5 @@
+import { BrandProps } from '../GlobalTypes'
+
 /* eslint-disable max-lines */
 const DataMockStatusBar = [
   ['outlined-finance-shoppingcart', 'Mi Carrito', 'true', 'iconShow'],
@@ -6,17 +8,6 @@ const DataMockStatusBar = [
   ['outlined-action-like', 'Completo', 'false']
 ]
 export default DataMockStatusBar
-
-export type BrandProps =
-    'aesop'
-    | 'avon'
-    | 'avon_v2'
-    | 'biome'
-    | 'natura'
-    | 'theBodyShop'
-    | 'consultoriaDeBeleza'
-    | 'natura_v2'
-    | 'casaEestilo'
 
 export interface IDataCartProps {
     prodTitle: string

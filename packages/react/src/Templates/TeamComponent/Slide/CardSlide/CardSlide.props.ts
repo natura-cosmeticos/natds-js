@@ -1,15 +1,6 @@
 import React from 'react'
+import { BrandProps } from '../../../GlobalTypes'
 
-type BrandProps =
-    'aesop'
-    | 'avon'
-    | 'avon_2'
-    | 'biome'
-    | 'natura'
-    | 'theBodyShop'
-    | 'consultoriaDeBeleza'
-    | 'natura_v2'
-    | 'casaEestilo'
 export interface CardSlideProps {
   /**
    * Specify an optional className to be added to your CardSlide
