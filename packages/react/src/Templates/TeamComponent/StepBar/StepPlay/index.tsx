@@ -5,7 +5,8 @@ import styles from './styles'
 
 interface StepProp {
     iconName: IconName
-    labelName: string
+    labelName: string | undefined
+    iconShow: string
     position: string
 
 }
@@ -13,7 +14,9 @@ export const checkIcon = (iconName: string): string => (iconName in icons ? icon
 
 const StepPlay = React.forwardRef<HTMLDivElement, StepProp>(
   (props, ref) => {
-    const { iconName, labelName, position } = props
+    const {
+      iconName, labelName, position, iconShow
+    } = props
     const { wrapper, circlo, spanText } = styles({ position })
     return (
       <div className={wrapper} ref={ref}>
@@ -21,7 +24,10 @@ const StepPlay = React.forwardRef<HTMLDivElement, StepProp>(
           <Icon size="standard" name={iconName} color={position === 'true' ? 'onPrimary' : 'highEmphasis'} />
         </div>
         <span className={spanText}>{labelName}</span>
-        <Icon size="standard" name="outlined-navigation-arrowleft" color={position === 'true' ? 'highEmphasis' : 'lowEmphasis'} />
+        {
+          iconShow
+        && <Icon size="standard" name="outlined-navigation-arrowleft" color={position === 'true' ? 'highEmphasis' : 'lowEmphasis'} />
+        }
       </div>
     )
   }

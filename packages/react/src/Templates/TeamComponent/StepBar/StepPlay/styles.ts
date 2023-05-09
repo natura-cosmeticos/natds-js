@@ -28,8 +28,8 @@ const styles = createUseStyles<RuleNames, StepBarProps2, Theme>((theme: Theme) =
   wrapper: {
     display: 'flex',
     justifyContent: 'start',
-    alignItems: 'center',
-    gap: 4
+    alignItems: 'center'
+    // border: '1px solid red'
   },
   circlo: {
     display: 'flex',
@@ -37,6 +37,7 @@ const styles = createUseStyles<RuleNames, StepBarProps2, Theme>((theme: Theme) =
     borderRadius: '50%',
     boxSizing: 'border-box',
     padding: 1,
+    marginRight: 8,
     backgroundColor: ({ position }) => getBackground(theme)({ position }).bk
   },
   spanText: {
@@ -50,7 +51,7 @@ const styles = createUseStyles<RuleNames, StepBarProps2, Theme>((theme: Theme) =
       display: 'flex',
       justifyContent: 'start',
       alignItems: 'center',
-      gap: 'unset'
+      marginRight: 2
     }
   }
 }))
