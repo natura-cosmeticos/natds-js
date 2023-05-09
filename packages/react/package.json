@@ -53,6 +53,7 @@
     "test:ci": "jest  --testPathPattern=src --coverage && codecov -t",
     "test:regression": "loki",
     "test:watch": "jest --watch --detectOpenHandles",
+    "test:clean": "jest --update-snapshot",
     "generate": "yarn plop --plopfile ./generators/plopfile.js"
   },
   "dependencies": {
