@@ -18,10 +18,63 @@ const styles = createUseStyles((theme: Theme) => ({
     display: 'flex',
     alignItems: 'center',
     width: '100%',
-    justifyContent: 'center',
+    justifyContent: 'space-around',
     padding: [0, 8],
     boxSizing: 'border-box'
     // border: '1px solid red'
+  },
+  wrapper: {
+    display: 'flex',
+    // flexGrow: 1,
+    width: '33%',
+    gap: 8,
+    justifyContent: 'start',
+    alignItems: 'center'
+    // border: '1px solid green'
+  },
+  wrapperLogo: {
+    display: 'flex',
+    // flexGrow: 1,
+    width: '33%',
+    justifyContent: 'center'
+    // border: '1px solid yellow'
+  },
+  wrapperBtn: {
+    display: 'flex',
+    gap: 8,
+    justifyContent: 'center',
+    alignItems: 'center'
+    // width: '33%'
+    // border: '1px solid blue'
+  },
+  '@media screen and (max-width: 780px)': {
+    wrapperBtn: {
+      // flexGrow: 1,
+      width: '33%',
+      justifyContent: 'end'
+    }
+  },
+  wrapperBadge: {
+    display: 'flex',
+    position: 'relative',
+    gap: 8,
+    alignItems: 'center',
+    justifyContent: 'center'
+    // border: '1px solid red'
+  },
+  badgePosition: {
+    display: 'flex',
+    position: 'absolute',
+    left: '20px',
+    top: 3,
+    zIndex: 999
+  },
+  badgeIconBtnPosition: {
+    display: 'flex',
+    position: 'absolute',
+    right: '0px',
+    top: 1,
+    zIndex: 999
   }
 }))
 
