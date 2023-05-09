@@ -1,15 +1,7 @@
 import React from 'react'
 import styles from './styles'
 import { buildTheme } from '../../../ThemeProvider'
-
-type BrandProps =
-    'aesop' | 'avon'
-    | 'biome'
-    | 'natura'
-    | 'theBodyShop'
-    | 'consultoriaDeBeleza'
-    | 'natura_v2'
-    | 'casaEestilo'
+import { BrandProps, brandTransform } from '../../mocks/mocks'
 
 type Mode = 'light' | 'dark'
 
@@ -28,16 +20,6 @@ const Targ: React.FC<BrandP> = ({
 }) => {
   const marca = buildTheme(brand, mode)
   let back = marca.color.primary
-  const brandTransform = (brands: string) => ({
-    aesop: 'Aesop',
-    avon: 'Avon',
-    biome: 'Biome',
-    natura: 'Natura',
-    natura_v2: 'Natura',
-    theBodyShop: ' The Body Shop',
-    consultoriaDeBeleza: 'Consultoria de Beleza',
-    casaEestilo: 'Casa & Estilo'
-  })[brands]
   if (!brand) {
     back = 'none'
   }

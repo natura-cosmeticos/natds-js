@@ -7,8 +7,10 @@ const DataMockStatusBar = [
 ]
 export default DataMockStatusBar
 
-type BrandProps =
-    'aesop' | 'avon'
+export type BrandProps =
+    'aesop'
+    | 'avon'
+    | 'avon_v2'
     | 'biome'
     | 'natura'
     | 'theBodyShop'
@@ -39,7 +41,7 @@ export const dataCart: IDataCartProps[] = [
   {
     prodTitle: 'Refil Desodorante Corporal Kaiak Masculino',
     brand: 'Avon',
-    theme: 'avon',
+    theme: 'avon_v2',
     code: '50999',
     point: 4,
     price: 'S/0.000.00',
@@ -59,6 +61,7 @@ export const dataCart: IDataCartProps[] = [
 export const brandTransform = (brands: string): string | undefined => ({
   aesop: 'Aesop',
   avon: 'Avon',
+  avon_v2: 'Avon',
   biome: 'Biome',
   natura: 'Natura',
   natura_v2: 'Natura',
@@ -80,7 +83,7 @@ export const dataCartSlide: IDataCartProps[] = [
   {
     prodTitle: 'Refil Desodorante Corporal Kaiak Masculino',
     brand: 'Avon',
-    theme: 'avon',
+    theme: 'avon_v2',
     code: '50999',
     point: 4,
     price: 'S/0.000.00',
@@ -107,7 +110,7 @@ export const dataCartSlide: IDataCartProps[] = [
   {
     prodTitle: 'Refil Desodorante Corporal Kaiak Masculino',
     brand: 'Avon',
-    theme: 'avon',
+    theme: 'avon_v2',
     code: '50999',
     point: 4,
     price: 'S/0.000.00',
@@ -134,7 +137,7 @@ export const dataCartSlide: IDataCartProps[] = [
   {
     prodTitle: 'Refil Desodorante Corporal Kaiak Masculino',
     brand: 'Avon',
-    theme: 'avon',
+    theme: 'avon_v2',
     code: '50999',
     point: 4,
     price: 'S/0.000.00',

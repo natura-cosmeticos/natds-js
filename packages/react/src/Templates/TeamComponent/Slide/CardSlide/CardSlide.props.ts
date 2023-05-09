@@ -1,7 +1,9 @@
 import React from 'react'
 
 type BrandProps =
-    'aesop' | 'avon'
+    'aesop'
+    | 'avon'
+    | 'avon_2'
     | 'biome'
     | 'natura'
     | 'theBodyShop'
