@@ -1,6 +1,7 @@
 import React from 'react'
 import { Story, Meta } from '@storybook/react'
 import ProgressBar from './ProgressBar'
+import { ProgressBarProps } from './ProgressBar.props'
 
 const componentStatus = `
 - - -
@@ -13,15 +14,19 @@ export default {
   title: 'TeamComponents/ProgressBar',
   component: ProgressBar,
   parameters: {
-    componentSubtitle: 'Tags are used to label, categorize, or organize items using keywords that describe them.',
+    componentSubtitle: '',
     docs: { description: { component: componentStatus } }
   }
 } as Meta
 
-export const WhithBrand: Story = () => (
+export const Playground: Story<ProgressBarProps> = (args) => (
   <div style={{ maxWidth: '50%', padding: '24px' }}>
 
-    <ProgressBar point={30} />
+    <ProgressBar {...args} />
   </div>
 
 )
+Playground.args = {
+  point: 30,
+  minPoint: 30
+}
