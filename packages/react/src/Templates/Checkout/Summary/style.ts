@@ -2,7 +2,22 @@
 import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 
-const styles = createUseStyles((theme: Theme) => ({
+type TypeRule = 'header'
+| 'arrowWrapper'
+| 'wrapperControl'
+| 'wrapperControl'
+| 'col'
+| 'colCenter'
+| 'row'
+| 'text'
+| 'colPd'
+| 'surface'
+
+interface StylePropsSummary {
+  isOpen: boolean
+}
+
+const styles = createUseStyles<TypeRule, StylePropsSummary, Theme>((theme: Theme) => ({
   header: {
     display: 'flex',
     justifyContent: 'center',
@@ -14,6 +29,34 @@ const styles = createUseStyles((theme: Theme) => ({
     width: '100%',
     height: '74px'
     // border: '1px solid green'
+  },
+  '@media screen and (max-width: 1280px)': {
+    header: {
+      display: 'flex',
+      justifyContent: 'space-between',
+      alignItems: 'center',
+      position: 'relative',
+      backgroundColor: theme.color.surface,
+      boxSizing: 'border-box',
+      padding: 24,
+      width: '100%',
+      height: '56px'
+      // border: '1px solid green'
+    }
+  },
+  arrowWrapper: {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: '56px',
+    cursor: 'pointer'
+    // border: '1px solid green'
+  },
+  wrapperControl: {
+    overflow: 'hidden',
+    height: ({ isOpen }) => (isOpen ? 'auto' : '0px'),
+    // border: '1px solid red',
+    transition: 'all .6s ease-in-out'
   },
   col: {
     display: 'flex',

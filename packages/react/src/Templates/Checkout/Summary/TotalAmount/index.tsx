@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from '../../../../components/Button'
 import Divider from '../../../../components/Divider/Divider'
+import labelText from '../../../mocks/labelText'
 import styles from './styles'
 
 const TotalAmount = React.forwardRef<HTMLDivElement, unknown>(
@@ -13,7 +14,7 @@ const TotalAmount = React.forwardRef<HTMLDivElement, unknown>(
       <>
         <div className={container}>
           <div className={rowBetween}>
-            <span className={keyHead}>Venda Total</span>
+            <span className={keyHead}>{`${labelText.summary.totalSale}`}</span>
             <span className={valueHeadSub}>S/000.000.00</span>
           </div>
           <div className={rowBetween}>
@@ -28,7 +29,7 @@ const TotalAmount = React.forwardRef<HTMLDivElement, unknown>(
 
         <div className={container}>
           <div className={rowBetween}>
-            <span className={keyHead}>Lucro total</span>
+            <span className={keyHead}>{`${labelText.summary.totalProfit}`}</span>
             <span className={valueHead}>S/000.000.00</span>
           </div>
           <div className={rowBetween}>
@@ -47,7 +48,7 @@ const TotalAmount = React.forwardRef<HTMLDivElement, unknown>(
 
         <div className={container}>
           <div className={rowBetween}>
-            <span className={keyHead}>Compra total</span>
+            <span className={keyHead}>{`${labelText.summary.totalPurchase}`}</span>
             <span className={valueHead}>S/000.000.00</span>
           </div>
           <div className={rowBetween}>
@@ -66,22 +67,22 @@ const TotalAmount = React.forwardRef<HTMLDivElement, unknown>(
         <Divider variant="middle" />
         <div className={containerGap16}>
           <div className={rowBetween}>
-            <span className={keyHead}>Outros Valores</span>
+            <span className={keyHead}>{`${labelText.summary.otherAmounts}`}</span>
           </div>
           <div className={rowBetween}>
-            <span className={keyHead}>Impostos</span>
+            <span className={keyHead}>{`${labelText.summary.taxes}`}</span>
             <span className={valueHead}>S/000.000.00</span>
           </div>
           <div className={rowBetween}>
-            <span className={keyHead}>Frete</span>
+            <span className={keyHead}>{`${labelText.summary.truckage}`}</span>
             <span className={valueHeadSub}>S/000.000.00</span>
           </div>
           <div className={rowBetween}>
-            <span className={keyHead}>Saldo a favor</span>
+            <span className={keyHead}>{`${labelText.summary.balanceInFavor}`}</span>
             <span className={valueHead}>S/000.000.00</span>
           </div>
           <div className={row}>
-            Valor total a pagar
+            {`${labelText.summary.totalPayable}`}
           </div>
           <div className={row}>
             <div className={rowPayd}>
@@ -89,8 +90,8 @@ const TotalAmount = React.forwardRef<HTMLDivElement, unknown>(
             </div>
           </div>
           <div className={rowGap16}>
-            <Button fullWidth variant="outlined" onClick={() => ''}>Voltar</Button>
-            <Button fullWidth variant="contained" onClick={() => ''}>Continuar</Button>
+            <Button fullWidth variant="outlined" onClick={() => ''}>{`${labelText.summary.btnBack}`}</Button>
+            <Button fullWidth variant="contained" onClick={() => ''}>{`${labelText.summary.btnContinue}`}</Button>
           </div>
         </div>
       </>

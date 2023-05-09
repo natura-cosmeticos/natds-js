@@ -9,7 +9,7 @@ const styles = createUseStyles((theme: Theme) => ({
     gap: 4,
     width: '100%',
     padding: 16,
-    maxWidth: '780px',
+    maxWidth: '470px',
     boxSizing: 'border-box',
     color: theme.color.highlight
     // border: '1px solid green'
@@ -18,7 +18,7 @@ const styles = createUseStyles((theme: Theme) => ({
     display: 'flex',
     flexDirection: 'column',
     gap: 16,
-    maxWidth: '780px',
+    maxWidth: '470px',
     width: '100%',
     padding: 16,
     boxSizing: 'border-box',
