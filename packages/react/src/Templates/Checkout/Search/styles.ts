@@ -43,6 +43,24 @@ const styles = createUseStyles((theme: Theme) => ({
     flexDirection: 'column',
     gap: 16
   },
+  wrapperIcon: {
+    position: 'relative',
+    width: '100%',
+    overflow: 'hidden'
+  },
+  iconPossition: {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    position: 'absolute',
+    right: '0px',
+    top: '0px',
+    zIndex: 10,
+    height: '100%',
+    width: '48px'
+    // backgroundColor: theme.color.surface
+    // border: '1px solid red'
+  },
   searchRow: {
     display: 'flex',
     justifyContent: 'flex-start',
@@ -63,7 +81,8 @@ const styles = createUseStyles((theme: Theme) => ({
     paddingBottom: 3
   },
   width100: {
-    width: '100%'
+    width: '100%',
+    paddingRight: '48px'
   },
   '@media screen and (max-width: 780px)': {
     searchRow: {
