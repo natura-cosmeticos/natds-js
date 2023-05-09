@@ -12,7 +12,7 @@ const TotalAmount = React.forwardRef<HTMLDivElement, unknown>(
     } = styles()
     return (
       <>
-        <div className={container}>
+        <div ref={ref} className={container}>
           <div className={rowBetween}>
             <span className={keyHead}>{`${labelText.summary.totalSale}`}</span>
             <span className={valueHeadSub}>S/000.000.00</span>
