@@ -1,5 +1,4 @@
-export type BrandProps =
-    'aesop'
+export type BrandProps = 'aesop'
     | 'avon'
     | 'avon_v2'
     | 'biome'
