@@ -7,3 +7,9 @@ export type BrandProps = 'aesop'
     | 'consultoriaDeBeleza'
     | 'natura_v2'
     | 'casaEestilo'
+
+export interface DataPropsTeste {
+    id: number
+    productName: string
+    imgUrl: string
+}
