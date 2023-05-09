@@ -2,7 +2,7 @@
   "name": "@naturacosmeticos/natds-react",
   "displayName": "NatDS-React",
   "description": "A collection of components from Natura Design System for React",
-  "version": "2.42.0",
+  "version": "2.43.0-alpha.DSY-3194-ver.2.0",
   "private": false,
   "keywords": [
     "design-system",
@@ -53,11 +53,12 @@
     "test:ci": "jest  --testPathPattern=src --coverage && codecov -t",
     "test:regression": "loki",
     "test:watch": "jest --watch --detectOpenHandles",
+    "test:clean": "jest --update-snapshot",
     "generate": "yarn plop --plopfile ./generators/plopfile.js"
   },
   "dependencies": {
     "@naturacosmeticos/natds-icons": "1.11.3",
-    "@naturacosmeticos/natds-themes": "0.48.0",
+    "@naturacosmeticos/natds-themes": "0.53.0",
     "react-jss": "10.9.0"
   },
   "devDependencies": {

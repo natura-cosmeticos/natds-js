@@ -1015,17 +1015,17 @@ Object {
   "typography": Object {
     "body": Object {
       "bold": Object {
-        "fontFamily": "Helvetica Now Display",
+        "fontFamily": "Helvetica Now Text",
         "fontWeight": 700,
       },
       "regular": Object {
-        "fontFamily": "Helvetica Now Display",
+        "fontFamily": "Helvetica Now Text",
         "fontWeight": 400,
       },
     },
     "display": Object {
       "fontFamily": "Helvetica Now Display",
-      "fontWeight": 700,
+      "fontWeight": 900,
     },
     "fallback": Object {
       "fontFamily": "Arial",
@@ -1062,7 +1062,7 @@ Object {
     },
     "headline": Object {
       "fontFamily": "Helvetica Now Display",
-      "fontWeight": 500,
+      "fontWeight": 700,
     },
     "lineHeight": Object {
       "auto": 1,

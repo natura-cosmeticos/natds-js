@@ -39,6 +39,12 @@ const styles = createUseStyles((theme: Theme) => ({
         ...shared
       }
     }
+    if (behaviour === 'absolute') {
+      return {
+        ...shared,
+        position: 'absolute'
+      }
+    }
 
     return {
       ...shared,
@@ -54,6 +60,7 @@ const styles = createUseStyles((theme: Theme) => ({
     justifyContent: 'space-between',
     minHeight: theme.size.mediumX,
     padding: [theme.spacing.micro, theme.spacing.tiny],
+    boxSizing: 'border-box',
     width: 'auto',
     backgroundColor: getBackgroundColor(theme),
     boxShadow: ({ elevation }: AppBarStyleOptions) => (elevation ? theme.elevation.tiny : 'none'),
