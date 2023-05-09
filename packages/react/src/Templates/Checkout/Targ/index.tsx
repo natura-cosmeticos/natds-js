@@ -14,7 +14,8 @@ type BrandProps =
 type Mode = 'light' | 'dark'
 
 interface BrandP {
-    brand: BrandProps
+  // eslint-disable-next-line react/require-default-props
+    brand?: BrandProps
     mode: Mode
     top: number
     size: 'small' | 'medium'
@@ -25,6 +26,8 @@ interface BrandP {
 const Targ: React.FC<BrandP> = ({
   brand, mode, top, size, value, label
 }) => {
+  const marca = buildTheme(brand, mode)
+  let back = marca.color.primary
   const brandTransform = (brands: string) => ({
     aesop: 'Aesop',
     avon: 'Avon',
@@ -35,9 +38,9 @@ const Targ: React.FC<BrandP> = ({
     consultoriaDeBeleza: 'Consultoria de Beleza',
     casaEestilo: 'Casa & Estilo'
   })[brands]
-
-  const marca = buildTheme(brand, mode)
-  const back = marca.color.primary
+  if (!brand) {
+    back = 'none'
+  }
   const { container, targ, title } = styles({ back, top, size })
   return (
     <div className={container}>
@@ -45,7 +48,7 @@ const Targ: React.FC<BrandP> = ({
         {value && value}
       </div>
       <div className={title}>
-        {label === 'on' && brandTransform(brand)}
+        {label === 'on' && brandTransform(brand || '')}
       </div>
     </div>
   )

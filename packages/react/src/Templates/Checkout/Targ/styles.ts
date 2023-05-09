@@ -30,10 +30,11 @@ const styles = createUseStyles<RuleNames, TargProps, Theme>((theme: Theme) => ({
     justifyContent: 'start',
     alignItems: 'start',
     position: 'absolute',
-    backgroundColor: theme.color.surface,
+    // backgroundColor: theme.color.surface,
     gap: 8,
     top: ({ top }) => (top || 24),
-    left: 0
+    left: 0,
+    zIndex: 999
     // border: '1px solid green'
   },
   targ: {
@@ -42,10 +43,10 @@ const styles = createUseStyles<RuleNames, TargProps, Theme>((theme: Theme) => ({
     alignItems: 'center',
     minWidth: ({ size }) => handleSize(size),
     height: 16,
-    color: theme.color.surface,
+    color: theme.color.onPrimary,
     fontSize: 12,
     borderRadius: [0, 4, 4, 0],
-    backgroundColor: ({ back }) => (back || theme.color.highEmphasis)
+    backgroundColor: ({ back }) => (back !== 'none' ? back : theme.color.primary)
   },
   title: {
     textTransform: 'capitalize'
