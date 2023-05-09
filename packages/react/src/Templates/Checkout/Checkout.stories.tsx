@@ -13,12 +13,12 @@ export default {
   title: 'Templates/Checkout',
   component: Checkout,
   parameters: {
-    componentSubtitle: 'Tags are used to label, categorize, or organize items using keywords that describe them.',
+    componentSubtitle: 'This is an example of implementing the theme on a checkout page',
     docs: { description: { component: componentStatus } }
   }
 } as Meta
 
-export const TemplateCheckout: Story = () => (
+export const Playground: Story = () => (
 
   <Checkout />
 

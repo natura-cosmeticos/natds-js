@@ -1,5 +1,5 @@
 import React from 'react'
-import DataMockStatusBar from '../mocks/mocks'
+import DataMockStatusBar, { dataCartSlide } from '../mocks/mocks'
 import StepBar from '../TeamComponent/StepBar/StepBar'
 import styles from './Checkout.styles'
 import Header from './Header'
@@ -8,6 +8,7 @@ import Search from './Search'
 import ShoppingCart from './ShoppingCart'
 import Summary from './Summary'
 import Slide from '../TeamComponent/Slide/Slide'
+import CardSlide from '../TeamComponent/Slide/CardSlide'
 
 const Checkout: React.FC = () => {
   const {
@@ -33,7 +34,24 @@ const Checkout: React.FC = () => {
 
             </div>
             <ShoppingCart />
-            <Slide />
+            <Slide>
+              {
+                dataCartSlide.map((elo) => (
+
+                  <CardSlide
+                    prodTitle={elo.prodTitle}
+                    brand={elo.brand}
+                    theme={elo.theme}
+                    code={elo.code}
+                    point={elo.point}
+                    price={elo.price}
+                    url={elo.url}
+                  />
+
+                ))
+              }
+
+            </Slide>
           </div>
 
           {/* Resume */}
