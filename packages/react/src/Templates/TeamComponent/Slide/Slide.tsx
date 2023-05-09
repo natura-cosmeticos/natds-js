@@ -84,7 +84,7 @@ const Slide: React.FC<JSX.ElementChildrenAttribute> = ({ children }) => {
   return (
     <div className={container}>
       <div className={title}>
-        {`${labelText.mycar.tableCardRow.code}:`}
+        {`${labelText.Slide.title}`}
       </div>
       <div className={containerRelativo}>
         {
