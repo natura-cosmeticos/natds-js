@@ -1,32 +1,40 @@
 /* eslint-disable max-len */
-import React, { useState } from 'react'
+import React from 'react'
 import Button from '../../../components/Button'
 import Counter from '../../../components/Counter'
 import Icon from '../../../components/Icon'
+import labelText from '../../mocks/labelText'
 import { IDataCartProps } from '../../mocks/mocks'
 import Targ from '../Targ'
 import styles from './styles'
+import Image from '../../../components/Image'
 
 const RowCart = React.forwardRef<HTMLDivElement, IDataCartProps>(
   (props, ref) => {
     const {
-      prodTitle, url, brand, code, point, theme
+      prodTitle,
+      url = 'https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-web@latest/dist/assets/product-empty-256x256.png',
+      brand,
+      code,
+      point,
+      theme,
+      price
     } = props
-    const [data, setData] = useState('S/0.000.00')
     const {
       cell, flex1, noBorder, empety, tableColumn, productorContainer,
       productorRow, imgWrapper, prodWrapper, tagContainer, cardTitle, cardBody,
       cardFooter, CorrectionPadding, codBrand, colorLow
     } = styles()
     return (
-      <div className={tagContainer}>
+      <div ref={ref} className={tagContainer}>
         <Targ label="on" size="small" top={24} brand={theme} mode="light" />
         <div className={tableColumn}>
           <div className={`${cell} ${noBorder} ${flex1}`}>
             <div className={productorContainer}>
               <div className={productorRow}>
                 <div className={imgWrapper}>
-                  IMG
+                  <Image sourceImage="INVALID_URL" fallbackImage={url} />
+
                 </div>
                 <div className={prodWrapper}>
                   <div className={cardTitle}>
@@ -36,7 +44,7 @@ const RowCart = React.forwardRef<HTMLDivElement, IDataCartProps>(
                     <span>{brand}</span>
                     <div className={codBrand}>
                       <div className={colorLow}>
-                        Código:
+                        {`${labelText.mycar.tableCardRow.code}:`}
                       </div>
                       <div>
                         {code}
@@ -44,7 +52,7 @@ const RowCart = React.forwardRef<HTMLDivElement, IDataCartProps>(
                     </div>
                     <div className={codBrand}>
                       <div className={colorLow}>
-                        Pontos:
+                        {`${labelText.mycar.tableCardRow.dots}:`}
                       </div>
                       <div>
                         {point}
@@ -54,7 +62,7 @@ const RowCart = React.forwardRef<HTMLDivElement, IDataCartProps>(
                   <div className={cardFooter}>
                     <Counter className={CorrectionPadding} onIncrement={() => 1} onDecrement={() => 2} />
                     <span className={CorrectionPadding}>
-                      <Button onClick={() => ''}>Atualizar</Button>
+                      <Button onClick={() => ''}>{`${labelText.mycar.tableCardRow.btnUpdate}`}</Button>
                     </span>
                   </div>
 
@@ -64,17 +72,17 @@ const RowCart = React.forwardRef<HTMLDivElement, IDataCartProps>(
           </div>
           <div className={`${cell} ${noBorder}`}>
             <div>
-              {data}
+              {price}
             </div>
           </div>
           <div className={`${cell} ${noBorder}`}>
-            {data}
+            {price}
           </div>
           <div className={`${cell} ${noBorder}`}>
-            {data}
+            {price}
           </div>
           <div className={`${cell} ${noBorder}`}>
-            {data}
+            {price}
           </div>
           <div className={`${cell} ${noBorder} ${empety}`}>
             <Icon size="small" name="filled-action-delete" color="highEmphasis" />

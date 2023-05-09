@@ -116,9 +116,9 @@ const styles = createUseStyles((theme: Theme) => ({
     maxWidth: 128,
     boxSizing: 'border-box',
     paddingTop: 16,
-    width: '100%',
-    borderRight: '1px solid #0000001F',
-    borderBottom: '1px solid #0000001F'
+    width: '100%'
+    // borderRight: '1px solid #0000001F',
+    // borderBottom: '1px solid #0000001F'
     // backgroundColor: theme.color.lowEmphasis
   },
   prodWrapper: {

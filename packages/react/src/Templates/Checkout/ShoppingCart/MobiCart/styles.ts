@@ -42,7 +42,7 @@ const styles = createUseStyles((theme: Theme) => ({
   containerCard: {
     display: 'flex',
     flexDirection: 'column',
-    fontFamily: [theme.typography.display.fontFamily, theme.typography.fallback.fontFamily],
+    fontFamily: [theme.typography.body.regular.fontFamily, theme.typography.fallback.fontFamily],
     position: 'relative',
     gap: '16px',
     minWidth: 270,
@@ -84,9 +84,9 @@ const styles = createUseStyles((theme: Theme) => ({
     justifyContent: 'center',
     alignItems: 'center',
     minWidth: 96,
-    minHeight: 96,
-    borderRight: '1px solid #BBBBBB66',
-    borderBottom: '1px solid #BBBBBB66'
+    minHeight: 96
+    // borderRight: '1px solid #BBBBBB66',
+    // borderBottom: '1px solid #BBBBBB66'
   },
   col: {
     display: 'flex',

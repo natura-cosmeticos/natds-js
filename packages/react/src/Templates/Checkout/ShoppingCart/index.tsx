@@ -1,56 +1,51 @@
 /* eslint-disable max-len */
-import React, { useState } from 'react'
+import React from 'react'
 import Button from '../../../components/Button'
-import Counter from '../../../components/Counter'
 import Divider from '../../../components/Divider/Divider'
-import Icon from '../../../components/Icon'
 import useMedia from '../../hookMedia/useMedia'
+import labelText from '../../mocks/labelText'
 import { dataCart } from '../../mocks/mocks'
-import Targ from '../Targ'
 import MobiCart from './MobiCart/MobiCart'
 import RowCart from './RowCart'
 import styles from './styles'
 
 const ShoppingCart: React.FC = () => {
-  const [data, setData] = useState('S/0.000.00')
   const { mediaOn } = useMedia(780)
   const {
     container, header, title, subtitulo, tableConteiner,
-    tableRow, cell, flex1, noBorder, empety, tableColumn, footer, productorContainer,
-    productorRow, imgWrapper, prodWrapper, tagContainer, cardTitle, cardBody,
-    cardFooter, CorrectionPadding, codBrand, colorLow
+    tableRow, cell, flex1, noBorder, empety, footer
   } = styles()
   return (
     <div className={container}>
       <div className={header}>
         <div className={title}>
-          Meu Carrinho
+          {labelText.mycar.title}
         </div>
         <div className={subtitulo}>
-          Agora seus produtos estão agrupados por marca e para ver mais detalhes basta selecionar a marca.
+          {labelText.mycar.subTitle}
         </div>
       </div>
       <div className={tableConteiner}>
         {/* Header */}
         <div className={tableRow}>
           <div className={`${cell} ${flex1}`}>
-            Produtos
+            {labelText.mycar.tableHead.product}
           </div>
           { !mediaOn
         && (
         <>
 
           <div className={cell}>
-            Compra uni.
+            {labelText.mycar.tableHead.purchaseUni}
           </div>
           <div className={cell}>
-            Oferta
+            {labelText.mycar.tableHead.offer}
           </div>
           <div className={cell}>
-            Receita
+            {labelText.mycar.tableHead.incoming}
           </div>
           <div className={`${cell} ${noBorder}`}>
-            Compra
+            {labelText.mycar.tableHead.purchase}
           </div>
           <div className={`${cell} ${noBorder} ${empety}`}>
             {'   '}
@@ -94,7 +89,7 @@ const ShoppingCart: React.FC = () => {
       </div>
       <div className={footer}>
         <Button variant="outlined" onClick={() => ''}>
-          Eliminar Todos
+          {`${labelText.mycar.tableCardRow.allDelete}`}
         </Button>
       </div>
     </div>
