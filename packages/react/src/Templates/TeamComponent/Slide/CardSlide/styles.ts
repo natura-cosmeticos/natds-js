@@ -42,7 +42,7 @@ const styles = createUseStyles((theme: Theme) => ({
   containerCard: {
     display: 'flex',
     flexDirection: 'column',
-    fontFamily: [theme.typography.display.fontFamily, theme.typography.fallback.fontFamily],
+    fontFamily: [theme.typography.body.regular.fontFamily, theme.typography.fallback.fontFamily],
     position: 'relative',
     gap: '16px',
     minWidth: 270,
@@ -83,14 +83,14 @@ const styles = createUseStyles((theme: Theme) => ({
     justifyContent: 'center',
     alignItems: 'center',
     minWidth: 96,
-    minHeight: 96,
-    borderRight: '1px solid #BBBBBB66',
-    borderBottom: '1px solid #BBBBBB66'
+    minHeight: 96
+    // borderRight: '1px solid #BBBBBB66',
+    // borderBottom: '1px solid #BBBBBB66'
   },
   col: {
     display: 'flex',
     flexDirection: 'column',
-    gap: 4,
+    gap: 8,
     width: '100%'
     // border: '1px solid red'
 
@@ -140,10 +140,10 @@ const styles = createUseStyles((theme: Theme) => ({
     border: 'none'
   },
   textRegular: {
-    fontWeight: theme.typography.fontWeight.regular
+    fontWeight: 'inherit'
   },
   textMedium: {
-    fontWeight: theme.typography.fontWeight.medium
+    fontWeight: 'inherit'
   },
   textSub: {
     textDecoration: 'line-through',

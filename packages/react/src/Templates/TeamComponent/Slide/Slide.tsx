@@ -1,7 +1,8 @@
 /* eslint-disable max-len */
 import React, { useRef, useState } from 'react'
 import Icon from '../../../components/Icon'
-import CardSlide from './CardSlide'
+import useMedia from '../../hookMedia/useMedia'
+import labelText from '../../mocks/labelText'
 import styles from './Slide.styles'
 
 const SlidePosition = {
@@ -13,10 +14,11 @@ const SlidePosition = {
 }
 const bullets = [{ id: 0, bullet: 'on' }, { id: 1, bullet: 'off' }, { id: 2, bullet: 'off' }]
 
-const Slide: React.FC = () => {
+const Slide: React.FC<JSX.ElementChildrenAttribute> = ({ children }) => {
   const [show, setShow] = useState(false)
   const [btnBullet, setBtnBullets] = useState(bullets)
   const refWidth = useRef<HTMLDivElement>(null)
+  const { mediaOn } = useMedia(780)
   const {
     container, title, containerSlide, containerRelativo, nextBtn, prevBtn, bulletsContainer, bulletOn, bulletOf
   } = styles()
@@ -82,7 +84,7 @@ const Slide: React.FC = () => {
   return (
     <div className={container}>
       <div className={title}>
-        Só para Você
+        {`${labelText.mycar.tableCardRow.code}:`}
       </div>
       <div className={containerRelativo}>
         {
@@ -98,20 +100,13 @@ const Slide: React.FC = () => {
         </div>
         <div ref={refWidth} className={containerSlide}>
           {/* CardSlide */}
-          <CardSlide brand="avon" />
-          <CardSlide brand="natura_v2" />
-          <CardSlide brand="casaEestilo" />
-          <CardSlide brand="casaEestilo" />
-          <CardSlide brand="theBodyShop" />
-          <CardSlide brand="biome" />
-          <CardSlide brand="casaEestilo" />
-          <CardSlide brand="theBodyShop" />
-          <CardSlide brand="biome" />
+          {children}
         </div>
       </div>
       <div className={bulletsContainer}>
         {
-            btnBullet.map((bulle, index) => (
+            !mediaOn
+            && btnBullet.map((bulle, index) => (
               <div onClick={() => handleBullet(index)} className={bulle.bullet === 'on' ? bulletOn : bulletOf} />
             ))
         }

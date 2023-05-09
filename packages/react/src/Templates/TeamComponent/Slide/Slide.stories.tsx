@@ -1,6 +1,8 @@
 import React from 'react'
 import { Story, Meta } from '@storybook/react'
 import Slide from './Slide'
+import CardSlide from './CardSlide'
+import { dataCartSlide } from '../../mocks/mocks'
 
 const componentStatus = `
 - - -
@@ -18,10 +20,26 @@ export default {
   }
 } as Meta
 
-export const WhithBrand: Story = () => (
-  <div style={{ maxWidth: '50%', padding: '24px' }}>
+export const Playground: Story = () => (
+  <div style={{ maxWidth: '65%', padding: '24px' }}>
 
-    <Slide />
+    <Slide>
+      {
+                dataCartSlide.map((elo) => (
+
+                  <CardSlide
+                    prodTitle={elo.prodTitle}
+                    brand={elo.brand}
+                    theme={elo.theme}
+                    code={elo.code}
+                    point={elo.point}
+                    price={elo.price}
+                    url={elo.url}
+                  />
+
+                ))
+              }
+    </Slide>
   </div>
 
 )

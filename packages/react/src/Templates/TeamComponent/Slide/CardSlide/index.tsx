@@ -4,83 +4,74 @@ import Counter from '../../../../components/Counter'
 import Targ from '../../../Checkout/Targ'
 import styles from './styles'
 import Card from '../../../../components/Card'
+import labelText from '../../../mocks/labelText'
+import { CardSlideProps } from './CardSlide.props'
+import Image from '../../../../components/Image'
 
-type BrandProps =
-    'aesop' | 'avon'
-    | 'biome'
-    | 'natura'
-    | 'theBodyShop'
-    | 'consultoriaDeBeleza'
-    | 'natura_v2'
-    | 'casaEestilo'
-
-interface CardSlideProps {
-    brand: BrandProps
-}
 const CardSlide = React.forwardRef<HTMLDivElement, CardSlideProps>(
   (props, ref) => {
-    const { brand } = props
+    const {
+      prodTitle,
+      brand,
+      code,
+      point,
+      price,
+      url
+    } = props
     const {
       cardBody, cardFooter, cell, cellEnd, noBorder, tableRow,
       containerCard, cardHeader, col, cardIMG, textProd, row, textRegular,
-      textMedium, textSub, CorrectionPadding
+      textSub, CorrectionPadding
     } = styles()
 
-    const brandTransform = (brands: string) => ({
-      aesop: 'Aesop',
-      avon: 'Avon',
-      biome: 'Biome',
-      natura: 'Natura',
-      natura_v2: 'Natura',
-      theBodyShop: ' The Body Shop',
-      consultoriaDeBeleza: 'Consultoria de Beleza',
-      casaEestilo: 'Casa & Estilo'
-    })[brands]
-
     return (
-      <Card elevation>
+      <Card ref={ref} elevation>
         <div className={containerCard}>
-          <Targ value="10%" label="off" size="medium" top={24} brand={brand} mode="light" />
+          <Targ value="10%" label="off" size="medium" top={24} mode="light" />
           <div className={cardHeader}>
-            <div className={cardIMG}>IMG</div>
+            <div className={cardIMG}>
+              <Image sourceImage="INVALID_URL" fallbackImage={url} />
+            </div>
             <div className={col}>
-              <div className={textProd}>Refil Desodorante Corporal Kaiak Masculino</div>
-              <div className={textProd}>{brandTransform(brand)}</div>
-              <div className={row}>
-                <span className={textRegular}>Código:</span>
-                <span className={textMedium}>50990</span>
-              </div>
-              <div className={row}>
-                <span className={textRegular}>Pontos:</span>
-                <span className={textMedium}>4</span>
+              <div className={textProd}>{prodTitle}</div>
+              <div>
+                <div className={textProd}>{brand}</div>
+                <div className={row}>
+                  <span className={textProd}>{`${labelText.mycar.tableCardRow.code}:`}</span>
+                  <span className={textProd}>{code}</span>
+                </div>
+                <div className={row}>
+                  <span className={textProd}>{`${labelText.mycar.tableCardRow.dots}:`}</span>
+                  <span className={textProd}>{point}</span>
+                </div>
               </div>
             </div>
           </div>
           <div className={cardBody}>
             <div className={tableRow}>
               <div className={cell}>
-                Oferta
+                {`${labelText.mycar.tableHead.offer}`}
               </div>
               <div className={cell}>
-                Receita
+                {`${labelText.mycar.tableHead.incoming}`}
               </div>
               <div className={`${cell} ${noBorder}`}>
-                Compra
+                {`${labelText.mycar.tableHead.purchase}`}
               </div>
             </div>
             <div className={tableRow}>
               <div className={`${cellEnd} ${noBorder} ${textRegular} ${textProd}`}>
-                S/0.000.00
+                {price}
               </div>
               <div className={`${cellEnd} ${noBorder} ${textRegular} ${textProd}`}>
-                S/0.000.00
+                {price}
               </div>
               <div className={`${cellEnd} ${noBorder} ${textRegular} ${textProd}`}>
                 <span className={textSub}>
-                  S/0.000.00
+                  {price}
                 </span>
                 <span>
-                  S/0.000.00
+                  {price}
                 </span>
               </div>
             </div>
@@ -90,7 +81,7 @@ const CardSlide = React.forwardRef<HTMLDivElement, CardSlideProps>(
 
             <Counter className={CorrectionPadding} onIncrement={() => 1} onDecrement={() => 2} />
             <span className={CorrectionPadding}>
-              <Button onClick={() => ''}>Atualizar</Button>
+              <Button onClick={() => ''}>{`${labelText.Slide.cardSlide.btnAdd}`}</Button>
             </span>
 
           </div>
