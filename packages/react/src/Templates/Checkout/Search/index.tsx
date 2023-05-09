@@ -6,13 +6,8 @@ import Button from '../../../components/Button'
 import Icon from '../../../components/Icon'
 import labelText from '../../mocks/labelText'
 
-interface SearchProps {
-    data: string
-}
-
-const Search = React.forwardRef<HTMLDivElement, SearchProps>(
+const Search = React.forwardRef<HTMLDivElement>(
   (props, ref) => {
-    const { data } = props
     const {
       container, title, subtitulo, containerSearch, searchRow,
       CorrectionPadding, width100, counterRow, wrapperIcon, iconPossition

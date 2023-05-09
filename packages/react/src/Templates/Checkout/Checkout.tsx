@@ -29,7 +29,7 @@ const Checkout: React.FC = () => {
               <Divider variant="full-bleed" />
 
               <div className={containerSearch}>
-                <Search data="Faça seus pedidos" />
+                <Search />
               </div>
 
             </div>
