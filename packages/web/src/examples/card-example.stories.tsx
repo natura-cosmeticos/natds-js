@@ -28,7 +28,9 @@ const useStyles = makeStyles(
       marginTop: 24
     }
   }),
-  { name: 'CardDemo' }
+  {
+    name: 'CardDemo'
+  }
 )
 
 const imageURL = 'https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-web@latest/dist/assets/product-empty-512x512.png'

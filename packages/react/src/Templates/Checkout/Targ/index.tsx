@@ -1,7 +1,8 @@
 import React from 'react'
 import styles from './styles'
 import { buildTheme } from '../../../ThemeProvider'
-import { BrandProps, brandTransform } from '../../mocks/mocks'
+import { brandTransform } from '../../mocks/mocks'
+import { BrandProps } from '../../GlobalTypes'
 
 type Mode = 'light' | 'dark'
 
