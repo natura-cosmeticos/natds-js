@@ -28,8 +28,8 @@ const useStyles = makeStyles(
       marginTop: 24
     }
   }),
-  { 
-    name: 'CardDemo' 
+  {
+    name: 'CardDemo'
   }
 )
 
