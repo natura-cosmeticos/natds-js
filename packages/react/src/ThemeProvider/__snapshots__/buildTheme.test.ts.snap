@@ -76,11 +76,11 @@ Object {
     "font": Object {
       "file": Object {
         "body": Object {
-          "bold": "helvetica_now_display_bd",
-          "regular": "helvetica_now_display_regular",
+          "bold": "roboto_medium",
+          "regular": "roboto_regular",
         },
-        "display": "helvetica_now_display_bd",
-        "headline": "helvetica_now_display_md",
+        "display": "roboto_regular",
+        "headline": "roboto_regular",
       },
     },
   },
@@ -1015,17 +1015,17 @@ Object {
   "typography": Object {
     "body": Object {
       "bold": Object {
-        "fontFamily": "Helvetica Now Text",
+        "fontFamily": "Roboto",
         "fontWeight": 700,
       },
       "regular": Object {
-        "fontFamily": "Helvetica Now Text",
+        "fontFamily": "Roboto",
         "fontWeight": 400,
       },
     },
     "display": Object {
-      "fontFamily": "Helvetica Now Display",
-      "fontWeight": 900,
+      "fontFamily": "Roboto",
+      "fontWeight": 700,
     },
     "fallback": Object {
       "fontFamily": "Arial",
@@ -1061,8 +1061,8 @@ Object {
       "regular": 400,
     },
     "headline": Object {
-      "fontFamily": "Helvetica Now Display",
-      "fontWeight": 700,
+      "fontFamily": "Roboto",
+      "fontWeight": 500,
     },
     "lineHeight": Object {
       "auto": 1,
