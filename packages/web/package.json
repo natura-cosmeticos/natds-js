@@ -58,7 +58,8 @@
     "test:coverage": "jest --coverage --silent",
     "test:ci": "yarn test:coverage && codecov -t",
     "test:output": "yarn test:coverage --json --outputFile=.jest-test-results.json || true",
-    "test:watch": "yarn test --watch"
+    "test:watch": "yarn test --watch",
+    "test:clean": "jest --update-snapshot"
   },
   "config": {},
   "dependencies": {

@@ -32,11 +32,11 @@ Object {
     "font": Object {
       "file": Object {
         "body": Object {
-          "bold": "helvetica_now_display_bd",
-          "regular": "helvetica_now_display_regular",
+          "bold": "roboto_medium",
+          "regular": "roboto_regular",
         },
-        "display": "helvetica_now_display_bd",
-        "headline": "helvetica_now_display_md",
+        "display": "roboto_regular",
+        "headline": "roboto_regular",
       },
     },
   },
@@ -815,11 +815,11 @@ Object {
   "typography": Object {
     "body": Object {
       "bold": Object {
-        "fontFamily": "\\"Helvetica Now Display\\", Arial",
+        "fontFamily": "\\"Roboto\\", Arial",
         "fontWeight": 700,
       },
       "regular": Object {
-        "fontFamily": "\\"Helvetica Now Display\\", Arial",
+        "fontFamily": "\\"Roboto\\", Arial",
         "fontWeight": 400,
       },
     },
@@ -855,12 +855,12 @@ Object {
       "lineHeight": 1.5,
     },
     "display": Object {
-      "fontFamily": "\\"Helvetica Now Display\\", Arial",
+      "fontFamily": "\\"Roboto\\", Arial",
       "fontWeight": 700,
     },
     "fontFamily": "\\"Roboto\\", sans-serif",
-    "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-    "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+    "fontFamilyBrand1": "\\"Roboto Display\\"",
+    "fontFamilyBrand2": "\\"Roboto Text\\"",
     "fontFamilyBrand3": null,
     "fontWeightBold": 700,
     "fontWeightLight": 300,
@@ -903,7 +903,7 @@ Object {
       "lineHeight": 1.5,
     },
     "headline": Object {
-      "fontFamily": "\\"Helvetica Now Display\\", Arial",
+      "fontFamily": "\\"Roboto\\", Arial",
       "fontWeight": 500,
     },
     "overline": Object {
@@ -960,11 +960,11 @@ Object {
     "font": Object {
       "file": Object {
         "body": Object {
-          "bold": "helvetica_now_display_bd",
-          "regular": "helvetica_now_display_regular",
+          "bold": "roboto_medium",
+          "regular": "roboto_regular",
         },
-        "display": "helvetica_now_display_bd",
-        "headline": "helvetica_now_display_md",
+        "display": "roboto_regular",
+        "headline": "roboto_regular",
       },
     },
   },
@@ -1035,24 +1035,28 @@ Object {
     "onBackground": "#333333",
     "onLink": "#ffffff",
     "onPrimary": "#333333",
-    "onPrimaryDark": "#333333",
-    "onPrimaryDarkest": "#333333",
+    "onPrimaryDark": "#ffffff",
+    "onPrimaryDarkest": "#ffffff",
     "onPrimaryLight": "#333333",
     "onPrimaryLightest": "#333333",
     "onSecondary": "#000000",
-    "onSecondaryDark": "#000000",
+    "onSecondaryDark": "#ffffff",
+    "onSecondaryDarkest": "#ffffff",
     "onSecondaryLight": "#000000",
+    "onSecondaryLightest": "#000000",
     "onSuccess": "#ffffff",
     "onSurface": "#333333",
     "onWarning": "#333333",
     "primary": "#f4ab34",
-    "primaryDark": "#ef8426",
+    "primaryDark": "#cd902c",
     "primaryDarkest": "#A67423",
-    "primaryLight": "#fefde8",
+    "primaryLight": "#f6b854",
     "primaryLightest": "#F8C675",
     "secondary": "#ff6b0b",
-    "secondaryDark": "#ff5808",
-    "secondaryLight": "#fff8e1",
+    "secondaryDark": "#d65a09",
+    "secondaryDarkest": "#ad4907",
+    "secondaryLight": "#ff8332",
+    "secondaryLightest": "#ff9a59",
     "success": "#569a32",
     "surface": "#ffffff",
     "warning": "#fcc433",
@@ -1262,7 +1266,7 @@ Object {
           "&.Mui-disabled": Object {
             "borderColor": "#0000003D",
           },
-          "borderColor": "#ef8426",
+          "borderColor": "#cd902c",
         },
       },
       "groupedContainedSecondary": Object {
@@ -1270,7 +1274,7 @@ Object {
           "&.Mui-disabled": Object {
             "borderColor": "#0000003D",
           },
-          "borderColor": "#ff5808",
+          "borderColor": "#d65a09",
         },
       },
       "groupedOutlinedHorizontal": Object {
@@ -1300,12 +1304,12 @@ Object {
     "MuiChip": Object {
       "clickableColorPrimary": Object {
         "&:hover": Object {
-          "backgroundColor": "#ef8426",
+          "backgroundColor": "#cd902c",
         },
       },
       "clickableColorSecondary": Object {
         "&:hover": Object {
-          "backgroundColor": "#ef8426",
+          "backgroundColor": "#cd902c",
         },
       },
       "deleteIcon": Object {
@@ -1635,14 +1639,14 @@ Object {
     },
     "primary": Object {
       "contrastText": "#333333",
-      "dark": "#ef8426",
-      "light": "#fefde8",
+      "dark": "#cd902c",
+      "light": "#f6b854",
       "main": "#f4ab34",
     },
     "secondary": Object {
       "contrastText": "#000000",
-      "dark": "#ff5808",
-      "light": "#fff8e1",
+      "dark": "#d65a09",
+      "light": "#ff8332",
       "main": "#ff6b0b",
     },
     "success": Object {
@@ -1718,11 +1722,11 @@ Object {
   "typography": Object {
     "body": Object {
       "bold": Object {
-        "fontFamily": "\\"Helvetica Now Display\\", Arial",
+        "fontFamily": "\\"Roboto\\", Arial",
         "fontWeight": 700,
       },
       "regular": Object {
-        "fontFamily": "\\"Helvetica Now Display\\", Arial",
+        "fontFamily": "\\"Roboto\\", Arial",
         "fontWeight": 400,
       },
     },
@@ -1758,12 +1762,12 @@ Object {
       "lineHeight": 1.5,
     },
     "display": Object {
-      "fontFamily": "\\"Helvetica Now Display\\", Arial",
+      "fontFamily": "\\"Roboto\\", Arial",
       "fontWeight": 700,
     },
     "fontFamily": "\\"Roboto\\", sans-serif",
-    "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-    "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+    "fontFamilyBrand1": "\\"Roboto Display\\"",
+    "fontFamilyBrand2": "\\"Roboto Text\\"",
     "fontFamilyBrand3": null,
     "fontWeightBold": 700,
     "fontWeightLight": 300,
@@ -1806,7 +1810,7 @@ Object {
       "lineHeight": 1.5,
     },
     "headline": Object {
-      "fontFamily": "\\"Helvetica Now Display\\", Arial",
+      "fontFamily": "\\"Roboto\\", Arial",
       "fontWeight": 500,
     },
     "overline": Object {
