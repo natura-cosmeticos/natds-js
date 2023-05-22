@@ -58,13 +58,14 @@
     "test:coverage": "jest --coverage --silent",
     "test:ci": "yarn test:coverage && codecov -t",
     "test:output": "yarn test:coverage --json --outputFile=.jest-test-results.json || true",
-    "test:watch": "yarn test --watch"
+    "test:watch": "yarn test --watch",
+    "test:clean": "jest --update-snapshot"
   },
   "devDependencies": {
     "codecov": "3.8.3"
   },
   "dependencies": {
-    "@naturacosmeticos/natds-themes": "0.29.2",
+    "@naturacosmeticos/natds-themes": "0.54.0",
     "hex-to-rgba": "2.0.1"
   },
   "publishConfig": {
