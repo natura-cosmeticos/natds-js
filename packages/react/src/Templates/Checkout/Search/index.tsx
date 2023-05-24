@@ -25,8 +25,7 @@ const Search = React.forwardRef<HTMLDivElement>(
           </span>
           <div className={searchRow}>
             <div className={wrapperIcon}>
-              <Icon className={iconPossition} name="outlined-action-search" color="highlight" />
-              <TextField className={width100} size="medium" id="T" placeholder={labelText.search.placeHolder} />
+              <TextField onClick={() => ''} ariaLabel="Search" action="icon" IconComponent={<Icon name="outlined-action-search" color="highlight" />} className={width100} size="medium" id="T" placeholder={labelText.search.placeHolder} />
             </div>
             <div className={counterRow}>
               <Counter className={CorrectionPadding} onIncrement={() => 1} onDecrement={() => 2} />

@@ -19,10 +19,10 @@ type TypographyVariant = {
 
 const setFontFamily = (theme: Theme) => ({ variant }: TypographyVariant) => {
   if (variant.includes('heading')) {
-    return theme.typography.headline.fontFamily
+    return `"${theme.typography.headline.fontFamily}"`
   }
 
-  return theme.typography.body.regular.fontFamily
+  return `"${theme.typography.body.regular.fontFamily}"`
 }
 
 const setTextTransform = () => ({ variant }: TypographyVariant) => {
@@ -40,7 +40,8 @@ const styles = createUseStyles((theme: Theme) => ({
     fontSize: ({ variant }: TypographyVariant) => theme[variant].fontSize,
     lineHeight: ({ variant }: TypographyVariant) => theme[variant].lineHeight,
     letterSpacing: ({ variant }: TypographyVariant) => theme[variant].letterSpacing,
-    textTransform: setTextTransform()
+    textTransform: setTextTransform(),
+    margin: 0
   }
 
 }))

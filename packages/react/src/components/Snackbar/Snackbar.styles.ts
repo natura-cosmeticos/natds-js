@@ -95,9 +95,11 @@ export const getColor = (theme: Theme) => (feedback: string): string | undefined
 
 const styles = createUseStyles<RuleNames, snackbarStyleProps, Theme>((theme: Theme) => ({
   snackbarContainer: {
-    fontFamily: theme.snackbar.content.fallback.fontFamily,
+    fontFamily: [
+      theme.snackbar.content.primary.fontFamily,
+      theme.snackbar.content.fallback.fontFamily],
     fontSize: theme.snackbar.content.fontSize,
-    fontWeight: theme.snackbar.content.fallback.fontWeight,
+    fontWeight: theme.snackbar.content.primary.fontWeight,
     justifyContent: 'center',
     alignItems: 'center',
     flexWrap: 'nowrap',
