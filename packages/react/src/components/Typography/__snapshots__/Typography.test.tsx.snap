@@ -2,9 +2,11 @@
 
 exports[`Typography component Body variants should render the component as body1 1`] = `
 Array [
-  ".text-0-2-1 {}
+  ".text-0-2-1 {
+  margin: 0;
+}
 .text-d0-0-2-2 {
-  font-family: Roboto;
+  font-family: \\"Roboto\\";
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -25,9 +27,11 @@ Array [
 
 exports[`Typography component Body variants should render the component as body2 1`] = `
 Array [
-  ".text-0-2-1 {}
+  ".text-0-2-1 {
+  margin: 0;
+}
 .text-d0-0-2-2 {
-  font-family: Roboto;
+  font-family: \\"Roboto\\";
   font-weight: 400;
   font-size: 14px;
   line-height: 1.5;
@@ -48,9 +52,11 @@ Array [
 
 exports[`Typography component Caption variant should render the component as caption 1`] = `
 Array [
-  ".text-0-2-1 {}
+  ".text-0-2-1 {
+  margin: 0;
+}
 .text-d0-0-2-2 {
-  font-family: Roboto;
+  font-family: \\"Roboto\\";
   font-weight: 400;
   font-size: 12px;
   line-height: 1.5;
@@ -71,9 +77,11 @@ Array [
 
 exports[`Typography component Heading variants should render the component as heading1 1`] = `
 Array [
-  ".text-0-2-1 {}
+  ".text-0-2-1 {
+  margin: 0;
+}
 .text-d0-0-2-2 {
-  font-family: Roboto;
+  font-family: \\"Roboto\\";
   font-weight: 400;
   font-size: 96px;
   line-height: 1.5;
@@ -94,9 +102,11 @@ Array [
 
 exports[`Typography component Heading variants should render the component as heading2 1`] = `
 Array [
-  ".text-0-2-1 {}
+  ".text-0-2-1 {
+  margin: 0;
+}
 .text-d0-0-2-2 {
-  font-family: Roboto;
+  font-family: \\"Roboto\\";
   font-weight: 400;
   font-size: 60px;
   line-height: 1.5;
@@ -117,9 +127,11 @@ Array [
 
 exports[`Typography component Heading variants should render the component as heading3 1`] = `
 Array [
-  ".text-0-2-1 {}
+  ".text-0-2-1 {
+  margin: 0;
+}
 .text-d0-0-2-2 {
-  font-family: Roboto;
+  font-family: \\"Roboto\\";
   font-weight: 400;
   font-size: 48px;
   line-height: 1.5;
@@ -140,9 +152,11 @@ Array [
 
 exports[`Typography component Heading variants should render the component as heading4 1`] = `
 Array [
-  ".text-0-2-1 {}
+  ".text-0-2-1 {
+  margin: 0;
+}
 .text-d0-0-2-2 {
-  font-family: Roboto;
+  font-family: \\"Roboto\\";
   font-weight: 400;
   font-size: 34px;
   line-height: 1.5;
@@ -163,9 +177,11 @@ Array [
 
 exports[`Typography component Heading variants should render the component as heading5 1`] = `
 Array [
-  ".text-0-2-1 {}
+  ".text-0-2-1 {
+  margin: 0;
+}
 .text-d0-0-2-2 {
-  font-family: Roboto;
+  font-family: \\"Roboto\\";
   font-weight: 400;
   font-size: 24px;
   line-height: 1.5;
@@ -186,9 +202,11 @@ Array [
 
 exports[`Typography component Heading variants should render the component as heading6 1`] = `
 Array [
-  ".text-0-2-1 {}
+  ".text-0-2-1 {
+  margin: 0;
+}
 .text-d0-0-2-2 {
-  font-family: Roboto;
+  font-family: \\"Roboto\\";
   font-weight: 500;
   font-size: 20px;
   line-height: 1.5;
@@ -209,9 +227,11 @@ Array [
 
 exports[`Typography component Overline variant should render the component as overline 1`] = `
 Array [
-  ".text-0-2-1 {}
+  ".text-0-2-1 {
+  margin: 0;
+}
 .text-d0-0-2-2 {
-  font-family: Roboto;
+  font-family: \\"Roboto\\";
   font-weight: 500;
   font-size: 12px;
   line-height: 1.5;
@@ -232,9 +252,11 @@ Array [
 
 exports[`Typography component Subtitle variants should render the component as subtitle1 1`] = `
 Array [
-  ".text-0-2-1 {}
+  ".text-0-2-1 {
+  margin: 0;
+}
 .text-d0-0-2-2 {
-  font-family: Roboto;
+  font-family: \\"Roboto\\";
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -255,9 +277,11 @@ Array [
 
 exports[`Typography component Subtitle variants should render the component as subtitle2 1`] = `
 Array [
-  ".text-0-2-1 {}
+  ".text-0-2-1 {
+  margin: 0;
+}
 .text-d0-0-2-2 {
-  font-family: Roboto;
+  font-family: \\"Roboto\\";
   font-weight: 500;
   font-size: 14px;
   line-height: 1.5;
@@ -278,9 +302,11 @@ Array [
 
 exports[`Typography component should render the component as body1 when variant is not defined 1`] = `
 Array [
-  ".text-0-2-1 {}
+  ".text-0-2-1 {
+  margin: 0;
+}
 .text-d0-0-2-2 {
-  font-family: Roboto;
+  font-family: \\"Roboto\\";
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
