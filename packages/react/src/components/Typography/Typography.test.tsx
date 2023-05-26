@@ -25,7 +25,7 @@ describe('Typography component', () => {
 
       expect([styles.toString(), component.container]).toMatchSnapshot()
       expect(component.getByRole('heading')).toBeInTheDocument()
-      expect(styles.includes('font-size: 60px;')).toBeTruthy()
+      expect(styles.includes('font-size: 64px;')).toBeTruthy()
     })
 
     it('should render the component as heading3', () => {
@@ -41,7 +41,7 @@ describe('Typography component', () => {
 
       expect([styles.toString(), component.container]).toMatchSnapshot()
       expect(component.getByRole('heading')).toBeInTheDocument()
-      expect(styles.includes('font-size: 34px;')).toBeTruthy()
+      expect(styles.includes('font-size: 32px;')).toBeTruthy()
     })
 
     it('should render the component as heading5', () => {

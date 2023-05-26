@@ -51,7 +51,7 @@ const styles = createUseStyles((theme: Theme) => ({
     ...setBaseStyle()(props),
     display: 'flex',
     gap: theme.spacing.tiny,
-    fontFamily: theme.typography.body.regular.fontFamily,
+    fontFamily: `"${theme.typography.body.regular.fontFamily}"`,
     padding: theme.spacing.small,
     borderRadius: theme.alert.borderRadius
   }),
