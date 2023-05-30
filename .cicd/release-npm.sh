@@ -1,11 +1,11 @@
 #!/bin/bash
 set -e
 
-if [ -z $(./.cicd/skip-commit.sh) ]; then
+#if [ -z $(./.cicd/skip-commit.sh) ]; then
 
     echo "release NPM"
  
-    BRANCH=$(bash ./.cicd/get-branch-name.sh)
+    BRANCH="main"
     RELEASE_BRANCH="alpha.${BRANCH}.$BUILD_NUMBER"
     COMMIT_MESSAGE=$(git log -1 --pretty=%s)
 
@@ -24,4 +24,4 @@ if [ -z $(./.cicd/skip-commit.sh) ]; then
     else
         echo "Nothing to publish"
     fi
-fi
+#fi
