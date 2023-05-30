@@ -3,6 +3,11 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+
+## [4.5.8](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@4.5.7...@naturacosmeticos/natds-web@4.5.8) (2022-05-29)
+
+* **natds-web:** removing helvetica font family
+
 ## [4.5.7](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@4.5.6...@naturacosmeticos/natds-web@4.5.7) (2022-03-09)
 
 
