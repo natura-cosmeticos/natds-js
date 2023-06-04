@@ -10,6 +10,7 @@ const RadioButton = React.forwardRef<HTMLInputElement, RadioButtonProps>(({
   className = '',
   disabled = false,
   id,
+  brand,
   label,
   name,
   onBlur,
@@ -21,7 +22,7 @@ const RadioButton = React.forwardRef<HTMLInputElement, RadioButtonProps>(({
 }, ref) => {
   const {
     radioButton, wrapper, container, labelText
-  } = styles({ disabled })
+  } = styles({ disabled, brand })
 
   const getRippleColor = checked && !disabled ? 'primary' : 'highlight'
 

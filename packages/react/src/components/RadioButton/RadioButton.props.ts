@@ -1,3 +1,5 @@
+import { BrandTypes } from '../../brandTypes/brandTypes'
+
 export interface RadioButtonProps {
 
   /**
@@ -10,6 +12,10 @@ export interface RadioButtonProps {
    * Specify an optional className to be added to your Badge
    */
   className?: string
+  /**
+   * Specify an optional Brand to be added to your Badge
+   */
+  brand?: BrandTypes
 
   /**
    * If `true`, the RadioButton will be disabled.
