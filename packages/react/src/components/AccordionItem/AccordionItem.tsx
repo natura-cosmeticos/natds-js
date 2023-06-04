@@ -9,6 +9,7 @@ const AccordionItem = React.forwardRef<HTMLDivElement, AccordionItemProps>(
     const {
       className = '',
       title,
+      brand,
       legend: legendText,
       color = 'regular',
       isActive = false,
@@ -19,14 +20,16 @@ const AccordionItem = React.forwardRef<HTMLDivElement, AccordionItemProps>(
     } = props
     const {
       wrapper, header, content, legend
-    } = styles({ color, isActive, isDisabled })
+    } = styles({
+      color, isActive, isDisabled, brand
+    })
 
     const setIconColor = (): keyof Color => {
       if (isDisabled) {
         return 'mediumEmphasis'
       }
 
-      return color === 'regular' ? 'primary' : 'highEmphasis'
+      return color === 'regular' ? 'primary' : 'onPrimary'
     }
 
     return (

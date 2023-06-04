@@ -1,10 +1,15 @@
+/* eslint-disable no-nested-ternary */
+/* eslint-disable complexity */
 import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
+import { buildTheme } from '../../ThemeProvider'
+import { BrandTypes } from '../../brandTypes/brandTypes'
 
 type StyleProps = {
   color: 'regular' | 'primary',
   isActive: boolean,
-  isDisabled: boolean
+  isDisabled: boolean,
+  brand: BrandTypes | undefined
 }
 
 const overlay = (theme: Theme) => ({
@@ -33,12 +38,14 @@ const applyClickStyle = (theme: Theme) => {
   return baseOverlay
 }
 
-const setBackgroundColor = (theme: Theme) => ({ isDisabled, color }: StyleProps) => {
+const setBackgroundColor = (theme: Theme) => ({ isDisabled, color, brand }: StyleProps) => {
+  const themeBrandSelect = buildTheme(brand, 'light')
+
   if (isDisabled) {
     return theme.color.lowEmphasis
   }
 
-  return color === 'regular' ? theme.color.surface : theme.color.primary
+  return color === 'regular' ? theme.color.surface : (brand ? themeBrandSelect.color.primary : theme.color.primary)
 }
 
 const setLegendColor = (theme: Theme) => ({ isDisabled, color }: StyleProps) => {
@@ -47,6 +54,14 @@ const setLegendColor = (theme: Theme) => ({ isDisabled, color }: StyleProps) => 
   }
 
   return color === 'regular' ? theme.color.mediumEmphasis : theme.color.highEmphasis
+}
+const setHeaderColor = (theme: Theme) => ({ isDisabled, color, brand }: StyleProps) => {
+  const themeBrandSelect = buildTheme(brand, 'light')
+  if (isDisabled) {
+    return theme.color.mediumEmphasis
+  }
+
+  return color === 'regular' ? theme.color.mediumEmphasis : (brand ? themeBrandSelect.color.onPrimary : theme.color.onPrimary)
 }
 
 const styles = createUseStyles((theme: Theme) => ({
@@ -66,6 +81,7 @@ const styles = createUseStyles((theme: Theme) => ({
     flexDirection: 'column',
     padding: `${theme.spacing.small}px ${theme.spacing.standard}px`,
     position: 'relative',
+    color: setHeaderColor(theme)(props),
     background: setBackgroundColor(theme)(props),
     '& > div': {
       display: 'flex',
