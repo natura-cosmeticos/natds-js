@@ -1,8 +1,14 @@
+import { BrandTypes } from '../../brandTypes/brandTypes'
+
 export interface SwitchProps {
   /**
    * Specify an optional className to be added to your Switch
    */
   className?: string
+  /**
+   * Specify an optional className to be added to your Switch
+   */
+  brand?: BrandTypes
 
   /**
    * If `true`, the component is checked.
