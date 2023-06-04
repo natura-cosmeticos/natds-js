@@ -1,13 +1,14 @@
 import React from 'react'
+import styles from './Shortcut.styles'
 import IconButtonBase from '../IconButton/IconButtonBase'
 import { Label } from '../Label'
-import styles from './Shortcut.styles'
 import { ShortcutProps } from './Shortcut.props'
 
 const Shortcut = React.forwardRef<HTMLButtonElement, ShortcutProps>(
   (props, ref) => {
     const {
       className = '',
+      brand,
       ariaLabel,
       disabled = false,
       onClick,
@@ -23,7 +24,7 @@ const Shortcut = React.forwardRef<HTMLButtonElement, ShortcutProps>(
     const {
       container, content, labelText, badgeContainer, wrapper
     } = styles({
-      variant, color, disabled, breakLine
+      variant, color, disabled, breakLine, brand
     })
 
     return (
