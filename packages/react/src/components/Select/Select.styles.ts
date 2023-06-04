@@ -1,11 +1,14 @@
 import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
+import { BrandTypes } from '../../brandTypes/brandTypes'
+import { buildTheme } from '../../ThemeProvider'
 
 type SelectStyleProps = {
   size: 'medium' | 'mediumX'
   isFilled: boolean,
   isDisabled: boolean
   feedback?: 'error' | 'success'
+  brand?: BrandTypes
 }
 
 const getBorderColor = (theme:Theme) => ({ isFilled, feedback, isDisabled }: SelectStyleProps) => {
@@ -28,6 +31,14 @@ const getLabelColor = (theme: Theme) => ({ feedback, isDisabled }: SelectStylePr
   if (feedback === 'success') return theme.color.success
 
   return theme.color.mediumEmphasis
+}
+const getThemeFocus = (theme: Theme) => ({ brand }: SelectStyleProps) => {
+  const themeSelectFocus = buildTheme(brand, 'light')
+
+  if (brand) {
+    return themeSelectFocus.color.primary
+  }
+  return theme.color.primary
 }
 
 const styles = createUseStyles((theme: Theme) => ({
@@ -70,7 +81,7 @@ const styles = createUseStyles((theme: Theme) => ({
     boxSizing: 'border-box',
 
     '&:focus:enabled': {
-      borderColor: theme.color.primary,
+      borderColor: getThemeFocus(theme),
       color: theme.color.mediumEmphasis
     },
 
