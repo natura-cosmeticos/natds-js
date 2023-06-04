@@ -9,6 +9,7 @@ const TextField = React.forwardRef<HTMLInputElement, TextFieldProps>(({
   feedback,
   helperText,
   id,
+  brand,
   isResizable = false,
   label,
   minRows = 3,
@@ -33,6 +34,7 @@ const TextField = React.forwardRef<HTMLInputElement, TextFieldProps>(({
     <div data-testid={testID} className={className}>
       <Label htmlFor={id} required={required} label={label} className={labelText} />
       <Input
+        brand={brand}
         id={id}
         disabled={disabled}
         onBlur={onBlur}
