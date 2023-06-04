@@ -1,3 +1,5 @@
+import { BrandTypes } from '../../brandTypes/brandTypes'
+
 export interface CheckboxProps {
   /**
    * If `true`, the component is checked
@@ -9,6 +11,10 @@ export interface CheckboxProps {
    * Specify an optional className to be added to your Checkbox
    */
   className?: string
+  /**
+   * Specify an optional Brand to be added to your Checkbox
+   */
+  brand?: BrandTypes
 
   /**
    * If `true`, the Checkbox will be disabled.

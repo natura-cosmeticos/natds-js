@@ -9,6 +9,7 @@ const Checkbox = React.forwardRef<HTMLInputElement, CheckboxProps>(({
   className = '',
   disabled = false,
   id,
+  brand,
   indeterminate = false,
   onChange,
   testID = `ds-checkbox-${id}`,
@@ -17,7 +18,7 @@ const Checkbox = React.forwardRef<HTMLInputElement, CheckboxProps>(({
 }, ref) => {
   const {
     checkbox, wrapper, container, labelText
-  } = styles({ indeterminate, disabled })
+  } = styles({ indeterminate, disabled, brand })
 
   const getRippleColor = checked && !disabled ? 'primary' : 'highlight'
 
