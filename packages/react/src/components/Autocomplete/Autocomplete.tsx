@@ -13,6 +13,7 @@ const Autocomplete = React.forwardRef<HTMLInputElement, AutocompleteProps>(
       label,
       size = 'mediumX',
       value,
+      brand,
       options,
       feedback,
       placeholder,
@@ -38,7 +39,7 @@ const Autocomplete = React.forwardRef<HTMLInputElement, AutocompleteProps>(
       menuOptionsWrapper,
       optionsItem
     } = styles({
-      size, isFilled: !!value, feedback, isDisabled: disabled, position, readonly
+      size, isFilled: !!value, feedback, isDisabled: disabled, position, readonly, brand
     })
 
     const handleToggle = () => {

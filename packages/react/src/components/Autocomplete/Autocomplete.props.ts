@@ -1,3 +1,5 @@
+import { BrandTypes } from '../../brandTypes/brandTypes'
+
 export interface OptionProps {
   value: string
   label: string
@@ -9,6 +11,11 @@ export interface AutocompleteProps {
    * Specify an optional className to be added to your Select
    */
  className?: string
+
+/**
+   * Specify an optional className to be added to your Select
+   */
+ brand?: BrandTypes
 
  /**
   * Optional ID for testing
