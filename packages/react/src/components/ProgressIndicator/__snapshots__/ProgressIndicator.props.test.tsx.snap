@@ -15,7 +15,6 @@ Array [
 }
 .loader-0-2-2 svg circle {
   fill: none;
-  stroke: #f4ab34;
   animation: keyframes-spin-0-2-3 1.7s linear infinite;
   stroke-width: 4;
   stroke-linecap: round;
@@ -53,6 +52,10 @@ Array [
   .loader-d1-0-2-6 {
     height: 48px;
     width: 48px;
+  }
+  .loader-d1-0-2-6 svg {  }
+  .loader-d1-0-2-6 svg circle {
+    stroke: #f4ab34;
   }",
   <div>
     <div
@@ -94,7 +97,6 @@ Array [
 }
 .loader-0-2-2 svg circle {
   fill: none;
-  stroke: #f4ab34;
   animation: keyframes-spin-0-2-3 1.7s linear infinite;
   stroke-width: 4;
   stroke-linecap: round;
@@ -131,6 +133,10 @@ Array [
   .loader-d1-0-2-6 {
     height: 48px;
     width: 48px;
+  }
+  .loader-d1-0-2-6 svg {  }
+  .loader-d1-0-2-6 svg circle {
+    stroke: #f4ab34;
   }",
   <div>
     <div
@@ -172,7 +178,6 @@ Array [
 }
 .loader-0-2-2 svg circle {
   fill: none;
-  stroke: #f4ab34;
   animation: keyframes-spin-0-2-3 1.7s linear infinite;
   stroke-width: 4;
   stroke-linecap: round;
@@ -209,6 +214,10 @@ Array [
   .loader-d1-0-2-6 {
     height: 24px;
     width: 24px;
+  }
+  .loader-d1-0-2-6 svg {  }
+  .loader-d1-0-2-6 svg circle {
+    stroke: #f4ab34;
   }",
   <div>
     <div
