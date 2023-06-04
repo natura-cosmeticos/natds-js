@@ -1,10 +1,15 @@
 import { IconName } from '@naturacosmeticos/natds-icons'
+import { BrandTypes } from '../../brandTypes/brandTypes'
 
 export interface ChipProps {
   /**
    * Specify an optional className to be added to your Chip
    */
   className?: string
+  /**
+   * Specify an optional brand to be added to your Chip
+   */
+  brand?: BrandTypes
 
   /**
    * Optional ID for testing

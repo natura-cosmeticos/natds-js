@@ -12,6 +12,7 @@ const Chip = React.forwardRef<HTMLButtonElement, ChipProps>(
       labelText,
       leftIcon,
       rightIcon,
+      brand,
       color = 'neutral',
       leftAvatar,
       rightAvatar,
@@ -27,6 +28,7 @@ const Chip = React.forwardRef<HTMLButtonElement, ChipProps>(
 
     const { wrapper, label } = styles({
       color,
+      brand,
       hasLeftAvatar: !!leftAvatar,
       hasRightAvatar: !!rightAvatar,
       hasLeftIcon: !!leftIcon,

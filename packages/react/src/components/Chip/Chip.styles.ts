@@ -1,5 +1,7 @@
 import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
+import { BrandTypes } from '../../brandTypes/brandTypes'
+import { buildTheme } from '../../ThemeProvider'
 
 type ChipStyleProps = {
   color: 'neutral' | 'primary' | 'secondary' | 'custom',
@@ -13,32 +15,37 @@ type ChipStyleProps = {
   customBorderColor?: string,
   customLabelColor?: string,
   size: 'semi' | 'semiX' | 'medium'
+  brand?: BrandTypes
 }
 
 const getBorderColor = (theme:Theme) => ({
   color,
   isSelected,
-  customBorderColor
+  customBorderColor,
+  brand
 }: ChipStyleProps) => {
+  const themeSelect = buildTheme(brand, 'light')
   if (isSelected) return 'transparent'
 
   if (color === 'neutral') return theme.color.lowEmphasis
 
   if (color === 'custom') return customBorderColor
 
-  return theme.color[color]
+  return (brand ? themeSelect.color[color] : theme.color[color])
 }
 
 // eslint-disable-next-line complexity
 const getBackgroundColor = (theme:Theme) => ({
   color,
   isSelected,
-  customBackground
+  customBackground,
+  brand
 }: ChipStyleProps) => {
+  const themeSeleBack = buildTheme(brand, 'light')
   if (isSelected) {
-    if (color === 'neutral' || color === 'primary') return theme.color.primary
+    if (color === 'neutral' || color === 'primary') return (brand ? themeSeleBack.color.primary : theme.color.primary)
 
-    if (color === 'secondary') return theme.color.secondary
+    if (color === 'secondary') return (brand ? themeSeleBack.color.secondary : theme.color.secondary)
 
     if (color === 'custom') return customBackground
   }
@@ -50,12 +57,14 @@ const getBackgroundColor = (theme:Theme) => ({
 const getLabelColor = (theme:Theme) => ({
   color,
   isSelected,
-  customLabelColor
+  customLabelColor,
+  brand
 }: ChipStyleProps) => {
+  const themeSeleLabel = buildTheme(brand, 'light')
   if (isSelected) {
-    if (color === 'neutral' || color === 'primary') return theme.color.onPrimary
+    if (color === 'neutral' || color === 'primary') return (brand ? themeSeleLabel.color.onPrimary : theme.color.onPrimary)
 
-    if (color === 'secondary') return theme.color.onSecondary
+    if (color === 'secondary') return (brand ? themeSeleLabel.color.onSecondary : theme.color.onSecondary)
 
     if (color === 'custom') return customLabelColor
   }
@@ -80,7 +89,8 @@ const styles = createUseStyles((theme: Theme) => ({
     overflow: 'hidden',
 
     '&:hover:not([disabled])': {
-      background: '#F0F0F0'
+      background: '#F0F0F0',
+      color: '#000'
     },
 
     '&:disabled': {
