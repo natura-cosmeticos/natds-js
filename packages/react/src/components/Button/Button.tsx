@@ -10,6 +10,8 @@ import styles from './Button.styles'
 const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(({
   children,
   className = '',
+  brand,
+  labelTransform = 'uppercase',
   disabled = false,
   fullWidth = false,
   iconPosition = 'right',
@@ -22,10 +24,12 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(({
 }, ref) => {
   const { button, label, labelContainer } = styles({
     disabled,
+    brand,
     fullWidth,
     iconPosition,
     size,
     variant,
+    labelTransform,
     ...rest
   })
 

@@ -1,5 +1,6 @@
 import { IconName } from '@naturacosmeticos/natds-icons'
 import { Size } from '@naturacosmeticos/natds-themes'
+import { BrandTypes } from '../../brandTypes/brandTypes'
 
 export type IconPosition = 'left' | 'right'
 export type ButtonSize = keyof Pick<Size, 'semi' | 'semiX' | 'medium'>
@@ -11,7 +12,14 @@ export interface ButtonBaseProps {
    * Use it in cases where a text label is not visible on the screen.
    */
   ariaLabel?: string
-
+  /**
+   * Specify an optional brand to be added to your Button
+   */
+  brand?: BrandTypes
+  /**
+   * Specify an optional textTransform to be added to your Button
+   */
+  labelTransform?: 'uppercase' | 'lowercase' | 'capitalize'
   /**
    * Specify whether the Button should be disabled, or not
    * @default false
