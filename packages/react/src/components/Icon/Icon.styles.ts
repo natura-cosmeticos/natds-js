@@ -1,14 +1,23 @@
 import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { IconProps } from './Icon.props'
+import { buildTheme } from '../../ThemeProvider'
 
-type IconStyleProps = Required<Pick<IconProps, 'size' | 'color' >>
+type IconStyleProps = Pick<IconProps, 'size' | 'color' | 'brand' >
+
+const getColorThemeIcon = (theme: Theme) => ({ brand, color }: IconStyleProps) => {
+  const themeSelectIcon = buildTheme(brand, 'light')
+  if (brand) {
+    return color && themeSelectIcon.color[color]
+  }
+  return color && theme.color[color]
+}
 
 const styles = createUseStyles((theme: Theme) => ({
   icon: {
-    color: ({ color }: IconStyleProps) => theme.color[color],
+    color: ({ color, brand }: IconStyleProps) => getColorThemeIcon(theme)({ brand, color }),
     fontFamily: 'natds-icons',
-    fontSize: ({ size }: IconStyleProps) => theme.size[size],
+    fontSize: ({ size }: IconStyleProps) => size && theme.size[size],
     pointerEvents: 'none',
     userSelect: 'none'
   }

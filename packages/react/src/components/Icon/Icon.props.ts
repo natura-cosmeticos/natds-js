@@ -1,5 +1,6 @@
 import { IconName } from '@naturacosmeticos/natds-icons'
 import { Color, Size } from '@naturacosmeticos/natds-themes'
+import { BrandTypes } from '../../brandTypes/brandTypes'
 
 export type IconSize = keyof Size
 export type IconColor = keyof Color
@@ -10,6 +11,8 @@ export interface IconProps {
    * @default true
    */
   ariaHidden?: boolean
+
+  brand?: BrandTypes
 
   /**
    * Use to define a string that labels the current element
