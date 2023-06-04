@@ -1,4 +1,5 @@
 import { Size } from '@naturacosmeticos/natds-themes'
+import { BrandTypes } from '../../brandTypes/brandTypes'
 
 export type InputSize = keyof Pick<Size, 'medium' | 'mediumX'>
 export type InputType = 'text' | 'password' | 'multiline'
@@ -10,6 +11,10 @@ export interface BaseProps {
    * Specify an optional className to be added to your Input
    */
   className?: string
+  /**
+   * Specify an optional className to be added to your Input
+   */
+  brand?: BrandTypes
 
   /**
   * If `true`, the component is disabled.
