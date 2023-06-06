@@ -11,7 +11,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(({
   children,
   className = '',
   brand,
-  labelTransform = 'uppercase',
+  textTransform = 'uppercase',
   disabled = false,
   fullWidth = false,
   iconPosition = 'right',
@@ -29,7 +29,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(({
     iconPosition,
     size,
     variant,
-    labelTransform,
+    textTransform,
     ...rest
   })
 

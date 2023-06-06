@@ -54,8 +54,8 @@ Variants.args = { ...Playground.args }
 export const LabelTransform: Story<ButtonProps> = (args) => (
   <StoryContainer>
     <Button {...args} variant="contained" />
-    <Button labelTransform="capitalize" {...args} variant="contained" />
-    <Button labelTransform="lowercase" {...args} variant="contained" />
+    <Button textTransform="capitalize" {...args} variant="contained" />
+    <Button textTransform="lowercase" {...args} variant="contained" />
   </StoryContainer>
 )
 LabelTransform.args = { ...Playground.args }

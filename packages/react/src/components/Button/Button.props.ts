@@ -19,7 +19,7 @@ export interface ButtonBaseProps {
   /**
    * Specify an optional textTransform to be added to your Button
    */
-  labelTransform?: 'uppercase' | 'lowercase' | 'capitalize'
+  textTransform?: 'uppercase' | 'lowercase' | 'capitalize'
   /**
    * Specify whether the Button should be disabled, or not
    * @default false

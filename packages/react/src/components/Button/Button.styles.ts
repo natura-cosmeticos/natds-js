@@ -7,7 +7,7 @@ import { buildTheme } from '../../ThemeProvider'
 import { ButtonProps } from './Button.props'
 import { BrandTypes } from '../../brandTypes/brandTypes'
 
-type ButtonStyleProps = Pick<ButtonProps, 'size' | 'showIcon' | 'iconPosition' | 'variant' | 'fullWidth' | 'disabled'| 'brand' | 'labelTransform'>
+type ButtonStyleProps = Pick<ButtonProps, 'size' | 'showIcon' | 'iconPosition' | 'variant' | 'fullWidth' | 'disabled'| 'brand' | 'textTransform'>
 
 const getPaddingStyles = (theme: Theme) => ({ size }: ButtonStyleProps) => {
   const padding = {
@@ -110,7 +110,7 @@ const styles = createUseStyles((theme: Theme) => ({
     marginRight: getLabelMargin(theme, 'right'),
     textAlign: 'center',
     textOverflow: 'ellipsis',
-    textTransform: ({ labelTransform }) => labelTransform,
+    textTransform: ({ textTransform }) => textTransform,
     userSelect: 'none',
     whiteSpace: 'nowrap'
   }
