@@ -62,6 +62,12 @@ const getColorBrand = (theme: Theme) => (brand: BrandTypes, { variant }: ButtonS
 const getLabelMargin = (theme: Theme, side: string) => ({ showIcon, iconPosition }: ButtonStyleProps) => (showIcon && iconPosition === side && theme.size.tiny)
 const getIconPosition = () => ({ showIcon, iconPosition }: ButtonStyleProps) => (showIcon && iconPosition === 'right' ? 'row' : 'row-reverse')
 
+const getletterSpacing = (theme: Theme) => ({ textTransform }: ButtonStyleProps) => {
+  if (textTransform === 'capitalize' || textTransform === 'lowercase') {
+    return 1
+  }
+  return theme.button.label.letterSpacing
+}
 const styles = createUseStyles((theme: Theme) => ({
   button: {
     backgroundColor: ({ variant, brand }: ButtonStyleProps) => variant && (brand ? getColorBrand(theme)(brand, { variant })?.back : theme.button[variant].color.enable.background),
@@ -105,7 +111,7 @@ const styles = createUseStyles((theme: Theme) => ({
     fontFamily: [theme.button.label.primary.fontFamily, theme.button.label.fallback.fontFamily],
     fontSize: theme.button.label.fontSize,
     fontWeight: theme.button.label.primary.fontWeight,
-    letterSpacing: theme.button.label.letterSpacing,
+    letterSpacing: ({ textTransform }: ButtonStyleProps) => getletterSpacing(theme)({ textTransform }),
     marginLeft: getLabelMargin(theme, 'left'),
     marginRight: getLabelMargin(theme, 'right'),
     textAlign: 'center',
