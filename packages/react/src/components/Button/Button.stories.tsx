@@ -14,6 +14,11 @@ const componentStatus = `
 
 With the following attribute status:
 
+- **textTransform**
+    - ✅ \`uppercase\`
+    - ✅ \`lowercase\`
+    - ✅ \`capitalize\`
+
 - **Size**
     - ✅ \`semi\`
     - ✅ \`semiX\`
