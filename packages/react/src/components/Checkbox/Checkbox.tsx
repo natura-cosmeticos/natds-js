@@ -26,6 +26,7 @@ const Checkbox = React.forwardRef<HTMLInputElement, CheckboxProps>(({
     <div className={`${className} ${container}`}>
       <Ripple
         isCentered
+        brand={brand}
         hideOverflow={false}
         disabled={disabled}
         color={getRippleColor}

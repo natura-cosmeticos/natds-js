@@ -29,6 +29,7 @@ const RadioButton = React.forwardRef<HTMLInputElement, RadioButtonProps>(({
   return (
     <div className={`${className} ${container}`}>
       <Ripple
+        brand={brand}
         isCentered
         hideOverflow={false}
         disabled={disabled}
