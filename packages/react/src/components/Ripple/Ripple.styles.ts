@@ -3,9 +3,18 @@
 import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { RippleProps } from './Ripple.props'
+import { buildTheme } from '../../ThemeProvider'
 
-type RippleStyleProps = Required<Pick<RippleProps, 'color' | 'hideOverflow' | 'disabled' | 'fullWidth' | 'showHover' | 'animationDuration'>> &
+type RippleStyleProps = Pick<RippleProps, 'color' | 'hideOverflow' | 'disabled' | 'fullWidth' | 'showHover' | 'animationDuration' | 'brand'> &
 { size: number, mousePosition: { x: number, y: number }, isCentered: boolean }
+
+const getColorThemeRipple = (theme: Theme) => ({ brand, color }: Pick<RippleStyleProps, 'brand' | 'color'>) => {
+  if (brand) {
+    const themeSelectdRipple = buildTheme(brand, 'light')
+    return color && themeSelectdRipple.color[color]
+  }
+  return color && theme.color[color]
+}
 
 const styles = createUseStyles((theme: Theme) => ({
   sharedRippleEffect: {
@@ -27,17 +36,17 @@ const styles = createUseStyles((theme: Theme) => ({
     height: 'fit-content',
     '&:focus:after': {
       extend: 'sharedRippleEffect',
-      backgroundColor: ({ color, disabled }: RippleStyleProps) => !disabled && theme.color[color],
+      backgroundColor: ({ color, disabled, brand }: RippleStyleProps) => !disabled && color && getColorThemeRipple(theme)({ brand, color }),
       opacity: theme.opacity.mediumLow
     },
     '&:hover:after': {
       extend: 'sharedRippleEffect',
-      backgroundColor: ({ color }: RippleStyleProps) => theme.color[color],
+      backgroundColor: ({ brand, color }: RippleStyleProps) => color && getColorThemeRipple(theme)({ brand, color }),
       opacity: ({ showHover, disabled }: RippleStyleProps) => (!disabled && showHover ? theme.opacity.mediumLow : 0)
     }
   },
   ripple: {
-    backgroundColor: ({ color }: RippleStyleProps) => theme.color[color],
+    backgroundColor: ({ color, brand }: RippleStyleProps) => getColorThemeRipple(theme)({ brand, color }),
     borderRadius: '50%',
     height: ({ size }) => size,
     left: ({ mousePosition, isCentered }) => (isCentered ? '50%' : mousePosition.x),
