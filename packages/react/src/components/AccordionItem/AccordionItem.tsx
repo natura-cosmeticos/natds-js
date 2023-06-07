@@ -42,6 +42,7 @@ const AccordionItem = React.forwardRef<HTMLDivElement, AccordionItemProps>(
           <div>
             {title}
             <Icon
+              brand={brand}
               name={
             isActive
               ? 'outlined-navigation-arrowtop'
