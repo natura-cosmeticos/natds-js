@@ -7,6 +7,8 @@ const getTheme = (themeKey) => {
   const themesMap = {
     avonDark: { brand: 'avon', mode: 'dark' },
     avonLight: { brand: 'avon', mode: 'light' },
+    avonV2Dark: { brand: 'avon_v2', mode: 'dark' },
+    avonV2Light: { brand: 'avon_v2', mode: 'light' },
     naturaDark: { brand: 'natura', mode: 'dark' },
     naturaLight: { brand: 'natura', mode: 'light' },
     theBodyShopDark: { brand: 'theBodyShop', mode: 'dark' },
