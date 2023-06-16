@@ -74,7 +74,7 @@ export const avonV2Dark: ITheme = {
       main: avonV2DarkColorTokens.colorSecondary,
       light: avonV2DarkColorTokens.colorSecondaryLight,
       dark: avonV2DarkColorTokens.colorSecondaryDark,
-      contrastText: avonV2DarkColorTokens.colorOnSecondaryLight
+      contrastText: avonV2DarkColorTokens.colorOnSecondary
     },
     error: {
       main: avonV2DarkColorTokens.colorAlert,
@@ -115,6 +115,7 @@ export const avonV2Dark: ITheme = {
         color: avonV2DarkColorTokens.colorHighEmphasis
       },
       outlinedSecondary: {
+        borderColor: `${avonV2DarkColorTokens.colorHighlight}3D`,
         color: avonV2DarkColorTokens.colorHighEmphasis,
         '&.Mui-disabled': {
           borderColor: `${avonV2DarkColorTokens.colorHighlight}3D`
@@ -134,6 +135,14 @@ export const avonV2Dark: ITheme = {
       },
       text: {
         padding: null,
+        '&.Mui-disabled': {
+          color: `${avonV2DarkColorTokens.colorHighlight}3D`,
+          borderColor: `${avonV2DarkColorTokens.colorHighlight}3D`
+        }
+      },
+      textSecondary: {
+        padding: null,
+        color: `${avonV2DarkColorTokens.colorHighlight}`,
         '&.Mui-disabled': {
           color: `${avonV2DarkColorTokens.colorHighlight}3D`,
           borderColor: `${avonV2DarkColorTokens.colorHighlight}3D`
