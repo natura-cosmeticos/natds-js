@@ -62,7 +62,7 @@ const RowCart = React.forwardRef<HTMLDivElement, IDataCartProps>(
                   <div className={cardFooter}>
                     <Counter className={CorrectionPadding} onIncrement={() => 1} onDecrement={() => 2} />
                     <span className={CorrectionPadding}>
-                      <Button onClick={() => ''}>{`${labelText.mycar.tableCardRow.btnUpdate}`}</Button>
+                      <Button brand={theme} onClick={() => ''}>{`${labelText.mycar.tableCardRow.btnUpdate}`}</Button>
                     </span>
                   </div>
 

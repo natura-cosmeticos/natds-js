@@ -11,6 +11,7 @@ const Select = React.forwardRef<HTMLDivElement, SelectProps>(
       testID,
       label,
       name,
+      brand,
       placeholder,
       options,
       size = 'mediumX',
@@ -24,7 +25,7 @@ const Select = React.forwardRef<HTMLDivElement, SelectProps>(
     const {
       wrapper, labelText, inputWrapper, input, icon
     } = styles({
-      size, isFilled: !!value, feedback, isDisabled: disabled
+      size, isFilled: !!value, feedback, isDisabled: disabled, brand
     })
 
     return (

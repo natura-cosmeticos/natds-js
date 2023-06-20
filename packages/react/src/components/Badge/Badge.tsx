@@ -8,6 +8,7 @@ export const isBadgeStandard = (props: BadgeProps): props is BadgeStandardProps 
 const Badge = React.forwardRef<HTMLDivElement, BadgeProps>((props, ref) => {
   const {
     ariaHidden,
+    brand,
     ariaLabel,
     className = '',
     color = 'alert',
@@ -16,7 +17,7 @@ const Badge = React.forwardRef<HTMLDivElement, BadgeProps>((props, ref) => {
     ...rest
   } = props
 
-  const { badge, label } = styles({ variant, color })
+  const { badge, label } = styles({ variant, color, brand })
 
   return (
     <div

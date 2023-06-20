@@ -1,5 +1,6 @@
 import { IconName } from '@naturacosmeticos/natds-icons'
 import { Size } from '@naturacosmeticos/natds-themes'
+import { BrandTypes } from '../../brandTypes/brandTypes'
 
 export type AvatarSizes = keyof Pick<Size, 'standard' | 'semi' | 'semiX' | 'medium' | 'largeXXX'>;
 
@@ -8,6 +9,10 @@ export type AvatarBaseProps = {
    * Specify an optional className to be added to your Avatar
    */
   className?: string
+  /**
+   * Specify an optional className to be added to your Avatar
+   */
+  brand?: BrandTypes
 
   /**
    * Optional ID for testing

@@ -1,9 +1,11 @@
+/* eslint-disable complexity */
 /* eslint-disable max-len */
 import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { ShortcutProps } from './Shortcut.props'
+import { buildTheme } from '../../ThemeProvider'
 
-type ShortcutStyleProps = Pick<ShortcutProps, 'variant' | 'disabled' | 'color' | 'breakLine'>
+type ShortcutStyleProps = Pick<ShortcutProps, 'variant' | 'disabled' | 'color' | 'breakLine' | 'brand'>
 
 const setBoxShadow = (theme: Theme) => ({ variant, disabled }: ShortcutStyleProps) => variant === 'contained' && !disabled && theme.elevation.tiny
 const setLabelColor = (theme: Theme) => (
@@ -11,6 +13,29 @@ const setLabelColor = (theme: Theme) => (
 ) => (
   color && variant && !disabled ? theme.shortcut[variant].color.enable[color].label : theme.shortcut[variant].color.disable[color].label
 )
+
+const themeSelectBrand = (theme: Theme) => ({ brand, variant, color }: ShortcutStyleProps) => {
+  const themeSlectShort = buildTheme(brand, 'light')
+
+  if (brand) {
+    return {
+      border: variant && color && `1px solid ${themeSlectShort.shortcut[variant].color.enable[color].border}`,
+      back: color && variant && themeSlectShort.shortcut[variant].color.enable[color].background,
+      hover: {
+        back: color && variant && themeSlectShort.shortcut[variant].color.hover[color].background,
+        border: color && variant && `1px solid ${themeSlectShort.shortcut[variant].color.hover[color].border}`
+      }
+    }
+  }
+  return {
+    border: variant && color && `1px solid ${theme.shortcut[variant].color.enable[color].border}`,
+    back: color && variant && theme.shortcut[variant].color.enable[color].background,
+    hover: {
+      back: color && variant && theme.shortcut[variant].color.hover[color].background,
+      border: color && variant && `1px solid ${theme.shortcut[variant].color.hover[color].border}`
+    }
+  }
+}
 
 const styles = createUseStyles((theme: Theme) => ({
   wrapper: {
@@ -23,8 +48,8 @@ const styles = createUseStyles((theme: Theme) => ({
     position: 'relative'
   },
   content: {
-    backgroundColor: ({ color, variant }: ShortcutStyleProps) => color && variant && theme.shortcut[variant].color.enable[color].background,
-    border: ({ color, variant }: ShortcutStyleProps) => color && variant && `1px solid ${theme.shortcut[variant].color.enable[color].border}`,
+    backgroundColor: ({ color, variant, brand }: ShortcutStyleProps) => themeSelectBrand(theme)({ color, variant, brand }).back,
+    border: ({ color, variant, brand }: ShortcutStyleProps) => color && variant && themeSelectBrand(theme)({ color, variant, brand }).border,
     boxShadow: setBoxShadow(theme),
     borderRadius: theme.shortcut.borderRadius,
     '&:after': {
@@ -44,8 +69,8 @@ const styles = createUseStyles((theme: Theme) => ({
       cursor: 'default'
     },
     '&:hover:not([disabled])': {
-      backgroundColor: ({ color, variant }: ShortcutStyleProps) => color && variant && theme.shortcut[variant].color.hover[color].background,
-      border: ({ color, variant }: ShortcutStyleProps) => color && variant && `1px solid ${theme.shortcut[variant].color.hover[color].border}`
+      backgroundColor: ({ color, variant, brand }: ShortcutStyleProps) => themeSelectBrand(theme)({ color, variant, brand }).hover.back,
+      border: ({ color, variant, brand }: ShortcutStyleProps) => themeSelectBrand(theme)({ color, variant, brand }).hover.border
     },
     '&:focus:not([disabled])': {
       backgroundColor: ({ color, variant }: ShortcutStyleProps) => color && variant && theme.shortcut[variant].color.focus[color].background,

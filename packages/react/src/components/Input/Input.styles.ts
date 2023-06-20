@@ -2,8 +2,9 @@
 import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { InputProps } from './Input.props'
+import { buildTheme } from '../../ThemeProvider'
 
-type InputStyleProps = Pick<InputProps, 'feedback' | 'disabled' | 'readOnly'| 'size' | 'action' | 'isResizable'>
+type InputStyleProps = Pick<InputProps, 'feedback' | 'disabled' | 'readOnly'| 'size' | 'action' | 'isResizable' | 'brand'>
 
 const getFeedbackBorderColor = (theme: Theme) => ({ feedback }: InputStyleProps) => {
   const borderColor = {
@@ -12,6 +13,11 @@ const getFeedbackBorderColor = (theme: Theme) => ({ feedback }: InputStyleProps)
   }
 
   return feedback ? borderColor[feedback] : theme.color.lowEmphasis
+}
+const getColorTheme = (theme: Theme) => ({ brand }: InputStyleProps) => {
+  const borderColor = buildTheme(brand, 'light')
+
+  return brand ? borderColor.color.primary : theme.color.primary
 }
 
 const styles = createUseStyles((theme: Theme) => ({
@@ -32,7 +38,7 @@ const styles = createUseStyles((theme: Theme) => ({
     },
     '&:focus-within': {
       border: '2px solid',
-      borderColor: theme.color.primary
+      borderColor: getColorTheme(theme)
     },
     '&:after': {
       backgroundColor: theme.color.lowEmphasis,

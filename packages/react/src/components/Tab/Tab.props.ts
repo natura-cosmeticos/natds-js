@@ -1,4 +1,5 @@
 import React from 'react'
+import { BrandTypes } from '../../brandTypes/brandTypes'
 
 export interface TabProps {
 
@@ -6,6 +7,10 @@ export interface TabProps {
    * Optional ID for testing
    */
   testID?: string;
+  /**
+   * Optional ID for testing
+   */
+  brand?: BrandTypes;
 
   /**
    * All TabItems component

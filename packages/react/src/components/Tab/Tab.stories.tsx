@@ -56,6 +56,19 @@ export const Playground: Story<TabProps> = (args) => (
     </TabItem>
   </Tab>
 )
+export const Brand: Story<TabProps> = (args) => (
+  <Tab {...args}>
+    <TabItem {...args} brand="avon_v2" onClick={onClick} isActive>
+      Tab 1
+    </TabItem>
+    <TabItem {...args} brand="avon_v2" onClick={onClick}>
+      Tab 2
+    </TabItem>
+    <TabItem {...args} brand="avon_v2" onClick={onClick} isDisabled>
+      Tab 3
+    </TabItem>
+  </Tab>
+)
 
 export const WithIcons: Story<TabProps> = (args) => (
   <Tab {...args}>

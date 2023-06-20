@@ -1,6 +1,9 @@
 import React from 'react'
+import { BrandTypes } from '../../brandTypes/brandTypes'
 
 export interface AccordionItemProps {
+
+  brand?: BrandTypes
   /**
    * Specify an optional className to be added to your AccordionItem
    */

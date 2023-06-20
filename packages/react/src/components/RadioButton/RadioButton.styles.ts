@@ -3,8 +3,25 @@
 import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { RadioButtonProps } from './RadioButton.props'
+import { buildTheme } from '../../ThemeProvider'
 
-type RadioButtonStyleProps = Required<Pick<RadioButtonProps, 'disabled'>>
+type RadioButtonStyleProps = Pick<RadioButtonProps, 'disabled' | 'brand'>
+
+const themeSelectRadio = (theme: Theme) => ({ brand }: RadioButtonStyleProps) => {
+  const themeSelectRD = buildTheme(brand, 'light')
+  if (brand) {
+    return themeSelectRD.color.primary
+  }
+  return theme.color.primary
+}
+
+const themeSelectBorder = (theme: Theme) => ({ brand }: RadioButtonStyleProps) => {
+  const themeSelectRD = buildTheme(brand, 'light')
+  if (brand) {
+    return `2px solid ${themeSelectRD.color.primary}`
+  }
+  return `2px solid ${theme.color.primary}`
+}
 
 const styles = createUseStyles((theme: Theme) => ({
   wrapper: {
@@ -32,7 +49,7 @@ const styles = createUseStyles((theme: Theme) => ({
       cursor: 'default'
     },
     '&:checked': {
-      border: `2px solid ${theme.color.primary}`,
+      border: themeSelectBorder(theme),
       backgroundColor: theme.color.surface,
       '&:after': {
         content: '""',
@@ -44,7 +61,7 @@ const styles = createUseStyles((theme: Theme) => ({
         left: '50%',
         position: 'absolute',
         textAlign: 'center',
-        backgroundColor: ({ disabled }: RadioButtonStyleProps) => (disabled ? theme.color.lowEmphasis : theme.color.primary),
+        backgroundColor: ({ disabled, brand }: RadioButtonStyleProps) => (disabled ? theme.color.lowEmphasis : themeSelectRadio(theme)({ brand })),
         top: '50%',
         transform: 'translate(-50%, -50%)'
       },

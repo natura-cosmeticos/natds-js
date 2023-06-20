@@ -14,6 +14,11 @@ const componentStatus = `
 
 With the following attribute status:
 
+- **textTransform**
+    - ✅ \`uppercase\`
+    - ✅ \`lowercase\`
+    - ✅ \`capitalize\`
+
 - **Size**
     - ✅ \`semi\`
     - ✅ \`semiX\`
@@ -51,6 +56,14 @@ export const Variants: Story<ButtonProps> = (args) => (
   </StoryContainer>
 )
 Variants.args = { ...Playground.args }
+export const LabelTransform: Story<ButtonProps> = (args) => (
+  <StoryContainer>
+    <Button {...args} variant="contained" />
+    <Button textTransform="capitalize" {...args} variant="contained" />
+    <Button textTransform="lowercase" {...args} variant="contained" />
+  </StoryContainer>
+)
+LabelTransform.args = { ...Playground.args }
 
 export const Sizes: Story<ButtonProps> = (args) => (
   <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>

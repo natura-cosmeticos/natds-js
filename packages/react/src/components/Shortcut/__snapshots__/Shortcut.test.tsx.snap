@@ -2,7 +2,73 @@
 
 exports[`Shortcut component should render correctly when is disabled 1`] = `
 Array [
-  ".sharedRippleEffect-0-2-10 {
+  ".wrapper-0-2-1 {
+  width: 56px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.container-0-2-2 {
+  position: relative;
+}
+.content-0-2-3 {
+  border-radius: 28px;
+}
+.content-0-2-3:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0;
+  position: absolute;
+  background-color: #000000;
+}
+.content-0-2-3:disabled {
+  cursor: default;
+  box-shadow: none;
+}
+.content-0-2-3:hover:not([disabled]) {}
+.content-0-2-3:focus:not([disabled]) {}
+.labelText-0-2-4 {
+  width: 56px;
+  overflow: hidden;
+  font-size: 12px;
+  margin-top: 8px;
+  text-align: center;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  text-overflow: ellipsis;
+  letter-spacing: 0.38px;
+}
+.labelText-0-2-4:hover {}
+.badgeContainer-0-2-5 {
+  top: 0;
+  right: 0;
+  position: absolute;
+}
+.content-d0-0-2-6 {
+  background-color: #f4ab34;
+  border: 1px solid #FFFFFF00;
+}
+.content-d0-0-2-6:disabled {
+  background-color: #bbbbbb;
+  border: 1px solid #FFFFFF00;
+}
+.content-d0-0-2-6:hover:not([disabled]) {
+  background-color: #cd902c;
+  border: 1px solid #FFFFFF00;
+}
+.content-d0-0-2-6:focus:not([disabled]) {
+  background-color: #A67423;
+  border: 1px solid #FFFFFF00;
+}
+.labelText-d1-0-2-7 {
+  white-space: normal;
+  color: #777777;
+}
+.labelText-d1-0-2-7:hover {}
+.sharedRippleEffect-0-2-10 {
   top: 0;
   left: 0;
   width: 100%;
@@ -99,73 +165,7 @@ Array [
   .base-d0-0-2-9 {
     height: 56px;
     width: 56px;
-  }
-  .wrapper-0-2-1 {
-    width: 56px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
-  .container-0-2-2 {
-    position: relative;
-  }
-  .content-0-2-3 {
-    border-radius: 28px;
-  }
-  .content-0-2-3:after {
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    content: \\" \\";
-    opacity: 0;
-    position: absolute;
-    background-color: #000000;
-  }
-  .content-0-2-3:disabled {
-    cursor: default;
-    box-shadow: none;
-  }
-  .content-0-2-3:hover:not([disabled]) {  }
-  .content-0-2-3:focus:not([disabled]) {  }
-  .labelText-0-2-4 {
-    width: 56px;
-    overflow: hidden;
-    font-size: 12px;
-    margin-top: 8px;
-    text-align: center;
-    font-family: Roboto, Arial;
-    font-weight: 400;
-    text-overflow: ellipsis;
-    letter-spacing: 0.38px;
-  }
-  .labelText-0-2-4:hover {  }
-  .badgeContainer-0-2-5 {
-    top: 0;
-    right: 0;
-    position: absolute;
-  }
-  .content-d0-0-2-6 {
-    background-color: #f4ab34;
-    border: 1px solid #FFFFFF00;
-  }
-  .content-d0-0-2-6:disabled {
-    background-color: #bbbbbb;
-    border: 1px solid #FFFFFF00;
-  }
-  .content-d0-0-2-6:hover:not([disabled]) {
-    background-color: #cd902c;
-    border: 1px solid #FFFFFF00;
-  }
-  .content-d0-0-2-6:focus:not([disabled]) {
-    background-color: #A67423;
-    border: 1px solid #FFFFFF00;
-  }
-  .labelText-d1-0-2-7 {
-    white-space: normal;
-    color: #777777;
-  }
-  .labelText-d1-0-2-7:hover {  }",
+  }",
   <div>
     <div
       class="wrapper-0-2-1"
@@ -203,7 +203,76 @@ Array [
 
 exports[`Shortcut component should render correctly with badge 1`] = `
 Array [
-  ".sharedRippleEffect-0-2-10 {
+  ".wrapper-0-2-1 {
+  width: 56px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.container-0-2-2 {
+  position: relative;
+}
+.content-0-2-3 {
+  border-radius: 28px;
+}
+.content-0-2-3:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0;
+  position: absolute;
+  background-color: #000000;
+}
+.content-0-2-3:disabled {
+  cursor: default;
+  box-shadow: none;
+}
+.content-0-2-3:hover:not([disabled]) {}
+.content-0-2-3:focus:not([disabled]) {}
+.labelText-0-2-4 {
+  width: 56px;
+  overflow: hidden;
+  font-size: 12px;
+  margin-top: 8px;
+  text-align: center;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  text-overflow: ellipsis;
+  letter-spacing: 0.38px;
+}
+.labelText-0-2-4:hover {}
+.badgeContainer-0-2-5 {
+  top: 0;
+  right: 0;
+  position: absolute;
+}
+.content-d0-0-2-6 {
+  background-color: #f4ab34;
+  border: 1px solid #FFFFFF00;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+}
+.content-d0-0-2-6:disabled {
+  background-color: #bbbbbb;
+  border: 1px solid #FFFFFF00;
+}
+.content-d0-0-2-6:hover:not([disabled]) {
+  background-color: #cd902c;
+  border: 1px solid #FFFFFF00;
+}
+.content-d0-0-2-6:focus:not([disabled]) {
+  background-color: #A67423;
+  border: 1px solid #FFFFFF00;
+}
+.labelText-d1-0-2-7 {
+  white-space: normal;
+  color: #333333;
+}
+.labelText-d1-0-2-7:hover {
+  color: #333333;
+}
+.sharedRippleEffect-0-2-10 {
   top: 0;
   left: 0;
   width: 100%;
@@ -307,75 +376,6 @@ Array [
     color: #000000;
     font-family: \\"Roboto\\", Arial;
   }
-  .wrapper-0-2-1 {
-    width: 56px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
-  .container-0-2-2 {
-    position: relative;
-  }
-  .content-0-2-3 {
-    border-radius: 28px;
-  }
-  .content-0-2-3:after {
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    content: \\" \\";
-    opacity: 0;
-    position: absolute;
-    background-color: #000000;
-  }
-  .content-0-2-3:disabled {
-    cursor: default;
-    box-shadow: none;
-  }
-  .content-0-2-3:hover:not([disabled]) {  }
-  .content-0-2-3:focus:not([disabled]) {  }
-  .labelText-0-2-4 {
-    width: 56px;
-    overflow: hidden;
-    font-size: 12px;
-    margin-top: 8px;
-    text-align: center;
-    font-family: Roboto, Arial;
-    font-weight: 400;
-    text-overflow: ellipsis;
-    letter-spacing: 0.38px;
-  }
-  .labelText-0-2-4:hover {  }
-  .badgeContainer-0-2-5 {
-    top: 0;
-    right: 0;
-    position: absolute;
-  }
-  .content-d0-0-2-6 {
-    background-color: #f4ab34;
-    border: 1px solid #FFFFFF00;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
-  }
-  .content-d0-0-2-6:disabled {
-    background-color: #bbbbbb;
-    border: 1px solid #FFFFFF00;
-  }
-  .content-d0-0-2-6:hover:not([disabled]) {
-    background-color: #cd902c;
-    border: 1px solid #FFFFFF00;
-  }
-  .content-d0-0-2-6:focus:not([disabled]) {
-    background-color: #A67423;
-    border: 1px solid #FFFFFF00;
-  }
-  .labelText-d1-0-2-7 {
-    white-space: normal;
-    color: #333333;
-  }
-  .labelText-d1-0-2-7:hover {
-    color: #333333;
-  }
   .badge-0-2-20 {
     display: flex;
     position: relative;
@@ -475,7 +475,76 @@ Array [
 
 exports[`Shortcut component should render correctly with default props 1`] = `
 Array [
-  ".sharedRippleEffect-0-2-10 {
+  ".wrapper-0-2-1 {
+  width: 56px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.container-0-2-2 {
+  position: relative;
+}
+.content-0-2-3 {
+  border-radius: 28px;
+}
+.content-0-2-3:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0;
+  position: absolute;
+  background-color: #000000;
+}
+.content-0-2-3:disabled {
+  cursor: default;
+  box-shadow: none;
+}
+.content-0-2-3:hover:not([disabled]) {}
+.content-0-2-3:focus:not([disabled]) {}
+.labelText-0-2-4 {
+  width: 56px;
+  overflow: hidden;
+  font-size: 12px;
+  margin-top: 8px;
+  text-align: center;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  text-overflow: ellipsis;
+  letter-spacing: 0.38px;
+}
+.labelText-0-2-4:hover {}
+.badgeContainer-0-2-5 {
+  top: 0;
+  right: 0;
+  position: absolute;
+}
+.content-d0-0-2-6 {
+  background-color: #f4ab34;
+  border: 1px solid #FFFFFF00;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+}
+.content-d0-0-2-6:disabled {
+  background-color: #bbbbbb;
+  border: 1px solid #FFFFFF00;
+}
+.content-d0-0-2-6:hover:not([disabled]) {
+  background-color: #cd902c;
+  border: 1px solid #FFFFFF00;
+}
+.content-d0-0-2-6:focus:not([disabled]) {
+  background-color: #A67423;
+  border: 1px solid #FFFFFF00;
+}
+.labelText-d1-0-2-7 {
+  white-space: normal;
+  color: #333333;
+}
+.labelText-d1-0-2-7:hover {
+  color: #333333;
+}
+.sharedRippleEffect-0-2-10 {
   top: 0;
   left: 0;
   width: 100%;
@@ -574,75 +643,6 @@ Array [
   .base-d0-0-2-9 {
     height: 56px;
     width: 56px;
-  }
-  .wrapper-0-2-1 {
-    width: 56px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
-  .container-0-2-2 {
-    position: relative;
-  }
-  .content-0-2-3 {
-    border-radius: 28px;
-  }
-  .content-0-2-3:after {
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    content: \\" \\";
-    opacity: 0;
-    position: absolute;
-    background-color: #000000;
-  }
-  .content-0-2-3:disabled {
-    cursor: default;
-    box-shadow: none;
-  }
-  .content-0-2-3:hover:not([disabled]) {  }
-  .content-0-2-3:focus:not([disabled]) {  }
-  .labelText-0-2-4 {
-    width: 56px;
-    overflow: hidden;
-    font-size: 12px;
-    margin-top: 8px;
-    text-align: center;
-    font-family: Roboto, Arial;
-    font-weight: 400;
-    text-overflow: ellipsis;
-    letter-spacing: 0.38px;
-  }
-  .labelText-0-2-4:hover {  }
-  .badgeContainer-0-2-5 {
-    top: 0;
-    right: 0;
-    position: absolute;
-  }
-  .content-d0-0-2-6 {
-    background-color: #f4ab34;
-    border: 1px solid #FFFFFF00;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
-  }
-  .content-d0-0-2-6:disabled {
-    background-color: #bbbbbb;
-    border: 1px solid #FFFFFF00;
-  }
-  .content-d0-0-2-6:hover:not([disabled]) {
-    background-color: #cd902c;
-    border: 1px solid #FFFFFF00;
-  }
-  .content-d0-0-2-6:focus:not([disabled]) {
-    background-color: #A67423;
-    border: 1px solid #FFFFFF00;
-  }
-  .labelText-d1-0-2-7 {
-    white-space: normal;
-    color: #333333;
-  }
-  .labelText-d1-0-2-7:hover {
-    color: #333333;
   }",
   <div>
     <div
@@ -680,7 +680,76 @@ Array [
 
 exports[`Shortcut component should render correctly with label 1`] = `
 Array [
-  ".sharedRippleEffect-0-2-10 {
+  ".wrapper-0-2-1 {
+  width: 56px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.container-0-2-2 {
+  position: relative;
+}
+.content-0-2-3 {
+  border-radius: 28px;
+}
+.content-0-2-3:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0;
+  position: absolute;
+  background-color: #000000;
+}
+.content-0-2-3:disabled {
+  cursor: default;
+  box-shadow: none;
+}
+.content-0-2-3:hover:not([disabled]) {}
+.content-0-2-3:focus:not([disabled]) {}
+.labelText-0-2-4 {
+  width: 56px;
+  overflow: hidden;
+  font-size: 12px;
+  margin-top: 8px;
+  text-align: center;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  text-overflow: ellipsis;
+  letter-spacing: 0.38px;
+}
+.labelText-0-2-4:hover {}
+.badgeContainer-0-2-5 {
+  top: 0;
+  right: 0;
+  position: absolute;
+}
+.content-d0-0-2-6 {
+  background-color: #f4ab34;
+  border: 1px solid #FFFFFF00;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+}
+.content-d0-0-2-6:disabled {
+  background-color: #bbbbbb;
+  border: 1px solid #FFFFFF00;
+}
+.content-d0-0-2-6:hover:not([disabled]) {
+  background-color: #cd902c;
+  border: 1px solid #FFFFFF00;
+}
+.content-d0-0-2-6:focus:not([disabled]) {
+  background-color: #A67423;
+  border: 1px solid #FFFFFF00;
+}
+.labelText-d1-0-2-7 {
+  white-space: normal;
+  color: #333333;
+}
+.labelText-d1-0-2-7:hover {
+  color: #333333;
+}
+.sharedRippleEffect-0-2-10 {
   top: 0;
   left: 0;
   width: 100%;
@@ -783,75 +852,6 @@ Array [
   .labelContainer-0-2-20 {
     color: #000000;
     font-family: \\"Roboto\\", Arial;
-  }
-  .wrapper-0-2-1 {
-    width: 56px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
-  .container-0-2-2 {
-    position: relative;
-  }
-  .content-0-2-3 {
-    border-radius: 28px;
-  }
-  .content-0-2-3:after {
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    content: \\" \\";
-    opacity: 0;
-    position: absolute;
-    background-color: #000000;
-  }
-  .content-0-2-3:disabled {
-    cursor: default;
-    box-shadow: none;
-  }
-  .content-0-2-3:hover:not([disabled]) {  }
-  .content-0-2-3:focus:not([disabled]) {  }
-  .labelText-0-2-4 {
-    width: 56px;
-    overflow: hidden;
-    font-size: 12px;
-    margin-top: 8px;
-    text-align: center;
-    font-family: Roboto, Arial;
-    font-weight: 400;
-    text-overflow: ellipsis;
-    letter-spacing: 0.38px;
-  }
-  .labelText-0-2-4:hover {  }
-  .badgeContainer-0-2-5 {
-    top: 0;
-    right: 0;
-    position: absolute;
-  }
-  .content-d0-0-2-6 {
-    background-color: #f4ab34;
-    border: 1px solid #FFFFFF00;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
-  }
-  .content-d0-0-2-6:disabled {
-    background-color: #bbbbbb;
-    border: 1px solid #FFFFFF00;
-  }
-  .content-d0-0-2-6:hover:not([disabled]) {
-    background-color: #cd902c;
-    border: 1px solid #FFFFFF00;
-  }
-  .content-d0-0-2-6:focus:not([disabled]) {
-    background-color: #A67423;
-    border: 1px solid #FFFFFF00;
-  }
-  .labelText-d1-0-2-7 {
-    white-space: normal;
-    color: #333333;
-  }
-  .labelText-d1-0-2-7:hover {
-    color: #333333;
   }",
   <div>
     <div

@@ -1,4 +1,5 @@
 import { Color } from '@naturacosmeticos/natds-themes'
+import { BrandTypes } from '../../brandTypes/brandTypes'
 
 export type BadgeColors = keyof Pick<Color, 'primary' | 'secondary' | 'success' | 'alert'>
 
@@ -7,6 +8,10 @@ export interface BadgeBaseProps {
    * Indicates whether the element is exposed to an accessibility API.
    */
   ariaHidden?: boolean
+  /**
+   * Specify an optional Brand to be added to your Badge.
+   */
+  brand?: BrandTypes
 
   /**
    * Defines a string value that labels the current element.

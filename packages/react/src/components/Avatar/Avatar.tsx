@@ -5,7 +5,7 @@ import AvatarImage from './AvatarImage'
 import AvatarIcon from './AvatarIcon'
 import AvatarLabel from './AvatarLabel'
 
-export const renderVariant = (props: AvatarProps) => {
+export const renderVariant = (props: AvatarProps): React.ReactNode => {
   const { type } = props
 
   const types = {
@@ -23,9 +23,10 @@ const Avatar = React.forwardRef<HTMLElement, AvatarProps>(
       className = '',
       size = 'medium',
       type = 'icon',
+      brand,
       ...rest
     } = props
-    const { surface } = styles({ size })
+    const { surface } = styles({ size, brand })
 
     return (
       <span

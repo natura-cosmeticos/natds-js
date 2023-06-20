@@ -1,8 +1,23 @@
 import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { AvatarProps } from './Avatar.props'
+import { buildTheme } from '../../ThemeProvider'
 
-type AvatarStyleProps = Required<Pick<AvatarProps, 'size'>>
+type AvatarStyleProps = Pick<AvatarProps, 'size' | 'brand'>
+
+const getColorTheme = (theme: Theme) => ({ brand }: AvatarStyleProps) => {
+  const themeSelectAvatar = buildTheme(brand, 'light')
+  if (brand) {
+    return {
+      primary: themeSelectAvatar.color.primary,
+      onPrimary: themeSelectAvatar.color.onPrimary
+    }
+  }
+  return {
+    primary: theme.color.primary,
+    onPrimary: theme.color.onPrimary
+  }
+}
 
 const styles = createUseStyles((theme: Theme) => ({
   surface: {
@@ -10,7 +25,7 @@ const styles = createUseStyles((theme: Theme) => ({
     width: ({ size }: AvatarStyleProps) => (size && theme.size[size]),
     height: ({ size }: AvatarStyleProps) => (size && theme.size[size]),
     borderRadius: ({ size }: AvatarStyleProps) => (size && theme.avatar[size].borderRadius),
-    backgroundColor: theme.color.primary,
+    backgroundColor: ({ brand }: AvatarStyleProps) => getColorTheme(theme)({ brand }).primary,
     justifyContent: 'center',
     alignItems: 'center',
     overflow: 'hidden'
@@ -20,7 +35,7 @@ const styles = createUseStyles((theme: Theme) => ({
     height: '100%'
   },
   label: {
-    color: theme.color.onPrimary,
+    color: ({ brand }: AvatarStyleProps) => getColorTheme(theme)({ brand }).onPrimary,
     fontFamily: [theme.avatar.primary.fontFamily, theme.avatar.fallback.fontFamily],
     fontSize: ({ size }: AvatarStyleProps) => (size && theme.avatar[size].fontSize),
     fontWeight: [theme.avatar.primary.fontWeight, theme.avatar.fallback.fontWeight],

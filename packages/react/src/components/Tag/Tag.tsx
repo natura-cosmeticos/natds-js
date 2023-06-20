@@ -11,13 +11,14 @@ const Tag = React.forwardRef<HTMLDivElement, TagProps>((props, ref) => {
     position = 'center',
     customBackgroundColor,
     customLabelColor,
+    brand,
     children,
     IconComponent,
     ...rest
   } = props
 
   const { container, content, wrapper } = styles({
-    position, color, size, customBackgroundColor, customLabelColor
+    position, color, size, customBackgroundColor, customLabelColor, brand
   })
 
   return (

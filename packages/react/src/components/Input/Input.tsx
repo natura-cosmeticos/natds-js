@@ -10,6 +10,7 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>((props, ref) => {
     className = '',
     disabled = false,
     id,
+    brand,
     isResizable = false,
     minRows = 3,
     onBlur,
@@ -24,7 +25,9 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>((props, ref) => {
     value
   } = props
 
-  const { wrapper, input, textArea } = styles({ size, isResizable, ...props })
+  const { wrapper, input, textArea } = styles({
+    size, isResizable, brand, ...props
+  })
 
   const isMultiline = type === 'multiline'
 

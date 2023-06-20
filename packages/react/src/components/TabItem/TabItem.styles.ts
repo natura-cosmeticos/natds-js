@@ -1,8 +1,10 @@
+/* eslint-disable max-len */
 import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { TabItemProps } from './TabItem.props'
+import { buildTheme } from '../../ThemeProvider'
 
-type TabButtonProps = Required<Pick<TabItemProps, 'isActive' | 'isDisabled'>>
+type TabButtonProps = Pick<TabItemProps, 'isActive' | 'isDisabled' | 'brand'>
 
 const toggleColorEmphasis = (theme: Theme) => ({ isActive, isDisabled }: TabButtonProps) => {
   if (isActive) {
@@ -16,12 +18,20 @@ const toggleColorEmphasis = (theme: Theme) => ({ isActive, isDisabled }: TabButt
   return theme.color.mediumEmphasis
 }
 
+const themeSelectTab = (theme: Theme) => ({ brand }: TabButtonProps) => {
+  const themeSelecTb = buildTheme(brand, 'light')
+  if (brand) {
+    return `2px solid ${themeSelecTb.color.primary}`
+  }
+  return `2px solid ${theme.color.primary}`
+}
+
 const styles = createUseStyles((theme: Theme) => ({
   wrapper: {
     minWidth: theme.size.largeX,
     height: '100%',
     padding: `0 ${theme.spacing.small}px`,
-    borderBottom: (props: TabButtonProps) => props.isActive && `2px solid ${theme.color.primary}`,
+    borderBottom: ({ isActive, brand }: TabButtonProps) => isActive && themeSelectTab(theme)({ brand }),
     pointerEvents: 'none',
     '& > div': {
       height: '100%'

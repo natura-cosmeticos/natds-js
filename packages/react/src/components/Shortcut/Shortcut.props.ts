@@ -1,8 +1,14 @@
+import { BrandTypes } from '../../brandTypes/brandTypes'
+
 export interface ShortcutProps {
   /**
    * Specify an optional className to be added to your Shortcut
    */
   className?: string
+  /**
+   * Specify an optional className to be added to your Shortcut
+   */
+  brand?: BrandTypes
 
   /**
    * Allowing you to change the way an HTML element is "translated" into the accessibility tree

@@ -3,10 +3,20 @@
 import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { SwitchProps } from './Switch.props'
+import { buildTheme } from '../../ThemeProvider'
 
-type SwitchStyleProps = Required<Pick<SwitchProps, 'checked' | 'disabled'>>
+type SwitchStyleProps = Pick<SwitchProps, 'checked' | 'disabled' | 'brand'>
 
 const transitionProps = '150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms'
+
+const getThemeSw = (theme: Theme) => ({ brand }: SwitchStyleProps) => {
+  const themeSelectFocus = buildTheme(brand, 'light')
+
+  if (brand) {
+    return themeSelectFocus.color.primary
+  }
+  return theme.color.primary
+}
 
 const styles = createUseStyles((theme: Theme) => ({
   switchContainer: {
@@ -24,7 +34,7 @@ const styles = createUseStyles((theme: Theme) => ({
     height: '100%',
     '&:hover $switchOverlay': {
       opacity: theme.opacity.veryLow,
-      backgroundColor: ({ checked }: SwitchStyleProps) => (checked ? theme.color.primary : theme.color.highlight)
+      backgroundColor: ({ checked, brand }: SwitchStyleProps) => (checked ? getThemeSw(theme)({ brand }) : theme.color.highlight)
     }
   },
   switchInput: {
@@ -32,7 +42,7 @@ const styles = createUseStyles((theme: Theme) => ({
     opacity: 0,
     '&:focus + $switchBase $switchOverlay': {
       opacity: theme.opacity.low,
-      backgroundColor: ({ checked }: SwitchStyleProps) => (checked ? theme.color.primary : theme.color.highlight)
+      backgroundColor: ({ checked, brand }: SwitchStyleProps) => (checked ? getThemeSw(theme)({ brand }) : theme.color.highlight)
     }
   },
   switchTrack: {
@@ -42,10 +52,10 @@ const styles = createUseStyles((theme: Theme) => ({
     width: 36,
     height: 14,
     borderRadius: 20,
-    backgroundColor: ({ checked, disabled }: SwitchStyleProps) => (disabled
+    backgroundColor: ({ checked, disabled, brand }: SwitchStyleProps) => (disabled
       ? theme.color.lowEmphasis
       : checked
-        ? theme.color.primary
+        ? getThemeSw(theme)({ brand })
         : theme.color.mediumEmphasis),
     opacity: ({ checked, disabled }: SwitchStyleProps) => (disabled || !checked ? 1 : theme.opacity.medium)
   },
@@ -65,7 +75,7 @@ const styles = createUseStyles((theme: Theme) => ({
     height: 20,
     boxShadow: '0px 1px 3px #00000036',
     borderRadius: '50%',
-    backgroundColor: ({ checked, disabled }: SwitchStyleProps) => (disabled || !checked ? theme.color.surface : theme.color.primary)
+    backgroundColor: ({ checked, disabled, brand }: SwitchStyleProps) => (disabled || !checked ? theme.color.surface : getThemeSw(theme)({ brand }))
   }
 }))
 
