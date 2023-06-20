@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.6.0](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-styles@3.6.0-alpha.DSY-3397.3.0...@naturacosmeticos/natds-styles@3.6.0) (2023-06-20)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-styles
+
+
+
+
+
 # [3.5.0](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-styles@3.4.1...@naturacosmeticos/natds-styles@3.5.0) (2022-02-10)
 
 
