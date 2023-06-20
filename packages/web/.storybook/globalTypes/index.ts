@@ -7,6 +7,8 @@ export const globalTypes = {
       items: [
         { right: '🌑', title: 'Avon Dark', value: 'avonDark' },
         { right: '☀️', title: 'Avon Light', value: 'avonLight' },
+        { right: '🌑', title: 'Avon_v2 Dark', value: 'avonV2Dark' },
+        { right: '☀️', title: 'Avon_v2 Light', value: 'avonV2Light' },
         { right: '🌑', title: 'Natura Dark', value: 'naturaDark' },
         { right: '☀️', title: 'Natura Light', value: 'naturaLight' },
         { right: '🌑', title: 'The Body Shop Dark', value: 'theBodyShopDark' },

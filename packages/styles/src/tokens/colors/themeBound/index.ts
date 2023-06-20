@@ -1,6 +1,7 @@
 /* eslint-disable import/prefer-default-export */
 import { naturaDarkColorTokens, naturaLightColorTokens } from './natura'
 import { avonDarkColorTokens, avonLightColorTokens } from './avon'
+import { avonV2DarkColorTokens, avonV2LightColorTokens } from './avon_v2'
 import { theBodyShopDarkColorTokens, theBodyShopLightColorTokens } from './theBodyShop'
 import { aesopDarkColorTokens, aesopLightColorTokens } from './aesop'
 import { biomeDarkColorTokens, biomeLightColorTokens } from './biome'
@@ -18,10 +19,22 @@ export const colorTokens = {
   avonDarkColorTokens,
 
   /**
+   * @deprecated `avonV2DarkColorTokens` are deprecated since v0.20 and will be removed at v1.0.
+   * Please use `theme.avon.dark.color` from `natds-themes`.
+   */
+  avonV2DarkColorTokens,
+
+  /**
    * @deprecated `avonLightColorTokens` are deprecated since v0.20 and will be removed at v1.0.
    * Please use `theme.avon.light.color` from `natds-themes`.
    */
   avonLightColorTokens,
+
+  /**
+   * @deprecated `avonV2LightColorTokens` are deprecated since v0.20 and will be removed at v1.0.
+   * Please use `theme.avon.light.color` from `natds-themes`.
+   */
+  avonV2LightColorTokens,
 
   /**
    * @deprecated `naturaDarkColorTokens` are deprecated since v0.20 and will be removed at v1.0.

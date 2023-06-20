@@ -2,6 +2,8 @@ import { naturaLight } from './themes/natura/natura-light'
 import { naturaDark } from './themes/natura/natura-dark'
 import { avonLight } from './themes/avon/avon-light'
 import { avonDark } from './themes/avon/avon-dark'
+import { avonV2Light } from './themes/avon_v2/avon_v2-light'
+import { avonV2Dark } from './themes/avon_v2/avon_v2-dark'
 import { theBodyShopLight } from './themes/theBodyShop/the-body-shop-light'
 import { theBodyShopDark } from './themes/theBodyShop/the-body-shop-dark'
 import { aesopLight } from './themes/aesop/aesop-light'
@@ -15,6 +17,10 @@ export default {
   avon: {
     dark: avonDark,
     light: avonLight
+  },
+  avon_v2: {
+    dark: avonV2Dark,
+    light: avonV2Light
   },
   natura: {
     dark: naturaDark,
