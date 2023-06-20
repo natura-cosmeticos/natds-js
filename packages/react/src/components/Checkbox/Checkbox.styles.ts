@@ -2,9 +2,25 @@
 /* eslint-disable max-lines-per-function */
 import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
+import { buildTheme } from '../../ThemeProvider'
 import { CheckboxProps } from './Checkbox.props'
 
-type CheckboxStyleProps = Required<Pick<CheckboxProps, 'indeterminate' | 'disabled'>>
+type CheckboxStyleProps = Pick<CheckboxProps, 'indeterminate' | 'disabled' | 'brand'>
+
+const themeSelectCheck = (theme: Theme) => ({ brand }: CheckboxStyleProps) => {
+  const themeSelectCh = buildTheme(brand, 'light')
+  if (brand) {
+    return themeSelectCh.color.primary
+  }
+  return theme.color.primary
+}
+const themeSelectBorder = (theme: Theme) => ({ brand }: CheckboxStyleProps) => {
+  const themeSelectCh = buildTheme(brand, 'light')
+  if (brand) {
+    return `2px solid ${themeSelectCh.color.primary}`
+  }
+  return `2px solid ${theme.color.primary}`
+}
 
 const styles = createUseStyles((theme: Theme) => ({
   container: {
@@ -36,8 +52,8 @@ const styles = createUseStyles((theme: Theme) => ({
       cursor: 'default'
     },
     '&:checked': {
-      backgroundColor: theme.color.primary,
-      border: `2px solid ${theme.color.primary}`,
+      backgroundColor: ({ brand }:CheckboxStyleProps) => themeSelectCheck(theme)({ brand }),
+      border: themeSelectBorder(theme),
       color: theme.color.surface,
       '&:after': {
         content: ({ indeterminate }: CheckboxStyleProps) => (indeterminate ? '"\uea5d"' : '"\uea3c"'),

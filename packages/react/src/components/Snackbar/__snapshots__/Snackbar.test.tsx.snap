@@ -477,8 +477,6 @@ Array [
     user-select: none;
     white-space: nowrap;
     text-overflow: ellipsis;
-    letter-spacing: 1.23px;
-    text-transform: uppercase;
   }
   .button-d0-0-2-26 {
     background-color: #f4ab34;
@@ -508,7 +506,10 @@ Array [
   .labelContainer-d1-0-2-27 {
     flex-direction: row-reverse;
   }
-  .label-d2-0-2-28 {  }
+  .label-d2-0-2-28 {
+    letter-spacing: 1.23px;
+    text-transform: uppercase;
+  }
   .snackbarContainer-0-2-1 {
     color: #ffffff;
     width: 328px;

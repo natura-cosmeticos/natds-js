@@ -137,6 +137,8 @@ export const WithHelperText: Story<AutocompleteProps> = (args) => <Autocomplete 
 
 export const HasSuccess: Story<AutocompleteProps> = (args) => <Autocomplete {...args} placeholder="Placeholder" feedback="success" label="Label" helperText="Helper Text" />
 
+export const Brand: Story<AutocompleteProps> = (args) => <Autocomplete brand="avon_v2" {...args} placeholder="Placeholder" label="Label" />
+
 export const HasError: Story<AutocompleteProps> = (args) => <Autocomplete {...args} placeholder="Placeholder" label="Label" helperText="Helper Text" />
 HasError.args = { feedback: 'error' }
 

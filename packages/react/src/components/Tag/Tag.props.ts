@@ -1,4 +1,5 @@
 import { Color, Size } from '@naturacosmeticos/natds-themes'
+import { BrandTypes } from '../../brandTypes/brandTypes'
 
 export type TagColors = keyof Pick<Color, 'primary' | 'secondary' | 'success' | 'alert' | 'warning' | 'link'>
 export type TagSizes = keyof Pick<Size, 'small' | 'standard'>
@@ -9,6 +10,10 @@ export interface TagProps {
    * Specify an optional className to be added to your Tag
    */
   className?: string
+  /**
+   * Specify an optional Brand to be added to your Tag
+   */
+  brand?: BrandTypes
 
   /**
    * Optional ID for testing

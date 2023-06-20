@@ -8,17 +8,19 @@ type MousePosition = { x: number, y: number }
 
 export const getBiggestSide = ({ width, height }: Size): number => (width > height ? width : height)
 
-const Ripple = ({
-  animationDuration = 300,
-  children,
-  color = 'highlight',
-  disabled = false,
-  focus = false,
-  fullWidth = false,
-  hideOverflow = true,
-  isCentered = false,
-  showHover = false
-}: RippleProps): JSX.Element => {
+const Ripple = (props: RippleProps): JSX.Element => {
+  const {
+    brand,
+    animationDuration = 300,
+    children,
+    color = 'highlight',
+    disabled = false,
+    focus = false,
+    fullWidth = false,
+    hideOverflow = true,
+    isCentered = false,
+    showHover = false
+  } = props
   const [animation, setAnimation] = useState('')
   const [mousePosition, setMousePosition] = useState<MousePosition>({ x: 0, y: 0 })
   const [rippleSize, setRippleSize] = useState<Size>({ width: 0, height: 0 })
@@ -54,6 +56,7 @@ const Ripple = ({
     ripple, rippleActive, rippleContainer, wrapper
   } = styles({
     animationDuration,
+    brand,
     color,
     disabled,
     fullWidth,

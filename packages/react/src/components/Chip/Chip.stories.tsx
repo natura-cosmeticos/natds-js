@@ -93,3 +93,10 @@ export const Sizes: Story<ChipProps> = (args) => (
     <Chip {...args} labelText="Chip label" size="medium" />
   </div>
 )
+export const Brand: Story<ChipProps> = (args) => (
+  <div style={{ display: 'flex', gap: '16px' }}>
+    <Chip brand="avon_v2" {...args} labelText="Chip label" size="semi" />
+    <Chip brand="natura_v2" {...args} labelText="Chip label" size="semiX" />
+    <Chip brand="casaEestilo" color="custom" {...args} labelText="Chip label" size="medium" />
+  </div>
+)

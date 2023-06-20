@@ -6,10 +6,11 @@ const ProgressIndicator = React.forwardRef<HTMLDivElement, ProgressIndicatorProp
   ariaLabel,
   showBackdrop = false,
   size = 'medium',
+  brand,
   testID = 'ds-progress-indicator',
   className = ''
 }, ref) => {
-  const { backdrop, loader } = styles({ size, showBackdrop })
+  const { backdrop, loader } = styles({ size, showBackdrop, brand })
 
   return (
     <div ref={ref} className={backdrop} role="progressbar" aria-label={ariaLabel} data-testid={testID}>

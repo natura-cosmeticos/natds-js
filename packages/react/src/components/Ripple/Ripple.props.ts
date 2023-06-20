@@ -1,4 +1,5 @@
 import { Color } from '@naturacosmeticos/natds-themes'
+import { BrandTypes } from '../../brandTypes/brandTypes'
 
 type RippleColors = keyof Pick<Color, 'primary' | 'highlight'>
 
@@ -7,6 +8,10 @@ export interface RippleProps {
    * The animation duration
    */
   animationDuration?: number
+  /**
+   * The brand optional props
+   */
+  brand?: BrandTypes
   /**
    * The element that will have the ripple effect applied
    */

@@ -8,6 +8,7 @@ const Switch = React.forwardRef<HTMLInputElement, SwitchProps>(
       className = '',
       id = 'toggleSwitch',
       value,
+      brand,
       checked = false,
       disabled = false,
       onChange,
@@ -17,7 +18,7 @@ const Switch = React.forwardRef<HTMLInputElement, SwitchProps>(
   ) => {
     const {
       switchContainer, switchBase, switchInput, switchTrack, switchOverlay, switchThumb
-    } = styles({ checked, disabled })
+    } = styles({ checked, disabled, brand })
 
     const handleBlur = () => {
       document.getElementById(id)?.blur()

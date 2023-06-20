@@ -1,5 +1,8 @@
+/* eslint-disable complexity */
 import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
+import { buildTheme } from '../../ThemeProvider'
+import { BrandTypes } from '../../brandTypes/brandTypes'
 
 type AutoCompleteStyleProps = {
   size: 'medium' | 'mediumX'
@@ -8,16 +11,30 @@ type AutoCompleteStyleProps = {
   feedback?: 'error' | 'success'
   position?: 'bottom' | 'top'
   readonly?: boolean
+  brand?: BrandTypes
 }
 
 const getColor = (theme:Theme) => (
-  { isFilled, feedback, isDisabled }: AutoCompleteStyleProps
+  {
+    isFilled, feedback, isDisabled
+  }: AutoCompleteStyleProps
 ) => {
   if (feedback === 'error') return theme.color.alert
   if (feedback === 'success') return theme.color.success
   if (isDisabled) return theme.color.lowEmphasis
   if (isFilled) return theme.color.highEmphasis
   return theme.color.highEmphasis
+}
+const getColorHover = (theme:Theme) => (
+  {
+    brand
+  }: AutoCompleteStyleProps
+) => {
+  const selectTheme = buildTheme(brand, 'light')
+  if (brand) {
+    return selectTheme.color.primary
+  }
+  return theme.color.primary
 }
 
 const styles = createUseStyles((theme: Theme) => ({
@@ -68,7 +85,7 @@ const styles = createUseStyles((theme: Theme) => ({
     },
 
     '&:focus:enabled': {
-      borderColor: theme.color.primary,
+      borderColor: getColorHover(theme),
       color: theme.color.mediumEmphasis
     },
 

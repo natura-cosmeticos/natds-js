@@ -1,16 +1,37 @@
+/* eslint-disable complexity */
 /* eslint-disable max-len */
 import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { BadgeProps } from './Badge.props'
+import { buildTheme } from '../../ThemeProvider'
 
 export type BadgeVariant = 'standard' | 'pulse' | 'dot'
 const convertoPulseToDot = (variant: BadgeVariant) => (variant === 'pulse' ? 'dot' : variant)
 
-type BadgeStyleProps = Required<Pick<BadgeProps, 'variant' | 'color'>>
+type BadgeStyleProps = Pick<BadgeProps, 'variant' | 'color' | 'brand'>
+
+const getColorBadge = (theme:Theme) => (
+  {
+    brand,
+    color
+  }: BadgeStyleProps
+) => {
+  const selectTheme = buildTheme(brand, 'light')
+  if (brand) {
+    return {
+      back: color && selectTheme.badge.color[color].background,
+      label: color && selectTheme.badge.color[color].label
+    }
+  }
+  return {
+    back: color && theme.badge.color[color].background,
+    label: color && theme.badge.color[color].label
+  }
+}
 
 const styles = createUseStyles((theme: Theme) => ({
   badge: {
-    backgroundColor: ({ color }: BadgeStyleProps) => theme.badge.color[color].background,
+    backgroundColor: ({ color, brand, variant }: BadgeStyleProps) => getColorBadge(theme)({ color, brand, variant }).back,
     borderRadius: ({ variant }: BadgeStyleProps) => theme.badge[convertoPulseToDot(variant)].borderRadius,
     display: 'flex',
     height: ({ variant }: BadgeStyleProps) => theme.badge[convertoPulseToDot(variant)].height,
@@ -21,7 +42,7 @@ const styles = createUseStyles((theme: Theme) => ({
     '&:after': {
       transition: 'opacity 4ms linear, transition 4ms linear',
       animation: '$badge 1.6s infinite',
-      backgroundColor: ({ color }: BadgeStyleProps) => theme.badge.color[color].background,
+      backgroundColor: ({ color, brand, variant }: BadgeStyleProps) => getColorBadge(theme)({ color, brand, variant }).back,
       borderRadius: ({ variant }: BadgeStyleProps) => theme.badge[convertoPulseToDot(variant)].borderRadius,
       content: ({ variant }: BadgeStyleProps) => variant === 'pulse' && '""',
       height: '100%',
@@ -30,7 +51,7 @@ const styles = createUseStyles((theme: Theme) => ({
     }
   },
   label: {
-    color: ({ color }: BadgeStyleProps) => theme.badge.color[color].label,
+    color: ({ color, brand, variant }: BadgeStyleProps) => getColorBadge(theme)({ color, brand, variant }).label,
     fontFamily: [theme.badge.label.primary.fontFamily, theme.badge.label.fallback.fontFamily],
     fontSize: theme.badge.label.fontSize,
     fontWeight: theme.badge.label.primary.fontWeight,

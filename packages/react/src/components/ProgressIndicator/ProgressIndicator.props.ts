@@ -1,4 +1,5 @@
 import { Size } from '@naturacosmeticos/natds-themes'
+import { BrandTypes } from '../../brandTypes/brandTypes'
 
 export type ProgressIndicatorSize = keyof Pick<Size, 'standard' | 'semi' | 'medium' | 'large'>
 export interface ProgressIndicatorProps {
@@ -12,6 +13,10 @@ export interface ProgressIndicatorProps {
    * Specify an optional className to be added to your ProgressIndicator
    */
   className?: string
+  /**
+   * Specify an optional Brand to be added to your ProgressIndicator
+   */
+  brand?: BrandTypes
 
   /**
    * Show a layer behind the progress indicator

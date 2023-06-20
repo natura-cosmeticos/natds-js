@@ -41,6 +41,14 @@ Playground.args = {
   label: 'Text Example',
   IconComponent: <Icon size="semi" name="outlined-default-mockup" color="highEmphasis" />
 }
+export const Brand: Story<ShortcutProps> = (args) => (
+  <Shortcut {...args} />
+)
+Brand.args = {
+  id: 'shortcut-id',
+  label: 'Text Example',
+  IconComponent: <Icon size="semi" name="outlined-default-mockup" color="onPrimary" />
+}
 
 export const Color: Story<ShortcutProps> = (args) => (
   <StoryContainer>

@@ -7,7 +7,7 @@ import Icon from '../Icon'
 
 export const isAvatarIcon = (props: AvatarProps): props is AvatarIconProps => props.type === 'icon'
 
-export const convertIconSize = (size: AvatarSizes) => {
+export const convertIconSize = (size: AvatarSizes): string => {
   const iconSize = {
     standard: 'small',
     semi: 'standard',
@@ -20,14 +20,15 @@ export const convertIconSize = (size: AvatarSizes) => {
 }
 
 export const AvatarIcon = ({
-  size = 'medium', className, ...props
-}: AvatarProps) => {
+  size = 'medium', className, brand, ...props
+}: AvatarProps): JSX.Element => {
   const { icon } = styles({ size })
 
   return (
     <>
       {isAvatarIcon(props) && (
         <Icon
+          brand={brand}
           className={`${className} ${icon}`}
           name={props.name as IconName}
           size={convertIconSize(size) as IconSize}

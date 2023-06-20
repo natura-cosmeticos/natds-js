@@ -39,7 +39,6 @@ Array [
 .input-0-2-4::placeholder {}
 .input-0-2-4:focus:enabled {
   color: #777777;
-  border-color: #f4ab34;
 }
 .input-0-2-4:hover:enabled {
   color: #333333;
@@ -99,6 +98,9 @@ Array [
 }
 .input-d1-0-2-10::placeholder {
   color: #bbbbbb;
+}
+.input-d1-0-2-10:focus:enabled {
+  border-color: #f4ab34;
 }
 .icon-d2-0-2-11 {
   color: #bbbbbb;
@@ -187,7 +189,6 @@ Array [
 .input-0-2-4::placeholder {}
 .input-0-2-4:focus:enabled {
   color: #777777;
-  border-color: #f4ab34;
 }
 .input-0-2-4:hover:enabled {
   color: #333333;
@@ -247,6 +248,9 @@ Array [
 }
 .input-d1-0-2-10::placeholder {
   color: #333333;
+}
+.input-d1-0-2-10:focus:enabled {
+  border-color: #f4ab34;
 }
 .icon-d2-0-2-11 {
   color: inherit;
@@ -334,7 +338,6 @@ Array [
 .input-0-2-4::placeholder {}
 .input-0-2-4:focus:enabled {
   color: #777777;
-  border-color: #f4ab34;
 }
 .input-0-2-4:hover:enabled {
   color: #333333;
@@ -394,6 +397,9 @@ Array [
 }
 .input-d1-0-2-10::placeholder {
   color: #333333;
+}
+.input-d1-0-2-10:focus:enabled {
+  border-color: #f4ab34;
 }
 .icon-d2-0-2-11 {
   color: inherit;
@@ -481,7 +487,6 @@ Array [
 .input-0-2-4::placeholder {}
 .input-0-2-4:focus:enabled {
   color: #777777;
-  border-color: #f4ab34;
 }
 .input-0-2-4:hover:enabled {
   color: #333333;
@@ -541,6 +546,9 @@ Array [
 }
 .input-d1-0-2-10::placeholder {
   color: #333333;
+}
+.input-d1-0-2-10:focus:enabled {
+  border-color: #f4ab34;
 }
 .icon-d2-0-2-11 {
   color: inherit;
