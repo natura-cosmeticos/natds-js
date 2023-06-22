@@ -24,14 +24,12 @@ const styles = createUseStyles((theme: Theme) => ({
     position: 'fixed',
     top: 0,
     width: '100%',
-    maxHeight: '1080px',
     overflow: 'hidden',
     zIndex: 1199
   }),
 
   drawer: ({ open = false, size = 'small', position = 'left' }: DrawerProps) => {
     const x = open ? getSize(size) : 0
-    const r = open ? getSize(size) : getSize(size) + getSize(size)
     const y = open ? getSize(size) : getSize(size) + getSize(size)
 
     const pos = {
@@ -46,7 +44,7 @@ const styles = createUseStyles((theme: Theme) => ({
         height: '100%',
         right: getSize(size),
         top: 0,
-        transform: `translate(${r}px)`,
+        transform: `translateX(${y}px)`,
         width: getSize(size)
       },
       top: {
