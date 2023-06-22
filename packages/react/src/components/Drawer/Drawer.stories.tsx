@@ -1,3 +1,4 @@
+/* eslint-disable max-lines */
 /* eslint-disable react/no-array-index-key */
 import React, { useState } from 'react'
 import { Story, Meta } from '@storybook/react'
@@ -18,16 +19,15 @@ const componentStatus = `
 
 **NOTE FOR UX**: This component is available in the following variants:
 
-  - ❌ \`modal\`
-  - ✅ \`standard\`
+  - ✅ \`Base\`
 
 With the following attribute status:
 
   - **Position**
       - ✅ \`left\`
-      - ❌ \`right\`
-      - ❌ \`bottom\`
-      - ❌ \`top\`
+      - ✅ \`right\`
+      - ✅ \`bottom\`
+      - ✅ \`top\`
   - **Size**
       - ✅ \`small\`
       - ✅ \`medium\`
@@ -55,13 +55,19 @@ export const Playground: Story<DrawerProps> = (args) => {
     main,
     sectionItem
   } = styles()
-
+  const bd = document.querySelector('body')
+  if (bd) {
+    bd.style.overflow = 'hidden'
+  }
   return (
-    <>
+    <div style={{
+      overflow: 'hidden', width: '100%', height: '100%'
+    }}
+    >
       <Button onClick={() => setShowDrawer(!showDrawer)}>Open Drawer</Button>
       <Drawer {...args} open={showDrawer}>
         <div className={header}>
-          <Avatar type="image" src="https://pbs.twimg.com/profile_images/1493260750386835462/Z13XvXbo_400x400.jpg" alt="avatar" />
+          <Avatar type="icon" />
           <h6 className={headerTitle}>Hello, Design System</h6>
           <div className={headerButton}>
             <IconButton
@@ -104,7 +110,211 @@ export const Playground: Story<DrawerProps> = (args) => {
           </ul>
         </div>
       </Drawer>
-    </>
+    </div>
+  )
+}
+export const Right: Story<DrawerProps> = (args) => {
+  const [showDrawer, setShowDrawer] = useState(true)
+  const {
+    footer,
+    header,
+    headerButton,
+    headerTitle,
+    main,
+    sectionItem
+  } = styles()
+  const bd = document.querySelector('body')
+  if (bd) {
+    bd.style.overflow = 'hidden'
+  }
+  return (
+    <div style={{
+      overflow: 'hidden', width: '100%', height: '100%'
+    }}
+    >
+      <Button onClick={() => setShowDrawer(!showDrawer)}>Open Drawer</Button>
+      <Drawer position="right" {...args} open={showDrawer}>
+        <div className={header}>
+          <Avatar type="icon" />
+          <h6 className={headerTitle}>Hello, Design System</h6>
+          <div className={headerButton}>
+            <IconButton
+              onClick={() => setShowDrawer(!showDrawer)}
+              ariaLabel="close drawer"
+              IconComponent={<Icon name="outlined-navigation-close" />}
+            />
+          </div>
+        </div>
+        <Divider />
+        <div className={main}>
+          <ul style={{ padding: 0, margin: 0, width: '100%' }}>
+            {items.body.map((item, id) => (
+              <ListItem key={id} interaction="action">
+                <div style={{ display: 'flex', gap: 16, alignItems: 'center' }}>
+                  <Icon name={item.icon as IconName} />
+                  <span className={sectionItem}>
+                    {item.name}
+                    {item.new && <Badge variant="pulse" />}
+                  </span>
+                </div>
+              </ListItem>
+            ))}
+          </ul>
+        </div>
+        <div className={footer}>
+          <Divider />
+          <ul style={{ padding: 0, margin: 0, overflow: 'auto' }}>
+            {items.footer.map((item, id) => (
+              <ListItem key={id} interaction="action">
+                <div style={{ display: 'flex', gap: 16, alignItems: 'center' }}>
+                  <Icon name={item.icon as IconName} />
+                  <span className={sectionItem}>
+                    {item.name}
+                    {item.new && <Badge variant="pulse" />}
+                  </span>
+                </div>
+              </ListItem>
+            ))}
+          </ul>
+        </div>
+      </Drawer>
+    </div>
+  )
+}
+export const Top: Story<DrawerProps> = (args) => {
+  const [showDrawer, setShowDrawer] = useState(true)
+  const {
+    footer,
+    header,
+    headerButton,
+    headerTitle,
+    main,
+    sectionItem
+  } = styles()
+  const bd = document.querySelector('body')
+  if (bd) {
+    bd.style.overflow = 'hidden'
+  }
+  return (
+    <div style={{
+      overflow: 'hidden', width: '100%', height: '100%'
+    }}
+    >
+      <Button onClick={() => setShowDrawer(!showDrawer)}>Open Drawer</Button>
+      <Drawer position="top" {...args} open={showDrawer}>
+        <div className={header}>
+          <Avatar type="icon" />
+          <h6 className={headerTitle}>Hello, Design System</h6>
+          <div className={headerButton}>
+            <IconButton
+              onClick={() => setShowDrawer(!showDrawer)}
+              ariaLabel="close drawer"
+              IconComponent={<Icon name="outlined-navigation-close" />}
+            />
+          </div>
+        </div>
+        <Divider />
+        <div className={main}>
+          <ul style={{ padding: 0, margin: 0, width: '100%' }}>
+            {items.body.map((item, id) => (
+              <ListItem key={id} interaction="action">
+                <div style={{ display: 'flex', gap: 16, alignItems: 'center' }}>
+                  <Icon name={item.icon as IconName} />
+                  <span className={sectionItem}>
+                    {item.name}
+                    {item.new && <Badge variant="pulse" />}
+                  </span>
+                </div>
+              </ListItem>
+            ))}
+          </ul>
+        </div>
+        <div className={footer}>
+          <Divider />
+          <ul style={{ padding: 0, margin: 0, overflow: 'auto' }}>
+            {items.footer.map((item, id) => (
+              <ListItem key={id} interaction="action">
+                <div style={{ display: 'flex', gap: 16, alignItems: 'center' }}>
+                  <Icon name={item.icon as IconName} />
+                  <span className={sectionItem}>
+                    {item.name}
+                    {item.new && <Badge variant="pulse" />}
+                  </span>
+                </div>
+              </ListItem>
+            ))}
+          </ul>
+        </div>
+      </Drawer>
+    </div>
+  )
+}
+export const Bottom: Story<DrawerProps> = (args) => {
+  const [showDrawer, setShowDrawer] = useState(true)
+  const {
+    footer,
+    header,
+    headerButton,
+    headerTitle,
+    main,
+    sectionItem
+  } = styles()
+  const bd = document.querySelector('body')
+  if (bd) {
+    bd.style.overflow = 'hidden'
+  }
+  return (
+    <div style={{
+      overflow: 'hidden', width: '100%', height: '100%'
+    }}
+    >
+      <Button onClick={() => setShowDrawer(!showDrawer)}>Open Drawer</Button>
+      <Drawer position="bottom" {...args} open={showDrawer}>
+        <div className={header}>
+          <Avatar type="icon" />
+          <h6 className={headerTitle}>Hello, Design System</h6>
+          <div className={headerButton}>
+            <IconButton
+              onClick={() => setShowDrawer(!showDrawer)}
+              ariaLabel="close drawer"
+              IconComponent={<Icon name="outlined-navigation-close" />}
+            />
+          </div>
+        </div>
+        <Divider />
+        <div className={main}>
+          <ul style={{ padding: 0, margin: 0, width: '100%' }}>
+            {items.body.map((item, id) => (
+              <ListItem key={id} interaction="action">
+                <div style={{ display: 'flex', gap: 16, alignItems: 'center' }}>
+                  <Icon name={item.icon as IconName} />
+                  <span className={sectionItem}>
+                    {item.name}
+                    {item.new && <Badge variant="pulse" />}
+                  </span>
+                </div>
+              </ListItem>
+            ))}
+          </ul>
+        </div>
+        <div className={footer}>
+          <Divider />
+          <ul style={{ padding: 0, margin: 0, overflow: 'auto' }}>
+            {items.footer.map((item, id) => (
+              <ListItem key={id} interaction="action">
+                <div style={{ display: 'flex', gap: 16, alignItems: 'center' }}>
+                  <Icon name={item.icon as IconName} />
+                  <span className={sectionItem}>
+                    {item.name}
+                    {item.new && <Badge variant="pulse" />}
+                  </span>
+                </div>
+              </ListItem>
+            ))}
+          </ul>
+        </div>
+      </Drawer>
+    </div>
   )
 }
 

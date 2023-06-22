@@ -24,27 +24,59 @@ const styles = createUseStyles((theme: Theme) => ({
     position: 'fixed',
     top: 0,
     width: '100%',
+    maxHeight: '1080px',
+    overflow: 'hidden',
     zIndex: 1199
   }),
 
-  drawer: ({ open = false, size = 'small' }: DrawerProps) => {
+  drawer: ({ open = false, size = 'small', position = 'left' }: DrawerProps) => {
     const x = open ? getSize(size) : 0
+    const r = open ? getSize(size) : getSize(size) + getSize(size)
+    const y = open ? getSize(size) : getSize(size) + getSize(size)
 
+    const pos = {
+      left: {
+        height: '100%',
+        left: getSize(size) * -1,
+        top: 0,
+        transform: `translateX(${x}px)`,
+        width: getSize(size)
+      },
+      right: {
+        height: '100%',
+        right: getSize(size),
+        top: 0,
+        transform: `translate(${r}px)`,
+        width: getSize(size)
+      },
+      top: {
+        height: getSize(size),
+        left: 0,
+        top: getSize(size) * -1,
+        transform: `translateY(${x}px)`,
+        width: '100%'
+      },
+      bottom: {
+        height: getSize(size),
+        left: 0,
+        bottom: getSize(size),
+        transform: `translateY(${y}px)`,
+        width: '100%'
+      }
+    }
     return {
+      display: 'flex',
+      flexFlow: 'column nowrap',
       backgroundColor: theme.color.surface,
       color: theme.color.highEmphasis,
       boxShadow: theme.elevation.small,
-      display: 'flex',
-      flexFlow: 'column nowrap',
-      height: '100%',
+
+      ...pos[position],
+
       justifyContent: 'space-between',
-      left: getSize(size) * -1,
       overflow: 'hidden',
       position: 'absolute',
-      top: 0,
-      transform: `translateX(${x}px)`,
       transition: '0.3s ease-in-out',
-      width: getSize(size),
       zIndex: 1200
     }
   }
