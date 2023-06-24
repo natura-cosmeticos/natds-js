@@ -46,7 +46,7 @@ export default {
 } as Meta
 
 export const Playground: Story<DrawerProps> = (args) => {
-  const [showDrawer, setShowDrawer] = useState(true)
+  const [showDrawer, setShowDrawer] = useState(false)
   const {
     footer,
     header,
@@ -55,13 +55,9 @@ export const Playground: Story<DrawerProps> = (args) => {
     main,
     sectionItem
   } = styles()
-  const bd = document.querySelector('body')
-  if (bd) {
-    bd.style.overflow = 'hidden'
-  }
   return (
     <div style={{
-      overflow: 'hidden', width: '100%', height: '100%'
+      overflow: 'hidden', maxWidth: '1280px', maxHeight: '980px'
     }}
     >
       <Button onClick={() => setShowDrawer(!showDrawer)}>Open Drawer</Button>
@@ -114,7 +110,7 @@ export const Playground: Story<DrawerProps> = (args) => {
   )
 }
 export const Right: Story<DrawerProps> = (args) => {
-  const [showDrawer, setShowDrawer] = useState(true)
+  const [showDrawer, setShowDrawer] = useState(false)
   const {
     footer,
     header,
@@ -123,10 +119,6 @@ export const Right: Story<DrawerProps> = (args) => {
     main,
     sectionItem
   } = styles()
-  const bd = document.querySelector('body')
-  if (bd) {
-    bd.style.overflow = 'hidden'
-  }
   return (
     <div style={{
       overflow: 'hidden', width: '100%', height: '100%'
@@ -182,7 +174,7 @@ export const Right: Story<DrawerProps> = (args) => {
   )
 }
 export const Top: Story<DrawerProps> = (args) => {
-  const [showDrawer, setShowDrawer] = useState(true)
+  const [showDrawer, setShowDrawer] = useState(false)
   const {
     footer,
     header,
@@ -191,10 +183,6 @@ export const Top: Story<DrawerProps> = (args) => {
     main,
     sectionItem
   } = styles()
-  const bd = document.querySelector('body')
-  if (bd) {
-    bd.style.overflow = 'hidden'
-  }
   return (
     <div style={{
       overflow: 'hidden', width: '100%', height: '100%'
@@ -250,7 +238,7 @@ export const Top: Story<DrawerProps> = (args) => {
   )
 }
 export const Bottom: Story<DrawerProps> = (args) => {
-  const [showDrawer, setShowDrawer] = useState(true)
+  const [showDrawer, setShowDrawer] = useState(false)
   const {
     footer,
     header,
@@ -259,10 +247,6 @@ export const Bottom: Story<DrawerProps> = (args) => {
     main,
     sectionItem
   } = styles()
-  const bd = document.querySelector('body')
-  if (bd) {
-    bd.style.overflow = 'hidden'
-  }
   return (
     <div style={{
       overflow: 'hidden', width: '100%', height: '100%'
