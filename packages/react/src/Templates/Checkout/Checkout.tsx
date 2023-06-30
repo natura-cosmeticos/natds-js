@@ -41,7 +41,6 @@ const Checkout: React.FC = () => {
                   <CardSlide
                     prodTitle={elo.prodTitle}
                     brand={elo.brand}
-                    theme={elo.theme}
                     code={elo.code}
                     point={elo.point}
                     price={elo.price}
