@@ -30,7 +30,7 @@ export interface CardSlideProps {
  /**
  * Define an theme Component to your CardSlide
  */
-  theme: BrandProps,
+  theme?: BrandProps,
 
 /**
  * Define an code to productor to your CardSlide

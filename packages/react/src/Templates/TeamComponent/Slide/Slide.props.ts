@@ -1,3 +1,7 @@
+import { BrandProps } from '../../GlobalTypes'
+
 export interface SlideProps {
-    data: string[][]
+    data?: string[][]
+    slideTitle?: string
+    brand?: BrandProps
 }
