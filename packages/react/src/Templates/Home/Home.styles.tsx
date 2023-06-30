@@ -28,6 +28,16 @@ const styles = createUseStyles((theme: Theme) => ({
     // border: '1px solid red'
     // backgroundColor: '#FAFAFA'
   },
+  containerSlides: {
+    display: 'flex',
+    flexDirection: 'column',
+    width: '100%',
+    padding: 24,
+    boxSizing: 'border-box',
+    gap: 24
+    // border: '1px solid red'
+    // backgroundColor: '#FAFAFA'
+  },
   containerBanner: {
     display: 'flex',
     width: '100%',
@@ -133,6 +143,11 @@ const styles = createUseStyles((theme: Theme) => ({
     overflow: 'hidden',
     textOverflow: 'ellipsis',
     whiteSpace: 'nowrap'
+  },
+  TextRegular: {
+    fontWeight: theme.typography.fontWeight.regular,
+    fontSize: '14px',
+    color: theme.color.mediumEmphasis
   },
   '@media screen and (max-width: 1280px)': {
     containerStep: {

@@ -23,10 +23,3 @@ export const Playground: Story = () => (
   <Home />
 
 )
-// export const TemplateCheckoutMobile: Story = () => (
-//   <div style={{ maxWidth: '360px' }}>
-
-//     <Checkout />
-//   </div>
-
-// )
