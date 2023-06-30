@@ -1,6 +1,8 @@
 /* eslint-disable max-len */
 import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
+import { BrandProps } from '../../GlobalTypes'
+import { buildTheme } from '../../../ThemeProvider'
 
 type RuleNames =
   | 'container'
@@ -9,6 +11,7 @@ type RuleNames =
 
 export interface TargProps {
     back: string
+    brand: BrandProps | undefined
     top: number
     size: 'small' | 'medium'
   }
@@ -22,6 +25,13 @@ const handleSize = (size: string) => {
     default:
       return 8
   }
+}
+const getThemeSelect = (theme: Theme) => (brand: BrandProps | undefined) => {
+  const themeSelect = buildTheme(brand, 'light')
+  if (brand) {
+    return themeSelect.color.onPrimary
+  }
+  return theme.color.onPrimary
 }
 
 const styles = createUseStyles<RuleNames, TargProps, Theme>((theme: Theme) => ({
@@ -43,7 +53,7 @@ const styles = createUseStyles<RuleNames, TargProps, Theme>((theme: Theme) => ({
     alignItems: 'center',
     minWidth: ({ size }) => handleSize(size),
     height: 16,
-    color: theme.color.onPrimary,
+    color: ({ brand }) => getThemeSelect(theme)(brand),
     fontSize: 12,
     borderRadius: [0, 4, 4, 0],
     backgroundColor: ({ back }) => (back !== 'none' ? back : theme.color.primary)

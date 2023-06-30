@@ -24,7 +24,9 @@ const Targ: React.FC<BrandP> = ({
   if (!brand) {
     back = 'none'
   }
-  const { container, targ, title } = styles({ back, top, size })
+  const { container, targ, title } = styles({
+    back, top, size, brand
+  })
   return (
     <div className={container}>
       <div className={targ}>
