@@ -15,7 +15,7 @@ export default {
   title: 'TeamComponents/LogoButtom',
   component: LogoButton,
   parameters: {
-    componentSubtitle: 'This is an example of implementing the theme on a checkout page',
+    componentSubtitle: 'This is an example of implementing the theme on a LogoButton page',
     docs: { description: { component: componentStatus } },
     actions: { argTypesRegex: '^on.*' }
   }
@@ -41,10 +41,3 @@ export const Playground: Story<LogoButtonProps> = (args) => {
 Playground.args = {
   isActive: false
 }
-// export const TemplateCheckoutMobile: Story = () => (
-//   <div style={{ maxWidth: '360px' }}>
-
-//     <Checkout />
-//   </div>
-
-// )
