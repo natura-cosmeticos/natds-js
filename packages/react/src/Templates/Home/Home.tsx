@@ -32,7 +32,7 @@ const Home = React.forwardRef<HTMLDivElement, HomeProps>(
             <div>Clic y navegue por nuestras marcas</div>
             <div className={wrapperBrandButtons}>
               <LogoButton onClick={() => setActiveLogoBtn('natura_v2')} brand="natura_v2" model="a" size="largeXX" isActive={handleActive('natura_v2')} />
-              <LogoButton onClick={() => setActiveLogoBtn('avon_v2')} brand="avon_v2" model="a" size="mediumX" isActive={handleActive('avon_v2')} />
+              <LogoButton onClick={() => setActiveLogoBtn('avon')} brand="avon" model="a" size="mediumX" isActive={handleActive('avon')} />
               <LogoButton onClick={() => setActiveLogoBtn('casaEestilo')} brand="casaEestilo" model="a" size="mediumX" isActive={handleActive('casaEestilo')} />
             </div>
 
@@ -118,9 +118,9 @@ const Home = React.forwardRef<HTMLDivElement, HomeProps>(
             )
           }
           {
-            activeLogoBtn === 'avon_v2'
+            activeLogoBtn === 'avon'
             && (
-            <Slide brand="avon_v2" slideTitle="Novidades Avon">
+            <Slide brand="avon" slideTitle="Novidades Avon">
               {
               mockAvon.map((elo) => (
 

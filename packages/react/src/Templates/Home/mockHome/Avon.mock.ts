@@ -4,7 +4,7 @@ const mockAvon: IDataCartProps[] = [
   {
     prodTitle: 'Refil Desodorante Corporal Kaiak Masculino',
     brand: 'Avon',
-    theme: 'avon_v2',
+    theme: 'avon',
     code: '50999',
     point: 4,
     price: 'S/0.000.00',
@@ -13,7 +13,7 @@ const mockAvon: IDataCartProps[] = [
   {
     prodTitle: 'Refil Desodorante Corporal Kaiak Masculino',
     brand: 'Avon',
-    theme: 'avon_v2',
+    theme: 'avon',
     code: '50999',
     point: 4,
     price: 'S/0.000.00',
@@ -22,7 +22,7 @@ const mockAvon: IDataCartProps[] = [
   {
     prodTitle: 'Refil Desodorante Corporal Kaiak Masculino',
     brand: 'Avon',
-    theme: 'avon_v2',
+    theme: 'avon',
     code: '50999',
     point: 4,
     price: 'S/0.000.00',
@@ -31,7 +31,7 @@ const mockAvon: IDataCartProps[] = [
   {
     prodTitle: 'Refil Desodorante Corporal Kaiak Masculino',
     brand: 'Avon',
-    theme: 'avon_v2',
+    theme: 'avon',
     code: '50999',
     point: 4,
     price: 'S/0.000.00',
@@ -40,7 +40,7 @@ const mockAvon: IDataCartProps[] = [
   {
     prodTitle: 'Refil Desodorante Corporal Kaiak Masculino',
     brand: 'Avon',
-    theme: 'avon_v2',
+    theme: 'avon',
     code: '50999',
     point: 4,
     price: 'S/0.000.00',
@@ -49,7 +49,7 @@ const mockAvon: IDataCartProps[] = [
   {
     prodTitle: 'Refil Desodorante Corporal Kaiak Masculino',
     brand: 'Avon',
-    theme: 'avon_v2',
+    theme: 'avon',
     code: '50999',
     point: 4,
     price: 'S/0.000.00',
@@ -58,7 +58,7 @@ const mockAvon: IDataCartProps[] = [
   {
     prodTitle: 'Refil Desodorante Corporal Kaiak Masculino',
     brand: 'Avon',
-    theme: 'avon_v2',
+    theme: 'avon',
     code: '50999',
     point: 4,
     price: 'S/0.000.00',
@@ -67,7 +67,7 @@ const mockAvon: IDataCartProps[] = [
   {
     prodTitle: 'Refil Desodorante Corporal Kaiak Masculino',
     brand: 'Avon',
-    theme: 'avon_v2',
+    theme: 'avon',
     code: '50999',
     point: 4,
     price: 'S/0.000.00',
@@ -76,7 +76,7 @@ const mockAvon: IDataCartProps[] = [
   {
     prodTitle: 'Refil Desodorante Corporal Kaiak Masculino',
     brand: 'Avon',
-    theme: 'avon_v2',
+    theme: 'avon',
     code: '50999',
     point: 4,
     price: 'S/0.000.00',
