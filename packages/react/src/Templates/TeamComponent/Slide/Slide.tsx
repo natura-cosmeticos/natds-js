@@ -4,6 +4,7 @@ import Icon from '../../../components/Icon'
 import useMedia from '../../hookMedia/useMedia'
 import labelText from '../../mocks/labelText'
 import styles from './Slide.styles'
+import { SlideProps } from './Slide.props'
 
 const SlidePosition = {
   widthCardFix: 286,
@@ -14,14 +15,16 @@ const SlidePosition = {
 }
 const bullets = [{ id: 0, bullet: 'on' }, { id: 1, bullet: 'off' }, { id: 2, bullet: 'off' }]
 
-const Slide: React.FC<JSX.ElementChildrenAttribute> = ({ children }) => {
+const Slide: React.FC<SlideProps> = (props) => {
+  const { children, slideTitle, brand } = props
   const [show, setShow] = useState(false)
   const [btnBullet, setBtnBullets] = useState(bullets)
   const refWidth = useRef<HTMLDivElement>(null)
   const { mediaOn } = useMedia(780)
   const {
-    container, title, containerSlide, containerRelativo, nextBtn, prevBtn, bulletsContainer, bulletOn, bulletOf
-  } = styles()
+    container, title, containerSlide, containerRelativo,
+    nextBtn, prevBtn, bulletsContainer, bulletOn, bulletOf
+  } = styles({ brand })
 
   const verifyBullets = () => {
     if (SlidePosition.currentSlide === 0) {
@@ -84,7 +87,7 @@ const Slide: React.FC<JSX.ElementChildrenAttribute> = ({ children }) => {
   return (
     <div className={container}>
       <div className={title}>
-        {`${labelText.Slide.title}`}
+        { `${slideTitle || labelText.Slide.title}`}
       </div>
       <div className={containerRelativo}>
         {

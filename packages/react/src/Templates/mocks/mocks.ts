@@ -12,7 +12,7 @@ export default DataMockStatusBar
 export interface IDataCartProps {
     prodTitle: string
     brand: string,
-    theme: BrandProps,
+    theme?: BrandProps,
     code: string,
     point: number,
     price: string,

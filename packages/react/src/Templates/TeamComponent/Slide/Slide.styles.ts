@@ -1,8 +1,62 @@
+/* eslint-disable max-lines */
 /* eslint-disable max-len */
 import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
+import { BrandProps } from '../../GlobalTypes'
+import { buildTheme } from '../../../ThemeProvider'
 
-const styles = createUseStyles((theme: Theme) => ({
+type RuleNames =
+  | 'header'
+  | 'title'
+  | 'container'
+  | 'containerRelativo'
+  | 'containerSlide'
+  | 'containerCard'
+  | 'cardHeader'
+  | 'cardBody'
+  | 'cardFooter'
+  | 'cardIMG'
+  | 'col'
+  | 'row'
+  | 'tableRow'
+  | 'cell'
+  | 'cellEnd'
+  | 'noBorder'
+  | 'textRegular'
+  | 'textMedium'
+  | 'textSub'
+  | 'text'
+  | 'textProd'
+  | 'colPd'
+  | 'surface'
+  | 'nextBtn'
+  | 'prevBtn'
+  | 'box'
+  | 'boxProgress'
+  | 'boxChip'
+  | 'footer'
+  | 'CorrectionPadding'
+  | 'bulletsContainer'
+  | 'bulletOn'
+  | 'bulletOf'
+
+export interface SlideStyleProps {
+    brand: BrandProps | undefined
+  }
+
+const getThemeSel = (theme: Theme) => (brand: BrandProps | undefined) => {
+  const themeSel = buildTheme(brand, 'light')
+  if (brand) {
+    return {
+      bulletOnClick: themeSel.color.primary
+    }
+  }
+  return {
+    bulletOnClick: theme.color.primary
+  }
+}
+
+const styles = createUseStyles<RuleNames, SlideStyleProps, Theme>((theme: Theme) => ({
   header: {
     display: 'flex',
     fontFamily: [theme.typography.display.fontFamily, theme.typography.fallback.fontFamily],
@@ -28,7 +82,7 @@ const styles = createUseStyles((theme: Theme) => ({
     backgroundColor: theme.color.surface,
     gap: 8,
     minHeight: 451,
-    with: '100%',
+    width: '100%',
     boxSizing: 'border-box',
     padding: 24,
     overflow: 'hidden'
@@ -273,7 +327,8 @@ const styles = createUseStyles((theme: Theme) => ({
     minWidth: 8,
     minHeight: 8,
     borderRadius: '50%',
-    backgroundColor: theme.color.primary
+    // backgroundColor: theme.color.primary
+    backgroundColor: ({ brand }) => getThemeSel(theme)(brand).bulletOnClick
   },
   bulletOf: {
     display: 'flex',

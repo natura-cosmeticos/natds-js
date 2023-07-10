@@ -14,6 +14,7 @@ const CardSlide = React.forwardRef<HTMLDivElement, CardSlideProps>(
       prodTitle,
       brand,
       code,
+      theme,
       point,
       price,
       url
@@ -27,7 +28,11 @@ const CardSlide = React.forwardRef<HTMLDivElement, CardSlideProps>(
     return (
       <Card ref={ref} elevation>
         <div className={containerCard}>
-          <Targ value="10%" label="off" size="medium" top={24} mode="light" />
+          {
+            theme ? (<Targ brand={theme} value="10%" label="off" size="medium" top={24} mode="light" />)
+              : (<Targ value="10%" label="off" size="medium" top={24} mode="light" />)
+          }
+
           <div className={cardHeader}>
             <div className={cardIMG}>
               <Image sourceImage="INVALID_URL" fallbackImage={url} />
@@ -81,7 +86,11 @@ const CardSlide = React.forwardRef<HTMLDivElement, CardSlideProps>(
 
             <Counter className={CorrectionPadding} onIncrement={() => 1} onDecrement={() => 2} />
             <span className={CorrectionPadding}>
-              <Button onClick={() => ''}>{`${labelText.Slide.cardSlide.btnAdd}`}</Button>
+              {
+                theme ? (<Button brand={theme} onClick={() => ''}>{`${labelText.Slide.cardSlide.btnAdd}`}</Button>)
+                  : (<Button onClick={() => ''}>{`${labelText.Slide.cardSlide.btnAdd}`}</Button>)
+              }
+
             </span>
 
           </div>
