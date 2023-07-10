@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.47.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.47.0-alpha.DSY-3195.3.0...@naturacosmeticos/natds-react@2.47.0) (2023-07-10)
+
+
+### Bug Fixes
+
+* **natds-react:** remove max height in overlayContainer ([7f8635e](https://github.com/natura-cosmeticos/natds-js/commit/7f8635e9f913aed0834c43ff4bad7fafb373de31))
+* **natds-react:** remove overflow ([b1c2581](https://github.com/natura-cosmeticos/natds-js/commit/b1c2581fdbbcf271173ff3368c21f2ec56fc66a6))
+* **natds-react:** remove ref helvetica font in mock file ([fad0202](https://github.com/natura-cosmeticos/natds-js/commit/fad020272db79694499e846fce10f18ae5de2473))
+
+
+### Features
+
+* **natds-react:** add prop position in Drawer ([4395f6c](https://github.com/natura-cosmeticos/natds-js/commit/4395f6cbe85a213389395d62f0947dfc83073006))
+
+
+
+
+
 ## [2.46.1](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.46.1-alpha.DSY-3397.3.0...@naturacosmeticos/natds-react@2.46.1) (2023-06-20)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-react
