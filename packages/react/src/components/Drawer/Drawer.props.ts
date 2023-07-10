@@ -1,5 +1,5 @@
 export type DrawerSize = 'small' | 'medium' | 'large'
-
+export type DrawerPosition = 'left' | 'right' | 'top' | 'bottom'
 export interface DrawerProps {
   /**
    * The content of Drawer
@@ -22,4 +22,8 @@ export interface DrawerProps {
    * Optional ID for testing
    */
   testID?: string
+  /**
+   * Optional position prop
+   */
+  position?: DrawerPosition
 }
