@@ -1,3 +1,4 @@
+/* eslint-disable react/no-danger */
 /* eslint-disable react/no-danger-with-children */
 import React from 'react'
 import { useTheme } from '@material-ui/core/styles'
@@ -10,7 +11,7 @@ const Logo = ({
   size = 'veryHuge',
   model = 'a',
   arialabel = 'logo'
-}: ILogoProps) => {
+}: ILogoProps):JSX.Element => {
   const theme: IThemeWeb = useTheme()
   const checkColor = color === 'neutral' ? 'neutral' : 'custom'
   const logo = theme.asset?.brand[checkColor][model].file
