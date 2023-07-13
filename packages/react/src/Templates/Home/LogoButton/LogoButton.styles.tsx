@@ -46,7 +46,6 @@ const styles = createUseStyles<RuleName, LogoBrand, Theme>((theme: Theme) => ({
     flexDirection: 'column',
     border: ' 1px solid #0000001F',
     gap: theme.size.micro,
-    // backgroundColor: theme.color.primary,
     boxSizing: '-moz-initial',
     maxWidth: 1280,
     minWidth: 360,
