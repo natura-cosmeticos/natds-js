@@ -1,9 +1,7 @@
 /* eslint-disable import/prefer-default-export */
 import themes from '@naturacosmeticos/natds-themes'
 import { ITypography } from 'tokens/typography/ITypography'
-
 const { typography: typographyFromTheme } = themes.biome.light
-
 export const typography: ITypography = {
   body: {
     regular: {
