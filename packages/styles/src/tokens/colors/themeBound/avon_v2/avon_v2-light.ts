@@ -1,9 +1,10 @@
+/**
+  Tiago Guizelini - trigger pipeline
+*/
 import themes from '@naturacosmeticos/natds-themes'
 import { IColorThemeTokens } from '../IColorThemeTokens'
 
-const { 
-  color 
-} = themes.avon_v2.light
+const { color } = themes.avon_v2.light
 
 export const avonV2LightColorTokens: IColorThemeTokens = {
   colorPrimary: color.primary,
