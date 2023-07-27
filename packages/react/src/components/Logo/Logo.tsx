@@ -9,6 +9,7 @@ const Logo = React.forwardRef<HTMLDivElement, LogoProps>(
     color = 'neutral',
     size = 'veryHuge',
     model = 'a',
+    languages = 'default',
     arialabel = 'logo',
     className = '',
     ...props
@@ -17,7 +18,7 @@ const Logo = React.forwardRef<HTMLDivElement, LogoProps>(
     const { root } = styles({ size, color })
 
     const checkColor = color === 'neutral' ? 'neutral' : 'custom'
-    const logo = theme.asset.brand[checkColor][model].file
+    const logo = languages === 'default' ? theme.asset.brand[checkColor][model].file : (theme.asset.brand[checkColor][model][languages] ?? theme.asset.brand[checkColor][model].file)
 
     return (
       <div
