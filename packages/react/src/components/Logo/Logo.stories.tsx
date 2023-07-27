@@ -29,6 +29,22 @@ Attribute status:
 - **Model**
     - ✅ \`primary\`
     - ✅ \`secondary\`
+- **Language**
+    - ✅ \`default\`
+    - ✅ \`es\`
+    - ✅ \`pt\`
+- **Brand**
+    - ✅ \`avon\`
+    - ✅ \`avon_v2\`
+    - ✅ \`natura\`
+    - ✅ \`natura_v2\`
+    - ✅ \`theBodyShop\`
+    - ✅ \`consultoriaDeBeleza\`
+    - ✅ \`casaEestilo\`
+    - ✅ \`biome\`
+- **Model**
+    - ✅ \`light\`
+    - ✅ \`dark\`
 
 ---
 `
