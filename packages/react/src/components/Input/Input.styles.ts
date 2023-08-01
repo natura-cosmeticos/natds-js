@@ -14,17 +14,23 @@ const getFeedbackBorderColor = (theme: Theme) => ({ feedback }: InputStyleProps)
 
   return feedback ? borderColor[feedback] : theme.color.lowEmphasis
 }
-const getColorTheme = (theme: Theme) => ({ brand }: InputStyleProps) => {
+const getColorTheme = (theme: Theme) => ({ brand, feedback }: InputStyleProps) => {
   const borderColor = buildTheme(brand, 'light')
+  const ErrorSucces = {
+    error: theme.color.alert,
+    success: theme.color.success
+  }
 
-  return brand ? borderColor.color.primary : theme.color.primary
+  // eslint-disable-next-line no-nested-ternary
+  return brand ? (feedback ? ErrorSucces[feedback]
+    : borderColor.color.primary) : (feedback ? ErrorSucces[feedback] : theme.color.primary)
 }
 
 const styles = createUseStyles((theme: Theme) => ({
   wrapper: {
     alignItems: 'center',
     backgroundColor: theme.color.surface,
-    border: '1px solid',
+    border: '2px solid',
     borderColor: getFeedbackBorderColor(theme),
     borderRadius: theme.textField.borderRadius,
     cursor: ({ disabled, readOnly }: InputStyleProps) => (!disabled && !readOnly ? 'text' : 'default'),
@@ -32,8 +38,8 @@ const styles = createUseStyles((theme: Theme) => ({
     justifyContent: 'space-between',
     position: 'relative',
     '&:hover': {
-      borderColor: ({ disabled, readOnly }: InputStyleProps) => (
-        !disabled && !readOnly && theme.color.mediumEmphasis
+      borderColor: ({ disabled, readOnly, feedback }: InputStyleProps) => (
+        !disabled && !readOnly && !feedback && theme.color.mediumEmphasis
       )
     },
     '&:focus-within': {
@@ -51,6 +57,13 @@ const styles = createUseStyles((theme: Theme) => ({
       top: 0,
       width: '100%'
     }
+  },
+  leadinContainer: {
+    display: 'flex',
+    paddingLeft: 8,
+    boxSizing: 'border-box',
+    justifyContent: 'center',
+    alignItems: 'center'
   },
   base: {
     background: 'none',
