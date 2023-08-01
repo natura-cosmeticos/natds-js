@@ -119,13 +119,24 @@ Disabled.args = { ...Playground.args, disabled: true, value: 'Hello World' }
 
 export const Type: Story<TextFieldProps> = (args) => {
   const [password, setPassword] = useState<string>('Hello World')
+  const [passwordTrans, setPasswordTrans] = useState<boolean>(false)
   const [text, setText] = useState<string>('Hello World')
   const [textArea, setTextArea] = useState<string>('Hello World')
 
   return (
     <StoryContainer>
-      <TextField {...args} onChange={(e) => setPassword(e.target.value)} value={password} type="password" label="Password type" />
-      <TextField {...args} onChange={(e) => setText(e.target.value)} value={text} label="Text type" />
+      <TextField
+        {...args}
+        ariaLabel="Pass"
+        onClick={() => setPasswordTrans(!passwordTrans)}
+        onChange={(e) => setPassword(e.target.value)}
+        value={password}
+        type={`${passwordTrans ? 'text' : 'password'}`}
+        label="Password type"
+        action="icon"
+        IconComponent={<Icon name="outlined-action-visibility" color="highEmphasis" />}
+      />
+      <TextField {...args} onChange={(e) => { setText(e.target.value) }} value={text} label="Text type" />
       <TextField {...args} onChange={(e) => setTextArea(e.target.value)} value={textArea} type="multiline" label="Multiline type" />
     </StoryContainer>
   )
@@ -156,4 +167,20 @@ ActionImage.args = {
   action: 'image',
   src: '/img_placeholder.png',
   alt: 'image placeholder example'
+}
+export const IconLeading: Story<TextFieldProps> = (args) => (
+  <StoryContainer>
+    <TextField {...args} />
+  </StoryContainer>
+)
+
+IconLeading.args = {
+  ...Playground.args,
+  action: 'image',
+  // action: 'icon',
+  // IconComponent: <Icon name="filled-action-love" color="highEmphasis" />,
+  iconLeading: <Icon name="filled-action-love" color="highEmphasis" />,
+  src: '/img_placeholder.png',
+  alt: 'image placeholder example'
+
 }
