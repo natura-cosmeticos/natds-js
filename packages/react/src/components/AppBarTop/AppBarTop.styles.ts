@@ -6,6 +6,7 @@ const getBackgroundColor = (theme: Theme) => ({ color }: AppBarStyleOptions) => 
   const backgroundColor = {
     default: theme.color.surface,
     primary: theme.color.primary,
+    secondary: theme.color.secondary,
     none: 'transparent',
     inverse: theme.color.highEmphasis
   }
@@ -17,6 +18,7 @@ const getTextColor = (theme: Theme) => ({ color }: AppBarStyleOptions) => {
   const backgroundColor = {
     default: theme.color.onSurface,
     primary: theme.color.onPrimary,
+    secondary: theme.color.onSecondary,
     none: theme.color.highlight,
     inverse: theme.color.surface
   }

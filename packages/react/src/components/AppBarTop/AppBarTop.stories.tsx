@@ -1,6 +1,7 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment */
 import React from 'react'
 import { Story, Meta } from '@storybook/react'
+import TextField from '../TextField'
 import { IconButton } from '../IconButton'
 import { Icon } from '../Icon'
 import { AppBarTop, AppBarProps } from '.'
@@ -44,24 +45,43 @@ export default {
   }
 } as Meta
 
-export const Playground: Story<AppBarProps> = (args) => <AppBarTop {...args} />
+export const Playground: Story<AppBarProps> = (args) => (
+  <div style={{
+    display: 'flex',
+    position: 'relative',
+    gap: 8,
+    flexDirection: 'column',
+    minHeight: 920,
+    width: '100%',
+    // border: '1px solid red',
+    overflowY: 'scroll'
+  }}
+  >
+    <AppBarTop {...args} />
+
+  </div>
+)
+
 Playground.args = {
   children: 'App Bar - Top',
+  behaviour: 'absolute'
   // @ts-ignore
-  style: { position: 'static' }
 }
 
 export const Color: Story<AppBarProps> = (args) => (
   <div style={{ display: 'flex', gap: 8, flexDirection: 'column' }}>
     <AppBarTop {...args} color="default">Default</AppBarTop>
     <AppBarTop {...args} color="primary">Primary</AppBarTop>
+    <AppBarTop {...args} color="secondary">Secondary</AppBarTop>
     <AppBarTop {...args} color="inverse">Inverse</AppBarTop>
     <AppBarTop {...args} color="none">None</AppBarTop>
   </div>
 )
 
 Color.args = {
-  ...Playground.args
+  children: 'App Bar - Top',
+  // @ts-ignore
+  style: { position: 'static' }
 }
 
 export const Elevation: Story<AppBarProps> = (args) => (
@@ -72,7 +92,9 @@ export const Elevation: Story<AppBarProps> = (args) => (
 )
 
 Elevation.args = {
-  ...Playground.args
+  children: 'App Bar - Top',
+  // @ts-ignore
+  style: { position: 'static' }
 }
 
 export const WithLogo: Story<AppBarProps> = (args) => (
@@ -90,5 +112,37 @@ export const WithLogo: Story<AppBarProps> = (args) => (
   </AppBarTop>
 )
 WithLogo.args = {
-  ...Playground.args
+  children: 'App Bar - Top',
+  // @ts-ignore
+  style: { position: 'static' }
+}
+export const WithSearch: Story<AppBarProps> = (args) => (
+  <AppBarTop {...args}>
+    <>
+      <div style={{ justifyContent: 'center', display: 'flex' }}>
+        <IconButton IconComponent={<Icon name="outlined-navigation-menu" color="highlight" />} ariaLabel="menu" onClick={() => ''} />
+      </div>
+      <div style={{ justifyContent: 'center', display: 'flex' }}>
+        <TextField
+          ariaLabel="search"
+          onClick={() => ''}
+          id="123"
+          size="medium"
+          placeholder="Search"
+          action="icon"
+          IconComponent={<IconButton IconComponent={<Icon name="outlined-action-search" color="highlight" />} ariaLabel="search" onClick={() => ''} />}
+        />
+      </div>
+      <div>
+        <IconButton IconComponent={<Icon name="outlined-action-search" color="highlight" />} ariaLabel="search" onClick={() => ''} />
+        <IconButton IconComponent={<Icon name="outlined-finance-bag" color="highlight" />} ariaLabel="profile" onClick={() => ''} />
+      </div>
+    </>
+
+  </AppBarTop>
+)
+WithSearch.args = {
+  children: 'App Bar - Top',
+  // @ts-ignore
+  style: { position: 'static' }
 }
