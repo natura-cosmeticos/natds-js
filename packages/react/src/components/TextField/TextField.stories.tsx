@@ -1,3 +1,4 @@
+/* eslint-disable react/destructuring-assignment */
 import React, { useState } from 'react'
 import { Story, Meta } from '@storybook/react'
 import { TextField, TextFieldProps } from '.'
@@ -116,6 +117,13 @@ export const Disabled: Story<TextFieldProps> = (args) => (
 )
 
 Disabled.args = { ...Playground.args, disabled: true, value: 'Hello World' }
+
+export const DisabledWithIconLeading: Story<TextFieldProps> = (args) => (
+  <StoryContainer>
+    <TextField {...args} iconLeading={<Icon name="filled-action-love" color={args.disabled ? 'lowEmphasis' : 'highEmphasis'} />} />
+  </StoryContainer>
+)
+DisabledWithIconLeading.args = { ...Playground.args, disabled: true, value: 'Hello World' }
 
 export const Type: Story<TextFieldProps> = (args) => {
   const [password, setPassword] = useState<string>('Hello World')
