@@ -1,3 +1,5 @@
+/* eslint-disable max-statements-per-line */
+/* eslint-disable max-len */
 /* eslint-disable max-lines */
 /* eslint-disable react/no-array-index-key */
 import React, { useState } from 'react'
@@ -32,6 +34,9 @@ With the following attribute status:
       - ✅ \`small\`
       - ✅ \`medium\`
       - ✅ \`large\`
+  - **handleClick**
+      - ✅ \`function\`
+
 
 ---
 `
@@ -61,7 +66,7 @@ export const Playground: Story<DrawerProps> = (args) => {
     }}
     >
       <Button onClick={() => setShowDrawer(!showDrawer)}>Open Drawer</Button>
-      <Drawer {...args} open={showDrawer}>
+      <Drawer {...args} open={showDrawer} handleClick={() => setShowDrawer(!showDrawer)}>
         <div className={header}>
           <Avatar type="icon" />
           <h6 className={headerTitle}>Hello, Design System</h6>

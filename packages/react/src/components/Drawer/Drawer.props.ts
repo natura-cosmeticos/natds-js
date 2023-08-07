@@ -14,6 +14,10 @@ export interface DrawerProps {
    */
   open: boolean
   /**
+   * Whether the Drawer is opened use to close in overlay
+   */
+  handleClick?: () => void
+  /**
     * The Drawer's width size
     * @default small
   */
