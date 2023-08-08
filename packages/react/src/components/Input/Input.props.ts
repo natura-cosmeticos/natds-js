@@ -113,6 +113,10 @@ export interface BaseProps {
    * The value of the `input` element
    */
   value?: string,
+  /**
+   * The Icon Leading of the `input` element
+   */
+  iconLeading?: React.ReactElement
 }
 
 export type InputActionIcon = BaseProps & ({

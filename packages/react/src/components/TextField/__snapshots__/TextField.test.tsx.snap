@@ -3,7 +3,7 @@
 exports[`TextField component should render correctly when have a label 1`] = `
 Array [
   ".wrapper-0-2-4 {
-  border: 1px solid;
+  border: 2px solid;
   display: flex;
   position: relative;
   align-items: center;
@@ -25,7 +25,14 @@ Array [
   pointer-events: none;
   background-color: #bbbbbb;
 }
-.base-0-2-5 {
+.leadinContainer-0-2-5 {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  padding-left: 8px;
+  justify-content: center;
+}
+.base-0-2-6 {
   color: #333333;
   width: 100%;
   border: none;
@@ -38,14 +45,14 @@ Array [
   line-height: 1.25;
   letter-spacing: 0.51px;
 }
-.base-0-2-5:read-only {
+.base-0-2-6:read-only {
   pointer-events: none;
 }
-.base-0-2-5:disabled {
+.base-0-2-6:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-6 {
+.input-0-2-7 {
   color: #333333;
   width: 100%;
   border: none;
@@ -59,15 +66,15 @@ Array [
   line-height: 1.25;
   letter-spacing: 0.51px;
 }
-.input-0-2-6:read-only {
+.input-0-2-7:read-only {
   pointer-events: none;
 }
-.input-0-2-6:disabled {
+.input-0-2-7:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-6::placeholder {}
-.textArea-0-2-7 {
+.input-0-2-7::placeholder {}
+.textArea-0-2-8 {
   color: #333333;
   width: 100%;
   border: none;
@@ -80,40 +87,40 @@ Array [
   line-height: 1.25;
   letter-spacing: 0.51px;
 }
-.textArea-0-2-7:read-only {
+.textArea-0-2-8:read-only {
   pointer-events: none;
 }
-.textArea-0-2-7:disabled {
+.textArea-0-2-8:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.textArea-0-2-7::placeholder {}
-.wrapper-d0-0-2-8 {
+.textArea-0-2-8::placeholder {}
+.wrapper-d0-0-2-9 {
   border-color: #bbbbbb;
   cursor: text;
 }
-.wrapper-d0-0-2-8:hover {
+.wrapper-d0-0-2-9:hover {
   border-color: #777777;
 }
-.wrapper-d0-0-2-8:focus-within {
+.wrapper-d0-0-2-9:focus-within {
   border-color: #f4ab34;
 }
-.wrapper-d0-0-2-8:after {
+.wrapper-d0-0-2-9:after {
   opacity: 0;
 }
-.input-d1-0-2-9 {
+.input-d1-0-2-10 {
   height: 56px;
 }
-.input-d1-0-2-9::placeholder {
+.input-d1-0-2-10::placeholder {
   color: #777777;
 }
-.textArea-d2-0-2-10 {
+.textArea-d2-0-2-11 {
   resize: none;
 }
-.textArea-d2-0-2-10::placeholder {
+.textArea-d2-0-2-11::placeholder {
   color: #777777;
 }
-.helperText-0-2-11 {
+.helperText-0-2-12 {
   display: flex;
   font-size: 12px;
   margin-top: 4px;
@@ -124,11 +131,11 @@ Array [
   margin-bottom: 0;
   letter-spacing: 0.38px;
 }
-.helperText-0-2-11 > i {}
-.helperText-d0-0-2-12 {
+.helperText-0-2-12 > i {}
+.helperText-d0-0-2-13 {
   color: #777777;
 }
-.helperText-d0-0-2-12 > i {}
+.helperText-d0-0-2-13 > i {}
 .labelContainer-0-2-3 {
   color: #000000;
   font-family: \\"Roboto\\", Arial;
@@ -156,10 +163,10 @@ Array [
         some label here
       </label>
       <div
-        class="wrapper-0-2-4 wrapper-d0-0-2-8"
+        class="wrapper-0-2-4 wrapper-d0-0-2-9"
       >
         <input
-          class=" input-0-2-6 input-d1-0-2-9"
+          class=" input-0-2-7 input-d1-0-2-10"
           data-testid="ds-input"
           id="example_to_test"
           type="text"
@@ -167,7 +174,7 @@ Array [
         />
       </div>
       <p
-        class="helperText-0-2-11 helperText-d0-0-2-12"
+        class="helperText-0-2-12 helperText-d0-0-2-13"
       />
     </div>
   </div>,
@@ -177,7 +184,7 @@ Array [
 exports[`TextField component should render correctly when is disabled 1`] = `
 Array [
   ".wrapper-0-2-4 {
-  border: 1px solid;
+  border: 2px solid;
   display: flex;
   position: relative;
   align-items: center;
@@ -199,7 +206,14 @@ Array [
   pointer-events: none;
   background-color: #bbbbbb;
 }
-.base-0-2-5 {
+.leadinContainer-0-2-5 {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  padding-left: 8px;
+  justify-content: center;
+}
+.base-0-2-6 {
   color: #333333;
   width: 100%;
   border: none;
@@ -212,14 +226,14 @@ Array [
   line-height: 1.25;
   letter-spacing: 0.51px;
 }
-.base-0-2-5:read-only {
+.base-0-2-6:read-only {
   pointer-events: none;
 }
-.base-0-2-5:disabled {
+.base-0-2-6:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-6 {
+.input-0-2-7 {
   color: #333333;
   width: 100%;
   border: none;
@@ -233,15 +247,15 @@ Array [
   line-height: 1.25;
   letter-spacing: 0.51px;
 }
-.input-0-2-6:read-only {
+.input-0-2-7:read-only {
   pointer-events: none;
 }
-.input-0-2-6:disabled {
+.input-0-2-7:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-6::placeholder {}
-.textArea-0-2-7 {
+.input-0-2-7::placeholder {}
+.textArea-0-2-8 {
   color: #333333;
   width: 100%;
   border: none;
@@ -254,40 +268,40 @@ Array [
   line-height: 1.25;
   letter-spacing: 0.51px;
 }
-.textArea-0-2-7:read-only {
+.textArea-0-2-8:read-only {
   pointer-events: none;
 }
-.textArea-0-2-7:disabled {
+.textArea-0-2-8:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.textArea-0-2-7::placeholder {}
-.wrapper-d0-0-2-8 {
+.textArea-0-2-8::placeholder {}
+.wrapper-d0-0-2-9 {
   border-color: #bbbbbb;
   cursor: text;
 }
-.wrapper-d0-0-2-8:hover {
+.wrapper-d0-0-2-9:hover {
   border-color: #777777;
 }
-.wrapper-d0-0-2-8:focus-within {
+.wrapper-d0-0-2-9:focus-within {
   border-color: #f4ab34;
 }
-.wrapper-d0-0-2-8:after {
+.wrapper-d0-0-2-9:after {
   opacity: 0;
 }
-.input-d1-0-2-9 {
+.input-d1-0-2-10 {
   height: 56px;
 }
-.input-d1-0-2-9::placeholder {
+.input-d1-0-2-10::placeholder {
   color: #777777;
 }
-.textArea-d2-0-2-10 {
+.textArea-d2-0-2-11 {
   resize: none;
 }
-.textArea-d2-0-2-10::placeholder {
+.textArea-d2-0-2-11::placeholder {
   color: #777777;
 }
-.helperText-0-2-11 {
+.helperText-0-2-12 {
   display: flex;
   font-size: 12px;
   margin-top: 4px;
@@ -298,11 +312,11 @@ Array [
   margin-bottom: 0;
   letter-spacing: 0.38px;
 }
-.helperText-0-2-11 > i {}
-.helperText-d0-0-2-12 {
+.helperText-0-2-12 > i {}
+.helperText-d0-0-2-13 {
   color: #777777;
 }
-.helperText-d0-0-2-12 > i {}
+.helperText-d0-0-2-13 > i {}
 .labelContainer-0-2-3 {
   color: #000000;
   font-family: \\"Roboto\\", Arial;
@@ -328,10 +342,10 @@ Array [
         for="example_to_test"
       />
       <div
-        class="wrapper-0-2-4 wrapper-d0-0-2-8"
+        class="wrapper-0-2-4 wrapper-d0-0-2-9"
       >
         <input
-          class=" input-0-2-6 input-d1-0-2-9"
+          class=" input-0-2-7 input-d1-0-2-10"
           data-testid="ds-input"
           id="example_to_test"
           type="text"
@@ -339,7 +353,7 @@ Array [
         />
       </div>
       <p
-        class="helperText-0-2-11 helperText-d0-0-2-12"
+        class="helperText-0-2-12 helperText-d0-0-2-13"
       />
     </div>
   </div>,
@@ -349,7 +363,7 @@ Array [
 exports[`TextField component should render correctly when is read only 1`] = `
 Array [
   ".wrapper-0-2-4 {
-  border: 1px solid;
+  border: 2px solid;
   display: flex;
   position: relative;
   align-items: center;
@@ -371,7 +385,14 @@ Array [
   pointer-events: none;
   background-color: #bbbbbb;
 }
-.base-0-2-5 {
+.leadinContainer-0-2-5 {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  padding-left: 8px;
+  justify-content: center;
+}
+.base-0-2-6 {
   color: #333333;
   width: 100%;
   border: none;
@@ -384,14 +405,14 @@ Array [
   line-height: 1.25;
   letter-spacing: 0.51px;
 }
-.base-0-2-5:read-only {
+.base-0-2-6:read-only {
   pointer-events: none;
 }
-.base-0-2-5:disabled {
+.base-0-2-6:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-6 {
+.input-0-2-7 {
   color: #333333;
   width: 100%;
   border: none;
@@ -405,15 +426,15 @@ Array [
   line-height: 1.25;
   letter-spacing: 0.51px;
 }
-.input-0-2-6:read-only {
+.input-0-2-7:read-only {
   pointer-events: none;
 }
-.input-0-2-6:disabled {
+.input-0-2-7:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-6::placeholder {}
-.textArea-0-2-7 {
+.input-0-2-7::placeholder {}
+.textArea-0-2-8 {
   color: #333333;
   width: 100%;
   border: none;
@@ -426,40 +447,40 @@ Array [
   line-height: 1.25;
   letter-spacing: 0.51px;
 }
-.textArea-0-2-7:read-only {
+.textArea-0-2-8:read-only {
   pointer-events: none;
 }
-.textArea-0-2-7:disabled {
+.textArea-0-2-8:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.textArea-0-2-7::placeholder {}
-.wrapper-d0-0-2-8 {
+.textArea-0-2-8::placeholder {}
+.wrapper-d0-0-2-9 {
   border-color: #bbbbbb;
   cursor: text;
 }
-.wrapper-d0-0-2-8:hover {
+.wrapper-d0-0-2-9:hover {
   border-color: #777777;
 }
-.wrapper-d0-0-2-8:focus-within {
+.wrapper-d0-0-2-9:focus-within {
   border-color: #f4ab34;
 }
-.wrapper-d0-0-2-8:after {
+.wrapper-d0-0-2-9:after {
   opacity: 0;
 }
-.input-d1-0-2-9 {
+.input-d1-0-2-10 {
   height: 56px;
 }
-.input-d1-0-2-9::placeholder {
+.input-d1-0-2-10::placeholder {
   color: #777777;
 }
-.textArea-d2-0-2-10 {
+.textArea-d2-0-2-11 {
   resize: none;
 }
-.textArea-d2-0-2-10::placeholder {
+.textArea-d2-0-2-11::placeholder {
   color: #777777;
 }
-.helperText-0-2-11 {
+.helperText-0-2-12 {
   display: flex;
   font-size: 12px;
   margin-top: 4px;
@@ -470,11 +491,11 @@ Array [
   margin-bottom: 0;
   letter-spacing: 0.38px;
 }
-.helperText-0-2-11 > i {}
-.helperText-d0-0-2-12 {
+.helperText-0-2-12 > i {}
+.helperText-d0-0-2-13 {
   color: #777777;
 }
-.helperText-d0-0-2-12 > i {}
+.helperText-d0-0-2-13 > i {}
 .labelContainer-0-2-3 {
   color: #000000;
   font-family: \\"Roboto\\", Arial;
@@ -500,10 +521,10 @@ Array [
         for="example_to_test"
       />
       <div
-        class="wrapper-0-2-4 wrapper-d0-0-2-8"
+        class="wrapper-0-2-4 wrapper-d0-0-2-9"
       >
         <input
-          class=" input-0-2-6 input-d1-0-2-9"
+          class=" input-0-2-7 input-d1-0-2-10"
           data-testid="ds-input"
           id="example_to_test"
           type="text"
@@ -511,7 +532,7 @@ Array [
         />
       </div>
       <p
-        class="helperText-0-2-11 helperText-d0-0-2-12"
+        class="helperText-0-2-12 helperText-d0-0-2-13"
       />
     </div>
   </div>,
@@ -521,7 +542,7 @@ Array [
 exports[`TextField component should render correctly when is required 1`] = `
 Array [
   ".wrapper-0-2-4 {
-  border: 1px solid;
+  border: 2px solid;
   display: flex;
   position: relative;
   align-items: center;
@@ -543,7 +564,14 @@ Array [
   pointer-events: none;
   background-color: #bbbbbb;
 }
-.base-0-2-5 {
+.leadinContainer-0-2-5 {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  padding-left: 8px;
+  justify-content: center;
+}
+.base-0-2-6 {
   color: #333333;
   width: 100%;
   border: none;
@@ -556,14 +584,14 @@ Array [
   line-height: 1.25;
   letter-spacing: 0.51px;
 }
-.base-0-2-5:read-only {
+.base-0-2-6:read-only {
   pointer-events: none;
 }
-.base-0-2-5:disabled {
+.base-0-2-6:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-6 {
+.input-0-2-7 {
   color: #333333;
   width: 100%;
   border: none;
@@ -577,15 +605,15 @@ Array [
   line-height: 1.25;
   letter-spacing: 0.51px;
 }
-.input-0-2-6:read-only {
+.input-0-2-7:read-only {
   pointer-events: none;
 }
-.input-0-2-6:disabled {
+.input-0-2-7:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-6::placeholder {}
-.textArea-0-2-7 {
+.input-0-2-7::placeholder {}
+.textArea-0-2-8 {
   color: #333333;
   width: 100%;
   border: none;
@@ -598,40 +626,40 @@ Array [
   line-height: 1.25;
   letter-spacing: 0.51px;
 }
-.textArea-0-2-7:read-only {
+.textArea-0-2-8:read-only {
   pointer-events: none;
 }
-.textArea-0-2-7:disabled {
+.textArea-0-2-8:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.textArea-0-2-7::placeholder {}
-.wrapper-d0-0-2-8 {
+.textArea-0-2-8::placeholder {}
+.wrapper-d0-0-2-9 {
   border-color: #bbbbbb;
   cursor: text;
 }
-.wrapper-d0-0-2-8:hover {
+.wrapper-d0-0-2-9:hover {
   border-color: #777777;
 }
-.wrapper-d0-0-2-8:focus-within {
+.wrapper-d0-0-2-9:focus-within {
   border-color: #f4ab34;
 }
-.wrapper-d0-0-2-8:after {
+.wrapper-d0-0-2-9:after {
   opacity: 0;
 }
-.input-d1-0-2-9 {
+.input-d1-0-2-10 {
   height: 56px;
 }
-.input-d1-0-2-9::placeholder {
+.input-d1-0-2-10::placeholder {
   color: #777777;
 }
-.textArea-d2-0-2-10 {
+.textArea-d2-0-2-11 {
   resize: none;
 }
-.textArea-d2-0-2-10::placeholder {
+.textArea-d2-0-2-11::placeholder {
   color: #777777;
 }
-.helperText-0-2-11 {
+.helperText-0-2-12 {
   display: flex;
   font-size: 12px;
   margin-top: 4px;
@@ -642,11 +670,11 @@ Array [
   margin-bottom: 0;
   letter-spacing: 0.38px;
 }
-.helperText-0-2-11 > i {}
-.helperText-d0-0-2-12 {
+.helperText-0-2-12 > i {}
+.helperText-d0-0-2-13 {
   color: #777777;
 }
-.helperText-d0-0-2-12 > i {}
+.helperText-d0-0-2-13 > i {}
 .labelContainer-0-2-3 {
   color: #000000;
   font-family: \\"Roboto\\", Arial;
@@ -672,10 +700,10 @@ Array [
         for="example_to_test"
       />
       <div
-        class="wrapper-0-2-4 wrapper-d0-0-2-8"
+        class="wrapper-0-2-4 wrapper-d0-0-2-9"
       >
         <input
-          class=" input-0-2-6 input-d1-0-2-9"
+          class=" input-0-2-7 input-d1-0-2-10"
           data-testid="ds-input"
           id="example_to_test"
           type="text"
@@ -683,7 +711,7 @@ Array [
         />
       </div>
       <p
-        class="helperText-0-2-11 helperText-d0-0-2-12"
+        class="helperText-0-2-12 helperText-d0-0-2-13"
       />
     </div>
   </div>,
@@ -693,7 +721,7 @@ Array [
 exports[`TextField component should render correctly when it has a helper text 1`] = `
 Array [
   ".wrapper-0-2-4 {
-  border: 1px solid;
+  border: 2px solid;
   display: flex;
   position: relative;
   align-items: center;
@@ -715,7 +743,14 @@ Array [
   pointer-events: none;
   background-color: #bbbbbb;
 }
-.base-0-2-5 {
+.leadinContainer-0-2-5 {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  padding-left: 8px;
+  justify-content: center;
+}
+.base-0-2-6 {
   color: #333333;
   width: 100%;
   border: none;
@@ -728,14 +763,14 @@ Array [
   line-height: 1.25;
   letter-spacing: 0.51px;
 }
-.base-0-2-5:read-only {
+.base-0-2-6:read-only {
   pointer-events: none;
 }
-.base-0-2-5:disabled {
+.base-0-2-6:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-6 {
+.input-0-2-7 {
   color: #333333;
   width: 100%;
   border: none;
@@ -749,15 +784,15 @@ Array [
   line-height: 1.25;
   letter-spacing: 0.51px;
 }
-.input-0-2-6:read-only {
+.input-0-2-7:read-only {
   pointer-events: none;
 }
-.input-0-2-6:disabled {
+.input-0-2-7:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-6::placeholder {}
-.textArea-0-2-7 {
+.input-0-2-7::placeholder {}
+.textArea-0-2-8 {
   color: #333333;
   width: 100%;
   border: none;
@@ -770,40 +805,40 @@ Array [
   line-height: 1.25;
   letter-spacing: 0.51px;
 }
-.textArea-0-2-7:read-only {
+.textArea-0-2-8:read-only {
   pointer-events: none;
 }
-.textArea-0-2-7:disabled {
+.textArea-0-2-8:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.textArea-0-2-7::placeholder {}
-.wrapper-d0-0-2-8 {
+.textArea-0-2-8::placeholder {}
+.wrapper-d0-0-2-9 {
   border-color: #bbbbbb;
   cursor: text;
 }
-.wrapper-d0-0-2-8:hover {
+.wrapper-d0-0-2-9:hover {
   border-color: #777777;
 }
-.wrapper-d0-0-2-8:focus-within {
+.wrapper-d0-0-2-9:focus-within {
   border-color: #f4ab34;
 }
-.wrapper-d0-0-2-8:after {
+.wrapper-d0-0-2-9:after {
   opacity: 0;
 }
-.input-d1-0-2-9 {
+.input-d1-0-2-10 {
   height: 56px;
 }
-.input-d1-0-2-9::placeholder {
+.input-d1-0-2-10::placeholder {
   color: #777777;
 }
-.textArea-d2-0-2-10 {
+.textArea-d2-0-2-11 {
   resize: none;
 }
-.textArea-d2-0-2-10::placeholder {
+.textArea-d2-0-2-11::placeholder {
   color: #777777;
 }
-.helperText-0-2-11 {
+.helperText-0-2-12 {
   display: flex;
   font-size: 12px;
   margin-top: 4px;
@@ -814,11 +849,11 @@ Array [
   margin-bottom: 0;
   letter-spacing: 0.38px;
 }
-.helperText-0-2-11 > i {}
-.helperText-d0-0-2-12 {
+.helperText-0-2-12 > i {}
+.helperText-d0-0-2-13 {
   color: #777777;
 }
-.helperText-d0-0-2-12 > i {}
+.helperText-d0-0-2-13 > i {}
 .labelContainer-0-2-3 {
   color: #000000;
   font-family: \\"Roboto\\", Arial;
@@ -844,10 +879,10 @@ Array [
         for="example_to_test"
       />
       <div
-        class="wrapper-0-2-4 wrapper-d0-0-2-8"
+        class="wrapper-0-2-4 wrapper-d0-0-2-9"
       >
         <input
-          class=" input-0-2-6 input-d1-0-2-9"
+          class=" input-0-2-7 input-d1-0-2-10"
           data-testid="ds-input"
           id="example_to_test"
           type="text"
@@ -855,7 +890,7 @@ Array [
         />
       </div>
       <p
-        class="helperText-0-2-11 helperText-d0-0-2-12"
+        class="helperText-0-2-12 helperText-d0-0-2-13"
       >
         any helper text here
       </p>
@@ -867,7 +902,7 @@ Array [
 exports[`TextField component should render correctly when it has a success feedback 1`] = `
 Array [
   ".wrapper-0-2-4 {
-  border: 1px solid;
+  border: 2px solid;
   display: flex;
   position: relative;
   align-items: center;
@@ -889,7 +924,14 @@ Array [
   pointer-events: none;
   background-color: #bbbbbb;
 }
-.base-0-2-5 {
+.leadinContainer-0-2-5 {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  padding-left: 8px;
+  justify-content: center;
+}
+.base-0-2-6 {
   color: #333333;
   width: 100%;
   border: none;
@@ -902,14 +944,14 @@ Array [
   line-height: 1.25;
   letter-spacing: 0.51px;
 }
-.base-0-2-5:read-only {
+.base-0-2-6:read-only {
   pointer-events: none;
 }
-.base-0-2-5:disabled {
+.base-0-2-6:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-6 {
+.input-0-2-7 {
   color: #333333;
   width: 100%;
   border: none;
@@ -923,15 +965,15 @@ Array [
   line-height: 1.25;
   letter-spacing: 0.51px;
 }
-.input-0-2-6:read-only {
+.input-0-2-7:read-only {
   pointer-events: none;
 }
-.input-0-2-6:disabled {
+.input-0-2-7:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-6::placeholder {}
-.textArea-0-2-7 {
+.input-0-2-7::placeholder {}
+.textArea-0-2-8 {
   color: #333333;
   width: 100%;
   border: none;
@@ -944,40 +986,38 @@ Array [
   line-height: 1.25;
   letter-spacing: 0.51px;
 }
-.textArea-0-2-7:read-only {
+.textArea-0-2-8:read-only {
   pointer-events: none;
 }
-.textArea-0-2-7:disabled {
+.textArea-0-2-8:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.textArea-0-2-7::placeholder {}
-.wrapper-d0-0-2-8 {
+.textArea-0-2-8::placeholder {}
+.wrapper-d0-0-2-9 {
   border-color: #569a32;
   cursor: text;
 }
-.wrapper-d0-0-2-8:hover {
-  border-color: #777777;
+.wrapper-d0-0-2-9:hover {}
+.wrapper-d0-0-2-9:focus-within {
+  border-color: #569a32;
 }
-.wrapper-d0-0-2-8:focus-within {
-  border-color: #f4ab34;
-}
-.wrapper-d0-0-2-8:after {
+.wrapper-d0-0-2-9:after {
   opacity: 0;
 }
-.input-d1-0-2-9 {
+.input-d1-0-2-10 {
   height: 56px;
 }
-.input-d1-0-2-9::placeholder {
+.input-d1-0-2-10::placeholder {
   color: #777777;
 }
-.textArea-d2-0-2-10 {
+.textArea-d2-0-2-11 {
   resize: none;
 }
-.textArea-d2-0-2-10::placeholder {
+.textArea-d2-0-2-11::placeholder {
   color: #777777;
 }
-.helperText-0-2-11 {
+.helperText-0-2-12 {
   display: flex;
   font-size: 12px;
   margin-top: 4px;
@@ -988,19 +1028,19 @@ Array [
   margin-bottom: 0;
   letter-spacing: 0.38px;
 }
-.helperText-0-2-11 > i {}
-.helperText-d0-0-2-12 {
+.helperText-0-2-12 > i {}
+.helperText-d0-0-2-13 {
   color: #569a32;
 }
-.helperText-d0-0-2-12 > i {
+.helperText-d0-0-2-13 > i {
   margin-right: 4px;
 }
-.icon-0-2-13 {
+.icon-0-2-14 {
   font-family: natds-icons;
   user-select: none;
   pointer-events: none;
 }
-.icon-d0-0-2-14 {
+.icon-d0-0-2-15 {
   color: #569a32;
   font-size: 16px;
 }
@@ -1029,10 +1069,10 @@ Array [
         for="example_to_test"
       />
       <div
-        class="wrapper-0-2-4 wrapper-d0-0-2-8"
+        class="wrapper-0-2-4 wrapper-d0-0-2-9"
       >
         <input
-          class=" input-0-2-6 input-d1-0-2-9"
+          class=" input-0-2-7 input-d1-0-2-10"
           data-testid="ds-input"
           id="example_to_test"
           type="text"
@@ -1040,11 +1080,11 @@ Array [
         />
       </div>
       <p
-        class="helperText-0-2-11 helperText-d0-0-2-12"
+        class="helperText-0-2-12 helperText-d0-0-2-13"
       >
         <i
           aria-hidden="true"
-          class=" icon-0-2-13 icon-d0-0-2-14 natds-icons natds-icons-outlined-action-check"
+          class=" icon-0-2-14 icon-d0-0-2-15 natds-icons natds-icons-outlined-action-check"
           data-testid="icon-outlined-action-check"
           role="img"
         />
@@ -1057,7 +1097,7 @@ Array [
 exports[`TextField component should render correctly when it has an error feedback 1`] = `
 Array [
   ".wrapper-0-2-4 {
-  border: 1px solid;
+  border: 2px solid;
   display: flex;
   position: relative;
   align-items: center;
@@ -1079,7 +1119,14 @@ Array [
   pointer-events: none;
   background-color: #bbbbbb;
 }
-.base-0-2-5 {
+.leadinContainer-0-2-5 {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  padding-left: 8px;
+  justify-content: center;
+}
+.base-0-2-6 {
   color: #333333;
   width: 100%;
   border: none;
@@ -1092,14 +1139,14 @@ Array [
   line-height: 1.25;
   letter-spacing: 0.51px;
 }
-.base-0-2-5:read-only {
+.base-0-2-6:read-only {
   pointer-events: none;
 }
-.base-0-2-5:disabled {
+.base-0-2-6:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-6 {
+.input-0-2-7 {
   color: #333333;
   width: 100%;
   border: none;
@@ -1113,15 +1160,15 @@ Array [
   line-height: 1.25;
   letter-spacing: 0.51px;
 }
-.input-0-2-6:read-only {
+.input-0-2-7:read-only {
   pointer-events: none;
 }
-.input-0-2-6:disabled {
+.input-0-2-7:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-6::placeholder {}
-.textArea-0-2-7 {
+.input-0-2-7::placeholder {}
+.textArea-0-2-8 {
   color: #333333;
   width: 100%;
   border: none;
@@ -1134,40 +1181,38 @@ Array [
   line-height: 1.25;
   letter-spacing: 0.51px;
 }
-.textArea-0-2-7:read-only {
+.textArea-0-2-8:read-only {
   pointer-events: none;
 }
-.textArea-0-2-7:disabled {
+.textArea-0-2-8:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.textArea-0-2-7::placeholder {}
-.wrapper-d0-0-2-8 {
+.textArea-0-2-8::placeholder {}
+.wrapper-d0-0-2-9 {
   border-color: #e74627;
   cursor: text;
 }
-.wrapper-d0-0-2-8:hover {
-  border-color: #777777;
+.wrapper-d0-0-2-9:hover {}
+.wrapper-d0-0-2-9:focus-within {
+  border-color: #e74627;
 }
-.wrapper-d0-0-2-8:focus-within {
-  border-color: #f4ab34;
-}
-.wrapper-d0-0-2-8:after {
+.wrapper-d0-0-2-9:after {
   opacity: 0;
 }
-.input-d1-0-2-9 {
+.input-d1-0-2-10 {
   height: 56px;
 }
-.input-d1-0-2-9::placeholder {
+.input-d1-0-2-10::placeholder {
   color: #777777;
 }
-.textArea-d2-0-2-10 {
+.textArea-d2-0-2-11 {
   resize: none;
 }
-.textArea-d2-0-2-10::placeholder {
+.textArea-d2-0-2-11::placeholder {
   color: #777777;
 }
-.helperText-0-2-11 {
+.helperText-0-2-12 {
   display: flex;
   font-size: 12px;
   margin-top: 4px;
@@ -1178,19 +1223,19 @@ Array [
   margin-bottom: 0;
   letter-spacing: 0.38px;
 }
-.helperText-0-2-11 > i {}
-.helperText-d0-0-2-12 {
+.helperText-0-2-12 > i {}
+.helperText-d0-0-2-13 {
   color: #e74627;
 }
-.helperText-d0-0-2-12 > i {
+.helperText-d0-0-2-13 > i {
   margin-right: 4px;
 }
-.icon-0-2-13 {
+.icon-0-2-14 {
   font-family: natds-icons;
   user-select: none;
   pointer-events: none;
 }
-.icon-d0-0-2-14 {
+.icon-d0-0-2-15 {
   color: #e74627;
   font-size: 16px;
 }
@@ -1219,10 +1264,10 @@ Array [
         for="example_to_test"
       />
       <div
-        class="wrapper-0-2-4 wrapper-d0-0-2-8"
+        class="wrapper-0-2-4 wrapper-d0-0-2-9"
       >
         <input
-          class=" input-0-2-6 input-d1-0-2-9"
+          class=" input-0-2-7 input-d1-0-2-10"
           data-testid="ds-input"
           id="example_to_test"
           type="text"
@@ -1230,11 +1275,11 @@ Array [
         />
       </div>
       <p
-        class="helperText-0-2-11 helperText-d0-0-2-12"
+        class="helperText-0-2-12 helperText-d0-0-2-13"
       >
         <i
           aria-hidden="true"
-          class=" icon-0-2-13 icon-d0-0-2-14 natds-icons natds-icons-outlined-action-cancel"
+          class=" icon-0-2-14 icon-d0-0-2-15 natds-icons natds-icons-outlined-action-cancel"
           data-testid="icon-outlined-action-cancel"
           role="img"
         />
@@ -1247,7 +1292,7 @@ Array [
 exports[`TextField component should render correctly when it has an icon button action 1`] = `
 Array [
   ".wrapper-0-2-4 {
-  border: 1px solid;
+  border: 2px solid;
   display: flex;
   position: relative;
   align-items: center;
@@ -1269,7 +1314,14 @@ Array [
   pointer-events: none;
   background-color: #bbbbbb;
 }
-.base-0-2-5 {
+.leadinContainer-0-2-5 {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  padding-left: 8px;
+  justify-content: center;
+}
+.base-0-2-6 {
   color: #333333;
   width: 100%;
   border: none;
@@ -1282,14 +1334,14 @@ Array [
   line-height: 1.25;
   letter-spacing: 0.51px;
 }
-.base-0-2-5:read-only {
+.base-0-2-6:read-only {
   pointer-events: none;
 }
-.base-0-2-5:disabled {
+.base-0-2-6:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-6 {
+.input-0-2-7 {
   color: #333333;
   width: 100%;
   border: none;
@@ -1303,15 +1355,15 @@ Array [
   line-height: 1.25;
   letter-spacing: 0.51px;
 }
-.input-0-2-6:read-only {
+.input-0-2-7:read-only {
   pointer-events: none;
 }
-.input-0-2-6:disabled {
+.input-0-2-7:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-6::placeholder {}
-.textArea-0-2-7 {
+.input-0-2-7::placeholder {}
+.textArea-0-2-8 {
   color: #333333;
   width: 100%;
   border: none;
@@ -1324,42 +1376,42 @@ Array [
   line-height: 1.25;
   letter-spacing: 0.51px;
 }
-.textArea-0-2-7:read-only {
+.textArea-0-2-8:read-only {
   pointer-events: none;
 }
-.textArea-0-2-7:disabled {
+.textArea-0-2-8:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.textArea-0-2-7::placeholder {}
-.wrapper-d0-0-2-8 {
+.textArea-0-2-8::placeholder {}
+.wrapper-d0-0-2-9 {
   border-color: #bbbbbb;
   cursor: text;
 }
-.wrapper-d0-0-2-8:hover {
+.wrapper-d0-0-2-9:hover {
   border-color: #777777;
 }
-.wrapper-d0-0-2-8:focus-within {
+.wrapper-d0-0-2-9:focus-within {
   border-color: #f4ab34;
 }
-.wrapper-d0-0-2-8:after {
+.wrapper-d0-0-2-9:after {
   opacity: 0;
 }
-.input-d1-0-2-9 {
+.input-d1-0-2-10 {
   height: 56px;
   padding-right: 8px;
 }
-.input-d1-0-2-9::placeholder {
+.input-d1-0-2-10::placeholder {
   color: #777777;
 }
-.textArea-d2-0-2-10 {
+.textArea-d2-0-2-11 {
   padding-right: 8px;
   resize: none;
 }
-.textArea-d2-0-2-10::placeholder {
+.textArea-d2-0-2-11::placeholder {
   color: #777777;
 }
-.sharedRippleEffect-0-2-20 {
+.sharedRippleEffect-0-2-21 {
   top: 0;
   left: 0;
   width: 100%;
@@ -1368,12 +1420,12 @@ Array [
   z-index: -1;
   position: absolute;
 }
-.wrapper-0-2-21 {
+.wrapper-0-2-22 {
   height: fit-content;
   outline: none;
   position: relative;
 }
-.wrapper-0-2-21:focus:after {
+.wrapper-0-2-22:focus:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -1383,7 +1435,7 @@ Array [
   z-index: -1;
   position: absolute;
 }
-.wrapper-0-2-21:hover:after {
+.wrapper-0-2-22:hover:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -1392,20 +1444,20 @@ Array [
   z-index: -1;
   position: absolute;
 }
-.ripple-0-2-22 {
+.ripple-0-2-23 {
   opacity: 0;
   position: absolute;
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-.rippleContainer-0-2-23 {
+.rippleContainer-0-2-24 {
   inset: 0;
   position: absolute;
 }
-.rippleActive-0-2-24 {
+.rippleActive-0-2-25 {
   z-index: 99;
 }
-@keyframes keyframes-ripple-0-2-25 {
+@keyframes keyframes-ripple-0-2-26 {
   0% {
     transform: translate(-50%, -50%) scale(0);
   }
@@ -1418,19 +1470,19 @@ Array [
     z-index: 0;
   }
 }
-  .wrapper-d0-0-2-26 {
+  .wrapper-d0-0-2-27 {
     cursor: pointer;
     display: inline-block;
     align-self: start;
   }
-  .wrapper-d0-0-2-26:focus:after {
+  .wrapper-d0-0-2-27:focus:after {
     background-color: #000000;
   }
-  .wrapper-d0-0-2-26:hover:after {
+  .wrapper-d0-0-2-27:hover:after {
     background-color: #000000;
     opacity: 0;
   }
-  .ripple-d1-0-2-27 {
+  .ripple-d1-0-2-28 {
     background-color: #000000;
     height: 0;
     left: 50%;
@@ -1438,13 +1490,13 @@ Array [
     transition: scale opacity 300ms;
     width: 0;
   }
-  .rippleContainer-d2-0-2-28 {
+  .rippleContainer-d2-0-2-29 {
     overflow: hidden;
   }
-  .rippleActive-d3-0-2-29 {
-    animation: keyframes-ripple-0-2-25 300ms;
+  .rippleActive-d3-0-2-30 {
+    animation: keyframes-ripple-0-2-26 300ms;
   }
-  .base-0-2-18 {
+  .base-0-2-19 {
     border: none;
     cursor: pointer;
     display: flex;
@@ -1452,18 +1504,18 @@ Array [
     align-items: center;
     justify-content: center;
   }
-  .base-0-2-18:disabled {
+  .base-0-2-19:disabled {
     cursor: default;
   }
-  .base-d0-0-2-19 {
+  .base-d0-0-2-20 {
     height: 32px;
     width: 32px;
   }
-  .iconButtonContainer-0-2-16 {
+  .iconButtonContainer-0-2-17 {
     overflow: hidden;
     position: relative;
   }
-  .iconButtonContainer-0-2-16:after {
+  .iconButtonContainer-0-2-17:after {
     top: 0;
     left: 0;
     width: 100%;
@@ -1473,39 +1525,39 @@ Array [
     position: absolute;
     background-color: #000000;
   }
-  .iconButtonContainer-0-2-16:hover:not([disabled]):after {
+  .iconButtonContainer-0-2-17:hover:not([disabled]):after {
     opacity: 0.04;
   }
-  .iconButtonContainer-0-2-16:focus:not([disabled]):after {
+  .iconButtonContainer-0-2-17:focus:not([disabled]):after {
     opacity: 0.12;
   }
-  .iconButtonContainer-0-2-16:disabled {
+  .iconButtonContainer-0-2-17:disabled {
     cursor: default;
   }
-  .iconButtonContainer-d0-0-2-17 {
+  .iconButtonContainer-d0-0-2-18 {
     background-color: transparent;
     border-radius: 16px;
     width: 32px;
   }
-  .container-0-2-11 {  }
-  .wrapper-0-2-12 {
+  .container-0-2-12 {  }
+  .wrapper-0-2-13 {
     display: flex;
     overflow: hidden;
     align-items: center;
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
   }
-  .image-0-2-13 {
+  .image-0-2-14 {
     max-width: 64px;
     object-fit: cover;
   }
-  .container-d0-0-2-14 {
+  .container-d0-0-2-15 {
     margin-right: 8px;
   }
-  .wrapper-d1-0-2-15 {
+  .wrapper-d1-0-2-16 {
     height: 56px;
   }
-  .helperText-0-2-32 {
+  .helperText-0-2-33 {
     display: flex;
     font-size: 12px;
     margin-top: 4px;
@@ -1516,17 +1568,17 @@ Array [
     margin-bottom: 0;
     letter-spacing: 0.38px;
   }
-  .helperText-0-2-32 > i {  }
-  .helperText-d0-0-2-33 {
+  .helperText-0-2-33 > i {  }
+  .helperText-d0-0-2-34 {
     color: #777777;
   }
-  .helperText-d0-0-2-33 > i {  }
-  .icon-0-2-30 {
+  .helperText-d0-0-2-34 > i {  }
+  .icon-0-2-31 {
     font-family: natds-icons;
     user-select: none;
     pointer-events: none;
   }
-  .icon-d0-0-2-31 {
+  .icon-d0-0-2-32 {
     color: #333333;
     font-size: 24px;
   }
@@ -1555,40 +1607,40 @@ Array [
         for="example_to_test"
       />
       <div
-        class="wrapper-0-2-4 wrapper-d0-0-2-8"
+        class="wrapper-0-2-4 wrapper-d0-0-2-9"
       >
         <input
-          class=" input-0-2-6 input-d1-0-2-9"
+          class=" input-0-2-7 input-d1-0-2-10"
           data-testid="ds-input"
           id="example_to_test"
           type="text"
           value=""
         />
         <div
-          class="container-0-2-11 container-d0-0-2-14"
+          class="container-0-2-12 container-d0-0-2-15"
         >
           <div
-            class="wrapper-0-2-21 wrapper-d0-0-2-26"
+            class="wrapper-0-2-22 wrapper-d0-0-2-27"
             data-testid="ripple-wrapper"
             tabindex="-1"
           >
             <div
-              class="rippleContainer-0-2-23 rippleContainer-d2-0-2-28"
+              class="rippleContainer-0-2-24 rippleContainer-d2-0-2-29"
             >
               <div
-                class="ripple-0-2-22 ripple-d1-0-2-27 "
+                class="ripple-0-2-23 ripple-d1-0-2-28 "
                 data-testid="ripple-animation"
               />
             </div>
             <button
               aria-label="any label"
-              class=" iconButtonContainer-0-2-16 iconButtonContainer-d0-0-2-17 base-0-2-18 base-d0-0-2-19"
+              class=" iconButtonContainer-0-2-17 iconButtonContainer-d0-0-2-18 base-0-2-19 base-d0-0-2-20"
               data-testid="ds-input-action-icon"
               type="button"
             >
               <i
                 aria-hidden="true"
-                class=" icon-0-2-30 icon-d0-0-2-31 natds-icons natds-icons-filled-action-love"
+                class=" icon-0-2-31 icon-d0-0-2-32 natds-icons natds-icons-filled-action-love"
                 data-testid="icon-filled-action-love"
                 role="img"
               />
@@ -1597,7 +1649,7 @@ Array [
         </div>
       </div>
       <p
-        class="helperText-0-2-32 helperText-d0-0-2-33"
+        class="helperText-0-2-33 helperText-d0-0-2-34"
       />
     </div>
   </div>,
@@ -1607,7 +1659,7 @@ Array [
 exports[`TextField component should render correctly when it has an image action 1`] = `
 Array [
   ".wrapper-0-2-4 {
-  border: 1px solid;
+  border: 2px solid;
   display: flex;
   position: relative;
   align-items: center;
@@ -1629,7 +1681,14 @@ Array [
   pointer-events: none;
   background-color: #bbbbbb;
 }
-.base-0-2-5 {
+.leadinContainer-0-2-5 {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  padding-left: 8px;
+  justify-content: center;
+}
+.base-0-2-6 {
   color: #333333;
   width: 100%;
   border: none;
@@ -1642,14 +1701,14 @@ Array [
   line-height: 1.25;
   letter-spacing: 0.51px;
 }
-.base-0-2-5:read-only {
+.base-0-2-6:read-only {
   pointer-events: none;
 }
-.base-0-2-5:disabled {
+.base-0-2-6:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-6 {
+.input-0-2-7 {
   color: #333333;
   width: 100%;
   border: none;
@@ -1663,15 +1722,15 @@ Array [
   line-height: 1.25;
   letter-spacing: 0.51px;
 }
-.input-0-2-6:read-only {
+.input-0-2-7:read-only {
   pointer-events: none;
 }
-.input-0-2-6:disabled {
+.input-0-2-7:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-6::placeholder {}
-.textArea-0-2-7 {
+.input-0-2-7::placeholder {}
+.textArea-0-2-8 {
   color: #333333;
   width: 100%;
   border: none;
@@ -1684,58 +1743,58 @@ Array [
   line-height: 1.25;
   letter-spacing: 0.51px;
 }
-.textArea-0-2-7:read-only {
+.textArea-0-2-8:read-only {
   pointer-events: none;
 }
-.textArea-0-2-7:disabled {
+.textArea-0-2-8:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.textArea-0-2-7::placeholder {}
-.wrapper-d0-0-2-8 {
+.textArea-0-2-8::placeholder {}
+.wrapper-d0-0-2-9 {
   border-color: #bbbbbb;
   cursor: text;
 }
-.wrapper-d0-0-2-8:hover {
+.wrapper-d0-0-2-9:hover {
   border-color: #777777;
 }
-.wrapper-d0-0-2-8:focus-within {
+.wrapper-d0-0-2-9:focus-within {
   border-color: #f4ab34;
 }
-.wrapper-d0-0-2-8:after {
+.wrapper-d0-0-2-9:after {
   opacity: 0;
 }
-.input-d1-0-2-9 {
+.input-d1-0-2-10 {
   height: 56px;
   padding-right: 8px;
 }
-.input-d1-0-2-9::placeholder {
+.input-d1-0-2-10::placeholder {
   color: #777777;
 }
-.textArea-d2-0-2-10 {
+.textArea-d2-0-2-11 {
   padding-right: 8px;
   resize: none;
 }
-.textArea-d2-0-2-10::placeholder {
+.textArea-d2-0-2-11::placeholder {
   color: #777777;
 }
-.container-0-2-11 {}
-.wrapper-0-2-12 {
+.container-0-2-12 {}
+.wrapper-0-2-13 {
   display: flex;
   overflow: hidden;
   align-items: center;
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
 }
-.image-0-2-13 {
+.image-0-2-14 {
   max-width: 64px;
   object-fit: cover;
 }
-.container-d0-0-2-14 {}
-.wrapper-d1-0-2-15 {
+.container-d0-0-2-15 {}
+.wrapper-d1-0-2-16 {
   height: 56px;
 }
-.helperText-0-2-16 {
+.helperText-0-2-17 {
   display: flex;
   font-size: 12px;
   margin-top: 4px;
@@ -1746,11 +1805,11 @@ Array [
   margin-bottom: 0;
   letter-spacing: 0.38px;
 }
-.helperText-0-2-16 > i {}
-.helperText-d0-0-2-17 {
+.helperText-0-2-17 > i {}
+.helperText-d0-0-2-18 {
   color: #777777;
 }
-.helperText-d0-0-2-17 > i {}
+.helperText-d0-0-2-18 > i {}
 .labelContainer-0-2-3 {
   color: #000000;
   font-family: \\"Roboto\\", Arial;
@@ -1776,24 +1835,24 @@ Array [
         for="example_to_test"
       />
       <div
-        class="wrapper-0-2-4 wrapper-d0-0-2-8"
+        class="wrapper-0-2-4 wrapper-d0-0-2-9"
       >
         <input
-          class=" input-0-2-6 input-d1-0-2-9"
+          class=" input-0-2-7 input-d1-0-2-10"
           data-testid="ds-input"
           id="example_to_test"
           type="text"
           value=""
         />
         <div
-          class="container-0-2-11 container-d0-0-2-14"
+          class="container-0-2-12 container-d0-0-2-15"
         >
           <div
-            class="wrapper-0-2-12 wrapper-d1-0-2-15"
+            class="wrapper-0-2-13 wrapper-d1-0-2-16"
           >
             <img
               alt=""
-              class="image-0-2-13"
+              class="image-0-2-14"
               data-testid="ds-input-action-image"
               src=""
             />
@@ -1801,7 +1860,7 @@ Array [
         </div>
       </div>
       <p
-        class="helperText-0-2-16 helperText-d0-0-2-17"
+        class="helperText-0-2-17 helperText-d0-0-2-18"
       />
     </div>
   </div>,
@@ -1811,7 +1870,7 @@ Array [
 exports[`TextField component should render correctly when it has multiline type 1`] = `
 Array [
   ".wrapper-0-2-4 {
-  border: 1px solid;
+  border: 2px solid;
   display: flex;
   position: relative;
   align-items: center;
@@ -1833,7 +1892,14 @@ Array [
   pointer-events: none;
   background-color: #bbbbbb;
 }
-.base-0-2-5 {
+.leadinContainer-0-2-5 {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  padding-left: 8px;
+  justify-content: center;
+}
+.base-0-2-6 {
   color: #333333;
   width: 100%;
   border: none;
@@ -1846,14 +1912,14 @@ Array [
   line-height: 1.25;
   letter-spacing: 0.51px;
 }
-.base-0-2-5:read-only {
+.base-0-2-6:read-only {
   pointer-events: none;
 }
-.base-0-2-5:disabled {
+.base-0-2-6:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-6 {
+.input-0-2-7 {
   color: #333333;
   width: 100%;
   border: none;
@@ -1867,15 +1933,15 @@ Array [
   line-height: 1.25;
   letter-spacing: 0.51px;
 }
-.input-0-2-6:read-only {
+.input-0-2-7:read-only {
   pointer-events: none;
 }
-.input-0-2-6:disabled {
+.input-0-2-7:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-6::placeholder {}
-.textArea-0-2-7 {
+.input-0-2-7::placeholder {}
+.textArea-0-2-8 {
   color: #333333;
   width: 100%;
   border: none;
@@ -1888,40 +1954,40 @@ Array [
   line-height: 1.25;
   letter-spacing: 0.51px;
 }
-.textArea-0-2-7:read-only {
+.textArea-0-2-8:read-only {
   pointer-events: none;
 }
-.textArea-0-2-7:disabled {
+.textArea-0-2-8:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.textArea-0-2-7::placeholder {}
-.wrapper-d0-0-2-8 {
+.textArea-0-2-8::placeholder {}
+.wrapper-d0-0-2-9 {
   border-color: #bbbbbb;
   cursor: text;
 }
-.wrapper-d0-0-2-8:hover {
+.wrapper-d0-0-2-9:hover {
   border-color: #777777;
 }
-.wrapper-d0-0-2-8:focus-within {
+.wrapper-d0-0-2-9:focus-within {
   border-color: #f4ab34;
 }
-.wrapper-d0-0-2-8:after {
+.wrapper-d0-0-2-9:after {
   opacity: 0;
 }
-.input-d1-0-2-9 {
+.input-d1-0-2-10 {
   height: 56px;
 }
-.input-d1-0-2-9::placeholder {
+.input-d1-0-2-10::placeholder {
   color: #777777;
 }
-.textArea-d2-0-2-10 {
+.textArea-d2-0-2-11 {
   resize: none;
 }
-.textArea-d2-0-2-10::placeholder {
+.textArea-d2-0-2-11::placeholder {
   color: #777777;
 }
-.helperText-0-2-11 {
+.helperText-0-2-12 {
   display: flex;
   font-size: 12px;
   margin-top: 4px;
@@ -1932,11 +1998,11 @@ Array [
   margin-bottom: 0;
   letter-spacing: 0.38px;
 }
-.helperText-0-2-11 > i {}
-.helperText-d0-0-2-12 {
+.helperText-0-2-12 > i {}
+.helperText-d0-0-2-13 {
   color: #777777;
 }
-.helperText-d0-0-2-12 > i {}
+.helperText-d0-0-2-13 > i {}
 .labelContainer-0-2-3 {
   color: #000000;
   font-family: \\"Roboto\\", Arial;
@@ -1962,17 +2028,17 @@ Array [
         for="example_to_test"
       />
       <div
-        class="wrapper-0-2-4 wrapper-d0-0-2-8"
+        class="wrapper-0-2-4 wrapper-d0-0-2-9"
       >
         <textarea
-          class=" textArea-0-2-7 textArea-d2-0-2-10"
+          class=" textArea-0-2-8 textArea-d2-0-2-11"
           data-testid="ds-input-multiline"
           id="example_to_test"
           rows="3"
         />
       </div>
       <p
-        class="helperText-0-2-11 helperText-d0-0-2-12"
+        class="helperText-0-2-12 helperText-d0-0-2-13"
       />
     </div>
   </div>,
@@ -1982,7 +2048,7 @@ Array [
 exports[`TextField component should render correctly when it has password type 1`] = `
 Array [
   ".wrapper-0-2-4 {
-  border: 1px solid;
+  border: 2px solid;
   display: flex;
   position: relative;
   align-items: center;
@@ -2004,7 +2070,14 @@ Array [
   pointer-events: none;
   background-color: #bbbbbb;
 }
-.base-0-2-5 {
+.leadinContainer-0-2-5 {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  padding-left: 8px;
+  justify-content: center;
+}
+.base-0-2-6 {
   color: #333333;
   width: 100%;
   border: none;
@@ -2017,14 +2090,14 @@ Array [
   line-height: 1.25;
   letter-spacing: 0.51px;
 }
-.base-0-2-5:read-only {
+.base-0-2-6:read-only {
   pointer-events: none;
 }
-.base-0-2-5:disabled {
+.base-0-2-6:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-6 {
+.input-0-2-7 {
   color: #333333;
   width: 100%;
   border: none;
@@ -2038,15 +2111,15 @@ Array [
   line-height: 1.25;
   letter-spacing: 0.51px;
 }
-.input-0-2-6:read-only {
+.input-0-2-7:read-only {
   pointer-events: none;
 }
-.input-0-2-6:disabled {
+.input-0-2-7:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-6::placeholder {}
-.textArea-0-2-7 {
+.input-0-2-7::placeholder {}
+.textArea-0-2-8 {
   color: #333333;
   width: 100%;
   border: none;
@@ -2059,40 +2132,40 @@ Array [
   line-height: 1.25;
   letter-spacing: 0.51px;
 }
-.textArea-0-2-7:read-only {
+.textArea-0-2-8:read-only {
   pointer-events: none;
 }
-.textArea-0-2-7:disabled {
+.textArea-0-2-8:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.textArea-0-2-7::placeholder {}
-.wrapper-d0-0-2-8 {
+.textArea-0-2-8::placeholder {}
+.wrapper-d0-0-2-9 {
   border-color: #bbbbbb;
   cursor: text;
 }
-.wrapper-d0-0-2-8:hover {
+.wrapper-d0-0-2-9:hover {
   border-color: #777777;
 }
-.wrapper-d0-0-2-8:focus-within {
+.wrapper-d0-0-2-9:focus-within {
   border-color: #f4ab34;
 }
-.wrapper-d0-0-2-8:after {
+.wrapper-d0-0-2-9:after {
   opacity: 0;
 }
-.input-d1-0-2-9 {
+.input-d1-0-2-10 {
   height: 56px;
 }
-.input-d1-0-2-9::placeholder {
+.input-d1-0-2-10::placeholder {
   color: #777777;
 }
-.textArea-d2-0-2-10 {
+.textArea-d2-0-2-11 {
   resize: none;
 }
-.textArea-d2-0-2-10::placeholder {
+.textArea-d2-0-2-11::placeholder {
   color: #777777;
 }
-.helperText-0-2-11 {
+.helperText-0-2-12 {
   display: flex;
   font-size: 12px;
   margin-top: 4px;
@@ -2103,11 +2176,11 @@ Array [
   margin-bottom: 0;
   letter-spacing: 0.38px;
 }
-.helperText-0-2-11 > i {}
-.helperText-d0-0-2-12 {
+.helperText-0-2-12 > i {}
+.helperText-d0-0-2-13 {
   color: #777777;
 }
-.helperText-d0-0-2-12 > i {}
+.helperText-d0-0-2-13 > i {}
 .labelContainer-0-2-3 {
   color: #000000;
   font-family: \\"Roboto\\", Arial;
@@ -2133,10 +2206,10 @@ Array [
         for="example_to_test"
       />
       <div
-        class="wrapper-0-2-4 wrapper-d0-0-2-8"
+        class="wrapper-0-2-4 wrapper-d0-0-2-9"
       >
         <input
-          class=" input-0-2-6 input-d1-0-2-9"
+          class=" input-0-2-7 input-d1-0-2-10"
           data-testid="ds-input"
           id="example_to_test"
           type="password"
@@ -2144,7 +2217,7 @@ Array [
         />
       </div>
       <p
-        class="helperText-0-2-11 helperText-d0-0-2-12"
+        class="helperText-0-2-12 helperText-d0-0-2-13"
       />
     </div>
   </div>,
@@ -2154,7 +2227,7 @@ Array [
 exports[`TextField component should render correctly when size is medium 1`] = `
 Array [
   ".wrapper-0-2-4 {
-  border: 1px solid;
+  border: 2px solid;
   display: flex;
   position: relative;
   align-items: center;
@@ -2176,7 +2249,14 @@ Array [
   pointer-events: none;
   background-color: #bbbbbb;
 }
-.base-0-2-5 {
+.leadinContainer-0-2-5 {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  padding-left: 8px;
+  justify-content: center;
+}
+.base-0-2-6 {
   color: #333333;
   width: 100%;
   border: none;
@@ -2189,14 +2269,14 @@ Array [
   line-height: 1.25;
   letter-spacing: 0.51px;
 }
-.base-0-2-5:read-only {
+.base-0-2-6:read-only {
   pointer-events: none;
 }
-.base-0-2-5:disabled {
+.base-0-2-6:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-6 {
+.input-0-2-7 {
   color: #333333;
   width: 100%;
   border: none;
@@ -2210,15 +2290,15 @@ Array [
   line-height: 1.25;
   letter-spacing: 0.51px;
 }
-.input-0-2-6:read-only {
+.input-0-2-7:read-only {
   pointer-events: none;
 }
-.input-0-2-6:disabled {
+.input-0-2-7:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-6::placeholder {}
-.textArea-0-2-7 {
+.input-0-2-7::placeholder {}
+.textArea-0-2-8 {
   color: #333333;
   width: 100%;
   border: none;
@@ -2231,40 +2311,40 @@ Array [
   line-height: 1.25;
   letter-spacing: 0.51px;
 }
-.textArea-0-2-7:read-only {
+.textArea-0-2-8:read-only {
   pointer-events: none;
 }
-.textArea-0-2-7:disabled {
+.textArea-0-2-8:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.textArea-0-2-7::placeholder {}
-.wrapper-d0-0-2-8 {
+.textArea-0-2-8::placeholder {}
+.wrapper-d0-0-2-9 {
   border-color: #bbbbbb;
   cursor: text;
 }
-.wrapper-d0-0-2-8:hover {
+.wrapper-d0-0-2-9:hover {
   border-color: #777777;
 }
-.wrapper-d0-0-2-8:focus-within {
+.wrapper-d0-0-2-9:focus-within {
   border-color: #f4ab34;
 }
-.wrapper-d0-0-2-8:after {
+.wrapper-d0-0-2-9:after {
   opacity: 0;
 }
-.input-d1-0-2-9 {
+.input-d1-0-2-10 {
   height: 48px;
 }
-.input-d1-0-2-9::placeholder {
+.input-d1-0-2-10::placeholder {
   color: #777777;
 }
-.textArea-d2-0-2-10 {
+.textArea-d2-0-2-11 {
   resize: none;
 }
-.textArea-d2-0-2-10::placeholder {
+.textArea-d2-0-2-11::placeholder {
   color: #777777;
 }
-.helperText-0-2-11 {
+.helperText-0-2-12 {
   display: flex;
   font-size: 12px;
   margin-top: 4px;
@@ -2275,11 +2355,11 @@ Array [
   margin-bottom: 0;
   letter-spacing: 0.38px;
 }
-.helperText-0-2-11 > i {}
-.helperText-d0-0-2-12 {
+.helperText-0-2-12 > i {}
+.helperText-d0-0-2-13 {
   color: #777777;
 }
-.helperText-d0-0-2-12 > i {}
+.helperText-d0-0-2-13 > i {}
 .labelContainer-0-2-3 {
   color: #000000;
   font-family: \\"Roboto\\", Arial;
@@ -2305,10 +2385,10 @@ Array [
         for="example_to_test"
       />
       <div
-        class="wrapper-0-2-4 wrapper-d0-0-2-8"
+        class="wrapper-0-2-4 wrapper-d0-0-2-9"
       >
         <input
-          class=" input-0-2-6 input-d1-0-2-9"
+          class=" input-0-2-7 input-d1-0-2-10"
           data-testid="ds-input"
           id="example_to_test"
           type="text"
@@ -2316,7 +2396,7 @@ Array [
         />
       </div>
       <p
-        class="helperText-0-2-11 helperText-d0-0-2-12"
+        class="helperText-0-2-12 helperText-d0-0-2-13"
       />
     </div>
   </div>,
@@ -2326,7 +2406,7 @@ Array [
 exports[`TextField component should render correctly with default props 1`] = `
 Array [
   ".wrapper-0-2-4 {
-  border: 1px solid;
+  border: 2px solid;
   display: flex;
   position: relative;
   align-items: center;
@@ -2348,7 +2428,14 @@ Array [
   pointer-events: none;
   background-color: #bbbbbb;
 }
-.base-0-2-5 {
+.leadinContainer-0-2-5 {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  padding-left: 8px;
+  justify-content: center;
+}
+.base-0-2-6 {
   color: #333333;
   width: 100%;
   border: none;
@@ -2361,14 +2448,14 @@ Array [
   line-height: 1.25;
   letter-spacing: 0.51px;
 }
-.base-0-2-5:read-only {
+.base-0-2-6:read-only {
   pointer-events: none;
 }
-.base-0-2-5:disabled {
+.base-0-2-6:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-6 {
+.input-0-2-7 {
   color: #333333;
   width: 100%;
   border: none;
@@ -2382,15 +2469,15 @@ Array [
   line-height: 1.25;
   letter-spacing: 0.51px;
 }
-.input-0-2-6:read-only {
+.input-0-2-7:read-only {
   pointer-events: none;
 }
-.input-0-2-6:disabled {
+.input-0-2-7:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-6::placeholder {}
-.textArea-0-2-7 {
+.input-0-2-7::placeholder {}
+.textArea-0-2-8 {
   color: #333333;
   width: 100%;
   border: none;
@@ -2403,40 +2490,40 @@ Array [
   line-height: 1.25;
   letter-spacing: 0.51px;
 }
-.textArea-0-2-7:read-only {
+.textArea-0-2-8:read-only {
   pointer-events: none;
 }
-.textArea-0-2-7:disabled {
+.textArea-0-2-8:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.textArea-0-2-7::placeholder {}
-.wrapper-d0-0-2-8 {
+.textArea-0-2-8::placeholder {}
+.wrapper-d0-0-2-9 {
   border-color: #bbbbbb;
   cursor: text;
 }
-.wrapper-d0-0-2-8:hover {
+.wrapper-d0-0-2-9:hover {
   border-color: #777777;
 }
-.wrapper-d0-0-2-8:focus-within {
+.wrapper-d0-0-2-9:focus-within {
   border-color: #f4ab34;
 }
-.wrapper-d0-0-2-8:after {
+.wrapper-d0-0-2-9:after {
   opacity: 0;
 }
-.input-d1-0-2-9 {
+.input-d1-0-2-10 {
   height: 56px;
 }
-.input-d1-0-2-9::placeholder {
+.input-d1-0-2-10::placeholder {
   color: #777777;
 }
-.textArea-d2-0-2-10 {
+.textArea-d2-0-2-11 {
   resize: none;
 }
-.textArea-d2-0-2-10::placeholder {
+.textArea-d2-0-2-11::placeholder {
   color: #777777;
 }
-.helperText-0-2-11 {
+.helperText-0-2-12 {
   display: flex;
   font-size: 12px;
   margin-top: 4px;
@@ -2447,11 +2534,11 @@ Array [
   margin-bottom: 0;
   letter-spacing: 0.38px;
 }
-.helperText-0-2-11 > i {}
-.helperText-d0-0-2-12 {
+.helperText-0-2-12 > i {}
+.helperText-d0-0-2-13 {
   color: #777777;
 }
-.helperText-d0-0-2-12 > i {}
+.helperText-d0-0-2-13 > i {}
 .labelContainer-0-2-3 {
   color: #000000;
   font-family: \\"Roboto\\", Arial;
@@ -2477,10 +2564,10 @@ Array [
         for="example_to_test"
       />
       <div
-        class="wrapper-0-2-4 wrapper-d0-0-2-8"
+        class="wrapper-0-2-4 wrapper-d0-0-2-9"
       >
         <input
-          class=" input-0-2-6 input-d1-0-2-9"
+          class=" input-0-2-7 input-d1-0-2-10"
           data-testid="ds-input"
           id="example_to_test"
           type="text"
@@ -2488,7 +2575,7 @@ Array [
         />
       </div>
       <p
-        class="helperText-0-2-11 helperText-d0-0-2-12"
+        class="helperText-0-2-12 helperText-d0-0-2-13"
       />
     </div>
   </div>,

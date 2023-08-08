@@ -24,4 +24,9 @@ describe('Logo component', () => {
 
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
+  it('should render correctly with secondary language default', () => {
+    const { styles, component } = renderWithTheme(<Logo languages="default" />)
+
+    expect([styles.toString(), component.container]).toMatchSnapshot()
+  })
 })
