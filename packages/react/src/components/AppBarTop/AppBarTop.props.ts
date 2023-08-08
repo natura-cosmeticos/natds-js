@@ -1,4 +1,4 @@
-type AppBarTopColor = 'default' | 'primary' | 'none' | 'inverse'
+type AppBarTopColor = 'default' | 'primary' | 'none' | 'inverse' | 'secondary'
 type AppBarTopBehaviour = 'fixed' | 'scroll' | 'absolute'
 
 export type AppBarProps = {

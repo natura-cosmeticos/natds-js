@@ -1,6 +1,7 @@
 import React from 'react'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { useTheme } from 'react-jss'
+import { buildTheme } from '../../ThemeProvider'
 import { LogoProps } from './Logo.props'
 import styles from './Logo.styles'
 
@@ -9,15 +10,22 @@ const Logo = React.forwardRef<HTMLDivElement, LogoProps>(
     color = 'neutral',
     size = 'veryHuge',
     model = 'a',
+    brand,
+    mode,
+    languages = 'default',
     arialabel = 'logo',
     className = '',
     ...props
   }, ref) => {
-    const theme: Theme = useTheme()
-    const { root } = styles({ size, color })
+    // eslint-disable-next-line react-hooks/rules-of-hooks
+    const theme: Theme = brand ? buildTheme(brand, mode) : useTheme()
+
+    const { root } = styles({
+      size, color, brand, mode
+    })
 
     const checkColor = color === 'neutral' ? 'neutral' : 'custom'
-    const logo = theme.asset.brand[checkColor][model].file
+    const logo = languages === 'default' ? theme.asset.brand[checkColor][model].file : (theme.asset.brand[checkColor][model][languages] ?? theme.asset.brand[checkColor][model].file)
 
     return (
       <div
