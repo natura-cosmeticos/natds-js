@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.49.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.49.0-alpha.DSY-3599.1.0...@naturacosmeticos/natds-react@2.49.0) (2023-08-08)
+
+
+### Bug Fixes
+
+* **natds-react:** optimized svg in theme ([1a18f20](https://github.com/natura-cosmeticos/natds-js/commit/1a18f20d31ba12c546aabef92c92548f2b53241d))
+
+
+### Features
+
+* **natds-react:** add color secondary and adjusts in AppBar ([64485e8](https://github.com/natura-cosmeticos/natds-js/commit/64485e8eaa90d97dba42de6464199bb5240a0e5a))
+* **natds-react:** add iconLeadind Prop in textfield and adjusts ([8043e3a](https://github.com/natura-cosmeticos/natds-js/commit/8043e3af65645e4cd172237a983324f6ee467b09))
+* **natds-react:** add new prop brand e mode ([dfbe46d](https://github.com/natura-cosmeticos/natds-js/commit/dfbe46d30b20af054d72d9ca269be069a45a8184))
+* **natds-react:** add new prop language Logo ([92c27fd](https://github.com/natura-cosmeticos/natds-js/commit/92c27fdfc9298db9a572101c0e08884c15cfe6a1))
+* **natds-react:** add stories textfield with iconLeading ([1cac827](https://github.com/natura-cosmeticos/natds-js/commit/1cac8276a27bf8b09bef004d92e97d8925753ef0))
+* **natds-react:** add switch theme in logo component ([7b3787c](https://github.com/natura-cosmeticos/natds-js/commit/7b3787c10fd4d39e25c61289b9528aaaa6ef8d28))
+* **natds-react:** include stories DisabledWithIconLeading ([32b84e6](https://github.com/natura-cosmeticos/natds-js/commit/32b84e61a9d16af337c684f00a339a588c66fa5e))
+
+
+
+
+
 # [2.48.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.48.0-alpha.DSY-3467.1.0...@naturacosmeticos/natds-react@2.48.0) (2023-07-21)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-react
