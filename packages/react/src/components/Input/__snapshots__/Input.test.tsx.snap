@@ -3,7 +3,7 @@
 exports[`Input component should render correctly when type is multiline 1`] = `
 Array [
   ".wrapper-0-2-1 {
-  border: 1px solid;
+  border: 2px solid;
   display: flex;
   position: relative;
   align-items: center;
@@ -25,7 +25,14 @@ Array [
   pointer-events: none;
   background-color: #bbbbbb;
 }
-.base-0-2-2 {
+.leadinContainer-0-2-2 {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  padding-left: 8px;
+  justify-content: center;
+}
+.base-0-2-3 {
   color: #333333;
   width: 100%;
   border: none;
@@ -38,14 +45,14 @@ Array [
   line-height: 1.25;
   letter-spacing: 0.51px;
 }
-.base-0-2-2:read-only {
+.base-0-2-3:read-only {
   pointer-events: none;
 }
-.base-0-2-2:disabled {
+.base-0-2-3:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-3 {
+.input-0-2-4 {
   color: #333333;
   width: 100%;
   border: none;
@@ -59,15 +66,15 @@ Array [
   line-height: 1.25;
   letter-spacing: 0.51px;
 }
-.input-0-2-3:read-only {
+.input-0-2-4:read-only {
   pointer-events: none;
 }
-.input-0-2-3:disabled {
+.input-0-2-4:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-3::placeholder {}
-.textArea-0-2-4 {
+.input-0-2-4::placeholder {}
+.textArea-0-2-5 {
   color: #333333;
   width: 100%;
   border: none;
@@ -80,45 +87,45 @@ Array [
   line-height: 1.25;
   letter-spacing: 0.51px;
 }
-.textArea-0-2-4:read-only {
+.textArea-0-2-5:read-only {
   pointer-events: none;
 }
-.textArea-0-2-4:disabled {
+.textArea-0-2-5:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.textArea-0-2-4::placeholder {}
-.wrapper-d0-0-2-5 {
+.textArea-0-2-5::placeholder {}
+.wrapper-d0-0-2-6 {
   border-color: #bbbbbb;
   cursor: text;
 }
-.wrapper-d0-0-2-5:hover {
+.wrapper-d0-0-2-6:hover {
   border-color: #777777;
 }
-.wrapper-d0-0-2-5:focus-within {
+.wrapper-d0-0-2-6:focus-within {
   border-color: #f4ab34;
 }
-.wrapper-d0-0-2-5:after {
+.wrapper-d0-0-2-6:after {
   opacity: 0;
 }
-.input-d1-0-2-6 {
+.input-d1-0-2-7 {
   height: 56px;
 }
-.input-d1-0-2-6::placeholder {
+.input-d1-0-2-7::placeholder {
   color: #777777;
 }
-.textArea-d2-0-2-7 {
+.textArea-d2-0-2-8 {
   resize: none;
 }
-.textArea-d2-0-2-7::placeholder {
+.textArea-d2-0-2-8::placeholder {
   color: #777777;
 }",
   <div>
     <div
-      class="wrapper-0-2-1 wrapper-d0-0-2-5"
+      class="wrapper-0-2-1 wrapper-d0-0-2-6"
     >
       <textarea
-        class=" textArea-0-2-4 textArea-d2-0-2-7"
+        class=" textArea-0-2-5 textArea-d2-0-2-8"
         data-testid="ds-input-multiline"
         id="example_to_test"
         rows="3"
@@ -131,7 +138,7 @@ Array [
 exports[`Input component should render correctly with default props 1`] = `
 Array [
   ".wrapper-0-2-1 {
-  border: 1px solid;
+  border: 2px solid;
   display: flex;
   position: relative;
   align-items: center;
@@ -153,7 +160,14 @@ Array [
   pointer-events: none;
   background-color: #bbbbbb;
 }
-.base-0-2-2 {
+.leadinContainer-0-2-2 {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  padding-left: 8px;
+  justify-content: center;
+}
+.base-0-2-3 {
   color: #333333;
   width: 100%;
   border: none;
@@ -166,14 +180,14 @@ Array [
   line-height: 1.25;
   letter-spacing: 0.51px;
 }
-.base-0-2-2:read-only {
+.base-0-2-3:read-only {
   pointer-events: none;
 }
-.base-0-2-2:disabled {
+.base-0-2-3:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-3 {
+.input-0-2-4 {
   color: #333333;
   width: 100%;
   border: none;
@@ -187,15 +201,15 @@ Array [
   line-height: 1.25;
   letter-spacing: 0.51px;
 }
-.input-0-2-3:read-only {
+.input-0-2-4:read-only {
   pointer-events: none;
 }
-.input-0-2-3:disabled {
+.input-0-2-4:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-3::placeholder {}
-.textArea-0-2-4 {
+.input-0-2-4::placeholder {}
+.textArea-0-2-5 {
   color: #333333;
   width: 100%;
   border: none;
@@ -208,45 +222,45 @@ Array [
   line-height: 1.25;
   letter-spacing: 0.51px;
 }
-.textArea-0-2-4:read-only {
+.textArea-0-2-5:read-only {
   pointer-events: none;
 }
-.textArea-0-2-4:disabled {
+.textArea-0-2-5:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.textArea-0-2-4::placeholder {}
-.wrapper-d0-0-2-5 {
+.textArea-0-2-5::placeholder {}
+.wrapper-d0-0-2-6 {
   border-color: #bbbbbb;
   cursor: text;
 }
-.wrapper-d0-0-2-5:hover {
+.wrapper-d0-0-2-6:hover {
   border-color: #777777;
 }
-.wrapper-d0-0-2-5:focus-within {
+.wrapper-d0-0-2-6:focus-within {
   border-color: #f4ab34;
 }
-.wrapper-d0-0-2-5:after {
+.wrapper-d0-0-2-6:after {
   opacity: 0;
 }
-.input-d1-0-2-6 {
+.input-d1-0-2-7 {
   height: 56px;
 }
-.input-d1-0-2-6::placeholder {
+.input-d1-0-2-7::placeholder {
   color: #777777;
 }
-.textArea-d2-0-2-7 {
+.textArea-d2-0-2-8 {
   resize: none;
 }
-.textArea-d2-0-2-7::placeholder {
+.textArea-d2-0-2-8::placeholder {
   color: #777777;
 }",
   <div>
     <div
-      class="wrapper-0-2-1 wrapper-d0-0-2-5"
+      class="wrapper-0-2-1 wrapper-d0-0-2-6"
     >
       <input
-        class=" input-0-2-3 input-d1-0-2-6"
+        class=" input-0-2-4 input-d1-0-2-7"
         data-testid="ds-input"
         id="example_to_test"
         type="text"

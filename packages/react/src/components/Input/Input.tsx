@@ -7,6 +7,7 @@ import InputAction from './InputAction'
 const Input = React.forwardRef<HTMLInputElement, InputProps>((props, ref) => {
   const {
     action,
+    iconLeading,
     className = '',
     disabled = false,
     id,
@@ -25,7 +26,9 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>((props, ref) => {
     value
   } = props
 
-  const { wrapper, input, textArea } = styles({
+  const {
+    wrapper, input, textArea, leadinContainer
+  } = styles({
     size, isResizable, brand, ...props
   })
 
@@ -33,6 +36,10 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>((props, ref) => {
 
   return (
     <div className={wrapper} ref={ref}>
+      {
+        iconLeading
+      && <div className={leadinContainer}>{iconLeading}</div>
+      }
       {
         isMultiline
           ? (
