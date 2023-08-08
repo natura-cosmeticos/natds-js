@@ -17,7 +17,7 @@ const Drawer = React.forwardRef<HTMLDivElement, DrawerProps>(({
         ref={ref}
         {...props}
       />
-      <div className={overlayContainer} />
+      <div className={overlayContainer} onClick={() => props.handleClick?.()} />
     </>
   )
 })
