@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import React from 'react'
 import { Story, Meta } from '@storybook/react'
 import { Counter, CounterProps } from '.'
@@ -17,6 +18,9 @@ With the following attribute status:
     - ✅ \`semiX\`
     - ✅ \`medium\`
 - ✅ **Disabled**
+- ✅ **readOnly**
+    - ✅ \`true\`
+    - ✅ \`false\`
 
 ---
 `
@@ -32,11 +36,14 @@ export default {
 } as Meta
 
 export const Playground: Story<CounterProps> = ({ value, ...args }) => {
-  const [amount, setAmount] = React.useState(value || 0)
+  const [amount, setAmount] = React.useState<number>(value || 0)
 
   const handleIncrement = () => setAmount(amount + 1)
   const handleDecrement = () => setAmount(amount - 1)
-
+  const handleNumber = (e: string) => {
+    const number = e.replace(/[^\d]/g, '')
+    return Number(number)
+  }
   return (
     <div>
       <Counter
@@ -44,12 +51,13 @@ export const Playground: Story<CounterProps> = ({ value, ...args }) => {
         onIncrement={handleIncrement}
         onDecrement={handleDecrement}
         value={amount}
+        onChange={(e) => setAmount(handleNumber(e.target.value))}
       />
     </div>
   )
 }
 
-Playground.args = { value: 0, label: 'label' }
+Playground.args = { value: 0, label: 'label', readOnly: false }
 
 export const Sizes: Story<CounterProps> = (args) => {
   const [counter1, setCounter1] = React.useState(0)

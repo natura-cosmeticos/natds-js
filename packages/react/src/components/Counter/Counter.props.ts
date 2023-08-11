@@ -1,3 +1,4 @@
+import React from 'react'
 import { Size } from '@naturacosmeticos/natds-themes'
 
 type CounterSizes = keyof Pick<Size, 'semiX' | 'medium'>
@@ -25,6 +26,19 @@ export interface CounterProps {
    * @default false
    */
   disabled?: boolean
+
+  /**
+   * If `true` readOnly component actions.
+   *
+   * @default false
+   */
+  readOnly?: boolean
+
+  /**
+   * Prop to onChange value.
+   *
+   */
+  onChange?: React.ChangeEventHandler<HTMLInputElement | HTMLTextAreaElement>,
 
   /**
    * Insert a label above Counter input group.
