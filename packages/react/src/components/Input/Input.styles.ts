@@ -30,7 +30,7 @@ const styles = createUseStyles((theme: Theme) => ({
   wrapper: {
     alignItems: 'center',
     backgroundColor: theme.color.surface,
-    border: '2px solid',
+    border: '1px solid',
     borderColor: getFeedbackBorderColor(theme),
     borderRadius: theme.textField.borderRadius,
     cursor: ({ disabled, readOnly }: InputStyleProps) => (!disabled && !readOnly ? 'text' : 'default'),
