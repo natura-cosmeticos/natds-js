@@ -18,6 +18,8 @@ With the following attribute status:
     - ✅ \`semiX\`
     - ✅ \`medium\`
 - ✅ **Disabled**
+- ✅ **onChange**
+    - ✅ \`function\`
 - ✅ **readOnly**
     - ✅ \`true\`
     - ✅ \`false\`
