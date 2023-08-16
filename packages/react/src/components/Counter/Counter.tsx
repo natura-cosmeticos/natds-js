@@ -49,6 +49,7 @@ const Counter = React.forwardRef<HTMLDivElement, CounterProps>(({
           onChange={onChange}
           value={value}
           maxLength={2}
+          inputMode="numeric"
         />
         <Button
           ariaLabel={ariaLabelIncrementButton}
