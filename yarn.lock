@@ -4212,10 +4212,10 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react-text-mask@5.4.8":
-  version "5.4.8"
-  resolved "https://registry.yarnpkg.com/@types/react-text-mask/-/react-text-mask-5.4.8.tgz#1e2013d8eb9f3ff64951568e5163270a83d31b92"
-  integrity sha512-KC2+fMkiwXUpijEdNrKcD1otO7VRqp4HFfq+vR756AG3d0z2lbIjO0/aFooqfd39t333Jkk4fvwWDpkvGBIoQg==
+"@types/react-text-mask@5.4.11":
+  version "5.4.11"
+  resolved "https://registry.yarnpkg.com/@types/react-text-mask/-/react-text-mask-5.4.11.tgz#dfbfc8642ee27977ed0cdfb1c61b53c85248c01c"
+  integrity sha512-DIJ3/dS4jd7NK3lEgsOwcgpp+ZlVrNJEiUDRayZRE/PNMbV/nLWmOKGdL0BUS29hnx0CDgITgPudKx0BgbF5fA==
   dependencies:
     "@types/react" "*"
 
@@ -13790,10 +13790,10 @@ react-test-renderer@17.0.2:
     react-shallow-renderer "^16.13.1"
     scheduler "^0.20.2"
 
-react-text-mask@5.4.3:
-  version "5.4.3"
-  resolved "https://registry.yarnpkg.com/react-text-mask/-/react-text-mask-5.4.3.tgz#991efb4299e30c2e6c2c46d13f617169463e0d2d"
-  integrity sha1-mR77QpnjDC5sLEbRP2FxaUY+DS0=
+react-text-mask@5.5.0:
+  version "5.5.0"
+  resolved "https://registry.yarnpkg.com/react-text-mask/-/react-text-mask-5.5.0.tgz#468ea690160b364981205f5633e7475e939383ff"
+  integrity sha512-SLJlJQxa0uonMXsnXRpv5abIepGmHz77ylQcra0GNd7Jtk4Wj2Mtp85uGQHv1avba2uI8ZvRpIEQPpJKsqRGYw==
   dependencies:
     prop-types "^15.5.6"
 
