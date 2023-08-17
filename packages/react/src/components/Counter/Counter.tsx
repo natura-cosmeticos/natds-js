@@ -10,11 +10,13 @@ const Counter = React.forwardRef<HTMLDivElement, CounterProps>(({
   ariaLabelIncrementButton,
   className = '',
   disabled,
+  readOnly,
   label,
   maxValue = 99,
   minValue = 0,
   onDecrement,
   onIncrement,
+  onChange,
   size = 'semiX',
   testID,
   value = 0
@@ -43,8 +45,11 @@ const Counter = React.forwardRef<HTMLDivElement, CounterProps>(({
         </Button>
         <input
           className={inputBase}
-          readOnly
+          readOnly={readOnly}
+          onChange={onChange}
           value={value}
+          maxLength={2}
+          inputMode="numeric"
         />
         <Button
           ariaLabel={ariaLabelIncrementButton}
