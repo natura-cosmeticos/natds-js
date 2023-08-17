@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.50.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.50.0-alpha.DSY-3677.3.0...@naturacosmeticos/natds-react@2.50.0) (2023-08-17)
+
+
+### Bug Fixes
+
+* **natds-react:** border textfield pattern 1px focus 2px ([180733c](https://github.com/natura-cosmeticos/natds-js/commit/180733c7f46ec7cef054cc94c17e2deafb7305e9))
+
+
+### Features
+
+* **natds-react:** add prop inputMode numeric ([8519f66](https://github.com/natura-cosmeticos/natds-js/commit/8519f6677091bc8be314513b8b736aaa66b20c95))
+
+
+
+
+
 # [2.49.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.49.0-alpha.DSY-3599.1.0...@naturacosmeticos/natds-react@2.49.0) (2023-08-08)
 
 
