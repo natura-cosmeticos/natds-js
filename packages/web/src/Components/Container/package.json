@@ -29,7 +29,7 @@
     "build": "rollup -c"
   },
   "peerDependencies": {
-    "@material-ui/core": "^4.11.0",
+    "@mui/material": "5.0.0",
     "react": "17.0.2"
   },
   "config": {},
