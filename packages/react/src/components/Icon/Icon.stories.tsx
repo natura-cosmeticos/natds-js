@@ -27,3 +27,4 @@ export default {
 } as Meta
 
 export const Playground: Story<IconProps> = (args) => <Icon {...args} />
+export const Icons: Story<IconProps> = (args) => <Icon {...args} />
