@@ -5,19 +5,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [2.51.1](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.51.1-alpha.DSY-3704.1.0...@naturacosmeticos/natds-react@2.51.1) (2023-08-22)
 
-**Note:** Version bump only for package @naturacosmeticos/natds-react
-
-
-
-
-
-# [2.51.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.51.0-alpha.DSY-3609.1.0...@naturacosmeticos/natds-react@2.51.0) (2023-08-17)
-
-**Note:** Version bump only for package @naturacosmeticos/natds-react
-
-
-
-
+* **natds-react:** Fix color Logo Avon-v2-v-Custom 
 
 # [2.50.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.50.0-alpha.DSY-3677.3.0...@naturacosmeticos/natds-react@2.50.0) (2023-08-17)
 
