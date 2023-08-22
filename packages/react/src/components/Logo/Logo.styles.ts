@@ -28,6 +28,9 @@ const styles = createUseStyles((theme: Theme) => ({
           getColorTheme(theme)({
             color, brand, size, mode
           }))
+      },
+      '& path#id-avonV2-b-custom': {
+        fill: ({ color }: LogoStyleProps) => (color !== 'surface' ? '#fff' : '#000')
       }
     }
   }
