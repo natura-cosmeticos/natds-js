@@ -163,4 +163,4 @@ export const SearchIconButton: Story<IconButtonProps> = (args) => {
     </StoryContainer>
   )
 }
-SearchIconButton.args = { ...Playground.args, disabled: true }
+SearchIconButton.args = { ...Playground.args }
