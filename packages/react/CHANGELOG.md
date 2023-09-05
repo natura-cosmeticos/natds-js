@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.51.2](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.51.2-alpha.DSY-3710.1.0...@naturacosmeticos/natds-react@2.51.2) (2023-09-05)
+
+* **natds-react:** Add stories search IconButton
+ 
 ## [2.51.1](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.51.1-alpha.DSY-3704.1.0...@naturacosmeticos/natds-react@2.51.1) (2023-08-22)
 
 * **natds-react:** Fix color Logo Avon-v2-v-Custom 
