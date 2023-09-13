@@ -34,7 +34,7 @@ const Login: React.FC = (() => {
                 backgroundStyle="float"
                 size="medium"
                 onClick={() => setOpenImg(!openImg)}
-                IconComponent={openImg ? <Icon name="outlined-action-visibility" color="highEmphasis" /> : <Icon name="outlined-action-visibilityoff" color="highEmphasis" />}
+                IconComponent={openImg ? <Icon name="outlined-action-visibility" color="highEmphasis" /> : <Icon name="outlined-action-visibilitysleeping" color="highEmphasis" />}
               />
             </div>
           )
@@ -69,7 +69,7 @@ const Login: React.FC = (() => {
                 type={`${passwordTrans ? 'text' : 'password'}`}
                 label="Password"
                 action="icon"
-                IconComponent={passwordTrans ? <Icon name="outlined-action-visibility" color="highEmphasis" /> : <Icon name="outlined-action-visibilityoff" color="highEmphasis" />}
+                IconComponent={passwordTrans ? <Icon name="outlined-action-visibility" color="highEmphasis" /> : <Icon name="outlined-action-visibilitysleeping" color="highEmphasis" />}
               />
             </div>
           </div>
