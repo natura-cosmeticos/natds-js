@@ -1,6 +1,6 @@
 import React from 'react'
 import { Story, Meta } from '@storybook/react'
-import Login from './Login'
+import Login, { openIMG } from './Login'
 
 const componentStatus = `
 - - -
@@ -18,11 +18,15 @@ export default {
   }
 } as Meta
 
-export const Playground: Story = () => (
+export const Playground: Story<openIMG> = (args) => (
 
-  <Login />
+  <Login {...args} />
 
 )
+Playground.args = {
+  openIMG: false
+}
+
 // export const TemplateCheckoutMobile: Story = () => (
 //   <div style={{ maxWidth: '360px' }}>
 
