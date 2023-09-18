@@ -129,7 +129,7 @@ const styles = createUseStyles<RuleNames, snackbarStyleProps, Theme>((theme: The
   },
   wrapperRow: {
     display: 'flex',
-    alignItems: 'start',
+    alignItems: 'center',
     width: '100%',
     gap: '8px'
   },
