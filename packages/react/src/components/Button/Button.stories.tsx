@@ -4,32 +4,17 @@ import { Button, ButtonProps } from '.'
 import StoryContainer from '../../helpers/StoryContainer'
 
 const componentStatus = `
----
 
-**NOTE FOR UXs**: This component is available in the following variants:
+## Config
+| Property         | Values                            |    Status       |
+|---               |                                ---|              ---|
+| **variant**      | contained, outlined, text         | ✅ Available    |
+| **textTranform** | uppercase, lowercase,  capitalize | ✅ Available    |
+| **size**         | semi, semiX, medium               | ✅ Available    |
+| **iconName**     | 'icon_name'                       | ✅ Available    |
+| **disabled**     | true, false                       | ✅ Available    |
 
-  - ✅ \`contained\`
-  - ✅ \`outlined\`
-  - ✅ \`text\`
-
-With the following attribute status:
-
-- **textTransform**
-    - ✅ \`uppercase\`
-    - ✅ \`lowercase\`
-    - ✅ \`capitalize\`
-
-- **Size**
-    - ✅ \`semi\`
-    - ✅ \`semiX\`
-    - ✅ \`medium\`
-- ✅ **Icon**
-- ✅ **Disabled**
-- **Display**
-    - ✅ \`inline\`
-    - ✅ \`block\`
-
----
+## Technical Usages Examples
 `
 
 export default {

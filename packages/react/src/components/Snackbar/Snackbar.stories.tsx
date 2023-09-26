@@ -6,26 +6,20 @@ import Button from '../Button'
 import Icon from '../Icon'
 
 const componentStatus = `
-- - -
+## Config
+| Property              | Values                                                                      |    Status       |
+|---                    |                                                                          ---|              ---|
+| **variant**           | Standard                                                                    | ✅ Available    |
+| **Title**             | any string                                                                  | ✅ Available    |
+| **Icon**              | Component Icon                                                              | ✅ Available    |
+| **directionButton**   | none, inlineButton, blockButton                                             | ✅ Available    |
+| **Feedback**          | default, success, error, warning, info,                                     | ✅ Available    |
+| **Position**          | topLeft, topCenter, topRight, <br />bottomLeft, bottomCenter, bottomRight   | ✅ Available    |
+| **Timer**             | number                                                                      | ✅ Available    |
+| **Animation**         | true/false                                                                  | ✅ Available    |
+| **buttonComponent**   | Component Button                                                            | ✅ Available    |
 
-**NOTE FOR UXs**: This component is available in the following variants:
-
-- ✅ Standard
-
-With the following attribute statuses:
-
-  - **Attributes:**
-  - ✅ Title
-  - ✅ Icon
-  - ✅ directionButton
-  - ✅ Feedback
-  - ✅ Position
-  - ✅ Timer
-  - ✅ Animation
-  - ✅ buttonComponent
-
-
-- - -
+## Technical Usages Examples
 `
 
 export default {
