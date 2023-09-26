@@ -6,7 +6,10 @@ import Button from '../Button'
 import Icon from '../Icon'
 
 const componentStatus = `
-## Config
+
+> Snackbar component is used for instant notifications
+
+## Properties
 | Property              | Values                                                                      |    Status       |
 |---                    |                                                                          ---|              ---|
 | **variant**           | Standard                                                                    | ✅ Available    |

@@ -5,7 +5,9 @@ import StoryContainer from '../../helpers/StoryContainer'
 
 const componentStatus = `
 
-## Config
+> Buttons allow users to take actions, and make choices, with a single tap.
+
+## Properties
 | Property         | Values                            |    Status       |
 |---               |                                ---|              ---|
 | **variant**      | contained, outlined, text         | ✅ Available    |
@@ -21,7 +23,7 @@ export default {
   title: 'Components/Button',
   component: Button,
   parameters: {
-    componentSubtitle: 'Buttons allow users to take actions, and make choices, with a single tap',
+    componentSubtitle: '',
     docs: { description: { component: componentStatus } },
     actions: { argTypesRegex: '^on.*' }
   }
