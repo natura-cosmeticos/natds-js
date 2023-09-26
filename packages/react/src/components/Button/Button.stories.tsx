@@ -15,6 +15,7 @@ const componentStatus = `
 | **size**         | semi, semiX, medium               | ✅ Available    |
 | **iconName**     | 'icon_name'                       | ✅ Available    |
 | **disabled**     | true, false                       | ✅ Available    |
+| **fullWidth**    | true, false                       | ✅ Available    |
 
 ## Technical Usages Examples
 `
