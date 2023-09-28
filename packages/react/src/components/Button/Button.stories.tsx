@@ -10,13 +10,13 @@ const componentStatus = `
 ## Properties
 | Property         | Values                                                                          |    Status       |
 |---               |                                                                              ---|              ---|
-| **variant**      | contained, outlined, text                                                       | ✅ Available    |
-| **textTranform** | uppercase, lowercase,  capitalize                                               | ✅ Available    |
-| **size**         | semi, semiX, medium                                                             | ✅ Available    |
-| **iconName**     | 'icon_name'                                                                     | ✅ Available    |
-| **disabled**     | true, false                                                                     | ✅ Available    |
-| **fullWidth**    | true, false                                                                     | ✅ Available    |
-| **brand**        | aesop, avon, avon_v2, natura <br /> consultoriaDeBeleza, natura_v2, casaEestilo | ✅ Available    |
+| **variant**      | contained, outlined, text                                                       | ✅ Ready        |
+| **textTranform** | uppercase, lowercase,  capitalize                                               | ✅ Ready        |
+| **size**         | semi, semiX, medium                                                             | ✅ Ready        |
+| **iconName**     | 'icon_name'                                                                     | ✅ Ready        |
+| **disabled**     | true, false                                                                     | ✅ Ready        |
+| **fullWidth**    | true, false                                                                     | ✅ Ready        |
+| **brand**        | aesop, avon, avon_v2, natura <br /> consultoriaDeBeleza, natura_v2, casaEestilo | ✅ Ready        |
 
 ## Technical Usages Examples
 `
