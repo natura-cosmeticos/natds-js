@@ -10,17 +10,17 @@ const componentStatus = `
 > Snackbar component is used for instant notifications
 
 ## Properties
-| Property              | Values                                                                      |    Status       |
-|---                    |                                                                          ---|              ---|
-| **variant**           | Standard                                                                    | ✅ Ready        |
-| **Title**             | any string                                                                  | ✅ Ready        |
-| **Icon**              | Component Icon                                                              | ✅ Ready        |
-| **directionButton**   | none, inlineButton, blockButton                                             | ✅ Ready        |
-| **Feedback**          | default, success, error, warning, info,                                     | ✅ Ready        |
-| **Position**          | topLeft, topCenter, topRight, <br />bottomLeft, bottomCenter, bottomRight   | ✅ Ready        |
-| **Timer**             | number                                                                      | ✅ Ready        |
-| **Animation**         | true/false                                                                  | ✅ Ready        |
-| **buttonComponent**   | Component Button                                                            | ✅ Ready        |
+| Property              | Values                                                                      |    Status           |
+|---                    |                                                                          ---|                  ---|
+| **variant**           | Standard                                                                    | ✅ Available        |
+| **Title**             | any string                                                                  | ✅ Available        |
+| **Icon**              | Component Icon                                                              | ✅ Available        |
+| **directionButton**   | none, inlineButton, blockButton                                             | ✅ Available        |
+| **Feedback**          | default, success, error, warning, info,                                     | ✅ Available        |
+| **Position**          | topLeft, topCenter, topRight, <br />bottomLeft, bottomCenter, bottomRight   | ✅ Available        |
+| **Timer**             | number                                                                      | ✅ Available        |
+| **Animation**         | true/false                                                                  | ✅ Available        |
+| **buttonComponent**   | Component Button                                                            | ✅ Available        |
 
 ## Technical Usages Examples
 `
