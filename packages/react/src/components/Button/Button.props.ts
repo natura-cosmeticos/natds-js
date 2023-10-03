@@ -8,31 +8,31 @@ export type ButtonVariant = 'contained' | 'outlined' | 'text'
 export type ButtonType = 'button' | 'reset' | 'submit'
 export interface ButtonBaseProps {
   /**
-   * Specify a description to your button.
+   * Specifies a description to your button.
    * Use it in cases where a text label is not visible on the screen.
    */
   ariaLabel?: string
   /**
-   * Specify an optional brand to be added to your Button
+   * Specifies an optional brand to be added to your Button
    */
   brand?: BrandTypes
   /**
-   * Specify an optional textTransform to be added to your Button
+   * Specifies an optional textTransform to be added to your Button
    */
   textTransform?: 'uppercase' | 'lowercase' | 'capitalize'
   /**
-   * Specify whether the Button should be disabled, or not
+   * Specifies whether the Button should be disabled, or not
    * @default false
    */
   disabled?: boolean;
 
   /**
-   * Specify the content of your Button
+   * Specifies the content of your Button
    */
   children: React.ReactNode
 
   /**
-   * Specify an optional className to be added to your Button
+   * Specifies an optional className to be added to your Button
    */
   className?: string
 
@@ -43,12 +43,12 @@ export interface ButtonBaseProps {
   fullWidth?: boolean;
 
   /**
-   * Provide a function to be called when the button element is clicked
+   * Provides a function to be called when the button element is clicked
    */
   onClick: () => void;
 
   /**
-  * Specify the size of the button, from a list of available sizes.
+  * Specifies the size of the button, from a list of available sizes.
   * If no size is specified, the 'semiX' size will be applied as default.
   * @default semiX
   */
@@ -60,13 +60,13 @@ export interface ButtonBaseProps {
   testID?: string;
 
   /**
-   * Optional prop to specify the type of the Button
+   * Optional prop to specifies the type of the Button
    * @default 'button'
    */
   type?: ButtonType;
 
   /**
-   * Specify the variant of Button you want to create.
+   * Specifies the variant of Button you want to create.
    * If no variant is specified, a 'contained' button will be rendered.
    * @default contained
    */
@@ -82,7 +82,7 @@ export type ButtonWithIcon = ButtonBaseProps & {
   showIcon: true
 
   /**
-   * Specify the icon position
+   * Specifies the icon position
    * @default 'right'
    */
   iconPosition?: IconPosition

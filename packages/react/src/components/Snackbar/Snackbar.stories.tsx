@@ -6,26 +6,23 @@ import Button from '../Button'
 import Icon from '../Icon'
 
 const componentStatus = `
-- - -
 
-**NOTE FOR UXs**: This component is available in the following variants:
+> Snackbar component is used for instant notifications
 
-- ✅ Standard
+## Properties
+| Property              | Values                                                                      |    Status           |
+|---                    |                                                                          ---|                  ---|
+| **variant**           | Standard                                                                    | ✅ Available        |
+| **Title**             | any string                                                                  | ✅ Available        |
+| **Icon**              | Component Icon                                                              | ✅ Available        |
+| **directionButton**   | none, inlineButton, blockButton                                             | ✅ Available        |
+| **Feedback**          | default, success, error, warning, info,                                     | ✅ Available        |
+| **Position**          | topLeft, topCenter, topRight, <br />bottomLeft, bottomCenter, bottomRight   | ✅ Available        |
+| **Timer**             | number                                                                      | ✅ Available        |
+| **Animation**         | true/false                                                                  | ✅ Available        |
+| **buttonComponent**   | Component Button                                                            | ✅ Available        |
 
-With the following attribute statuses:
-
-  - **Attributes:**
-  - ✅ Title
-  - ✅ Icon
-  - ✅ directionButton
-  - ✅ Feedback
-  - ✅ Position
-  - ✅ Timer
-  - ✅ Animation
-  - ✅ buttonComponent
-
-
-- - -
+## Technical Usages Examples
 `
 
 export default {
