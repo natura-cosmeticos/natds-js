@@ -3,7 +3,7 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [2.53.1](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.53.0-alpha.DSY-3330.5.0...@naturacosmeticos/natds-react@2.53.1) (2023-10-03)
+# [2.53.2](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.53.0-alpha.DSY-3330.5.0...@naturacosmeticos/natds-react@2.53.2) (2023-10-03)
 
 * **natds-react:** Change status doc button snacker
 * **natds-react:** Change status doc button button
