@@ -7,7 +7,10 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @naturacosmeticos/natds-react
 
+# [2.53.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.52.0-alpha.DSY-3710.3.0...@naturacosmeticos/natds-react@2.53.0) (2023-09-18)
 
+* **natds-react:** Change status doc button snacker
+* **natds-react:** Change status doc button button
 
 
 
