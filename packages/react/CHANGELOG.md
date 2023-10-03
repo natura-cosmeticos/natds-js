@@ -5,13 +5,6 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [2.54.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.54.0-alpha.DSY-3753.14.0...@naturacosmeticos/natds-react@2.54.0) (2023-10-03)
 
-**Note:** Version bump only for package @naturacosmeticos/natds-react
-
-
-
-
-
-# [2.53.2](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.53.0-alpha.DSY-3330.5.0...@naturacosmeticos/natds-react@2.53.2) (2023-10-03)
 
 * **natds-react:** Change status doc button snackbar
 * **natds-react:** Change status doc button button
