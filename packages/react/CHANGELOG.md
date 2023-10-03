@@ -6,8 +6,8 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 # [2.54.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.54.0-alpha.DSY-3753.14.0...@naturacosmeticos/natds-react@2.54.0) (2023-10-03)
 
 
-* **natds-react:** Change status doc button snackbar
-* **natds-react:** Change status doc button button
+* **natds-react:** Change status doc snackbar
+* **natds-react:** Change status doc button
 
 
 
