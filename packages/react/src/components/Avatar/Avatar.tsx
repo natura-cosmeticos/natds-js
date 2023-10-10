@@ -30,7 +30,7 @@ const Avatar = React.forwardRef<HTMLElement, AvatarProps>(
 
     return (
       <span
-        className={`${className} ${surface}`}
+        className={`${className} ${surface} Avatar-gaya`}
         ref={ref}
         {...rest}
       >

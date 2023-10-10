@@ -4,33 +4,28 @@ import { Story, Meta } from '@storybook/react'
 import { Avatar, AvatarProps } from '.'
 
 const componentStatus = `
----
+> Avatar are used to identify a user
 
-**NOTE FOR UXs**: This component is available in the following variants:
+## Properties
+| Property                      | Values                                    |    Status           |
+|---                            |                                        ---|                  ---|
+| **variant**                   | standard                                  | ✅ Available        |
+| **type**                      | icon, label, image                        | ✅ Available        |
+| **size**                      | standard, semi, semiX, medium, largeXXX   | ✅ Available        |
+| **alt**                       | string                                    | ✅ Available        |
+| **src**                       | string                                    | ✅ Available        |
+| **onError**                   | function                                  | ✅ Available        |
+| **name**                      | icon-name                                 | ✅ Available        |
+| **brand**                   | avon, avon_v2, natura, natura_v2, theBodyShop, <br /> consultoriaDeBeleza, casaEestilo            | ✅ Available        |
 
-  - ✅ \`standard\`
-
-With the following attribute status:
-
-- **Type**
-    - ✅ \`icon\`
-    - ✅ \`label\`
-    - ✅ \`image\`
-- **Size**
-    - ✅ \`standard\`
-    - ✅ \`semi\`
-    - ✅ \`semiX\`
-    - ✅ \`medium\`
-    - ✅ \`largeXXX\`
-
----
+## Technical Usages Examples
 `
 
 export default {
   title: 'Components/Avatar',
   component: Avatar,
   parameters: {
-    componentSubtitle: 'Avatars are used to identify a user',
+    componentSubtitle: '',
     docs: { description: { component: componentStatus } }
   }
 } as Meta
