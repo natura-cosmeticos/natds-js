@@ -3,22 +3,28 @@ import { Story, Meta } from '@storybook/react'
 import { Chip, ChipProps } from '.'
 
 const componentStatus = `
-- - -
+> Chip used to display discrete tags or selections in user interfaces..
 
-**NOTE FOR UXs**: This component is available in the following variants:
+## Properties
+| Property                    | Values                                      |    Status           |
+|---                          |                                          ---|                  ---|
+| **variant(no prop)**        | Standard                                    | ✅ Available        |
+| **labelText**               | string                                      | ✅ Available        |
+| **leftIcon**                | icon-name                                   | ✅ Available        |
+| **rightIcon**               | icon-name                                   | ✅ Available        |
+| **leftAvatar**              | string                                      | ✅ Available        |
+| **rightAvatar**             | string                                      | ✅ Available        |
+| **color**                   | neutral, primary, secondary, custom         | ✅ Available        |
+| **disabled**                | true/false                                  | ✅ Available        |
+| **selected**                | true/false                                  | ✅ Available        |
+| **customLabelColor**        | string                                      | ✅ Available        |
+| **customBackground**        | string                                      | ✅ Available        |
+| **customBorderColor**       | string                                      | ✅ Available        |
+| **size**                    | semi, semiX, medium                         | ✅ Available        |
+| **onClick**                 | function                                    | ✅ Available        |
+| **brand**                   | avon, avon_v2, natura, natura_v2, theBodyShop, <br /> consultoriaDeBeleza, casaEestilo            | ✅ Available        |
 
-  - ✅ Standard
-
-With the following attribute statuses:
-
-  - **Attributes:**
-    - ✅ Color
-    - ✅ Icon
-    - ✅ Avatar
-    - ✅ Disabled
-    - ✅ Size
-
-- - -
+## Technical Usages Examples
 `
 
 export default {
