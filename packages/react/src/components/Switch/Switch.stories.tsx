@@ -4,25 +4,27 @@ import { Switch, SwitchProps } from '.'
 import StoryContainer from '../../helpers/StoryContainer'
 
 const componentStatus = `
-- - -
+> Switches allow users to enable or disable an option.
 
-**NOTE FOR UXs**: This component is available in the following variants:
+## Properties
+| Property                      | Values                                        |    Status           |
+|---                            |                                            ---|                  ---|
+| **variant (no prop)**         | Standard                                      | ✅ Available        |
+| **checked**                   | true/false                                    | ✅ Available        |
+| **value**                     | string                                        | ✅ Available        |
+| **id**                        | string                                        | ✅ Available        |
+| **onChange**                  | function                                      | ✅ Available        |
+| **disabled**                  | true/false                                    | ✅ Available        |
+| **brand**                     | avon, avon_v2, natura, natura_v2, theBodyShop, <br /> consultoriaDeBeleza, casaEestilo            | ✅ Available        |
 
-  - ✅ Standard
-
-With the following attribute statuses:
-
-  - ✅  **Disabled**
-  UPDATE
-
-- - -
+## Technical Usages Examples
 `
 
 export default {
   title: 'Components/Switch',
   component: Switch,
   parameters: {
-    componentSubtitle: 'Switches allow users to enable or disable an option.',
+    componentSubtitle: '',
     docs: { description: { component: componentStatus } }
   }
 } as Meta
