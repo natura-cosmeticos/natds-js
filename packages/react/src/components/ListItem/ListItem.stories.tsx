@@ -6,21 +6,19 @@ import { ListItem, ListItemProps } from '.'
 import { Divider as DividerComponent } from '../Divider'
 
 const componentStatus = `
----
+> Lists are continuous, vertical indexes of content such as text and images.
 
-**NOTE FOR UXs**: This component is available in the following variants:
+## Properties
+| Property                  | Values                     |    Status           |
+|---                        |                         ---|                  ---|
+| **variant (no prop)**     | base                       | ✅ Available        |
+| **interaction**           | none, action, selectable   | ✅ Available        |
+| **key**                   | string, number             | ✅ Available        |
+| **onClick**               | function                   | ✅ Available        |
+| **selected**              | true/false                 | ✅ Available        |
+| **SeparatorComponent**    | component                  | ✅ Available        |
 
-  - ✅ \`base\`
-
-With the following attribute status:
-
-- **Interaction**
-    - ✅ \`none\`
-    - ✅ \`action\`
-    - ✅ \`selectable\`
-- ✅ **Divider**
-
----
+## Technical Usages Examples
 `
 
 export default {
@@ -28,7 +26,7 @@ export default {
   component: ListItem,
   parameters: {
     componentSubtitle:
-      'Lists are continuous, vertical indexes of content such as text and images.',
+      '',
     docs: { description: { component: componentStatus } },
     actions: { argTypesRegex: '^on.*' }
   }
