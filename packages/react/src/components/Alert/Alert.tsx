@@ -56,7 +56,7 @@ const Alert = React.forwardRef<HTMLDivElement, AlertProps>(
 
     return (
       <div
-        className={`${className} ${wrapper}`}
+        className={`${className} ${wrapper} Alert-gaya`}
         ref={ref}
         {...rest}
       >
