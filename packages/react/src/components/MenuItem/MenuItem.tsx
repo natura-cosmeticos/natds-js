@@ -20,7 +20,7 @@ const MenuItem = React.forwardRef<HTMLLIElement, MenuItemProps>(({
   return (
     <li
       data-testid={testID}
-      className={`${className} ${listItem}`}
+      className={`${className} ${listItem} MenuItem-gaya`}
       ref={ref}
       tabIndex={0}
       onClick={onClick}
