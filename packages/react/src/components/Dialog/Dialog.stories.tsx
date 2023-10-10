@@ -10,22 +10,22 @@ import { DialogFooter } from './DialogFooter'
 import { Icon } from '../Icon'
 
 const componentStatus = `
----
+> Dialogs inform users about a task and can contain critical information, require decisions, or involve multiple tasks.
 
-**NOTES FOR UXs**: This component is available in the following variants:
+## Properties
+| Property                      | Values                                                              |    Status           |
+|---                            |                                                                  ---|                  ---|
+| **variant(no prop)**          | Standard/Alert  (available but with alternative composition)        | ✅ Available        |
+| **ariaDescribedBy**           | string                                                              | ✅ Available        |
+| **ariaLabelledBy**            | string                                                              | ✅ Available        |
+| **container**                 | An HTML element or function that returns one                        | ✅ Available        |
+| **onEscapeKeyDown**           | function                                                            | ✅ Available        |
+| **role**                      | dialog, alertdialog                                                 | ✅ Available        |
+| **open**                      | true/false                                                          | ✅ Available        |
+| **size**                      | small, medium, large                                                | ✅ Available        |
+| **brand**                     | avon, avon_v2, natura, natura_v2, theBodyShop, <br /> consultoriaDeBeleza, casaEestilo    | ✅ Available        |
 
-  - ✅ \`standard\` (available but with alternative composition)
-  - ✅ \`alert\` (available but with alternative composition)
-
-With the following attribute status:
-
-- ✅ **Divider**
-- **Size**
-    - ✅  \`small\`
-    - ✅  \`medium\`
-    - ✅  \`large\`
-
----
+## Technical Usages Examples
 `
 
 export default {
@@ -33,7 +33,7 @@ export default {
   component: Dialog,
   subcomponents: { DialogHeader, DialogBody, DialogFooter },
   parameters: {
-    componentSubtitle: 'Dialogs inform users about a task and can contain critical information, require decisions, or involve multiple tasks.',
+    componentSubtitle: '',
     docs: { description: { component: componentStatus } },
     actions: { argTypesRegex: '^on.*' }
   }
