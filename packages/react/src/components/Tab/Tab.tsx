@@ -50,7 +50,7 @@ const Tab = React.forwardRef<HTMLDivElement, TabProps>(
     }
 
     return (
-      <div className={wrapper} ref={ref}>
+      <div className={`${wrapper} Tab-gaya`} ref={ref}>
         {showNavigation && (
         <button type="button" className={`${navigation} ${navigationPrev}`} onClick={handlePrev} data-testid="btn-prev">
           <Icon name="filled-navigation-arrowleft" />
