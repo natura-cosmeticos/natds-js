@@ -5,23 +5,22 @@ import StoryContainer from '../../helpers/StoryContainer'
 import { AccordionItem, AccordionItemProps } from '.'
 
 const componentStatus = `
-- - -
+> AccordionItem representing an individual item that can be expanded or collapsed in response to user interaction.
 
-**NOTE FOR UXs**: This component is available in the following variants:
+## Properties
+| Property         | Values                |    Status           |
+|---               |                    ---|                  ---|
+| **variant**      | standard              | ✅ Available        |
+| **title**        | string                | ✅ Available        |
+| **legend**       | string                | ✅ Available        |
+| **color**        | regular, primary'     | ✅ Available        |
+| **isActive**     | true/false            | ✅ Available        |
+| **isDisabled**   | true/false            | ✅ Available        |
+| **onClick**      | function              | ✅ Available        |
+| **brand**        | avon, avon_v2, natura, natura_v2, theBodyShop, <br /> consultoriaDeBeleza, casaEestilo              | ✅ Available        |
 
-  - ✅ Standard
 
-With the following attribute statuses:
-
-  - **Attributes:**
-    - ✅ Title
-    - ✅ Legend
-    - ✅ Color
-    - ✅ IsActive
-    - ✅ IsDisabled
-    - ✅ OnClick
-    
-- - -
+## Technical Usages Examples
 `
 
 export default {
