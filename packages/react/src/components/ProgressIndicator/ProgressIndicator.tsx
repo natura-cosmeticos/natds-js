@@ -14,7 +14,7 @@ const ProgressIndicator = React.forwardRef<HTMLDivElement, ProgressIndicatorProp
 
   return (
     <div ref={ref} className={backdrop} role="progressbar" aria-label={ariaLabel} data-testid={testID}>
-      <div className={`${className} ${loader}`}>
+      <div className={`${className} ${loader} ProgressIndicator-gaya`}>
         <svg viewBox="25 25 50 50">
           <circle cx="50" cy="50" r="20" />
         </svg>

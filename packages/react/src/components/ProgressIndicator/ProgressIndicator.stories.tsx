@@ -5,30 +5,26 @@ import StoryContainer from '../../helpers/StoryContainer'
 import { ProgressIndicator, ProgressIndicatorProps } from '.'
 
 const componentStatus = `
----
+> Progress indicators express an unspecified wait time.
 
-**NOTE**: This component is available in the following variant:
+## Properties
+| Property                      | Values                           |    Status           |
+|---                            |                               ---|                  ---|
+| **variant(no prop)**          | circular                         | ✅ Available        |
+| **ariaLabel**                 | string                           | ✅ Available        |
+| **showBackdrop**              | true/false                       | ✅ Available        |
+| **size**                      | standard, semi, medium, large    | ✅ Available        |
+| **Layer**                     | (available but with alternative composition)    | ✅ Available        |
+| **brand**                     | avon, avon_v2, natura, natura_v2, theBodyShop, <br /> consultoriaDeBeleza, casaEestilo            | ✅ Available        |
 
-  - ✅ \`circular\`
-  - ❌ \`linear \`
-
-With the following attribute status:
-
-- **Size**
-  - ✅  \`standard\`
-  - ✅  \`semi\`
-  - ✅  \`medium\`
-  - ✅  \`large\`
-- ✅ **Layer**
-
----
+## Technical Usages Examples
 `
 
 export default {
   title: 'Components/ProgressIndicator',
   component: ProgressIndicator,
   parameters: {
-    componentSubtitle: 'Progress indicators express an unspecified wait time.',
+    componentSubtitle: '',
     docs: { description: { component: componentStatus } }
   }
 } as Meta
