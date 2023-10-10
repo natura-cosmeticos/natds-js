@@ -8,39 +8,29 @@ import { AppBarTop, AppBarProps } from '.'
 import { Logo } from '../Logo'
 
 const componentStatus = `
----
+> The App Bar Top displays information and actions relating to the current screen.
 
-**NOTE FOR UX**: This component is available in the following variants:
+## Properties
+| Property                      | Values                                 |    Status           |
+|---                            |                                     ---|                  ---|
+| **variant(no prop)**                   | base/standard                 | ✅ Available        |
+| **color**                     | default, primary, inverse, none        | ✅ Available        |
+| **elevation**                 | true/false                             | ✅ Available        |
+| **behaviour**                 | fixed, scroll, absolute                | ✅ Available        |
+| **action**                    | left, right                            | ✅ (available but with alternative composition)        |
+| **Content Position**          | (available but with alternative composition) | ✅ (available but with alternative composition)        |
+| **Content Type**              | (available but with alternative composition) | ✅ (available but with alternative composition)        |
+| **Content Proeminent**        | (available but with alternative composition) | ✅ (available but with alternative composition)        |
 
-  - ✅ \`base\`
-  - ✅ \`standard\`
 
-With the following attribute status:
-
-  - **Color**
-      - ✅ \`default\`
-      - ✅ \`primary\`
-      - ✅ \`inverse\`
-      - ✅ \`none\`
-  - ✅ **Elevation**
-  - ✅ **Content Position** (available but with alternative composition)
-  - ✅ **Content Type** (available but with alternative composition)
-  - ✅ **Content Proeminent** (available but with alternative composition)
-  - **Behaviour**
-      - ✅  \`fixed\`
-      - ✅  \`scroll\`
-  - **Action**
-      - ✅ \`left\` (available but with alternative composition)
-      - ✅ \`right\` (available but with alternative composition)
-
----
+## Technical Usages Examples
 `
 
 export default {
   title: 'Components/AppBarTop',
   component: AppBarTop,
   parameters: {
-    componentSubtitle: 'The App Bar Top displays information and actions relating to the current screen.',
+    componentSubtitle: '',
     docs: { description: { component: componentStatus } }
   }
 } as Meta
