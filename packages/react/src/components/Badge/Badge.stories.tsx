@@ -5,31 +5,27 @@ import { Theme } from '@naturacosmeticos/natds-themes'
 import { Badge, BadgeProps } from '.'
 
 const componentStatus = `
----
+> Badge The badge is used to notify the user
 
-**NOTE FOR UXs**: This component is available in the following variants:
+## Properties
+| Property                      | Values                                       |    Status           |
+|---                            |                                           ---|                  ---|
+| **variant**                   | dot, pulse, standard                         | ✅ Available        |
+| **color**                     | alert, primary, secondary, success           | ✅ Available        |
+| **ariaHidden**                | true/false                                   | ✅ Available        |
+| **ariaLabel**                 | string                                       | ✅ Available        |
+| **limit**                     | number (only available for Standard variant) | ✅ Available        |
+| **value**                     | number                                       | ✅ Available        |
+| **brand**                   | avon, avon_v2, natura, natura_v2, theBodyShop, <br /> consultoriaDeBeleza, casaEestilo            | ✅ Available        |
 
-  - ✅ \`dot\`
-  - ✅ \`pulse\`
-  - ✅ \`standard\`
-
-With the following attribute status:
-
-- ✅ **Limit** (only available for Standard variant)
-- **Color**
-    - ✅ \`alert\`
-    - ✅ \`primary\`
-    - ✅ \`secondary\`
-    - ✅ \`success\`
-
----
+## Technical Usages Examples
 `
 
 export default {
   title: 'Components/Badge',
   component: Badge,
   parameters: {
-    componentSubtitle: 'The badge is used to notify the user',
+    componentSubtitle: '',
     docs: { description: { component: componentStatus } },
     actions: { argTypesRegex: '^on.*' }
   }
