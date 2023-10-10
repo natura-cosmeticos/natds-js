@@ -27,7 +27,7 @@ const RadioButton = React.forwardRef<HTMLInputElement, RadioButtonProps>(({
   const getRippleColor = checked && !disabled ? 'primary' : 'highlight'
 
   return (
-    <div className={`${className} ${container}`}>
+    <div className={`${className} ${container} RadioButton-gaya`}>
       <Ripple
         brand={brand}
         isCentered
