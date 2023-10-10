@@ -17,35 +17,25 @@ import { ListItem } from '../ListItem'
 import { Badge } from '../Badge'
 
 const componentStatus = `
----
+> A Drawer is a thin line that groups content in lists and layouts.
 
-**NOTE FOR UX**: This component is available in the following variants:
+## Properties
+| Property                      | Values                                |    Status           |
+|---                            |                                    ---|                  ---|
+| **variant(no prop)**          | Base                                  | ✅ Available        |
+| **open**                      | true/false                            | ✅ Available        |
+| **handleClick**               | function                              | ✅ Available        |
+| **size**                      | small, medium, large                  | ✅ Available        |
+| **position**                  | left, right, top, bottom              | ✅ Available        |
 
-  - ✅ \`Base\`
-
-With the following attribute status:
-
-  - **Position**
-      - ✅ \`left\`
-      - ✅ \`right\`
-      - ✅ \`bottom\`
-      - ✅ \`top\`
-  - **Size**
-      - ✅ \`small\`
-      - ✅ \`medium\`
-      - ✅ \`large\`
-  - **handleClick**
-      - ✅ \`function\`
-
-
----
+## Technical Usages Examples
 `
 
 export default {
   title: 'Components/Drawer',
   component: Drawer,
   parameters: {
-    componentSubtitle: 'A Drawer is a thin line that groups content in lists and layouts',
+    componentSubtitle: '',
     docs: { description: { component: componentStatus } }
   }
 } as Meta

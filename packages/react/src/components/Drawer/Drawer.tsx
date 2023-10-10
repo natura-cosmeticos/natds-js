@@ -12,7 +12,7 @@ const Drawer = React.forwardRef<HTMLDivElement, DrawerProps>(({
   return (
     <>
       <div
-        className={`${className} ${drawer}`}
+        className={`${className} ${drawer} Drawer-gaya`}
         data-testid={testID}
         ref={ref}
         {...props}
