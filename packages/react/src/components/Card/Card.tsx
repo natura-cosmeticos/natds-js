@@ -15,7 +15,7 @@ const Card = React.forwardRef<HTMLDivElement, CardProps>(
 
     return (
       <div
-        className={`${className} ${card}`}
+        className={`${className} ${card} Card-gaya`}
         data-testid={testID}
         ref={ref}
         {...props}
