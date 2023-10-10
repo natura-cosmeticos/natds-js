@@ -9,31 +9,26 @@ import Autocomplete from '../Autocomplete/Autocomplete'
 import { OptionProps } from '../Autocomplete/Autocomplete.props'
 
 const componentStatus = `
----
+> Icon button allow users to take actions, and make choices, with a single tap.
 
-**NOTE**: This component is available with the following attribute status:
-
-- **Color**
-  - ✅ \`primary\`
-  - ✅ \`highEmphasis\`
-- **Size**
-  - ✅ \`semi\`
-  - ✅ \`semiX\`
-  - ✅ \`medium\`
-- **Background Style**
-  - ✅ \`none\`
-  - ✅ \`float\`
-  - ✅ \`overlay\`
-- ✅  **Disabled**
-
----
+## Properties
+| Property                      | Values                                   |    Status           |
+|---                            |                                       ---|                  ---|
+| **ariaLabel**                 | string                                   | ✅ Available        |
+| **backgroundStyle**           | none, float, overlay                     | ✅ Available        |
+| **disabled**                  | true/false                               | ✅ Available        |
+| **IconComponent**             | componente Icon                          | ✅ Available        |
+| **onClick**                   | function                                 | ✅ Available        |
+| **size**                      | semi, medium, semiX                      | ✅ Available        |
+| **color**                     | primary, highEmphasis                    | ✅ Available        |
+## Technical Usages Examples
 `
 
 export default {
   title: 'Components/IconButton',
   component: IconButton,
   parameters: {
-    componentSubtitle: 'Icon button allow users to take actions, and make choices, with a single tap.',
+    componentSubtitle: '',
     docs: { description: { component: componentStatus } },
     actions: { argTypesRegex: '^on.*' }
   }
