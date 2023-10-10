@@ -31,7 +31,7 @@ const TextField = React.forwardRef<HTMLInputElement, TextFieldProps>(({
   const { labelText } = styles({ feedback, disabled, label })
 
   return (
-    <div data-testid={testID} className={className}>
+    <div data-testid={testID} className={`${className} TextField-gaya`}>
       <Label htmlFor={id} required={required} label={label} className={labelText} />
       <Input
         brand={brand}
