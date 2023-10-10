@@ -29,7 +29,7 @@ const Counter = React.forwardRef<HTMLDivElement, CounterProps>(({
   const minReached = value <= minValue
 
   return (
-    <div data-testid={testID} ref={ref} className={className}>
+    <div data-testid={testID} ref={ref} className={`${className} Counter-gaya`}>
       {label && <Label className={labelText} label={label} />}
       <div className={buttonGroup}>
         <Button
