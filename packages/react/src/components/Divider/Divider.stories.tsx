@@ -3,22 +3,20 @@ import { Story, Meta } from '@storybook/react'
 import { Divider, DividerProps } from '.'
 
 const componentStatus = `
----
+> A divider is a thin line that groups content in lists and layouts.
 
-**NOTE**: This component is available in the following variants:
-
-  - ✅ \`full-bleed\`
-  - ✅ \`inset\`
-  - ✅ \`middle\`
-
----
+## Properties
+| Property             | Values                       |    Status           |
+|---                   |                           ---|                  ---|
+| **variant**          | full-bleed, inset, middle    | ✅ Available        |
+## Technical Usages Examples
 `
 
 export default {
   title: 'Components/Divider',
   component: Divider,
   parameters: {
-    componentSubtitle: 'A divider is a thin line that groups content in lists and layouts',
+    componentSubtitle: '',
     docs: { description: { component: componentStatus } }
   }
 } as Meta
