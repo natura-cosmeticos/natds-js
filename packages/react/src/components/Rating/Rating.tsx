@@ -21,7 +21,7 @@ const Rating = ({ className = '', ...props }: RatingProps) => {
   const { container } = useContainerStyles(props)
 
   return (
-    <div className={`${className} ${container}`}>
+    <div className={`${className} ${container} Rating-gaya`}>
       {renderVariant({ ...props })}
     </div>
   )
