@@ -29,7 +29,7 @@ const Select = React.forwardRef<HTMLDivElement, SelectProps>(
     })
 
     return (
-      <div data-testid={testID} ref={ref} className={wrapper}>
+      <div data-testid={testID} ref={ref} className={`${wrapper} Select-gaya`}>
         <Label htmlFor={name} label={label} className={labelText} required={required} />
 
         <div className={inputWrapper}>

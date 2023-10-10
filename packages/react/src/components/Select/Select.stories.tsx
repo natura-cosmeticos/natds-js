@@ -3,26 +3,26 @@ import { Story, Meta } from '@storybook/react'
 import { Select, SelectProps, OptionProps } from '.'
 
 const componentStatus = `
-- - -
+> Allow users to choose an option from a predefined list.
 
-**NOTE FOR UXs**: This component is available in the following variants:
+## Properties
+| Property                      | Values                                        |    Status           |
+|---                            |                                            ---|                  ---|
+| **variant (no prop)**         | Standard                                      | ✅ Available        |
+| **label**                     | string                                        | ✅ Available        |
+| **name**                      | string                                        | ✅ Available        |
+| **placeholder**               | string                                        | ✅ Available        |
+| **options**                   | [{value: string, label: string}]              | ✅ Available        |
+| **size**                      | medium, mediumX                               | ✅ Available        |
+| **value**                     | string                                        | ✅ Available        |
+| **helperText**                | string                                        | ✅ Available        |
+| **feedback**                  | success, error                                | ✅ Available        |
+| **required**                  | true/false                                    | ✅ Available        |
+| **disabled**                  | true/false                                    | ✅ Available        |
+| **onChange**                  | function                                      | ✅ Available        |
+| **brand**                     | avon, avon_v2, natura, natura_v2, theBodyShop, <br /> consultoriaDeBeleza, casaEestilo            | ✅ Available        |
 
-  - ✅ Standard
-
-With the following attribute statuses:
-
-  - **Attributes:**
-    - ✅ Label
-    - ✅ Name
-    - ✅ Placeholder
-    - ✅ Options
-    - ✅ Size
-    - ✅ HelperText
-    - ✅ Feedback
-    - ✅ Required
-    - ✅ Disabled
-
-- - -
+## Technical Usages Examples
 `
 
 export default {
