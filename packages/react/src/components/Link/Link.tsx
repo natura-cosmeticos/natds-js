@@ -22,7 +22,7 @@ const Link = React.forwardRef<HTMLAnchorElement, LinkProps>(
     return (
       <span className={container}>
         <a
-          className={`${className} ${link}`}
+          className={`${className} ${link} Link-gaya`}
           data-testid={testID}
           ref={ref}
           href={href}
