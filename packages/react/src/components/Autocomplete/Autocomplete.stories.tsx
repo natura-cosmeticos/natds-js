@@ -6,31 +6,31 @@ import { Autocomplete, AutocompleteProps } from '.'
 import { OptionProps } from './Autocomplete.props'
 
 const componentStatus = `
-- - -
+> Autocomplete offers an interactive text box that suggests options as the user types
 
-**NOTE FOR UXs**: This component is available in the following variants:
+## Properties
+| Property                      | Values                                 |    Status           |
+|---                            |                                     ---|                  ---|
+| **variant**                   | standard                               | ✅ Available        |
+| **label**                     | string                                 | ✅ Available        |
+| **name**                      | string                                 | ✅ Available        |
+| **placeholder**               | string                                 | ✅ Available        |
+| **options**                   | [{value: string, label: string}]       | ✅ Available        |
+| **size**                      | medium, mediumX                        | ✅ Available        |
+| **helperText**                | string                                 | ✅ Available        |
+| **feedback**                  | success, error                         | ✅ Available        |
+| **required**                  | true/false                             | ✅ Available        |
+| **disabled**                  | true/false                             | ✅ Available        |
+| **readonly**                  | true/false                             | ✅ Available        |
+| **Position**                  | bottom, top                            | ✅ Available        |
+| **handleSelect**              | function                               | ✅ Available        |
+| **notFound**                  | string                                 | ✅ Available        |
+| **onChange**                  | function                               | ✅ Available        |
+| **brand**                   | avon, avon_v2, natura, natura_v2, theBodyShop, <br /> consultoriaDeBeleza, casaEestilo            | ✅ Available        |
 
-  - ✅ Standard
 
-With the following attribute statuses:
 
-  - **Attributes:**
-    - ✅ Label
-    - ✅ Name
-    - ✅ Placeholder
-    - ✅ Options
-    - ✅ Size
-    - ✅ HelperText
-    - ✅ Feedback
-    - ✅ Required
-    - ✅ Disabled
-    - ✅ Readonly
-    - ✅ Position
-    - ✅ handleSelect
-    - ✅ NotFound
-    - ✅ Placeholder
-
-- - -
+## Technical Usages Examples
 `
 
 const options: OptionProps[] = [{

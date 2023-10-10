@@ -53,7 +53,7 @@ const Autocomplete = React.forwardRef<HTMLInputElement, AutocompleteProps>(
 
     return (
       <div
-        className={`${className} ${wrapper}`}
+        className={`${className} ${wrapper} Autocomplete-gaya`}
         data-testid={testID}
         {...rest}
       >
