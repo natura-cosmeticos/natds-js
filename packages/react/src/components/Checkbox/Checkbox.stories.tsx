@@ -4,21 +4,28 @@ import { Checkbox, CheckboxProps } from '.'
 import StoryContainer from '../../helpers/StoryContainer'
 
 const componentStatus = `
----
+> Checkboxes allow users to select one or more items from a set.
 
-**NOTE FOR UXs**: This component is available with the following attribute status:
+## Properties
+| Property                    | Values            |    Status           |
+|---                          |                ---|                  ---|
+| **disabled**                | true/false        | ✅ Available        |
+| **indeterminate**           | true/false        | ✅ Available        |
+| **checked**                 | true/false        | ✅ Available        |
+| **value**                   | string            | ✅ Available        |
+| **onChange**                | function          | ✅ Available        |
+| **label**                   | string            | ✅ Available        |
+| **id**                      | string            | ✅ Available        |
+| **brand**                   | avon, avon_v2, natura, natura_v2, theBodyShop, <br /> consultoriaDeBeleza, casaEestilo            | ✅ Available        |
 
-  - ✅ **Disabled**
-  - ✅ **Indeterminate**
-
----
+## Technical Usages Examples
 `
 
 export default {
   title: 'Components/Checkbox',
   component: Checkbox,
   parameters: {
-    componentSubtitle: 'Checkboxes allow users to select one or more items from a set.',
+    componentSubtitle: '',
     docs: { description: { component: componentStatus } },
     actions: { argTypesRegex: '^on.*' }
   }
