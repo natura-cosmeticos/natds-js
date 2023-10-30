@@ -46,7 +46,7 @@ const Chip = React.forwardRef<HTMLButtonElement, ChipProps>(
         <button
           ref={ref}
           type="button"
-          className={`${className} ${wrapper}`}
+          className={`${className} ${wrapper} Chip-gaya`}
           disabled={disabled}
           onClick={onClick}
           {...rest}

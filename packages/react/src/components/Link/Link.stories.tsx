@@ -4,30 +4,29 @@ import { Link, LinkProps } from '.'
 import { Icon } from '../Icon'
 
 const componentStatus = `
----
+> The link component allows you to have a pattern for anchor text.
 
-**NOTE FOR UX**: This component is available in the following variants:
+## Properties
+| Property                  | Values                     |    Status           |
+|---                        |                         ---|                  ---|
+| **variant**               | regular, underline         | ✅ Available        |
+| **href**                  | string href                | ✅ Available        |
+| **hrefLang**              | string hrefLang            | ✅ Available        |
+| **text**                  | string                     | ✅ Available        |
+| **textColor**             | default, light             | ✅ Available        |
+| **target**                | target ancor               | ✅ Available        |
+| **iconPosition**          | left, right                | ✅ Available        |
+| **IconComponent**         | component Icon             | ✅ Available        |
 
-  - ✅ \`regular\`
-  - ✅ \`underline\`
 
-With the following attribute status:
-
-  - **Icon**
-      - ✅ \`left\`
-      - ✅ \`right\`
-  - **Color**
-      - ✅ \`default\`
-      - ✅ \`light\`
-
----
+## Technical Usages Examples
 `
 
 export default {
   title: 'Components/Link',
   component: Link,
   parameters: {
-    componentSubtitle: 'The link component allows you to have a pattern for anchor text.',
+    componentSubtitle: '',
     docs: { description: { component: componentStatus } }
   }
 } as Meta

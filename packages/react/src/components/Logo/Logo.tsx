@@ -30,7 +30,7 @@ const Logo = React.forwardRef<HTMLDivElement, LogoProps>(
     return (
       <div
         aria-label={arialabel}
-        className={`${className} ${root}`}
+        className={`${className} ${root} Logo-gaya`}
         // eslint-disable-next-line react/no-danger
         dangerouslySetInnerHTML={{ __html: logo }}
         ref={ref}

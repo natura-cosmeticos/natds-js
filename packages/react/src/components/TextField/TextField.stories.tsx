@@ -8,29 +8,39 @@ import StoryContainer from '../../helpers/StoryContainer'
 import { Icon } from '../Icon'
 
 const componentStatus = `
----
+> Text fields let users enter and edit text
 
-**NOTE**: This component is available with the following attribute status:
+## Properties
+| Property                      | Values                                                 |    Status           |
+|---                            |                                                     ---|                  ---|
+| **variant (no prop)**         | Standard                                               | ✅ Available        |
+| **disabled**                  | true/false                                             | ✅ Available        |
+| **feedback**                  | success, error                                         | ✅ Available        |
+| **id**                        | string                                                 | ✅ Available        |
+| **helperText**                | string                                                 | ✅ Available        |
+| **label**                     | string                                                 | ✅ Available        |
+| **minRows**                   | number                                                 | ✅ Available        |
+| **onBlur**                    | function                                               | ✅ Available        |
+| **onClick**                   | function                                               | ✅ Available        |
+| **onChange**                  | function                                               | ✅ Available        |
+| **onFocus**                   | function                                               | ✅ Available        |
+| **onKeyDown**                 | function                                               | ✅ Available        |
+| **onKeyUp**                   | function                                               | ✅ Available        |
+| **placeholder**               | string                                                 | ✅ Available        |
+| **required**                  | true/false                                             | ✅ Available        |
+| **readOnly**                  | true/false                                             | ✅ Available        |
+| **isResizable**               | true/false                                             | ✅ Available        |
+| **size**                      | medium, mediumX                                        | ✅ Available        |
+| **type**                      | text, password, multiline                              | ✅ Available        |
+| **value**                     | string                                                 | ✅ Available        |
+| **iconLeading**               | component Icon                                         | ✅ Available        |
+| **action**                    | icon, image                                            | ✅ Available        |
+| **ariaLabel**                 | string                                                 | ✅ Available        |
+| **alt**                       | string                                                 | ✅ Available        |
+| **src**                       | string                                                 | ✅ Available        |
+| **brand**                     | avon, avon_v2, natura, natura_v2, theBodyShop, <br /> consultoriaDeBeleza, casaEestilo | ✅ Available        |
 
-- **Size**
-  - ✅  \`medium\`
-  - ✅  \`mediumX\`
-- **Feedback**
-  - ✅  \`error\`
-  - ✅  \`success\`
-- ✅ **Required**
-- ✅ **Disabled**
-- ✅ **ReadOnly**
-- ✅ **HelperText**
-- **Action**
-  - ✅  \`icon \`
-  - ✅  \`image \`
-- **Type**
-  - ✅  \`password \`
-  - ✅  \`multiline \`
-  - ✅  \`text \`
-
----
+## Technical Usages Examples
 `
 
 export default {
@@ -38,7 +48,7 @@ export default {
   component: TextField,
   subcomponents: { Label, InputHelperText, Input },
   parameters: {
-    componentSubtitle: 'Text fields let users enter and edit text',
+    componentSubtitle: '',
     docs: { description: { component: componentStatus } },
     actions: { argTypesRegex: '^on.*' }
   }

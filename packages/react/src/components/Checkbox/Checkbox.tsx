@@ -23,7 +23,7 @@ const Checkbox = React.forwardRef<HTMLInputElement, CheckboxProps>(({
   const getRippleColor = checked && !disabled ? 'primary' : 'highlight'
 
   return (
-    <div className={`${className} ${container}`}>
+    <div className={`${className} ${container} Checkbox-gaya`}>
       <Ripple
         isCentered
         brand={brand}

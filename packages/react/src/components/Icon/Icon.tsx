@@ -25,7 +25,7 @@ const Icon = React.forwardRef<HTMLElement, IconProps>(({
     <i
       aria-hidden={ariaHidden}
       aria-label={ariaLabel}
-      className={`${className} ${icon} natds-icons ${iconName}`}
+      className={`${className} ${icon} natds-icons ${iconName} Icon-gaya`}
       data-testid={testID}
       ref={ref}
       role={role}

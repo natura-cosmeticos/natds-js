@@ -24,7 +24,7 @@ const Tag = React.forwardRef<HTMLDivElement, TagProps>((props, ref) => {
   return (
     <div className={wrapper}>
       <div
-        className={`${className} ${container}`}
+        className={`${className} ${container} Tag-gaya`}
         data-testid={testID}
         ref={ref}
         {...rest}

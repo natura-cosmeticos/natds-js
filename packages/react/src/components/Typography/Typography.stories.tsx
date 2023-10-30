@@ -3,29 +3,14 @@ import { Story, Meta } from '@storybook/react'
 import { Typography, TypographyProps } from '.'
 
 const componentStatus = `
-- - -
+> used to control and display text styles consistently across an application
 
-The component of Text is rendered inside a DIV. This happen because the component has dynamic behavior depending of variant value.
+## Properties
+| Property                      | Values                                                 |    Status           |
+|---                            |                                                     ---|                  ---|
+| **variant**         | heading1, heading2, heading3, heading4, heading5, <br /> heading6, subtitle1, subtitle2, body1, body2, caption, overline  | ✅ Available        |
 
-- - -
-
-**NOTE FOR UXs**: This component is available in the following variants:
-
-  - ✅ Heading1
-  - ✅ Heading2
-  - ✅ Heading3
-  - ✅ Heading4
-  - ✅ Heading5
-  - ✅ Heading6
-  - ✅ Subtitle1
-  - ✅ Subtitle2
-  - ✅ Subtitle2
-  - ✅ Body1
-  - ✅ Body2
-  - ✅ Caption
-  - ✅ Overline
-
-- - -
+## Technical Usages Examples
 `
 
 export default {

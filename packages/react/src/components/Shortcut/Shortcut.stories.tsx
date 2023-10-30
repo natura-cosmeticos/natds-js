@@ -6,29 +6,32 @@ import StoryContainer from '../../helpers/StoryContainer'
 import Badge from '../Badge'
 
 const componentStatus = `
-- - -
+> Used for quick access to a page and facilitate navigation.
 
-**NOTE FOR UXs**: This component is available in the following variants:
+## Properties
+| Property                      | Values                                        |    Status           |
+|---                            |                                            ---|                  ---|
+| **variant**                   | contained , outlined                          | ✅ Available        |
+| **ariaLabel**                 | string                                        | ✅ Available        |
+| **disabled**                  | true/false                                    | ✅ Available        |
+| **onClick**                   | function                                      | ✅ Available        |
+| **id**                        | string                                        | ✅ Available        |
+| **color**                     | primary, neutral                              | ✅ Available        |
+| **IconComponent**             | component Icon                                | ✅ Available        |
+| **label**                     | string                                        | ✅ Available        |
+| **BadgeComponent**            | component Badge                               | ✅ Available        |
+| **breakLine**                 | true/false                                    | ✅ Available        |
+| **Notify (no prop)**          | when aply component Badge                     | ✅ Available        |
+| **brand**                     | avon, avon_v2, natura, natura_v2, theBodyShop, <br /> consultoriaDeBeleza, casaEestilo            | ✅ Available        |
 
-  - ✅ \`contained\`
-  - ✅ \`outlined\`
-
-With the following attribute statuses:
-
-  - ✅  **Notify**
-  - **Color:**
-    - ✅ \`primary\`
-    - ✅ \`neutral\`
-  - ✅  **Disabled**
-
-- - -
+## Technical Usages Examples
 `
 
 export default {
   title: 'Components/Shortcut',
   component: Shortcut,
   parameters: {
-    componentSubtitle: 'Used for quick access to a page and facilitate navigation.',
+    componentSubtitle: '',
     docs: { description: { component: componentStatus } }
   }
 } as Meta

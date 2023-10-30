@@ -5,18 +5,20 @@ import StoryContainer from '../../helpers/StoryContainer'
 import Typography from '../Typography'
 
 const componentStatus = `
-- - -
+> Image is used to display images in the user interface,.
 
-**NOTE FOR UXs**: This component is available in the following variants:
+## Properties
+| Property                  | Values                     |    Status           |
+|---                        |                         ---|                  ---|
+| **variant(no prop)**      | Standard                   | ✅ Available        |
+| **sourceImage**           | string                     | ✅ Available        |
+| **fallbackImage**         | string                     | ✅ Available        |
+| **alternativeText**       | string                     | ✅ Available        |
+| **highlight**             | true/false                 | ✅ Available        |
+| **fade**                  | top, bottom, right, left   | ✅ Available        |
+| **border**                | medium, circle             | ✅ Available        |
 
-  - ❌ Standard
-
-With the following attribute statuses:
-
-  - **Attributes:**
-    - ❌ \`Types\`
-
-- - -
+## Technical Usages Examples
 `
 
 export default {

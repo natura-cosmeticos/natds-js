@@ -3,25 +3,27 @@ import { Story, Meta } from '@storybook/react'
 import { Icon, IconProps } from '.'
 
 const componentStatus = `
----
+> A helper component to display icons from @naturacosmeticos/natds-icons package.
 
-**NOTE**: This component is available with the following attribute status:
+## Properties
+| Property                      | Values                                       |    Status           |
+|---                            |                                           ---|                  ---|
+| **ariaHidden**                | true/false                                   | ✅ Available        |
+| **ariaLabel**                 | string                                       | ✅ Available        |
+| **color**                     | color-name (Support Color tokens from theme) | ✅ Available        |
+| **name**                      | icon-name                                    | ✅ Available        |
+| **role**                      | img, button                                  | ✅ Available        |
+| **size**                      | (Support Size tokens from theme)             | ✅ Available        |
+| **brand**                   | avon, avon_v2, natura, natura_v2, theBodyShop, <br /> consultoriaDeBeleza, casaEestilo            | ✅ Available        |
 
-- ✅ **Color**
-    - Support Color tokens from theme
-- ✅  **Size**
-    - Support Size tokens from theme
-- ✅  **Name**
-    - Check all Icon names in [Icon Library](https://ds.natura.design/28db352be/p/94367e-icon-library/b/6154b9)
-
----
+## Technical Usages Examples
 `
 
 export default {
   title: 'Components/Icon',
   component: Icon,
   parameters: {
-    componentSubtitle: 'A helper component to display icons from @naturacosmeticos/natds-icons package',
+    componentSubtitle: '',
     docs: { description: { component: componentStatus } }
   }
 } as Meta

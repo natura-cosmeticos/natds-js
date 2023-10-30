@@ -5,13 +5,15 @@ import StoryContainer from '../../helpers/StoryContainer'
 import { AccordionGroup, AccordionGroupProps } from '.'
 
 const componentStatus = `
-- - -
+> AccordionGroup allows groups of several accordion components, allowing collective management and control of multiple expandable panels..
 
-**NOTE FOR UXs**: This component is available in the following variants:
+## Properties
+| Property         | Values             |    Status           |
+|---               |                 ---|                  ---|
+| **variant**      | standard           | ✅ Available        |
 
-  - ✅ Standard
 
-- - -
+## Technical Usages Examples
 `
 
 const Item = () => {

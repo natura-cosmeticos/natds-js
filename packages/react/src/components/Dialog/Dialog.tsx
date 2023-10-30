@@ -35,7 +35,7 @@ const Dialog = React.forwardRef<HTMLDivElement, DialogProps>(({
             aria-describedby={ariaDescribedBy}
             aria-labelledby={ariaLabelledBy}
             aria-modal
-            className={`${className} ${dialog}`}
+            className={`${className} ${dialog} Dialog-gaya`}
             data-testid={testID}
             onKeyDown={handleOnKeyDown}
             role={role}

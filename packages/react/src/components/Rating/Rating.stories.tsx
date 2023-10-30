@@ -7,37 +7,30 @@ import {
 } from './Rating.props'
 
 const componentStatus = `
----
+> Provides a user interactive stars for rating or checking something’s rating.
 
-**NOTE FOR UXs**: This component is available in the following variants:
+## Properties
+| Property                      | Values                                        |    Status           |
+|---                            |                                            ---|                  ---|
+| **variant**                   | counter, input, read-only                     | ✅ Available        |
+| **ariaLabel**                 | string                                        | ✅ Available        |
+| **ariaLabelGroup**            | string                                        | ✅ Available        |
+| **align**                     | left, right (only for Counter variant)        | ✅ Available        |
+| **label**                     | string (only for Input and Counter variant)   | ✅ Available        |
+| **size**                      | small:(Read-Only and Counter variants), <br /> standard, semi, semiX, <br />medium:(only for Input variant)  | ✅ Available        |
+| **disabled**                  | true/false  (only for Input variant)          | ✅ Available        |
+| **onClick**                   | function                                      | ✅ Available        |
+| **rate**                      | 0 \\| 1 \\| 2 \\| 3 \\| 4 \\| 5  (only for Read-Only variant)                                     | ✅ Available        |
+| **brand**                     | avon, avon_v2, natura, natura_v2, theBodyShop, <br /> consultoriaDeBeleza, casaEestilo            | ✅ Available        |
 
-  - ✅ \`counter\`
-  - ✅ \`input\`
-  - ✅ \`read-only\`
-
-With the following attribute status:
-
-- ✅ **Label** (only for Input and Counter variant)
-- ✅ **Disabled** (only for Input variant)
-- ✅ **Rate** (only for Read-Only variant)
-- **Size**
-    - ✅ \`small\` (only for Read-Only and Counter variants)
-    - ✅ \`standard\`
-    - ✅ \`semi\`
-    - ✅ \`semiX\`
-    - ✅ \`medium\` (only for Input variant)
-- **Align** (only for Counter variant)
-    - ✅ \`left\`
-    - ✅ \`right\`
-
----
+## Technical Usages Examples
 `
 
 export default {
   title: 'Components/Rating',
   component: Rating,
   parameters: {
-    componentSubtitle: 'Provides a user interactive stars for rating or checking something’s rating.',
+    componentSubtitle: '',
     docs: { description: { component: componentStatus } },
     actions: { argTypesRegex: '^on.*' }
   }

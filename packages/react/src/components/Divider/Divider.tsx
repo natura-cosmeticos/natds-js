@@ -13,7 +13,7 @@ const Divider = React.forwardRef<HTMLHRElement, DividerProps>(
 
     return (
       <hr
-        className={`${className} ${divider}`}
+        className={`${className} ${divider} Divider-gaya`}
         data-testid={testID}
         ref={ref}
         {...props}

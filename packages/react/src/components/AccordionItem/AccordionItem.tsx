@@ -34,7 +34,7 @@ const AccordionItem = React.forwardRef<HTMLDivElement, AccordionItemProps>(
 
     return (
       <div
-        className={`${className} ${wrapper}`}
+        className={`${className} ${wrapper} AccordionItem-gaya`}
         ref={ref}
         {...rest}
       >

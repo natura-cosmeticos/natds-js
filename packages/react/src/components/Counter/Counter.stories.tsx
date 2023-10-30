@@ -5,33 +5,34 @@ import { Counter, CounterProps } from '.'
 import StoryContainer from '../../helpers/StoryContainer'
 
 const componentStatus = `
----
+> Counter Reduce input effort for fields with values that deviate little from the default by allowing users to increase or decrease the number in a single button press.
 
-**NOTE FOR UXs**: This component is available in the following variants:
+## Properties
+| Property                      | Values            |    Status           |
+|---                            |                ---|                  ---|
+| **variant(no prop)**          | Standard          | ✅ Available        |
+| **ariaLabelIncrementButton**  | string            | ✅ Available        |
+| **ariaLabelDecrementButton**  | string            | ✅ Available        |
+| **disabled**                  | true/false        | ✅ Available        |
+| **readOnly**                  | true/false        | ✅ Available        |
+| **onChange**                  | function          | ✅ Available        |
+| **label**                     | string            | ✅ Available        |
+| **maxValue**                  | number            | ✅ Available        |
+| **minValue**                  | number            | ✅ Available        |
+| **onDecrement**               | function          | ✅ Available        |
+| **onIncrement**               | function          | ✅ Available        |
+| **size**                      | semiX, medium     | ✅ Available        |
+| **value**                     | number            | ✅ Available        |
+| **brand**                     | avon, avon_v2, natura, natura_v2, theBodyShop, <br /> consultoriaDeBeleza, casaEestilo            | ✅ Available        |
 
-  - ✅ \`standard\`
-
-With the following attribute status:
-
-- ✅ **Label**
-- **Size**
-    - ✅ \`semiX\`
-    - ✅ \`medium\`
-- ✅ **Disabled**
-- ✅ **onChange**
-    - ✅ \`function\`
-- ✅ **readOnly**
-    - ✅ \`true\`
-    - ✅ \`false\`
-
----
+## Technical Usages Examples
 `
 
 export default {
   title: 'Components/Counter',
   component: Counter,
   parameters: {
-    componentSubtitle: 'Reduce input effort for fields with values that deviate little from the default by allowing users to increase or decrease the number in a single button press.',
+    componentSubtitle: '',
     docs: { description: { component: componentStatus } },
     actions: { argTypesRegex: '^on.*' }
   }

@@ -5,24 +5,23 @@ import { MenuItem, MenuItemProps } from '.'
 import Badge from '../Badge'
 
 const componentStatus = `
----
+> MenuItem represents a menu item in a user interface, used in conjunction with menus and lists.
 
-**NOTE FOR UXs**: This component is available in the following variants:
+## Properties
+| Property                      | Values                                                    |    Status           |
+|---                            |                                                        ---|                  ---|
+| **variant (no prop)**         | standard                                                  | ✅ Available        |
+| **onClick**                   | function                                                  | ✅ Available        |
+| **disabled**                  | true/false                                                | ✅ Available        |
+| **selected**                  | true/false                                                | ✅ Available        |
+| **activated**                 | true/false                                                | ✅ Available        |
+| **type**                      | submenu, title, regular                                   | ✅ Available        |
+| **href**                      | href                                                      | ✅ Available        |
+| **hrefLang**                  | hrefLang                                                  | ✅ Available        |
+| **add**                       | (available but with alternative composition)              | ✅ Available        |
+| **Action**                    | left, right (available but with alternative composition)  | ✅ Available        |
 
-  - ✅ Standard
-
-With the following attribute statuses:
-
-  - ✅ **Submenu**
-  - ✅ **Actived**
-  - ✅ **Selected**
-  - ✅ **Disabled**
-  - ✅ **Add** (available but with alternative composition)
-  - **Action**
-      - ✅ \`left\` (available but with alternative composition)
-      - ✅ \`right\` (available but with alternative composition)
-
----
+## Technical Usages Examples
 `
 
 export default {

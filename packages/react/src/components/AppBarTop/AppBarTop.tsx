@@ -47,7 +47,7 @@ const AppBarTop = React.forwardRef<HTMLElement, AppBarProps>(
     })
 
     return (
-      <header ref={ref} className={`${className} ${container}`} {...props} role={role} data-testid={testID}>
+      <header ref={ref} className={`${className} ${container} AppBarTop-gaya`} {...props} role={role} data-testid={testID}>
         <div className={appBar}>
           {children}
         </div>

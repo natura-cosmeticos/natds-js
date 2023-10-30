@@ -17,7 +17,7 @@ const ListItem = React.forwardRef<HTMLLIElement, ListItemProps>(({
   return (
     <Ripple disabled={interaction !== 'action'} fullWidth>
       <li
-        className={`${className} ${listItem}`}
+        className={`${className} ${listItem} ListItem-gaya`}
         onClick={onClick}
         data-testid={testID}
         ref={ref}

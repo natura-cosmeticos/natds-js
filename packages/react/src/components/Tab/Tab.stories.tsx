@@ -5,30 +5,21 @@ import { Tab, TabProps } from '.'
 import Icon from '../Icon'
 
 const componentStatus = `
-- - -
+> used to create tabs in a user interface.
 
-**NOTE FOR UXs**: This component is available in the following variants:
+## Properties
+| Property                      | Values                                        |    Status           |
+|---                            |                                            ---|                  ---|
+| **variant (no prop)**         | Standard                                      | ✅ Available        |
+| **icon**                      | left, top,  [icon (available but with alternative composition)]                         | ✅ Available        |
+| **align**                     | left, center, right                           | ✅ Available        |
+| **position**                  | fixed, scrollable                             | ✅ Available        |
+| **elevation**                 | true/false                                    | ✅ Available        |
+| **color**                     | true/false                                    | ✅ Available        |
+| **disabled**                  | (available but with alternative composition)  | ✅ Available        |
+| **brand**                     | avon, avon_v2, natura, natura_v2, theBodyShop, <br /> consultoriaDeBeleza, casaEestilo | ✅ Available        |
 
-  - ✅ Standard (available but with alternative composition)
-
-With the following attribute statuses:
-
-  - **Icon:** 
-    - ✅ \`left\`
-    - ✅ \`top\`
-    - ✅ \`icon\` (available but with alternative composition)
-  - **Align:**
-    - ✅ \`left\`
-    - ✅ \`center\`
-    - ✅ \`right\`
-  - **Position:**
-    - ✅ \`fixed\`
-    - ✅ \`scrollable\`
-  - ✅ \`elevation\`
-  - ✅ \`color\`
-  - ✅ \`disabled\` (available but with alternative composition)
-
-- - -
+## Technical Usages Examples
 `
 
 export default {

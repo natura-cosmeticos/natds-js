@@ -4,49 +4,21 @@ import { Logo, LogoProps } from '.'
 import StoryContainer from '../../helpers/StoryContainer'
 
 const componentStatus = `
----
+> Logo adapted as brand standards for each company
 
-Attribute status:
+## Properties
+| Property                      | Values                                            |    Status           |
+|---                            |                                                ---|                  ---|
+| **variant (no prop)**         | standard                                          | ✅ Available        |
+| **arialabel**                 | string                                            | ✅ Available        |
+| **color**                     | neutral, primary, secondary, highlight, surface   | ✅ Available        |
+| **model**                     | a, b                                              | ✅ Available        |
+| **languages**                 | default, pt, es                                   | ✅ Available        |
+| **mode**                      | light, dark                                       | ✅ Available        |
+| **size**                      | medium, mediumX, large, largeX, largeXX, <br /> largeXXX, huge, hugeX, hugeXX, hugeXXX, veryHuge       | ✅ Available        |
+| **brand**                   | avon, avon_v2, natura, natura_v2, theBodyShop, <br /> consultoriaDeBeleza, casaEestilo            | ✅ Available        |
 
-- **Size**
-    - ✅ \`medium\`
-    - ✅ \`mediumx\`
-    - ✅ \`large\`
-    - ✅ \`largex\`
-    - ✅ \`largexx\`
-    - ✅ \`largexxx\`
-    - ✅ \`huge\`
-    - ✅ \`hugex\`
-    - ✅ \`hugexx\`
-    - ✅ \`hugexxx\`
-    - ✅ \`veryhuge\`
-- **Color**
-    - ✅ \`neutral\`
-    - ✅ \`primary\`
-    - ✅ \`secondary\`
-    - ✅ \`highlight\`
-    - ✅ \`surface\`
-- **Model**
-    - ✅ \`primary\`
-    - ✅ \`secondary\`
-- **Language**
-    - ✅ \`default\`
-    - ✅ \`es\`
-    - ✅ \`pt\`
-- **Brand**
-    - ✅ \`avon\`
-    - ✅ \`avon_v2\`
-    - ✅ \`natura\`
-    - ✅ \`natura_v2\`
-    - ✅ \`theBodyShop\`
-    - ✅ \`consultoriaDeBeleza\`
-    - ✅ \`casaEestilo\`
-    - ✅ \`biome\`
-- **Model**
-    - ✅ \`light\`
-    - ✅ \`dark\`
-
----
+## Technical Usages Examples
 `
 
 export default {

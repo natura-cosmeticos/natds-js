@@ -8,21 +8,22 @@ import { Icon } from '../Icon'
 import StoryContainer from '../../helpers/StoryContainer'
 
 const componentStatus = `
----
+> Cards are surfaces that groups content and actions in the same space. Its construction must always create a visual hierarchy of the content and communicate its purposes
 
-**NOTE**: This component is available in the following attributes:
+## Properties
+| Property                     | Values            |    Status           |
+|---                           |                ---|                  ---|
+| **elevation**                | true/false        | ✅ Available        |
+| **radius**                   | true/false        | ✅ Available        |
 
-  - ✅ \`elevation\`
-  - ✅ \`radius\`
-
----
+## Technical Usages Examples
 `
 
 export default {
   title: 'Components/Card',
   component: Card,
   parameters: {
-    componentSubtitle: 'Cards are surfaces that groups content and actions in the same space. Its construction must always create a visual hierarchy of the content and communicate its purposes',
+    componentSubtitle: '',
     docs: { description: { component: componentStatus } }
   }
 } as Meta

@@ -25,7 +25,7 @@ const Image = React.forwardRef<HTMLImageElement, ImageProps>(
     }
 
     return (
-      <div className={`${className} ${wrapper}`}>
+      <div className={`${className} ${wrapper} Image-gaya`}>
         <img
           {...rest}
           ref={ref}

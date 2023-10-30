@@ -3,26 +3,25 @@ import { Story, Meta } from '@storybook/react'
 import { Alert, AlertProps } from '.'
 
 const componentStatus = `
-- - -
+> Alert allows you to display notification or warning messages on the user interface
 
-**NOTE FOR UXs**: This component is available in the following variants:
+## Properties
+| Property                      | Values                                 |    Status           |
+|---                            |                                     ---|                  ---|
+| **variant**                   | standard                               | ✅ Available        |
+| **type**                      | contained, outlined                    | ✅ Available        |
+| **color**                     | info, success, error, warning, custom  | ✅ Available        |
+| **title**                     | string                                 | ✅ Available        |
+| **customIcon**                | icon-name                              | ✅ Available        |
+| **showIcon**                  | true/false                             | ✅ Available        |
+| **customBackgroundColor**     | string                                 | ✅ Available        |
+| **customTextColor**           | string                                 | ✅ Available        |
+| **customIconColor**           | string                                 | ✅ Available        |
+| **customBorderColor**         | string                                 | ✅ Available        |
 
-  - ✅ Standard
 
-With the following attribute statuses:
+## Technical Usages Examples
 
-  - **Attributes:**
-    - ✅ Color
-    - ✅ Type
-    - ✅ Title
-    - ✅ CustomIcon
-    - ✅ ShowIcon
-    - ✅ CustomBackgroundColor
-    - ✅ CustomTextColor
-    - ✅ CustomIconColor
-    - ✅ CustomBorderColor
-
-- - -
 `
 
 export default {

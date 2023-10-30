@@ -12,7 +12,7 @@ const AccordionGroup = React.forwardRef<HTMLDivElement, AccordionGroupProps>(
 
     return (
       <div
-        className={`${className} ${wrapper}`}
+        className={`${className} ${wrapper} AccordionGroup-gaya`}
         ref={ref}
         {...rest}
       >

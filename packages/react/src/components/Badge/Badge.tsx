@@ -23,7 +23,7 @@ const Badge = React.forwardRef<HTMLDivElement, BadgeProps>((props, ref) => {
     <div
       aria-hidden={ariaHidden}
       aria-label={ariaLabel}
-      className={`${className} ${badge}`}
+      className={`${className} ${badge} Badge-gaya`}
       data-testid={testID}
       ref={ref}
       {...rest}

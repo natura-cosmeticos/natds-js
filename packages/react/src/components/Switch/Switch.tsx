@@ -25,7 +25,7 @@ const Switch = React.forwardRef<HTMLInputElement, SwitchProps>(
     }
 
     return (
-      <span className={`${className} ${switchContainer}`}>
+      <span className={`${className} ${switchContainer} Switch-gaya`}>
         <input
           ref={ref}
           id={id}

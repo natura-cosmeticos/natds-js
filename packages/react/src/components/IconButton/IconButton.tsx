@@ -18,7 +18,7 @@ const IconButton = React.forwardRef<HTMLButtonElement, IconButtonProps>(({
   return (
     <IconButtonBase
       ariaLabel={ariaLabel}
-      className={`${className} ${iconButtonContainer}`}
+      className={`${className} ${iconButtonContainer} IconButton-gaya`}
       disabled={disabled}
       onClick={onClick}
       ref={ref}

@@ -5,40 +5,28 @@ import { Icon as IconElement } from '../Icon'
 import StoryContainer from '../../helpers/StoryContainer'
 
 const componentStatus = `
-- - -
+> Tags are used to label, categorize, or organize items using keywords that describe them.
 
-**NOTE FOR UXs**: This component is available in the following variants:
+## Properties
+| Property                      | Values                                                 |    Status           |
+|---                            |                                                     ---|                  ---|
+| **variant (no prop)**         | Standard                                               | ✅ Available        |
+| **position**                  | center, left, right                                    | ✅ Available        |
+| **size**                      | small, ,standard                                       | ✅ Available        |
+| **color**                     | primary, secondary, success, alert, warning, link,     | ✅ Available        |
+| **customBackgroundColor**     | string                                                 | ✅ Available        |
+| **customLabelColor**          | string                                                 | ✅ Available        |
+| **IconComponent**             | IconComponent                                          | ✅ Available        |
+| **brand**                     | avon, avon_v2, natura, natura_v2, theBodyShop, <br /> consultoriaDeBeleza, casaEestilo | ✅ Available        |
 
-  - ✅ Standard
-
-With the following attribute statuses:
-
-  - **Attributes:**
-  - **Position**
-    - ✅ \`center\`
-    - ✅ \`right\`
-    - ✅ \`left\`
-  - **Color**
-    - ✅ \`primary\`
-    - ✅ \`secondary\`
-    - ✅ \`success\`
-    - ✅ \`alert\`
-    - ✅ \`warning\`
-    - ✅ \`link\`
-    - ✅ \`custom\`
-  - **Size**
-    - ✅ \`small\`
-    - ✅ \`standard\`
-  - ✅ **Icon**
-
-- - -
+## Technical Usages Examples
 `
 
 export default {
   title: 'Components/Tag',
   component: Tag,
   parameters: {
-    componentSubtitle: 'Tags are used to label, categorize, or organize items using keywords that describe them.',
+    componentSubtitle: '',
     docs: { description: { component: componentStatus } }
   }
 } as Meta
