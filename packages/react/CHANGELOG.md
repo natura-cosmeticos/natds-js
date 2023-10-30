@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.55.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.55.0-alpha.DSY-3779.1.0...@naturacosmeticos/natds-react@2.55.0) (2023-10-30)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-react
+
+
+
+
+
 # [2.54.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.54.0-alpha.DSY-3753.14.0...@naturacosmeticos/natds-react@2.54.0) (2023-10-03)
 
 
