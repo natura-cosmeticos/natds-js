@@ -11,6 +11,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(({
   children,
   className = '',
   brand,
+  color,
   textTransform = 'uppercase',
   disabled = false,
   fullWidth = false,
@@ -24,6 +25,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(({
 }, ref) => {
   const { button, label, labelContainer } = styles({
     disabled,
+    color,
     brand,
     fullWidth,
     iconPosition,

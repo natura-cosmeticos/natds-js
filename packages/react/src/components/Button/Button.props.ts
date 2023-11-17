@@ -1,11 +1,12 @@
 import { IconName } from '@naturacosmeticos/natds-icons'
-import { Size } from '@naturacosmeticos/natds-themes'
+import { Size, Color } from '@naturacosmeticos/natds-themes'
 import { BrandTypes } from '../../brandTypes/brandTypes'
 
 export type IconPosition = 'left' | 'right'
 export type ButtonSize = keyof Pick<Size, 'semi' | 'semiX' | 'medium'>
 export type ButtonVariant = 'contained' | 'outlined' | 'text'
 export type ButtonType = 'button' | 'reset' | 'submit'
+export type ButtonColor = keyof Pick<Color, 'primary'| 'onPrimary' | 'secondary'| 'onSecondary' | 'surfaceInverse' | 'onSurfaceInverse'>
 export interface ButtonBaseProps {
   /**
    * Specifies a description to your button.
@@ -16,6 +17,10 @@ export interface ButtonBaseProps {
    * Specifies an optional brand to be added to your Button
    */
   brand?: BrandTypes
+   /**
+   * Specifies an optional color to be added to your Button
+   */
+   color?: ButtonColor
   /**
    * Specifies an optional textTransform to be added to your Button
    */
