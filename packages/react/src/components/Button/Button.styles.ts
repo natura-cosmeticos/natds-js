@@ -355,12 +355,14 @@ const styles = createUseStyles((theme: Theme) => ({
     '&:hover:not([disabled])': {
       backgroundColor: ({ variant, brand, color }: ButtonStyleProps) => variant && (brand ? getColorBrand(theme)(brand, { variant, color })?.hover?.back : getColorVariant(theme, { variant, color }).hover?.[color ?? 'primary'].back),
       border: ({ variant, brand, color }: ButtonStyleProps) => variant && `1px solid ${(brand ? getColorBrand(theme)(brand, { variant, color })?.hover?.boder : getColorVariant(theme, { variant, color }).hover?.[color ?? 'primary'].boder)}`,
-      color: ({ variant, brand, color }: ButtonStyleProps) => variant && (brand ? getColorBrand(theme)(brand, { variant, color })?.hover?.label : getColorVariant(theme, { variant, color }).hover?.[color ?? 'primary'].label)
+      color: ({ variant, brand, color }: ButtonStyleProps) => variant && (brand ? getColorBrand(theme)(brand, { variant, color })?.hover?.label : getColorVariant(theme, { variant, color }).hover?.[color ?? 'primary'].label),
+      opacity: ({ variant }) => (variant === 'contained' ? theme.opacity.veryHigh : 'unset')
     },
     '&:focus:not([disabled])': {
       backgroundColor: ({ variant, brand, color }: ButtonStyleProps) => variant && (brand ? getColorBrand(theme)(brand, { variant, color })?.focus?.back : getColorVariant(theme, { variant, color }).focus?.[color ?? 'primary'].back),
       border: ({ variant, brand, color }: ButtonStyleProps) => variant && `1px solid ${(brand ? getColorBrand(theme)(brand, { variant, color })?.focus?.boder : getColorVariant(theme, { variant, color }).focus?.[color ?? 'primary'].boder)}`,
-      color: ({ variant, brand, color }: ButtonStyleProps) => variant && (brand ? getColorBrand(theme)(brand, { variant, color })?.focus?.label : getColorVariant(theme, { variant, color }).focus?.[color ?? 'primary'].label)
+      color: ({ variant, brand, color }: ButtonStyleProps) => variant && (brand ? getColorBrand(theme)(brand, { variant, color })?.focus?.label : getColorVariant(theme, { variant, color }).focus?.[color ?? 'primary'].label),
+      opacity: ({ variant }) => (variant === 'contained' ? theme.opacity.high : 'unset')
     }
   },
   labelContainer: {

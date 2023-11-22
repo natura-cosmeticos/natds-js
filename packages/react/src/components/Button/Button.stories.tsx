@@ -53,6 +53,11 @@ export const Brands: Story<ButtonProps> = (args) => (
   }}
   >
     <StoryContainer>
+      <Button {...args} variant="contained" />
+      <Button {...args} variant="outlined" />
+      <Button {...args} variant="text" />
+    </StoryContainer>
+    <StoryContainer>
       <Button brand="avon" {...args} variant="contained" />
       <Button brand="avon" {...args} variant="outlined" />
       <Button brand="avon" {...args} variant="text" />
