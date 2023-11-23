@@ -462,8 +462,12 @@ Array [
     cursor: default;
     box-shadow: none;
   }
-  .button-0-2-23:hover:not([disabled]) {  }
-  .button-0-2-23:focus:not([disabled]) {  }
+  .button-0-2-23:hover:not([disabled]) {
+    opacity: 0.8;
+  }
+  .button-0-2-23:focus:not([disabled]) {
+    opacity: 0.64;
+  }
   .labelContainer-0-2-24 {
     display: flex;
     align-items: center;
@@ -492,18 +496,6 @@ Array [
     background-color: #bbbbbb;
     border: 1px solid #FFFFFF00;
     color: #333333;
-  }
-  .button-d0-0-2-26:hover:not([disabled]) {
-    background-color: #cd902c;
-    border: 1px solid #FFFFFF00;
-    color: #ffffff;
-    opacity: 0.8;
-  }
-  .button-d0-0-2-26:focus:not([disabled]) {
-    background-color: #A67423;
-    border: 1px solid #FFFFFF00;
-    color: #ffffff;
-    opacity: 0.64;
   }
   .labelContainer-d1-0-2-27 {
     flex-direction: row-reverse;
