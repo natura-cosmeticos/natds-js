@@ -49,49 +49,44 @@ export const Variants: Story<ButtonProps> = (args) => (
 Variants.args = { ...Playground.args }
 export const Brands: Story<ButtonProps> = (args) => (
   <div style={{
-    display: 'flex', flexDirection: 'column', gap: 20, backgroundColor: '#ccc', padding: 15
+    display: 'flex', flexDirection: 'column', gap: 20, padding: 15
   }}
   >
     <StoryContainer>
-      <Button {...args} variant="contained" />
-      <Button {...args} variant="outlined" />
-      <Button {...args} variant="text" />
-    </StoryContainer>
-    <StoryContainer>
-      <Button brand="avon" {...args} variant="contained" />
-      <Button brand="avon" {...args} variant="outlined" />
-      <Button brand="avon" {...args} variant="text" />
+      <Button key={1} brand="avon" {...args} variant="contained" />
+      <Button key={2} brand="avon" {...args} variant="outlined" />
+      <Button key={3} brand="avon" {...args} variant="text" />
     </StoryContainer>
 
     <StoryContainer>
-      <Button brand="avon_v2" {...args} variant="contained" />
-      <Button brand="avon_v2" {...args} variant="outlined" />
-      <Button brand="avon_v2" {...args} variant="text" />
+      <Button key={4} brand="avon_v2" {...args} variant="contained" />
+      <Button key={5} brand="avon_v2" {...args} variant="outlined" />
+      <Button key={6} brand="avon_v2" {...args} variant="text" />
     </StoryContainer>
     <StoryContainer>
-      <Button brand="natura" {...args} variant="contained" />
-      <Button brand="natura" {...args} variant="outlined" />
-      <Button brand="natura" {...args} variant="text" />
+      <Button key={7} brand="natura" {...args} variant="contained" />
+      <Button key={8} brand="natura" {...args} variant="outlined" />
+      <Button key={9} brand="natura" {...args} variant="text" />
     </StoryContainer>
     <StoryContainer>
-      <Button brand="natura_v2" {...args} variant="contained" />
-      <Button brand="natura_v2" {...args} variant="outlined" />
-      <Button brand="natura_v2" {...args} variant="text" />
+      <Button key={10} brand="natura_v2" {...args} variant="contained" />
+      <Button key={11} brand="natura_v2" {...args} variant="outlined" />
+      <Button key={12} brand="natura_v2" {...args} variant="text" />
     </StoryContainer>
     <StoryContainer>
-      <Button brand="casaEestilo" {...args} variant="contained" />
-      <Button brand="casaEestilo" {...args} variant="outlined" />
-      <Button brand="casaEestilo" {...args} variant="text" />
+      <Button key={13} brand="casaEestilo" {...args} variant="contained" />
+      <Button key={14} brand="casaEestilo" {...args} variant="outlined" />
+      <Button key={15} brand="casaEestilo" {...args} variant="text" />
     </StoryContainer>
     <StoryContainer>
-      <Button brand="consultoriaDeBeleza" {...args} variant="contained" />
-      <Button brand="consultoriaDeBeleza" {...args} variant="outlined" />
-      <Button brand="consultoriaDeBeleza" {...args} variant="text" />
+      <Button key={16} brand="consultoriaDeBeleza" {...args} variant="contained" />
+      <Button key={17} brand="consultoriaDeBeleza" {...args} variant="outlined" />
+      <Button key={18} brand="consultoriaDeBeleza" {...args} variant="text" />
     </StoryContainer>
     <StoryContainer>
-      <Button brand="theBodyShop" {...args} variant="contained" />
-      <Button brand="theBodyShop" {...args} variant="outlined" />
-      <Button brand="theBodyShop" {...args} variant="text" />
+      <Button key={19} brand="theBodyShop" {...args} variant="contained" />
+      <Button key={20} brand="theBodyShop" {...args} variant="outlined" />
+      <Button key={21} brand="theBodyShop" {...args} variant="text" />
     </StoryContainer>
   </div>
 )

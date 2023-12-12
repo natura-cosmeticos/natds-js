@@ -8,7 +8,7 @@ import { buildTheme } from '../../ThemeProvider'
 import { ButtonColor, ButtonProps } from './Button.props'
 import { BrandTypes } from '../../brandTypes/brandTypes'
 
-type ButtonStyleProps = Pick<ButtonProps, 'size' | 'showIcon' | 'iconPosition' | 'variant' | 'fullWidth' | 'disabled'| 'brand' | 'textTransform' | 'color'>
+type ButtonStyleProps = Pick<ButtonProps, 'size' | 'showIcon' | 'iconPosition' | 'variant' | 'fullWidth' | 'disabled'| 'brand' | 'textTransform' | 'color' | 'mode'>
 
 const getPaddingStyles = (theme: Theme) => ({ size }: ButtonStyleProps) => {
   const padding = {
@@ -152,69 +152,69 @@ const getColorVariant = (theme: Theme, { variant, color }:ButtonStyleProps) => {
       return {
         back: theme.button[variant].color.enable.background,
         border: color ? theme.color[color] : theme.color.primary,
-        color: color ? theme.color[onColorGetOutlined(color)] : theme.color.highEmphasis,
+        color: color ? theme.color[onColorGetOutlined(color)] : theme.color.highlight,
         hover: {
           primary: {
-            back: theme.color.neutralLight,
+            back: theme.color.neutralMedium,
             boder: theme.color.primary,
             label: `${theme.color.highEmphasis}`
           },
           onPrimary: {
-            back: theme.color.neutralLight,
+            back: theme.color.neutralMedium,
             boder: theme.color.onPrimary,
             label: `${theme.color.highEmphasis}`
           },
           secondary: {
-            back: theme.color.neutralLight,
+            back: theme.color.neutralMedium,
             boder: theme.color.secondary,
             label: `${theme.color.highEmphasis}`
           },
           onSecondary: {
-            back: theme.color.neutralLight,
+            back: theme.color.neutralMedium,
             boder: theme.color.onSecondary,
             label: `${theme.color.highEmphasis}`
           },
           surfaceInverse: {
-            back: theme.color.neutralLight,
+            back: theme.color.neutralMedium,
             boder: theme.color.surfaceInverse,
             label: `${theme.color.highEmphasis}`
           },
           onSurfaceInverse: {
-            back: theme.color.neutralLight,
+            back: theme.color.neutralMedium,
             boder: theme.color.onSurfaceInverse,
             label: `${theme.color.highEmphasis}`
           }
         },
         focus: {
           primary: {
-            back: theme.color.neutralMedium,
+            back: theme.color.neutralDark,
             boder: theme.color.primary,
-            label: `${theme.color.highEmphasis}`
+            label: `${theme.color.lowLight}`
           },
           onPrimary: {
-            back: theme.color.neutralMedium,
+            back: theme.color.neutralDark,
             boder: theme.color.onPrimary,
-            label: `${theme.color.highEmphasis}`
+            label: `${theme.color.lowLight}`
           },
           secondary: {
-            back: theme.color.neutralMedium,
+            back: theme.color.neutralDark,
             boder: theme.color.secondary,
-            label: `${theme.color.highEmphasis}`
+            label: `${theme.color.lowLight}`
           },
           onSecondary: {
-            back: theme.color.neutralMedium,
+            back: theme.color.neutralDark,
             boder: theme.color.onSecondary,
-            label: `${theme.color.highEmphasis}`
+            label: `${theme.color.lowLight}`
           },
           surfaceInverse: {
-            back: theme.color.neutralMedium,
+            back: theme.color.neutralDark,
             boder: theme.color.surfaceInverse,
-            label: `${theme.color.highEmphasis}`
+            label: `${theme.color.lowLight}`
           },
           onSurfaceInverse: {
-            back: theme.color.neutralMedium,
+            back: theme.color.neutralDark,
             boder: theme.color.onSurfaceInverse,
-            label: `${theme.color.highEmphasis}`
+            label: `${theme.color.lowLight}`
           }
         }
       }
@@ -226,66 +226,66 @@ const getColorVariant = (theme: Theme, { variant, color }:ButtonStyleProps) => {
         color: color ? theme.color[onColorGetOutlined(color)] : theme.color.highEmphasis,
         hover: {
           primary: {
-            back: `${theme.color.neutralLight}`,
+            back: `${theme.color.neutralMedium}`,
             boder: theme.button[variant].color.hover.border,
             label: `${theme.color.highEmphasis}`
           },
           onPrimary: {
-            back: `${theme.color.neutralLight}`,
+            back: `${theme.color.neutralMedium}`,
             boder: theme.button[variant].color.hover.border,
             label: `${theme.color.highEmphasis}`
           },
           secondary: {
-            back: `${theme.color.neutralLight}`,
+            back: `${theme.color.neutralMedium}`,
             boder: theme.button[variant].color.hover.border,
             label: `${theme.color.highEmphasis}`
           },
           onSecondary: {
-            back: `${theme.color.neutralLight}`,
+            back: `${theme.color.neutralMedium}`,
             boder: theme.button[variant].color.hover.border,
             label: `${theme.color.highEmphasis}`
           },
           surfaceInverse: {
-            back: `${theme.color.neutralLight}`,
+            back: `${theme.color.neutralMedium}`,
             boder: theme.button[variant].color.hover.border,
             label: `${theme.color.highEmphasis}`
           },
           onSurfaceInverse: {
-            back: `${theme.color.neutralLight}`,
+            back: `${theme.color.neutralMedium}`,
             boder: theme.button[variant].color.hover.border,
             label: `${theme.color.highEmphasis}`
           }
         },
         focus: {
           primary: {
-            back: `${theme.color.neutralMedium}`,
+            back: `${theme.color.neutralDark}`,
             boder: theme.button[variant].color.hover.border,
-            label: `${theme.color.highEmphasis}`
+            label: `${theme.color.lowLight}`
           },
           onPrimary: {
-            back: `${theme.color.neutralMedium}`,
+            back: `${theme.color.neutralDark}`,
             boder: theme.button[variant].color.hover.border,
-            label: `${theme.color.highEmphasis}`
+            label: `${theme.color.lowLight}`
           },
           secondary: {
-            back: `${theme.color.neutralMedium}`,
+            back: `${theme.color.neutralDark}`,
             boder: theme.button[variant].color.hover.border,
-            label: `${theme.color.highEmphasis}`
+            label: `${theme.color.lowLight}`
           },
           onSecondary: {
-            back: `${theme.color.neutralMedium}`,
+            back: `${theme.color.neutralDark}`,
             boder: theme.button[variant].color.hover.border,
-            label: `${theme.color.highEmphasis}`
+            label: `${theme.color.lowLight}`
           },
           surfaceInverse: {
-            back: `${theme.color.neutralMedium}`,
+            back: `${theme.color.neutralDark}`,
             boder: theme.button[variant].color.hover.border,
-            label: `${theme.color.highEmphasis}`
+            label: `${theme.color.lowLight}`
           },
           onSurfaceInverse: {
-            back: `${theme.color.neutralMedium}`,
+            back: `${theme.color.neutralDark}`,
             boder: theme.button[variant].color.hover.border,
-            label: `${theme.color.highEmphasis}`
+            label: `${theme.color.lowLight}`
           }
         }
       }
@@ -299,8 +299,8 @@ const getColorVariant = (theme: Theme, { variant, color }:ButtonStyleProps) => {
   }
 }
 
-const getColorBrand = (theme: Theme) => (brand: BrandTypes, { variant, color }: ButtonStyleProps) => {
-  const colorTheme = buildTheme(brand, 'light')
+const getColorBrand = (theme: Theme) => (brand: BrandTypes, { variant, color, mode }: ButtonStyleProps) => {
+  const colorTheme = buildTheme(brand, mode)
   let propBrandsColor = {}
   if (variant) {
     propBrandsColor = {
@@ -350,11 +350,17 @@ const getletterSpacing = (theme: Theme) => ({ textTransform }: ButtonStyleProps)
 }
 const styles = createUseStyles((theme: Theme) => ({
   button: {
-    backgroundColor: ({ variant, brand, color }: ButtonStyleProps) => variant && (brand ? getColorBrand(theme)(brand, { variant, color })?.back : getColorVariant(theme, { variant, color }).back),
-    border: ({ variant, brand, color }: ButtonStyleProps) => variant && `1px solid ${(brand ? getColorBrand(theme)(brand, { variant, color })?.border : getColorVariant(theme, { variant, color }).border)}`,
+    backgroundColor: ({
+      variant, brand, color, mode
+    }: ButtonStyleProps) => variant && (brand ? getColorBrand(theme)(brand, { variant, color, mode })?.back : getColorVariant(theme, { variant, color }).back),
+    border: ({
+      variant, brand, color, mode
+    }: ButtonStyleProps) => variant && `1px solid ${(brand ? getColorBrand(theme)(brand, { variant, color, mode })?.border : getColorVariant(theme, { variant, color }).border)}`,
     borderRadius: theme.button.borderRadius,
     boxShadow: ({ variant }: ButtonStyleProps) => variant && (variant === 'contained' ? theme.elevation.tiny : 'none'),
-    color: ({ variant, brand, color }: ButtonStyleProps) => variant && (brand ? getColorBrand(theme)(brand, { variant, color })?.color : getColorVariant(theme, { variant, color }).color),
+    color: ({
+      variant, brand, color, mode
+    }: ButtonStyleProps) => variant && (brand ? getColorBrand(theme)(brand, { variant, color, mode })?.color : getColorVariant(theme, { variant, color }).color),
     cursor: 'pointer',
     height: ({ size }: ButtonStyleProps) => size && theme.size[size],
     outline: 0,
@@ -371,17 +377,29 @@ const styles = createUseStyles((theme: Theme) => ({
       cursor: 'default'
     },
     '&:hover:not([disabled])': {
-      backgroundColor: ({ variant, brand, color }: ButtonStyleProps) => variant && (brand ? getColorBrand(theme)(brand, { variant, color })?.hover?.back : getColorVariant(theme, { variant, color }).hover?.[color ?? 'primary'].back),
-      border: ({ variant, brand, color }: ButtonStyleProps) => variant && `1px solid ${(brand ? getColorBrand(theme)(brand, { variant, color })?.hover?.boder : getColorVariant(theme, { variant, color }).hover?.[color ?? 'primary'].boder)}`,
-      color: ({ variant, brand, color }: ButtonStyleProps) => variant && (brand ? getColorBrand(theme)(brand, { variant, color })?.hover?.label : getColorVariant(theme, { variant, color }).hover?.[color ?? 'primary'].label),
+      backgroundColor: ({
+        variant, brand, color, mode
+      }: ButtonStyleProps) => variant && (brand ? getColorBrand(theme)(brand, { variant, color, mode })?.hover?.back : getColorVariant(theme, { variant, color }).hover?.[color ?? 'primary'].back),
+      border: ({
+        variant, brand, color, mode
+      }: ButtonStyleProps) => variant && `1px solid ${(brand ? getColorBrand(theme)(brand, { variant, color, mode })?.hover?.boder : getColorVariant(theme, { variant, color }).hover?.[color ?? 'primary'].boder)}`,
+      color: ({
+        variant, brand, color, mode
+      }: ButtonStyleProps) => variant && (brand ? getColorBrand(theme)(brand, { variant, color, mode })?.hover?.label : getColorVariant(theme, { variant, color }).hover?.[color ?? 'primary'].label),
       opacity: ({ variant }) => (variant === 'contained' ? theme.opacity.veryHigh : 'unset')
       // opacity: theme.opacity.veryHigh
     },
     '&:focus:not([disabled])': {
-      backgroundColor: ({ variant, brand, color }: ButtonStyleProps) => variant && (brand ? getColorBrand(theme)(brand, { variant, color })?.focus?.back : getColorVariant(theme, { variant, color }).focus?.[color ?? 'primary'].back),
-      border: ({ variant, brand, color }: ButtonStyleProps) => variant && `1px solid ${(brand ? getColorBrand(theme)(brand, { variant, color })?.focus?.boder : getColorVariant(theme, { variant, color }).focus?.[color ?? 'primary'].boder)}`,
-      color: ({ variant, brand, color }: ButtonStyleProps) => variant && (brand ? getColorBrand(theme)(brand, { variant, color })?.focus?.label : getColorVariant(theme, { variant, color }).focus?.[color ?? 'primary'].label),
-      opacity: ({ variant }) => (variant === 'contained' ? theme.opacity.high : 'unset')
+      backgroundColor: ({
+        variant, brand, color, mode
+      }: ButtonStyleProps) => variant && (brand ? getColorBrand(theme)(brand, { variant, color, mode })?.focus?.back : getColorVariant(theme, { variant, color }).focus?.[color ?? 'primary'].back),
+      border: ({
+        variant, brand, color, mode
+      }: ButtonStyleProps) => variant && `1px solid ${(brand ? getColorBrand(theme)(brand, { variant, color, mode })?.focus?.boder : getColorVariant(theme, { variant, color }).focus?.[color ?? 'primary'].boder)}`,
+      color: ({
+        variant, brand, color, mode
+      }: ButtonStyleProps) => variant && (brand ? getColorBrand(theme)(brand, { variant, color, mode })?.focus?.label : getColorVariant(theme, { variant, color }).focus?.[color ?? 'primary'].label),
+      opacity: ({ variant }) => (variant === 'contained' && theme.opacity.high)
       // opacity: theme.opacity.high
     }
   },
