@@ -375,7 +375,7 @@ Array [
   background-color: #FFFFFF00;
   border: 1px solid #f4ab34;
   box-shadow: none;
-  color: #333333;
+  color: #000000;
   height: 40px;
   padding-left: 8px;
   padding-right: 8px;
@@ -387,16 +387,15 @@ Array [
   color: #777777;
 }
 .button-d0-0-2-4:hover:not([disabled]) {
-  background-color: #fafafa;
+  background-color: #bbbbbb;
   border: 1px solid #f4ab34;
   color: #333333;
   opacity: unset;
 }
 .button-d0-0-2-4:focus:not([disabled]) {
-  background-color: #bbbbbb;
+  background-color: #777777;
   border: 1px solid #f4ab34;
-  color: #333333;
-  opacity: unset;
+  color: #ffffff;
 }
 .labelContainer-d1-0-2-5 {
   flex-direction: row-reverse;
@@ -461,7 +460,7 @@ Array [
   background-color: #FFFFFF00;
   border: 1px solid #f4ab34;
   box-shadow: none;
-  color: #333333;
+  color: #000000;
   height: 40px;
   padding-left: 8px;
   padding-right: 8px;
@@ -473,16 +472,15 @@ Array [
   color: #777777;
 }
 .button-d0-0-2-4:hover:not([disabled]) {
-  background-color: #fafafa;
+  background-color: #bbbbbb;
   border: 1px solid #f4ab34;
   color: #333333;
   opacity: unset;
 }
 .button-d0-0-2-4:focus:not([disabled]) {
-  background-color: #bbbbbb;
+  background-color: #777777;
   border: 1px solid #f4ab34;
-  color: #333333;
-  opacity: unset;
+  color: #ffffff;
 }
 .labelContainer-d1-0-2-5 {
   flex-direction: row-reverse;
@@ -560,16 +558,15 @@ Array [
   color: #777777;
 }
 .button-d0-0-2-4:hover:not([disabled]) {
-  background-color: #fafafa;
+  background-color: #bbbbbb;
   border: 1px solid #FFFFFF00;
   color: #333333;
   opacity: unset;
 }
 .button-d0-0-2-4:focus:not([disabled]) {
-  background-color: #bbbbbb;
+  background-color: #777777;
   border: 1px solid #FFFFFF00;
-  color: #333333;
-  opacity: unset;
+  color: #ffffff;
 }
 .labelContainer-d1-0-2-5 {
   flex-direction: row-reverse;
@@ -646,16 +643,15 @@ Array [
   color: #777777;
 }
 .button-d0-0-2-4:hover:not([disabled]) {
-  background-color: #fafafa;
+  background-color: #bbbbbb;
   border: 1px solid #FFFFFF00;
   color: #333333;
   opacity: unset;
 }
 .button-d0-0-2-4:focus:not([disabled]) {
-  background-color: #bbbbbb;
+  background-color: #777777;
   border: 1px solid #FFFFFF00;
-  color: #333333;
-  opacity: unset;
+  color: #ffffff;
 }
 .labelContainer-d1-0-2-5 {
   flex-direction: row-reverse;
