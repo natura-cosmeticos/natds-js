@@ -12,7 +12,7 @@ const Counter = React.forwardRef<HTMLDivElement, CounterProps>(({
   disabled,
   readOnly,
   label,
-  maxValue = 99,
+  maxValue = 999,
   minValue = 0,
   onDecrement,
   onIncrement,
@@ -39,16 +39,19 @@ const Counter = React.forwardRef<HTMLDivElement, CounterProps>(({
           onClick={onDecrement}
           size={size}
           testID="onDecrement-btn"
-          variant="text"
+          variant="outlined"
+          showIcon
+          iconName="outlined-action-subtract"
+          iconPosition="center"
         >
-          -
+          {' '}
         </Button>
         <input
           className={inputBase}
           readOnly={readOnly}
           onChange={onChange}
           value={value}
-          maxLength={2}
+          maxLength={3}
           inputMode="numeric"
         />
         <Button
@@ -58,9 +61,12 @@ const Counter = React.forwardRef<HTMLDivElement, CounterProps>(({
           onClick={onIncrement}
           size={size}
           testID="onIncrement-btn"
-          variant="text"
+          variant="outlined"
+          showIcon
+          iconName="outlined-action-add"
+          iconPosition="center"
         >
-          +
+          {' '}
         </Button>
       </div>
     </div>
