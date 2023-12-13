@@ -494,14 +494,15 @@ Array [
     color: #333333;
   }
   .button-d0-0-2-26:hover:not([disabled]) {
-    background-color: #cd902c;
-    border: 1px solid #FFFFFF00;
-    color: #ffffff;
+    background-color: #f4ab34;
+    border: 1px solid undefined;
+    opacity: 0.8;
   }
   .button-d0-0-2-26:focus:not([disabled]) {
     background-color: #A67423;
     border: 1px solid #FFFFFF00;
     color: #ffffff;
+    opacity: 0.64;
   }
   .labelContainer-d1-0-2-27 {
     flex-direction: row-reverse;
@@ -699,7 +700,7 @@ Array [
                 />
               </div>
               <button
-                class="button-0-2-23 button-d0-0-2-26 Button-gaya"
+                class=" button-0-2-23 button-d0-0-2-26 Button-gaya"
                 data-testid="btn-include-component"
                 type="button"
               >

@@ -8,7 +8,7 @@ type CounterStyleProps = Required<Pick<CounterProps, 'size'>>
 const styles = createUseStyles((theme: Theme) => ({
   buttonGroup: {
     display: 'flex',
-    border: `1px solid ${theme.color.lowEmphasis}`,
+    // border: `1px solid ${theme.color.lowEmphasis}`,
     borderRadius: theme.counter.borderRadius,
     marginTop: theme.spacing.micro,
     width: 'fit-content',
@@ -18,26 +18,59 @@ const styles = createUseStyles((theme: Theme) => ({
     }
   },
   buttonLeft: {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    width: theme.size.semi,
+    height: ({ size }: CounterStyleProps) => theme.size[size],
+    border: `1px solid ${theme.color.lowEmphasis}`,
+    borderRight: 'none',
+    '&:disabled': {
+      borderRight: 'none'
+    },
     borderBottomRightRadius: 0,
     borderTopRightRadius: 0
+    // '&:focus:not([disabled])': {
+    //   color: theme.color.surface,
+    //   backgroundColor: theme.color.highEmphasis
+    // }
+
   },
   buttonRight: {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    width: theme.size.semi,
+    height: ({ size }: CounterStyleProps) => theme.size[size],
+    border: `1px solid ${theme.color.lowEmphasis}`,
+    borderLeft: 'none',
+    '&:disabled': {
+      borderLeft: 'none'
+    },
     borderBottomLeftRadius: 0,
     borderTopLeftRadius: 0
   },
   inputBase: {
+    fontFamily: theme.typography.fontFamily.primary,
+    fontSize: theme.typography.fontSize.level3,
     backgroundColor: 'transparent',
-    borderBottom: 'none',
-    borderLeft: `1px solid ${theme.color.lowEmphasis}`,
-    borderRight: `1px solid ${theme.color.lowEmphasis}`,
-    borderTop: 'none',
+    // borderBottom: 'none',
+    border: `1px solid ${theme.color.lowEmphasis}`,
+    // borderLeft: `1px solid ${theme.color.lowEmphasis}`,
+    // borderRight: `1px solid ${theme.color.lowEmphasis}`,
+    // borderTop: 'none',
+    // height: ({ size }: CounterStyleProps) => theme.size[size],
     color: theme.color.highlight,
     cursor: 'default',
-    height: '100%',
+    '&:focus:not([disabled])': {
+      border: `1px solid ${theme.color.primary}`
+    },
+    boxSizing: 'border-box',
+    // height: '100%',
     outline: 'none',
-    padding: 0,
+    padding: theme.spacing.tiny,
     textAlign: 'center',
-    width: theme.size.semiX
+    width: theme.size.large
   },
   labelText: {
     color: theme.color.mediumEmphasis,

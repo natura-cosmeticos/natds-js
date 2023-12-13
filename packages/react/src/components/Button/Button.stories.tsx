@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import React from 'react'
 import { Story, Meta } from '@storybook/react'
 import { Button, ButtonProps } from '.'
@@ -17,6 +18,7 @@ const componentStatus = `
 | **disabled**     | true, false                                                                     | ✅ Available        |
 | **fullWidth**    | true, false                                                                     | ✅ Available        |
 | **brand**        | avon, avon_v2, natura, natura_v2, theBodyShop, <br /> consultoriaDeBeleza, casaEestilo            | ✅ Available        |
+| **color**        | primary, onPrimary, secondary, onSecondary, surfaceInverse, onSurfaceInverse                      | ✅ Available        |
 
 ## Technical Usages Examples
 `
@@ -45,6 +47,50 @@ export const Variants: Story<ButtonProps> = (args) => (
   </StoryContainer>
 )
 Variants.args = { ...Playground.args }
+export const Brands: Story<ButtonProps> = (args) => (
+  <div style={{
+    display: 'flex', flexDirection: 'column', gap: 20, padding: 15
+  }}
+  >
+    <StoryContainer>
+      <Button key={1} brand="avon" {...args} variant="contained" />
+      <Button key={2} brand="avon" {...args} variant="outlined" />
+      <Button key={3} brand="avon" {...args} variant="text" />
+    </StoryContainer>
+
+    <StoryContainer>
+      <Button key={4} brand="avon_v2" {...args} variant="contained" />
+      <Button key={5} brand="avon_v2" {...args} variant="outlined" />
+      <Button key={6} brand="avon_v2" {...args} variant="text" />
+    </StoryContainer>
+    <StoryContainer>
+      <Button key={7} brand="natura" {...args} variant="contained" />
+      <Button key={8} brand="natura" {...args} variant="outlined" />
+      <Button key={9} brand="natura" {...args} variant="text" />
+    </StoryContainer>
+    <StoryContainer>
+      <Button key={10} brand="natura_v2" {...args} variant="contained" />
+      <Button key={11} brand="natura_v2" {...args} variant="outlined" />
+      <Button key={12} brand="natura_v2" {...args} variant="text" />
+    </StoryContainer>
+    <StoryContainer>
+      <Button key={13} brand="casaEestilo" {...args} variant="contained" />
+      <Button key={14} brand="casaEestilo" {...args} variant="outlined" />
+      <Button key={15} brand="casaEestilo" {...args} variant="text" />
+    </StoryContainer>
+    <StoryContainer>
+      <Button key={16} brand="consultoriaDeBeleza" {...args} variant="contained" />
+      <Button key={17} brand="consultoriaDeBeleza" {...args} variant="outlined" />
+      <Button key={18} brand="consultoriaDeBeleza" {...args} variant="text" />
+    </StoryContainer>
+    <StoryContainer>
+      <Button key={19} brand="theBodyShop" {...args} variant="contained" />
+      <Button key={20} brand="theBodyShop" {...args} variant="outlined" />
+      <Button key={21} brand="theBodyShop" {...args} variant="text" />
+    </StoryContainer>
+  </div>
+)
+Brands.args = { ...Playground.args }
 export const LabelTransform: Story<ButtonProps> = (args) => (
   <StoryContainer>
     <Button {...args} variant="contained" />
