@@ -2,7 +2,7 @@ import { IconName } from '@naturacosmeticos/natds-icons'
 import { Size, Color } from '@naturacosmeticos/natds-themes'
 import { BrandTypes } from '../../brandTypes/brandTypes'
 
-export type IconPosition = 'left' | 'right'
+export type IconPosition = 'left' | 'right' | 'center'
 export type ButtonSize = keyof Pick<Size, 'semi' | 'semiX' | 'medium'>
 export type ButtonVariant = 'contained' | 'outlined' | 'text'
 export type ButtonType = 'button' | 'reset' | 'submit'
