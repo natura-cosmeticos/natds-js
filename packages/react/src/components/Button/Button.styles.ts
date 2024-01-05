@@ -389,7 +389,20 @@ const styles = createUseStyles((theme: Theme) => ({
       opacity: ({ variant }) => (variant === 'contained' ? theme.opacity.veryHigh : 'unset')
       // opacity: theme.opacity.veryHigh
     },
-    '&:focus:not([disabled])': {
+    '&:focus-visible:not([disabled])': {
+      backgroundColor: ({
+        variant, brand, color, mode
+      }: ButtonStyleProps) => variant && (brand ? getColorBrand(theme)(brand, { variant, color, mode })?.focus?.back : getColorVariant(theme, { variant, color }).focus?.[color ?? 'primary'].back),
+      border: ({
+        variant, brand, color, mode
+      }: ButtonStyleProps) => variant && `1px solid ${(brand ? getColorBrand(theme)(brand, { variant, color, mode })?.focus?.boder : getColorVariant(theme, { variant, color }).focus?.[color ?? 'primary'].boder)}`,
+      color: ({
+        variant, brand, color, mode
+      }: ButtonStyleProps) => variant && (brand ? getColorBrand(theme)(brand, { variant, color, mode })?.focus?.label : getColorVariant(theme, { variant, color }).focus?.[color ?? 'primary'].label),
+      opacity: ({ variant }) => (variant === 'contained' && theme.opacity.high)
+      // opacity: theme.opacity.high
+    },
+    '&:active:not([disabled])': {
       backgroundColor: ({
         variant, brand, color, mode
       }: ButtonStyleProps) => variant && (brand ? getColorBrand(theme)(brand, { variant, color, mode })?.focus?.back : getColorVariant(theme, { variant, color }).focus?.[color ?? 'primary'].back),
