@@ -463,7 +463,8 @@ Array [
     box-shadow: none;
   }
   .button-0-2-23:hover:not([disabled]) {  }
-  .button-0-2-23:focus:not([disabled]) {  }
+  .button-0-2-23:focus-visible:not([disabled]) {  }
+  .button-0-2-23:active:not([disabled]) {  }
   .labelContainer-0-2-24 {
     display: flex;
     align-items: center;
@@ -498,7 +499,13 @@ Array [
     border: 1px solid undefined;
     opacity: 0.8;
   }
-  .button-d0-0-2-26:focus:not([disabled]) {
+  .button-d0-0-2-26:focus-visible:not([disabled]) {
+    background-color: #A67423;
+    border: 1px solid #FFFFFF00;
+    color: #ffffff;
+    opacity: 0.64;
+  }
+  .button-d0-0-2-26:active:not([disabled]) {
     background-color: #A67423;
     border: 1px solid #FFFFFF00;
     color: #ffffff;
