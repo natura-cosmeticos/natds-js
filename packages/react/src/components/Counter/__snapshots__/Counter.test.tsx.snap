@@ -121,7 +121,8 @@ Array [
     box-shadow: none;
   }
   .button-0-2-7:hover:not([disabled]) {  }
-  .button-0-2-7:focus:not([disabled]) {  }
+  .button-0-2-7:focus-visible:not([disabled]) {  }
+  .button-0-2-7:active:not([disabled]) {  }
   .labelContainer-0-2-8 {
     display: flex;
     align-items: center;
@@ -152,14 +153,20 @@ Array [
     color: #777777;
   }
   .button-d0-0-2-10:hover:not([disabled]) {
-    background-color: #f1f3f5;
+    background-color: #bbbbbb;
     border: 1px solid #FFFFFF00;
     color: #333333;
+    opacity: unset;
   }
-  .button-d0-0-2-10:focus:not([disabled]) {
-    background-color: #e9ecef;
+  .button-d0-0-2-10:focus-visible:not([disabled]) {
+    background-color: #777777;
     border: 1px solid #FFFFFF00;
-    color: #333333;
+    color: #ffffff;
+  }
+  .button-d0-0-2-10:active:not([disabled]) {
+    background-color: #777777;
+    border: 1px solid #FFFFFF00;
+    color: #ffffff;
   }
   .labelContainer-d1-0-2-11 {
     flex-direction: row-reverse;
@@ -184,14 +191,20 @@ Array [
     color: #777777;
   }
   .button-d3-0-2-23:hover:not([disabled]) {
-    background-color: #f1f3f5;
+    background-color: #bbbbbb;
     border: 1px solid #FFFFFF00;
     color: #333333;
+    opacity: unset;
   }
-  .button-d3-0-2-23:focus:not([disabled]) {
-    background-color: #e9ecef;
+  .button-d3-0-2-23:focus-visible:not([disabled]) {
+    background-color: #777777;
     border: 1px solid #FFFFFF00;
-    color: #333333;
+    color: #ffffff;
+  }
+  .button-d3-0-2-23:active:not([disabled]) {
+    background-color: #777777;
+    border: 1px solid #FFFFFF00;
+    color: #ffffff;
   }
   .labelContainer-d4-0-2-24 {
     flex-direction: row-reverse;
@@ -204,17 +217,22 @@ Array [
     width: fit-content;
     border: 1px solid #bbbbbb;
     display: flex;
+    overflow: hidden;
     margin-top: 4px;
     border-radius: 4px;
   }
   .buttonGroup-0-2-1 button {  }
   .buttonLeft-0-2-2 {
+    border-top-left-radius: 0;
     border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
   }
   .buttonRight-0-2-3 {
     border-top-left-radius: 0;
+    border-top-right-radius: 0;
     border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
   }
   .inputBase-0-2-4 {
     color: #000000;
@@ -265,7 +283,7 @@ Array [
             />
           </div>
           <button
-            class="button-0-2-7 button-d0-0-2-10 Button-gaya"
+            class="button-0-2-7 button-d0-0-2-10 buttonLeft-0-2-2 Button-gaya"
             data-testid="onDecrement-btn"
             disabled=""
             type="button"
@@ -301,7 +319,7 @@ Array [
             />
           </div>
           <button
-            class="button-0-2-7 button-d3-0-2-23 Button-gaya"
+            class="button-0-2-7 button-d3-0-2-23 buttonRight-0-2-3 Button-gaya"
             data-testid="onIncrement-btn"
             disabled=""
             type="button"
@@ -446,7 +464,8 @@ Array [
     box-shadow: none;
   }
   .button-0-2-7:hover:not([disabled]) {  }
-  .button-0-2-7:focus:not([disabled]) {  }
+  .button-0-2-7:focus-visible:not([disabled]) {  }
+  .button-0-2-7:active:not([disabled]) {  }
   .labelContainer-0-2-8 {
     display: flex;
     align-items: center;
@@ -477,14 +496,20 @@ Array [
     color: #777777;
   }
   .button-d0-0-2-10:hover:not([disabled]) {
-    background-color: #f1f3f5;
+    background-color: #bbbbbb;
     border: 1px solid #FFFFFF00;
     color: #333333;
+    opacity: unset;
   }
-  .button-d0-0-2-10:focus:not([disabled]) {
-    background-color: #e9ecef;
+  .button-d0-0-2-10:focus-visible:not([disabled]) {
+    background-color: #777777;
     border: 1px solid #FFFFFF00;
-    color: #333333;
+    color: #ffffff;
+  }
+  .button-d0-0-2-10:active:not([disabled]) {
+    background-color: #777777;
+    border: 1px solid #FFFFFF00;
+    color: #ffffff;
   }
   .labelContainer-d1-0-2-11 {
     flex-direction: row-reverse;
@@ -509,14 +534,20 @@ Array [
     color: #777777;
   }
   .button-d3-0-2-23:hover:not([disabled]) {
-    background-color: #f1f3f5;
+    background-color: #bbbbbb;
     border: 1px solid #FFFFFF00;
     color: #333333;
+    opacity: unset;
   }
-  .button-d3-0-2-23:focus:not([disabled]) {
-    background-color: #e9ecef;
+  .button-d3-0-2-23:focus-visible:not([disabled]) {
+    background-color: #777777;
     border: 1px solid #FFFFFF00;
-    color: #333333;
+    color: #ffffff;
+  }
+  .button-d3-0-2-23:active:not([disabled]) {
+    background-color: #777777;
+    border: 1px solid #FFFFFF00;
+    color: #ffffff;
   }
   .labelContainer-d4-0-2-24 {
     flex-direction: row-reverse;
@@ -529,17 +560,22 @@ Array [
     width: fit-content;
     border: 1px solid #bbbbbb;
     display: flex;
+    overflow: hidden;
     margin-top: 4px;
     border-radius: 4px;
   }
   .buttonGroup-0-2-1 button {  }
   .buttonLeft-0-2-2 {
+    border-top-left-radius: 0;
     border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
   }
   .buttonRight-0-2-3 {
     border-top-left-radius: 0;
+    border-top-right-radius: 0;
     border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
   }
   .inputBase-0-2-4 {
     color: #000000;
@@ -590,7 +626,7 @@ Array [
             />
           </div>
           <button
-            class="button-0-2-7 button-d0-0-2-10 Button-gaya"
+            class="button-0-2-7 button-d0-0-2-10 buttonLeft-0-2-2 Button-gaya"
             data-testid="onDecrement-btn"
             disabled=""
             type="button"
@@ -626,7 +662,7 @@ Array [
             />
           </div>
           <button
-            class="button-0-2-7 button-d3-0-2-23 Button-gaya"
+            class="button-0-2-7 button-d3-0-2-23 buttonRight-0-2-3 Button-gaya"
             data-testid="onIncrement-btn"
             type="button"
           >
@@ -774,7 +810,8 @@ Array [
     box-shadow: none;
   }
   .button-0-2-8:hover:not([disabled]) {  }
-  .button-0-2-8:focus:not([disabled]) {  }
+  .button-0-2-8:focus-visible:not([disabled]) {  }
+  .button-0-2-8:active:not([disabled]) {  }
   .labelContainer-0-2-9 {
     display: flex;
     align-items: center;
@@ -805,14 +842,20 @@ Array [
     color: #777777;
   }
   .button-d0-0-2-11:hover:not([disabled]) {
-    background-color: #f1f3f5;
+    background-color: #bbbbbb;
     border: 1px solid #FFFFFF00;
     color: #333333;
+    opacity: unset;
   }
-  .button-d0-0-2-11:focus:not([disabled]) {
-    background-color: #e9ecef;
+  .button-d0-0-2-11:focus-visible:not([disabled]) {
+    background-color: #777777;
     border: 1px solid #FFFFFF00;
-    color: #333333;
+    color: #ffffff;
+  }
+  .button-d0-0-2-11:active:not([disabled]) {
+    background-color: #777777;
+    border: 1px solid #FFFFFF00;
+    color: #ffffff;
   }
   .labelContainer-d1-0-2-12 {
     flex-direction: row-reverse;
@@ -837,14 +880,20 @@ Array [
     color: #777777;
   }
   .button-d3-0-2-24:hover:not([disabled]) {
-    background-color: #f1f3f5;
+    background-color: #bbbbbb;
     border: 1px solid #FFFFFF00;
     color: #333333;
+    opacity: unset;
   }
-  .button-d3-0-2-24:focus:not([disabled]) {
-    background-color: #e9ecef;
+  .button-d3-0-2-24:focus-visible:not([disabled]) {
+    background-color: #777777;
     border: 1px solid #FFFFFF00;
-    color: #333333;
+    color: #ffffff;
+  }
+  .button-d3-0-2-24:active:not([disabled]) {
+    background-color: #777777;
+    border: 1px solid #FFFFFF00;
+    color: #ffffff;
   }
   .labelContainer-d4-0-2-25 {
     flex-direction: row-reverse;
@@ -857,17 +906,22 @@ Array [
     width: fit-content;
     border: 1px solid #bbbbbb;
     display: flex;
+    overflow: hidden;
     margin-top: 4px;
     border-radius: 4px;
   }
   .buttonGroup-0-2-1 button {  }
   .buttonLeft-0-2-2 {
+    border-top-left-radius: 0;
     border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
   }
   .buttonRight-0-2-3 {
     border-top-left-radius: 0;
+    border-top-right-radius: 0;
     border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
   }
   .inputBase-0-2-4 {
     color: #000000;
@@ -923,7 +977,7 @@ Array [
             />
           </div>
           <button
-            class="button-0-2-8 button-d0-0-2-11 Button-gaya"
+            class="button-0-2-8 button-d0-0-2-11 buttonLeft-0-2-2 Button-gaya"
             data-testid="onDecrement-btn"
             disabled=""
             type="button"
@@ -959,7 +1013,7 @@ Array [
             />
           </div>
           <button
-            class="button-0-2-8 button-d3-0-2-24 Button-gaya"
+            class="button-0-2-8 button-d3-0-2-24 buttonRight-0-2-3 Button-gaya"
             data-testid="onIncrement-btn"
             type="button"
           >

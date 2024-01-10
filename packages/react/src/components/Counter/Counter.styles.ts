@@ -9,6 +9,7 @@ const styles = createUseStyles((theme: Theme) => ({
   buttonGroup: {
     display: 'flex',
     border: `1px solid ${theme.color.lowEmphasis}`,
+    overflow: 'hidden',
     borderRadius: theme.counter.borderRadius,
     marginTop: theme.spacing.micro,
     width: 'fit-content',
@@ -19,11 +20,15 @@ const styles = createUseStyles((theme: Theme) => ({
   },
   buttonLeft: {
     borderBottomRightRadius: 0,
-    borderTopRightRadius: 0
+    borderTopRightRadius: 0,
+    borderBottomLeftRadius: 0,
+    borderTopLeftRadius: 0
   },
   buttonRight: {
     borderBottomLeftRadius: 0,
-    borderTopLeftRadius: 0
+    borderTopLeftRadius: 0,
+    borderBottomRightRadius: 0,
+    borderTopRightRadius: 0
   },
   inputBase: {
     backgroundColor: 'transparent',

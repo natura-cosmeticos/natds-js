@@ -11,6 +11,8 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(({
   children,
   className = '',
   brand,
+  mode = 'light',
+  color,
   textTransform = 'uppercase',
   disabled = false,
   fullWidth = false,
@@ -24,7 +26,9 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(({
 }, ref) => {
   const { button, label, labelContainer } = styles({
     disabled,
+    color,
     brand,
+    mode,
     fullWidth,
     iconPosition,
     size,
@@ -39,7 +43,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(({
   return (
     <Ripple disabled={disabled} fullWidth={fullWidth}>
       <button
-        className={`${button} Button-gaya`}
+        className={`${button} ${className} Button-gaya`}
         data-testid={testID}
         disabled={disabled}
         onClick={onClick}
