@@ -43,7 +43,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(({
   return (
     <Ripple disabled={disabled} fullWidth={fullWidth}>
       <button
-        className={`${button} Button-gaya`}
+        className={`${button} ${className} Button-gaya`}
         data-testid={testID}
         disabled={disabled}
         onClick={onClick}
