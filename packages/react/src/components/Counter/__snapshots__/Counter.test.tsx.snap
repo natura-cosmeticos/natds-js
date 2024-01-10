@@ -217,17 +217,22 @@ Array [
     width: fit-content;
     border: 1px solid #bbbbbb;
     display: flex;
+    overflow: hidden;
     margin-top: 4px;
     border-radius: 4px;
   }
   .buttonGroup-0-2-1 button {  }
   .buttonLeft-0-2-2 {
+    border-top-left-radius: 0;
     border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
   }
   .buttonRight-0-2-3 {
     border-top-left-radius: 0;
+    border-top-right-radius: 0;
     border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
   }
   .inputBase-0-2-4 {
     color: #000000;
@@ -278,7 +283,7 @@ Array [
             />
           </div>
           <button
-            class="button-0-2-7 button-d0-0-2-10 Button-gaya"
+            class="button-0-2-7 button-d0-0-2-10 buttonLeft-0-2-2 Button-gaya"
             data-testid="onDecrement-btn"
             disabled=""
             type="button"
@@ -314,7 +319,7 @@ Array [
             />
           </div>
           <button
-            class="button-0-2-7 button-d3-0-2-23 Button-gaya"
+            class="button-0-2-7 button-d3-0-2-23 buttonRight-0-2-3 Button-gaya"
             data-testid="onIncrement-btn"
             disabled=""
             type="button"
@@ -555,17 +560,22 @@ Array [
     width: fit-content;
     border: 1px solid #bbbbbb;
     display: flex;
+    overflow: hidden;
     margin-top: 4px;
     border-radius: 4px;
   }
   .buttonGroup-0-2-1 button {  }
   .buttonLeft-0-2-2 {
+    border-top-left-radius: 0;
     border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
   }
   .buttonRight-0-2-3 {
     border-top-left-radius: 0;
+    border-top-right-radius: 0;
     border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
   }
   .inputBase-0-2-4 {
     color: #000000;
@@ -616,7 +626,7 @@ Array [
             />
           </div>
           <button
-            class="button-0-2-7 button-d0-0-2-10 Button-gaya"
+            class="button-0-2-7 button-d0-0-2-10 buttonLeft-0-2-2 Button-gaya"
             data-testid="onDecrement-btn"
             disabled=""
             type="button"
@@ -652,7 +662,7 @@ Array [
             />
           </div>
           <button
-            class="button-0-2-7 button-d3-0-2-23 Button-gaya"
+            class="button-0-2-7 button-d3-0-2-23 buttonRight-0-2-3 Button-gaya"
             data-testid="onIncrement-btn"
             type="button"
           >
@@ -896,17 +906,22 @@ Array [
     width: fit-content;
     border: 1px solid #bbbbbb;
     display: flex;
+    overflow: hidden;
     margin-top: 4px;
     border-radius: 4px;
   }
   .buttonGroup-0-2-1 button {  }
   .buttonLeft-0-2-2 {
+    border-top-left-radius: 0;
     border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
   }
   .buttonRight-0-2-3 {
     border-top-left-radius: 0;
+    border-top-right-radius: 0;
     border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
   }
   .inputBase-0-2-4 {
     color: #000000;
@@ -962,7 +977,7 @@ Array [
             />
           </div>
           <button
-            class="button-0-2-8 button-d0-0-2-11 Button-gaya"
+            class="button-0-2-8 button-d0-0-2-11 buttonLeft-0-2-2 Button-gaya"
             data-testid="onDecrement-btn"
             disabled=""
             type="button"
@@ -998,7 +1013,7 @@ Array [
             />
           </div>
           <button
-            class="button-0-2-8 button-d3-0-2-24 Button-gaya"
+            class="button-0-2-8 button-d3-0-2-24 buttonRight-0-2-3 Button-gaya"
             data-testid="onIncrement-btn"
             type="button"
           >
