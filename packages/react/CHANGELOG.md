@@ -5,7 +5,10 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [2.57.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.57.0-alpha.DSY-4005.19.0...@naturacosmeticos/natds-react@2.57.0) (2024-01-10)
 
-**Note:** Version bump only for package @naturacosmeticos/natds-react
+* **natds-react:** added prop color in button
+* **natds-react:** added new icons
+* **natds-react:** adjusted counter border
+* **natds-react:** update theme added new colors
 
 
 
