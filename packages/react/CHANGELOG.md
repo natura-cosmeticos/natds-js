@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.58.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.58.0-alpha.DSY-4260.1.0...@naturacosmeticos/natds-react@2.58.0) (2024-02-20)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-react
+
+
+
+
+
 # [2.57.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.57.0-alpha.DSY-4005.19.0...@naturacosmeticos/natds-react@2.57.0) (2024-01-10)
 
 * **natds-react:** added prop color in button
