@@ -23,10 +23,10 @@ export const getRootStyles: (theme: IThemeWeb) => (ButtonRootStyles) = (theme) =
   if (typeof theme === 'undefined' || typeof theme.sizes === 'undefined' || typeof theme.sizes.small === 'undefined') {
     return {} as ButtonRootStyles
   }
-
   return {
     paddingLeft: theme?.sizes?.small,
-    paddingRight: theme?.sizes?.small
+    paddingRight: theme?.sizes?.small,
+    borderRadius: theme?.shape?.buttonBorderRadius
   } as ButtonRootStyles
 }
 
