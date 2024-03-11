@@ -1,5 +1,7 @@
 import { naturaLight } from './themes/natura/natura-light'
 import { naturaDark } from './themes/natura/natura-dark'
+import { naturaV3Light } from './themes/natura_v3/natura_v3-light'
+import { naturaV3Dark } from './themes/natura_v3/natura_v3-dark'
 import { avonLight } from './themes/avon/avon-light'
 import { avonDark } from './themes/avon/avon-dark'
 import { avonV2Light } from './themes/avon_v2/avon_v2-light'
@@ -25,6 +27,10 @@ export default {
   natura: {
     dark: naturaDark,
     light: naturaLight
+  },
+  natura_v3: {
+    dark: naturaV3Dark,
+    light: naturaV3Light
   },
   theBodyShop: {
     dark: theBodyShopDark,

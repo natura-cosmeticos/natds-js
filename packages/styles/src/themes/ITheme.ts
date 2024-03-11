@@ -21,6 +21,7 @@ export interface ITheme {
   shape?: {
     borderRadius?: number;
     badgeBorderRadius?: number;
+    buttonBorderRadius?: number;
   };
   palette?: {
     type?: 'light' | 'dark';

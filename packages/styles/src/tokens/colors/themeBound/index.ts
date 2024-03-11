@@ -1,5 +1,6 @@
 /* eslint-disable import/prefer-default-export */
 import { naturaDarkColorTokens, naturaLightColorTokens } from './natura'
+import { naturaV3DarkColorTokens, naturaV3LightColorTokens } from './natura_v3'
 import { avonDarkColorTokens, avonLightColorTokens } from './avon'
 import { avonV2DarkColorTokens, avonV2LightColorTokens } from './avon_v2'
 import { theBodyShopDarkColorTokens, theBodyShopLightColorTokens } from './theBodyShop'
@@ -47,6 +48,16 @@ export const colorTokens = {
    * Please use `theme.natura.light.color` from `natds-themes`.
    */
   naturaLightColorTokens,
+  /**
+   * @deprecated `naturaV3DarkColorTokens` are deprecated since v0.20 and will be removed at v1.0.
+   * Please use `theme.natura.light.color` from `natds-themes`.
+   */
+  naturaV3DarkColorTokens,
+  /**
+   * @deprecated `naturaV3LightColorTokens` are deprecated since v0.20 and will be removed at v1.0.
+   * Please use `theme.natura.light.color` from `natds-themes`.
+   */
+  naturaV3LightColorTokens,
 
   /**
    * @deprecated `theBodyShopDarkColorTokens` are deprecated since v0.20 and will be removed at v1.0.
