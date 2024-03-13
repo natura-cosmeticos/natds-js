@@ -54,6 +54,8 @@ export interface IButtonProps extends Omit<ButtonProps, 'translate'> {
    */
   disabled?: ButtonProps['disabled']
 
+  textTransform?:'uppercase' | 'lowercase' | 'capitalize'
+
   /**
    * If `true`, no elevation is used.
    *

@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-filename-extension */
 import * as React from 'react'
 import { CssBaseline } from '../../../src/Components/CssBaseline'
 import { Provider, buildTheme } from '../../../src/Provider'
@@ -11,6 +12,8 @@ const getTheme = (themeKey) => {
     avonV2Light: { brand: 'avon_v2', mode: 'light' },
     naturaDark: { brand: 'natura', mode: 'dark' },
     naturaLight: { brand: 'natura', mode: 'light' },
+    naturaV3Dark: { brand: 'natura_v3', mode: 'dark' },
+    naturaV3Light: { brand: 'natura_v3', mode: 'light' },
     theBodyShopDark: { brand: 'theBodyShop', mode: 'dark' },
     theBodyShopLight: { brand: 'theBodyShop', mode: 'light' },
     aesopDark: { brand: 'aesop', mode: 'dark' },

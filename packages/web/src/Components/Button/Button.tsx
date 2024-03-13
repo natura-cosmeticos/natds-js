@@ -15,11 +15,16 @@ export { IButtonProps } from './Button.props'
  */
 export const Button = React.forwardRef<HTMLButtonElement, IButtonProps>(
   (props: IButtonProps, ref) => {
-    const { classes, disableElevation, ...otherProps } = props
+    const {
+      classes, disableElevation, textTransform, ...otherProps
+    } = props
 
     const mergedClasses = {
       ...classes,
       ...useStyles()
+    }
+    const style = {
+      textTransform
     }
 
     return (
@@ -27,6 +32,7 @@ export const Button = React.forwardRef<HTMLButtonElement, IButtonProps>(
         classes={mergedClasses}
         disableElevation={disableElevation}
         ref={ref}
+        style={style}
         {...otherProps}
       />
     )

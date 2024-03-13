@@ -15,6 +15,11 @@ exports[`Button component when size is large should match snapshot 1`] = `
   onTouchEnd={[Function]}
   onTouchMove={[Function]}
   onTouchStart={[Function]}
+  style={
+    Object {
+      "textTransform": undefined,
+    }
+  }
   tabIndex={0}
   type="button"
 >
@@ -41,6 +46,11 @@ exports[`Button component when size is medium should match snapshot 1`] = `
   onTouchEnd={[Function]}
   onTouchMove={[Function]}
   onTouchStart={[Function]}
+  style={
+    Object {
+      "textTransform": undefined,
+    }
+  }
   tabIndex={0}
   type="button"
 >
@@ -70,6 +80,11 @@ exports[`Button component when size is small should match snapshot 1`] = `
   onTouchEnd={[Function]}
   onTouchMove={[Function]}
   onTouchStart={[Function]}
+  style={
+    Object {
+      "textTransform": undefined,
+    }
+  }
   tabIndex={0}
   type="button"
 >
@@ -96,6 +111,11 @@ exports[`Button component when variant is contained should match snapshot 1`] = 
   onTouchEnd={[Function]}
   onTouchMove={[Function]}
   onTouchStart={[Function]}
+  style={
+    Object {
+      "textTransform": undefined,
+    }
+  }
   tabIndex={0}
   type="button"
 >
@@ -125,6 +145,11 @@ exports[`Button component when variant is outlined should match snapshot 1`] = `
   onTouchEnd={[Function]}
   onTouchMove={[Function]}
   onTouchStart={[Function]}
+  style={
+    Object {
+      "textTransform": undefined,
+    }
+  }
   tabIndex={0}
   type="button"
 >
@@ -151,6 +176,11 @@ exports[`Button component when variant is text should match snapshot 1`] = `
   onTouchEnd={[Function]}
   onTouchMove={[Function]}
   onTouchStart={[Function]}
+  style={
+    Object {
+      "textTransform": undefined,
+    }
+  }
   tabIndex={0}
   type="button"
 >

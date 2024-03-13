@@ -11,6 +11,8 @@ export const globalTypes = {
         { right: '☀️', title: 'Avon_v2 Light', value: 'avonV2Light' },
         { right: '🌑', title: 'Natura Dark', value: 'naturaDark' },
         { right: '☀️', title: 'Natura Light', value: 'naturaLight' },
+        { right: '🌑', title: 'Natura_v3 Dark', value: 'naturaV3Dark' },
+        { right: '☀️', title: 'Natura_v3 Light', value: 'naturaV3Light' },
         { right: '🌑', title: 'The Body Shop Dark', value: 'theBodyShopDark' },
         { right: '☀️', title: 'The Body Shop Light', value: 'theBodyShopLight' },
         { right: '🌑', title: 'Aesop Dark', value: 'aesopDark' },
