@@ -5,7 +5,10 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [4.7.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@4.7.0-alpha.DSY-4312.2.0...@naturacosmeticos/natds-web@4.7.0) (2024-03-13)
 
-**Note:** Version bump only for package @naturacosmeticos/natds-web
+### Features
+* add Natura V3 theme
+* add Prop textTransform
+* add buttonBorderRadius
 
 
 
