@@ -1,10 +1,11 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment */
 /* eslint-disable max-lines-per-function */
 import React from 'react'
+import { natura } from '@naturacosmeticos/natds-themes'
 import { fireEvent, waitFor } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import RatingBase from './RatingBase'
-import mockTheme from '../../ThemeProvider/mock-theme.json'
+// import mockTheme from '../../ThemeProvider/mock-theme.json'
 import renderWithTheme from '../../helpers/renderWithTheme'
 import {
   BaseComponentProps,
@@ -253,7 +254,7 @@ describe('RatingBase', () => {
   })
   describe('getRatingColor', () => {
     it('should return to hex color when icon is activated, filled and not disabled', () => {
-      const result = getRatingColor(mockTheme)({
+      const result = getRatingColor(natura.light)({
         iconFilled: true,
         iconActive: true,
         disabled: false,
@@ -267,7 +268,7 @@ describe('RatingBase', () => {
     })
 
     it('should return to mediumEmphasis color when icon is disabled', () => {
-      const result = getRatingColor(mockTheme)({
+      const result = getRatingColor(natura.light)({
         iconFilled: true,
         iconActive: true,
         disabled: true,
@@ -277,7 +278,7 @@ describe('RatingBase', () => {
         size: 'semi'
       })
 
-      expect(result).toBe('#777777')
+      expect(result).toBe('#737373')
     })
   })
 })
