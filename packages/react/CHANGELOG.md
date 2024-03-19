@@ -5,7 +5,9 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [2.58.1](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.58.1-alpha.DSY-4340.1.0...@naturacosmeticos/natds-react@2.58.1) (2024-03-19)
 
-**Note:** Version bump only for package @naturacosmeticos/natds-react
+* **natds-react:** added update themes
+* **natds-react:** added natura V3
+* **natds-react:** show new color feedback
 
 
 
