@@ -41,7 +41,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(({
   const iconColor = theme.button[variant].color.enable.label as IconColor
 
   return (
-    <Ripple disabled={disabled} fullWidth={fullWidth}>
+    <Ripple brand={brand} disabled={disabled} fullWidth={fullWidth}>
       <button
         className={`${button} ${className} Button-gaya`}
         data-testid={testID}
