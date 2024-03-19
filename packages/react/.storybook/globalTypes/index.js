@@ -12,6 +12,7 @@ export const globalTypes = {
         { value: 'theBodyShop', title: 'The Body Shop' },
         { value: 'consultoriaDeBeleza', title: 'Consultoria de Beleza' },
         { value: 'natura_v2', title: 'Natura V2' },
+        { value: 'natura_v3', title: 'Natura V3' },
         { value: 'casaEestilo', title: 'Casa & Estilo' },
         { value: 'avon_v2', title: 'Avon V2' },
       ],
