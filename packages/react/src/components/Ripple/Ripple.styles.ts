@@ -15,6 +15,17 @@ const getColorThemeRipple = (theme: Theme) => ({ brand, color }: Pick<RippleStyl
   }
   return color && theme.color[color]
 }
+const getPropsThemeRipple = (theme: Theme) => ({ brand }: Pick<RippleStyleProps, 'brand' >) => {
+  if (brand) {
+    const themeSelectdRipple = buildTheme(brand, 'light')
+    return {
+      buttonborderRadius: themeSelectdRipple.button.borderRadius
+    }
+  }
+  return {
+    buttonborderRadius: theme.button.borderRadius
+  }
+}
 
 const styles = createUseStyles((theme: Theme) => ({
   sharedRippleEffect: {
@@ -60,7 +71,8 @@ const styles = createUseStyles((theme: Theme) => ({
   rippleContainer: {
     inset: 0,
     overflow: ({ hideOverflow }: RippleStyleProps) => (hideOverflow && 'hidden'),
-    position: 'absolute'
+    position: 'absolute',
+    borderRadius: ({ brand }: RippleStyleProps) => getPropsThemeRipple(theme)({ brand }).buttonborderRadius
   },
   rippleActive: {
     animation: ({ animationDuration }) => `$ripple ${animationDuration}ms`,
