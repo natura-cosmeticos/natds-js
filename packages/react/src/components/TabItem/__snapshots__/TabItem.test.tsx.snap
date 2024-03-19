@@ -68,14 +68,14 @@ Array [
     align-self: stretch;
   }
   .wrapper-d0-0-2-11:focus:after {
-    background-color: #000000;
+    background-color: #111111;
   }
   .wrapper-d0-0-2-11:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d1-0-2-12 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 50%;
     top: 50%;
@@ -84,6 +84,7 @@ Array [
   }
   .rippleContainer-d2-0-2-13 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d3-0-2-14 {
     animation: keyframes-ripple-0-2-10 300ms;
@@ -98,7 +99,7 @@ Array [
     height: 100%;
   }
   .wrapper-0-2-1:hover {
-    background: #00000029;
+    background: #11111129;
   }
   .tabButton-0-2-2 {
     gap: 8px;
@@ -116,10 +117,10 @@ Array [
   .tabButton-d1-0-2-4 {
     cursor: pointer;
     pointer-events: auto;
-    color: #777777;
+    color: #737373;
   }
   .tabButton-d1-0-2-4 i {
-    color: #777777;
+    color: #737373;
   }",
   <div>
     <li

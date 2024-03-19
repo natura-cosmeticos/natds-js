@@ -67,14 +67,14 @@ Array [
     align-self: start;
   }
   .wrapper-d0-0-2-7:focus:after {
-    background-color: #000000;
+    background-color: #111111;
   }
   .wrapper-d0-0-2-7:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d1-0-2-8 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 0;
     top: 0;
@@ -83,6 +83,7 @@ Array [
   }
   .rippleContainer-d2-0-2-9 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d3-0-2-10 {
     animation: keyframes-ripple-0-2-6 300ms;

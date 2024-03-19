@@ -8,7 +8,7 @@ describe('Icon component', () => {
     const { styles, component: { getByTestId } } = renderWithTheme(<Icon name="outlined-default-mockup" />)
     const component = getByTestId(/mockup/)
 
-    expect(component).toHaveStyle({ fontSize: 24, color: '#000000' })
+    expect(component).toHaveStyle({ fontSize: 24, color: '#111111' })
     expect([styles.toString(), component]).toMatchSnapshot()
   })
   it('should render correctly with `medium` size', () => {

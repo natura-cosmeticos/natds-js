@@ -8,7 +8,7 @@ Array [
   pointer-events: none;
 }
 .icon-d0-0-2-23 {
-  color: #000000;
+  color: #111111;
   font-size: 32px;
 }
 .sharedRippleEffect-0-2-12 {
@@ -77,11 +77,11 @@ Array [
   }
   .wrapper-d0-0-2-18:focus:after {  }
   .wrapper-d0-0-2-18:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d1-0-2-19 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 50%;
     top: 50%;
@@ -90,6 +90,7 @@ Array [
   }
   .rippleContainer-d2-0-2-20 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d3-0-2-21 {
     animation: keyframes-ripple-0-2-17 300ms;
@@ -125,7 +126,7 @@ Array [
     opacity: 0;
     position: absolute;
     border-radius: 50%;
-    background-color: #000000;
+    background-color: #111111;
   }
   .ratingIcon-0-2-8:hover:not([disabled]):after {
     opacity: 0.04;
@@ -150,7 +151,7 @@ Array [
     order: 1;
   }
   .labelText-0-2-3 {
-    color: #777777;
+    color: #737373;
   }
   .labelText-d0-0-2-4 {
     font-family: Roboto, Arial;
@@ -166,7 +167,7 @@ Array [
     order: 2;
   }
   .labelContainer-0-2-24 {
-    color: #000000;
+    color: #111111;
     font-family: \\"Roboto\\", Arial;
   }",
   <div>
@@ -229,7 +230,7 @@ Array [
   pointer-events: none;
 }
 .icon-d0-0-2-23 {
-  color: #000000;
+  color: #111111;
   font-size: 32px;
 }
 .sharedRippleEffect-0-2-12 {
@@ -298,11 +299,11 @@ Array [
   }
   .wrapper-d0-0-2-18:focus:after {  }
   .wrapper-d0-0-2-18:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d1-0-2-19 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 50%;
     top: 50%;
@@ -311,6 +312,7 @@ Array [
   }
   .rippleContainer-d2-0-2-20 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d3-0-2-21 {
     animation: keyframes-ripple-0-2-17 300ms;
@@ -346,7 +348,7 @@ Array [
     opacity: 0;
     position: absolute;
     border-radius: 50%;
-    background-color: #000000;
+    background-color: #111111;
   }
   .ratingIcon-0-2-8:hover:not([disabled]):after {
     opacity: 0.04;
@@ -371,7 +373,7 @@ Array [
     order: 2;
   }
   .labelText-0-2-3 {
-    color: #777777;
+    color: #737373;
   }
   .labelText-d0-0-2-4 {
     font-family: Roboto, Arial;
@@ -387,7 +389,7 @@ Array [
     order: 2;
   }
   .labelContainer-0-2-24 {
-    color: #000000;
+    color: #111111;
     font-family: \\"Roboto\\", Arial;
   }",
   <div>
@@ -450,23 +452,23 @@ Array [
   pointer-events: none;
 }
 .icon-d0-0-2-23 {
-  color: #000000;
+  color: #111111;
   font-size: 32px;
 }
 .icon-d1-0-2-30 {
-  color: #000000;
+  color: #111111;
   font-size: 32px;
 }
 .icon-d2-0-2-37 {
-  color: #000000;
+  color: #111111;
   font-size: 32px;
 }
 .icon-d3-0-2-44 {
-  color: #000000;
+  color: #111111;
   font-size: 32px;
 }
 .icon-d4-0-2-51 {
-  color: #000000;
+  color: #111111;
   font-size: 32px;
 }
 .sharedRippleEffect-0-2-12 {
@@ -534,14 +536,14 @@ Array [
     align-self: start;
   }
   .wrapper-d0-0-2-18:focus:after {
-    background-color: #000000;
+    background-color: #111111;
   }
   .wrapper-d0-0-2-18:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d1-0-2-19 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 50%;
     top: 50%;
@@ -550,6 +552,7 @@ Array [
   }
   .rippleContainer-d2-0-2-20 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d3-0-2-21 {
     animation: keyframes-ripple-0-2-17 300ms;
@@ -560,14 +563,14 @@ Array [
     align-self: start;
   }
   .wrapper-d4-0-2-26:focus:after {
-    background-color: #000000;
+    background-color: #111111;
   }
   .wrapper-d4-0-2-26:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d5-0-2-27 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 50%;
     top: 50%;
@@ -576,6 +579,7 @@ Array [
   }
   .rippleContainer-d6-0-2-28 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d7-0-2-29 {
     animation: keyframes-ripple-0-2-17 300ms;
@@ -586,14 +590,14 @@ Array [
     align-self: start;
   }
   .wrapper-d8-0-2-33:focus:after {
-    background-color: #000000;
+    background-color: #111111;
   }
   .wrapper-d8-0-2-33:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d9-0-2-34 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 50%;
     top: 50%;
@@ -602,6 +606,7 @@ Array [
   }
   .rippleContainer-d10-0-2-35 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d11-0-2-36 {
     animation: keyframes-ripple-0-2-17 300ms;
@@ -612,14 +617,14 @@ Array [
     align-self: start;
   }
   .wrapper-d12-0-2-40:focus:after {
-    background-color: #000000;
+    background-color: #111111;
   }
   .wrapper-d12-0-2-40:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d13-0-2-41 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 50%;
     top: 50%;
@@ -628,6 +633,7 @@ Array [
   }
   .rippleContainer-d14-0-2-42 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d15-0-2-43 {
     animation: keyframes-ripple-0-2-17 300ms;
@@ -638,14 +644,14 @@ Array [
     align-self: start;
   }
   .wrapper-d16-0-2-47:focus:after {
-    background-color: #000000;
+    background-color: #111111;
   }
   .wrapper-d16-0-2-47:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d17-0-2-48 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 50%;
     top: 50%;
@@ -654,6 +660,7 @@ Array [
   }
   .rippleContainer-d18-0-2-49 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d19-0-2-50 {
     animation: keyframes-ripple-0-2-17 300ms;
@@ -705,7 +712,7 @@ Array [
     opacity: 0;
     position: absolute;
     border-radius: 50%;
-    background-color: #000000;
+    background-color: #111111;
   }
   .ratingIcon-0-2-8:hover:not([disabled]):after {
     opacity: 0.04;
@@ -717,27 +724,27 @@ Array [
   .ratingIcon-d0-0-2-9 {  }
   .ratingIcon-d0-0-2-9 > i {
     cursor: pointer;
-    color: #777777;
+    color: #737373;
   }
   .ratingIcon-d1-0-2-24 {  }
   .ratingIcon-d1-0-2-24 > i {
     cursor: pointer;
-    color: #777777;
+    color: #737373;
   }
   .ratingIcon-d2-0-2-31 {  }
   .ratingIcon-d2-0-2-31 > i {
     cursor: pointer;
-    color: #777777;
+    color: #737373;
   }
   .ratingIcon-d3-0-2-38 {  }
   .ratingIcon-d3-0-2-38 > i {
     cursor: pointer;
-    color: #777777;
+    color: #737373;
   }
   .ratingIcon-d4-0-2-45 {  }
   .ratingIcon-d4-0-2-45 > i {
     cursor: pointer;
-    color: #777777;
+    color: #737373;
   }
   .container-0-2-1 {
     display: flex;
@@ -751,7 +758,7 @@ Array [
     order: 1;
   }
   .labelText-0-2-3 {
-    color: #777777;
+    color: #737373;
   }
   .labelText-d0-0-2-4 {
     font-family: Roboto, Arial;
@@ -765,7 +772,7 @@ Array [
   }
   .rating-d0-0-2-6 {  }
   .labelContainer-0-2-52 {
-    color: #000000;
+    color: #111111;
     font-family: \\"Roboto\\", Arial;
   }",
   <div>
@@ -959,23 +966,23 @@ Array [
   pointer-events: none;
 }
 .icon-d0-0-2-23 {
-  color: #000000;
+  color: #111111;
   font-size: 32px;
 }
 .icon-d1-0-2-30 {
-  color: #000000;
+  color: #111111;
   font-size: 32px;
 }
 .icon-d2-0-2-37 {
-  color: #000000;
+  color: #111111;
   font-size: 32px;
 }
 .icon-d3-0-2-44 {
-  color: #000000;
+  color: #111111;
   font-size: 32px;
 }
 .icon-d4-0-2-51 {
-  color: #000000;
+  color: #111111;
   font-size: 32px;
 }
 .sharedRippleEffect-0-2-12 {
@@ -1044,11 +1051,11 @@ Array [
   }
   .wrapper-d0-0-2-18:focus:after {  }
   .wrapper-d0-0-2-18:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d1-0-2-19 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 50%;
     top: 50%;
@@ -1057,6 +1064,7 @@ Array [
   }
   .rippleContainer-d2-0-2-20 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d3-0-2-21 {
     animation: keyframes-ripple-0-2-17 300ms;
@@ -1068,11 +1076,11 @@ Array [
   }
   .wrapper-d4-0-2-26:focus:after {  }
   .wrapper-d4-0-2-26:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d5-0-2-27 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 50%;
     top: 50%;
@@ -1081,6 +1089,7 @@ Array [
   }
   .rippleContainer-d6-0-2-28 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d7-0-2-29 {
     animation: keyframes-ripple-0-2-17 300ms;
@@ -1092,11 +1101,11 @@ Array [
   }
   .wrapper-d8-0-2-33:focus:after {  }
   .wrapper-d8-0-2-33:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d9-0-2-34 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 50%;
     top: 50%;
@@ -1105,6 +1114,7 @@ Array [
   }
   .rippleContainer-d10-0-2-35 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d11-0-2-36 {
     animation: keyframes-ripple-0-2-17 300ms;
@@ -1116,11 +1126,11 @@ Array [
   }
   .wrapper-d12-0-2-40:focus:after {  }
   .wrapper-d12-0-2-40:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d13-0-2-41 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 50%;
     top: 50%;
@@ -1129,6 +1139,7 @@ Array [
   }
   .rippleContainer-d14-0-2-42 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d15-0-2-43 {
     animation: keyframes-ripple-0-2-17 300ms;
@@ -1140,11 +1151,11 @@ Array [
   }
   .wrapper-d16-0-2-47:focus:after {  }
   .wrapper-d16-0-2-47:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d17-0-2-48 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 50%;
     top: 50%;
@@ -1153,6 +1164,7 @@ Array [
   }
   .rippleContainer-d18-0-2-49 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d19-0-2-50 {
     animation: keyframes-ripple-0-2-17 300ms;
@@ -1204,7 +1216,7 @@ Array [
     opacity: 0;
     position: absolute;
     border-radius: 50%;
-    background-color: #000000;
+    background-color: #111111;
   }
   .ratingIcon-0-2-8:hover:not([disabled]):after {
     opacity: 0.04;
@@ -1215,23 +1227,23 @@ Array [
   .ratingIcon-0-2-8 > i {  }
   .ratingIcon-d0-0-2-9 {  }
   .ratingIcon-d0-0-2-9 > i {
-    color: #777777;
+    color: #737373;
   }
   .ratingIcon-d1-0-2-24 {  }
   .ratingIcon-d1-0-2-24 > i {
-    color: #777777;
+    color: #737373;
   }
   .ratingIcon-d2-0-2-31 {  }
   .ratingIcon-d2-0-2-31 > i {
-    color: #777777;
+    color: #737373;
   }
   .ratingIcon-d3-0-2-38 {  }
   .ratingIcon-d3-0-2-38 > i {
-    color: #777777;
+    color: #737373;
   }
   .ratingIcon-d4-0-2-45 {  }
   .ratingIcon-d4-0-2-45 > i {
-    color: #777777;
+    color: #737373;
   }
   .container-0-2-1 {
     display: flex;
@@ -1245,7 +1257,7 @@ Array [
     order: 1;
   }
   .labelText-0-2-3 {
-    color: #777777;
+    color: #737373;
   }
   .labelText-d0-0-2-4 {
     font-family: Roboto, Arial;
@@ -1259,7 +1271,7 @@ Array [
   }
   .rating-d0-0-2-6 {  }
   .labelContainer-0-2-52 {
-    color: #000000;
+    color: #111111;
     font-family: \\"Roboto\\", Arial;
   }",
   <div>
@@ -1458,23 +1470,23 @@ Array [
   pointer-events: none;
 }
 .icon-d0-0-2-23 {
-  color: #000000;
+  color: #111111;
   font-size: 32px;
 }
 .icon-d1-0-2-30 {
-  color: #000000;
+  color: #111111;
   font-size: 32px;
 }
 .icon-d2-0-2-37 {
-  color: #000000;
+  color: #111111;
   font-size: 32px;
 }
 .icon-d3-0-2-44 {
-  color: #000000;
+  color: #111111;
   font-size: 32px;
 }
 .icon-d4-0-2-51 {
-  color: #000000;
+  color: #111111;
   font-size: 32px;
 }
 .sharedRippleEffect-0-2-12 {
@@ -1542,14 +1554,14 @@ Array [
     align-self: start;
   }
   .wrapper-d0-0-2-18:focus:after {
-    background-color: #000000;
+    background-color: #111111;
   }
   .wrapper-d0-0-2-18:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d1-0-2-19 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 50%;
     top: 50%;
@@ -1558,6 +1570,7 @@ Array [
   }
   .rippleContainer-d2-0-2-20 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d3-0-2-21 {
     animation: keyframes-ripple-0-2-17 300ms;
@@ -1568,14 +1581,14 @@ Array [
     align-self: start;
   }
   .wrapper-d4-0-2-26:focus:after {
-    background-color: #000000;
+    background-color: #111111;
   }
   .wrapper-d4-0-2-26:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d5-0-2-27 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 50%;
     top: 50%;
@@ -1584,6 +1597,7 @@ Array [
   }
   .rippleContainer-d6-0-2-28 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d7-0-2-29 {
     animation: keyframes-ripple-0-2-17 300ms;
@@ -1594,14 +1608,14 @@ Array [
     align-self: start;
   }
   .wrapper-d8-0-2-33:focus:after {
-    background-color: #000000;
+    background-color: #111111;
   }
   .wrapper-d8-0-2-33:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d9-0-2-34 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 50%;
     top: 50%;
@@ -1610,6 +1624,7 @@ Array [
   }
   .rippleContainer-d10-0-2-35 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d11-0-2-36 {
     animation: keyframes-ripple-0-2-17 300ms;
@@ -1620,14 +1635,14 @@ Array [
     align-self: start;
   }
   .wrapper-d12-0-2-40:focus:after {
-    background-color: #000000;
+    background-color: #111111;
   }
   .wrapper-d12-0-2-40:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d13-0-2-41 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 50%;
     top: 50%;
@@ -1636,6 +1651,7 @@ Array [
   }
   .rippleContainer-d14-0-2-42 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d15-0-2-43 {
     animation: keyframes-ripple-0-2-17 300ms;
@@ -1646,14 +1662,14 @@ Array [
     align-self: start;
   }
   .wrapper-d16-0-2-47:focus:after {
-    background-color: #000000;
+    background-color: #111111;
   }
   .wrapper-d16-0-2-47:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d17-0-2-48 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 50%;
     top: 50%;
@@ -1662,6 +1678,7 @@ Array [
   }
   .rippleContainer-d18-0-2-49 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d19-0-2-50 {
     animation: keyframes-ripple-0-2-17 300ms;
@@ -1713,7 +1730,7 @@ Array [
     opacity: 0;
     position: absolute;
     border-radius: 50%;
-    background-color: #000000;
+    background-color: #111111;
   }
   .ratingIcon-0-2-8:hover:not([disabled]):after {
     opacity: 0.04;
@@ -1725,27 +1742,27 @@ Array [
   .ratingIcon-d0-0-2-9 {  }
   .ratingIcon-d0-0-2-9 > i {
     cursor: pointer;
-    color: #777777;
+    color: #737373;
   }
   .ratingIcon-d1-0-2-24 {  }
   .ratingIcon-d1-0-2-24 > i {
     cursor: pointer;
-    color: #777777;
+    color: #737373;
   }
   .ratingIcon-d2-0-2-31 {  }
   .ratingIcon-d2-0-2-31 > i {
     cursor: pointer;
-    color: #777777;
+    color: #737373;
   }
   .ratingIcon-d3-0-2-38 {  }
   .ratingIcon-d3-0-2-38 > i {
     cursor: pointer;
-    color: #777777;
+    color: #737373;
   }
   .ratingIcon-d4-0-2-45 {  }
   .ratingIcon-d4-0-2-45 > i {
     cursor: pointer;
-    color: #777777;
+    color: #737373;
   }
   .container-0-2-1 {
     display: flex;
@@ -1759,7 +1776,7 @@ Array [
     order: 1;
   }
   .labelText-0-2-3 {
-    color: #777777;
+    color: #737373;
   }
   .labelText-d0-0-2-4 {
     font-family: Roboto, Arial;
@@ -1773,7 +1790,7 @@ Array [
   }
   .rating-d0-0-2-6 {  }
   .labelContainer-0-2-52 {
-    color: #000000;
+    color: #111111;
     font-family: \\"Roboto\\", Arial;
   }",
   <div>
@@ -1967,23 +1984,23 @@ Array [
   pointer-events: none;
 }
 .icon-d0-0-2-23 {
-  color: #000000;
+  color: #111111;
   font-size: 32px;
 }
 .icon-d1-0-2-30 {
-  color: #000000;
+  color: #111111;
   font-size: 32px;
 }
 .icon-d2-0-2-37 {
-  color: #000000;
+  color: #111111;
   font-size: 32px;
 }
 .icon-d3-0-2-44 {
-  color: #000000;
+  color: #111111;
   font-size: 32px;
 }
 .icon-d4-0-2-51 {
-  color: #000000;
+  color: #111111;
   font-size: 32px;
 }
 .sharedRippleEffect-0-2-12 {
@@ -2051,14 +2068,14 @@ Array [
     align-self: start;
   }
   .wrapper-d0-0-2-18:focus:after {
-    background-color: #000000;
+    background-color: #111111;
   }
   .wrapper-d0-0-2-18:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d1-0-2-19 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 50%;
     top: 50%;
@@ -2067,6 +2084,7 @@ Array [
   }
   .rippleContainer-d2-0-2-20 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d3-0-2-21 {
     animation: keyframes-ripple-0-2-17 300ms;
@@ -2077,14 +2095,14 @@ Array [
     align-self: start;
   }
   .wrapper-d4-0-2-26:focus:after {
-    background-color: #000000;
+    background-color: #111111;
   }
   .wrapper-d4-0-2-26:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d5-0-2-27 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 50%;
     top: 50%;
@@ -2093,6 +2111,7 @@ Array [
   }
   .rippleContainer-d6-0-2-28 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d7-0-2-29 {
     animation: keyframes-ripple-0-2-17 300ms;
@@ -2103,14 +2122,14 @@ Array [
     align-self: start;
   }
   .wrapper-d8-0-2-33:focus:after {
-    background-color: #000000;
+    background-color: #111111;
   }
   .wrapper-d8-0-2-33:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d9-0-2-34 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 50%;
     top: 50%;
@@ -2119,6 +2138,7 @@ Array [
   }
   .rippleContainer-d10-0-2-35 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d11-0-2-36 {
     animation: keyframes-ripple-0-2-17 300ms;
@@ -2129,14 +2149,14 @@ Array [
     align-self: start;
   }
   .wrapper-d12-0-2-40:focus:after {
-    background-color: #000000;
+    background-color: #111111;
   }
   .wrapper-d12-0-2-40:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d13-0-2-41 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 50%;
     top: 50%;
@@ -2145,6 +2165,7 @@ Array [
   }
   .rippleContainer-d14-0-2-42 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d15-0-2-43 {
     animation: keyframes-ripple-0-2-17 300ms;
@@ -2155,14 +2176,14 @@ Array [
     align-self: start;
   }
   .wrapper-d16-0-2-47:focus:after {
-    background-color: #000000;
+    background-color: #111111;
   }
   .wrapper-d16-0-2-47:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d17-0-2-48 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 50%;
     top: 50%;
@@ -2171,6 +2192,7 @@ Array [
   }
   .rippleContainer-d18-0-2-49 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d19-0-2-50 {
     animation: keyframes-ripple-0-2-17 300ms;
@@ -2222,7 +2244,7 @@ Array [
     opacity: 0;
     position: absolute;
     border-radius: 50%;
-    background-color: #000000;
+    background-color: #111111;
   }
   .ratingIcon-0-2-8:hover:not([disabled]):after {
     opacity: 0.04;
@@ -2234,27 +2256,27 @@ Array [
   .ratingIcon-d0-0-2-9 {  }
   .ratingIcon-d0-0-2-9 > i {
     cursor: pointer;
-    color: #777777;
+    color: #737373;
   }
   .ratingIcon-d1-0-2-24 {  }
   .ratingIcon-d1-0-2-24 > i {
     cursor: pointer;
-    color: #777777;
+    color: #737373;
   }
   .ratingIcon-d2-0-2-31 {  }
   .ratingIcon-d2-0-2-31 > i {
     cursor: pointer;
-    color: #777777;
+    color: #737373;
   }
   .ratingIcon-d3-0-2-38 {  }
   .ratingIcon-d3-0-2-38 > i {
     cursor: pointer;
-    color: #777777;
+    color: #737373;
   }
   .ratingIcon-d4-0-2-45 {  }
   .ratingIcon-d4-0-2-45 > i {
     cursor: pointer;
-    color: #777777;
+    color: #737373;
   }
   .container-0-2-1 {
     display: flex;
@@ -2268,7 +2290,7 @@ Array [
     order: 1;
   }
   .labelText-0-2-3 {
-    color: #777777;
+    color: #737373;
   }
   .labelText-d0-0-2-4 {
     font-family: Roboto, Arial;
@@ -2282,7 +2304,7 @@ Array [
   }
   .rating-d0-0-2-6 {  }
   .labelContainer-0-2-52 {
-    color: #000000;
+    color: #111111;
     font-family: \\"Roboto\\", Arial;
   }",
   <div>
@@ -2476,23 +2498,23 @@ Array [
   pointer-events: none;
 }
 .icon-d0-0-2-21 {
-  color: #000000;
+  color: #111111;
   font-size: 32px;
 }
 .icon-d1-0-2-28 {
-  color: #000000;
+  color: #111111;
   font-size: 32px;
 }
 .icon-d2-0-2-35 {
-  color: #000000;
+  color: #111111;
   font-size: 32px;
 }
 .icon-d3-0-2-42 {
-  color: #000000;
+  color: #111111;
   font-size: 32px;
 }
 .icon-d4-0-2-49 {
-  color: #000000;
+  color: #111111;
   font-size: 32px;
 }
 .sharedRippleEffect-0-2-10 {
@@ -2561,11 +2583,11 @@ Array [
   }
   .wrapper-d0-0-2-16:focus:after {  }
   .wrapper-d0-0-2-16:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d1-0-2-17 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 50%;
     top: 50%;
@@ -2574,6 +2596,7 @@ Array [
   }
   .rippleContainer-d2-0-2-18 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d3-0-2-19 {
     animation: keyframes-ripple-0-2-15 300ms;
@@ -2585,11 +2608,11 @@ Array [
   }
   .wrapper-d4-0-2-24:focus:after {  }
   .wrapper-d4-0-2-24:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d5-0-2-25 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 50%;
     top: 50%;
@@ -2598,6 +2621,7 @@ Array [
   }
   .rippleContainer-d6-0-2-26 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d7-0-2-27 {
     animation: keyframes-ripple-0-2-15 300ms;
@@ -2609,11 +2633,11 @@ Array [
   }
   .wrapper-d8-0-2-31:focus:after {  }
   .wrapper-d8-0-2-31:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d9-0-2-32 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 50%;
     top: 50%;
@@ -2622,6 +2646,7 @@ Array [
   }
   .rippleContainer-d10-0-2-33 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d11-0-2-34 {
     animation: keyframes-ripple-0-2-15 300ms;
@@ -2633,11 +2658,11 @@ Array [
   }
   .wrapper-d12-0-2-38:focus:after {  }
   .wrapper-d12-0-2-38:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d13-0-2-39 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 50%;
     top: 50%;
@@ -2646,6 +2671,7 @@ Array [
   }
   .rippleContainer-d14-0-2-40 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d15-0-2-41 {
     animation: keyframes-ripple-0-2-15 300ms;
@@ -2657,11 +2683,11 @@ Array [
   }
   .wrapper-d16-0-2-45:focus:after {  }
   .wrapper-d16-0-2-45:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d17-0-2-46 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 50%;
     top: 50%;
@@ -2670,6 +2696,7 @@ Array [
   }
   .rippleContainer-d18-0-2-47 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d19-0-2-48 {
     animation: keyframes-ripple-0-2-15 300ms;
@@ -2721,7 +2748,7 @@ Array [
     opacity: 0;
     position: absolute;
     border-radius: 50%;
-    background-color: #000000;
+    background-color: #111111;
   }
   .ratingIcon-0-2-6:hover:not([disabled]):after {
     opacity: 0.04;
@@ -2732,23 +2759,23 @@ Array [
   .ratingIcon-0-2-6 > i {  }
   .ratingIcon-d0-0-2-7 {  }
   .ratingIcon-d0-0-2-7 > i {
-    color: #777777;
+    color: #737373;
   }
   .ratingIcon-d1-0-2-22 {  }
   .ratingIcon-d1-0-2-22 > i {
-    color: #777777;
+    color: #737373;
   }
   .ratingIcon-d2-0-2-29 {  }
   .ratingIcon-d2-0-2-29 > i {
-    color: #777777;
+    color: #737373;
   }
   .ratingIcon-d3-0-2-36 {  }
   .ratingIcon-d3-0-2-36 > i {
-    color: #777777;
+    color: #737373;
   }
   .ratingIcon-d4-0-2-43 {  }
   .ratingIcon-d4-0-2-43 > i {
-    color: #777777;
+    color: #737373;
   }
   .container-0-2-1 {
     display: flex;
@@ -2957,23 +2984,23 @@ Array [
   pointer-events: none;
 }
 .icon-d0-0-2-21 {
-  color: #000000;
+  color: #111111;
   font-size: 32px;
 }
 .icon-d1-0-2-28 {
-  color: #000000;
+  color: #111111;
   font-size: 32px;
 }
 .icon-d2-0-2-35 {
-  color: #000000;
+  color: #111111;
   font-size: 32px;
 }
 .icon-d3-0-2-42 {
-  color: #000000;
+  color: #111111;
   font-size: 32px;
 }
 .icon-d4-0-2-49 {
-  color: #000000;
+  color: #111111;
   font-size: 32px;
 }
 .sharedRippleEffect-0-2-10 {
@@ -3042,11 +3069,11 @@ Array [
   }
   .wrapper-d0-0-2-16:focus:after {  }
   .wrapper-d0-0-2-16:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d1-0-2-17 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 50%;
     top: 50%;
@@ -3055,6 +3082,7 @@ Array [
   }
   .rippleContainer-d2-0-2-18 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d3-0-2-19 {
     animation: keyframes-ripple-0-2-15 300ms;
@@ -3066,11 +3094,11 @@ Array [
   }
   .wrapper-d4-0-2-24:focus:after {  }
   .wrapper-d4-0-2-24:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d5-0-2-25 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 50%;
     top: 50%;
@@ -3079,6 +3107,7 @@ Array [
   }
   .rippleContainer-d6-0-2-26 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d7-0-2-27 {
     animation: keyframes-ripple-0-2-15 300ms;
@@ -3090,11 +3119,11 @@ Array [
   }
   .wrapper-d8-0-2-31:focus:after {  }
   .wrapper-d8-0-2-31:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d9-0-2-32 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 50%;
     top: 50%;
@@ -3103,6 +3132,7 @@ Array [
   }
   .rippleContainer-d10-0-2-33 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d11-0-2-34 {
     animation: keyframes-ripple-0-2-15 300ms;
@@ -3114,11 +3144,11 @@ Array [
   }
   .wrapper-d12-0-2-38:focus:after {  }
   .wrapper-d12-0-2-38:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d13-0-2-39 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 50%;
     top: 50%;
@@ -3127,6 +3157,7 @@ Array [
   }
   .rippleContainer-d14-0-2-40 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d15-0-2-41 {
     animation: keyframes-ripple-0-2-15 300ms;
@@ -3138,11 +3169,11 @@ Array [
   }
   .wrapper-d16-0-2-45:focus:after {  }
   .wrapper-d16-0-2-45:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d17-0-2-46 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 50%;
     top: 50%;
@@ -3151,6 +3182,7 @@ Array [
   }
   .rippleContainer-d18-0-2-47 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d19-0-2-48 {
     animation: keyframes-ripple-0-2-15 300ms;
@@ -3202,7 +3234,7 @@ Array [
     opacity: 0;
     position: absolute;
     border-radius: 50%;
-    background-color: #000000;
+    background-color: #111111;
   }
   .ratingIcon-0-2-6:hover:not([disabled]):after {
     opacity: 0.04;
@@ -3225,11 +3257,11 @@ Array [
   }
   .ratingIcon-d3-0-2-36 {  }
   .ratingIcon-d3-0-2-36 > i {
-    color: #777777;
+    color: #737373;
   }
   .ratingIcon-d4-0-2-43 {  }
   .ratingIcon-d4-0-2-43 > i {
-    color: #777777;
+    color: #737373;
   }
   .container-0-2-1 {
     display: flex;
@@ -3438,7 +3470,7 @@ Array [
   pointer-events: none;
 }
 .icon-d0-0-2-17 {
-  color: #000000;
+  color: #111111;
   font-size: 32px;
 }
 .sharedRippleEffect-0-2-6 {
@@ -3507,11 +3539,11 @@ Array [
   }
   .wrapper-d0-0-2-12:focus:after {  }
   .wrapper-d0-0-2-12:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d1-0-2-13 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 50%;
     top: 50%;
@@ -3520,6 +3552,7 @@ Array [
   }
   .rippleContainer-d2-0-2-14 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d3-0-2-15 {
     animation: keyframes-ripple-0-2-11 300ms;
@@ -3555,7 +3588,7 @@ Array [
     opacity: 0;
     position: absolute;
     border-radius: 50%;
-    background-color: #000000;
+    background-color: #111111;
   }
   .ratingIcon-0-2-2:hover:not([disabled]):after {
     opacity: 0.04;
@@ -3566,7 +3599,7 @@ Array [
   .ratingIcon-0-2-2 > i {  }
   .ratingIcon-d0-0-2-3 {  }
   .ratingIcon-d0-0-2-3 > i {
-    color: #777777;
+    color: #737373;
   }",
   <div>
     <div
@@ -3613,7 +3646,7 @@ Array [
   pointer-events: none;
 }
 .icon-d0-0-2-17 {
-  color: #000000;
+  color: #111111;
   font-size: 32px;
 }
 .sharedRippleEffect-0-2-6 {
@@ -3682,11 +3715,11 @@ Array [
   }
   .wrapper-d0-0-2-12:focus:after {  }
   .wrapper-d0-0-2-12:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d1-0-2-13 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 50%;
     top: 50%;
@@ -3695,6 +3728,7 @@ Array [
   }
   .rippleContainer-d2-0-2-14 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d3-0-2-15 {
     animation: keyframes-ripple-0-2-11 300ms;
@@ -3730,7 +3764,7 @@ Array [
     opacity: 0;
     position: absolute;
     border-radius: 50%;
-    background-color: #000000;
+    background-color: #111111;
   }
   .ratingIcon-0-2-2:hover:not([disabled]):after {
     opacity: 0.04;
@@ -3741,7 +3775,7 @@ Array [
   .ratingIcon-0-2-2 > i {  }
   .ratingIcon-d0-0-2-3 {  }
   .ratingIcon-d0-0-2-3 > i {
-    color: #777777;
+    color: #737373;
   }",
   <div>
     <div
@@ -3788,7 +3822,7 @@ Array [
   pointer-events: none;
 }
 .icon-d0-0-2-17 {
-  color: #000000;
+  color: #111111;
   font-size: 32px;
 }
 .sharedRippleEffect-0-2-6 {
@@ -3857,11 +3891,11 @@ Array [
   }
   .wrapper-d0-0-2-12:focus:after {  }
   .wrapper-d0-0-2-12:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d1-0-2-13 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 50%;
     top: 50%;
@@ -3870,6 +3904,7 @@ Array [
   }
   .rippleContainer-d2-0-2-14 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d3-0-2-15 {
     animation: keyframes-ripple-0-2-11 300ms;
@@ -3905,7 +3940,7 @@ Array [
     opacity: 0;
     position: absolute;
     border-radius: 50%;
-    background-color: #000000;
+    background-color: #111111;
   }
   .ratingIcon-0-2-2:hover:not([disabled]):after {
     opacity: 0.04;

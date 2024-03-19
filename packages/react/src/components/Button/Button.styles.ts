@@ -348,6 +348,18 @@ const getletterSpacing = (theme: Theme) => ({ textTransform }: ButtonStyleProps)
   }
   return theme.button.label.letterSpacing
 }
+
+const getPropsThemeButton = (theme: Theme) => ({ brand }: Pick<ButtonStyleProps, 'brand' >) => {
+  if (brand) {
+    const themeSelectdRipple = buildTheme(brand, 'light')
+    return {
+      buttonborderRadius: themeSelectdRipple.button.borderRadius
+    }
+  }
+  return {
+    buttonborderRadius: theme.button.borderRadius
+  }
+}
 const styles = createUseStyles((theme: Theme) => ({
   button: {
     backgroundColor: ({
@@ -356,7 +368,7 @@ const styles = createUseStyles((theme: Theme) => ({
     border: ({
       variant, brand, color, mode
     }: ButtonStyleProps) => variant && `1px solid ${(brand ? getColorBrand(theme)(brand, { variant, color, mode })?.border : getColorVariant(theme, { variant, color }).border)}`,
-    borderRadius: theme.button.borderRadius,
+    borderRadius: ({ brand }: ButtonStyleProps) => getPropsThemeButton(theme)({ brand }).buttonborderRadius,
     boxShadow: ({ variant }: ButtonStyleProps) => variant && (variant === 'contained' ? theme.elevation.tiny : 'none'),
     color: ({
       variant, brand, color, mode

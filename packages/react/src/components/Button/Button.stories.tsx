@@ -74,6 +74,11 @@ export const Brands: Story<ButtonProps> = (args) => (
       <Button key={12} brand="natura_v2" {...args} variant="text" />
     </StoryContainer>
     <StoryContainer>
+      <Button key={20} brand="natura_v3" {...args} variant="contained" />
+      <Button key={30} brand="natura_v3" {...args} variant="outlined" />
+      <Button key={40} brand="natura_v3" {...args} variant="text" />
+    </StoryContainer>
+    <StoryContainer>
       <Button key={13} brand="casaEestilo" {...args} variant="contained" />
       <Button key={14} brand="casaEestilo" {...args} variant="outlined" />
       <Button key={15} brand="casaEestilo" {...args} variant="text" />

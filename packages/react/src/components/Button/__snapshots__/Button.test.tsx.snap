@@ -7,7 +7,6 @@ Array [
   outline: 0;
   overflow: hidden;
   position: relative;
-  border-radius: 4px;
 }
 .button-0-2-1:disabled {
   cursor: default;
@@ -33,6 +32,7 @@ Array [
 .button-d0-0-2-4 {
   background-color: #f4ab34;
   border: 1px solid #FFFFFF00;
+  border-radius: 4px;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
   color: #333333;
   height: 40px;
@@ -41,9 +41,9 @@ Array [
   width: 100%;
 }
 .button-d0-0-2-4:disabled {
-  background-color: #bbbbbb;
+  background-color: #8c8c8c;
   border: 1px solid #FFFFFF00;
-  color: #333333;
+  color: #363636;
 }
 .button-d0-0-2-4:hover:not([disabled]) {
   background-color: #f4ab34;
@@ -99,7 +99,6 @@ Array [
   outline: 0;
   overflow: hidden;
   position: relative;
-  border-radius: 4px;
 }
 .button-0-2-1:disabled {
   cursor: default;
@@ -125,6 +124,7 @@ Array [
 .button-d0-0-2-4 {
   background-color: #f4ab34;
   border: 1px solid #FFFFFF00;
+  border-radius: 4px;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
   color: #333333;
   height: 48px;
@@ -133,9 +133,9 @@ Array [
   width: auto;
 }
 .button-d0-0-2-4:disabled {
-  background-color: #bbbbbb;
+  background-color: #8c8c8c;
   border: 1px solid #FFFFFF00;
-  color: #333333;
+  color: #363636;
 }
 .button-d0-0-2-4:hover:not([disabled]) {
   background-color: #f4ab34;
@@ -191,7 +191,6 @@ Array [
   outline: 0;
   overflow: hidden;
   position: relative;
-  border-radius: 4px;
 }
 .button-0-2-1:disabled {
   cursor: default;
@@ -217,6 +216,7 @@ Array [
 .button-d0-0-2-4 {
   background-color: #f4ab34;
   border: 1px solid #FFFFFF00;
+  border-radius: 4px;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
   color: #333333;
   height: 32px;
@@ -225,9 +225,9 @@ Array [
   width: auto;
 }
 .button-d0-0-2-4:disabled {
-  background-color: #bbbbbb;
+  background-color: #8c8c8c;
   border: 1px solid #FFFFFF00;
-  color: #333333;
+  color: #363636;
 }
 .button-d0-0-2-4:hover:not([disabled]) {
   background-color: #f4ab34;
@@ -283,7 +283,6 @@ Array [
   outline: 0;
   overflow: hidden;
   position: relative;
-  border-radius: 4px;
 }
 .button-0-2-1:disabled {
   cursor: default;
@@ -309,6 +308,7 @@ Array [
 .button-d0-0-2-4 {
   background-color: #f4ab34;
   border: 1px solid #FFFFFF00;
+  border-radius: 4px;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
   color: #333333;
   height: 40px;
@@ -317,9 +317,9 @@ Array [
   width: auto;
 }
 .button-d0-0-2-4:disabled {
-  background-color: #bbbbbb;
+  background-color: #8c8c8c;
   border: 1px solid #FFFFFF00;
-  color: #333333;
+  color: #363636;
 }
 .button-d0-0-2-4:hover:not([disabled]) {
   background-color: #f4ab34;
@@ -377,7 +377,6 @@ Array [
   outline: 0;
   overflow: hidden;
   position: relative;
-  border-radius: 4px;
 }
 .button-0-2-1:disabled {
   cursor: default;
@@ -403,8 +402,9 @@ Array [
 .button-d0-0-2-4 {
   background-color: #FFFFFF00;
   border: 1px solid #f4ab34;
+  border-radius: 4px;
   box-shadow: none;
-  color: #000000;
+  color: #111111;
   height: 40px;
   padding-left: 8px;
   padding-right: 8px;
@@ -412,13 +412,13 @@ Array [
 }
 .button-d0-0-2-4:disabled {
   background-color: #FFFFFF00;
-  border: 1px solid #bbbbbb;
-  color: #777777;
+  border: 1px solid #8c8c8c;
+  color: #737373;
 }
 .button-d0-0-2-4:hover:not([disabled]) {
   background-color: #bbbbbb;
   border: 1px solid #f4ab34;
-  color: #333333;
+  color: #363636;
   opacity: unset;
 }
 .button-d0-0-2-4:focus-visible:not([disabled]) {
@@ -468,7 +468,6 @@ Array [
   outline: 0;
   overflow: hidden;
   position: relative;
-  border-radius: 4px;
 }
 .button-0-2-1:disabled {
   cursor: default;
@@ -494,8 +493,9 @@ Array [
 .button-d0-0-2-4 {
   background-color: #FFFFFF00;
   border: 1px solid #f4ab34;
+  border-radius: 4px;
   box-shadow: none;
-  color: #000000;
+  color: #111111;
   height: 40px;
   padding-left: 8px;
   padding-right: 8px;
@@ -503,13 +503,13 @@ Array [
 }
 .button-d0-0-2-4:disabled {
   background-color: #FFFFFF00;
-  border: 1px solid #bbbbbb;
-  color: #777777;
+  border: 1px solid #8c8c8c;
+  color: #737373;
 }
 .button-d0-0-2-4:hover:not([disabled]) {
   background-color: #bbbbbb;
   border: 1px solid #f4ab34;
-  color: #333333;
+  color: #363636;
   opacity: unset;
 }
 .button-d0-0-2-4:focus-visible:not([disabled]) {
@@ -560,7 +560,6 @@ Array [
   outline: 0;
   overflow: hidden;
   position: relative;
-  border-radius: 4px;
 }
 .button-0-2-1:disabled {
   cursor: default;
@@ -586,8 +585,9 @@ Array [
 .button-d0-0-2-4 {
   background-color: #FFFFFF00;
   border: 1px solid #FFFFFF00;
+  border-radius: 4px;
   box-shadow: none;
-  color: #333333;
+  color: #363636;
   height: 40px;
   padding-left: 8px;
   padding-right: 8px;
@@ -596,12 +596,12 @@ Array [
 .button-d0-0-2-4:disabled {
   background-color: #FFFFFF00;
   border: 1px solid #FFFFFF00;
-  color: #777777;
+  color: #737373;
 }
 .button-d0-0-2-4:hover:not([disabled]) {
   background-color: #bbbbbb;
   border: 1px solid #FFFFFF00;
-  color: #333333;
+  color: #363636;
   opacity: unset;
 }
 .button-d0-0-2-4:focus-visible:not([disabled]) {
@@ -651,7 +651,6 @@ Array [
   outline: 0;
   overflow: hidden;
   position: relative;
-  border-radius: 4px;
 }
 .button-0-2-1:disabled {
   cursor: default;
@@ -677,8 +676,9 @@ Array [
 .button-d0-0-2-4 {
   background-color: #FFFFFF00;
   border: 1px solid #FFFFFF00;
+  border-radius: 4px;
   box-shadow: none;
-  color: #333333;
+  color: #363636;
   height: 40px;
   padding-left: 8px;
   padding-right: 8px;
@@ -687,12 +687,12 @@ Array [
 .button-d0-0-2-4:disabled {
   background-color: #FFFFFF00;
   border: 1px solid #FFFFFF00;
-  color: #777777;
+  color: #737373;
 }
 .button-d0-0-2-4:hover:not([disabled]) {
   background-color: #bbbbbb;
   border: 1px solid #FFFFFF00;
-  color: #333333;
+  color: #363636;
   opacity: unset;
 }
 .button-d0-0-2-4:focus-visible:not([disabled]) {
@@ -743,7 +743,6 @@ Array [
   outline: 0;
   overflow: hidden;
   position: relative;
-  border-radius: 4px;
 }
 .button-0-2-1:disabled {
   cursor: default;
@@ -769,6 +768,7 @@ Array [
 .button-d0-0-2-4 {
   background-color: #f4ab34;
   border: 1px solid #FFFFFF00;
+  border-radius: 4px;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
   color: #333333;
   height: 40px;
@@ -777,9 +777,9 @@ Array [
   width: auto;
 }
 .button-d0-0-2-4:disabled {
-  background-color: #bbbbbb;
+  background-color: #8c8c8c;
   border: 1px solid #FFFFFF00;
-  color: #333333;
+  color: #363636;
 }
 .button-d0-0-2-4:hover:not([disabled]) {
   background-color: #f4ab34;
@@ -843,7 +843,6 @@ Array [
   outline: 0;
   overflow: hidden;
   position: relative;
-  border-radius: 4px;
 }
 .button-0-2-1:disabled {
   cursor: default;
@@ -869,6 +868,7 @@ Array [
 .button-d0-0-2-4 {
   background-color: #f4ab34;
   border: 1px solid #FFFFFF00;
+  border-radius: 4px;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
   color: #333333;
   height: 40px;
@@ -877,9 +877,9 @@ Array [
   width: auto;
 }
 .button-d0-0-2-4:disabled {
-  background-color: #bbbbbb;
+  background-color: #8c8c8c;
   border: 1px solid #FFFFFF00;
-  color: #333333;
+  color: #363636;
 }
 .button-d0-0-2-4:hover:not([disabled]) {
   background-color: #f4ab34;
@@ -950,7 +950,6 @@ Array [
   outline: 0;
   overflow: hidden;
   position: relative;
-  border-radius: 4px;
 }
 .button-0-2-1:disabled {
   cursor: default;
@@ -976,6 +975,7 @@ Array [
 .button-d0-0-2-4 {
   background-color: #f4ab34;
   border: 1px solid #FFFFFF00;
+  border-radius: 4px;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
   color: #333333;
   height: 40px;
@@ -984,9 +984,9 @@ Array [
   width: auto;
 }
 .button-d0-0-2-4:disabled {
-  background-color: #bbbbbb;
+  background-color: #8c8c8c;
   border: 1px solid #FFFFFF00;
-  color: #333333;
+  color: #363636;
 }
 .button-d0-0-2-4:hover:not([disabled]) {
   background-color: #f4ab34;
@@ -1057,7 +1057,6 @@ Array [
   outline: 0;
   overflow: hidden;
   position: relative;
-  border-radius: 4px;
 }
 .button-0-2-1:disabled {
   cursor: default;
@@ -1083,6 +1082,7 @@ Array [
 .button-d0-0-2-4 {
   background-color: #f4ab34;
   border: 1px solid #FFFFFF00;
+  border-radius: 4px;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
   color: #333333;
   height: 40px;
@@ -1091,9 +1091,9 @@ Array [
   width: auto;
 }
 .button-d0-0-2-4:disabled {
-  background-color: #bbbbbb;
+  background-color: #8c8c8c;
   border: 1px solid #FFFFFF00;
-  color: #333333;
+  color: #363636;
 }
 .button-d0-0-2-4:hover:not([disabled]) {
   background-color: #f4ab34;
