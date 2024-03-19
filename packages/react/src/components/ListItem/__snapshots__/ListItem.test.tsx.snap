@@ -69,11 +69,11 @@ Array [
   }
   .wrapper-d0-0-2-9:focus:after {  }
   .wrapper-d0-0-2-9:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d1-0-2-10 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 0;
     top: 0;
@@ -82,6 +82,7 @@ Array [
   }
   .rippleContainer-d2-0-2-11 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d3-0-2-12 {
     animation: keyframes-ripple-0-2-8 300ms;
@@ -112,14 +113,14 @@ Array [
   .listItem-0-2-1:focus:after {  }
   .listItem-d0-0-2-2 {  }
   .listItem-d0-0-2-2:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .listItem-d0-0-2-2:hover:after {
     background-color: transparent;
   }
   .listItem-d0-0-2-2:focus:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }",
   <div>
@@ -216,11 +217,11 @@ Array [
   }
   .wrapper-d0-0-2-9:focus:after {  }
   .wrapper-d0-0-2-9:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d1-0-2-10 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 0;
     top: 0;
@@ -229,6 +230,7 @@ Array [
   }
   .rippleContainer-d2-0-2-11 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d3-0-2-12 {
     animation: keyframes-ripple-0-2-8 300ms;
@@ -265,7 +267,7 @@ Array [
     opacity: 0.16;
   }
   .listItem-d0-0-2-2:hover:after {
-    background-color: #000000;
+    background-color: #111111;
   }
   .listItem-d0-0-2-2:focus:after {
     background-color: #f4ab34;
@@ -365,11 +367,11 @@ Array [
   }
   .wrapper-d0-0-2-9:focus:after {  }
   .wrapper-d0-0-2-9:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d1-0-2-10 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 0;
     top: 0;
@@ -378,6 +380,7 @@ Array [
   }
   .rippleContainer-d2-0-2-11 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d3-0-2-12 {
     animation: keyframes-ripple-0-2-8 300ms;
@@ -408,14 +411,14 @@ Array [
   .listItem-0-2-1:focus:after {  }
   .listItem-d0-0-2-2 {  }
   .listItem-d0-0-2-2:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .listItem-d0-0-2-2:hover:after {
     background-color: transparent;
   }
   .listItem-d0-0-2-2:focus:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .divider-0-2-13 {
@@ -423,7 +426,7 @@ Array [
     height: 1px;
     margin-top: 0;
     margin-bottom: 0;
-    background-color: #bbbbbb;
+    background-color: #8c8c8c;
   }
   .divider-d0-0-2-14 {
     margin-right: 0;

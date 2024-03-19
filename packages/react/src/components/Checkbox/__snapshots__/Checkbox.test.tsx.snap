@@ -81,7 +81,9 @@ Array [
     transition: scale opacity 500ms;
     width: 0;
   }
-  .rippleContainer-d2-0-2-15 {  }
+  .rippleContainer-d2-0-2-15 {
+    border-radius: 4px;
+  }
   .rippleActive-d3-0-2-16 {
     animation: keyframes-ripple-0-2-12 500ms;
   }
@@ -98,7 +100,7 @@ Array [
   }
   .checkbox-0-2-3 {
     width: 18px;
-    border: 2px solid #777777;
+    border: 2px solid #737373;
     cursor: pointer;
     height: 18px;
     margin: 0;
@@ -111,7 +113,7 @@ Array [
     outline: none;
   }
   .checkbox-0-2-3:disabled {
-    border: 2px solid #bbbbbb;
+    border: 2px solid #8c8c8c;
     cursor: default;
   }
   .checkbox-0-2-3:checked {
@@ -128,8 +130,8 @@ Array [
     font-family: natds-icons;
   }
   .checkbox-0-2-3:checked:disabled {
-    border: 2px solid #bbbbbb;
-    background-color: #bbbbbb;
+    border: 2px solid #8c8c8c;
+    background-color: #8c8c8c;
   }
   .labelText-0-2-4 {
     font-size: 14px;
@@ -147,7 +149,7 @@ Array [
     content: \\"\\";
   }
   .labelText-d1-0-2-6 {
-    color: #333333;
+    color: #363636;
   }",
   <div>
     <div
@@ -252,18 +254,20 @@ Array [
   }
   .wrapper-d0-0-2-13:focus:after {  }
   .wrapper-d0-0-2-13:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d1-0-2-14 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 50%;
     top: 50%;
     transition: scale opacity 500ms;
     width: 0;
   }
-  .rippleContainer-d2-0-2-15 {  }
+  .rippleContainer-d2-0-2-15 {
+    border-radius: 4px;
+  }
   .rippleActive-d3-0-2-16 {
     animation: keyframes-ripple-0-2-12 500ms;
   }
@@ -280,7 +284,7 @@ Array [
   }
   .checkbox-0-2-3 {
     width: 18px;
-    border: 2px solid #777777;
+    border: 2px solid #737373;
     cursor: pointer;
     height: 18px;
     margin: 0;
@@ -293,7 +297,7 @@ Array [
     outline: none;
   }
   .checkbox-0-2-3:disabled {
-    border: 2px solid #bbbbbb;
+    border: 2px solid #8c8c8c;
     cursor: default;
   }
   .checkbox-0-2-3:checked {
@@ -310,8 +314,8 @@ Array [
     font-family: natds-icons;
   }
   .checkbox-0-2-3:checked:disabled {
-    border: 2px solid #bbbbbb;
-    background-color: #bbbbbb;
+    border: 2px solid #8c8c8c;
+    background-color: #8c8c8c;
   }
   .labelText-0-2-4 {
     font-size: 14px;
@@ -329,7 +333,7 @@ Array [
     content: \\"\\";
   }
   .labelText-d1-0-2-6 {
-    color: #bbbbbb;
+    color: #8c8c8c;
   }",
   <div>
     <div
@@ -433,21 +437,23 @@ Array [
     align-self: start;
   }
   .wrapper-d0-0-2-13:focus:after {
-    background-color: #000000;
+    background-color: #111111;
   }
   .wrapper-d0-0-2-13:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0.16;
   }
   .ripple-d1-0-2-14 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 50%;
     top: 50%;
     transition: scale opacity 500ms;
     width: 0;
   }
-  .rippleContainer-d2-0-2-15 {  }
+  .rippleContainer-d2-0-2-15 {
+    border-radius: 4px;
+  }
   .rippleActive-d3-0-2-16 {
     animation: keyframes-ripple-0-2-12 500ms;
   }
@@ -464,7 +470,7 @@ Array [
   }
   .checkbox-0-2-3 {
     width: 18px;
-    border: 2px solid #777777;
+    border: 2px solid #737373;
     cursor: pointer;
     height: 18px;
     margin: 0;
@@ -477,7 +483,7 @@ Array [
     outline: none;
   }
   .checkbox-0-2-3:disabled {
-    border: 2px solid #bbbbbb;
+    border: 2px solid #8c8c8c;
     cursor: default;
   }
   .checkbox-0-2-3:checked {
@@ -494,8 +500,8 @@ Array [
     font-family: natds-icons;
   }
   .checkbox-0-2-3:checked:disabled {
-    border: 2px solid #bbbbbb;
-    background-color: #bbbbbb;
+    border: 2px solid #8c8c8c;
+    background-color: #8c8c8c;
   }
   .labelText-0-2-4 {
     font-size: 14px;
@@ -513,7 +519,7 @@ Array [
     content: \\"\\";
   }
   .labelText-d1-0-2-6 {
-    color: #333333;
+    color: #363636;
   }",
   <div>
     <div
@@ -616,21 +622,23 @@ Array [
     align-self: start;
   }
   .wrapper-d0-0-2-13:focus:after {
-    background-color: #000000;
+    background-color: #111111;
   }
   .wrapper-d0-0-2-13:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0.16;
   }
   .ripple-d1-0-2-14 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 50%;
     top: 50%;
     transition: scale opacity 500ms;
     width: 0;
   }
-  .rippleContainer-d2-0-2-15 {  }
+  .rippleContainer-d2-0-2-15 {
+    border-radius: 4px;
+  }
   .rippleActive-d3-0-2-16 {
     animation: keyframes-ripple-0-2-12 500ms;
   }
@@ -647,7 +655,7 @@ Array [
   }
   .checkbox-0-2-3 {
     width: 18px;
-    border: 2px solid #777777;
+    border: 2px solid #737373;
     cursor: pointer;
     height: 18px;
     margin: 0;
@@ -660,7 +668,7 @@ Array [
     outline: none;
   }
   .checkbox-0-2-3:disabled {
-    border: 2px solid #bbbbbb;
+    border: 2px solid #8c8c8c;
     cursor: default;
   }
   .checkbox-0-2-3:checked {
@@ -677,8 +685,8 @@ Array [
     font-family: natds-icons;
   }
   .checkbox-0-2-3:checked:disabled {
-    border: 2px solid #bbbbbb;
-    background-color: #bbbbbb;
+    border: 2px solid #8c8c8c;
+    background-color: #8c8c8c;
   }
   .labelText-0-2-4 {
     font-size: 14px;
@@ -696,7 +704,7 @@ Array [
     content: \\"\\";
   }
   .labelText-d1-0-2-6 {
-    color: #333333;
+    color: #363636;
   }",
   <div>
     <div
@@ -799,26 +807,28 @@ Array [
     align-self: start;
   }
   .wrapper-d0-0-2-13:focus:after {
-    background-color: #000000;
+    background-color: #111111;
   }
   .wrapper-d0-0-2-13:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0.16;
   }
   .ripple-d1-0-2-14 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 50%;
     top: 50%;
     transition: scale opacity 500ms;
     width: 0;
   }
-  .rippleContainer-d2-0-2-15 {  }
+  .rippleContainer-d2-0-2-15 {
+    border-radius: 4px;
+  }
   .rippleActive-d3-0-2-16 {
     animation: keyframes-ripple-0-2-12 500ms;
   }
   .labelContainer-0-2-17 {
-    color: #000000;
+    color: #111111;
     font-family: \\"Roboto\\", Arial;
   }
   .container-0-2-1 {
@@ -834,7 +844,7 @@ Array [
   }
   .checkbox-0-2-3 {
     width: 18px;
-    border: 2px solid #777777;
+    border: 2px solid #737373;
     cursor: pointer;
     height: 18px;
     margin: 0;
@@ -847,7 +857,7 @@ Array [
     outline: none;
   }
   .checkbox-0-2-3:disabled {
-    border: 2px solid #bbbbbb;
+    border: 2px solid #8c8c8c;
     cursor: default;
   }
   .checkbox-0-2-3:checked {
@@ -864,8 +874,8 @@ Array [
     font-family: natds-icons;
   }
   .checkbox-0-2-3:checked:disabled {
-    border: 2px solid #bbbbbb;
-    background-color: #bbbbbb;
+    border: 2px solid #8c8c8c;
+    background-color: #8c8c8c;
   }
   .labelText-0-2-4 {
     font-size: 14px;
@@ -883,7 +893,7 @@ Array [
     content: \\"\\";
   }
   .labelText-d1-0-2-6 {
-    color: #333333;
+    color: #363636;
   }",
   <div>
     <div

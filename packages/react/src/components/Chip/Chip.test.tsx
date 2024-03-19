@@ -8,7 +8,7 @@ describe('Chip component', () => {
   it('should render with neutral border as default', () => {
     const { styles } = renderWithTheme(<Chip labelText="Chip label" />)
 
-    expect(styles.toString()).toContain('border-color: #bbbbbb')
+    expect(styles.toString()).toContain('border-color: #8c8c8c')
   })
 
   it('should render with primary border when color is primary', () => {

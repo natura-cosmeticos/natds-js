@@ -18,17 +18,17 @@ Array [
 .menuItem-0-2-2:focus {}
 .menuItem-d0-0-2-3 {
   border-left: none;
-  background-color: #00000009;
+  background-color: #11111109;
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0.51px;
   line-height: 1.5;
 }
 .menuItem-d0-0-2-3:hover {
-  background-color: #00000009;
+  background-color: #11111109;
 }
 .menuItem-d0-0-2-3:focus {
-  background-color: #00000029;
+  background-color: #11111129;
 }
 .sharedRippleEffect-0-2-4 {
   top: 0;
@@ -96,14 +96,14 @@ Array [
     align-self: stretch;
   }
   .wrapper-d0-0-2-10:focus:after {
-    background-color: #000000;
+    background-color: #111111;
   }
   .wrapper-d0-0-2-10:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d1-0-2-11 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 0;
     top: 0;
@@ -112,6 +112,7 @@ Array [
   }
   .rippleContainer-d2-0-2-12 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d3-0-2-13 {
     animation: keyframes-ripple-0-2-9 300ms;
@@ -171,10 +172,10 @@ Array [
   line-height: 1.5;
 }
 .menuItem-d0-0-2-3:hover {
-  background-color: #00000009;
+  background-color: #11111109;
 }
 .menuItem-d0-0-2-3:focus {
-  background-color: #00000029;
+  background-color: #11111129;
 }
 .sharedRippleEffect-0-2-4 {
   top: 0;
@@ -242,14 +243,14 @@ Array [
     align-self: stretch;
   }
   .wrapper-d0-0-2-10:focus:after {
-    background-color: #000000;
+    background-color: #111111;
   }
   .wrapper-d0-0-2-10:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d1-0-2-11 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 0;
     top: 0;
@@ -258,6 +259,7 @@ Array [
   }
   .rippleContainer-d2-0-2-12 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d3-0-2-13 {
     animation: keyframes-ripple-0-2-9 300ms;
@@ -311,7 +313,7 @@ Array [
 .menuItem-d0-0-2-3 {
   border-left: none;
   background-color: transparent;
-  color: #bbbbbb;
+  color: #8c8c8c;
   cursor: default;
   font-size: 16px;
   font-weight: 400;
@@ -391,11 +393,11 @@ Array [
   }
   .wrapper-d0-0-2-10:focus:after {  }
   .wrapper-d0-0-2-10:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d1-0-2-11 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 0;
     top: 0;
@@ -404,6 +406,7 @@ Array [
   }
   .rippleContainer-d2-0-2-12 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d3-0-2-13 {
     animation: keyframes-ripple-0-2-9 300ms;
@@ -463,10 +466,10 @@ Array [
   line-height: 1.5;
 }
 .menuItem-d0-0-2-3:hover {
-  background-color: #00000009;
+  background-color: #11111109;
 }
 .menuItem-d0-0-2-3:focus {
-  background-color: #00000029;
+  background-color: #11111129;
 }
 .sharedRippleEffect-0-2-4 {
   top: 0;
@@ -534,14 +537,14 @@ Array [
     align-self: stretch;
   }
   .wrapper-d0-0-2-10:focus:after {
-    background-color: #000000;
+    background-color: #111111;
   }
   .wrapper-d0-0-2-10:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d1-0-2-11 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 0;
     top: 0;
@@ -550,6 +553,7 @@ Array [
   }
   .rippleContainer-d2-0-2-12 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d3-0-2-13 {
     animation: keyframes-ripple-0-2-9 300ms;
@@ -601,7 +605,7 @@ Array [
 .menuItem-0-2-2:hover {}
 .menuItem-0-2-2:focus {}
 .menuItem-d0-0-2-3 {
-  border-left: 1px solid #bbbbbb;
+  border-left: 1px solid #8c8c8c;
   background-color: transparent;
   font-size: 16px;
   font-weight: 400;
@@ -609,10 +613,10 @@ Array [
   line-height: 1.5;
 }
 .menuItem-d0-0-2-3:hover {
-  background-color: #00000009;
+  background-color: #11111109;
 }
 .menuItem-d0-0-2-3:focus {
-  background-color: #00000029;
+  background-color: #11111129;
 }
 .sharedRippleEffect-0-2-4 {
   top: 0;
@@ -680,14 +684,14 @@ Array [
     align-self: stretch;
   }
   .wrapper-d0-0-2-10:focus:after {
-    background-color: #000000;
+    background-color: #111111;
   }
   .wrapper-d0-0-2-10:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d1-0-2-11 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 0;
     top: 0;
@@ -696,6 +700,7 @@ Array [
   }
   .rippleContainer-d2-0-2-12 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d3-0-2-13 {
     animation: keyframes-ripple-0-2-9 300ms;
@@ -755,10 +760,10 @@ Array [
   line-height: 1.5;
 }
 .menuItem-d0-0-2-3:hover {
-  background-color: #00000009;
+  background-color: #11111109;
 }
 .menuItem-d0-0-2-3:focus {
-  background-color: #00000029;
+  background-color: #11111129;
 }
 .sharedRippleEffect-0-2-4 {
   top: 0;
@@ -826,14 +831,14 @@ Array [
     align-self: stretch;
   }
   .wrapper-d0-0-2-10:focus:after {
-    background-color: #000000;
+    background-color: #111111;
   }
   .wrapper-d0-0-2-10:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d1-0-2-11 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 0;
     top: 0;
@@ -842,6 +847,7 @@ Array [
   }
   .rippleContainer-d2-0-2-12 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d3-0-2-13 {
     animation: keyframes-ripple-0-2-9 300ms;

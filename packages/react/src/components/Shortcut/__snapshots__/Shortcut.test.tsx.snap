@@ -22,7 +22,7 @@ Array [
   content: \\" \\";
   opacity: 0;
   position: absolute;
-  background-color: #000000;
+  background-color: #111111;
 }
 .content-0-2-3:disabled {
   cursor: default;
@@ -52,7 +52,7 @@ Array [
   border: 1px solid #FFFFFF00;
 }
 .content-d0-0-2-6:disabled {
-  background-color: #bbbbbb;
+  background-color: #8c8c8c;
   border: 1px solid #FFFFFF00;
 }
 .content-d0-0-2-6:hover:not([disabled]) {
@@ -65,7 +65,7 @@ Array [
 }
 .labelText-d1-0-2-7 {
   white-space: normal;
-  color: #777777;
+  color: #737373;
 }
 .labelText-d1-0-2-7:hover {}
 .sharedRippleEffect-0-2-10 {
@@ -134,11 +134,11 @@ Array [
   }
   .wrapper-d0-0-2-16:focus:after {  }
   .wrapper-d0-0-2-16:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d1-0-2-17 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 50%;
     top: 50%;
@@ -147,6 +147,7 @@ Array [
   }
   .rippleContainer-d2-0-2-18 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d3-0-2-19 {
     animation: keyframes-ripple-0-2-15 300ms;
@@ -223,7 +224,7 @@ Array [
   content: \\" \\";
   opacity: 0;
   position: absolute;
-  background-color: #000000;
+  background-color: #111111;
 }
 .content-0-2-3:disabled {
   cursor: default;
@@ -254,7 +255,7 @@ Array [
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
 }
 .content-d0-0-2-6:disabled {
-  background-color: #bbbbbb;
+  background-color: #8c8c8c;
   border: 1px solid #FFFFFF00;
 }
 .content-d0-0-2-6:hover:not([disabled]) {
@@ -267,10 +268,10 @@ Array [
 }
 .labelText-d1-0-2-7 {
   white-space: normal;
-  color: #333333;
+  color: #363636;
 }
 .labelText-d1-0-2-7:hover {
-  color: #333333;
+  color: #363636;
 }
 .sharedRippleEffect-0-2-10 {
   top: 0;
@@ -337,14 +338,14 @@ Array [
     align-self: start;
   }
   .wrapper-d0-0-2-16:focus:after {
-    background-color: #000000;
+    background-color: #111111;
   }
   .wrapper-d0-0-2-16:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d1-0-2-17 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 50%;
     top: 50%;
@@ -353,6 +354,7 @@ Array [
   }
   .rippleContainer-d2-0-2-18 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d3-0-2-19 {
     animation: keyframes-ripple-0-2-15 300ms;
@@ -373,7 +375,7 @@ Array [
     width: 56px;
   }
   .labelContainer-0-2-25 {
-    color: #000000;
+    color: #111111;
     font-family: \\"Roboto\\", Arial;
   }
   .badge-0-2-20 {
@@ -416,7 +418,7 @@ Array [
     border-radius: 8px;
   }
   .label-d1-0-2-24 {
-    color: #ffffff;
+    color: #111111;
   }",
   <div>
     <div
@@ -495,7 +497,7 @@ Array [
   content: \\" \\";
   opacity: 0;
   position: absolute;
-  background-color: #000000;
+  background-color: #111111;
 }
 .content-0-2-3:disabled {
   cursor: default;
@@ -526,7 +528,7 @@ Array [
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
 }
 .content-d0-0-2-6:disabled {
-  background-color: #bbbbbb;
+  background-color: #8c8c8c;
   border: 1px solid #FFFFFF00;
 }
 .content-d0-0-2-6:hover:not([disabled]) {
@@ -539,10 +541,10 @@ Array [
 }
 .labelText-d1-0-2-7 {
   white-space: normal;
-  color: #333333;
+  color: #363636;
 }
 .labelText-d1-0-2-7:hover {
-  color: #333333;
+  color: #363636;
 }
 .sharedRippleEffect-0-2-10 {
   top: 0;
@@ -609,14 +611,14 @@ Array [
     align-self: start;
   }
   .wrapper-d0-0-2-16:focus:after {
-    background-color: #000000;
+    background-color: #111111;
   }
   .wrapper-d0-0-2-16:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d1-0-2-17 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 50%;
     top: 50%;
@@ -625,6 +627,7 @@ Array [
   }
   .rippleContainer-d2-0-2-18 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d3-0-2-19 {
     animation: keyframes-ripple-0-2-15 300ms;
@@ -700,7 +703,7 @@ Array [
   content: \\" \\";
   opacity: 0;
   position: absolute;
-  background-color: #000000;
+  background-color: #111111;
 }
 .content-0-2-3:disabled {
   cursor: default;
@@ -731,7 +734,7 @@ Array [
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
 }
 .content-d0-0-2-6:disabled {
-  background-color: #bbbbbb;
+  background-color: #8c8c8c;
   border: 1px solid #FFFFFF00;
 }
 .content-d0-0-2-6:hover:not([disabled]) {
@@ -744,10 +747,10 @@ Array [
 }
 .labelText-d1-0-2-7 {
   white-space: normal;
-  color: #333333;
+  color: #363636;
 }
 .labelText-d1-0-2-7:hover {
-  color: #333333;
+  color: #363636;
 }
 .sharedRippleEffect-0-2-10 {
   top: 0;
@@ -814,14 +817,14 @@ Array [
     align-self: start;
   }
   .wrapper-d0-0-2-16:focus:after {
-    background-color: #000000;
+    background-color: #111111;
   }
   .wrapper-d0-0-2-16:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d1-0-2-17 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 50%;
     top: 50%;
@@ -830,6 +833,7 @@ Array [
   }
   .rippleContainer-d2-0-2-18 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d3-0-2-19 {
     animation: keyframes-ripple-0-2-15 300ms;
@@ -850,7 +854,7 @@ Array [
     width: 56px;
   }
   .labelContainer-0-2-20 {
-    color: #000000;
+    color: #111111;
     font-family: \\"Roboto\\", Arial;
   }",
   <div>

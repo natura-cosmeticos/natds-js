@@ -23,7 +23,7 @@ Array [
   opacity: 0.56;
   z-index: 1299;
   position: fixed;
-  background: #000000;
+  background: #111111;
 }
 .dialog-d0-0-2-3 {
   display: none;
@@ -103,14 +103,14 @@ Array [
     align-self: start;
   }
   .wrapper-d0-0-2-24:focus:after {
-    background-color: #000000;
+    background-color: #111111;
   }
   .wrapper-d0-0-2-24:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d1-0-2-25 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 0;
     top: 0;
@@ -119,6 +119,7 @@ Array [
   }
   .rippleContainer-d2-0-2-26 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d3-0-2-27 {
     animation: keyframes-ripple-0-2-23 300ms;
@@ -128,7 +129,6 @@ Array [
     outline: 0;
     overflow: hidden;
     position: relative;
-    border-radius: 4px;
   }
   .button-0-2-12:disabled {
     cursor: default;
@@ -154,6 +154,7 @@ Array [
   .button-d0-0-2-15 {
     background-color: #f4ab34;
     border: 1px solid #FFFFFF00;
+    border-radius: 4px;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
     color: #333333;
     height: 40px;
@@ -162,9 +163,9 @@ Array [
     width: auto;
   }
   .button-d0-0-2-15:disabled {
-    background-color: #bbbbbb;
+    background-color: #8c8c8c;
     border: 1px solid #FFFFFF00;
-    color: #333333;
+    color: #363636;
   }
   .button-d0-0-2-15:hover:not([disabled]) {
     background-color: #f4ab34;
@@ -211,7 +212,7 @@ Array [
     opacity: 0.56;
     z-index: 1299;
     position: fixed;
-    background: #000000;
+    background: #111111;
   }
   .dialog-d0-0-2-3 {
     display: flex;
@@ -223,7 +224,7 @@ Array [
     height: 1px;
     margin-top: 0;
     margin-bottom: 0;
-    background-color: #bbbbbb;
+    background-color: #8c8c8c;
   }
   .divider-d0-0-2-9 {
     margin-right: 0;
@@ -235,7 +236,7 @@ Array [
   }
   .content-0-2-7 {
     flex: 1 1 auto;
-    color: #333333;
+    color: #363636;
     padding: 16px;
     position: relative;
     font-size: 16px;
@@ -252,7 +253,7 @@ Array [
     justify-content: space-between;
   }
   .title-0-2-6 {
-    color: #333333;
+    color: #363636;
     margin: 0;
     font-size: 20px;
     font-family: Roboto, Arial;
@@ -413,14 +414,14 @@ Array [
     align-self: start;
   }
   .wrapper-d0-0-2-24:focus:after {
-    background-color: #000000;
+    background-color: #111111;
   }
   .wrapper-d0-0-2-24:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d1-0-2-25 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 0;
     top: 0;
@@ -429,6 +430,7 @@ Array [
   }
   .rippleContainer-d2-0-2-26 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d3-0-2-27 {
     animation: keyframes-ripple-0-2-23 300ms;
@@ -438,7 +440,6 @@ Array [
     outline: 0;
     overflow: hidden;
     position: relative;
-    border-radius: 4px;
   }
   .button-0-2-12:disabled {
     cursor: default;
@@ -464,6 +465,7 @@ Array [
   .button-d0-0-2-15 {
     background-color: #f4ab34;
     border: 1px solid #FFFFFF00;
+    border-radius: 4px;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
     color: #333333;
     height: 40px;
@@ -472,9 +474,9 @@ Array [
     width: auto;
   }
   .button-d0-0-2-15:disabled {
-    background-color: #bbbbbb;
+    background-color: #8c8c8c;
     border: 1px solid #FFFFFF00;
-    color: #333333;
+    color: #363636;
   }
   .button-d0-0-2-15:hover:not([disabled]) {
     background-color: #f4ab34;
@@ -521,7 +523,7 @@ Array [
     opacity: 0.56;
     z-index: 1299;
     position: fixed;
-    background: #000000;
+    background: #111111;
   }
   .dialog-d0-0-2-3 {
     display: flex;
@@ -533,7 +535,7 @@ Array [
     height: 1px;
     margin-top: 0;
     margin-bottom: 0;
-    background-color: #bbbbbb;
+    background-color: #8c8c8c;
   }
   .divider-d0-0-2-9 {
     margin-right: 0;
@@ -545,7 +547,7 @@ Array [
   }
   .content-0-2-7 {
     flex: 1 1 auto;
-    color: #333333;
+    color: #363636;
     padding: 16px;
     position: relative;
     font-size: 16px;
@@ -562,7 +564,7 @@ Array [
     justify-content: space-between;
   }
   .title-0-2-6 {
-    color: #333333;
+    color: #363636;
     margin: 0;
     font-size: 20px;
     font-family: Roboto, Arial;
@@ -723,14 +725,14 @@ Array [
     align-self: start;
   }
   .wrapper-d0-0-2-19:focus:after {
-    background-color: #000000;
+    background-color: #111111;
   }
   .wrapper-d0-0-2-19:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d1-0-2-20 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 0;
     top: 0;
@@ -739,6 +741,7 @@ Array [
   }
   .rippleContainer-d2-0-2-21 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d3-0-2-22 {
     animation: keyframes-ripple-0-2-18 300ms;
@@ -748,7 +751,6 @@ Array [
     outline: 0;
     overflow: hidden;
     position: relative;
-    border-radius: 4px;
   }
   .button-0-2-7:disabled {
     cursor: default;
@@ -774,6 +776,7 @@ Array [
   .button-d0-0-2-10 {
     background-color: #f4ab34;
     border: 1px solid #FFFFFF00;
+    border-radius: 4px;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
     color: #333333;
     height: 40px;
@@ -782,9 +785,9 @@ Array [
     width: auto;
   }
   .button-d0-0-2-10:disabled {
-    background-color: #bbbbbb;
+    background-color: #8c8c8c;
     border: 1px solid #FFFFFF00;
-    color: #333333;
+    color: #363636;
   }
   .button-d0-0-2-10:hover:not([disabled]) {
     background-color: #f4ab34;
@@ -831,7 +834,7 @@ Array [
     opacity: 0.56;
     z-index: 1299;
     position: fixed;
-    background: #000000;
+    background: #111111;
   }
   .dialog-d0-0-2-3 {
     display: flex;
@@ -840,7 +843,7 @@ Array [
   .overlay-d1-0-2-4 {  }
   .content-0-2-5 {
     flex: 1 1 auto;
-    color: #333333;
+    color: #363636;
     padding: 16px;
     position: relative;
     font-size: 16px;
@@ -985,14 +988,14 @@ Array [
     align-self: start;
   }
   .wrapper-d0-0-2-21:focus:after {
-    background-color: #000000;
+    background-color: #111111;
   }
   .wrapper-d0-0-2-21:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d1-0-2-22 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 0;
     top: 0;
@@ -1001,6 +1004,7 @@ Array [
   }
   .rippleContainer-d2-0-2-23 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d3-0-2-24 {
     animation: keyframes-ripple-0-2-20 300ms;
@@ -1010,7 +1014,6 @@ Array [
     outline: 0;
     overflow: hidden;
     position: relative;
-    border-radius: 4px;
   }
   .button-0-2-9:disabled {
     cursor: default;
@@ -1036,6 +1039,7 @@ Array [
   .button-d0-0-2-12 {
     background-color: #f4ab34;
     border: 1px solid #FFFFFF00;
+    border-radius: 4px;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
     color: #333333;
     height: 40px;
@@ -1044,9 +1048,9 @@ Array [
     width: auto;
   }
   .button-d0-0-2-12:disabled {
-    background-color: #bbbbbb;
+    background-color: #8c8c8c;
     border: 1px solid #FFFFFF00;
-    color: #333333;
+    color: #363636;
   }
   .button-d0-0-2-12:hover:not([disabled]) {
     background-color: #f4ab34;
@@ -1093,7 +1097,7 @@ Array [
     opacity: 0.56;
     z-index: 1299;
     position: fixed;
-    background: #000000;
+    background: #111111;
   }
   .dialog-d0-0-2-3 {
     display: flex;
@@ -1102,7 +1106,7 @@ Array [
   .overlay-d1-0-2-4 {  }
   .content-0-2-7 {
     flex: 1 1 auto;
-    color: #333333;
+    color: #363636;
     padding: 16px;
     position: relative;
     font-size: 16px;
@@ -1119,7 +1123,7 @@ Array [
     justify-content: space-between;
   }
   .title-0-2-6 {
-    color: #333333;
+    color: #363636;
     margin: 0;
     font-size: 20px;
     font-family: Roboto, Arial;
@@ -1274,14 +1278,14 @@ Array [
     align-self: start;
   }
   .wrapper-d0-0-2-24:focus:after {
-    background-color: #000000;
+    background-color: #111111;
   }
   .wrapper-d0-0-2-24:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d1-0-2-25 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 0;
     top: 0;
@@ -1290,6 +1294,7 @@ Array [
   }
   .rippleContainer-d2-0-2-26 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d3-0-2-27 {
     animation: keyframes-ripple-0-2-23 300ms;
@@ -1299,7 +1304,6 @@ Array [
     outline: 0;
     overflow: hidden;
     position: relative;
-    border-radius: 4px;
   }
   .button-0-2-12:disabled {
     cursor: default;
@@ -1325,6 +1329,7 @@ Array [
   .button-d0-0-2-15 {
     background-color: #f4ab34;
     border: 1px solid #FFFFFF00;
+    border-radius: 4px;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
     color: #333333;
     height: 40px;
@@ -1333,9 +1338,9 @@ Array [
     width: auto;
   }
   .button-d0-0-2-15:disabled {
-    background-color: #bbbbbb;
+    background-color: #8c8c8c;
     border: 1px solid #FFFFFF00;
-    color: #333333;
+    color: #363636;
   }
   .button-d0-0-2-15:hover:not([disabled]) {
     background-color: #f4ab34;
@@ -1382,7 +1387,7 @@ Array [
     opacity: 0.56;
     z-index: 1299;
     position: fixed;
-    background: #000000;
+    background: #111111;
   }
   .dialog-d0-0-2-3 {
     display: flex;
@@ -1394,7 +1399,7 @@ Array [
     height: 1px;
     margin-top: 0;
     margin-bottom: 0;
-    background-color: #bbbbbb;
+    background-color: #8c8c8c;
   }
   .divider-d0-0-2-9 {
     margin-right: 0;
@@ -1406,7 +1411,7 @@ Array [
   }
   .content-0-2-7 {
     flex: 1 1 auto;
-    color: #333333;
+    color: #363636;
     padding: 16px;
     position: relative;
     font-size: 16px;
@@ -1423,7 +1428,7 @@ Array [
     justify-content: space-between;
   }
   .title-0-2-6 {
-    color: #333333;
+    color: #363636;
     margin: 0;
     font-size: 20px;
     font-family: Roboto, Arial;

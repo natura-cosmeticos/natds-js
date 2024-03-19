@@ -68,11 +68,11 @@ Array [
   }
   .wrapper-d0-0-2-19:focus:after {  }
   .wrapper-d0-0-2-19:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d1-0-2-20 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 0;
     top: 0;
@@ -81,6 +81,7 @@ Array [
   }
   .rippleContainer-d2-0-2-21 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d3-0-2-22 {
     animation: keyframes-ripple-0-2-18 300ms;
@@ -92,11 +93,11 @@ Array [
   }
   .wrapper-d4-0-2-26:focus:after {  }
   .wrapper-d4-0-2-26:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d5-0-2-27 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 0;
     top: 0;
@@ -105,6 +106,7 @@ Array [
   }
   .rippleContainer-d6-0-2-28 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d7-0-2-29 {
     animation: keyframes-ripple-0-2-18 300ms;
@@ -114,7 +116,6 @@ Array [
     outline: 0;
     overflow: hidden;
     position: relative;
-    border-radius: 4px;
   }
   .button-0-2-7:disabled {
     cursor: default;
@@ -140,8 +141,9 @@ Array [
   .button-d0-0-2-10 {
     background-color: #FFFFFF00;
     border: 1px solid #FFFFFF00;
+    border-radius: 4px;
     box-shadow: none;
-    color: #333333;
+    color: #363636;
     height: 40px;
     padding-left: 8px;
     padding-right: 8px;
@@ -150,12 +152,12 @@ Array [
   .button-d0-0-2-10:disabled {
     background-color: #FFFFFF00;
     border: 1px solid #FFFFFF00;
-    color: #777777;
+    color: #737373;
   }
   .button-d0-0-2-10:hover:not([disabled]) {
     background-color: #bbbbbb;
     border: 1px solid #FFFFFF00;
-    color: #333333;
+    color: #363636;
     opacity: unset;
   }
   .button-d0-0-2-10:focus-visible:not([disabled]) {
@@ -178,8 +180,9 @@ Array [
   .button-d3-0-2-23 {
     background-color: #FFFFFF00;
     border: 1px solid #FFFFFF00;
+    border-radius: 4px;
     box-shadow: none;
-    color: #333333;
+    color: #363636;
     height: 40px;
     padding-left: 8px;
     padding-right: 8px;
@@ -188,12 +191,12 @@ Array [
   .button-d3-0-2-23:disabled {
     background-color: #FFFFFF00;
     border: 1px solid #FFFFFF00;
-    color: #777777;
+    color: #737373;
   }
   .button-d3-0-2-23:hover:not([disabled]) {
     background-color: #bbbbbb;
     border: 1px solid #FFFFFF00;
-    color: #333333;
+    color: #363636;
     opacity: unset;
   }
   .button-d3-0-2-23:focus-visible:not([disabled]) {
@@ -215,7 +218,7 @@ Array [
   }
   .buttonGroup-0-2-1 {
     width: fit-content;
-    border: 1px solid #bbbbbb;
+    border: 1px solid #8c8c8c;
     display: flex;
     overflow: hidden;
     margin-top: 4px;
@@ -235,7 +238,7 @@ Array [
     border-bottom-right-radius: 0;
   }
   .inputBase-0-2-4 {
-    color: #000000;
+    color: #111111;
     width: 40px;
     cursor: default;
     height: 100%;
@@ -243,13 +246,13 @@ Array [
     padding: 0;
     border-top: none;
     text-align: center;
-    border-left: 1px solid #bbbbbb;
-    border-right: 1px solid #bbbbbb;
+    border-left: 1px solid #8c8c8c;
+    border-right: 1px solid #8c8c8c;
     border-bottom: none;
     background-color: transparent;
   }
   .labelText-0-2-5 {
-    color: #777777;
+    color: #737373;
     font-size: 14px;
     font-family: Roboto, Arial;
     font-weight: 500;
@@ -409,11 +412,11 @@ Array [
   }
   .wrapper-d0-0-2-19:focus:after {  }
   .wrapper-d0-0-2-19:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d1-0-2-20 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 0;
     top: 0;
@@ -422,6 +425,7 @@ Array [
   }
   .rippleContainer-d2-0-2-21 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d3-0-2-22 {
     animation: keyframes-ripple-0-2-18 300ms;
@@ -432,14 +436,14 @@ Array [
     align-self: start;
   }
   .wrapper-d4-0-2-26:focus:after {
-    background-color: #000000;
+    background-color: #111111;
   }
   .wrapper-d4-0-2-26:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d5-0-2-27 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 0;
     top: 0;
@@ -448,6 +452,7 @@ Array [
   }
   .rippleContainer-d6-0-2-28 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d7-0-2-29 {
     animation: keyframes-ripple-0-2-18 300ms;
@@ -457,7 +462,6 @@ Array [
     outline: 0;
     overflow: hidden;
     position: relative;
-    border-radius: 4px;
   }
   .button-0-2-7:disabled {
     cursor: default;
@@ -483,8 +487,9 @@ Array [
   .button-d0-0-2-10 {
     background-color: #FFFFFF00;
     border: 1px solid #FFFFFF00;
+    border-radius: 4px;
     box-shadow: none;
-    color: #333333;
+    color: #363636;
     height: 40px;
     padding-left: 8px;
     padding-right: 8px;
@@ -493,12 +498,12 @@ Array [
   .button-d0-0-2-10:disabled {
     background-color: #FFFFFF00;
     border: 1px solid #FFFFFF00;
-    color: #777777;
+    color: #737373;
   }
   .button-d0-0-2-10:hover:not([disabled]) {
     background-color: #bbbbbb;
     border: 1px solid #FFFFFF00;
-    color: #333333;
+    color: #363636;
     opacity: unset;
   }
   .button-d0-0-2-10:focus-visible:not([disabled]) {
@@ -521,8 +526,9 @@ Array [
   .button-d3-0-2-23 {
     background-color: #FFFFFF00;
     border: 1px solid #FFFFFF00;
+    border-radius: 4px;
     box-shadow: none;
-    color: #333333;
+    color: #363636;
     height: 40px;
     padding-left: 8px;
     padding-right: 8px;
@@ -531,12 +537,12 @@ Array [
   .button-d3-0-2-23:disabled {
     background-color: #FFFFFF00;
     border: 1px solid #FFFFFF00;
-    color: #777777;
+    color: #737373;
   }
   .button-d3-0-2-23:hover:not([disabled]) {
     background-color: #bbbbbb;
     border: 1px solid #FFFFFF00;
-    color: #333333;
+    color: #363636;
     opacity: unset;
   }
   .button-d3-0-2-23:focus-visible:not([disabled]) {
@@ -558,7 +564,7 @@ Array [
   }
   .buttonGroup-0-2-1 {
     width: fit-content;
-    border: 1px solid #bbbbbb;
+    border: 1px solid #8c8c8c;
     display: flex;
     overflow: hidden;
     margin-top: 4px;
@@ -578,7 +584,7 @@ Array [
     border-bottom-right-radius: 0;
   }
   .inputBase-0-2-4 {
-    color: #000000;
+    color: #111111;
     width: 40px;
     cursor: default;
     height: 100%;
@@ -586,13 +592,13 @@ Array [
     padding: 0;
     border-top: none;
     text-align: center;
-    border-left: 1px solid #bbbbbb;
-    border-right: 1px solid #bbbbbb;
+    border-left: 1px solid #8c8c8c;
+    border-right: 1px solid #8c8c8c;
     border-bottom: none;
     background-color: transparent;
   }
   .labelText-0-2-5 {
-    color: #777777;
+    color: #737373;
     font-size: 14px;
     font-family: Roboto, Arial;
     font-weight: 500;
@@ -686,7 +692,7 @@ Array [
 exports[`Counter should render correctly with label 1`] = `
 Array [
   ".labelContainer-0-2-7 {
-  color: #000000;
+  color: #111111;
   font-family: \\"Roboto\\", Arial;
 }
 .sharedRippleEffect-0-2-14 {
@@ -755,11 +761,11 @@ Array [
   }
   .wrapper-d0-0-2-20:focus:after {  }
   .wrapper-d0-0-2-20:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d1-0-2-21 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 0;
     top: 0;
@@ -768,6 +774,7 @@ Array [
   }
   .rippleContainer-d2-0-2-22 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d3-0-2-23 {
     animation: keyframes-ripple-0-2-19 300ms;
@@ -778,14 +785,14 @@ Array [
     align-self: start;
   }
   .wrapper-d4-0-2-27:focus:after {
-    background-color: #000000;
+    background-color: #111111;
   }
   .wrapper-d4-0-2-27:hover:after {
-    background-color: #000000;
+    background-color: #111111;
     opacity: 0;
   }
   .ripple-d5-0-2-28 {
-    background-color: #000000;
+    background-color: #111111;
     height: 0;
     left: 0;
     top: 0;
@@ -794,6 +801,7 @@ Array [
   }
   .rippleContainer-d6-0-2-29 {
     overflow: hidden;
+    border-radius: 4px;
   }
   .rippleActive-d7-0-2-30 {
     animation: keyframes-ripple-0-2-19 300ms;
@@ -803,7 +811,6 @@ Array [
     outline: 0;
     overflow: hidden;
     position: relative;
-    border-radius: 4px;
   }
   .button-0-2-8:disabled {
     cursor: default;
@@ -829,8 +836,9 @@ Array [
   .button-d0-0-2-11 {
     background-color: #FFFFFF00;
     border: 1px solid #FFFFFF00;
+    border-radius: 4px;
     box-shadow: none;
-    color: #333333;
+    color: #363636;
     height: 40px;
     padding-left: 8px;
     padding-right: 8px;
@@ -839,12 +847,12 @@ Array [
   .button-d0-0-2-11:disabled {
     background-color: #FFFFFF00;
     border: 1px solid #FFFFFF00;
-    color: #777777;
+    color: #737373;
   }
   .button-d0-0-2-11:hover:not([disabled]) {
     background-color: #bbbbbb;
     border: 1px solid #FFFFFF00;
-    color: #333333;
+    color: #363636;
     opacity: unset;
   }
   .button-d0-0-2-11:focus-visible:not([disabled]) {
@@ -867,8 +875,9 @@ Array [
   .button-d3-0-2-24 {
     background-color: #FFFFFF00;
     border: 1px solid #FFFFFF00;
+    border-radius: 4px;
     box-shadow: none;
-    color: #333333;
+    color: #363636;
     height: 40px;
     padding-left: 8px;
     padding-right: 8px;
@@ -877,12 +886,12 @@ Array [
   .button-d3-0-2-24:disabled {
     background-color: #FFFFFF00;
     border: 1px solid #FFFFFF00;
-    color: #777777;
+    color: #737373;
   }
   .button-d3-0-2-24:hover:not([disabled]) {
     background-color: #bbbbbb;
     border: 1px solid #FFFFFF00;
-    color: #333333;
+    color: #363636;
     opacity: unset;
   }
   .button-d3-0-2-24:focus-visible:not([disabled]) {
@@ -904,7 +913,7 @@ Array [
   }
   .buttonGroup-0-2-1 {
     width: fit-content;
-    border: 1px solid #bbbbbb;
+    border: 1px solid #8c8c8c;
     display: flex;
     overflow: hidden;
     margin-top: 4px;
@@ -924,7 +933,7 @@ Array [
     border-bottom-right-radius: 0;
   }
   .inputBase-0-2-4 {
-    color: #000000;
+    color: #111111;
     width: 40px;
     cursor: default;
     height: 100%;
@@ -932,13 +941,13 @@ Array [
     padding: 0;
     border-top: none;
     text-align: center;
-    border-left: 1px solid #bbbbbb;
-    border-right: 1px solid #bbbbbb;
+    border-left: 1px solid #8c8c8c;
+    border-right: 1px solid #8c8c8c;
     border-bottom: none;
     background-color: transparent;
   }
   .labelText-0-2-5 {
-    color: #777777;
+    color: #737373;
     font-size: 14px;
     font-family: Roboto, Arial;
     font-weight: 500;
