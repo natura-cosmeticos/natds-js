@@ -147,8 +147,29 @@ export const SearchIconButton: Story<IconButtonProps> = (args) => {
 
           {
         filterOptions.map((names) => (
+          <>
+            <div style={{
+              display: 'flex',
+              flexDirection: 'column',
+              justifyContent: 'center',
+              alignItems: 'center ',
+              padding: '8px',
+              backgroundColor: '#ffffff',
+              border: '1px solid #ccc',
+              width: '180px'
+            }}
+            >
+              <IconButton
+                {...args}
+                backgroundStyle="float"
+                ariaLabel={names.label}
+                onClick={() => ''}
+                IconComponent={<Icon color="primary" name={names.value as IconName} />}
+              />
+              <p>{names.value}</p>
+            </div>
 
-          <IconButton {...args} backgroundStyle="float" ariaLabel={names.label} onClick={() => ''} IconComponent={<Icon color="primary" name={names.value as IconName} />} />
+          </>
 
         ))
       }
