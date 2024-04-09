@@ -5,7 +5,8 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [2.58.2](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.58.2-alpha.DSY-4495.1.0...@naturacosmeticos/natds-react@2.58.2) (2024-04-09)
 
-**Note:** Version bump only for package @naturacosmeticos/natds-react
+* **natds-react:** update icons
+* **natds-react:** update stories iconButtonSearch
 
 
 
