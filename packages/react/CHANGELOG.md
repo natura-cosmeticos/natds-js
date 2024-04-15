@@ -5,7 +5,36 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [2.58.2](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.58.2-alpha.DSY-4495.1.0...@naturacosmeticos/natds-react@2.58.2) (2024-04-09)
 
+### Features
 * **natds-react:** update icons
+* **natds-icons:** add icon filled-brand-tiktok 
+* **natds-icons:** add icon filled-content-handsoap 
+* **natds-icons:** add icon filled-content-handwater 
+* **natds-icons:** add icon filled-content-oilunavailable 
+* **natds-icons:** add icon filled-content-sensitive 
+* **natds-icons:** add icon filled-finance-shieldplus 
+* **natds-icons:** add icon filled-media-volumeoff 
+* **natds-icons:** add icon filled-media-volumeon 
+* **natds-icons:** add icon filled-navigation-maximize 
+* **natds-icons:** add icon filled-navigation-minimize 
+* **natds-icons:** add icon filled-place-target 
+* **natds-icons:** add icon filled-product-cube 
+* **natds-icons:** add icon outlined-action-zoomin 
+* **natds-icons:** add icon outlined-action-zoomout 
+* **natds-icons:** add icon outlined-brand-tiktok 
+* **natds-icons:** add icon outlined-content-handsoap 
+* **natds-icons:** add icon outlined-content-handwater 
+* **natds-icons:** add icon outlined-content-oilunavailable 
+* **natds-icons:** add icon outlined-content-sensitive 
+* **natds-icons:** add icon outlined-finance-shieldplus 
+* **natds-icons:** add icon outlined-makeup-age 
+* **natds-icons:** add icon outlined-makeup-mixedskin 
+* **natds-icons:** add icon outlined-makeup-typeacneic 
+* **natds-icons:** add icon outlined-media-volumeoff 
+* **natds-icons:** add icon outlined-media-volumeon 
+* **natds-icons:** add icon outlined-navigation-maximize 
+* **natds-icons:** add icon outlined-navigation-minimize 
+
 * **natds-react:** update stories iconButtonSearch
 
 
