@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
-
+export NODE_OPTIONS=--openssl-legacy-provider
 BRANCH_NAME=$(bash ./.cicd/get-branch-name.sh)
 FOLDER_NAME=${BRANCH_NAME//[\/]/-}
 OUTPUT_PATH=build
