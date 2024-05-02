@@ -4,7 +4,7 @@ set -e
 if [ -z $(./.cicd/skip-commit.sh) ]; then
     bash .cicd/configure-git.sh
  
-    yarn add react react-dom
+    yarn add react
  
     yarn build
 fi
