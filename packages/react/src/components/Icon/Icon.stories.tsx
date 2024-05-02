@@ -108,7 +108,7 @@ export const SearchIcon: Story<IconProps> = () => {
 }
 SearchIcon.args = { ...Playground.args }
 
-export const ListIcon: Story<IconProps> = (args) => {
+export const ListIcon: Story<IconProps> = () => {
   const [filterOptionsN] = useState<OptionProps[]>(iconNames.map((icon) => ({ value: icon, label: icon })))
   const [filterOptions] = useState<OptionProps[]>(filterOptionsN)
 
