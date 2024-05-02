@@ -16,7 +16,7 @@ if [ -z $(./.cicd/skip-commit.sh) ]; then
     fi
 
     yarn build:storybook
-    cp -r packages/web/docs/dist/* ${OUTPUT_PATH}
+    # cp -r packages/web/docs/dist/* ${OUTPUT_PATH}
 
     mkdir -p ${OUTPUT_PATH}/react
     cp -r packages/react/docs/dist/* ${OUTPUT_PATH}/react
