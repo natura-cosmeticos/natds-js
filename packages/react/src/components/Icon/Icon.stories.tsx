@@ -114,7 +114,7 @@ export const ListIcon: Story<IconProps> = () => {
 
   const countIcons = () => {
     const counts = {
-      filled: 0,
+      filled: 1,
       outlined: 0,
       categories: {} as { [key: string]: number }
     }
