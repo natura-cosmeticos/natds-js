@@ -15,10 +15,12 @@ if [ -z $(./.cicd/skip-commit.sh) ]; then
         echo "Created ${FOLDER_NAME} folder"
     fi
 
-    # yarn build:storybook
+    yarn build:storybook
+    ls
     # cp -r packages/web/docs/dist/* ${OUTPUT_PATH}
 
     mkdir -p ${OUTPUT_PATH}/react
     cp -r packages/react/docs/dist/* ${OUTPUT_PATH}/react
+    ls
 
 fi
