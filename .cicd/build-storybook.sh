@@ -16,7 +16,7 @@ if [ -z "$(./.cicd/skip-commit.sh)" ]; then
         echo "Created ${FOLDER_NAME} folder"
     fi
     
-    yarn --cwd packages/react build
+    yarn --cwd packages/react build:storybook
     
     mkdir -p "${OUTPUT_PATH}/react"
     cp -r packages/react/docs/dist/* ${OUTPUT_PATH}/react
