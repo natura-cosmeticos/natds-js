@@ -19,6 +19,6 @@ if [ -z "$(./.cicd/skip-commit.sh)" ]; then
     yarn --cwd packages/react build
     
     mkdir -p "${OUTPUT_PATH}/react"
-    cp -r packages/react/build/* "${OUTPUT_PATH}/react"
+    cp -r packages/react/docs/dist/* ${OUTPUT_PATH}/react
  
 fi
