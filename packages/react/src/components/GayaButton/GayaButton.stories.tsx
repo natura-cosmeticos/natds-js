@@ -107,7 +107,7 @@ export const Brands: Story<GayaButtonProps> = (args) => (
 Brands.args = { ...Playground.args }
 export const LabelTransform: Story<GayaButtonProps> = (args) => (
   <StoryContainer>
-    <GayaButton {...args} variant="contained" />
+    <GayaButton textTransform="uppercase" {...args} variant="contained" />
     <GayaButton textTransform="capitalize" {...args} variant="contained" />
     <GayaButton textTransform="lowercase" {...args} variant="contained" />
   </StoryContainer>
@@ -117,9 +117,9 @@ LabelTransform.args = { ...Playground.args }
 export const Sizes: Story<GayaButtonProps> = (args) => (
   <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
     <div style={{ display: 'flex', gap: 8 }}>
-      <GayaButton {...args} size="semi" />
-      <GayaButton {...args} size="semiX" />
-      <GayaButton {...args} size="medium" />
+      <GayaButton variant="filled" {...args} size="semi" />
+      <GayaButton variant="filled" {...args} size="semiX" />
+      <GayaButton variant="filled" {...args} size="medium" />
     </div>
     <div style={{ display: 'flex', gap: 8 }}>
       <GayaButton {...args} variant="outlined" size="semi" />
@@ -127,9 +127,14 @@ export const Sizes: Story<GayaButtonProps> = (args) => (
       <GayaButton {...args} variant="outlined" size="medium" />
     </div>
     <div style={{ display: 'flex', gap: 8 }}>
-      <GayaButton {...args} variant="text" size="semi" />
-      <GayaButton {...args} variant="text" size="semiX" />
-      <GayaButton {...args} variant="text" size="medium" />
+      <GayaButton {...args} variant="ghost" size="semi" />
+      <GayaButton {...args} variant="ghost" size="semiX" />
+      <GayaButton {...args} variant="ghost" size="medium" />
+    </div>
+    <div style={{ display: 'flex', gap: 8 }}>
+      <GayaButton {...args} variant="tonal" size="semi" />
+      <GayaButton {...args} variant="tonal" size="semiX" />
+      <GayaButton {...args} variant="tonal" size="medium" />
     </div>
   </div>
 )
@@ -157,8 +162,12 @@ export const Icon: Story<GayaButtonProps> = (args) => (
       <GayaButton {...args} variant="outlined" showIcon iconName="outlined-default-mockup" />
     </div>
     <div style={{ display: 'flex', gap: 8 }}>
-      <GayaButton {...args} variant="text" showIcon iconName="outlined-default-mockup" iconPosition="left" />
-      <GayaButton {...args} variant="text" showIcon iconName="outlined-default-mockup" />
+      <GayaButton {...args} variant="ghost" showIcon iconName="outlined-default-mockup" iconPosition="left" />
+      <GayaButton {...args} variant="ghost" showIcon iconName="outlined-default-mockup" />
+    </div>
+    <div style={{ display: 'flex', gap: 8 }}>
+      <GayaButton {...args} variant="tonal" showIcon iconName="outlined-default-mockup" iconPosition="left" />
+      <GayaButton {...args} variant="tonal" showIcon iconName="outlined-default-mockup" />
     </div>
   </div>
 )
