@@ -11,14 +11,14 @@ const componentStatus = `
 ## Properties
 | Property                   | Values                                                                          |    Status           |
 |---                         |                                                                              ---|                  ---|
-| **variant**                | contained, outlined, text                                                       | ✅ Available        |
+| **variant**                | filled, outlined, ghost, tonal                                                  | ✅ Available        |
 | **textTranform**           | uppercase, lowercase,  capitalize                                               | ✅ Available        |
 | **size**                   | semi, semiX, medium                                                             | ✅ Available        |
 | **iconName**               | 'icon_name'                                                                     | ✅ Available        |
 | **disabled**               | true, false                                                                     | ✅ Available        |
 | **fullWidth (Display)**    | true, false                                                                     | ✅ Available        |
-| **brand**                  | avon, avon_v2, natura, natura_v2, theBodyShop, <br /> consultoriaDeBeleza, casaEestilo            | ✅ Available        |
-| **color**                  | primary, onPrimary, secondary, onSecondary, surfaceInverse, onSurfaceInverse                      | ✅ Available        |
+| **brand**                  | avon, avon_v2, natura, natura_v2, natura_v3, theBodyShop, <br /> consultoriaDeBeleza, casaEestilo            | ✅ Available        |
+| **color**                  | primary, onPrimary, secondary, onSecondary, neutral, inverse                     | ✅ Available        |
 
 ## Technical Usages Examples
 `
