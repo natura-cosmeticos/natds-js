@@ -177,7 +177,8 @@ export const FullWidth: Story<GayaButtonProps> = (args) => (
   <div style={{ display: 'flex', gap: 8, flexDirection: 'column' }}>
     <GayaButton {...args} />
     <GayaButton {...args} variant="outlined" />
-    <GayaButton {...args} variant="text" />
+    <GayaButton {...args} variant="ghost" />
+    <GayaButton {...args} variant="tonal" />
   </div>
 )
 FullWidth.args = { ...Playground.args, fullWidth: true, display: 'inline' }
