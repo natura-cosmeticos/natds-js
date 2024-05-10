@@ -2,21 +2,21 @@
 
 exports[`Button component should render correctly when the fullWidth is true 1`] = `
 Array [
-  ".button-0-2-1 {
+  ".gayaButton-0-2-1 {
   cursor: pointer;
   outline: 0;
   overflow: hidden;
   position: relative;
   box-shadow: none;
 }
-.button-0-2-1:disabled {
+.gayaButton-0-2-1:disabled {
   border: none;
   cursor: default;
   box-shadow: none;
 }
-.button-0-2-1:hover:not([disabled]) {}
-.button-0-2-1:focus-visible:not([disabled]) {}
-.button-0-2-1:active:not([disabled]) {}
+.gayaButton-0-2-1:hover:not([disabled]) {}
+.gayaButton-0-2-1:focus-visible:not([disabled]) {}
+.gayaButton-0-2-1:active:not([disabled]) {}
 .labelContainer-0-2-2 {
   display: flex;
   align-items: center;
@@ -31,7 +31,7 @@ Array [
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-.button-d0-0-2-4 {
+.gayaButton-d0-0-2-4 {
   background-color: #f4ab34;
   border: 1px solid #FFFFFF00;
   border-radius: 4px;
@@ -41,22 +41,22 @@ Array [
   padding-right: 8px;
   width: 100%;
 }
-.button-d0-0-2-4:disabled {
+.gayaButton-d0-0-2-4:disabled {
   background-color: #a4a4a4;
   color: #363636;
 }
-.button-d0-0-2-4:hover:not([disabled]) {
+.gayaButton-d0-0-2-4:hover:not([disabled]) {
   background-color: #f6b854;
   border: 1px solid #FFFFFF00;
   color: #333333;
 }
-.button-d0-0-2-4:focus-visible:not([disabled]) {
+.gayaButton-d0-0-2-4:focus-visible:not([disabled]) {
   background-color: #F8C675;
   border: 1px solid #FFFFFF00;
   color: #333333;
   opacity: 0.64;
 }
-.button-d0-0-2-4:active:not([disabled]) {
+.gayaButton-d0-0-2-4:active:not([disabled]) {
   background-color: #F8C675;
   border: 1px solid #FFFFFF00;
   color: #333333;
@@ -74,7 +74,7 @@ Array [
       data-testid="ripple"
     >
       <button
-        class="button-0-2-1 button-d0-0-2-4  Button-gaya"
+        class="gayaButton-0-2-1 gayaButton-d0-0-2-4  Button-gaya"
         type="button"
       >
         <div
@@ -94,21 +94,21 @@ Array [
 
 exports[`Button component should render correctly when the size is medium 1`] = `
 Array [
-  ".button-0-2-1 {
+  ".gayaButton-0-2-1 {
   cursor: pointer;
   outline: 0;
   overflow: hidden;
   position: relative;
   box-shadow: none;
 }
-.button-0-2-1:disabled {
+.gayaButton-0-2-1:disabled {
   border: none;
   cursor: default;
   box-shadow: none;
 }
-.button-0-2-1:hover:not([disabled]) {}
-.button-0-2-1:focus-visible:not([disabled]) {}
-.button-0-2-1:active:not([disabled]) {}
+.gayaButton-0-2-1:hover:not([disabled]) {}
+.gayaButton-0-2-1:focus-visible:not([disabled]) {}
+.gayaButton-0-2-1:active:not([disabled]) {}
 .labelContainer-0-2-2 {
   display: flex;
   align-items: center;
@@ -123,7 +123,7 @@ Array [
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-.button-d0-0-2-4 {
+.gayaButton-d0-0-2-4 {
   background-color: #f4ab34;
   border: 1px solid #FFFFFF00;
   border-radius: 4px;
@@ -133,22 +133,22 @@ Array [
   padding-right: 16px;
   width: auto;
 }
-.button-d0-0-2-4:disabled {
+.gayaButton-d0-0-2-4:disabled {
   background-color: #a4a4a4;
   color: #363636;
 }
-.button-d0-0-2-4:hover:not([disabled]) {
+.gayaButton-d0-0-2-4:hover:not([disabled]) {
   background-color: #f6b854;
   border: 1px solid #FFFFFF00;
   color: #333333;
 }
-.button-d0-0-2-4:focus-visible:not([disabled]) {
+.gayaButton-d0-0-2-4:focus-visible:not([disabled]) {
   background-color: #F8C675;
   border: 1px solid #FFFFFF00;
   color: #333333;
   opacity: 0.64;
 }
-.button-d0-0-2-4:active:not([disabled]) {
+.gayaButton-d0-0-2-4:active:not([disabled]) {
   background-color: #F8C675;
   border: 1px solid #FFFFFF00;
   color: #333333;
@@ -166,7 +166,7 @@ Array [
       data-testid="ripple"
     >
       <button
-        class="button-0-2-1 button-d0-0-2-4  Button-gaya"
+        class="gayaButton-0-2-1 gayaButton-d0-0-2-4  Button-gaya"
         type="button"
       >
         <div
@@ -186,21 +186,21 @@ Array [
 
 exports[`Button component should render correctly when the size is semi 1`] = `
 Array [
-  ".button-0-2-1 {
+  ".gayaButton-0-2-1 {
   cursor: pointer;
   outline: 0;
   overflow: hidden;
   position: relative;
   box-shadow: none;
 }
-.button-0-2-1:disabled {
+.gayaButton-0-2-1:disabled {
   border: none;
   cursor: default;
   box-shadow: none;
 }
-.button-0-2-1:hover:not([disabled]) {}
-.button-0-2-1:focus-visible:not([disabled]) {}
-.button-0-2-1:active:not([disabled]) {}
+.gayaButton-0-2-1:hover:not([disabled]) {}
+.gayaButton-0-2-1:focus-visible:not([disabled]) {}
+.gayaButton-0-2-1:active:not([disabled]) {}
 .labelContainer-0-2-2 {
   display: flex;
   align-items: center;
@@ -215,7 +215,7 @@ Array [
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-.button-d0-0-2-4 {
+.gayaButton-d0-0-2-4 {
   background-color: #f4ab34;
   border: 1px solid #FFFFFF00;
   border-radius: 4px;
@@ -225,22 +225,22 @@ Array [
   padding-right: 4px;
   width: auto;
 }
-.button-d0-0-2-4:disabled {
+.gayaButton-d0-0-2-4:disabled {
   background-color: #a4a4a4;
   color: #363636;
 }
-.button-d0-0-2-4:hover:not([disabled]) {
+.gayaButton-d0-0-2-4:hover:not([disabled]) {
   background-color: #f6b854;
   border: 1px solid #FFFFFF00;
   color: #333333;
 }
-.button-d0-0-2-4:focus-visible:not([disabled]) {
+.gayaButton-d0-0-2-4:focus-visible:not([disabled]) {
   background-color: #F8C675;
   border: 1px solid #FFFFFF00;
   color: #333333;
   opacity: 0.64;
 }
-.button-d0-0-2-4:active:not([disabled]) {
+.gayaButton-d0-0-2-4:active:not([disabled]) {
   background-color: #F8C675;
   border: 1px solid #FFFFFF00;
   color: #333333;
@@ -258,7 +258,7 @@ Array [
       data-testid="ripple"
     >
       <button
-        class="button-0-2-1 button-d0-0-2-4  Button-gaya"
+        class="gayaButton-0-2-1 gayaButton-d0-0-2-4  Button-gaya"
         type="button"
       >
         <div
@@ -278,21 +278,21 @@ Array [
 
 exports[`Button component should render correctly when the variant is contained and disabled is true 1`] = `
 Array [
-  ".button-0-2-1 {
+  ".gayaButton-0-2-1 {
   cursor: pointer;
   outline: 0;
   overflow: hidden;
   position: relative;
   box-shadow: none;
 }
-.button-0-2-1:disabled {
+.gayaButton-0-2-1:disabled {
   border: none;
   cursor: default;
   box-shadow: none;
 }
-.button-0-2-1:hover:not([disabled]) {}
-.button-0-2-1:focus-visible:not([disabled]) {}
-.button-0-2-1:active:not([disabled]) {}
+.gayaButton-0-2-1:hover:not([disabled]) {}
+.gayaButton-0-2-1:focus-visible:not([disabled]) {}
+.gayaButton-0-2-1:active:not([disabled]) {}
 .labelContainer-0-2-2 {
   display: flex;
   align-items: center;
@@ -307,7 +307,7 @@ Array [
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-.button-d0-0-2-4 {
+.gayaButton-d0-0-2-4 {
   background-color: #f4ab34;
   border: 1px solid #FFFFFF00;
   border-radius: 4px;
@@ -317,22 +317,22 @@ Array [
   padding-right: 8px;
   width: auto;
 }
-.button-d0-0-2-4:disabled {
+.gayaButton-d0-0-2-4:disabled {
   background-color: #a4a4a4;
   color: #363636;
 }
-.button-d0-0-2-4:hover:not([disabled]) {
+.gayaButton-d0-0-2-4:hover:not([disabled]) {
   background-color: #f6b854;
   border: 1px solid #FFFFFF00;
   color: #333333;
 }
-.button-d0-0-2-4:focus-visible:not([disabled]) {
+.gayaButton-d0-0-2-4:focus-visible:not([disabled]) {
   background-color: #F8C675;
   border: 1px solid #FFFFFF00;
   color: #333333;
   opacity: 0.64;
 }
-.button-d0-0-2-4:active:not([disabled]) {
+.gayaButton-d0-0-2-4:active:not([disabled]) {
   background-color: #F8C675;
   border: 1px solid #FFFFFF00;
   color: #333333;
@@ -350,7 +350,7 @@ Array [
       data-testid="ripple"
     >
       <button
-        class="button-0-2-1 button-d0-0-2-4  Button-gaya"
+        class="gayaButton-0-2-1 gayaButton-d0-0-2-4  Button-gaya"
         data-testid="btn-disabled"
         disabled=""
         type="button"
@@ -372,21 +372,21 @@ Array [
 
 exports[`Button component should render correctly when the variant is outlined 1`] = `
 Array [
-  ".button-0-2-1 {
+  ".gayaButton-0-2-1 {
   cursor: pointer;
   outline: 0;
   overflow: hidden;
   position: relative;
   box-shadow: none;
 }
-.button-0-2-1:disabled {
+.gayaButton-0-2-1:disabled {
   border: none;
   cursor: default;
   box-shadow: none;
 }
-.button-0-2-1:hover:not([disabled]) {}
-.button-0-2-1:focus-visible:not([disabled]) {}
-.button-0-2-1:active:not([disabled]) {}
+.gayaButton-0-2-1:hover:not([disabled]) {}
+.gayaButton-0-2-1:focus-visible:not([disabled]) {}
+.gayaButton-0-2-1:active:not([disabled]) {}
 .labelContainer-0-2-2 {
   display: flex;
   align-items: center;
@@ -401,7 +401,7 @@ Array [
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-.button-d0-0-2-4 {
+.gayaButton-d0-0-2-4 {
   background-color: #FFFFFF00;
   border: 1px solid #f4ab34;
   border-radius: 4px;
@@ -411,21 +411,21 @@ Array [
   padding-right: 8px;
   width: auto;
 }
-.button-d0-0-2-4:disabled {
+.gayaButton-d0-0-2-4:disabled {
   background-color: #a4a4a4;
   color: #363636;
 }
-.button-d0-0-2-4:hover:not([disabled]) {
+.gayaButton-d0-0-2-4:hover:not([disabled]) {
   background-color: #e1e1e1;
   border: 1px solid #f6b854;
   color: #111111;
 }
-.button-d0-0-2-4:focus-visible:not([disabled]) {
+.gayaButton-d0-0-2-4:focus-visible:not([disabled]) {
   background-color: #c9c9c9;
   border: 1px solid #F8C675;
   color: #111111;
 }
-.button-d0-0-2-4:active:not([disabled]) {
+.gayaButton-d0-0-2-4:active:not([disabled]) {
   background-color: #c9c9c9;
   border: 1px solid #F8C675;
   color: #111111;
@@ -442,7 +442,7 @@ Array [
       data-testid="ripple"
     >
       <button
-        class="button-0-2-1 button-d0-0-2-4  Button-gaya"
+        class="gayaButton-0-2-1 gayaButton-d0-0-2-4  Button-gaya"
         type="button"
       >
         <div
@@ -462,21 +462,21 @@ Array [
 
 exports[`Button component should render correctly when the variant is outlined and is disabled 1`] = `
 Array [
-  ".button-0-2-1 {
+  ".gayaButton-0-2-1 {
   cursor: pointer;
   outline: 0;
   overflow: hidden;
   position: relative;
   box-shadow: none;
 }
-.button-0-2-1:disabled {
+.gayaButton-0-2-1:disabled {
   border: none;
   cursor: default;
   box-shadow: none;
 }
-.button-0-2-1:hover:not([disabled]) {}
-.button-0-2-1:focus-visible:not([disabled]) {}
-.button-0-2-1:active:not([disabled]) {}
+.gayaButton-0-2-1:hover:not([disabled]) {}
+.gayaButton-0-2-1:focus-visible:not([disabled]) {}
+.gayaButton-0-2-1:active:not([disabled]) {}
 .labelContainer-0-2-2 {
   display: flex;
   align-items: center;
@@ -491,7 +491,7 @@ Array [
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-.button-d0-0-2-4 {
+.gayaButton-d0-0-2-4 {
   background-color: #FFFFFF00;
   border: 1px solid #f4ab34;
   border-radius: 4px;
@@ -501,21 +501,21 @@ Array [
   padding-right: 8px;
   width: auto;
 }
-.button-d0-0-2-4:disabled {
+.gayaButton-d0-0-2-4:disabled {
   background-color: #a4a4a4;
   color: #363636;
 }
-.button-d0-0-2-4:hover:not([disabled]) {
+.gayaButton-d0-0-2-4:hover:not([disabled]) {
   background-color: #e1e1e1;
   border: 1px solid #f6b854;
   color: #111111;
 }
-.button-d0-0-2-4:focus-visible:not([disabled]) {
+.gayaButton-d0-0-2-4:focus-visible:not([disabled]) {
   background-color: #c9c9c9;
   border: 1px solid #F8C675;
   color: #111111;
 }
-.button-d0-0-2-4:active:not([disabled]) {
+.gayaButton-d0-0-2-4:active:not([disabled]) {
   background-color: #c9c9c9;
   border: 1px solid #F8C675;
   color: #111111;
@@ -532,7 +532,7 @@ Array [
       data-testid="ripple"
     >
       <button
-        class="button-0-2-1 button-d0-0-2-4  Button-gaya"
+        class="gayaButton-0-2-1 gayaButton-d0-0-2-4  Button-gaya"
         disabled=""
         type="button"
       >
@@ -553,21 +553,21 @@ Array [
 
 exports[`Button component should render correctly when the variant is text 1`] = `
 Array [
-  ".button-0-2-1 {
+  ".gayaButton-0-2-1 {
   cursor: pointer;
   outline: 0;
   overflow: hidden;
   position: relative;
   box-shadow: none;
 }
-.button-0-2-1:disabled {
+.gayaButton-0-2-1:disabled {
   border: none;
   cursor: default;
   box-shadow: none;
 }
-.button-0-2-1:hover:not([disabled]) {}
-.button-0-2-1:focus-visible:not([disabled]) {}
-.button-0-2-1:active:not([disabled]) {}
+.gayaButton-0-2-1:hover:not([disabled]) {}
+.gayaButton-0-2-1:focus-visible:not([disabled]) {}
+.gayaButton-0-2-1:active:not([disabled]) {}
 .labelContainer-0-2-2 {
   display: flex;
   align-items: center;
@@ -582,7 +582,7 @@ Array [
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-.button-d0-0-2-4 {
+.gayaButton-d0-0-2-4 {
   background-color: #FFFFFF00;
   border: 1px solid #FFFFFF00;
   border-radius: 4px;
@@ -592,21 +592,21 @@ Array [
   padding-right: 8px;
   width: auto;
 }
-.button-d0-0-2-4:disabled {
+.gayaButton-d0-0-2-4:disabled {
   background-color: #a4a4a4;
   color: #363636;
 }
-.button-d0-0-2-4:hover:not([disabled]) {
+.gayaButton-d0-0-2-4:hover:not([disabled]) {
   background-color: #e1e1e1;
   border: 1px solid #FFFFFF00;
   color: #111111;
 }
-.button-d0-0-2-4:focus-visible:not([disabled]) {
+.gayaButton-d0-0-2-4:focus-visible:not([disabled]) {
   background-color: #c9c9c9;
   border: 1px solid #FFFFFF00;
   color: #111111;
 }
-.button-d0-0-2-4:active:not([disabled]) {
+.gayaButton-d0-0-2-4:active:not([disabled]) {
   background-color: #c9c9c9;
   border: 1px solid #FFFFFF00;
   color: #111111;
@@ -623,7 +623,7 @@ Array [
       data-testid="ripple"
     >
       <button
-        class="button-0-2-1 button-d0-0-2-4  Button-gaya"
+        class="gayaButton-0-2-1 gayaButton-d0-0-2-4  Button-gaya"
         type="button"
       >
         <div
@@ -643,21 +643,21 @@ Array [
 
 exports[`Button component should render correctly when the variant is text and is disabled 1`] = `
 Array [
-  ".button-0-2-1 {
+  ".gayaButton-0-2-1 {
   cursor: pointer;
   outline: 0;
   overflow: hidden;
   position: relative;
   box-shadow: none;
 }
-.button-0-2-1:disabled {
+.gayaButton-0-2-1:disabled {
   border: none;
   cursor: default;
   box-shadow: none;
 }
-.button-0-2-1:hover:not([disabled]) {}
-.button-0-2-1:focus-visible:not([disabled]) {}
-.button-0-2-1:active:not([disabled]) {}
+.gayaButton-0-2-1:hover:not([disabled]) {}
+.gayaButton-0-2-1:focus-visible:not([disabled]) {}
+.gayaButton-0-2-1:active:not([disabled]) {}
 .labelContainer-0-2-2 {
   display: flex;
   align-items: center;
@@ -672,7 +672,7 @@ Array [
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-.button-d0-0-2-4 {
+.gayaButton-d0-0-2-4 {
   background-color: #FFFFFF00;
   border: 1px solid #FFFFFF00;
   border-radius: 4px;
@@ -682,21 +682,21 @@ Array [
   padding-right: 8px;
   width: auto;
 }
-.button-d0-0-2-4:disabled {
+.gayaButton-d0-0-2-4:disabled {
   background-color: #a4a4a4;
   color: #363636;
 }
-.button-d0-0-2-4:hover:not([disabled]) {
+.gayaButton-d0-0-2-4:hover:not([disabled]) {
   background-color: #e1e1e1;
   border: 1px solid #FFFFFF00;
   color: #111111;
 }
-.button-d0-0-2-4:focus-visible:not([disabled]) {
+.gayaButton-d0-0-2-4:focus-visible:not([disabled]) {
   background-color: #c9c9c9;
   border: 1px solid #FFFFFF00;
   color: #111111;
 }
-.button-d0-0-2-4:active:not([disabled]) {
+.gayaButton-d0-0-2-4:active:not([disabled]) {
   background-color: #c9c9c9;
   border: 1px solid #FFFFFF00;
   color: #111111;
@@ -713,7 +713,7 @@ Array [
       data-testid="ripple"
     >
       <button
-        class="button-0-2-1 button-d0-0-2-4  Button-gaya"
+        class="gayaButton-0-2-1 gayaButton-d0-0-2-4  Button-gaya"
         disabled=""
         type="button"
       >
@@ -734,21 +734,21 @@ Array [
 
 exports[`Button component should render correctly with default props 1`] = `
 Array [
-  ".button-0-2-1 {
+  ".gayaButton-0-2-1 {
   cursor: pointer;
   outline: 0;
   overflow: hidden;
   position: relative;
   box-shadow: none;
 }
-.button-0-2-1:disabled {
+.gayaButton-0-2-1:disabled {
   border: none;
   cursor: default;
   box-shadow: none;
 }
-.button-0-2-1:hover:not([disabled]) {}
-.button-0-2-1:focus-visible:not([disabled]) {}
-.button-0-2-1:active:not([disabled]) {}
+.gayaButton-0-2-1:hover:not([disabled]) {}
+.gayaButton-0-2-1:focus-visible:not([disabled]) {}
+.gayaButton-0-2-1:active:not([disabled]) {}
 .labelContainer-0-2-2 {
   display: flex;
   align-items: center;
@@ -763,7 +763,7 @@ Array [
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-.button-d0-0-2-4 {
+.gayaButton-d0-0-2-4 {
   background-color: #f4ab34;
   border: 1px solid #FFFFFF00;
   border-radius: 4px;
@@ -773,22 +773,22 @@ Array [
   padding-right: 8px;
   width: auto;
 }
-.button-d0-0-2-4:disabled {
+.gayaButton-d0-0-2-4:disabled {
   background-color: #a4a4a4;
   color: #363636;
 }
-.button-d0-0-2-4:hover:not([disabled]) {
+.gayaButton-d0-0-2-4:hover:not([disabled]) {
   background-color: #f6b854;
   border: 1px solid #FFFFFF00;
   color: #333333;
 }
-.button-d0-0-2-4:focus-visible:not([disabled]) {
+.gayaButton-d0-0-2-4:focus-visible:not([disabled]) {
   background-color: #F8C675;
   border: 1px solid #FFFFFF00;
   color: #333333;
   opacity: 0.64;
 }
-.button-d0-0-2-4:active:not([disabled]) {
+.gayaButton-d0-0-2-4:active:not([disabled]) {
   background-color: #F8C675;
   border: 1px solid #FFFFFF00;
   color: #333333;
@@ -806,7 +806,7 @@ Array [
       data-testid="ripple"
     >
       <button
-        class="button-0-2-1 button-d0-0-2-4  Button-gaya"
+        class="gayaButton-0-2-1 gayaButton-d0-0-2-4  Button-gaya"
         type="button"
       >
         <div
@@ -834,21 +834,21 @@ Array [
 .icon-d0-0-2-8 {
   font-size: 24px;
 }
-.button-0-2-1 {
+.gayaButton-0-2-1 {
   cursor: pointer;
   outline: 0;
   overflow: hidden;
   position: relative;
   box-shadow: none;
 }
-.button-0-2-1:disabled {
+.gayaButton-0-2-1:disabled {
   border: none;
   cursor: default;
   box-shadow: none;
 }
-.button-0-2-1:hover:not([disabled]) {}
-.button-0-2-1:focus-visible:not([disabled]) {}
-.button-0-2-1:active:not([disabled]) {}
+.gayaButton-0-2-1:hover:not([disabled]) {}
+.gayaButton-0-2-1:focus-visible:not([disabled]) {}
+.gayaButton-0-2-1:active:not([disabled]) {}
 .labelContainer-0-2-2 {
   display: flex;
   align-items: center;
@@ -863,7 +863,7 @@ Array [
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-.button-d0-0-2-4 {
+.gayaButton-d0-0-2-4 {
   background-color: #f4ab34;
   border: 1px solid #FFFFFF00;
   border-radius: 4px;
@@ -873,22 +873,22 @@ Array [
   padding-right: 8px;
   width: auto;
 }
-.button-d0-0-2-4:disabled {
+.gayaButton-d0-0-2-4:disabled {
   background-color: #a4a4a4;
   color: #363636;
 }
-.button-d0-0-2-4:hover:not([disabled]) {
+.gayaButton-d0-0-2-4:hover:not([disabled]) {
   background-color: #f6b854;
   border: 1px solid #FFFFFF00;
   color: #333333;
 }
-.button-d0-0-2-4:focus-visible:not([disabled]) {
+.gayaButton-d0-0-2-4:focus-visible:not([disabled]) {
   background-color: #F8C675;
   border: 1px solid #FFFFFF00;
   color: #333333;
   opacity: 0.64;
 }
-.button-d0-0-2-4:active:not([disabled]) {
+.gayaButton-d0-0-2-4:active:not([disabled]) {
   background-color: #F8C675;
   border: 1px solid #FFFFFF00;
   color: #333333;
@@ -907,7 +907,7 @@ Array [
       data-testid="ripple"
     >
       <button
-        class="button-0-2-1 button-d0-0-2-4  Button-gaya"
+        class="gayaButton-0-2-1 gayaButton-d0-0-2-4  Button-gaya"
         type="button"
       >
         <div
@@ -941,21 +941,21 @@ Array [
 .icon-d0-0-2-8 {
   font-size: 24px;
 }
-.button-0-2-1 {
+.gayaButton-0-2-1 {
   cursor: pointer;
   outline: 0;
   overflow: hidden;
   position: relative;
   box-shadow: none;
 }
-.button-0-2-1:disabled {
+.gayaButton-0-2-1:disabled {
   border: none;
   cursor: default;
   box-shadow: none;
 }
-.button-0-2-1:hover:not([disabled]) {}
-.button-0-2-1:focus-visible:not([disabled]) {}
-.button-0-2-1:active:not([disabled]) {}
+.gayaButton-0-2-1:hover:not([disabled]) {}
+.gayaButton-0-2-1:focus-visible:not([disabled]) {}
+.gayaButton-0-2-1:active:not([disabled]) {}
 .labelContainer-0-2-2 {
   display: flex;
   align-items: center;
@@ -970,7 +970,7 @@ Array [
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-.button-d0-0-2-4 {
+.gayaButton-d0-0-2-4 {
   background-color: #f4ab34;
   border: 1px solid #FFFFFF00;
   border-radius: 4px;
@@ -980,22 +980,22 @@ Array [
   padding-right: 8px;
   width: auto;
 }
-.button-d0-0-2-4:disabled {
+.gayaButton-d0-0-2-4:disabled {
   background-color: #a4a4a4;
   color: #363636;
 }
-.button-d0-0-2-4:hover:not([disabled]) {
+.gayaButton-d0-0-2-4:hover:not([disabled]) {
   background-color: #f6b854;
   border: 1px solid #FFFFFF00;
   color: #333333;
 }
-.button-d0-0-2-4:focus-visible:not([disabled]) {
+.gayaButton-d0-0-2-4:focus-visible:not([disabled]) {
   background-color: #F8C675;
   border: 1px solid #FFFFFF00;
   color: #333333;
   opacity: 0.64;
 }
-.button-d0-0-2-4:active:not([disabled]) {
+.gayaButton-d0-0-2-4:active:not([disabled]) {
   background-color: #F8C675;
   border: 1px solid #FFFFFF00;
   color: #333333;
@@ -1014,7 +1014,7 @@ Array [
       data-testid="ripple"
     >
       <button
-        class="button-0-2-1 button-d0-0-2-4  Button-gaya"
+        class="gayaButton-0-2-1 gayaButton-d0-0-2-4  Button-gaya"
         type="button"
       >
         <div
@@ -1048,21 +1048,21 @@ Array [
 .icon-d0-0-2-8 {
   font-size: 24px;
 }
-.button-0-2-1 {
+.gayaButton-0-2-1 {
   cursor: pointer;
   outline: 0;
   overflow: hidden;
   position: relative;
   box-shadow: none;
 }
-.button-0-2-1:disabled {
+.gayaButton-0-2-1:disabled {
   border: none;
   cursor: default;
   box-shadow: none;
 }
-.button-0-2-1:hover:not([disabled]) {}
-.button-0-2-1:focus-visible:not([disabled]) {}
-.button-0-2-1:active:not([disabled]) {}
+.gayaButton-0-2-1:hover:not([disabled]) {}
+.gayaButton-0-2-1:focus-visible:not([disabled]) {}
+.gayaButton-0-2-1:active:not([disabled]) {}
 .labelContainer-0-2-2 {
   display: flex;
   align-items: center;
@@ -1077,7 +1077,7 @@ Array [
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-.button-d0-0-2-4 {
+.gayaButton-d0-0-2-4 {
   background-color: #f4ab34;
   border: 1px solid #FFFFFF00;
   border-radius: 4px;
@@ -1087,22 +1087,22 @@ Array [
   padding-right: 8px;
   width: auto;
 }
-.button-d0-0-2-4:disabled {
+.gayaButton-d0-0-2-4:disabled {
   background-color: #a4a4a4;
   color: #363636;
 }
-.button-d0-0-2-4:hover:not([disabled]) {
+.gayaButton-d0-0-2-4:hover:not([disabled]) {
   background-color: #f6b854;
   border: 1px solid #FFFFFF00;
   color: #333333;
 }
-.button-d0-0-2-4:focus-visible:not([disabled]) {
+.gayaButton-d0-0-2-4:focus-visible:not([disabled]) {
   background-color: #F8C675;
   border: 1px solid #FFFFFF00;
   color: #333333;
   opacity: 0.64;
 }
-.button-d0-0-2-4:active:not([disabled]) {
+.gayaButton-d0-0-2-4:active:not([disabled]) {
   background-color: #F8C675;
   border: 1px solid #FFFFFF00;
   color: #333333;
@@ -1121,7 +1121,7 @@ Array [
       data-testid="ripple"
     >
       <button
-        class="button-0-2-1 button-d0-0-2-4  Button-gaya"
+        class="gayaButton-0-2-1 gayaButton-d0-0-2-4  Button-gaya"
         type="button"
       >
         <div
