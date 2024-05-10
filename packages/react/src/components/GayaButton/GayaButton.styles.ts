@@ -10,11 +10,22 @@ import { BrandTypes } from '../../brandTypes/brandTypes'
 
 type GayaButtonStyleProps = Pick<GayaButtonProps, 'size' | 'showIcon' | 'iconPosition' | 'variant' | 'fullWidth' | 'display' | 'disabled'| 'brand' | 'textTransform' | 'color' | 'mode'>
 
-const getPaddingStyles = (theme: Theme) => ({ size }: GayaButtonStyleProps) => {
+const getPaddingStyles = (theme: Theme) => ({ size, brand, mode }: GayaButtonStyleProps) => {
+  const brandTheme = buildTheme(brand, mode)
   const padding = {
     semi: theme.spacing.micro,
     medium: theme.spacing.small,
-    semiX: theme.spacing.tiny
+    // semiX: theme.spacing.tiny
+    semiX: theme.button.paddingX
+  }
+  const paddingbrand = {
+    semi: brandTheme.spacing.micro,
+    medium: brandTheme.spacing.small,
+    // semiX: brandTheme.spacing.tiny
+    semiX: brandTheme.button.paddingX
+  }
+  if (brand) {
+    return size && paddingbrand[size]
   }
 
   return size && padding[size]
@@ -69,6 +80,13 @@ const getletterSpacing = (theme: Theme) => ({ textTransform }: GayaButtonStylePr
     return 1
   }
   return theme.button.label.letterSpacing
+}
+const getTextTransform = (theme: Theme) => ({ brand, mode }: GayaButtonStyleProps) => {
+  const brandTheme = buildTheme(brand, mode)
+  if (brand) {
+    return brandTheme.button.textTransform
+  }
+  return theme.button.textTransform
 }
 
 const getPropsThemeButton = (theme: Theme) => ({ brand }: Pick<GayaButtonStyleProps, 'brand' >) => {
@@ -165,7 +183,7 @@ const styles = createUseStyles((theme: Theme) => ({
     marginRight: getLabelMargin(theme, 'right'),
     textAlign: 'center',
     textOverflow: 'ellipsis',
-    textTransform: ({ textTransform }) => textTransform,
+    textTransform: ({ textTransform, brand, mode }) => (textTransform || getTextTransform(theme)({ brand, mode })),
     userSelect: 'none',
     whiteSpace: 'nowrap'
   }

@@ -1,6 +1,7 @@
 /* eslint-disable max-len */
 import React from 'react'
 import { Story, Meta } from '@storybook/react'
+import Divider from '../Divider'
 import { GayaButton, GayaButtonProps } from '.'
 import StoryContainer from '../../helpers/StoryContainer'
 
@@ -54,6 +55,22 @@ export const Brands: Story<GayaButtonProps> = (args) => (
   }}
   >
     <StoryContainer>
+      <GayaButton key={20} brand="natura_v3" {...args} variant="filled" />
+      <GayaButton key={30} brand="natura_v3" {...args} variant="outlined" />
+      <GayaButton key={40} brand="natura_v3" {...args} variant="ghost" />
+      <GayaButton key={40} brand="natura_v3" {...args} variant="tonal" />
+    </StoryContainer>
+
+    <Divider />
+
+    <StoryContainer>
+      <GayaButton key={10} brand="natura_v2" {...args} variant="filled" />
+      <GayaButton key={11} brand="natura_v2" {...args} variant="outlined" />
+      <GayaButton key={12} brand="natura_v2" {...args} variant="ghost" />
+      <GayaButton key={12} brand="natura_v2" {...args} variant="tonal" />
+    </StoryContainer>
+
+    <StoryContainer>
       <GayaButton key={1} brand="avon" {...args} variant="filled" />
       <GayaButton key={2} brand="avon" {...args} variant="outlined" />
       <GayaButton key={3} brand="avon" {...args} variant="ghost" />
@@ -72,18 +89,7 @@ export const Brands: Story<GayaButtonProps> = (args) => (
       <GayaButton key={9} brand="natura" {...args} variant="ghost" />
       <GayaButton key={9} brand="natura" {...args} variant="tonal" />
     </StoryContainer>
-    <StoryContainer>
-      <GayaButton key={10} brand="natura_v2" {...args} variant="filled" />
-      <GayaButton key={11} brand="natura_v2" {...args} variant="outlined" />
-      <GayaButton key={12} brand="natura_v2" {...args} variant="ghost" />
-      <GayaButton key={12} brand="natura_v2" {...args} variant="tonal" />
-    </StoryContainer>
-    <StoryContainer>
-      <GayaButton key={20} brand="natura_v3" {...args} variant="filled" />
-      <GayaButton key={30} brand="natura_v3" {...args} variant="outlined" />
-      <GayaButton key={40} brand="natura_v3" {...args} variant="ghost" />
-      <GayaButton key={40} brand="natura_v3" {...args} variant="tonal" />
-    </StoryContainer>
+
     <StoryContainer>
       <GayaButton key={13} brand="casaEestilo" {...args} variant="filled" />
       <GayaButton key={14} brand="casaEestilo" {...args} variant="outlined" />
@@ -181,4 +187,4 @@ export const FullWidth: Story<GayaButtonProps> = (args) => (
     <GayaButton {...args} variant="tonal" />
   </div>
 )
-FullWidth.args = { ...Playground.args, fullWidth: true, display: 'inline' }
+FullWidth.args = { ...Playground.args, fullWidth: true }

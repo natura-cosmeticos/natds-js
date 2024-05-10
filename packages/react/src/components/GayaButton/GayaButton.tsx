@@ -14,7 +14,7 @@ const Button = React.forwardRef<HTMLButtonElement, GayaButtonProps>(({
   ariaLabel,
   mode = 'light',
   color = 'primary',
-  textTransform = 'capitalize',
+  textTransform,
   disabled = false,
   fullWidth = false,
   display,
