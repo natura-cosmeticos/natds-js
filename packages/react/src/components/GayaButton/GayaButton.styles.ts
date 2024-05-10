@@ -101,7 +101,7 @@ const getPropsThemeButton = (theme: Theme) => ({ brand }: Pick<GayaButtonStylePr
   }
 }
 const styles = createUseStyles((theme: Theme) => ({
-  button: {
+  gayaButton: {
     backgroundColor: ({
       variant, brand, color, mode
     }: GayaButtonStyleProps) => variant && (getColorBrand(theme)(brand, { variant, color, mode })?.back),

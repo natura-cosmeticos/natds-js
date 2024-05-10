@@ -2,7 +2,8 @@
 import React from 'react'
 import { Story, Meta } from '@storybook/react'
 import Divider from '../Divider'
-import { GayaButton, GayaButtonProps } from '.'
+import { GayaButtonProps } from './GayaButton.props'
+import GayaButton from './GayaButton'
 import StoryContainer from '../../helpers/StoryContainer'
 
 const componentStatus = `

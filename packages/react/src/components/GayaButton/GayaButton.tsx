@@ -7,7 +7,7 @@ import { Icon } from '../Icon'
 import { Ripple } from '../Ripple'
 import styles from './GayaButton.styles'
 
-const Button = React.forwardRef<HTMLButtonElement, GayaButtonProps>(({
+const GayaButton = React.forwardRef<HTMLButtonElement, GayaButtonProps>(({
   children,
   className = '',
   brand,
@@ -26,7 +26,7 @@ const Button = React.forwardRef<HTMLButtonElement, GayaButtonProps>(({
   variant = 'contained',
   ...rest
 }, ref) => {
-  const { button, label, labelContainer } = styles({
+  const { gayaButton, label, labelContainer } = styles({
     disabled,
     color,
     brand,
@@ -46,7 +46,7 @@ const Button = React.forwardRef<HTMLButtonElement, GayaButtonProps>(({
   return (
     <Ripple brand={brand} disabled={disabled} fullWidth={fullWidth}>
       <button
-        className={`${button} ${className} Button-gaya`}
+        className={`${gayaButton} ${className} Button-gaya`}
         data-testid={testID}
         disabled={disabled}
         onClick={onClick}
@@ -63,4 +63,4 @@ const Button = React.forwardRef<HTMLButtonElement, GayaButtonProps>(({
   )
 })
 
-export default Button
+export default GayaButton
