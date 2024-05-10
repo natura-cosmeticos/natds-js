@@ -337,7 +337,7 @@ Object {
         },
       },
     },
-    "elevation": "0 4px 5px 0 rgba(0, 0, 0, 0.14)",
+    "elevation": "none",
     "filled": Object {
       "color": Object {
         "disable": Object {
@@ -798,6 +798,7 @@ Object {
         },
       },
     },
+    "paddingX": 8,
     "text": Object {
       "color": Object {
         "disable": Object {
@@ -948,6 +949,7 @@ Object {
         },
       },
     },
+    "textTransform": "uppercase",
     "tonal": Object {
       "color": Object {
         "disable": Object {
@@ -1617,7 +1619,9 @@ Object {
     },
     "button": Object {
       "borderRadius": 4,
-      "elevation": "0 4px 5px 0 rgba(0, 0, 0, 0.14)",
+      "elevation": "none",
+      "paddingX": 8,
+      "textTransform": "uppercase",
     },
     "shortcut": Object {
       "borderRadius": 28,
