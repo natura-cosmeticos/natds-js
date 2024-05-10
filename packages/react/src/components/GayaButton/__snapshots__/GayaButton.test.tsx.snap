@@ -350,6 +350,7 @@ Array [
       data-testid="ripple"
     >
       <button
+        aria-disabled="true"
         class="gayaButton-0-2-1 gayaButton-d0-0-2-4  Button-gaya"
         data-testid="btn-disabled"
         disabled=""
@@ -532,6 +533,7 @@ Array [
       data-testid="ripple"
     >
       <button
+        aria-disabled="true"
         class="gayaButton-0-2-1 gayaButton-d0-0-2-4  Button-gaya"
         disabled=""
         type="button"
@@ -713,6 +715,7 @@ Array [
       data-testid="ripple"
     >
       <button
+        aria-disabled="true"
         class="gayaButton-0-2-1 gayaButton-d0-0-2-4  Button-gaya"
         disabled=""
         type="button"
