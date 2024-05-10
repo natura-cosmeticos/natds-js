@@ -12,6 +12,9 @@ const GayaButton = React.forwardRef<HTMLButtonElement, GayaButtonProps>(({
   className = '',
   brand,
   ariaLabel,
+  role,
+  ariaDisabled,
+  ariaHaspopup,
   mode = 'light',
   color = 'primary',
   textTransform,
@@ -52,7 +55,10 @@ const GayaButton = React.forwardRef<HTMLButtonElement, GayaButtonProps>(({
         onClick={onClick}
         type={type}
         ref={ref}
+        aria-disabled={disabled || ariaDisabled}
         aria-label={ariaLabel}
+        role={role}
+        aria-haspopup={ariaHaspopup}
       >
         <div className={labelContainer}>
           <span className={label}>{children}</span>

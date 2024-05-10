@@ -1,7 +1,9 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable max-len */
 import React from 'react'
 import { Story, Meta } from '@storybook/react'
 import Divider from '../Divider'
+import Typography from '../Typography'
 import { GayaButtonProps } from './GayaButton.props'
 import GayaButton from './GayaButton'
 import StoryContainer from '../../helpers/StoryContainer'
@@ -189,3 +191,58 @@ export const FullWidth: Story<GayaButtonProps> = (args) => (
   </div>
 )
 FullWidth.args = { ...Playground.args, fullWidth: true }
+
+export const AccessibilityGuide = () => (
+  <div>
+    <Typography variant="heading4">Accessibility Guide</Typography>
+    <table
+      style={{
+        fontFamily: 'roboto',
+        fontSize: '13px',
+        maxWidth: '800px',
+        margin: '20px 0',
+        borderCollapse: 'collapse',
+        border: '1px solid #ccc'
+      }}
+    >
+      <thead>
+        <tr style={{ backgroundColor: '#f4f4f4', color: '#333' }}>
+          <th style={{ padding: '10px', fontSize: '16px', border: '1px solid #ccc' }}><Typography variant="subtitle1">Atributo</Typography></th>
+          <th style={{ padding: '10px', fontSize: '16px', border: '1px solid #ccc' }}><Typography variant="subtitle1">Descrição</Typography></th>
+          <th style={{ padding: '10px', fontSize: '16px', border: '1px solid #ccc' }}><Typography variant="subtitle1">Código de Exemplo</Typography></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style={{ padding: '10px', border: '1px solid #ccc' }}>role</td>
+          <td style={{ padding: '10px', border: '1px solid #ccc' }}>Especifica o papel do elemento para tecnologias assistivas.</td>
+          <td style={{ padding: '10px', border: '1px solid #ccc' }}><code>&lt;Gayabutton role="button"&gt;Click me&lt;/Gayabutton&gt;</code></td>
+        </tr>
+        <tr>
+          <td style={{ padding: '10px', border: '1px solid #ccc' }}>aria-label</td>
+          <td style={{ padding: '10px', border: '1px solid #ccc' }}>Fornece uma etiqueta de texto para leitores de tela.</td>
+          <td style={{ padding: '10px', border: '1px solid #ccc' }}><code>&lt;Gayabutton aria-label="Fechar"&gt;X&lt;/Gayabutton&gt;</code></td>
+        </tr>
+        <tr>
+          <td style={{ padding: '10px', border: '1px solid #ccc' }}>aria-describedby</td>
+          <td style={{ padding: '10px', border: '1px solid #ccc' }}>Identifica elementos que descrevem o botão.</td>
+          <td style={{ padding: '10px', border: '1px solid #ccc' }}>
+            <code>&lt;Gayabutton aria-describedby="descriptionClose"&gt;Fechar&lt;/Gayabutton&gt;</code>
+            <br />
+            <code>&lt;div id="descriptionClose"&gt;Clique para fechar a janela&lt;/div&gt;</code>
+          </td>
+        </tr>
+        <tr>
+          <td style={{ padding: '10px', border: '1px solid #ccc' }}>aria-disabled</td>
+          <td style={{ padding: '10px', border: '1px solid #ccc' }}>Indica que o elemento está desativado para tecnologias assistivas.</td>
+          <td style={{ padding: '10px', border: '1px solid #ccc' }}><code>&lt;Gayabutton aria-disabled="true"&gt;Não disponível&lt;/button&gt;</code></td>
+        </tr>
+        <tr>
+          <td style={{ padding: '10px', border: '1px solid #ccc' }}>aria-haspopup</td>
+          <td style={{ padding: '10px', border: '1px solid #ccc' }}>Indica que o botão tem um menu popup associado.</td>
+          <td style={{ padding: '10px', border: '1px solid #ccc' }}><code>&lt;Gayabutton aria-haspopup="true"&gt;Opções&lt;/button&gt;</code></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+)

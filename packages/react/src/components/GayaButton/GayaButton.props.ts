@@ -15,6 +15,21 @@ export interface GayaButtonBaseProps {
    */
   ariaLabel?: string
   /**
+   * Specifies the role of the element for assistive technologies.
+   *
+   */
+  role?: string
+  /**
+   * Indicates that the element is disabled.
+   *
+   */
+  ariaDisabled?: boolean
+  /**
+   * Indicates that the button has an associated popup menu.
+   *
+   */
+  ariaHaspopup?: boolean
+  /**
    * Specifies an optional mode to be added to your theme
    */
   mode?: mode
