@@ -13,14 +13,18 @@ type GayaButtonStyleProps = Pick<GayaButtonProps, 'size' | 'showIcon' | 'iconPos
 const getPaddingStyles = (theme: Theme) => ({ size, brand, mode }: GayaButtonStyleProps) => {
   const brandTheme = buildTheme(brand, mode)
   const padding = {
-    semi: theme.spacing.micro,
-    medium: theme.spacing.small,
+    // semi: theme.spacing.micro,
+    semi: theme.button.paddingX,
+    // medium: theme.spacing.small,
+    medium: theme.button.paddingX,
     // semiX: theme.spacing.tiny
     semiX: theme.button.paddingX
   }
   const paddingbrand = {
-    semi: brandTheme.spacing.micro,
-    medium: brandTheme.spacing.small,
+    // semi: brandTheme.spacing.micro,
+    semi: brandTheme.button.paddingX,
+    // medium: brandTheme.spacing.small,
+    medium: brandTheme.button.paddingX,
     // semiX: brandTheme.spacing.tiny
     semiX: brandTheme.button.paddingX
   }

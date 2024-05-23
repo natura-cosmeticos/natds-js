@@ -51,7 +51,7 @@ const GayaButton = React.forwardRef<HTMLButtonElement, GayaButtonProps>(({
       <button
         className={`${gayaButton} ${className} Button-gaya`}
         data-testid={testID}
-        disabled={disabled}
+        disabled={disabled || ariaDisabled}
         onClick={onClick}
         type={type}
         ref={ref}
