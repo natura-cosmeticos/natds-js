@@ -234,7 +234,7 @@ export const AccessibilityGuide = () => (
         </tr>
         <tr>
           <td style={{ padding: '10px', border: '1px solid #ccc' }}>aria-disabled</td>
-          <td style={{ padding: '10px', border: '1px solid #ccc' }}>Indica que o elemento está desativado para tecnologias assistivas.</td>
+          <td style={{ padding: '10px', border: '1px solid #ccc' }}>Indica que o elemento está desabilitado, mas ainda é acessado pela tecnologia assistiva.</td>
           <td style={{ padding: '10px', border: '1px solid #ccc' }}><code>&lt;Gayabutton aria-disabled="true"&gt;Não disponível&lt;/button&gt;</code></td>
         </tr>
         <tr>
