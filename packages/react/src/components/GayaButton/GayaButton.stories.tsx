@@ -10,21 +10,22 @@ import StoryContainer from '../../helpers/StoryContainer'
 
 const componentStatus = `
 
-> GayaButtons allow users to take actions, and make choices, with a single tap.
+> O GaYaButton faz parte da evolução contínua dos componentes do GaYa Design System. Lançado como um novo componente, o GaYaButton substitui o antigo Button, que permanecerá disponível para uso, mas não receberá mais atualizações ou suporte ativo. 
+Recomendamos a migração para o GaYaButton o mais rápido possível para aproveitar as melhorias e garantir a compatibilidade futura.
 
-## Properties
-| Property                   | Values                                                                          |    Status           |
-|---                         |                                                                              ---|                  ---|
-| **variant**                | filled, outlined, ghost, tonal                                                  | ✅ Available        |
-| **textTranform**           | uppercase, lowercase,  capitalize                                               | ✅ Available        |
-| **size**                   | semi, semiX, medium                                                             | ✅ Available        |
-| **iconName**               | 'icon_name'                                                                     | ✅ Available        |
-| **disabled**               | true, false                                                                     | ✅ Available        |
-| **fullWidth (Display)**    | true, false                                                                     | ✅ Available        |
-| **brand**                  | avon, avon_v2, natura, natura_v2, natura_v3, theBodyShop, <br /> consultoriaDeBeleza, casaEestilo            | ✅ Available        |
-| **color**                  | primary, onPrimary, secondary, onSecondary, neutral, inverse                     | ✅ Available        |
+## Propriedades
+| Figma props            | React props               | Valores                                                                          |    Status           |
+|---                     |---                        |                                                                              ---|                  ---|
+| **Variant**            | **variant**               | filled, outlined, ghost, tonal                                                  | ✅ Available        |
+| **Text Tranform**      | **textTranform**          | uppercase, lowercase,  capitalize                                               | ✅ Available        |
+| **Size**               | **size**                  | semi, semiX, medium                                                             | ✅ Available        |
+| **Icon**               | **iconName**              | 'icon_name'                                                                     | ✅ Available        |
+| **disabled**           | **disabled**              | true, false                                                                     | ✅ Available        |
+| **Display**            | **fullWidth **            | true, false                                                                     | ✅ Available        |
+| **--**                 | **brand**                 | avon, avon_v2, natura, natura_v2, natura_v3, theBodyShop, <br /> consultoriaDeBeleza, casaEestilo            | ✅ Available        |
+| **Colors**             | **color**                 | primary, onPrimary, secondary, onSecondary, neutral, inverse                     | ✅ Available        |
 
-## Technical Usages Examples
+## Exemplos de usos
 `
 
 export default {
