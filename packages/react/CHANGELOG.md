@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### Features
+
+* **natds-icons:** add icon filled-finance-bag 
+* **natds-icons:** add icon filled-finance-bagcheck 
+* **natds-icons:** add icon filled-product-nailpolish 
+* **natds-icons:** add icon outlined-finance-bagcheck 
+* **natds-icons:** add icon outlined-product-nailpolish 
+
 # [2.59.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.59.0-alpha.DSY-4627.1.0...@naturacosmeticos/natds-react@2.59.0) (2024-04-30)
 
 ### Features
