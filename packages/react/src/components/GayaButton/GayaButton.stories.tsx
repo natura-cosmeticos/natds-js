@@ -16,14 +16,14 @@ Recomendamos a migração para o GaYaButton o mais rápido possível para aprove
 ## Propriedades
 | Figma props            | React props               | Valores                                                                          |    Status           |
 |---                     |---                        |                                                                              ---|                  ---|
-| **Variant**            | **variant**               | filled, outlined, ghost, tonal                                                  | ✅ Available        |
-| **Text Tranform**      | **textTranform**          | uppercase, lowercase,  capitalize                                               | ✅ Available        |
-| **Size**               | **size**                  | semi, semiX, medium                                                             | ✅ Available        |
-| **Icon**               | **iconName**              | 'icon_name'                                                                     | ✅ Available        |
-| **disabled**           | **disabled**              | true, false                                                                     | ✅ Available        |
-| **Display**            | **fullWidth **            | true, false                                                                     | ✅ Available        |
-| **--**                 | **brand**                 | avon, avon_v2, natura, natura_v2, natura_v3, theBodyShop, <br /> consultoriaDeBeleza, casaEestilo            | ✅ Available        |
-| **Colors**             | **color**                 | primary, onPrimary, secondary, onSecondary, neutral, inverse                     | ✅ Available        |
+| **Variant**            | **variant**               | filled, outlined, ghost, tonal                                                  | ✅ Disponível        |
+| **Text Tranform**      | **textTranform**          | uppercase, lowercase,  capitalize                                               | ✅ Disponível        |
+| **Size**               | **size**                  | semi, semiX, medium                                                             | ✅ Disponível        |
+| **Icon**               | **iconName**              | 'icon_name'                                                                     | ✅ Disponível        |
+| **disabled**           | **disabled**              | true, false                                                                     | ✅ Disponível        |
+| **Display**            | **fullWidth **            | true, false                                                                     | ✅ Disponível        |
+| **--**                 | **brand**                 | avon, avon_v2, natura, natura_v2, natura_v3, theBodyShop, <br /> consultoriaDeBeleza, casaEestilo            | ✅ Disponível        |
+| **Color**             | **color**                 | primary, onPrimary, secondary, onSecondary, neutral, inverse                     | ✅ Disponível        |
 
 ## Exemplos de usos
 `
