@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.60.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.60.0-alpha.DSY-4717.18.0...@naturacosmeticos/natds-react@2.60.0) (2024-06-07)
+
+
+### Features
+
+* **natds-react:**  change variant to hierarchy ([e01f81c](https://github.com/natura-cosmeticos/natds-js/commit/e01f81c74781b60a248f17007c8ebe4716c6fc05))
+
+
+
+
+
 ### Features
 
 * **natds-icons:** add icon filled-finance-bag 
