@@ -8,10 +8,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* **natds-react:**  change variant to hierarchy ([e01f81c](https://github.com/natura-cosmeticos/natds-js/commit/e01f81c74781b60a248f17007c8ebe4716c6fc05))
-
-
-
+* **natds-react:**  added new GayaButton
 
 
 ### Features
