@@ -6,7 +6,7 @@ const styles = createUseStyles({
     display: 'flex',
     flexWrap: 'wrap',
     gap: 16,
-    maxWidth: 400,
+    maxWidth: 600,
     flexDirection: 'row'
   }
 })
