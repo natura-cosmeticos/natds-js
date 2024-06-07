@@ -16,7 +16,7 @@ Recomendamos a migração para o GaYaButton o mais rápido possível para aprove
 ## Propriedades
 | Figma props            | React props               | Valores                                                                          |    Status           |
 |---                     |---                        |                                                                              ---|                  ---|
-| **Variant**            | **variant**               | filled, outlined, ghost, tonal                                                  | ✅ Disponível        |
+| **hierarchy**            | **variant**               | filled, outlined, ghost, tonal                                                  | ✅ Disponível        |
 | **Text Tranform**      | **textTranform**          | uppercase, lowercase,  capitalize                                               | ✅ Disponível        |
 | **Size**               | **size**                  | semi, semiX, medium                                                             | ✅ Disponível        |
 | **Icon**               | **iconName**              | 'icon_name'                                                                     | ✅ Disponível        |
