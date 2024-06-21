@@ -5,6 +5,10 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [2.61.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.61.0-alpha.DSY-4393.3.0...@naturacosmeticos/natds-react@2.61.0) (2024-06-21)
 
+### Features
+
+* **natds-react:**  added new theme forcaDeVendas
+* **natds-react:**  added new theme casaEestilo_v2
 
 ### Bug Fixes
 
