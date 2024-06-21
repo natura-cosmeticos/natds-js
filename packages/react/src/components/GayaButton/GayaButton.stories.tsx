@@ -66,7 +66,18 @@ export const Brands: Story<GayaButtonProps> = (args) => (
     </StoryContainer>
 
     <Divider />
-
+    <StoryContainer>
+      <GayaButton key={16} brand="consultoriaDeBeleza" {...args} variant="filled" />
+      <GayaButton key={17} brand="consultoriaDeBeleza" {...args} variant="outlined" />
+      <GayaButton key={18} brand="consultoriaDeBeleza" {...args} variant="ghost" />
+      <GayaButton key={18} brand="consultoriaDeBeleza" {...args} variant="tonal" />
+    </StoryContainer>
+    <StoryContainer>
+      <GayaButton key={16} brand="forcaDeVendas" {...args} variant="filled" />
+      <GayaButton key={17} brand="forcaDeVendas" {...args} variant="outlined" />
+      <GayaButton key={18} brand="forcaDeVendas" {...args} variant="ghost" />
+      <GayaButton key={18} brand="forcaDeVendas" {...args} variant="tonal" />
+    </StoryContainer>
     <StoryContainer>
       <GayaButton key={10} brand="natura_v2" {...args} variant="filled" />
       <GayaButton key={11} brand="natura_v2" {...args} variant="outlined" />
@@ -95,22 +106,22 @@ export const Brands: Story<GayaButtonProps> = (args) => (
     </StoryContainer>
 
     <StoryContainer>
+      <GayaButton key={19} brand="theBodyShop" {...args} variant="filled" />
+      <GayaButton key={20} brand="theBodyShop" {...args} variant="outlined" />
+      <GayaButton key={21} brand="theBodyShop" {...args} variant="ghost" />
+      <GayaButton key={21} brand="theBodyShop" {...args} variant="tonal" />
+    </StoryContainer>
+    <StoryContainer>
       <GayaButton key={13} brand="casaEestilo" {...args} variant="filled" />
       <GayaButton key={14} brand="casaEestilo" {...args} variant="outlined" />
       <GayaButton key={15} brand="casaEestilo" {...args} variant="ghost" />
       <GayaButton key={15} brand="casaEestilo" {...args} variant="tonal" />
     </StoryContainer>
     <StoryContainer>
-      <GayaButton key={16} brand="consultoriaDeBeleza" {...args} variant="filled" />
-      <GayaButton key={17} brand="consultoriaDeBeleza" {...args} variant="outlined" />
-      <GayaButton key={18} brand="consultoriaDeBeleza" {...args} variant="ghost" />
-      <GayaButton key={18} brand="consultoriaDeBeleza" {...args} variant="tonal" />
-    </StoryContainer>
-    <StoryContainer>
-      <GayaButton key={19} brand="theBodyShop" {...args} variant="filled" />
-      <GayaButton key={20} brand="theBodyShop" {...args} variant="outlined" />
-      <GayaButton key={21} brand="theBodyShop" {...args} variant="ghost" />
-      <GayaButton key={21} brand="theBodyShop" {...args} variant="tonal" />
+      <GayaButton key={13} brand="casaEestilo_v2" {...args} variant="filled" />
+      <GayaButton key={14} brand="casaEestilo_v2" {...args} variant="outlined" />
+      <GayaButton key={15} brand="casaEestilo_v2" {...args} variant="ghost" />
+      <GayaButton key={15} brand="casaEestilo_v2" {...args} variant="tonal" />
     </StoryContainer>
   </div>
 )
