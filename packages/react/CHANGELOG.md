@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.61.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.61.0-alpha.DSY-4393.3.0...@naturacosmeticos/natds-react@2.61.0) (2024-06-21)
+
+
+### Bug Fixes
+
+* **natds-react:**  change path logo FV ([fc19291](https://github.com/natura-cosmeticos/natds-js/commit/fc19291c99f83221c66825bb16523db634b2a2ad))
+* **natds-react:**  fixed svg forcaDeVendas-custom-a ([51c6b19](https://github.com/natura-cosmeticos/natds-js/commit/51c6b19d8853663cfa97c2ad169d7a4cb5043077))
+
+
+
+
+
 # [2.60.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.60.0-alpha.DSY-4717.18.0...@naturacosmeticos/natds-react@2.60.0) (2024-06-07)
 
 
