@@ -9,7 +9,7 @@ export const buildTheme = (theme, mode) => create({
   barBg: theme.color.surface,
   barTextColor: theme.color.highEmphasis,
   base: mode,
-  brandTitle: 'Gaya Natura Design System',
+  brandTitle: 'GaYa Design System',
   colorPrimary: theme.color.primary,
   colorSecondary: theme.color.secondary,
   textColor: theme.color.highEmphasis,
