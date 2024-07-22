@@ -6,11 +6,6 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 # [2.62.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.61.1-alpha.DSY-4797.1.0...@naturacosmeticos/natds-react@2.62.0) (2024-07-22)
 
 
-### Bug Fixes
-
-* **natds-react:**  remove primitive object ([6d53be2](https://github.com/natura-cosmeticos/natds-js/commit/6d53be2ebae5791a209ace2dc90b3c7bf9b879ab))
-
-
 ### Features
 
 * **natds-react:**  update color primitive references ([ced0566](https://github.com/natura-cosmeticos/natds-js/commit/ced0566e5a9c6eb0ebda846156e3fbe55f883f26))
