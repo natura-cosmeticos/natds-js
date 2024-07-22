@@ -39,7 +39,7 @@ describe('Tag component', () => {
     const { styles, component: { getByTestId } } = renderWithTheme(<Tag {...tagProps} color="success" testID="success-color" />)
     const component = getByTestId('success-color')
 
-    expect(component).toHaveStyle({ 'background-color': '#569a32' })
+    expect(component).toHaveStyle({ 'background-color': '#2F833E' })
     expect([styles.toString(), component]).toMatchSnapshot()
   })
 

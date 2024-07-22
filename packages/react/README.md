@@ -1,4 +1,4 @@
-# Natura Design System - React
+# GaYa Design System - React
 
 React components for web development inside Natura&Co.
 
