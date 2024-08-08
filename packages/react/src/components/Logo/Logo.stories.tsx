@@ -15,8 +15,8 @@ const componentStatus = `
 | **model**                     | a, b                                              | ✅ Available        |
 | **languages**                 | default, pt, es                                   | ✅ Available        |
 | **mode**                      | light, dark                                       | ✅ Available        |
-| **size**                      | medium, mediumX, large, largeX, largeXX, <br /> largeXXX, huge, hugeX, hugeXX, hugeXXX, veryHuge       | ✅ Available        |
-| **brand**                   | avon, avon_v2, natura, natura_v2, theBodyShop, <br /> consultoriaDeBeleza, casaEestilo            | ✅ Available        |
+| **size**                      | medium, mediumX, large, largeX, largeXX, <br /> largeXXX, huge, hugeX, hugeXX, hugeXXX, veryHuge  | ✅ Available     |
+| **brand**                   | avon, avon_v2, natura, natura_v2, theBodyShop, <br /> consultoriaDeBeleza, casaEestilo              | ✅ Available      |
 
 ## Technical Usages Examples
 `
