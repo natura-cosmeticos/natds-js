@@ -7,6 +7,7 @@ import StoryContainer from '../../helpers/StoryContainer'
 const componentStatus = `
 
 > Buttons allow users to take actions, and make choices, with a single tap.
+> Recomendamos o uso do GayaButton.
 
 ## Properties
 | Property         | Values                                                                          |    Status           |
