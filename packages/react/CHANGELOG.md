@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.63.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.63.0-alpha.DSY-5165.1.0...@naturacosmeticos/natds-react@2.63.0) (2024-08-16)
+
+
+### Features
+
+* **natds-react:**  update stories ([f01dc7b](https://github.com/natura-cosmeticos/natds-js/commit/f01dc7bfd645a35ea7b6e15b88bbe4e36da834f6))
+
+
+
+
+
 # [2.62.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.61.1-alpha.DSY-4797.1.0...@naturacosmeticos/natds-react@2.62.0) (2024-07-22)
 
 
