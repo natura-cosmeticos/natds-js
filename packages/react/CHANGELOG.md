@@ -8,7 +8,103 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* **natds-react:**  update stories ([f01dc7b](https://github.com/natura-cosmeticos/natds-js/commit/f01dc7bfd645a35ea7b6e15b88bbe4e36da834f6))
+* **natds-react:**  added logo FV espanhol
+* **natds-react:**  update lib themes token colorNeutral75
+* **natds-react:**  update lib Icons added 93 new icons
+filled-action-like
+filled-action-opacity
+filled-action-transparent
+filled-content-bathtub
+filled-content-childfriendly
+filled-content-design
+filled-content-dropper
+filled-content-gymdumbbell
+filled-content-hairbeard
+filled-content-house
+filled-content-microscope
+filled-content-moonstars
+filled-content-mortar
+filled-content-palette
+filled-content-shower
+filled-content-soap
+filled-content-soapbubble
+filled-finance-intensityhigh
+filled-finance-intensitylow
+filled-finance-intensitymedium
+filled-makeup-haircoily
+filled-makeup-haircurly
+filled-makeup-hairtowel
+filled-makeup-hairwavy
+filled-makeup-hairwoman
+filled-product-ambientspray
+filled-product-blush
+filled-product-bodycream
+filled-product-bodysplash
+filled-product-candlearomatic
+filled-product-candlescented
+filled-product-combcream
+filled-product-conditioner
+filled-product-deodorantrollon
+filled-product-haircream
+filled-product-hairdresser
+filled-product-hairgel
+filled-product-makeconcealer
+filled-product-makeeyeliner
+filled-product-makefoundation
+filled-product-makemask
+filled-product-pencilblush
+filled-product-shampoo
+filled-product-soapliquid
+filled-social-fireworks
+filled-social-nightlife
+filled-social-sparks
+outlined-action-opacity
+outlined-action-transparent
+outlined-content-bathtub
+outlined-content-childfriendly
+outlined-content-design
+outlined-content-dropper
+outlined-content-gymdumbbell
+outlined-content-hairbeard
+outlined-content-house
+outlined-content-microscope
+outlined-content-moonstars
+outlined-content-mortar
+outlined-content-palette
+outlined-content-shower
+outlined-content-soap
+outlined-content-soapbubble
+outlined-finance-intensityhigh
+outlined-finance-intensitylow
+outlined-finance-intensitymedium
+outlined-makeup-haircoily
+outlined-makeup-haircurly
+outlined-makeup-hairtowel
+outlined-makeup-hairwavy
+outlined-makeup-hairwoman
+outlined-product-ambientspray
+outlined-product-blush
+outlined-product-bodycream
+outlined-product-bodysplash
+outlined-product-candlearomatic
+outlined-product-candlescented
+outlined-product-combcream
+outlined-product-conditioner
+outlined-product-deodorantrollon
+outlined-product-haircream
+outlined-product-hairdresser
+outlined-product-hairgel
+outlined-product-makeconcealer
+outlined-product-makeeyeliner
+outlined-product-makefoundation
+outlined-product-makemask
+outlined-product-pencilblush
+outlined-product-shampoo
+outlined-product-soapliquid
+outlined-social-fireworks
+outlined-social-nightlife
+outlined-social-sparks
+
 
 
 
