@@ -11,99 +11,99 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 * **natds-react:**  added logo FV espanhol
 * **natds-react:**  update lib themes token colorNeutral75
 * **natds-react:**  update lib Icons added 93 new icons
-filled-action-like
-filled-action-opacity
-filled-action-transparent
-filled-content-bathtub
-filled-content-childfriendly
-filled-content-design
-filled-content-dropper
-filled-content-gymdumbbell
-filled-content-hairbeard
-filled-content-house
-filled-content-microscope
-filled-content-moonstars
-filled-content-mortar
-filled-content-palette
-filled-content-shower
-filled-content-soap
-filled-content-soapbubble
-filled-finance-intensityhigh
-filled-finance-intensitylow
-filled-finance-intensitymedium
-filled-makeup-haircoily
-filled-makeup-haircurly
-filled-makeup-hairtowel
-filled-makeup-hairwavy
-filled-makeup-hairwoman
-filled-product-ambientspray
-filled-product-blush
-filled-product-bodycream
-filled-product-bodysplash
-filled-product-candlearomatic
-filled-product-candlescented
-filled-product-combcream
-filled-product-conditioner
-filled-product-deodorantrollon
-filled-product-haircream
-filled-product-hairdresser
-filled-product-hairgel
-filled-product-makeconcealer
-filled-product-makeeyeliner
-filled-product-makefoundation
-filled-product-makemask
-filled-product-pencilblush
-filled-product-shampoo
-filled-product-soapliquid
-filled-social-fireworks
-filled-social-nightlife
-filled-social-sparks
-outlined-action-opacity
-outlined-action-transparent
-outlined-content-bathtub
-outlined-content-childfriendly
-outlined-content-design
-outlined-content-dropper
-outlined-content-gymdumbbell
-outlined-content-hairbeard
-outlined-content-house
-outlined-content-microscope
-outlined-content-moonstars
-outlined-content-mortar
-outlined-content-palette
-outlined-content-shower
-outlined-content-soap
-outlined-content-soapbubble
-outlined-finance-intensityhigh
-outlined-finance-intensitylow
-outlined-finance-intensitymedium
-outlined-makeup-haircoily
-outlined-makeup-haircurly
-outlined-makeup-hairtowel
-outlined-makeup-hairwavy
-outlined-makeup-hairwoman
-outlined-product-ambientspray
-outlined-product-blush
-outlined-product-bodycream
-outlined-product-bodysplash
-outlined-product-candlearomatic
-outlined-product-candlescented
-outlined-product-combcream
-outlined-product-conditioner
-outlined-product-deodorantrollon
-outlined-product-haircream
-outlined-product-hairdresser
-outlined-product-hairgel
-outlined-product-makeconcealer
-outlined-product-makeeyeliner
-outlined-product-makefoundation
-outlined-product-makemask
-outlined-product-pencilblush
-outlined-product-shampoo
-outlined-product-soapliquid
-outlined-social-fireworks
-outlined-social-nightlife
-outlined-social-sparks
+* **natds-icons:** add icon filled-action-like
+* **natds-icons:** add icon filled-action-opacity
+* **natds-icons:** add icon filled-action-transparent
+* **natds-icons:** add icon filled-content-bathtub
+* **natds-icons:** add icon filled-content-childfriendly
+* **natds-icons:** add icon filled-content-design
+* **natds-icons:** add icon filled-content-dropper
+* **natds-icons:** add icon filled-content-gymdumbbell
+* **natds-icons:** add icon filled-content-hairbeard
+* **natds-icons:** add icon filled-content-house
+* **natds-icons:** add icon filled-content-microscope
+* **natds-icons:** add icon filled-content-moonstars
+* **natds-icons:** add icon filled-content-mortar
+* **natds-icons:** add icon filled-content-palette
+* **natds-icons:** add icon filled-content-shower
+* **natds-icons:** add icon filled-content-soap
+* **natds-icons:** add icon filled-content-soapbubble
+* **natds-icons:** add icon filled-finance-intensityhigh
+* **natds-icons:** add icon filled-finance-intensitylow
+* **natds-icons:** add icon filled-finance-intensitymedium
+* **natds-icons:** add icon filled-makeup-haircoily
+* **natds-icons:** add icon filled-makeup-haircurly
+* **natds-icons:** add icon filled-makeup-hairtowel
+* **natds-icons:** add icon filled-makeup-hairwavy
+* **natds-icons:** add icon filled-makeup-hairwoman
+* **natds-icons:** add icon filled-product-ambientspray
+* **natds-icons:** add icon filled-product-blush
+* **natds-icons:** add icon filled-product-bodycream
+* **natds-icons:** add icon filled-product-bodysplash
+* **natds-icons:** add icon filled-product-candlearomatic
+* **natds-icons:** add icon filled-product-candlescented
+* **natds-icons:** add icon filled-product-combcream
+* **natds-icons:** add icon filled-product-conditioner
+* **natds-icons:** add icon filled-product-deodorantrollon
+* **natds-icons:** add icon filled-product-haircream
+* **natds-icons:** add icon filled-product-hairdresser
+* **natds-icons:** add icon filled-product-hairgel
+* **natds-icons:** add icon filled-product-makeconcealer
+* **natds-icons:** add icon filled-product-makeeyeliner
+* **natds-icons:** add icon filled-product-makefoundation
+* **natds-icons:** add icon filled-product-makemask
+* **natds-icons:** add icon filled-product-pencilblush
+* **natds-icons:** add icon filled-product-shampoo
+* **natds-icons:** add icon filled-product-soapliquid
+* **natds-icons:** add icon filled-social-fireworks
+* **natds-icons:** add icon filled-social-nightlife
+* **natds-icons:** add icon filled-social-sparks
+* **natds-icons:** add icon outlined-action-opacity
+* **natds-icons:** add icon outlined-action-transparent
+* **natds-icons:** add icon outlined-content-bathtub
+* **natds-icons:** add icon outlined-content-childfriendly
+* **natds-icons:** add icon outlined-content-design
+* **natds-icons:** add icon outlined-content-dropper
+* **natds-icons:** add icon outlined-content-gymdumbbell
+* **natds-icons:** add icon outlined-content-hairbeard
+* **natds-icons:** add icon outlined-content-house
+* **natds-icons:** add icon outlined-content-microscope
+* **natds-icons:** add icon outlined-content-moonstars
+* **natds-icons:** add icon outlined-content-mortar
+* **natds-icons:** add icon outlined-content-palette
+* **natds-icons:** add icon outlined-content-shower
+* **natds-icons:** add icon outlined-content-soap
+* **natds-icons:** add icon outlined-content-soapbubble
+* **natds-icons:** add icon outlined-finance-intensityhigh
+* **natds-icons:** add icon outlined-finance-intensitylow
+* **natds-icons:** add icon outlined-finance-intensitymedium
+* **natds-icons:** add icon outlined-makeup-haircoily
+* **natds-icons:** add icon outlined-makeup-haircurly
+* **natds-icons:** add icon outlined-makeup-hairtowel
+* **natds-icons:** add icon outlined-makeup-hairwavy
+* **natds-icons:** add icon outlined-makeup-hairwoman
+* **natds-icons:** add icon outlined-product-ambientspray
+* **natds-icons:** add icon outlined-product-blush
+* **natds-icons:** add icon outlined-product-bodycream
+* **natds-icons:** add icon outlined-product-bodysplash
+* **natds-icons:** add icon outlined-product-candlearomatic
+* **natds-icons:** add icon outlined-product-candlescented
+* **natds-icons:** add icon outlined-product-combcream
+* **natds-icons:** add icon outlined-product-conditioner
+* **natds-icons:** add icon outlined-product-deodorantrollon
+* **natds-icons:** add icon outlined-product-haircream
+* **natds-icons:** add icon outlined-product-hairdresser
+* **natds-icons:** add icon outlined-product-hairgel
+* **natds-icons:** add icon outlined-product-makeconcealer
+* **natds-icons:** add icon outlined-product-makeeyeliner
+* **natds-icons:** add icon outlined-product-makefoundation
+* **natds-icons:** add icon outlined-product-makemask
+* **natds-icons:** add icon outlined-product-pencilblush
+* **natds-icons:** add icon outlined-product-shampoo
+* **natds-icons:** add icon outlined-product-soapliquid
+* **natds-icons:** add icon outlined-social-fireworks
+* **natds-icons:** add icon outlined-social-nightlife
+* **natds-icons:** add icon outlined-social-sparks
 
 
 
