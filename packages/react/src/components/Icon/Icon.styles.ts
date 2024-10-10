@@ -1,3 +1,4 @@
+// lib icon version 1.27.5
 import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { IconProps } from './Icon.props'
