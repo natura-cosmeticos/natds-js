@@ -45,14 +45,14 @@ const styles = createUseStyles((theme: Theme) => ({
   wrapper: {
     display: 'flex',
     flexDirection: 'column',
-    fontFamily: theme.textField.label.primary.fontFamily
+    fontFamily: theme.select.label.primary.fontFamily
   },
   labelText: {
     color: getLabelColor(theme),
-    fontSize: theme.textField.label.fontSize,
-    fontWeight: theme.textField.label.primary.fontWeight,
-    letterSpacing: theme.textField.label.letterSpacing,
-    lineHeight: theme.textField.label.lineHeight,
+    fontSize: theme.select.label.fontSize,
+    fontWeight: theme.select.label.primary.fontWeight,
+    letterSpacing: theme.select.label.letterSpacing,
+    lineHeight: theme.select.label.lineHeight,
     marginBottom: theme.spacing.micro,
     '&:disabled': {
       color: 'blue'
@@ -68,14 +68,14 @@ const styles = createUseStyles((theme: Theme) => ({
     backgroundColor: theme.color.surface,
     border: '1px solid',
     borderColor: getBorderColor(theme),
-    borderRadius: theme.textField.borderRadius,
+    borderRadius: theme.select.borderRadius,
     padding: `0 ${theme.spacing.small}px`,
     color: ({ isFilled }: SelectStyleProps) => (
       isFilled ? theme.color.highEmphasis : theme.color.mediumEmphasis),
     fontSize: theme.body1.fontSize,
-    fontWeight: theme.textField.content.primary.fontWeight,
-    letterSpacing: theme.textField.content.letterSpacing,
-    lineHeight: theme.textField.content.lineHeight,
+    fontWeight: theme.select.content.primary.fontWeight,
+    letterSpacing: theme.select.content.letterSpacing,
+    lineHeight: theme.select.content.lineHeight,
     appearance: 'none',
     outline: 'none',
     boxSizing: 'border-box',
