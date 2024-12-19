@@ -11,6 +11,7 @@ export const globalTypes = {
         { value: 'natura', title: 'Natura' },
         { value: 'theBodyShop', title: 'The Body Shop' },
         { value: 'consultoriaDeBeleza', title: 'Consultoria de Beleza' },
+        { value: 'consultoriaDeBeleza_v2', title: 'Consultoria de Beleza V2' },
         { value: 'forcaDeVendas', title: 'Força de Vendas' },
         { value: 'natura_v2', title: 'Natura V2' },
         { value: 'natura_v3', title: 'Natura V3' },
