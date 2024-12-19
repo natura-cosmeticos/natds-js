@@ -142,6 +142,9 @@ Array [
   .image-0-2-3 {
     max-width: 64px;
     object-fit: cover;
+    border-radius: 4px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
   }
   .container-d0-0-2-4 {
     margin-right: 8px;
@@ -205,6 +208,9 @@ Array [
 .image-0-2-3 {
   max-width: 64px;
   object-fit: cover;
+  border-radius: 4px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
 .container-d0-0-2-4 {}
 .wrapper-d1-0-2-5 {}",

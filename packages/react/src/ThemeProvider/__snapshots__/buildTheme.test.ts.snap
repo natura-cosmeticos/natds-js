@@ -183,9 +183,11 @@ Object {
   },
   "borderRadius": Object {
     "circle": 999,
+    "huge": 16,
     "large": 8,
     "medium": 4,
     "none": 0,
+    "pill": 999,
     "small": 2,
   },
   "button": Object {
@@ -1624,8 +1626,17 @@ Object {
       "paddingX": 8,
       "textTransform": "uppercase",
     },
+    "counter": Object {
+      "borderRadius": 4,
+    },
+    "select": Object {
+      "borderRadius": 4,
+    },
     "shortcut": Object {
       "borderRadius": 28,
+    },
+    "textfield": Object {
+      "borderRadius": 4,
     },
   },
   "progressIndicator": Object {
@@ -1705,6 +1716,48 @@ Object {
           "fontFamily": "Roboto",
           "fontWeight": 400,
         },
+      },
+    },
+  },
+  "select": Object {
+    "borderRadius": 4,
+    "content": Object {
+      "fallback": Object {
+        "fontFamily": "Arial",
+        "fontWeight": 400,
+      },
+      "fontSize": 16,
+      "letterSpacing": 0.51,
+      "lineHeight": 1.25,
+      "primary": Object {
+        "fontFamily": "Roboto",
+        "fontWeight": 400,
+      },
+    },
+    "helperText": Object {
+      "fallback": Object {
+        "fontFamily": "Arial",
+        "fontWeight": 400,
+      },
+      "fontSize": 12,
+      "letterSpacing": 0.38,
+      "lineHeight": 1.25,
+      "primary": Object {
+        "fontFamily": "Roboto",
+        "fontWeight": 400,
+      },
+    },
+    "label": Object {
+      "fallback": Object {
+        "fontFamily": "Arial",
+        "fontWeight": 400,
+      },
+      "fontSize": 14,
+      "letterSpacing": 0.11,
+      "lineHeight": 1.5,
+      "primary": Object {
+        "fontFamily": "Roboto",
+        "fontWeight": 500,
       },
     },
   },

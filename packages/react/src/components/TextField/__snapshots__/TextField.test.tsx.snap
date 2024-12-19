@@ -22,6 +22,7 @@ Array [
   height: 100%;
   content: \\"\\";
   position: absolute;
+  border-radius: 4px;
   pointer-events: none;
   background-color: #8c8c8c;
 }
@@ -203,6 +204,7 @@ Array [
   height: 100%;
   content: \\"\\";
   position: absolute;
+  border-radius: 4px;
   pointer-events: none;
   background-color: #8c8c8c;
 }
@@ -382,6 +384,7 @@ Array [
   height: 100%;
   content: \\"\\";
   position: absolute;
+  border-radius: 4px;
   pointer-events: none;
   background-color: #8c8c8c;
 }
@@ -561,6 +564,7 @@ Array [
   height: 100%;
   content: \\"\\";
   position: absolute;
+  border-radius: 4px;
   pointer-events: none;
   background-color: #8c8c8c;
 }
@@ -740,6 +744,7 @@ Array [
   height: 100%;
   content: \\"\\";
   position: absolute;
+  border-radius: 4px;
   pointer-events: none;
   background-color: #8c8c8c;
 }
@@ -921,6 +926,7 @@ Array [
   height: 100%;
   content: \\"\\";
   position: absolute;
+  border-radius: 4px;
   pointer-events: none;
   background-color: #8c8c8c;
 }
@@ -1116,6 +1122,7 @@ Array [
   height: 100%;
   content: \\"\\";
   position: absolute;
+  border-radius: 4px;
   pointer-events: none;
   background-color: #8c8c8c;
 }
@@ -1311,6 +1318,7 @@ Array [
   height: 100%;
   content: \\"\\";
   position: absolute;
+  border-radius: 4px;
   pointer-events: none;
   background-color: #8c8c8c;
 }
@@ -1551,6 +1559,9 @@ Array [
   .image-0-2-14 {
     max-width: 64px;
     object-fit: cover;
+    border-radius: 4px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
   }
   .container-d0-0-2-15 {
     margin-right: 8px;
@@ -1679,6 +1690,7 @@ Array [
   height: 100%;
   content: \\"\\";
   position: absolute;
+  border-radius: 4px;
   pointer-events: none;
   background-color: #8c8c8c;
 }
@@ -1790,6 +1802,9 @@ Array [
 .image-0-2-14 {
   max-width: 64px;
   object-fit: cover;
+  border-radius: 4px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
 .container-d0-0-2-15 {}
 .wrapper-d1-0-2-16 {
@@ -1890,6 +1905,7 @@ Array [
   height: 100%;
   content: \\"\\";
   position: absolute;
+  border-radius: 4px;
   pointer-events: none;
   background-color: #8c8c8c;
 }
@@ -2068,6 +2084,7 @@ Array [
   height: 100%;
   content: \\"\\";
   position: absolute;
+  border-radius: 4px;
   pointer-events: none;
   background-color: #8c8c8c;
 }
@@ -2247,6 +2264,7 @@ Array [
   height: 100%;
   content: \\"\\";
   position: absolute;
+  border-radius: 4px;
   pointer-events: none;
   background-color: #8c8c8c;
 }
@@ -2426,6 +2444,7 @@ Array [
   height: 100%;
   content: \\"\\";
   position: absolute;
+  border-radius: 4px;
   pointer-events: none;
   background-color: #8c8c8c;
 }
