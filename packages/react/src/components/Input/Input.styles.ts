@@ -51,6 +51,7 @@ const styles = createUseStyles((theme: Theme) => ({
       content: '""',
       height: '100%',
       left: 0,
+      borderRadius: theme.textField.borderRadius,
       opacity: ({ readOnly }: InputStyleProps) => (readOnly ? theme.opacity.disabledLow : 0),
       pointerEvents: 'none',
       position: 'absolute',
