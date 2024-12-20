@@ -13,6 +13,7 @@ export const globalTypes = {
         { value: 'consultoriaDeBeleza', title: 'Consultoria de Beleza' },
         { value: 'consultoriaDeBeleza_v2', title: 'Consultoria de Beleza V2' },
         { value: 'forcaDeVendas', title: 'Força de Vendas' },
+        { value: 'forcaDeVendas_v2', title: 'Força de Vendas V2' },
         { value: 'natura_v2', title: 'Natura V2' },
         { value: 'natura_v3', title: 'Natura V3' },
         { value: 'casaEestilo', title: 'Casa & Estilo' },

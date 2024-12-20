@@ -33,12 +33,9 @@ const getLabelColor = (theme: Theme) => ({ feedback, isDisabled }: SelectStylePr
   return theme.color.mediumEmphasis
 }
 const getThemeFocus = (theme: Theme) => ({ brand }: SelectStyleProps) => {
-  const themeSelectFocus = buildTheme(brand, 'light')
+  const themeSelectFocus = brand ? buildTheme(brand, 'light') : theme
 
-  if (brand) {
-    return themeSelectFocus.color.primary
-  }
-  return theme.color.primary
+  return themeSelectFocus.color.primary
 }
 
 const styles = createUseStyles((theme: Theme) => ({
