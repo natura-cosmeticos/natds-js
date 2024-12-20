@@ -16,7 +16,10 @@ const styles = createUseStyles((theme: Theme) => ({
   },
   image: {
     maxWidth: theme.size.large,
-    objectFit: 'cover'
+    objectFit: 'cover',
+    borderRadius: theme.textField.borderRadius,
+    borderBottomLeftRadius: 0,
+    borderTopLeftRadius: 0
   }
 }))
 
