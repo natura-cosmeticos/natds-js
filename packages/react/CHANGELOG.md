@@ -5,7 +5,10 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [2.65.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.65.0-alpha.DSY-5392.3.0...@naturacosmeticos/natds-react@2.65.0) (2024-12-20)
 
-**Note:** Version bump only for package @naturacosmeticos/natds-react
+### Features
+
+* **natds-react:**  added theme Força de Vendas v2
+* **natds-react:**  added theme Consultoria de Beleza v2
 
 
 
