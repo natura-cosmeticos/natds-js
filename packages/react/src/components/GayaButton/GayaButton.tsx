@@ -49,7 +49,7 @@ const GayaButton = React.forwardRef<HTMLButtonElement, GayaButtonProps>(({
   return (
     <Ripple brand={brand} disabled={disabled} fullWidth={fullWidth}>
       <button
-        className={`${gayaButton} ${className} Button-gaya`}
+        className={`${gayaButton} ${className} Gaya-Button`}
         data-testid={testID}
         disabled={disabled || ariaDisabled}
         onClick={onClick}
