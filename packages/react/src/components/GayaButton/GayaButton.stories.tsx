@@ -8,6 +8,8 @@ import { GayaButtonProps } from './GayaButton.props'
 import GayaButton from './GayaButton'
 import StoryContainer from '../../helpers/StoryContainer'
 
+// theme version 0.82.1
+
 const componentStatus = `
 
 > O GaYaButton faz parte da evolução contínua dos componentes do GaYa Design System. Lançado como um novo componente, o GaYaButton substitui o antigo Button, que permanecerá disponível para uso, mas não receberá mais atualizações ou suporte ativo. 
