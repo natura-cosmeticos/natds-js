@@ -43,7 +43,7 @@ export default {
 export const Playground: Story<GayaButtonProps> = (args) => <GayaButton {...args} />
 Playground.args = {
   children: 'button',
-  onClick: () => console.log('clicked!')
+  onClick: () => null
 }
 
 export const Variants: Story<GayaButtonProps> = (args) => (
