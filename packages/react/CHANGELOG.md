@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.65.1](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.65.0...@naturacosmeticos/natds-react@2.65.1) (2025-01-08)
+
+
+### Bug Fixes
+
+* **natds-react:**  fixed texttransform CB2 e FV2 to none update theme ([c1a5c0f](https://github.com/natura-cosmeticos/natds-js/commit/c1a5c0f00a8ba151c31ed3c3691b70509ccca806))
+* **natds-react:**  update themes fixed texttransform CB2 e FV2 to none ([4ecc71d](https://github.com/natura-cosmeticos/natds-js/commit/4ecc71d42d7f05f5583dca4bd37a87190506ce03))
+
+
+
+
+
 # [2.65.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.65.0-alpha.DSY-5392.3.0...@naturacosmeticos/natds-react@2.65.0) (2024-12-20)
 
 ### Features
