@@ -18,14 +18,14 @@ const Logo = React.forwardRef<HTMLDivElement, LogoProps>(
     ...props
   }, ref) => {
     // eslint-disable-next-line react-hooks/rules-of-hooks
-    const theme: Theme = brand ? buildTheme(brand, mode) : useTheme()
+    const themes: Theme = brand ? buildTheme(brand, mode) : useTheme()
 
     const { root } = styles({
       size, color, brand, mode
     })
 
     const checkColor = color === 'neutral' ? 'neutral' : 'custom'
-    const logo = languages === 'default' ? theme.asset.brand[checkColor][model].file : (theme.asset.brand[checkColor][model][languages] ?? theme.asset.brand[checkColor][model].file)
+    const logo = languages === 'default' ? themes.asset.brand[checkColor][model].file : (themes.asset.brand[checkColor][model][languages] ?? themes.asset.brand[checkColor][model].file)
 
     return (
       <div
