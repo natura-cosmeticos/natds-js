@@ -5,8 +5,36 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [2.65.2](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.65.2-alpha.DSY-5461.9.0...@naturacosmeticos/natds-react@2.65.2) (2025-01-27)
 
-**Note:** Version bump only for package @naturacosmeticos/natds-react
 
+* **natds-react:**  update logo CB-V2
+
+* **natds-icons:** filled-action-addproduct
+* **natds-icons:** filled-action-filepdf
+* **natds-icons:** filled-content-carbondioxide
+* **natds-icons:** filled-content-healthy
+* **natds-icons:** filled-content-maintenance
+* **natds-icons:** filled-content-ticketdiscount
+* **natds-icons:** filled-content-ticketstar
+* **natds-icons:** filled-content-trophystar
+* **natds-icons:** filled-navigation-opennew
+* **natds-icons:** filled-navigation-shuffle
+* **natds-icons:** filled-place-rocket
+* **natds-icons:** filled-product-backpack
+* **natds-icons:** filled-product-spray
+
+* **natds-icons:** outlined-action-addproduct		
+* **natds-icons:** outlined-action-filepdf
+* **natds-icons:** outlined-content-carbondioxide
+* **natds-icons:** outlined-content-healthy		
+* **natds-icons:** outlined-content-maintenance		
+* **natds-icons:** outlined-content-ticketdiscount
+* **natds-icons:** outlined-content-ticketstar
+* **natds-icons:** outlined-content-trophystar
+* **natds-icons:** outlined-navigation-opennew
+* **natds-icons:** outlined-navigation-shuffle
+* **natds-icons:** outlined-place-rocket			
+* **natds-icons:** outlined-product-backpack
+* **natds-icons:** outlined-product-spray
 
 
 
