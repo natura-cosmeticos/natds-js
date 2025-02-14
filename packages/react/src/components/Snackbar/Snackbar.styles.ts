@@ -108,7 +108,7 @@ const styles = createUseStyles<RuleNames, snackbarStyleProps, Theme>((theme: The
     width: '328px',
     minHeight: '56px',
     backgroundColor: ({ feedback }: snackbarStyleProps) => getColor(theme)(feedback),
-    borderRadius: theme.textField.borderRadius,
+    borderRadius: theme.snackbar.borderRadius,
     right: ({ position }) => getPosition(position)?.right,
     top: ({ position }) => getPosition(position)?.top,
     bottom: ({ position }) => getPosition(position)?.bottom,
