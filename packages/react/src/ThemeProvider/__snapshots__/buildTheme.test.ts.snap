@@ -132,7 +132,7 @@ Object {
     "color": Object {
       "alert": Object {
         "background": "#de3529",
-        "label": "#111111",
+        "label": "#ffffff",
       },
       "primary": Object {
         "background": "#f4ab34",
@@ -144,7 +144,7 @@ Object {
       },
       "success": Object {
         "background": "#2f833e",
-        "label": "#111111",
+        "label": "#ffffff",
       },
     },
     "dot": Object {
@@ -1179,7 +1179,7 @@ Object {
     "neutralLight": "#fafafa",
     "neutralLightest": "#ffffff",
     "neutralMedium": "#bbbbbb",
-    "onAlert": "#111111",
+    "onAlert": "#ffffff",
     "onAlertDark": "#ffffff",
     "onAlertDarkest": "#ffffff",
     "onAlertLight": "#111111",
@@ -1205,7 +1205,7 @@ Object {
     "onSecondaryDarkest": "#ffffff",
     "onSecondaryLight": "#000000",
     "onSecondaryLightest": "#000000",
-    "onSuccess": "#111111",
+    "onSuccess": "#ffffff",
     "onSuccessDark": "#ffffff",
     "onSuccessDarkest": "#ffffff",
     "onSuccessLight": "#111111",
@@ -2158,11 +2158,11 @@ Object {
         "warning": "#e5b815",
       },
       "label": Object {
-        "alert": "#111111",
+        "alert": "#ffffff",
         "link": "#ffffff",
         "primary": "#333333",
         "secondary": "#000000",
-        "success": "#111111",
+        "success": "#ffffff",
         "warning": "#111111",
       },
     },
