@@ -10,6 +10,8 @@ const getTheme = (themeKey) => {
     avonLight: { brand: 'avon', mode: 'light' },
     avonV2Dark: { brand: 'avon_v2', mode: 'dark' },
     avonV2Light: { brand: 'avon_v2', mode: 'light' },
+    avonV3Dark: { brand: 'avon_v3', mode: 'dark' },
+    avonV3Light: { brand: 'avon_v3', mode: 'light' },
     naturaDark: { brand: 'natura', mode: 'dark' },
     naturaLight: { brand: 'natura', mode: 'light' },
     naturaV3Dark: { brand: 'natura_v3', mode: 'dark' },

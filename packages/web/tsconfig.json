@@ -21,6 +21,7 @@
     "noImplicitReturns": true,
     "noImplicitThis": true,
     "noImplicitUseStrict": true,
+    "ignoreDeprecations": "5.0",
     "noUnusedLocals": true,
     "outDir": "dist",
     "removeComments": false,
