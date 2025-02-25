@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.7.2](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@4.7.1...@naturacosmeticos/natds-web@4.7.2) (2025-02-25)
+
+
+### Bug Fixes
+
+* **natds-web:** fixed insert type Avon-V3 ([8b901f6](https://github.com/natura-cosmeticos/natds-js/commit/8b901f61e52cf92a6f5379ada8f62e44986c3132))
+
+
+
+
+
 ## [4.7.1](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@4.7.1-alpha.DSY-5581.2.0...@naturacosmeticos/natds-web@4.7.1) (2025-02-25)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-web

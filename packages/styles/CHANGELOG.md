@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.8.1](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-styles@3.8.0...@naturacosmeticos/natds-styles@3.8.1) (2025-02-25)
+
+
+### Bug Fixes
+
+* **natds-styles:** fixed import theme Avon-V3 ([26165c4](https://github.com/natura-cosmeticos/natds/commit/26165c4fffa22fc10a9fd6bdcd53ca346ab966c6))
+
+
+
+
+
 # [3.8.0](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-styles@3.8.0-alpha.DSY-5581.2.0...@naturacosmeticos/natds-styles@3.8.0) (2025-02-25)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-styles
