@@ -35,7 +35,7 @@ const {
   color, opacity, asset, borderRadius, button
 } = themes.avon_v3.dark
 
-export const avonV2Dark: ITheme = {
+export const avonV3Dark: ITheme = {
   asset,
   shape: {
     borderRadius: borderRadius.medium,
