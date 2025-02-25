@@ -3,6 +3,7 @@ import { naturaDarkColorTokens, naturaLightColorTokens } from './natura'
 import { naturaV3DarkColorTokens, naturaV3LightColorTokens } from './natura_v3'
 import { avonDarkColorTokens, avonLightColorTokens } from './avon'
 import { avonV2DarkColorTokens, avonV2LightColorTokens } from './avon_v2'
+import { avonV3DarkColorTokens, avonV3LightColorTokens } from './avon_v3'
 import { theBodyShopDarkColorTokens, theBodyShopLightColorTokens } from './theBodyShop'
 import { aesopDarkColorTokens, aesopLightColorTokens } from './aesop'
 import { biomeDarkColorTokens, biomeLightColorTokens } from './biome'
@@ -26,6 +27,12 @@ export const colorTokens = {
   avonV2DarkColorTokens,
 
   /**
+   * @deprecated `avonV3DarkColorTokens` are deprecated since v0.20 and will be removed at v1.0.
+   * Please use `theme.avon.dark.color` from `natds-themes`.
+   */
+  avonV3DarkColorTokens,
+
+  /**
    * @deprecated `avonLightColorTokens` are deprecated since v0.20 and will be removed at v1.0.
    * Please use `theme.avon.light.color` from `natds-themes`.
    */
@@ -36,6 +43,12 @@ export const colorTokens = {
    * Please use `theme.avon.light.color` from `natds-themes`.
    */
   avonV2LightColorTokens,
+
+  /**
+   * @deprecated `avonV3LightColorTokens` are deprecated since v0.20 and will be removed at v1.0.
+   * Please use `theme.avon.light.color` from `natds-themes`.
+   */
+  avonV3LightColorTokens,
 
   /**
    * @deprecated `naturaDarkColorTokens` are deprecated since v0.20 and will be removed at v1.0.
