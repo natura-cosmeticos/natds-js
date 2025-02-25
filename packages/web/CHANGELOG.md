@@ -16,7 +16,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [4.7.1](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@4.7.1-alpha.DSY-5581.2.0...@naturacosmeticos/natds-web@4.7.1) (2025-02-25)
 
-**Note:** Version bump only for package @naturacosmeticos/natds-web
+* **natds-web:** Added theme Avon-V3
 
 
 
