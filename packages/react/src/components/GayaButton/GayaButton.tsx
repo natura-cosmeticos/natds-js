@@ -1,3 +1,4 @@
+/* eslint-disable react/button-has-type */
 import React from 'react'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { useTheme } from 'react-jss'
