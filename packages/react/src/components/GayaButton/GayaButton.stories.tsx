@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable max-len */
 import React from 'react'
@@ -8,7 +9,7 @@ import { GayaButtonProps } from './GayaButton.props'
 import GayaButton from './GayaButton'
 import StoryContainer from '../../helpers/StoryContainer'
 
-// theme version 0.83.5
+// theme version 0.83.10
 
 const componentStatus = `
 
