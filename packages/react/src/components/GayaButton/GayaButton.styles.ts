@@ -30,23 +30,23 @@ const getPaddingStyles = (theme: Theme) => ({ size, brand, mode }: GayaButtonSty
 }
 
 const getColorBrand = (theme: Theme) => (brand: BrandTypes | undefined, { variant, color, mode }: GayaButtonStyleProps) => {
-  const colorTheme = buildTheme(brand, mode)
+  const colorThemes = buildTheme(brand, mode)
 
   let propBrandsColor = {}
   if (variant && color) {
     propBrandsColor = {
-      back: colorTheme.button[variant].color[color].background,
-      border: colorTheme.button[variant].color[color].border,
-      color: colorTheme.button[variant].color[color].label,
+      back: colorThemes.button[variant].color[color].background,
+      border: colorThemes.button[variant].color[color].border,
+      color: colorThemes.button[variant].color[color].label,
       hover: {
-        back: colorTheme.button[variant].color.hover[color].background,
-        boder: colorTheme.button[variant].color.hover[color].border,
-        label: colorTheme.button[variant].color.hover[color].label
+        back: colorThemes.button[variant].color.hover[color].background,
+        boder: colorThemes.button[variant].color.hover[color].border,
+        label: colorThemes.button[variant].color.hover[color].label
       },
       focus: {
-        back: colorTheme.button[variant].color.focus[color].background,
-        boder: colorTheme.button[variant].color.focus[color].border,
-        label: colorTheme.button[variant].color.focus[color].label
+        back: colorThemes.button[variant].color.focus[color].background,
+        boder: colorThemes.button[variant].color.focus[color].border,
+        label: colorThemes.button[variant].color.focus[color].label
       }
     }
   }
