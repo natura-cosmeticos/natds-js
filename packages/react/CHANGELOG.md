@@ -5,9 +5,19 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [2.67.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.67.0-alpha.DSY-5778.9.0...@naturacosmeticos/natds-react@2.67.0) (2025-03-13)
 
+### Features
+
+* **natds-react:**  update lib icons 
+* **natds-icons:** filled-content-generativeai
+* **natds-icons:** filled-finance-bagshield
+* **natds-icons:** filled-finance-cashback
+
+* **natds-icons:** outlined-content-generativeai
+* **natds-icons:** outlined-finance-bagshield
+* **natds-icons:** outlined-finance-cashback
 
 ### Bug Fixes
-
+* **natds-react:** fixed fontFamily roboto to theme Avon-V3
 * **natds-react:**  fixed stories deprecated Button ([f3aead6](https://github.com/natura-cosmeticos/natds-js/commit/f3aead67ef359a6814e4816ab115e8e9a64b4449))
 
 
@@ -18,8 +28,8 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* **natds-rn:** added theme Avon-V3
-* **natds-rn:**  update lib icons 
+* **natds-react:** added theme Avon-V3
+* **natds-react:**  update lib icons 
 * **natds-icons:** filled-growthplan-flowertulip
 * **natds-icons:** filled-growthplan-graphic
 * **natds-icons:** filled-growthplan-laurelwreath
@@ -38,7 +48,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **natds-rn:**  tag color onSuccess update theme 
+* **natds-react:**  tag color onSuccess update theme 
 
 
 
