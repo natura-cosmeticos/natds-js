@@ -6,7 +6,7 @@ import StoryContainer from '../../helpers/StoryContainer'
 
 const componentStatus = `
 
-> Buttons allow users to take actions, and make choices, with a single tap.
+> Esse componente foi depreciado.
 > Recomendamos o uso do GayaButton.
 
 ## Properties
@@ -25,7 +25,7 @@ const componentStatus = `
 `
 
 export default {
-  title: 'Components/Button',
+  title: 'Deprecated/Button',
   component: Button,
   parameters: {
     componentSubtitle: '',

@@ -1,3 +1,4 @@
+/* eslint-disable react/button-has-type */
 import React from 'react'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { useTheme } from 'react-jss'
@@ -43,8 +44,8 @@ const GayaButton = React.forwardRef<HTMLButtonElement, GayaButtonProps>(({
     ...rest
   })
 
-  const themes: Theme = useTheme()
-  const iconColor = themes.button[variant].color.enable.label as IconColor
+  const theme: Theme = useTheme()
+  const iconColor = theme.button[variant].color.enable.label as IconColor
 
   return (
     <Ripple brand={brand} disabled={disabled} fullWidth={fullWidth}>
