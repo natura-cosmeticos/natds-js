@@ -1,5 +1,6 @@
 /**
   Tiago Guizelini - trigger pipeline
+  Vagner Barbosa - trigger pipeline
 */
 import themes from '@naturacosmeticos/natds-themes'
 import { IColorThemeTokens } from '../IColorThemeTokens'
