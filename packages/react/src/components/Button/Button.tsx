@@ -49,6 +49,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(({
         onClick={onClick}
         type={type}
         ref={ref}
+        {...rest}
       >
         <div className={labelContainer}>
           <span className={label}>{children}</span>
