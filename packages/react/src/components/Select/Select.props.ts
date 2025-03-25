@@ -73,6 +73,11 @@ export interface SelectProps {
   /**
    * The onChange event occurs when the value of an element has been changed.
    */
-  onChange: React.ChangeEventHandler<HTMLSelectElement>,
+  onChange: React.ChangeEventHandler<HTMLSelectElement>
+
+  /**
+  * Use it in cases where a text label is not visible on the screen.
+  */
+ ariaLabel?: string
 
 }
