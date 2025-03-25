@@ -20,6 +20,7 @@ const Select = React.forwardRef<HTMLDivElement, SelectProps>(
       feedback,
       required = false,
       disabled = false,
+      ariaLabel,
       onChange
     } = props
     const {
@@ -41,7 +42,7 @@ const Select = React.forwardRef<HTMLDivElement, SelectProps>(
             onChange={onChange}
             required={required}
             disabled={disabled}
-            aria-label={labelText}
+            aria-label={ariaLabel}
           >
             {!!placeholder && <option data-testid="placeholder-option" selected disabled>{placeholder}</option>}
 

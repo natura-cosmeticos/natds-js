@@ -22,6 +22,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(({
   testID,
   type = 'button',
   variant = 'contained',
+  ariaLabel,
   ...rest
 }, ref) => {
   const { button, label, labelContainer } = styles({
@@ -49,6 +50,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(({
         onClick={onClick}
         type={type}
         ref={ref}
+        aria-label={ariaLabel}
         {...rest}
       >
         <div className={labelContainer}>
