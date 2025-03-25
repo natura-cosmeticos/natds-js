@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.67.2](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.67.1...@naturacosmeticos/natds-react@2.67.2) (2025-03-25)
+
+
+### Bug Fixes
+
+* **natds-react:**  added ariaLabel in select ([7658d01](https://github.com/natura-cosmeticos/natds-js/commit/7658d01c8c01345ba8cbef83e7572ae71d3e8851))
+
+
+
+
+
 ## [2.67.1](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.67.1-alpha.DSY-5903.1.0...@naturacosmeticos/natds-react@2.67.1) (2025-03-25)
 
 ### Bug Fixes
