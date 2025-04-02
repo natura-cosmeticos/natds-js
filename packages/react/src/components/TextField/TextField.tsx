@@ -26,6 +26,7 @@ const TextField = React.forwardRef<HTMLInputElement, TextFieldProps>(({
   type = 'text',
   value,
   className = '',
+  accessibility,
   ...rest
 }, ref) => {
   const { labelText } = styles({ feedback, disabled, label })
@@ -34,6 +35,7 @@ const TextField = React.forwardRef<HTMLInputElement, TextFieldProps>(({
     <div data-testid={testID} className={`${className} TextField-gaya`}>
       <Label htmlFor={id} required={required} label={label} className={labelText} />
       <Input
+        accessibility={accessibility}
         brand={brand}
         id={id}
         disabled={disabled}
