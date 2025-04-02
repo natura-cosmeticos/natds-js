@@ -1,11 +1,25 @@
 import { BrandTypes } from '../../brandTypes/brandTypes'
 
+export type SelectAccessibilityProps = {
+  'aria-label'?: string;
+  'aria-labelledby'?: string;
+  'aria-describedby'?: string;
+  'aria-disabled'?: boolean;
+  'aria-required'?: boolean;
+  'aria-invalid'?: boolean;
+  role?: string;
+  tabIndex?: number;
+};
+
 export interface OptionProps {
   value: string
   label: string
 }
 
 export interface SelectProps {
+
+  accessibility?: SelectAccessibilityProps;
+
   /**
    * Specify an optional className to be added to your Select
    */

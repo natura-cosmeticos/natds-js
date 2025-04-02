@@ -4,9 +4,21 @@ import { BrandTypes } from '../../brandTypes/brandTypes'
 export type InputSize = keyof Pick<Size, 'medium' | 'mediumX'>
 export type InputType = 'text' | 'password' | 'multiline'
 export type Feedback = 'success' | 'error'
+export type InputAccessibilityProps = {
+  'aria-label'?: string;
+  'aria-labelledby'?: string;
+  'aria-describedby'?: string;
+  'aria-required'?: boolean;
+  'aria-invalid'?: boolean;
+  'aria-disabled'?: boolean;
+  'aria-autocomplete'?: 'inline' | 'list' | 'both' | 'none';
+  'aria-activedescendant'?: string;
+  tabIndex?: number;
+};
 
 export interface BaseProps {
 
+  accessibility?: InputAccessibilityProps;
   /**
    * Specify an optional className to be added to your Input
    */
