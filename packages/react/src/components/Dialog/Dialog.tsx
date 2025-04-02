@@ -8,6 +8,7 @@ const Dialog = React.forwardRef<HTMLDivElement, DialogProps>(({
   ariaDescribedBy,
   ariaLabelledBy,
   children,
+  accessibility,
   className = '',
   container,
   onEscapeKeyDown,
@@ -32,6 +33,7 @@ const Dialog = React.forwardRef<HTMLDivElement, DialogProps>(({
       {open && (
         <Portal container={container}>
           <div
+            {...accessibility}
             aria-describedby={ariaDescribedBy}
             aria-labelledby={ariaLabelledBy}
             aria-modal

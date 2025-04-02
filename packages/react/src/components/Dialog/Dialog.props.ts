@@ -2,7 +2,19 @@ import { PortalProps } from '../Portal'
 
 export type DialogSizes = 'small' | 'medium' | 'large'
 
+export type DialogAccessibilityProps = {
+  role?: 'dialog' | 'alertdialog';
+  'aria-modal'?: boolean;
+  'aria-labelledby'?: string;
+  'aria-describedby'?: string;
+  'aria-label'?: string;
+  tabIndex?: number;
+};
+
 export interface DialogProps {
+
+  accessibility?: DialogAccessibilityProps;
+
   /**
    * The id(s) of the element(s) that describe the dialog.
    */
