@@ -163,3 +163,25 @@ export const FullWidth: Story<ButtonProps> = (args) => (
   </div>
 )
 FullWidth.args = { ...Playground.args, fullWidth: true }
+
+export const Accessibility: Story<ButtonProps> = (args) => (
+  <div style={{ display: 'flex', gap: 8, flexDirection: 'column' }}>
+    <Button
+      {...args}
+      accessibility={{
+        'aria-controls': 'Gaya Area-Controls',
+        'aria-describedby': 'Gaya Area-Describedy',
+        'aria-label': 'Gaya Area-Label',
+        'aria-disabled': false,
+        'aria-pressed': true,
+        'aria-labelledby': 'Gaya Area-labeldby',
+        role: 'button',
+        tabIndex: 1
+      }}
+    >
+      {' '}
+      Gaya Acessibilidade
+    </Button>
+  </div>
+)
+Accessibility.args = { ...Playground.args }

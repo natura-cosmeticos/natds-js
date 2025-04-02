@@ -8,7 +8,20 @@ export type ButtonVariant = 'contained' | 'outlined' | 'text'
 export type ButtonType = 'button' | 'reset' | 'submit'
 export type ButtonColor = keyof Pick<Color, 'primary'| 'onPrimary' | 'secondary'| 'onSecondary' | 'surfaceInverse' | 'onSurfaceInverse'>
 export type mode = 'light' | 'dark'
+export type ButtonAccessibilityProps = {
+  'aria-label'?: string;
+  'aria-labelledby'?: string;
+  'aria-describedby'?: string;
+  'aria-disabled'?: boolean;
+  'aria-pressed'?: boolean;
+  'aria-expanded'?: boolean;
+  'aria-controls'?: string;
+  role?: string;
+  tabIndex?: number;
+};
 export interface ButtonBaseProps {
+
+  accessibility?: ButtonAccessibilityProps;
   /**
    * Specifies a description to your button.
    * Use it in cases where a text label is not visible on the screen.

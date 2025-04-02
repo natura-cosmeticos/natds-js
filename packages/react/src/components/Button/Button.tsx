@@ -17,6 +17,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(({
   disabled = false,
   fullWidth = false,
   iconPosition = 'right',
+  accessibility,
   onClick,
   size = 'semiX',
   testID,
@@ -51,6 +52,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(({
         type={type}
         ref={ref}
         aria-label={ariaLabel}
+        {...accessibility}
         {...rest}
       >
         <div className={labelContainer}>
