@@ -1,4 +1,11 @@
+export type DialogHeaderAccessibilityProps = {
+  id?: string;
+  role?: 'heading';
+  'aria-level'?: number;
+};
 export interface DialogHeaderProps {
+
+  accessibility?: DialogHeaderAccessibilityProps;
   /**
    * Component children, usually the included other components.
    */
@@ -10,6 +17,8 @@ export interface DialogHeaderProps {
   className?: string
 
   /**
+   * @deprecated
+   * use accessibility object
    * The value must be the same as the one passed to
    * the `aria-labelledby` attribute in the Dialog
    */
