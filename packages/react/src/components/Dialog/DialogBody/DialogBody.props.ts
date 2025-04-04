@@ -1,4 +1,10 @@
+export type DialogBodyAccessibilityProps = {
+  id?: string;
+  role?: 'document';
+};
 export interface DialogBodyProps {
+
+  accessibility?: DialogBodyAccessibilityProps;
   /**
    * Component children, usually the included another component.
    */

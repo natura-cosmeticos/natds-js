@@ -6,14 +6,15 @@ import styles from './DialogBody.styles'
 const DialogBody = React.forwardRef<HTMLDivElement, DialogBodyProps>(({
   children,
   showDivider = false,
-  className = ''
+  className = '',
+  accessibility
 }, ref) => {
   const { content } = styles()
 
   return (
     <>
       {showDivider && <Divider />}
-      <div className={`${className} ${content}`} ref={ref}>
+      <div className={`${className} ${content}`} ref={ref} {...accessibility}>
         {children}
       </div>
       {showDivider && <Divider />}
