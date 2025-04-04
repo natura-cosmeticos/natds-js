@@ -202,3 +202,29 @@ IconLeading.args = {
   alt: 'image placeholder example'
 
 }
+
+export const Acessibility: Story<TextFieldProps> = (args) => (
+  <StoryContainer>
+    <TextField
+      {...args}
+      accessibility={{
+        'aria-label': 'Gaya aria-label',
+        'aria-labelledby': 'Gaya aria-labelledby',
+        'aria-describedby': 'Gaya aria-describedby',
+        'aria-required': true,
+        'aria-invalid': false,
+        'aria-disabled': false,
+        'aria-autocomplete': 'inline',
+        'aria-activedescendant': 'Gaya aria-activedescendant',
+        tabIndex: 1
+      }}
+    />
+  </StoryContainer>
+)
+Acessibility.args = {
+  ...Playground.args,
+  action: 'icon',
+  IconComponent: <Icon name="filled-action-love" color="highEmphasis" />,
+  onClick: () => '',
+  ariaLabel: 'heart icon button'
+}

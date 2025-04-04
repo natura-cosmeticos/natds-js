@@ -23,7 +23,8 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>((props, ref) => {
     readOnly = false,
     size = 'mediumX',
     type = 'text',
-    value
+    value,
+    accessibility
   } = props
 
   const {
@@ -45,6 +46,7 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>((props, ref) => {
           ? (
             <textarea
               className={`${className} ${textArea}`}
+              {...accessibility}
               data-testid="ds-input-multiline"
               disabled={disabled}
               onBlur={onBlur}
@@ -61,6 +63,7 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>((props, ref) => {
           : (
             <input
               className={`${className} ${input}`}
+              {...accessibility}
               data-testid="ds-input"
               disabled={disabled}
               onBlur={onBlur}

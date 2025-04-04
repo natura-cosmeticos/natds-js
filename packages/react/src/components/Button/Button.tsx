@@ -23,6 +23,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(({
   type = 'button',
   variant = 'contained',
   ariaLabel,
+  accessibility,
   ...rest
 }, ref) => {
   const { button, label, labelContainer } = styles({
@@ -51,6 +52,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(({
         type={type}
         ref={ref}
         aria-label={ariaLabel}
+        {...accessibility}
         {...rest}
       >
         <div className={labelContainer}>

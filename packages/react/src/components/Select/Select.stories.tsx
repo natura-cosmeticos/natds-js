@@ -70,3 +70,21 @@ export const Required: Story<SelectProps> = (args) => (
 export const Disabled: Story<SelectProps> = (args) => (
   <Select {...args} label="Label" options={options} disabled />
 )
+
+export const Accessibility: Story<SelectProps> = (args) => (
+  <Select
+    {...args}
+    label="Label"
+    options={options}
+    accessibility={{
+      'aria-label': 'Gaya Area-Label',
+      'aria-labelledby': 'Gaya Area-labeldby',
+      'aria-describedby': 'Gaya Area-Describedy',
+      'aria-disabled': false,
+      'aria-required': false,
+      'aria-invalid': false,
+      role: 'Select',
+      tabIndex: 1
+    }}
+  />
+)

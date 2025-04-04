@@ -21,6 +21,7 @@ const Select = React.forwardRef<HTMLDivElement, SelectProps>(
       required = false,
       disabled = false,
       ariaLabel,
+      accessibility,
       onChange
     } = props
     const {
@@ -35,6 +36,7 @@ const Select = React.forwardRef<HTMLDivElement, SelectProps>(
 
         <div className={inputWrapper}>
           <select
+            {...accessibility}
             value={value}
             name={name}
             id={name}
