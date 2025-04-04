@@ -23,6 +23,8 @@ export interface ButtonBaseProps {
 
   accessibility?: ButtonAccessibilityProps;
   /**
+   *  * @deprecated
+   * use accessibility object
    * Specifies a description to your button.
    * Use it in cases where a text label is not visible on the screen.
    */

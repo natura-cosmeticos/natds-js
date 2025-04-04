@@ -17,13 +17,13 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(({
   disabled = false,
   fullWidth = false,
   iconPosition = 'right',
-  accessibility,
   onClick,
   size = 'semiX',
   testID,
   type = 'button',
   variant = 'contained',
   ariaLabel,
+  accessibility,
   ...rest
 }, ref) => {
   const { button, label, labelContainer } = styles({
