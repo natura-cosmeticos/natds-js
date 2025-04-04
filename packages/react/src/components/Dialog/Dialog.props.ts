@@ -16,11 +16,13 @@ export interface DialogProps {
   accessibility?: DialogAccessibilityProps;
 
   /**
+   * @deprecated
    * The id(s) of the element(s) that describe the dialog.
    */
   ariaDescribedBy?: string
 
   /**
+   * * @deprecated
    * The id(s) of the element(s) that label the dialog.
    */
   ariaLabelledBy?: string
