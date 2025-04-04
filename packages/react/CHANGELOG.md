@@ -5,9 +5,18 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [2.68.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.68.0-alpha.DSY-5775.4.0...@naturacosmeticos/natds-react@2.68.0) (2025-04-04)
 
-**Note:** Version bump only for package @naturacosmeticos/natds-react
+### Features
 
+* **natds-react:**  update lib themes
+* **natds-react:**  added new logo FV
+* **natds-react:**  added new logo Natura
 
+### Bug Fixes
+
+* **natds-react:**  added prop accessibility object in Button
+* **natds-react:**  added prop accessibility object in Select
+* **natds-react:**  added prop accessibility object in TextField
+* **natds-react:**  added prop accessibility object in Dialog
 
 
 
