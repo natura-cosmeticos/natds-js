@@ -93,7 +93,7 @@ export const Accessibility: Story<DialogProps> = ({ open, ...args }) => {
     <>
       <Button onClick={() => setShowDialog(!showDialog)}>open dialog</Button>
       <Dialog {...args} open={showDialog} onEscapeKeyDown={() => setShowDialog(false)}>
-        <DialogHeader title="Example" id="dialog-title">
+        <DialogHeader accessibility={{ role: 'heading' }} title="Example" id="dialog-title">
           <div style={{ display: 'flex', gap: 16 }}>
             <IconButton
               onClick={() => ''}
@@ -112,13 +112,14 @@ export const Accessibility: Story<DialogProps> = ({ open, ...args }) => {
             />
           </div>
         </DialogHeader>
-        <DialogBody showDivider>
+        <DialogBody showDivider accessibility={{ role: 'document' }}>
           <p id="dialog-description" style={{ margin: 0 }}>
             This is an example of Dialog, which uses the DialogHeader, with title
             and three IconButtons, DialogBody and DialogFooter, with one button.
           </p>
         </DialogBody>
         <DialogFooter
+          accessibility={{ role: 'group' }}
           primaryButton={<Button onClick={() => setShowDialog(false)}>primary button close</Button>}
           secondaryButton={<Button variant="text" onClick={() => setShowDialog(false)}>secondary button close</Button>}
         />
