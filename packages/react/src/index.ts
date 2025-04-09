@@ -1,4 +1,5 @@
 export * from './ThemeProvider'
+export * from './growthPlanColors/growthPlanColors'
 export { useTheme, createUseStyles } from 'react-jss'
 
 export * from './components/AppBarTop'
