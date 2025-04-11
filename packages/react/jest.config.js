@@ -9,6 +9,7 @@ module.exports = {
     '!src/**/*.subcomponent.tsx',
     '!src/**/*.styles.ts',
     '!src/Templates/**',
+    '!src/growthPlanColors/**',
     '!src/helpers/**'
   ],
   errorOnDeprecated: true,
