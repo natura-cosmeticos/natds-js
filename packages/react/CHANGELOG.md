@@ -5,10 +5,13 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [2.69.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.69.0-alpha.DSY-5972.1.0...@naturacosmeticos/natds-react@2.69.0) (2025-04-11)
 
+### Features
+
+* **natds-react:**  added Growth Plan Colors
 
 ### Bug Fixes
 
-* **natds-react:**  added description Grawth Plan Colors ([137210c](https://github.com/natura-cosmeticos/natds-js/commit/137210c5bfebce3cd370f889b05e2bc1488d2d4f))
+* **natds-react:**  added description Growth Plan Colors ([137210c](https://github.com/natura-cosmeticos/natds-js/commit/137210c5bfebce3cd370f889b05e2bc1488d2d4f))
 
 
 
