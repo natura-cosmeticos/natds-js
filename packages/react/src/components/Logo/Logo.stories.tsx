@@ -3,7 +3,7 @@ import { Story, Meta } from '@storybook/react'
 import { Logo, LogoProps } from '.'
 import StoryContainer from '../../helpers/StoryContainer'
 
-// update logo natura e FV
+// update logo CB1
 
 const componentStatus = `
 > Logo adapted as brand standards for each company
