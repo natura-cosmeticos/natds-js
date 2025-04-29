@@ -1,7 +1,7 @@
 import { IconName } from '@naturacosmeticos/natds-icons'
 import { Size, Color } from '@naturacosmeticos/natds-themes'
 import { BrandTypes } from '../../brandTypes/brandTypes'
-
+// try trigger pipeline jenks update logo CB1
 export type IconPosition = 'left' | 'right'
 export type ButtonSize = keyof Pick<Size, 'semi' | 'semiX' | 'medium'>
 export type ButtonVariant = 'contained' | 'outlined' | 'text'
