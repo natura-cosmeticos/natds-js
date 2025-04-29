@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.69.1](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.69.0...@naturacosmeticos/natds-react@2.69.1) (2025-04-29)
+
+
+### Bug Fixes
+
+* **natds-react:**  change description Grawth Plan Colors ([760237c](https://github.com/natura-cosmeticos/natds-js/commit/760237c66588675b5c9c36e68b8627898cef1264))
+* **natds-react:**  fixed logo CB1 ([2f73bc5](https://github.com/natura-cosmeticos/natds-js/commit/2f73bc5d736e2f3ddc0d2ec972a31b4a713bb76c))
+* **natds-rn:**  fixed logo CB1 ([eecbfe9](https://github.com/natura-cosmeticos/natds-js/commit/eecbfe95551167bfed2bac540dd568901ade3e07))
+
+
+
+
+
 # [2.69.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.69.0-alpha.DSY-5972.1.0...@naturacosmeticos/natds-react@2.69.0) (2025-04-11)
 
 ### Features
