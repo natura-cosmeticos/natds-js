@@ -3,7 +3,7 @@ import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { LogoProps } from './Logo.props'
 import { buildTheme } from '../../ThemeProvider'
-
+// try trigger pipeline jenks update logo CB1
 type LogoStyleProps = Pick<LogoProps, 'size' | 'color' | 'brand' | 'mode'>
 
 const getColorTheme = (theme: Theme) => ({ brand, color, mode }: LogoStyleProps) => {
