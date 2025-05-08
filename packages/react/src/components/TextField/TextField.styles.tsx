@@ -2,6 +2,8 @@ import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { TextFieldProps } from './TextField.props'
 
+// update theme 0.84.4
+
 type TextFieldStyleProps = Pick<TextFieldProps, 'label' | 'feedback' | 'disabled'>
 
 const getFeedbackTextColor = (theme: Theme) => ({ feedback, disabled }: TextFieldStyleProps) => {

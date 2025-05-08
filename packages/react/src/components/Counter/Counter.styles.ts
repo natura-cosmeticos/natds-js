@@ -3,6 +3,8 @@ import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { CounterProps } from './Counter.props'
 
+// update theme 0.84.4
+
 type CounterStyleProps = Required<Pick<CounterProps, 'size'>>
 
 const styles = createUseStyles((theme: Theme) => ({

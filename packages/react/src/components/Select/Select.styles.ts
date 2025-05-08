@@ -3,6 +3,8 @@ import { Theme } from '@naturacosmeticos/natds-themes'
 import { BrandTypes } from '../../brandTypes/brandTypes'
 import { buildTheme } from '../../ThemeProvider'
 
+// update theme 0.84.4
+
 type SelectStyleProps = {
   size: 'medium' | 'mediumX'
   isFilled: boolean,
