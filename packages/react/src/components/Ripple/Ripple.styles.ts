@@ -5,7 +5,7 @@ import { Theme } from '@naturacosmeticos/natds-themes'
 import { RippleProps } from './Ripple.props'
 import { buildTheme } from '../../ThemeProvider'
 
-type RippleStyleProps = Pick<RippleProps, 'color' | 'hideOverflow' | 'disabled' | 'fullWidth' | 'showHover' | 'animationDuration' | 'brand'> &
+type RippleStyleProps = Pick<RippleProps, 'focus'|'radius'| 'color' | 'hideOverflow' | 'disabled' | 'fullWidth' | 'showHover' | 'animationDuration' | 'brand'> &
 { size: number, mousePosition: { x: number, y: number }, isCentered: boolean }
 
 const getColorThemeRipple = (theme: Theme) => ({ brand, color }: Pick<RippleStyleProps, 'brand' | 'color'>) => {
@@ -47,13 +47,17 @@ const styles = createUseStyles((theme: Theme) => ({
     height: 'fit-content',
     '&:focus:after': {
       extend: 'sharedRippleEffect',
-      backgroundColor: ({ color, disabled, brand }: RippleStyleProps) => !disabled && color && getColorThemeRipple(theme)({ brand, color }),
-      opacity: theme.opacity.mediumLow
+      backgroundColor: ({
+        color, disabled, brand, focus
+      }: RippleStyleProps) => !disabled && focus && color && getColorThemeRipple(theme)({ brand, color }),
+      opacity: theme.opacity.mediumLow,
+      borderRadius: ({ radius }: RippleStyleProps) => (radius || 'none')
     },
     '&:hover:after': {
       extend: 'sharedRippleEffect',
       backgroundColor: ({ brand, color }: RippleStyleProps) => color && getColorThemeRipple(theme)({ brand, color }),
-      opacity: ({ showHover, disabled }: RippleStyleProps) => (!disabled && showHover ? theme.opacity.mediumLow : 0)
+      opacity: ({ showHover, disabled }: RippleStyleProps) => (!disabled && showHover ? theme.opacity.mediumLow : 0),
+      borderRadius: ({ radius }: RippleStyleProps) => (radius || 'none')
     }
   },
   ripple: {

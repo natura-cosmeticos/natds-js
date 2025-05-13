@@ -16,6 +16,8 @@ const Ripple = (props: RippleProps): JSX.Element => {
     color = 'highlight',
     disabled = false,
     focus = false,
+    radius,
+    onClick,
     fullWidth = false,
     hideOverflow = true,
     isCentered = false,
@@ -35,6 +37,7 @@ const Ripple = (props: RippleProps): JSX.Element => {
   }, [animation, animationDuration])
 
   const showRipple = (e: React.MouseEvent<HTMLDivElement>) => {
+    onClick?.(e)
     if (!disabled) {
       setAnimation(rippleActive)
     }
@@ -59,12 +62,14 @@ const Ripple = (props: RippleProps): JSX.Element => {
     brand,
     color,
     disabled,
+    focus,
     fullWidth,
     hideOverflow,
     isCentered,
     mousePosition,
     size,
-    showHover
+    showHover,
+    radius
   })
 
   const showFocus = focus ? 0 : -1
