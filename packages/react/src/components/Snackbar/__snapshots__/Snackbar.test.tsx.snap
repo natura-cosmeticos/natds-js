@@ -431,11 +431,12 @@ Array [
     align-self: start;
   }
   .wrapper-d0-0-2-35:focus:after {
-    background-color: #111111;
+    border-radius: none;
   }
   .wrapper-d0-0-2-35:hover:after {
     background-color: #111111;
     opacity: 0;
+    border-radius: none;
   }
   .ripple-d1-0-2-36 {
     background-color: #111111;

@@ -1484,11 +1484,12 @@ Array [
     align-self: start;
   }
   .wrapper-d0-0-2-27:focus:after {
-    background-color: #111111;
+    border-radius: none;
   }
   .wrapper-d0-0-2-27:hover:after {
     background-color: #111111;
     opacity: 0;
+    border-radius: none;
   }
   .ripple-d1-0-2-28 {
     background-color: #111111;
