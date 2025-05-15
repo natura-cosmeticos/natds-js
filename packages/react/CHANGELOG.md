@@ -5,7 +5,12 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [2.69.2](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.69.2-alpha.DSY-5594.3.0...@naturacosmeticos/natds-react@2.69.2) (2025-05-15)
 
-**Note:** Version bump only for package @naturacosmeticos/natds-react
+### Bug Fixes
+
+* **natds-react:**  fixed forms textField Counter textTransform
+* **natds-react:**  fixed RadioButton clickable area
+
+
 
 
 
