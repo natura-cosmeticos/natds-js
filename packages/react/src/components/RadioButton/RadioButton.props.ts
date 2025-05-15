@@ -3,6 +3,11 @@ import { BrandTypes } from '../../brandTypes/brandTypes'
 export interface RadioButtonProps {
 
   /**
+   * Specifies a description to your radio.
+   * Use it in cases where a text label is not visible on the screen.
+   */
+  ariaLabel?: string
+  /**
    * If `true`, the RadioButton is checked
    * @default false
    */

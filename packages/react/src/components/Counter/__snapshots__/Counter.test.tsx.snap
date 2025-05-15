@@ -66,10 +66,13 @@ Array [
     display: inline-block;
     align-self: start;
   }
-  .wrapper-d0-0-2-19:focus:after {  }
+  .wrapper-d0-0-2-19:focus:after {
+    border-radius: none;
+  }
   .wrapper-d0-0-2-19:hover:after {
     background-color: #111111;
     opacity: 0;
+    border-radius: none;
   }
   .ripple-d1-0-2-20 {
     background-color: #111111;
@@ -91,10 +94,13 @@ Array [
     display: inline-block;
     align-self: start;
   }
-  .wrapper-d4-0-2-26:focus:after {  }
+  .wrapper-d4-0-2-26:focus:after {
+    border-radius: none;
+  }
   .wrapper-d4-0-2-26:hover:after {
     background-color: #111111;
     opacity: 0;
+    border-radius: none;
   }
   .ripple-d5-0-2-27 {
     background-color: #111111;
@@ -410,10 +416,13 @@ Array [
     display: inline-block;
     align-self: start;
   }
-  .wrapper-d0-0-2-19:focus:after {  }
+  .wrapper-d0-0-2-19:focus:after {
+    border-radius: none;
+  }
   .wrapper-d0-0-2-19:hover:after {
     background-color: #111111;
     opacity: 0;
+    border-radius: none;
   }
   .ripple-d1-0-2-20 {
     background-color: #111111;
@@ -436,11 +445,12 @@ Array [
     align-self: start;
   }
   .wrapper-d4-0-2-26:focus:after {
-    background-color: #111111;
+    border-radius: none;
   }
   .wrapper-d4-0-2-26:hover:after {
     background-color: #111111;
     opacity: 0;
+    border-radius: none;
   }
   .ripple-d5-0-2-27 {
     background-color: #111111;
@@ -759,10 +769,13 @@ Array [
     display: inline-block;
     align-self: start;
   }
-  .wrapper-d0-0-2-20:focus:after {  }
+  .wrapper-d0-0-2-20:focus:after {
+    border-radius: none;
+  }
   .wrapper-d0-0-2-20:hover:after {
     background-color: #111111;
     opacity: 0;
+    border-radius: none;
   }
   .ripple-d1-0-2-21 {
     background-color: #111111;
@@ -785,11 +798,12 @@ Array [
     align-self: start;
   }
   .wrapper-d4-0-2-27:focus:after {
-    background-color: #111111;
+    border-radius: none;
   }
   .wrapper-d4-0-2-27:hover:after {
     background-color: #111111;
     opacity: 0;
+    border-radius: none;
   }
   .ripple-d5-0-2-28 {
     background-color: #111111;

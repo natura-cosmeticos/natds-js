@@ -45,4 +45,8 @@ export interface RippleProps {
    * when the the children component is on focus
    */
   focus?: boolean
+
+  onClick?: (event: React.MouseEvent<HTMLDivElement>) => void
+
+  radius?: 'none' | '50%'
 }

@@ -68,11 +68,12 @@ Array [
     align-self: stretch;
   }
   .wrapper-d0-0-2-11:focus:after {
-    background-color: #111111;
+    border-radius: none;
   }
   .wrapper-d0-0-2-11:hover:after {
     background-color: #111111;
     opacity: 0;
+    border-radius: none;
   }
   .ripple-d1-0-2-12 {
     background-color: #111111;

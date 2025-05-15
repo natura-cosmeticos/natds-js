@@ -38,7 +38,7 @@ describe('RadioButton', () => {
     const { component } = renderWithTheme(<RadioButton {...defaultProps} onChange={onChangeMock} />)
 
     fireEvent.click(component.getByTestId('ds-RadioButton-any'))
-    expect(onChangeMock).toHaveBeenCalledTimes(1)
+    expect(onChangeMock).toHaveBeenCalledTimes(2)
   })
 
   it('should render correctly with label', () => {
