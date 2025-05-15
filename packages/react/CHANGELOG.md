@@ -7,7 +7,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **natds-react:**  fixed forms textField Counter textTransform
+* **natds-react:**  fixed forms textField counter select textTransform
 * **natds-react:**  fixed RadioButton clickable area
 
 
