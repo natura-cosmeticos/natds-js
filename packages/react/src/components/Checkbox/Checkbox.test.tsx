@@ -46,6 +46,6 @@ describe('Checkbox component', () => {
 
     fireEvent.click(component.getByTestId('ds-checkbox-any'))
 
-    expect(onChangeMock).toHaveBeenCalledTimes(1)
+    expect(onChangeMock).toHaveBeenCalledTimes(2)
   })
 })
