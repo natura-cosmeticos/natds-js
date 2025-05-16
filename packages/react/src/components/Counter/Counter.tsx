@@ -8,6 +8,7 @@ import styles from './Counter.styles'
 const Counter = React.forwardRef<HTMLDivElement, CounterProps>(({
   ariaLabelDecrementButton,
   ariaLabelIncrementButton,
+  ariaLabelInput,
   className = '',
   disabled,
   readOnly,
@@ -44,6 +45,7 @@ const Counter = React.forwardRef<HTMLDivElement, CounterProps>(({
           -
         </Button>
         <input
+          aria-label={ariaLabelInput}
           className={inputBase}
           readOnly={readOnly}
           onChange={onChange}

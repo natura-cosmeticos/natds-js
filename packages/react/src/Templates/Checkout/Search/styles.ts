@@ -44,6 +44,7 @@ const styles = createUseStyles((theme: Theme) => ({
     gap: 16
   },
   wrapperIcon: {
+    padding: '2px',
     position: 'relative',
     width: '100%',
     overflow: 'hidden'

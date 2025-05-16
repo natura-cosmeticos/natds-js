@@ -1,4 +1,5 @@
-import React from 'react'
+/* eslint-disable @typescript-eslint/no-explicit-any */
+import React, { useRef } from 'react'
 import { Ripple } from '../Ripple'
 import { Label } from '../Label'
 import { CheckboxProps } from './Checkbox.props'
@@ -21,6 +22,20 @@ const Checkbox = React.forwardRef<HTMLInputElement, CheckboxProps>(({
   } = styles({ indeterminate, disabled, brand })
 
   const getRippleColor = checked && !disabled ? 'primary' : 'highlight'
+  const inputRef = useRef<HTMLInputElement>(null)
+
+  const handleRippleClick = (event: React.MouseEvent<HTMLDivElement>) => {
+    if (disabled) {
+      return
+    }
+
+    if (onChange) {
+      if (inputRef.current) {
+        inputRef.current.focus()
+      }
+      onChange(event as any)
+    }
+  }
 
   return (
     <div className={`${className} ${container} Checkbox-gaya`}>
@@ -31,6 +46,8 @@ const Checkbox = React.forwardRef<HTMLInputElement, CheckboxProps>(({
         disabled={disabled}
         color={getRippleColor}
         animationDuration={500}
+        radius="50%"
+        onClick={handleRippleClick}
         showHover
         focus
       >
@@ -44,7 +61,7 @@ const Checkbox = React.forwardRef<HTMLInputElement, CheckboxProps>(({
             onChange={onChange}
             type="checkbox"
             value={value}
-            ref={ref}
+            ref={ref || inputRef}
           />
         </div>
       </Ripple>
