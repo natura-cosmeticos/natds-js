@@ -8,6 +8,10 @@ export interface CounterProps {
   /**
    * Add a description to increment button
    */
+  ariaLabelInput?: string
+  /**
+   * Add a description to increment button
+   */
   ariaLabelIncrementButton?: string
 
   /**
