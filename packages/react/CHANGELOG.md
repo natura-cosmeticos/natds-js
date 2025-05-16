@@ -5,7 +5,14 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [2.69.3](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.69.3-alpha.DSY-6197.1.0...@naturacosmeticos/natds-react@2.69.3) (2025-05-16)
 
-**Note:** Version bump only for package @naturacosmeticos/natds-react
+### Bug Fixes
+
+* **natds-react:**  fixed CheckBox clickable area
+* **natds-react:**  fixed TextField border to ShadowBox in focus
+
+### Features
+
+* **natds-react:**  added assessibility prop ariaLabelInput to Counter
 
 
 
