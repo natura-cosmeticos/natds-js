@@ -15,15 +15,22 @@ const getFeedbackBorderColor = (theme: Theme) => ({ feedback }: InputStyleProps)
   return feedback ? borderColor[feedback] : theme.color.lowEmphasis
 }
 const getColorTheme = (theme: Theme) => ({ brand, feedback }: InputStyleProps) => {
-  const borderColor = buildTheme(brand, 'light')
+  const ThemeBorderColor = brand ? buildTheme(brand, 'light') : theme
   const ErrorSucces = {
-    error: theme.color.alert,
-    success: theme.color.success
+    error: ThemeBorderColor.color.alert,
+    success: ThemeBorderColor.color.success
   }
 
-  // eslint-disable-next-line no-nested-ternary
-  return brand ? (feedback ? ErrorSucces[feedback]
-    : borderColor.color.primary) : (feedback ? ErrorSucces[feedback] : theme.color.primary)
+  return (feedback ? ErrorSucces[feedback] : ThemeBorderColor.color.primary)
+}
+const getColorBorderPxTheme = (theme: Theme) => ({ brand, feedback }: InputStyleProps) => {
+  const ThemeBorderColor = brand ? buildTheme(brand, 'light') : theme
+  const ErrorSucces = {
+    error: `0 0 0 1px ${ThemeBorderColor.color.alert}`,
+    success: `0 0 0 1px ${ThemeBorderColor.color.success}`
+  }
+  const colorInterpolation = (feedback ? ErrorSucces[feedback] : `0 0 0 1px ${ThemeBorderColor.color.primary}`)
+  return colorInterpolation
 }
 
 const styles = createUseStyles((theme: Theme) => ({
@@ -43,7 +50,7 @@ const styles = createUseStyles((theme: Theme) => ({
       )
     },
     '&:focus-within': {
-      border: '2px solid',
+      boxShadow: getColorBorderPxTheme(theme),
       borderColor: getColorTheme(theme)
     },
     '&:after': {
@@ -70,6 +77,7 @@ const styles = createUseStyles((theme: Theme) => ({
     background: 'none',
     border: 'none',
     color: theme.color.highEmphasis,
+    borderRadius: theme.textField.borderRadius,
     fontFamily: [
       theme.textField.content.primary.fontFamily,
       theme.textField.content.fallback.fontFamily
@@ -92,6 +100,7 @@ const styles = createUseStyles((theme: Theme) => ({
   input: {
     extend: 'base',
     boxSizing: 'border-box',
+    borderRadius: theme.textField.borderRadius,
     height: ({ size }: InputStyleProps) => size && theme.size[size],
     paddingRight: ({ action }: InputStyleProps) => action && theme.spacing.tiny,
     '&::placeholder': {
