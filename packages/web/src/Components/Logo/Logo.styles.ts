@@ -3,7 +3,7 @@ import { makeStyles } from '../../styles/makeStyles'
 import { ILogoProps } from './Logo.props'
 import { IThemeWeb } from '../../Themes'
 
-// trigger jenkins 02 - update - themes 0.84.0
+// trigger jenkins 03 - update - themes 0.84.0
 
 const getLogoSize = (theme: IThemeWeb) => ({ size }: ILogoProps) => size && theme.sizes && `${theme.sizes[size]}px`
 const getLogoColor = (theme: IThemeWeb) => ({ color }: ILogoProps) => color !== 'neutral' && theme.color && color && theme.color[color]
