@@ -5,7 +5,28 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [2.70.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.70.0-alpha.DSY-6235.3.0...@naturacosmeticos/natds-react@2.70.0) (2025-06-15)
 
-**Note:** Version bump only for package @naturacosmeticos/natds-react
+* **natds-icons:** filled-action-delete
+* **natds-icons:** filled-alert-cancel
+* **natds-icons:** filled-alert-check
+* **natds-icons:** filled-alert-info
+* **natds-icons:** filled-alert-warning
+* **natds-icons:** filled-content-strawberry
+* **natds-icons:** filled-product-mirror-woman
+* **natds-icons:** filled-product-shoewoman
+
+* **natds-icons:** outlined-action-delete
+* **natds-icons:** outlined-alert-cancel
+* **natds-icons:** outlined-alert-check
+* **natds-icons:** outlined-alert-info
+* **natds-icons:** outlined-alert-warning
+* **natds-icons:** outlined-content-strawberry
+* **natds-icons:** outlined-product-mirror-woman
+* **natds-icons:** outlined-product-shoewoman
+
+
+### Bug Fixes
+
+* **natds-icons:**  update lib Icon icon filled-content-strawberry
 
 
 
