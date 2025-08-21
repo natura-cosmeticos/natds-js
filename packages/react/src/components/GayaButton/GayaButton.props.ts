@@ -1,3 +1,4 @@
+import { AriaAttributes } from 'react'
 import { IconName } from '@naturacosmeticos/natds-icons'
 import { Size } from '@naturacosmeticos/natds-themes'
 import { BrandTypes } from '../../brandTypes/brandTypes'
@@ -9,6 +10,10 @@ export type GayaButtonType = 'button' | 'reset' | 'submit'
 export type GayaButtonColor = 'primary'| 'onPrimary' | 'secondary'| 'onSecondary' | 'neutral' | 'inverse'
 export type mode = 'light' | 'dark'
 export interface GayaButtonBaseProps {
+
+  ariaLabelIcon?: AriaAttributes
+
+  accessibility?: AriaAttributes
   /**
    * Specifies a description to your button.
    * Use it in cases where a text label is not visible on the screen.
