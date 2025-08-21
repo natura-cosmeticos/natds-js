@@ -1,10 +1,15 @@
-import React from 'react'
+import React, { AriaAttributes } from 'react'
 import { Size } from '@naturacosmeticos/natds-themes'
+import { ButtonAccessibilityProps } from '../Button/Button.props'
 
 type CounterSizes = keyof Pick<Size, 'semiX' | 'medium'>
 
 export interface CounterProps {
 
+  accessibilityIncrement?: ButtonAccessibilityProps;
+  accessibilityDecrement?: ButtonAccessibilityProps;
+  ariaLabelSpanIncrement?: AriaAttributes;
+  ariaLabelSpanDecrement?: AriaAttributes;
   /**
    * Add a description to increment button
    */
