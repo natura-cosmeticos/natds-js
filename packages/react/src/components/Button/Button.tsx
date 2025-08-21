@@ -24,6 +24,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(({
   variant = 'contained',
   ariaLabel,
   accessibility,
+  ariaLabelSpan,
   ...rest
 }, ref) => {
   const { button, label, labelContainer } = styles({
@@ -56,7 +57,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(({
         {...rest}
       >
         <div className={labelContainer}>
-          <span className={label}>{children}</span>
+          <span {...ariaLabelSpan} className={label}>{children}</span>
           {rest.showIcon && <Icon name={rest.iconName} color={iconColor} />}
         </div>
       </button>
