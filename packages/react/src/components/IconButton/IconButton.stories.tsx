@@ -44,6 +44,7 @@ export const Color: Story<IconButtonProps> = (args) => (
     <IconButton {...args} />
     <IconButton
       {...args}
+      accessibility={{ 'aria-label': 'Testando IconButton' }}
       IconComponent={<Icon size="standard" name="outlined-default-mockup" color="primary" />}
     />
     <IconButton

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { AriaAttributes } from 'react'
 import { Size, Theme } from '@naturacosmeticos/natds-themes'
 import { createUseStyles } from 'react-jss'
 import { Ripple } from '../Ripple'
@@ -13,6 +13,7 @@ export interface IconButtonBaseProps {
   testID?: string
   value?: string | number
   id?: HTMLButtonElement['id']
+  accessibility?: AriaAttributes
 }
 
 type IconButtonBaseStyleProps = Required<Pick<IconButtonBaseProps, 'size'>>
@@ -40,7 +41,8 @@ const IconButtonBase = React.forwardRef<HTMLButtonElement, IconButtonBaseProps>(
   size,
   testID,
   value,
-  id
+  id,
+  accessibility
 }, ref) => {
   const { base } = styles({ size })
 
@@ -56,6 +58,7 @@ const IconButtonBase = React.forwardRef<HTMLButtonElement, IconButtonBaseProps>(
         value={value}
         ref={ref}
         id={id}
+        {...accessibility}
       >
         {IconComponent}
       </button>
