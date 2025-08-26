@@ -18,7 +18,7 @@ const RatingInput = ({ ariaLabelGroup, testID, ...props }: RatingProps) => {
 
   return (
     <>
-      <div className={rating} aria-label={ariaLabelGroup}>
+      <div className={rating} aria-label={ariaLabelGroup} {...props}>
         {Array(renderTimes).fill(0).map((_, index) => (
           isRatingInput(props) && (
             <RatingBase
