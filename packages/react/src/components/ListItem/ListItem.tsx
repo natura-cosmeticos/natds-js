@@ -10,7 +10,8 @@ const ListItem = React.forwardRef<HTMLLIElement, ListItemProps>(({
   onClick,
   selected = false,
   SeparatorComponent,
-  testID
+  testID,
+  ...rest
 }, ref): JSX.Element => {
   const { listItem } = styles({ selected, interaction })
 
@@ -22,6 +23,7 @@ const ListItem = React.forwardRef<HTMLLIElement, ListItemProps>(({
         data-testid={testID}
         ref={ref}
         tabIndex={0}
+        {...rest}
       >
         {children}
       </li>
