@@ -19,7 +19,8 @@ const Shortcut = React.forwardRef<HTMLButtonElement, ShortcutProps>(
       IconComponent,
       BadgeComponent,
       id,
-      breakLine = true
+      breakLine = true,
+      ...rest
     } = props
     const {
       container, content, labelText, badgeContainer, wrapper
@@ -28,7 +29,7 @@ const Shortcut = React.forwardRef<HTMLButtonElement, ShortcutProps>(
     })
 
     return (
-      <div className={`${wrapper} Shortcut-gaya`}>
+      <div className={`${wrapper} Shortcut-gaya`} {...rest}>
         <div className={container}>
           <IconButtonBase
             className={`${className} ${content}`}
