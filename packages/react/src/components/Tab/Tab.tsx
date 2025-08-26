@@ -11,7 +11,10 @@ const Tab = React.forwardRef<HTMLDivElement, TabProps>(
       align = 'left',
       position = 'fixed',
       elevation = true,
-      color = true
+      color = true,
+      ariaLabelButtonRight,
+      ariaLabelButtonLeft,
+      ...rest
     } = props
 
     const {
@@ -50,9 +53,9 @@ const Tab = React.forwardRef<HTMLDivElement, TabProps>(
     }
 
     return (
-      <div className={`${wrapper} Tab-gaya`} ref={ref}>
+      <div className={`${wrapper} Tab-gaya`} ref={ref} {...rest}>
         {showNavigation && (
-        <button type="button" className={`${navigation} ${navigationPrev}`} onClick={handlePrev} data-testid="btn-prev">
+        <button type="button" className={`${navigation} ${navigationPrev}`} onClick={handlePrev} data-testid="btn-prev" {...ariaLabelButtonLeft}>
           <Icon name="filled-navigation-arrowleft" />
         </button>
         )}
@@ -62,7 +65,7 @@ const Tab = React.forwardRef<HTMLDivElement, TabProps>(
         </ul>
 
         {showNavigation && (
-        <button type="button" className={`${navigation} ${navigationNext}`} onClick={handleNext} data-testid="btn-next">
+        <button type="button" className={`${navigation} ${navigationNext}`} onClick={handleNext} data-testid="btn-next" {...ariaLabelButtonRight}>
           <Icon name="filled-navigation-arrowright" />
         </button>
         )}

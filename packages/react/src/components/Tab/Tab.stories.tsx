@@ -37,10 +37,10 @@ const onClick = () => console.log('Tab is clicked')
 
 export const Playground: Story<TabProps> = (args) => (
   <Tab {...args}>
-    <TabItem onClick={onClick} isActive>
+    <TabItem onClick={onClick} isActive aria-label="TabItem 1">
       Tab 1
     </TabItem>
-    <TabItem onClick={onClick}>
+    <TabItem onClick={onClick} aria-label="TabItem-2">
       Tab 2
     </TabItem>
     <TabItem onClick={onClick} isDisabled>
