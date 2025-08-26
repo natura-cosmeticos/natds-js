@@ -1,6 +1,9 @@
+import { AriaAttributes } from 'react'
 import { BrandTypes } from '../../brandTypes/brandTypes'
 
 export interface RadioButtonProps {
+
+  accessibility?: AriaAttributes
 
   /**
    * Specifies a description to your radio.
