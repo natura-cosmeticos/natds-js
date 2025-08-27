@@ -117,7 +117,7 @@ describe('Rating', () => {
 
       fireEvent.click(getByTestId('rating-1'))
 
-      expect(onClickMock).toHaveBeenCalledTimes(2)
+      expect(onClickMock).toHaveBeenCalledTimes(1)
     })
 
     it('should change to active a rating star with mouseEnter', async () => {
@@ -150,7 +150,7 @@ describe('Rating', () => {
       expect(rating1).toHaveFocus()
 
       userEvent.type(getByTestId('rating-1'), '{space}')
-      expect(onClickMock).toHaveBeenCalledTimes(2)
+      expect(onClickMock).toHaveBeenCalledTimes(1)
     })
   })
 
