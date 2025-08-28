@@ -5,7 +5,7 @@ export interface TabProps {
 
   ariaLabelButtonLeft?: AriaAttributes
 
-  ariaLabelButtonRight: AriaAttributes
+  ariaLabelButtonRight?: AriaAttributes
 
   /**
    * Optional ID for testing
