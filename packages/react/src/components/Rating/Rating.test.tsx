@@ -150,6 +150,7 @@ describe('Rating', () => {
       expect(rating1).toHaveFocus()
 
       userEvent.type(getByTestId('rating-1'), '{space}')
+
       expect(onClickMock).toHaveBeenCalledTimes(1)
     })
   })
