@@ -3,9 +3,9 @@ import { BrandTypes } from '../../brandTypes/brandTypes'
 
 export interface TabProps {
 
-  ariaLabelButtonLeft?: AriaAttributes
+  accessibilityButtonLeft?: AriaAttributes
 
-  ariaLabelButtonRight?: AriaAttributes
+  accessibilityButtonRight?: AriaAttributes
 
   /**
    * Optional ID for testing

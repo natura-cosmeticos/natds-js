@@ -12,8 +12,8 @@ const Tab = React.forwardRef<HTMLDivElement, TabProps>(
       position = 'fixed',
       elevation = true,
       color = true,
-      ariaLabelButtonRight,
-      ariaLabelButtonLeft,
+      accessibilityButtonRight,
+      accessibilityButtonLeft,
       ...rest
     } = props
 
@@ -55,7 +55,7 @@ const Tab = React.forwardRef<HTMLDivElement, TabProps>(
     return (
       <div className={`${wrapper} Tab-gaya`} ref={ref} {...rest}>
         {showNavigation && (
-        <button type="button" className={`${navigation} ${navigationPrev}`} onClick={handlePrev} data-testid="btn-prev" {...ariaLabelButtonLeft}>
+        <button type="button" className={`${navigation} ${navigationPrev}`} onClick={handlePrev} data-testid="btn-prev" {...accessibilityButtonLeft}>
           <Icon name="filled-navigation-arrowleft" />
         </button>
         )}
@@ -65,7 +65,7 @@ const Tab = React.forwardRef<HTMLDivElement, TabProps>(
         </ul>
 
         {showNavigation && (
-        <button type="button" className={`${navigation} ${navigationNext}`} onClick={handleNext} data-testid="btn-next" {...ariaLabelButtonRight}>
+        <button type="button" className={`${navigation} ${navigationNext}`} onClick={handleNext} data-testid="btn-next" {...accessibilityButtonRight}>
           <Icon name="filled-navigation-arrowright" />
         </button>
         )}
