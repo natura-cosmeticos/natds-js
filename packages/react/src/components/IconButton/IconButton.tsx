@@ -9,6 +9,7 @@ const IconButton = React.forwardRef<HTMLButtonElement, IconButtonProps>(({
   className = '',
   disabled = false,
   IconComponent,
+  accessibility,
   onClick,
   size = 'semi',
   testID
@@ -25,6 +26,7 @@ const IconButton = React.forwardRef<HTMLButtonElement, IconButtonProps>(({
       size={size}
       testID={testID}
       IconComponent={IconComponent}
+      {...accessibility}
     />
   )
 })

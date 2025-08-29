@@ -1,6 +1,9 @@
+import { AriaAttributes } from 'react'
 import { BrandTypes } from '../../brandTypes/brandTypes'
 
 export interface SwitchProps {
+
+  accessibilityLabel?: AriaAttributes
   /**
    * Specify an optional className to be added to your Switch
    */

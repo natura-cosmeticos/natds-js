@@ -9,6 +9,7 @@ import styles from './RadioButton.styles'
 const RadioButton = React.forwardRef<HTMLInputElement, RadioButtonProps>(({
   checked = false,
   ariaLabel,
+  accessibility,
   className = '',
   disabled = false,
   id,
@@ -72,6 +73,7 @@ const RadioButton = React.forwardRef<HTMLInputElement, RadioButtonProps>(({
             value={value}
             required={required}
             ref={ref || inputRef}
+            {...accessibility}
           />
         </div>
       </Ripple>

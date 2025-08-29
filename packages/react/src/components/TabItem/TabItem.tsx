@@ -11,14 +11,15 @@ const TabItem = React.forwardRef<HTMLLIElement, TabItemProps>(
       isActive = false,
       isDisabled = false,
       onClick,
-      brand
+      brand,
+      ...rest
     } = props
     const { wrapper, tabButton } = styles({ isActive, isDisabled, brand })
 
     return (
       <li className={wrapper} ref={ref}>
         <Ripple isCentered fullWidth>
-          <button type="button" onClick={onClick} className={tabButton} disabled={isDisabled}>{props.children}</button>
+          <button type="button" onClick={onClick} className={tabButton} disabled={isDisabled} {...rest}>{props.children}</button>
         </Ripple>
       </li>
     )

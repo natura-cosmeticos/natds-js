@@ -15,7 +15,8 @@ const RatingBase = React.forwardRef<HTMLButtonElement, BaseComponentProps>(({
   onMouseLeave,
   value,
   size,
-  testID
+  testID,
+  ...rest
 }, ref) => {
   const { ratingIcon, ratingContainer } = useBaseStyles({
     disabled,
@@ -27,7 +28,12 @@ const RatingBase = React.forwardRef<HTMLButtonElement, BaseComponentProps>(({
   const checkIcon = iconFilled ? 'filled-action-rating' : 'outlined-action-rating'
 
   return (
-    <div onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} className={ratingContainer}>
+    <div
+      onMouseEnter={onMouseEnter}
+      onMouseLeave={onMouseLeave}
+      className={ratingContainer}
+      {...rest}
+    >
       <IconButtonBase
         ref={ref}
         ariaLabel={ariaLabel}

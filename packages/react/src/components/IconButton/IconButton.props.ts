@@ -1,9 +1,12 @@
+import { AriaAttributes } from 'react'
 import { Color, Size } from '@naturacosmeticos/natds-themes'
 
 export type IconButtonColors = keyof Pick<Color, 'highEmphasis' | 'primary' | 'surface'>
 export type IconButtonSize = keyof Pick<Size, 'semi' | 'medium' | 'semiX'>
 
 export interface IconButtonProps {
+
+  accessibility?: AriaAttributes
   /**
    * Use to define a text that explains the expected action
    */

@@ -21,7 +21,8 @@ const Ripple = (props: RippleProps): JSX.Element => {
     fullWidth = false,
     hideOverflow = true,
     isCentered = false,
-    showHover = false
+    showHover = false,
+    ...rest
   } = props
   const [animation, setAnimation] = useState('')
   const [mousePosition, setMousePosition] = useState<MousePosition>({ x: 0, y: 0 })
@@ -75,7 +76,7 @@ const Ripple = (props: RippleProps): JSX.Element => {
   const showFocus = focus ? 0 : -1
 
   return (
-    <div className={wrapper} onClick={showRipple} data-testid="ripple-wrapper" tabIndex={showFocus}>
+    <div className={wrapper} onClick={showRipple} data-testid="ripple-wrapper" tabIndex={showFocus} {...rest}>
       <div className={rippleContainer}>
         <div className={`${ripple} ${animation}`} data-testid="ripple-animation" />
       </div>

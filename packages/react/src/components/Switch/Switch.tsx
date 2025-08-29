@@ -12,7 +12,9 @@ const Switch = React.forwardRef<HTMLInputElement, SwitchProps>(
       checked = false,
       disabled = false,
       onChange,
-      testID
+      testID,
+      accessibilityLabel,
+      ...rest
     },
     ref
   ) => {
@@ -36,9 +38,15 @@ const Switch = React.forwardRef<HTMLInputElement, SwitchProps>(
           disabled={disabled}
           value={value}
           onChange={onChange}
+          {...rest}
         />
 
-        <label onMouseLeave={handleBlur} className={switchBase} htmlFor={id}>
+        <label
+          onMouseLeave={handleBlur}
+          className={switchBase}
+          htmlFor={id}
+          {...accessibilityLabel}
+        >
           <span className={switchTrack} />
           <span className={switchOverlay} />
           <span className={switchThumb} />

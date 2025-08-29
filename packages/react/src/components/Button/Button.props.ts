@@ -1,3 +1,4 @@
+import { AriaAttributes } from 'react'
 import { IconName } from '@naturacosmeticos/natds-icons'
 import { Size, Color } from '@naturacosmeticos/natds-themes'
 import { BrandTypes } from '../../brandTypes/brandTypes'
@@ -8,18 +9,12 @@ export type ButtonVariant = 'contained' | 'outlined' | 'text'
 export type ButtonType = 'button' | 'reset' | 'submit'
 export type ButtonColor = keyof Pick<Color, 'primary'| 'onPrimary' | 'secondary'| 'onSecondary' | 'surfaceInverse' | 'onSurfaceInverse'>
 export type mode = 'light' | 'dark'
-export type ButtonAccessibilityProps = {
-  'aria-label'?: string;
-  'aria-labelledby'?: string;
-  'aria-describedby'?: string;
-  'aria-disabled'?: boolean;
-  'aria-pressed'?: boolean;
-  'aria-expanded'?: boolean;
-  'aria-controls'?: string;
+export interface ButtonAccessibilityProps extends AriaAttributes {
   role?: string;
   tabIndex?: number;
-};
+}
 export interface ButtonBaseProps {
+  accessibilitySpan?: AriaAttributes
 
   accessibility?: ButtonAccessibilityProps;
   /**

@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { AriaAttributes } from 'react'
 import { BrandTypes } from '../../brandTypes/brandTypes'
 
 export interface TabProps {
+
+  accessibilityButtonLeft?: AriaAttributes
+
+  accessibilityButtonRight?: AriaAttributes
 
   /**
    * Optional ID for testing

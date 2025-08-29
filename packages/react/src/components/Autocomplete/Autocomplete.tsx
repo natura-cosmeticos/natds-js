@@ -26,6 +26,8 @@ const Autocomplete = React.forwardRef<HTMLInputElement, AutocompleteProps>(
       helperText,
       onChange,
       className = '',
+      accessibilityInput,
+      accessibilityLabel,
       ...rest
     } = props
 
@@ -57,7 +59,7 @@ const Autocomplete = React.forwardRef<HTMLInputElement, AutocompleteProps>(
         data-testid={testID}
         {...rest}
       >
-        <label htmlFor={name} className={`${labelText}`}>
+        <label htmlFor={name} className={`${labelText}`} {...accessibilityLabel}>
           {label}
           {required && '*'}
         </label>
@@ -79,9 +81,9 @@ const Autocomplete = React.forwardRef<HTMLInputElement, AutocompleteProps>(
             onChange={onChange}
             required={required}
             disabled={disabled}
-            aria-label={labelText}
             readOnly={readonly}
             type="text"
+            {...accessibilityInput}
           />
 
           <Icon size="semi" name={menuToggle ? 'outlined-navigation-arrowtop' : 'outlined-navigation-arrowbottom'} className={icon} />

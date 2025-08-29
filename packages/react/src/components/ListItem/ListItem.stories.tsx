@@ -45,7 +45,7 @@ export const Playground: Story<ListItemProps> = (args) => {
   return (
     <ul style={{ margin: 0, padding: 0 }}>
       {items.map(({ id, title }) => (
-        <ListItem {...args} key={id}>
+        <ListItem {...args} key={id} aria-label={`${id}`}>
           <span style={{ color: theme.color.onSurface }}>
             {title}
           </span>

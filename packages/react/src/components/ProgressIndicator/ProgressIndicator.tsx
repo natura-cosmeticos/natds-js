@@ -8,12 +8,13 @@ const ProgressIndicator = React.forwardRef<HTMLDivElement, ProgressIndicatorProp
   size = 'medium',
   brand,
   testID = 'ds-progress-indicator',
-  className = ''
+  className = '',
+  ...rest
 }, ref) => {
   const { backdrop, loader } = styles({ size, showBackdrop, brand })
 
   return (
-    <div ref={ref} className={backdrop} role="progressbar" aria-label={ariaLabel} data-testid={testID}>
+    <div ref={ref} className={backdrop} role="progressbar" aria-label={ariaLabel} data-testid={testID} {...rest}>
       <div className={`${className} ${loader} ProgressIndicator-gaya`}>
         <svg viewBox="25 25 50 50">
           <circle cx="50" cy="50" r="20" />

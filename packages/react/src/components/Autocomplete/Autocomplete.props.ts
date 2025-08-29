@@ -1,3 +1,4 @@
+import { AriaAttributes } from 'react'
 import { BrandTypes } from '../../brandTypes/brandTypes'
 
 export interface OptionProps {
@@ -6,6 +7,8 @@ export interface OptionProps {
 }
 
 export interface AutocompleteProps {
+  accessibilityInput?: AriaAttributes
+  accessibilityLabel?: AriaAttributes
 
 /**
    * Specify an optional className to be added to your Select

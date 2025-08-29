@@ -13,7 +13,8 @@ const Link = React.forwardRef<HTMLAnchorElement, LinkProps>(
     target,
     iconPosition = 'right',
     IconComponent,
-    textColor = 'default'
+    textColor = 'default',
+    ...rest
   }, ref) => {
     const { container, link } = styles({
       variant, iconPosition, textColor
@@ -28,6 +29,7 @@ const Link = React.forwardRef<HTMLAnchorElement, LinkProps>(
           href={href}
           hrefLang={hrefLang}
           target={target}
+          {...rest}
         >
           {text}
         </a>
