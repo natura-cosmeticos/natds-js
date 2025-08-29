@@ -70,7 +70,7 @@ export const Sizes: Story<CounterProps> = (args) => {
       <Counter
         {...args}
         value={counter1}
-        ariaLabelSpanDecrement={{ 'aria-hidden': true }}
+        accessibilitySpanDecrement={{ 'aria-hidden': true }}
         onIncrement={() => setCounter1(counter1 + 1)}
         onDecrement={() => setCounter1(counter1 - 1)}
       />
@@ -80,8 +80,8 @@ export const Sizes: Story<CounterProps> = (args) => {
         value={counter2}
         onIncrement={() => setCounter2(counter2 + 1)}
         onDecrement={() => setCounter2(counter2 - 1)}
-        ariaLabelSpanIncrement={{ 'aria-hidden': true }}
-        ariaLabelSpanDecrement={{ 'aria-hidden': true }}
+        accessibilitySpanIncrement={{ 'aria-hidden': true }}
+        accessibilitySpanDecrement={{ 'aria-hidden': true }}
       />
     </StoryContainer>
   )
