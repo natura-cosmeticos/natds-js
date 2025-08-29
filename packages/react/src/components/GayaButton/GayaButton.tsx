@@ -29,7 +29,7 @@ const GayaButton = React.forwardRef<HTMLButtonElement, GayaButtonProps>(({
   type = 'button',
   variant = 'contained',
   accessibility,
-  ariaLabelIcon,
+  accessibilityIcon,
   ...rest
 }, ref) => {
   const { gayaButton, label, labelContainer } = styles({
@@ -66,7 +66,7 @@ const GayaButton = React.forwardRef<HTMLButtonElement, GayaButtonProps>(({
       >
         <div className={labelContainer}>
           <span className={label}>{children}</span>
-          {rest.showIcon && <Icon name={rest.iconName} color={iconColor} {...ariaLabelIcon} />}
+          {rest.showIcon && <Icon name={rest.iconName} color={iconColor} {...accessibilityIcon} />}
         </div>
       </button>
     </Ripple>

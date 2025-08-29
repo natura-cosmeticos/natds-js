@@ -11,7 +11,7 @@ export type GayaButtonColor = 'primary'| 'onPrimary' | 'secondary'| 'onSecondary
 export type mode = 'light' | 'dark'
 export interface GayaButtonBaseProps {
 
-  ariaLabelIcon?: AriaAttributes
+  accessibilityIcon?: AriaAttributes
 
   accessibility?: AriaAttributes
   /**
