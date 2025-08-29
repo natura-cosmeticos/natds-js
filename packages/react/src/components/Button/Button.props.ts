@@ -14,7 +14,7 @@ export interface ButtonAccessibilityProps extends AriaAttributes {
   tabIndex?: number;
 }
 export interface ButtonBaseProps {
-  ariaLabelSpan?: AriaAttributes
+  accessibilitySpan?: AriaAttributes
 
   accessibility?: ButtonAccessibilityProps;
   /**
