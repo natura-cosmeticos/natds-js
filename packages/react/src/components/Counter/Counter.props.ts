@@ -8,8 +8,8 @@ export interface CounterProps {
 
   accessibilityIncrement?: ButtonAccessibilityProps;
   accessibilityDecrement?: ButtonAccessibilityProps;
-  ariaLabelSpanIncrement?: AriaAttributes;
-  ariaLabelSpanDecrement?: AriaAttributes;
+  accessibilitySpanIncrement?: AriaAttributes;
+  accessibilitySpanDecrement?: AriaAttributes;
   /**
    * Add a description to increment button
    */

@@ -8,8 +8,8 @@ import styles from './Counter.styles'
 const Counter = React.forwardRef<HTMLDivElement, CounterProps>(({
   ariaLabelDecrementButton,
   ariaLabelIncrementButton,
-  ariaLabelSpanDecrement,
-  ariaLabelSpanIncrement,
+  accessibilitySpanDecrement,
+  accessibilitySpanIncrement,
   accessibilityDecrement,
   accessibilityIncrement,
   ariaLabelInput,
@@ -46,7 +46,7 @@ const Counter = React.forwardRef<HTMLDivElement, CounterProps>(({
           testID="onDecrement-btn"
           variant="text"
           accessibility={accessibilityDecrement}
-          ariaLabelSpan={ariaLabelSpanDecrement}
+          accessibilitySpan={accessibilitySpanDecrement}
         >
           -
         </Button>
@@ -68,7 +68,7 @@ const Counter = React.forwardRef<HTMLDivElement, CounterProps>(({
           testID="onIncrement-btn"
           variant="text"
           accessibility={accessibilityIncrement}
-          ariaLabelSpan={ariaLabelSpanIncrement}
+          accessibilitySpan={accessibilitySpanIncrement}
         >
           +
         </Button>
