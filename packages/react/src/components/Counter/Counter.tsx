@@ -56,7 +56,7 @@ const Counter = React.forwardRef<HTMLDivElement, CounterProps>(({
           readOnly={readOnly}
           onChange={onChange}
           value={value}
-          maxLength={2}
+          maxLength={3}
           inputMode="numeric"
         />
         <Button
