@@ -1,14 +1,14 @@
-export type SeedColorsTypes = {
-    seed: string;
-    onSeed: string;
-    seedLight: string;
-    onSeedLight: string;
-    seedLightest: string;
-    onSeedLightest: string;
-    seedDark: string;
-    onSeedDark: string;
-    seedDarkest: string;
-    onSeedDarkest: string;
+export type CrystalColorsTypes = {
+    crystal: string;
+    onCrystal: string;
+    crystalLight: string;
+    onCrystalLight: string;
+    crystalLightest: string;
+    onCrystalLightest: string;
+    crystalDark: string;
+    onCrystalDark: string;
+    crystalDarkest: string;
+    onCrystalDarkest: string;
   };
 
 export type BronzeColorsTypes = {
@@ -49,6 +49,18 @@ export type GoldColorsTypes = {
     goldDarkest: string;
     onGoldDarkest: string;
   };
+export type SapphireColorsTypes = {
+    sapphire: string;
+    onSapphire: string;
+    sapphireLight: string;
+    onSapphireLight: string;
+    sapphireLightest: string;
+    onSapphireLightest: string;
+    sapphireDark: string;
+    onSapphireDark: string;
+    sapphireDarkest: string;
+    onSapphireDarkest: string;
+  };
 
 export type DiamondColorsTypes = {
     diamond: string;
@@ -63,26 +75,27 @@ export type DiamondColorsTypes = {
     onDiamondDarkest: string;
   };
 
-export type SapphireColorsTypes = {
-    sapphire: string;
-    onSapphire: string;
-    sapphireLight: string;
-    onSapphireLight: string;
-    sapphireLightest: string;
-    onSapphireLightest: string;
-    sapphireDark: string;
-    onSapphireDark: string;
-    sapphireDarkest: string;
-    onSapphireDarkest: string;
+export type DiamondPlusColorsTypes = {
+    diamondPlus: string;
+    onDiamondPlus: string;
+    diamondPlusLight: string;
+    onDiamondPlusLight: string;
+    diamondPlusLightest: string;
+    onDiamondPlusLightest: string;
+    diamondPlusDark: string;
+    onDiamondPlusDark: string;
+    diamondPlusDarkest: string;
+    onDiamondPlusDarkest: string;
   };
 
 type growthPlanColorsTypes = {
-    seed: SeedColorsTypes;
+    crystal: CrystalColorsTypes;
     bronze: BronzeColorsTypes;
     silver: SilverColorsTypes;
     gold: GoldColorsTypes;
+    sapphire: SapphireColorsTypes
     diamond: DiamondColorsTypes;
-    sapphire: SapphireColorsTypes;
+    diamondPlus: DiamondPlusColorsTypes;
   };
 
 export type GrowthPlanColorsTypes = {
@@ -92,24 +105,24 @@ export type GrowthPlanColorsTypes = {
 export const grouwthPlanColors: GrowthPlanColorsTypes = {
 
   color: {
-    seed: {
-      seed: '#9ADA25',
-      onSeed: '#111111',
-      seedLight: '#C6EA84',
-      onSeedLight: '#111111',
-      seedLightest: '#ECF8D6',
-      onSeedLightest: '#111111',
-      seedDark: '#5CA300',
-      onSeedDark: '#111111',
-      seedDarkest: '#30440C',
-      onSeedDarkest: '#FFFFFF'
+    crystal: {
+      crystal: '#75B7F0',
+      onCrystal: '#111111',
+      crystalLight: '#BADBF7',
+      onCrystalLight: '#111111',
+      crystalLightest: '#D1E7FA',
+      onCrystalLightest: '#111111',
+      crystalDark: '#0F518A',
+      onCrystalDark: '#FFFFFF',
+      crystalDarkest: '#093053',
+      onCrystalDarkest: '#FFFFFF'
     },
     bronze: {
-      bronze: '#DA6125',
+      bronze: '#DE713B',
       onBronze: '#111111',
-      bronzeLight: '#EAA684',
+      bronzeLight: '#F7C6BA',
       onBronzeLight: '#111111',
-      bronzeLightest: '#F8E1D6',
+      bronzeLightest: '#FBE1DA',
       onBronzeLightest: '#111111',
       bronzeDark: '#7B3715',
       onBronzeDark: '#FFFFFF',
@@ -118,52 +131,64 @@ export const grouwthPlanColors: GrowthPlanColorsTypes = {
 
     },
     silver: {
-      silver: '#7B8C9F',
+      silver: '#859DB7',
       onSilver: '#111111',
-      silverLight: '#BEC7D0',
+      silverLight: '#BFCCD9',
       onSilverLight: '#111111',
-      silverLightest: '#E3E7EB',
+      silverLightest: '#E1E7ED',
       onSilverLightest: '#111111',
-      silverDark: '#3C4753',
+      silverDark: '#35475A',
       onSilverDark: '#FFFFFF',
-      silverDarkest: '#22272E',
+      silverDarkest: '#1E2632',
       onSilverDarkest: '#FFFFFF'
     },
     gold: {
-      gold: '#DAAC25',
+      gold: '#DA9E2F',
       onGold: '#111111',
-      goldLight: '#EAD084',
+      goldLight: '#EED3A0',
       onGoldLight: '#111111',
-      goldLightest: '#F8EFD6',
+      goldLightest: '#F8ECD6',
       onGoldLightest: '#111111',
-      goldDark: '#7B6115',
+      goldDark: '#7A5716',
       onGoldDark: '#FFFFFF',
-      goldDarkest: '#44360C',
+      goldDarkest: '#44300C',
       onGoldDarkest: '#FFFFFF'
     },
-    diamond: {
-      diamond: '#A057F2',
-      onDiamond: '#111111',
-      diamondLight: '#B784EA',
-      onDiamondLight: '#111111',
-      diamondLightest: '#E7D6F8',
-      onDiamondLightest: '#111111',
-      diamondDark: '#47157B',
-      onDiamondDark: '#FFFFFF',
-      diamondDarkest: '#280C44',
-      onDiamondDarkest: '#FFFFFF'
-    },
     sapphire: {
-      sapphire: '#257FDA',
+      sapphire: '#006EFF',
       onSapphire: '#111111',
       sapphireLight: '#99C4FF',
       onSapphireLight: '#111111',
-      sapphireLightest: '#D6E7F8',
+      sapphireLightest: '#E0F0FF',
       onSapphireLightest: '#111111',
-      sapphireDark: '#15477B',
+      sapphireDark: '#0052C7',
       onSapphireDark: '#FFFFFF',
-      sapphireDarkest: '#0C2844',
+      sapphireDarkest: '#003985',
       onSapphireDarkest: '#FFFFFF'
+    },
+    diamond: {
+      diamond: '#A26CE0',
+      onDiamond: '#111111',
+      diamondLight: '#CAABED',
+      onDiamondLight: '#111111',
+      diamondLightest: '#E6D7F7',
+      onDiamondLightest: '#111111',
+      diamondDark: '#451977',
+      onDiamondDark: '#FFFFFF',
+      diamondDarkest: '#260E42',
+      onDiamondDarkest: '#FFFFFF'
+    },
+    diamondPlus: {
+      diamondPlus: '#3C4F77',
+      onDiamondPlus: '#FFFFFF',
+      diamondPlusLight: '#BBC6DD',
+      onDiamondPlusLight: '#FFFFFF',
+      diamondPlusLightest: '#DDE3EE',
+      onDiamondPlusLightest: '#FFFFFF',
+      diamondPlusDark: '#293651',
+      onDiamondPlusDark: '#FFFFFF',
+      diamondPlusDarkest: '#1B2436',
+      onDiamondPlusDarkest: '#FFFFFF'
     }
   }
 }
