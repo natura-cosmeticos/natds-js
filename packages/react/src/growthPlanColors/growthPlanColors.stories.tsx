@@ -11,7 +11,7 @@ const componentStatus = `
 
 Este componente exibe os grupos de cores do Growth Plan de forma visual.
 
-Cada grupo (como seed, bronze, silver, etc) é apresentado com suas variações de cor.
+Cada grupo (como crystal, bronze, silver, etc) é apresentado com suas variações de cor.
 
 🔧 **Modo de uso**:
 Importe o objeto de cores diretamente da biblioteca \`@naturacosmeticos/natds-react\`:
@@ -22,7 +22,7 @@ import { growthPlanColors } from '@naturacosmeticos/natds-react';
 
 🎨 **Exemplo de uso **:
 
-const { seed, bronze, silver } = growthPlanColors.color;
+const { crystal, bronze, silver } = growthPlanColors.color;
 
 
 
