@@ -2,7 +2,7 @@
 
 import React from 'react'
 import { Meta, Story } from '@storybook/react'
-import { grouwthPlanColors } from './growthPlanColors'
+import { growthPlanColors } from './growthPlanColors'
 
 const componentStatus = `
 > ⚠️ **Observação:** Essas cores não são recomendadas para componentes core.
@@ -24,8 +24,65 @@ import { growthPlanColors } from '@naturacosmeticos/natds-react';
 
 const { crystal, bronze, silver } = growthPlanColors.color;
 
+---
 
+## 🆕 **Nova Estrutura Semântica Disponível**
 
+Agora também está disponível uma nova estrutura de cores com nomenclatura semântica melhorada!
+
+🔧 **Como importar a nova estrutura**:
+\`\`\`
+import { growthPlanSemanticColors } from '@naturacosmeticos/natds-react';
+\`\`\`
+
+✨ **Principal Vantagem - Facilita Troca de Temas**:
+
+A estrutura semântica mantém os **mesmos tokens** em todos os temas, facilitando mudanças dinâmicas:
+
+\`\`\`typescript
+// ✅ COM ESTRUTURA SEMÂNTICA - Tokens consistentes
+const createButton = (theme: 'bronze' | 'silver' | 'gold') => ({
+  backgroundColor: growthPlanSemanticColors.color[theme].primary,
+  color: growthPlanSemanticColors.color[theme].onPrimary,
+  
+  '&:hover': {
+    backgroundColor: growthPlanSemanticColors.color[theme].primaryDark,
+    color: growthPlanSemanticColors.color[theme].onPrimaryDark
+  }
+})
+
+// Mudança de tema é simples - apenas troca o escopo:
+createButton('bronze')  // Tema bronze
+createButton('silver')  // Tema silver - MESMOS TOKENS!
+createButton('gold')    // Tema gold - MESMOS TOKENS!
+\`\`\`
+
+\`\`\`typescript
+// ❌ COM ESTRUTURA ATUAL - Tokens diferentes para cada tema
+const createButtonOld = (theme: 'bronze' | 'silver' | 'gold') => {
+  // Precisa mapear tokens diferentes para cada tema
+  const tokenMap = {
+    bronze: { main: 'bronze', onMain: 'onBronze', dark: 'bronzeDark' },
+    silver: { main: 'silver', onMain: 'onSilver', dark: 'silverDark' },
+    gold: { main: 'gold', onMain: 'onGold', dark: 'goldDark' }
+  }
+  
+  return {
+    backgroundColor: growthPlanColors.color[theme][tokenMap[theme].main],
+    color: growthPlanColors.color[theme][tokenMap[theme].onMain]
+    // Muito mais complexo para manter!
+  }
+}
+\`\`\`
+
+🚀 **Outras Vantagens**:
+- Facilita reutilização e manutenção
+- Segue padrões da indústria (Material Design, etc.)
+- **Componentes reutilizáveis** entre diferentes temas Growth Plan
+
+💡 **Recomendação**: Para novos projetos, considere usar \`growthPlanSemanticColors\` para uma melhor experiência de desenvolvimento e facilidade na troca de temas.
+
+---
 
 Utilize esta visualização para verificar as cores disponíveis, seus nomes, valores hexadecimais e uma prévia visual de cada uma.
 
@@ -78,7 +135,7 @@ const CategoryBlock = ({ categoryName, colors }: { categoryName: string; colors:
 )
 
 export const AllColors: Story = () => {
-  const colorGroups = grouwthPlanColors.color
+  const colorGroups = growthPlanColors.color
 
   return (
     <div style={{ padding: '2rem' }}>
