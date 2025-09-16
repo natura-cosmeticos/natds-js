@@ -67,7 +67,7 @@ export default {
 export const Playground: Story<SpotIconProps> = (args) => <SpotIcon {...args} />
 
 Playground.args = {
-  name: 'outlined-default-mockup',
+  name: 'spoticon-growthplan-graphic',
   size: 'medium',
   color: 'highlight'
 }
@@ -82,56 +82,56 @@ export const AllSizes: Story<SpotIconProps> = () => (
         display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '8px'
       }}
       >
-        <SpotIcon name="outlined-default-mockup" size="medium" />
+        <SpotIcon name="spoticon-growthplan-graphic" size="medium" />
         <span style={{ fontSize: '12px' }}>medium (48px)</span>
       </div>
       <div style={{
         display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '8px'
       }}
       >
-        <SpotIcon name="outlined-default-mockup" size="mediumX" />
+        <SpotIcon name="spoticon-growthplan-graphic" size="mediumX" />
         <span style={{ fontSize: '12px' }}>mediumX (56px)</span>
       </div>
       <div style={{
         display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '8px'
       }}
       >
-        <SpotIcon name="outlined-default-mockup" size="large" />
+        <SpotIcon name="spoticon-growthplan-graphic" size="large" />
         <span style={{ fontSize: '12px' }}>large (64px)</span>
       </div>
       <div style={{
         display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '8px'
       }}
       >
-        <SpotIcon name="outlined-default-mockup" size="largeX" />
+        <SpotIcon name="spoticon-growthplan-graphic" size="largeX" />
         <span style={{ fontSize: '12px' }}>largeX (72px)</span>
       </div>
       <div style={{
         display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '8px'
       }}
       >
-        <SpotIcon name="outlined-default-mockup" size="largeXX" />
+        <SpotIcon name="spoticon-growthplan-graphic" size="largeXX" />
         <span style={{ fontSize: '12px' }}>largeXX (80px)</span>
       </div>
       <div style={{
         display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '8px'
       }}
       >
-        <SpotIcon name="outlined-default-mockup" size="largeXXX" />
+        <SpotIcon name="spoticon-growthplan-graphic" size="largeXXX" />
         <span style={{ fontSize: '12px' }}>largeXXX (88px)</span>
       </div>
       <div style={{
         display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '8px'
       }}
       >
-        <SpotIcon name="outlined-default-mockup" size="huge" />
+        <SpotIcon name="spoticon-growthplan-graphic" size="huge" />
         <span style={{ fontSize: '12px' }}>huge (96px)</span>
       </div>
       <div style={{
         display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '8px'
       }}
       >
-        <SpotIcon name="outlined-default-mockup" size="hugeX" />
+        <SpotIcon name="spoticon-growthplan-graphic" size="hugeX" />
         <span style={{ fontSize: '12px' }}>hugeX (128px)</span>
       </div>
     </div>
