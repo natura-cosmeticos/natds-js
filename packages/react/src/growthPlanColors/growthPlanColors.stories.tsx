@@ -1,8 +1,10 @@
 /* eslint-disable max-len */
 
-import React from 'react'
+import React, { useState } from 'react'
 import { Meta, Story } from '@storybook/react'
 import { legacyGrowthPlanColors } from './legacyGrowthPlanColors'
+import { growthPlanColors } from './growthPlanColors'
+import { GayaButton } from '../components/GayaButton'
 
 const componentStatus = `
 > ⚠️ **Observação:** Essas cores não são recomendadas para componentes core.
@@ -58,7 +60,7 @@ createButton('gold')    // Tema gold - MESMOS TOKENS!
 \`\`\`
 
 \`\`\`typescript
-// ❌ COM ESTRUTURA ATUAL - Tokens diferentes para cada tema
+// ❌ COM ESTRUTURA Legacy - Tokens diferentes para cada tema
 const createButtonOld = (theme: 'bronze' | 'silver' | 'gold') => {
   // Precisa mapear tokens diferentes para cada tema
   const tokenMap = {
@@ -134,14 +136,50 @@ const CategoryBlock = ({ categoryName, colors }: { categoryName: string; colors:
   </div>
 )
 
+const ColorToggleButtons = ({ isLegacy, setIsLegacy }: { isLegacy: boolean; setIsLegacy: (value: boolean) => void }) => (
+  <div
+    style={{
+      marginBottom: '1rem',
+      display: 'flex',
+      gap: '1rem',
+      padding: '1rem'
+    }}
+  >
+    <GayaButton
+      onClick={() => setIsLegacy(false)}
+      color={!isLegacy ? 'primary' : 'neutral'}
+      variant={!isLegacy ? 'contained' : 'outlined'}
+    >
+      Estrutura Atual (Semântica)
+    </GayaButton>
+    <GayaButton
+      onClick={() => setIsLegacy(true)}
+      color={isLegacy ? 'primary' : 'neutral'}
+      variant={isLegacy ? 'contained' : 'outlined'}
+    >
+      Estrutura Legacy
+    </GayaButton>
+  </div>
+)
+
 export const AllColors: Story = () => {
-  const colorGroups = legacyGrowthPlanColors.color
+  const [isLegacy, setIsLegacy] = useState(false)
+  const colorGroupsLegacy = legacyGrowthPlanColors.color
+  const colorGroupsCurrent = growthPlanColors.color
+
+  const currentColorGroups = isLegacy ? colorGroupsLegacy : colorGroupsCurrent
 
   return (
-    <div style={{ padding: '2rem' }}>
-      {Object.entries(colorGroups).map(([categoryName, colors]) => (
-        <CategoryBlock key={categoryName} categoryName={categoryName} colors={colors} />
-      ))}
-    </div>
+    <>
+      <ColorToggleButtons isLegacy={isLegacy} setIsLegacy={setIsLegacy} />
+      <div style={{ padding: '0 2rem 2rem' }}>
+        <h3 style={{ fontFamily: 'sans-serif', color: '#333', marginBottom: '1rem' }}>
+          {isLegacy ? 'Growth Plan Colors - Estrutura Legacy' : 'Growth Plan Colors - Estrutura Semântica'}
+        </h3>
+        {Object.entries(currentColorGroups).map(([categoryName, colors]) => (
+          <CategoryBlock key={categoryName} categoryName={categoryName} colors={colors} />
+        ))}
+      </div>
+    </>
   )
 }
