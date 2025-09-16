@@ -1,2 +1,2 @@
 export * from './legacyGrowthPlanColors'
-export * from './growthPlanSemanticColors'
+export * from './growthPlanColors'

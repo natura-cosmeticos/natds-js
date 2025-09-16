@@ -32,7 +32,7 @@ Agora também está disponível uma nova estrutura de cores com nomenclatura sem
 
 🔧 **Como importar a nova estrutura**:
 \`\`\`
-import { growthPlanSemanticColors } from '@naturacosmeticos/natds-react';
+import { growthPlanColors } from '@naturacosmeticos/natds-react';
 \`\`\`
 
 ✨ **Principal Vantagem - Facilita Troca de Temas**:
@@ -42,12 +42,12 @@ A estrutura semântica mantém os **mesmos tokens** em todos os temas, facilitan
 \`\`\`typescript
 // ✅ COM ESTRUTURA SEMÂNTICA - Tokens consistentes
 const createButton = (theme: 'bronze' | 'silver' | 'gold') => ({
-  backgroundColor: growthPlanSemanticColors.color[theme].primary,
-  color: growthPlanSemanticColors.color[theme].onPrimary,
+  backgroundColor: growthPlanColors.color[theme].primary,
+  color: growthPlanColors.color[theme].onPrimary,
   
   '&:hover': {
-    backgroundColor: growthPlanSemanticColors.color[theme].primaryDark,
-    color: growthPlanSemanticColors.color[theme].onPrimaryDark
+    backgroundColor: growthPlanColors.color[theme].primaryDark,
+    color: growthPlanColors.color[theme].onPrimaryDark
   }
 })
 
@@ -80,7 +80,7 @@ backgroundColor: legacyGrowthPlanColors.color[theme][tokenMap[theme].main],
 - Segue padrões da indústria (Material Design, etc.)
 - **Componentes reutilizáveis** entre diferentes temas Growth Plan
 
-💡 **Recomendação**: Para novos projetos, considere usar \`growthPlanSemanticColors\` para uma melhor experiência de desenvolvimento e facilidade na troca de temas.
+💡 **Recomendação**: Para novos projetos, considere usar \`growthPlanColors\` para uma melhor experiência de desenvolvimento e facilidade na troca de temas.
 
 ---
 

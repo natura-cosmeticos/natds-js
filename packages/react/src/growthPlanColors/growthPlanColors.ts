@@ -1,11 +1,11 @@
 /**
- * Growth Plan Semantic Colors - Nova estrutura semântica para cores do plano de crescimento
+ * Growth Plan Colors - Estrutura para cores do plano de crescimento
  *
  * Esta estrutura utiliza nomenclatura semântica (primary, secondary, etc.) ao invés de
  * repetir o nome da categoria, facilitando o uso e reutilização.
  */
 
-export interface SemanticColorScheme {
+export interface ColorScheme {
   primary: string;
   onPrimary: string;
   primaryLight: string;
@@ -18,21 +18,21 @@ export interface SemanticColorScheme {
   onPrimaryDarkest: string;
 }
 
-export interface GrowthPlanSemanticColorsType {
-  crystal: SemanticColorScheme;
-  bronze: SemanticColorScheme;
-  silver: SemanticColorScheme;
-  gold: SemanticColorScheme;
-  sapphire: SemanticColorScheme;
-  diamond: SemanticColorScheme;
-  diamondPlus: SemanticColorScheme;
+export interface GrowthPlanColorsType {
+  crystal: ColorScheme;
+  bronze: ColorScheme;
+  silver: ColorScheme;
+  gold: ColorScheme;
+  sapphire: ColorScheme;
+  diamond: ColorScheme;
+  diamondPlus: ColorScheme;
 }
 
-export interface GrowthPlanSemanticType {
-  color: GrowthPlanSemanticColorsType;
+export interface GrowthPlanType {
+  color: GrowthPlanColorsType;
 }
 
-export const growthPlanSemanticColors: GrowthPlanSemanticType = {
+export const growthPlanColors: GrowthPlanType = {
   color: {
     crystal: {
       primary: '#75B7F0',
