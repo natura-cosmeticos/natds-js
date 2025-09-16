@@ -88,7 +88,7 @@ export type DiamondPlusColorsTypes = {
     onDiamondPlusDarkest: string;
   };
 
-type growthPlanColorsTypes = {
+type legacyGrowthPlanColorsTypes = {
     crystal: CrystalColorsTypes;
     bronze: BronzeColorsTypes;
     silver: SilverColorsTypes;
@@ -98,11 +98,11 @@ type growthPlanColorsTypes = {
     diamondPlus: DiamondPlusColorsTypes;
   };
 
-export type GrowthPlanColorsTypes = {
-    color: growthPlanColorsTypes;
+export type LegacyGrowthPlanColorsTypes = {
+    color: legacyGrowthPlanColorsTypes;
   };
 
-export const growthPlanColors: GrowthPlanColorsTypes = {
+export const legacyGrowthPlanColors: LegacyGrowthPlanColorsTypes = {
 
   color: {
     crystal: {

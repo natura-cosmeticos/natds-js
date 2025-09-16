@@ -1,3 +1,2 @@
-export * from './growthPlanColors'
+export * from './legacyGrowthPlanColors'
 export * from './growthPlanSemanticColors'
-export * from './SpotIcon'

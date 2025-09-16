@@ -2,7 +2,7 @@
 
 import React from 'react'
 import { Meta, Story } from '@storybook/react'
-import { growthPlanColors } from './growthPlanColors'
+import { legacyGrowthPlanColors } from './legacyGrowthPlanColors'
 
 const componentStatus = `
 > ⚠️ **Observação:** Essas cores não são recomendadas para componentes core.
@@ -17,12 +17,12 @@ Cada grupo (como crystal, bronze, silver, etc) é apresentado com suas variaçõ
 Importe o objeto de cores diretamente da biblioteca \`@naturacosmeticos/natds-react\`:
 
 \`\`\`
-import { growthPlanColors } from '@naturacosmeticos/natds-react';
+import { legacyGrowthPlanColors } from '@naturacosmeticos/natds-react';
 \`\`\`
 
 🎨 **Exemplo de uso **:
 
-const { crystal, bronze, silver } = growthPlanColors.color;
+const { crystal, bronze, silver } = legacyGrowthPlanColors.color;
 
 ---
 
@@ -68,8 +68,8 @@ const createButtonOld = (theme: 'bronze' | 'silver' | 'gold') => {
   }
   
   return {
-    backgroundColor: growthPlanColors.color[theme][tokenMap[theme].main],
-    color: growthPlanColors.color[theme][tokenMap[theme].onMain]
+backgroundColor: legacyGrowthPlanColors.color[theme][tokenMap[theme].main],
+        color: legacyGrowthPlanColors.color[theme][tokenMap[theme].onMain]
     // Muito mais complexo para manter!
   }
 }
@@ -135,7 +135,7 @@ const CategoryBlock = ({ categoryName, colors }: { categoryName: string; colors:
 )
 
 export const AllColors: Story = () => {
-  const colorGroups = growthPlanColors.color
+  const colorGroups = legacyGrowthPlanColors.color
 
   return (
     <div style={{ padding: '2rem' }}>
