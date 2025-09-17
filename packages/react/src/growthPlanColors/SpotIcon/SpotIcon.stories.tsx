@@ -433,113 +433,6 @@ export const Sizes: Story<SpotIconProps> = () => {
 
   return (
     <StoryContainer>
-      {/* BLOCO 1: Todos os SpotIcons */}
-      <div style={{ marginBottom: '48px' }}>
-        <h3 style={{
-          ...baseTextStyle,
-          fontSize: '20px',
-          fontWeight: '600',
-          color: '#333',
-          marginBottom: '8px',
-          display: 'flex',
-          alignItems: 'center',
-          gap: '8px'
-        }}
-        >
-          🎯 Todos os SpotIcons Disponíveis
-        </h3>
-        <p style={{
-          ...baseTextStyle,
-          fontSize: '14px',
-          color: '#666',
-          marginBottom: '24px',
-          lineHeight: '1.5'
-        }}
-        >
-          Galeria completa dos
-          {' '}
-          {allSpotIcons.length}
-          {' '}
-          ícones do Growth Plan, cada um com um tema diferente (tamanho: large)
-        </p>
-
-        <div style={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))',
-          gap: '20px',
-          padding: '16px',
-          background: '#f8f9fa',
-          borderRadius: '12px',
-          border: '1px solid #e1e5e9'
-        }}
-        >
-          {allSpotIcons.map((iconName, index) => {
-            const [themeName, themeData] = themeEntries[index % themeEntries.length]
-            return (
-              <div
-                key={iconName}
-                style={{
-                  display: 'flex',
-                  flexDirection: 'column',
-                  alignItems: 'center',
-                  padding: '16px',
-                  background: 'white',
-                  borderRadius: '8px',
-                  boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
-                  border: '1px solid #f0f0f0'
-                }}
-              >
-                <GrowthPlanProviderColors theme={themeData}>
-                  <SpotIcon
-                    name={iconName as SpotIconProps['name']}
-                    size="large"
-                    color="primary"
-                  />
-                </GrowthPlanProviderColors>
-                <div style={{
-                  textAlign: 'center',
-                  marginTop: '12px'
-                }}
-                >
-                  <div style={{
-                    ...baseTextStyle,
-                    fontSize: '13px',
-                    fontWeight: '600',
-                    color: '#333',
-                    marginBottom: '4px'
-                  }}
-                  >
-                    {getIconDisplayName(iconName)}
-                  </div>
-                  <div style={{
-                    ...baseTextStyle,
-                    fontSize: '11px',
-                    color: '#999',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    gap: '6px'
-                  }}
-                  >
-                    <div style={{
-                      width: '12px',
-                      height: '12px',
-                      borderRadius: '50%',
-                      background: themeData.primary,
-                      border: '2px solid white',
-                      boxShadow: '0 0 0 1px rgba(0,0,0,0.1)'
-                    }}
-                    />
-                    {formatThemeName(themeName)}
-                  </div>
-                </div>
-              </div>
-            )
-          })}
-        </div>
-      </div>
-
-      {/* BLOCO 2: Showcase de Tamanhos */}
       <div>
         <h3 style={{
           ...baseTextStyle,
@@ -571,9 +464,9 @@ export const Sizes: Story<SpotIconProps> = () => {
 
         <div style={{
           padding: '24px',
-          background: 'linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)',
-          borderRadius: '12px',
-          border: '1px solid #e1e5e9'
+          // background: 'linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)',
+          borderRadius: '12px'
+          // border: '1px solid #e1e5e9'
         }}
         >
           <div style={{
@@ -591,10 +484,7 @@ export const Sizes: Story<SpotIconProps> = () => {
                   flexDirection: 'column',
                   alignItems: 'center',
                   padding: '16px',
-                  background: 'white',
                   borderRadius: '8px',
-                  boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
-                  border: '2px solid #f0f0f0',
                   transition: 'transform 0.2s ease, box-shadow 0.2s ease'
                 }}
               >
