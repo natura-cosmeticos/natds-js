@@ -105,7 +105,8 @@ const boxStyle: React.CSSProperties = {
   alignItems: 'center',
   margin: '1rem',
   width: '120px',
-  fontFamily: 'sans-serif'
+  fontFamily: 'sans-serif',
+  padding: '1rem'
 }
 
 const colorBoxStyle = (color: string): React.CSSProperties => ({

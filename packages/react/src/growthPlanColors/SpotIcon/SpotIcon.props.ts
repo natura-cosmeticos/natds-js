@@ -1,5 +1,6 @@
 import { Size } from '@naturacosmeticos/natds-themes'
 import { IconProps } from '../../components/Icon/Icon.props'
+import { ColorScheme } from '../growthPlanColors'
 
 /**
  * Tamanhos permitidos para o SpotIcon - limitado do medium ao hugeX
@@ -8,11 +9,12 @@ export type SpotIconSize = keyof Pick<Size, 'medium' | 'mediumX' | 'large' | 'la
 
 export type SpotIconName = 'outlined-default-mockup' | 'spoticon-growthplan-crystal' | 'spoticon-growthplan-laurelwreath' | 'spoticon-growthplan-flowertulip' | 'spoticon-growthplan-graphic' | 'spoticon-growthplan-trophyaward' | 'spoticon-growthplan-diamondgem' | 'spoticon-growthplan-trophy' | 'spoticon-growthplan-trophysapphire' | 'spoticon-growthplan-trophydiamond'
 
+export type SpotIconColor = keyof ColorScheme;
 /**
  * Props do componente SpotIcon
  * Estende todas as propriedades do Icon, mas restringe os tamanhos disponíveis
  */
-export interface SpotIconProps extends Omit<IconProps, 'size' | 'brand' | 'name'> {
+export interface SpotIconProps extends Omit<IconProps, 'size' | 'brand' | 'name' | 'color'> {
   /**
    * O tamanho do ícone
    * Limitado aos tamanhos entre medium (48px) e hugeX (128px)
@@ -21,9 +23,8 @@ export interface SpotIconProps extends Omit<IconProps, 'size' | 'brand' | 'name'
   size?: SpotIconSize;
   name: SpotIconName;
   /**
-   * Cor personalizada do ícone
-   * Quando fornecida, sobrepõe a cor do tema definida pela prop 'color'
-   * Aceita qualquer valor CSS válido (hex, rgb, rgba, named colors, etc.)
+   * Cor semântica do tema quando usado com GrowthPlanProviderColors
+   * Valores aceitos: primary, primaryLight, primaryDark, etc.
    */
-  customColor?: string;
+  color?: SpotIconColor;
 }

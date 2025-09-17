@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { Icon } from '../../components/Icon'
 import { SpotIconProps } from './SpotIcon.props'
+import { GrowthPlanColorsContext } from '../Provider/GrowthPlanProviderColors'
 import styles from './SpotIcon.styles'
 
 /**
@@ -10,36 +11,52 @@ import styles from './SpotIcon.styles'
  * Este componente faz parte do Growth Plan e é ideal para casos onde você precisa de
  * ícones maiores mas com controle sobre o range de tamanhos permitidos.
  *
+ * As cores são automaticamente resolvidas através do GrowthPlanProviderColors e aplicadas
+ * via CSS override para sobrescrever as cores padrão do Icon base.
+ *
  * @param props - Propriedades do componente SpotIcon
  * @returns Elemento JSX renderizado
+ *
+ * @example
+ * // Uso com Provider (obrigatório para cores do Growth Plan)
+ * <GrowthPlanProviderColors theme={bronze}>
+ *   <SpotIcon color="primary" name="spoticon-growthplan-crystal" />
+ *   <SpotIcon color="primaryLight" name="spoticon-growthplan-trophy" />
+ * </GrowthPlanProviderColors>
+ *
  */
 const SpotIcon = React.forwardRef<HTMLElement, SpotIconProps>(({
   size = 'medium',
-  customColor,
+  color,
   className = '',
   ...props
 }, ref) => {
-  // Se customColor for fornecida, usa nossos estilos personalizados
-  if (customColor) {
-    const { spotIcon } = styles({ size, color: props.color, customColor })
-    const iconClassName = `${className} ${spotIcon}`.trim()
+  const context = useContext(GrowthPlanColorsContext)
 
-    return (
-      <Icon
-        ref={ref}
-        size={size}
-        className={iconClassName}
-        {...props}
-      />
-    )
-  }
+  // Resolve a cor hexadecimal do Growth Plan baseada no contexto
+  const growthPlanColor = React.useMemo(() => {
+    // Se não há cor especificada, não aplica cor customizada
+    if (!color) {
+      return undefined
+    }
 
-  // Caso contrário, usa o comportamento padrão do Icon
+    // Se há contexto, usa a cor do tema
+    if (context) {
+      return context.colors[color]
+    }
+
+    return undefined
+  }, [color, context])
+
+  // Gera className customizada com CSS override
+  const { spotIcon } = styles({ size, growthPlanColor })
+  const combinedClassName = `${className} ${spotIcon}`.trim()
+
   return (
     <Icon
       ref={ref}
       size={size}
-      className={className}
+      className={combinedClassName}
       {...props}
     />
   )
