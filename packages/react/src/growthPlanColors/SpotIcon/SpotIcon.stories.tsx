@@ -39,16 +39,16 @@ const getBackgroundColor = (
   }
 
   const colorMap: Record<string, string> = {
-    primary: 'onPrimary',
-    primaryLight: 'onPrimaryLight',
-    primaryLightest: 'onPrimaryLightest',
-    primaryDark: 'onPrimaryDark',
-    primaryDarkest: 'onPrimaryDarkest',
-    onPrimary: 'primary',
-    onPrimaryLight: 'primaryLight',
-    onPrimaryLightest: 'primaryLightest',
-    onPrimaryDark: 'primaryDark',
-    onPrimaryDarkest: 'primaryDarkest'
+    main: 'onMain',
+    mainLight: 'onMainLight',
+    mainLightest: 'onMainLightest',
+    mainDark: 'onMainDark',
+    mainDarkest: 'onMainDarkest',
+    onMain: 'main',
+    onMainLight: 'mainLight',
+    onMainLightest: 'mainLightest',
+    onMainDark: 'mainDark',
+    onMainDarkest: 'mainDarkest'
   }
 
   const onColorKey = colorMap[iconColor]
@@ -76,7 +76,7 @@ const ThemeSelector: React.FC<ThemeSelectorProps> = ({ selectedTheme, onThemeCha
   const themes = Object.entries(growthPlanColors.color).map(([key, colorScheme]) => ({
     key: key as keyof GrowthPlanColorsType,
     name: formatThemeName(key),
-    color: colorScheme.primary
+    color: colorScheme.main
   }))
 
   return (
@@ -137,7 +137,7 @@ Este componente faz parte do Growth Plan e estende o Icon original, mas limita o
 |---                            |                                           ---|                  ---|
 | **ariaHidden**                | true/false                                   | ✅ Available        |
 | **ariaLabel**                 | string                                       | ✅ Available        |
-| **color**                     | primary, onPrimary, primaryLight, etc. (requer Provider) | ✅ Available        |
+| **color**                     | main, onMain, mainLight, etc. (requer Provider) | ✅ Available        |
 | **name**                      | icon-name                                    | ✅ Available        |
 | **role**                      | img, button                                  | ✅ Available        |
 | **size**                      | medium, mediumX, large, largeX, largeXX, largeXXX, huge, hugeX | ✅ Available        |
@@ -148,17 +148,17 @@ Este componente faz parte do Growth Plan e estende o Icon original, mas limita o
 const { bronze, crystal } = growthPlanColors.color;
 
 <GrowthPlanProviderColors theme={bronze}>
-  <SpotIcon color="primary" name="spoticon-growthplan-crystal" />
-  <SpotIcon color="primaryLight" name="spoticon-growthplan-trophy" />
+  <SpotIcon color="main" name="spoticon-growthplan-crystal" />
+  <SpotIcon color="mainLight" name="spoticon-growthplan-trophy" />
 </GrowthPlanProviderColors>
 \`\`\`
 
 ## Cores Semânticas Disponíveis
-- **primary** / **onPrimary**
-- **primaryLight** / **onPrimaryLight** 
-- **primaryLightest** / **onPrimaryLightest**
-- **primaryDark** / **onPrimaryDark**
-- **primaryDarkest** / **onPrimaryDarkest**
+- **main** / **onMain**
+- **mainLight** / **onMainLight** 
+- **mainLightest** / **onMainLightest**
+- **mainDark** / **onMainDark**
+- **mainDarkest** / **onMainDarkest**
 
 ## Tamanhos Disponíveis
 - **medium**: 48px - **mediumX**: 56px - **large**: 64px - **largeX**: 72px
@@ -196,7 +196,7 @@ export default {
     color: {
       control: {
         type: 'select',
-        options: ['primary', 'onPrimary', 'primaryLight', 'onPrimaryLight', 'primaryLightest', 'onPrimaryLightest', 'primaryDark', 'onPrimaryDark', 'primaryDarkest', 'onPrimaryDarkest']
+        options: ['main', 'onMain', 'mainLight', 'onMainLight', 'mainLightest', 'onMainLightest', 'mainDark', 'onMainDark', 'mainDarkest', 'onMainDarkest']
       },
       description: 'Cores semânticas disponíveis quando usado com GrowthPlanProviderColors'
     }
@@ -253,7 +253,7 @@ export const Playground: Story<SpotIconProps> = (args) => {
             width: '24px',
             height: '24px',
             borderRadius: '50%',
-            background: selectedThemeData.primary,
+            background: selectedThemeData.main,
             border: '3px solid white',
             boxShadow: '0 0 0 1px rgba(0,0,0,0.1)'
           }}
@@ -278,19 +278,19 @@ export const Playground: Story<SpotIconProps> = (args) => {
         }}
         >
           <span>
-            <strong>Primary:</strong>
+            <strong>Main:</strong>
             {' '}
-            {selectedThemeData.primary}
+            {selectedThemeData.main}
           </span>
           <span>
-            <strong>Primary Light:</strong>
+            <strong>Main Light:</strong>
             {' '}
-            {selectedThemeData.primaryLight}
+            {selectedThemeData.mainLight}
           </span>
           <span>
-            <strong>Primary Dark:</strong>
+            <strong>Main Dark:</strong>
             {' '}
-            {selectedThemeData.primaryDark}
+            {selectedThemeData.mainDark}
           </span>
         </div>
       </div>
@@ -374,7 +374,7 @@ export const Playground: Story<SpotIconProps> = (args) => {
 Playground.args = {
   name: 'spoticon-growthplan-graphic',
   size: 'medium',
-  color: 'primary'
+  color: 'main'
 }
 
 export const Sizes: Story<SpotIconProps> = () => {
@@ -396,25 +396,6 @@ export const Sizes: Story<SpotIconProps> = () => {
     'medium', 'mediumX', 'large', 'largeX',
     'largeXX', 'largeXXX', 'huge', 'hugeX'
   ] as const
-
-  // Temas disponíveis para combinação com os ícones
-  const themeEntries = Object.entries(growthPlanColors.color)
-
-  // Função para obter nome amigável do ícone
-  const getIconDisplayName = (iconName: string): string => {
-    const nameMap: Record<string, string> = {
-      'spoticon-growthplan-crystal': 'Crystal',
-      'spoticon-growthplan-laurelwreath': 'Laurel Wreath',
-      'spoticon-growthplan-flowertulip': 'Flower Tulip',
-      'spoticon-growthplan-graphic': 'Graphic',
-      'spoticon-growthplan-trophyaward': 'Trophy Award',
-      'spoticon-growthplan-diamondgem': 'Diamond Gem',
-      'spoticon-growthplan-trophy': 'Trophy',
-      'spoticon-growthplan-trophysapphire': 'Trophy Sapphire',
-      'spoticon-growthplan-trophydiamond': 'Trophy Diamond'
-    }
-    return nameMap[iconName] || iconName
-  }
 
   // Função para mapear tamanhos para pixels
   const getSizeInPixels = (size: string): string => {
@@ -492,7 +473,7 @@ export const Sizes: Story<SpotIconProps> = () => {
                   <SpotIcon
                     name="spoticon-growthplan-trophydiamond"
                     size={size as SpotIconProps['size']}
-                    color="primary"
+                    color="main"
                   />
                 </GrowthPlanProviderColors>
                 <div style={{

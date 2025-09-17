@@ -24,8 +24,8 @@ export const GrowthPlanColorsContext = createContext<GrowthPlanColorsContextType
  * function App() {
  *   return (
  *     <GrowthPlanProviderColors theme={bronze}>
- *       <SpotIcon color="primary" name="spoticon-growthplan-crystal" />
- *       <SpotIcon color="primaryLight" name="spoticon-growthplan-trophy" />
+ *       <SpotIcon color="main" name="spoticon-growthplan-crystal" />
+ *       <SpotIcon color="mainLight" name="spoticon-growthplan-trophy" />
  *     </GrowthPlanProviderColors>
  *   );
  * }

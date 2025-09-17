@@ -20,8 +20,8 @@ import styles from './SpotIcon.styles'
  * @example
  * // Uso com Provider (obrigatório para cores do Growth Plan)
  * <GrowthPlanProviderColors theme={bronze}>
- *   <SpotIcon color="primary" name="spoticon-growthplan-crystal" />
- *   <SpotIcon color="primaryLight" name="spoticon-growthplan-trophy" />
+ *   <SpotIcon color="main" name="spoticon-growthplan-crystal" />
+ *   <SpotIcon color="mainLight" name="spoticon-growthplan-trophy" />
  * </GrowthPlanProviderColors>
  *
  */

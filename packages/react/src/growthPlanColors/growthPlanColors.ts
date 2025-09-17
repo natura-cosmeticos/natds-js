@@ -1,21 +1,21 @@
 /**
  * Growth Plan Colors - Estrutura para cores do plano de crescimento
  *
- * Esta estrutura utiliza nomenclatura semântica (primary, secondary, etc.) ao invés de
+ * Esta estrutura utiliza nomenclatura semântica (main, secondary, etc.) ao invés de
  * repetir o nome da categoria, facilitando o uso e reutilização.
  */
 
 export interface ColorScheme {
-  primary: string;
-  onPrimary: string;
-  primaryLight: string;
-  onPrimaryLight: string;
-  primaryLightest: string;
-  onPrimaryLightest: string;
-  primaryDark: string;
-  onPrimaryDark: string;
-  primaryDarkest: string;
-  onPrimaryDarkest: string;
+  main: string;
+  onMain: string;
+  mainLight: string;
+  onMainLight: string;
+  mainLightest: string;
+  onMainLightest: string;
+  mainDark: string;
+  onMainDark: string;
+  mainDarkest: string;
+  onMainDarkest: string;
 }
 
 export interface GrowthPlanColorsType {
@@ -35,88 +35,88 @@ export interface GrowthPlanType {
 export const growthPlanColors: GrowthPlanType = {
   color: {
     crystal: {
-      primary: '#75B7F0',
-      onPrimary: '#111111',
-      primaryLight: '#BADBF7',
-      onPrimaryLight: '#111111',
-      primaryLightest: '#D1E7FA',
-      onPrimaryLightest: '#111111',
-      primaryDark: '#0F518A',
-      onPrimaryDark: '#FFFFFF',
-      primaryDarkest: '#093053',
-      onPrimaryDarkest: '#FFFFFF'
+      main: '#75B7F0',
+      onMain: '#111111',
+      mainLight: '#BADBF7',
+      onMainLight: '#111111',
+      mainLightest: '#D1E7FA',
+      onMainLightest: '#111111',
+      mainDark: '#0F518A',
+      onMainDark: '#FFFFFF',
+      mainDarkest: '#093053',
+      onMainDarkest: '#FFFFFF'
     },
     bronze: {
-      primary: '#DE713B',
-      onPrimary: '#111111',
-      primaryLight: '#F7C6BA',
-      onPrimaryLight: '#111111',
-      primaryLightest: '#FBE1DA',
-      onPrimaryLightest: '#111111',
-      primaryDark: '#7B3715',
-      onPrimaryDark: '#FFFFFF',
-      primaryDarkest: '#441E0C',
-      onPrimaryDarkest: '#FFFFFF'
+      main: '#DE713B',
+      onMain: '#111111',
+      mainLight: '#F7C6BA',
+      onMainLight: '#111111',
+      mainLightest: '#FBE1DA',
+      onMainLightest: '#111111',
+      mainDark: '#7B3715',
+      onMainDark: '#FFFFFF',
+      mainDarkest: '#441E0C',
+      onMainDarkest: '#FFFFFF'
     },
     silver: {
-      primary: '#859DB7',
-      onPrimary: '#111111',
-      primaryLight: '#BFCCD9',
-      onPrimaryLight: '#111111',
-      primaryLightest: '#E1E7ED',
-      onPrimaryLightest: '#111111',
-      primaryDark: '#35475A',
-      onPrimaryDark: '#FFFFFF',
-      primaryDarkest: '#1E2632',
-      onPrimaryDarkest: '#FFFFFF'
+      main: '#859DB7',
+      onMain: '#111111',
+      mainLight: '#BFCCD9',
+      onMainLight: '#111111',
+      mainLightest: '#E1E7ED',
+      onMainLightest: '#111111',
+      mainDark: '#35475A',
+      onMainDark: '#FFFFFF',
+      mainDarkest: '#1E2632',
+      onMainDarkest: '#FFFFFF'
     },
     gold: {
-      primary: '#DA9E2F',
-      onPrimary: '#111111',
-      primaryLight: '#EED3A0',
-      onPrimaryLight: '#111111',
-      primaryLightest: '#F8ECD6',
-      onPrimaryLightest: '#111111',
-      primaryDark: '#7A5716',
-      onPrimaryDark: '#FFFFFF',
-      primaryDarkest: '#44300C',
-      onPrimaryDarkest: '#FFFFFF'
+      main: '#DA9E2F',
+      onMain: '#111111',
+      mainLight: '#EED3A0',
+      onMainLight: '#111111',
+      mainLightest: '#F8ECD6',
+      onMainLightest: '#111111',
+      mainDark: '#7A5716',
+      onMainDark: '#FFFFFF',
+      mainDarkest: '#44300C',
+      onMainDarkest: '#FFFFFF'
     },
     sapphire: {
-      primary: '#317FE8',
-      onPrimary: '#111111',
-      primaryLight: '#A3C6F5',
-      onPrimaryLight: '#111111',
-      primaryLightest: '#D1E3FA',
-      onPrimaryLightest: '#111111',
-      primaryDark: '#0F3F80',
-      onPrimaryDark: '#FFFFFF',
-      primaryDarkest: '#092449',
-      onPrimaryDarkest: '#FFFFFF'
+      main: '#317FE8',
+      onMain: '#111111',
+      mainLight: '#A3C6F5',
+      onMainLight: '#111111',
+      mainLightest: '#D1E3FA',
+      onMainLightest: '#111111',
+      mainDark: '#0F3F80',
+      onMainDark: '#FFFFFF',
+      mainDarkest: '#092449',
+      onMainDarkest: '#FFFFFF'
     },
     diamond: {
-      primary: '#A26CE0',
-      onPrimary: '#111111',
-      primaryLight: '#CAABED',
-      onPrimaryLight: '#111111',
-      primaryLightest: '#E6D7F7',
-      onPrimaryLightest: '#111111',
-      primaryDark: '#451977',
-      onPrimaryDark: '#FFFFFF',
-      primaryDarkest: '#260E42',
-      onPrimaryDarkest: '#FFFFFF'
+      main: '#A26CE0',
+      onMain: '#111111',
+      mainLight: '#CAABED',
+      onMainLight: '#111111',
+      mainLightest: '#E6D7F7',
+      onMainLightest: '#111111',
+      mainDark: '#451977',
+      onMainDark: '#FFFFFF',
+      mainDarkest: '#260E42',
+      onMainDarkest: '#FFFFFF'
     },
     diamondPlus: {
-      primary: '#3C4F77',
-      onPrimary: '#FFFFFF',
-      primaryLight: '#BBC6DD',
-      onPrimaryLight: '#FFFFFF',
-      primaryLightest: '#DDE3EE',
-      onPrimaryLightest: '#FFFFFF',
-      primaryDark: '#293651',
-      onPrimaryDark: '#FFFFFF',
-      primaryDarkest: '#1B2436',
-      onPrimaryDarkest: '#FFFFFF'
+      main: '#3C4F77',
+      onMain: '#FFFFFF',
+      mainLight: '#BBC6DD',
+      onMainLight: '#FFFFFF',
+      mainLightest: '#DDE3EE',
+      onMainLightest: '#FFFFFF',
+      mainDark: '#293651',
+      onMainDark: '#FFFFFF',
+      mainDarkest: '#1B2436',
+      onMainDarkest: '#FFFFFF'
     }
   }
 }
@@ -125,14 +125,14 @@ export const growthPlanColors: GrowthPlanType = {
  * Exemplos de uso:
  *
  * // Uso semântico intuitivo
- * background: theme.color.bronze.primary
- * color: theme.color.bronze.onPrimary
+ * background: theme.color.bronze.main
+ * color: theme.color.bronze.onMain
  *
  * // Para variações
- * background: theme.color.gold.primaryLight
- * color: theme.color.gold.onPrimaryLight
+ * background: theme.color.gold.mainLight
+ * color: theme.color.gold.onMainLight
  *
  * // Para temas escuros
- * background: theme.color.diamond.primaryDark
- * color: theme.color.diamond.onPrimaryDark
+ * background: theme.color.diamond.mainDark
+ * color: theme.color.diamond.onMainDark
  */

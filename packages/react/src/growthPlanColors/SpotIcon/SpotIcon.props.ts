@@ -24,7 +24,7 @@ export interface SpotIconProps extends Omit<IconProps, 'size' | 'brand' | 'name'
   name: SpotIconName;
   /**
    * Cor semântica do tema quando usado com GrowthPlanProviderColors
-   * Valores aceitos: primary, primaryLight, primaryDark, etc.
+   * Valores aceitos: main, mainLight, mainDark, etc.
    */
   color?: SpotIconColor;
 }

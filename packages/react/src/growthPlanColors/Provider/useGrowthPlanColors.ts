@@ -14,7 +14,7 @@ import { GrowthPlanColorsContextType } from './GrowthPlanProviderColors.props'
  *   const { colors } = useGrowthPlanColors();
  *
  *   return (
- *     <div style={{ background: colors.primary, color: colors.onPrimary }}>
+ *     <div style={{ background: colors.main, color: colors.onMain }}>
  *       Conteúdo com cores do tema
  *     </div>
  *   );

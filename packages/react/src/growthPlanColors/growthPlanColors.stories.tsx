@@ -44,12 +44,12 @@ A estrutura semântica mantém os **mesmos tokens** em todos os temas, facilitan
 \`\`\`typescript
 // ✅ COM ESTRUTURA SEMÂNTICA - Tokens consistentes
 const createButton = (theme: 'bronze' | 'silver' | 'gold') => ({
-  backgroundColor: growthPlanColors.color[theme].primary,
-  color: growthPlanColors.color[theme].onPrimary,
+  backgroundColor: growthPlanColors.color[theme].main,
+  color: growthPlanColors.color[theme].onMain,
   
   '&:hover': {
-    backgroundColor: growthPlanColors.color[theme].primaryDark,
-    color: growthPlanColors.color[theme].onPrimaryDark
+    backgroundColor: growthPlanColors.color[theme].mainDark,
+    color: growthPlanColors.color[theme].onMainDark
   }
 })
 
