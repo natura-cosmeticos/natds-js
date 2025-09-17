@@ -97,7 +97,7 @@ const ThemeSelector: React.FC<ThemeSelectorProps> = ({ selectedTheme, onThemeCha
             alignItems: 'center',
             gap: '8px',
             padding: '10px 12px',
-            border: selectedTheme === theme.key ? '2px solid #333' : '1px solid #ccc',
+            border: '1px solid #ccc',
             borderRadius: '8px',
             background: selectedTheme === theme.key ? '#f8f9fa' : 'white',
             cursor: 'pointer',
@@ -105,7 +105,9 @@ const ThemeSelector: React.FC<ThemeSelectorProps> = ({ selectedTheme, onThemeCha
             fontWeight: selectedTheme === theme.key ? '600' : '400',
             ...baseTextStyle,
             transition: 'all 0.2s ease',
-            boxShadow: selectedTheme === theme.key ? '0 2px 4px rgba(0,0,0,0.1)' : 'none'
+            boxShadow: selectedTheme === theme.key
+              ? '0 0 0 2px #333, 0 2px 4px rgba(0,0,0,0.1)'
+              : '0 1px 2px rgba(0,0,0,0.05)'
           }}
         >
           <div style={{
