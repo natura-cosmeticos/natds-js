@@ -56,7 +56,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(({
         {...accessibility}
         {...rest}
       >
-        <div className={labelContainer}>
+        <div className={labelContainer} aria-hidden="true">
           <span {...accessibilitySpan} className={label}>{children}</span>
           {rest.showIcon && <Icon name={rest.iconName} color={iconColor} />}
         </div>
