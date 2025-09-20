@@ -135,9 +135,17 @@ export const Accessibility: Story<CounterProps> = () => {
   const [persons, setPersons] = React.useState(2)
   const [age, setAge] = React.useState(25)
   const [announcement, setAnnouncement] = React.useState('')
-
+  
   const noop = () => undefined
+  const previousQuantityRef = React.useRef(quantity)
 
+  React.useEffect(() => {
+    if (quantity !== previousQuantityRef.current) {
+      const action = quantity > previousQuantityRef.current ? 'aumentada' : 'diminuída'
+      setAnnouncement(`Quantidade ${action} para ${quantity}`)
+      previousQuantityRef.current = quantity
+    }
+  }, [quantity])
   // ✅ LÓGICA EXTERNA - Interceptamos os callbacks existentes do componente
 
   return (
@@ -146,21 +154,7 @@ export const Accessibility: Story<CounterProps> = () => {
         <h2>Acessibilidade do Counter - Teste com VoiceOver</h2>
 
         {/* Live region para anúncios de mudanças */}
-        <div
-          aria-live="polite"
-          aria-atomic="true"
-          style={{
-            position: 'absolute',
-            width: '1px',
-            height: '1px',
-            overflow: 'hidden',
-            clip: 'rect(0,0,0,0)',
-            whiteSpace: 'nowrap',
-            border: 0
-          }}
-        >
-          {announcement}
-        </div>
+       
 
         <div
           style={{
@@ -193,23 +187,9 @@ export const Accessibility: Story<CounterProps> = () => {
             maxValue={10}
             ariaLabelDecrementButton="Diminuir quantidade de produtos no carrinho"
             ariaLabelIncrementButton="Aumentar quantidade de produtos no carrinho"
-            ariaLabelInput="Quantidade atual de produtos selecionados"
-            onIncrement={() => {
-              setQuantity((q) => {
-                const newValue = Math.min(10, q + 1)
-                setAnnouncement(`Quantidade aumentada para ${newValue}`)
-                setTimeout(() => setAnnouncement(''), 2000)
-                return newValue
-              })
-            }}
-            onDecrement={() => {
-              setQuantity((q) => {
-                const newValue = Math.max(1, q - 1)
-                setAnnouncement(`Quantidade diminuída para ${newValue}`)
-                setTimeout(() => setAnnouncement(''), 2000)
-                return newValue
-              })
-            }}
+            ariaLabelInput={announcement}
+            onIncrement={() => setQuantity((prev) => prev + 1)}
+            onDecrement={() => setQuantity((prev) => prev - 1)}
             onChange={(e) => {
               const value = parseInt(e.target.value, 10) || 1
               setQuantity(Math.min(10, Math.max(1, value)))
@@ -228,24 +208,8 @@ export const Accessibility: Story<CounterProps> = () => {
             ariaLabelDecrementButton="Remover uma pessoa da reserva"
             ariaLabelIncrementButton="Adicionar uma pessoa à reserva"
             ariaLabelInput="Número total de pessoas para a reserva"
-            onIncrement={() => {
-              setPersons((p) => {
-                const newValue = Math.min(8, p + 1)
-                const message = `Pessoa adicionada. Total: ${newValue} ${newValue === 1 ? 'pessoa' : 'pessoas'}`
-                setAnnouncement(message)
-                setTimeout(() => setAnnouncement(''), 2000)
-                return newValue
-              })
-            }}
-            onDecrement={() => {
-              setPersons((p) => {
-                const newValue = Math.max(1, p - 1)
-                const message = `Pessoa removida. Total: ${newValue} ${newValue === 1 ? 'pessoa' : 'pessoas'}`
-                setAnnouncement(message)
-                setTimeout(() => setAnnouncement(''), 2000)
-                return newValue
-              })
-            }}
+            onIncrement={() => setPersons((prev) => prev + 1)}
+            onDecrement={() => setPersons((prev) => prev - 1)}
             onChange={(e) => {
               const value = parseInt(e.target.value, 10) || 1
               setPersons(Math.min(8, Math.max(1, value)))
@@ -264,22 +228,8 @@ export const Accessibility: Story<CounterProps> = () => {
             ariaLabelDecrementButton="Diminuir idade"
             ariaLabelIncrementButton="Aumentar idade"
             ariaLabelInput="Idade selecionada em anos"
-            onIncrement={() => {
-              setAge((a) => {
-                const newValue = Math.min(100, a + 1)
-                setAnnouncement(`Idade aumentada para ${newValue}`)
-                setTimeout(() => setAnnouncement(''), 2000)
-                return newValue
-              })
-            }}
-            onDecrement={() => {
-              setAge((a) => {
-                const newValue = Math.max(18, a - 1)
-                setAnnouncement(`Idade diminuída para ${newValue}`)
-                setTimeout(() => setAnnouncement(''), 2000)
-                return newValue
-              })
-            }}
+            onIncrement={() => setAge((prev) => prev + 1)}
+            onDecrement={() => setAge((prev) => prev - 1)}
             onChange={(e) => {
               const value = parseInt(e.target.value, 10) || 18
               setAge(Math.min(100, Math.max(18, value)))
@@ -374,38 +324,123 @@ export const Accessibility: Story<CounterProps> = () => {
           style={{
             marginTop: '1rem',
             padding: '1rem',
-            background: '#fff3cd',
+            background: '#eaf9d7',
             borderRadius: '8px'
           }}
         >
           <h4>🚀 Como Implementar em Seus Projetos:</h4>
-          <pre style={{ fontSize: '14px', overflow: 'auto' }}>
-            {`// Intercepte os callbacks EXISTENTES para anúncios:
+          
+          <div style={{ marginBottom: '1rem' }}>
+            <h5>✨ Implementação Básica (Recomendada):</h5>
+            <pre style={{ 
+              fontSize: '14px', 
+              overflow: 'auto', 
+              background: '#0d1117',
+              color: '#00ff41',
+              padding: '1.5rem', 
+              borderRadius: '8px',
+              border: '1px solid #30363d',
+              boxShadow: '0 8px 24px rgba(0,0,0,0.4)',
+              fontFamily: "'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace",
+              fontWeight: '400',
+              lineHeight: '1.6',
+              position: 'relative'
+            }}>
+              {`// Use as props nativas de acessibilidade:
+<Counter
+  value={quantity}
+  onIncrement={() => setQuantity(q => q + 1)}
+  onDecrement={() => setQuantity(q => q - 1)}
+  ariaLabelInput="Quantidade do produto"
+  ariaLabelIncrementButton="Aumentar quantidade"
+  ariaLabelDecrementButton="Diminuir quantidade"
+  label="Quantidade"
+/>
+
+// ✅ O componente já tem aria-live="assertive" no input!
+// ✅ Anúncios automáticos de mudanças de valor
+// ✅ Labels contextuais para cada elemento`}
+            </pre>
+          </div>
+
+          <div style={{ marginBottom: '1rem' }}>
+            <h5>🔧 Implementação Avançada (Para casos específicos):</h5>
+            <pre style={{ 
+              fontSize: '14px', 
+              overflow: 'auto', 
+              background: '#0d1117',
+              color: '#00ff41',
+              padding: '1.5rem', 
+              borderRadius: '8px',
+              border: '1px solid #30363d',
+              boxShadow: '0 8px 24px rgba(0,0,0,0.4)',
+              fontFamily: "'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace",
+              fontWeight: '400',
+              lineHeight: '1.6',
+              position: 'relative'
+            }}>
+              {`// Para anúncios customizados adicionais:
+const [announcement, setAnnouncement] = useState('')
+
 <Counter
   value={quantity}
   onIncrement={() => {
     setQuantity(q => {
       const newValue = q + 1
-      setAnnouncement(\`Quantidade aumentada para \${newValue}\`)
-      setTimeout(() => setAnnouncement(''), 2000)
+      // Anúncio adicional se necessário
+      setAnnouncement(\`Adicionado ao carrinho: \${newValue} itens\`)
+      setTimeout(() => setAnnouncement(''), 3000)
       return newValue
     })
   }}
   onDecrement={() => {
-    setQuantity(q => {
-      const newValue = q - 1
-      setAnnouncement(\`Quantidade diminuída para \${newValue}\`)
-      setTimeout(() => setAnnouncement(''), 2000)
-      return newValue
-    })
+    setQuantity(q => Math.max(0, q - 1))
   }}
+  ariaLabelInput="Quantidade do produto"
+  ariaLabelIncrementButton="Aumentar quantidade"
+  ariaLabelDecrementButton="Diminuir quantidade"
 />
 
-// Adicione uma live region:
-<div aria-live="polite" className="sr-only">
-  {announcement}
-</div>`}
-          </pre>
+{/* Live region adicional apenas se necessário */}
+{announcement && (
+  <div aria-live="polite" className="sr-only">
+    {announcement}
+  </div>
+)}`}
+            </pre>
+          </div>
+
+          <div style={{ 
+            background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 100%)', 
+            border: '1px solid #30363d',
+            padding: '1rem', 
+            borderRadius: '8px', 
+            fontSize: '14px',
+            color: '#e6edf3',
+            boxShadow: '0 4px 16px rgba(0,0,0,0.3)'
+          }}>
+            <strong style={{ color: '#ffd700', fontSize: '16px' }}>💡 Dicas Importantes:</strong>
+            <ul style={{ margin: '0.75rem 0', paddingLeft: '1.5rem', lineHeight: '1.6' }}>
+              <li>O input já possui <code style={{ 
+                background: '#21262d', 
+                color: '#79c0ff', 
+                padding: '2px 6px', 
+                borderRadius: '4px',
+                fontSize: '13px',
+                fontFamily: "'JetBrains Mono', monospace"
+              }}>aria-live="assertive"</code> para mudanças de valor</li>
+              <li>Use sempre as props <code style={{ 
+                background: '#21262d', 
+                color: '#79c0ff', 
+                padding: '2px 6px', 
+                borderRadius: '4px',
+                fontSize: '13px',
+                fontFamily: "'JetBrains Mono', monospace"
+              }}>ariaLabel*</code> para contexto</li>
+              <li>Live regions adicionais só para feedback específico da aplicação</li>
+              <li>Teste sempre com leitores de tela reais</li>
+            </ul>
+          </div>
         </div>
         </div>
       </div>

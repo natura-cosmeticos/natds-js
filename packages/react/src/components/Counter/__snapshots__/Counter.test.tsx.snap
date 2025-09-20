@@ -312,6 +312,7 @@ Array [
           </button>
         </div>
         <input
+          aria-live="assertive"
           class="inputBase-0-2-4"
           inputmode="numeric"
           maxlength="2"
@@ -668,6 +669,7 @@ Array [
           </button>
         </div>
         <input
+          aria-live="assertive"
           class="inputBase-0-2-4"
           inputmode="numeric"
           maxlength="2"
@@ -1032,6 +1034,7 @@ Array [
           </button>
         </div>
         <input
+          aria-live="assertive"
           class="inputBase-0-2-4"
           inputmode="numeric"
           maxlength="2"
