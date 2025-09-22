@@ -7,7 +7,7 @@ import { Story, Meta } from '@storybook/react'
 import { SpotIcon, SpotIconProps } from '.'
 import StoryContainer from '../../helpers/StoryContainer'
 import { GrowthPlanProvider } from '../Provider'
-import { growthPlanColors, GrowthPlanColorsType } from '../growthPlanColors'
+import { growthPlanColors, GrowthPlanLevel, GrowthPlanColor } from '../growthPlanColors'
 
 // Estilo base com fonte Roboto para consistência
 const baseTextStyle = {
@@ -32,7 +32,7 @@ const formatThemeName = (key: string): string => {
 // Função para resolver cor de background baseada na cor do ícone
 const getBackgroundColor = (
   iconColor: string | undefined,
-  themeColors: GrowthPlanColorsType[keyof GrowthPlanColorsType] | undefined
+  themeColors: GrowthPlanColor | undefined
 ): string => {
   if (!iconColor || !themeColors) {
     return '#ffffff'
@@ -67,14 +67,14 @@ const getTextColor = (backgroundColor: string): string => {
 
 // Componente ThemeSelector para o Playground interativo
 interface ThemeSelectorProps {
-  selectedTheme: keyof GrowthPlanColorsType
-  onThemeChange: (theme: keyof GrowthPlanColorsType) => void
+  selectedTheme: GrowthPlanLevel
+  onThemeChange: (theme: GrowthPlanLevel) => void
 }
 
 const ThemeSelector: React.FC<ThemeSelectorProps> = ({ selectedTheme, onThemeChange }) => {
   // Gerar themes dinamicamente baseado no growthPlanColors
-  const themes = Object.entries(growthPlanColors.color).map(([key, colorScheme]) => ({
-    key: key as keyof GrowthPlanColorsType,
+  const themes = Object.entries(growthPlanColors).map(([key, colorScheme]) => ({
+    key: key as GrowthPlanLevel,
     name: formatThemeName(key),
     color: colorScheme.main
   }))
@@ -204,8 +204,8 @@ export default {
 } as Meta
 
 export const Playground: Story<SpotIconProps> = (args) => {
-  const [selectedTheme, setSelectedTheme] = useState<keyof GrowthPlanColorsType>('bronze')
-  const selectedThemeData = growthPlanColors.color[selectedTheme]
+  const [selectedTheme, setSelectedTheme] = useState<GrowthPlanLevel>('bronze')
+  const selectedThemeData = growthPlanColors[selectedTheme]
   const { color, size, name } = args
 
   return (

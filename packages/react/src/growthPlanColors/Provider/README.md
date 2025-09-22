@@ -19,7 +19,7 @@ import {
 } from '@naturacosmeticos/natds-react/growthPlanColors';
 
 // Selecionar tema desejado
-const { bronze, crystal, diamond } = growthPlanColors.color;
+const { bronze, crystal, diamond } = growthPlanColors;
 
 function App() {
   return (
@@ -78,7 +78,7 @@ const {
   sapphire,     // Azul escuro
   diamond,      // Roxo
   diamondPlus   // Azul marinho
-} = growthPlanColors.color;
+} = growthPlanColors;
 ```
 
 ## Cores Semânticas
@@ -143,7 +143,7 @@ const Card = () => {
 };
 
 function App() {
-  const { gold, diamond } = growthPlanColors.color;
+  const { gold, diamond } = growthPlanColors;
   
   return (
     <div>

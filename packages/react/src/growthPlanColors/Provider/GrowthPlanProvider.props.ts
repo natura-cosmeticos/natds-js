@@ -1,10 +1,5 @@
 import { ReactNode } from 'react'
-import { ColorScheme } from '../growthPlanColors'
-
-/**
- * Níveis disponíveis do Growth Plan
- */
-export type GrowthPlanLevel = 'crystal' | 'bronze' | 'silver' | 'gold' | 'sapphire' | 'diamond' | 'diamondPlus'
+import { GrowthPlanColor, GrowthPlanLevel } from '../growthPlanColors'
 
 /**
  * Props do GrowthPlanProvider
@@ -28,5 +23,5 @@ export interface GrowthPlanContextType {
   /**
    * Esquema de cores atual disponível para os componentes
    */
-  colors: ColorScheme;
+  colors: GrowthPlanColor;
 }

@@ -2,6 +2,5 @@ export { GrowthPlanProvider } from './GrowthPlanProvider'
 export { useGrowthPlanColors } from './useGrowthPlanColors'
 export type {
   GrowthPlanProviderProps,
-  GrowthPlanContextType,
-  GrowthPlanLevel
+  GrowthPlanContextType
 } from './GrowthPlanProvider.props'

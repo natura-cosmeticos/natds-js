@@ -44,12 +44,12 @@ A estrutura semântica mantém os **mesmos tokens** em todos os temas, facilitan
 \`\`\`typescript
 // ✅ COM ESTRUTURA SEMÂNTICA - Tokens consistentes
 const createButton = (theme: 'bronze' | 'silver' | 'gold') => ({
-  backgroundColor: growthPlanColors.color[theme].main,
-  color: growthPlanColors.color[theme].onMain,
+  backgroundColor: growthPlanColors[theme].main,
+  color: growthPlanColors[theme].onMain,
   
   '&:hover': {
-    backgroundColor: growthPlanColors.color[theme].mainDark,
-    color: growthPlanColors.color[theme].onMainDark
+    backgroundColor: growthPlanColors[theme].mainDark,
+    color: growthPlanColors[theme].onMainDark
   }
 })
 
@@ -166,7 +166,7 @@ const ColorToggleButtons = ({ isLegacy, setIsLegacy }: { isLegacy: boolean; setI
 export const AllColors: Story = () => {
   const [isLegacy, setIsLegacy] = useState(false)
   const colorGroupsLegacy = legacyGrowthPlanColors.color
-  const colorGroupsCurrent = growthPlanColors.color
+  const colorGroupsCurrent = growthPlanColors
 
   const currentColorGroups = isLegacy ? colorGroupsLegacy : colorGroupsCurrent
 

@@ -32,7 +32,7 @@ export const GrowthPlanProvider: React.FC<GrowthPlanProviderProps> = ({
   level,
   children
 }) => {
-  const theme = growthPlanColors.color[level]
+  const theme = growthPlanColors[level]
 
   const contextValue: GrowthPlanContextType = {
     colors: theme
