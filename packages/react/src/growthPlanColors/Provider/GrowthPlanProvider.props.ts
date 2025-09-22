@@ -2,13 +2,18 @@ import { ReactNode } from 'react'
 import { ColorScheme } from '../growthPlanColors'
 
 /**
- * Props do GrowthPlanProviderColors
+ * Níveis disponíveis do Growth Plan
  */
-export interface GrowthPlanProviderColorsProps {
+export type GrowthPlanLevel = 'crystal' | 'bronze' | 'silver' | 'gold' | 'sapphire' | 'diamond' | 'diamondPlus'
+
+/**
+ * Props do GrowthPlanProvider
+ */
+export interface GrowthPlanProviderProps {
   /**
-   * O tema de cores a ser usado pelos componentes filhos
+   * O nível do Growth Plan (bronze, crystal, etc.)
    */
-  theme: ColorScheme;
+  level: GrowthPlanLevel;
 
   /**
    * Componentes filhos que terão acesso ao contexto de cores
@@ -19,7 +24,7 @@ export interface GrowthPlanProviderColorsProps {
 /**
  * Contexto que será fornecido pelo Provider
  */
-export interface GrowthPlanColorsContextType {
+export interface GrowthPlanContextType {
   /**
    * Esquema de cores atual disponível para os componentes
    */

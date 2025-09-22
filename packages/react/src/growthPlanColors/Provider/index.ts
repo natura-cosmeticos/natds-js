@@ -1,6 +1,7 @@
-export { GrowthPlanProviderColors } from './GrowthPlanProviderColors'
+export { GrowthPlanProvider } from './GrowthPlanProvider'
 export { useGrowthPlanColors } from './useGrowthPlanColors'
 export type {
-  GrowthPlanProviderColorsProps,
-  GrowthPlanColorsContextType
-} from './GrowthPlanProviderColors.props'
+  GrowthPlanProviderProps,
+  GrowthPlanContextType,
+  GrowthPlanLevel
+} from './GrowthPlanProvider.props'

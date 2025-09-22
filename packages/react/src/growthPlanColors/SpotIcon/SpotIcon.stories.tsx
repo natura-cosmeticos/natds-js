@@ -6,7 +6,7 @@ import React, { useState } from 'react'
 import { Story, Meta } from '@storybook/react'
 import { SpotIcon, SpotIconProps } from '.'
 import StoryContainer from '../../helpers/StoryContainer'
-import { GrowthPlanProviderColors } from '../Provider'
+import { GrowthPlanProvider } from '../Provider'
 import { growthPlanColors, GrowthPlanColorsType } from '../growthPlanColors'
 
 // Estilo base com fonte Roboto para consistência
@@ -132,27 +132,25 @@ const componentStatus = `
 
 Este componente faz parte do Growth Plan e estende o Icon original, mas limita os tamanhos disponíveis para o range entre medium (48px) e hugeX (128px).
 
-**As cores são gerenciadas exclusivamente através do GrowthPlanProviderColors via CSS override!**
+**As cores são gerenciadas exclusivamente através do GrowthPlanProvider via CSS override!**
 
 ## Properties
 | Property                      | Values                                       |    Status           |
 |---                            |                                           ---|                  ---|
 | **ariaHidden**                | true/false                                   | ✅ Available        |
 | **ariaLabel**                 | string                                       | ✅ Available        |
-| **color**                     | main, onMain, mainLight, etc. (requer Provider) | ✅ Available        |
+| **color**                     | main, onMain, mainLight, etc. (requer GrowthPlanProvider) | ✅ Available        |
 | **name**                      | icon-name                                    | ✅ Available        |
 | **role**                      | img, button                                  | ✅ Available        |
 | **size**                      | medium, mediumX, large, largeX, largeXX, largeXXX, huge, hugeX | ✅ Available        |
 | **brand**                   | avon, avon_v2, natura, natura_v2, theBodyShop, <br /> consultoriaDeBeleza, casaEestilo            | ✅ Available        |
 
-## Uso Obrigatório com GrowthPlanProviderColors
+## Uso Obrigatório com GrowthPlanProvider
 \`\`\`tsx
-const { bronze, crystal } = growthPlanColors.color;
-
-<GrowthPlanProviderColors theme={bronze}>
+<GrowthPlanProvider level="bronze">
   <SpotIcon color="main" name="spoticon-growthplan-crystal" />
   <SpotIcon color="mainLight" name="spoticon-growthplan-trophy" />
-</GrowthPlanProviderColors>
+</GrowthPlanProvider>
 \`\`\`
 
 ## Cores Semânticas Disponíveis
@@ -200,7 +198,7 @@ export default {
         type: 'select',
         options: ['main', 'onMain', 'mainLight', 'onMainLight', 'mainLightest', 'onMainLightest', 'mainDark', 'onMainDark', 'mainDarkest', 'onMainDarkest']
       },
-      description: 'Cores semânticas disponíveis quando usado com GrowthPlanProviderColors'
+      description: 'Cores semânticas disponíveis quando usado com GrowthPlanProvider'
     }
   }
 } as Meta
@@ -339,9 +337,9 @@ export const Playground: Story<SpotIconProps> = (args) => {
             </>
           )}
         </div>
-        <GrowthPlanProviderColors theme={selectedThemeData}>
+        <GrowthPlanProvider level={selectedTheme}>
           <SpotIcon {...args} />
-        </GrowthPlanProviderColors>
+        </GrowthPlanProvider>
         <div style={{
           fontSize: '11px',
           color: getTextColor(getBackgroundColor(color, selectedThemeData)),
@@ -471,13 +469,13 @@ export const Sizes: Story<SpotIconProps> = () => {
                   transition: 'transform 0.2s ease, box-shadow 0.2s ease'
                 }}
               >
-                <GrowthPlanProviderColors theme={growthPlanColors.color.diamondPlus}>
+                <GrowthPlanProvider level="diamondPlus">
                   <SpotIcon
                     name="spoticon-growthplan-trophydiamond"
                     size={size as SpotIconProps['size']}
                     color="main"
                   />
-                </GrowthPlanProviderColors>
+                </GrowthPlanProvider>
                 <div style={{
                   textAlign: 'center',
                   marginTop: '12px'

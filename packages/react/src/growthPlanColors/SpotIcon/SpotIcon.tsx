@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { Icon } from '../../components/Icon'
 import { SpotIconProps } from './SpotIcon.props'
-import { GrowthPlanColorsContext } from '../Provider/GrowthPlanProviderColors'
+import { GrowthPlanContext } from '../Provider/GrowthPlanProvider'
 import styles from './SpotIcon.styles'
 
 /**
@@ -11,7 +11,7 @@ import styles from './SpotIcon.styles'
  * Este componente faz parte do Growth Plan e é ideal para casos onde você precisa de
  * ícones maiores mas com controle sobre o range de tamanhos permitidos.
  *
- * As cores são automaticamente resolvidas através do GrowthPlanProviderColors e aplicadas
+ * As cores são automaticamente resolvidas através do GrowthPlanProvider e aplicadas
  * via CSS override para sobrescrever as cores padrão do Icon base.
  *
  * @param props - Propriedades do componente SpotIcon
@@ -19,10 +19,10 @@ import styles from './SpotIcon.styles'
  *
  * @example
  * // Uso com Provider (obrigatório para cores do Growth Plan)
- * <GrowthPlanProviderColors theme={bronze}>
+ * <GrowthPlanProvider level="bronze">
  *   <SpotIcon color="main" name="spoticon-growthplan-crystal" />
  *   <SpotIcon color="mainLight" name="spoticon-growthplan-trophy" />
- * </GrowthPlanProviderColors>
+ * </GrowthPlanProvider>
  *
  */
 const SpotIcon = React.forwardRef<HTMLElement, SpotIconProps>(({
@@ -31,7 +31,7 @@ const SpotIcon = React.forwardRef<HTMLElement, SpotIconProps>(({
   className = '',
   ...props
 }, ref) => {
-  const context = useContext(GrowthPlanColorsContext)
+  const context = useContext(GrowthPlanContext)
 
   // Resolve a cor hexadecimal do Growth Plan baseada no contexto
   const growthPlanColor = React.useMemo(() => {
