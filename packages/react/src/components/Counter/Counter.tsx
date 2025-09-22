@@ -12,6 +12,7 @@ const Counter = React.forwardRef<HTMLDivElement, CounterProps>(({
   accessibilitySpanIncrement,
   accessibilityDecrement,
   accessibilityIncrement,
+  accessibilityInput,
   ariaLabelInput,
   className = '',
   disabled,
@@ -52,12 +53,14 @@ const Counter = React.forwardRef<HTMLDivElement, CounterProps>(({
         </Button>
         <input
           aria-label={ariaLabelInput}
+          aria-live="assertive"
           className={inputBase}
           readOnly={readOnly}
           onChange={onChange}
           value={value}
           maxLength={2}
           inputMode="numeric"
+          {...accessibilityInput}
         />
         <Button
           ariaLabel={ariaLabelIncrementButton}

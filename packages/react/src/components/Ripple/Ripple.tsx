@@ -77,8 +77,8 @@ const Ripple = (props: RippleProps): JSX.Element => {
 
   return (
     <div className={wrapper} onClick={showRipple} data-testid="ripple-wrapper" tabIndex={showFocus} {...rest}>
-      <div className={rippleContainer}>
-        <div className={`${ripple} ${animation}`} data-testid="ripple-animation" />
+      <div className={rippleContainer} aria-hidden="true">
+        <div className={`${ripple} ${animation}`} data-testid="ripple-animation" aria-hidden="true" />
       </div>
       {children}
     </div>

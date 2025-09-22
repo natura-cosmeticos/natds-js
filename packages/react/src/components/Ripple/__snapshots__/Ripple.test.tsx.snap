@@ -96,9 +96,11 @@ Array [
       tabindex="-1"
     >
       <div
+        aria-hidden="true"
         class="rippleContainer-0-2-4 rippleContainer-d2-0-2-9"
       >
         <div
+          aria-hidden="true"
           class="ripple-0-2-3 ripple-d1-0-2-8 "
           data-testid="ripple-animation"
         />

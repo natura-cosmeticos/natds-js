@@ -6,6 +6,7 @@ type CounterSizes = keyof Pick<Size, 'semiX' | 'medium'>
 
 export interface CounterProps {
 
+  accessibilityInput?: AriaAttributes;
   accessibilityIncrement?: ButtonAccessibilityProps;
   accessibilityDecrement?: ButtonAccessibilityProps;
   accessibilitySpanIncrement?: AriaAttributes;
