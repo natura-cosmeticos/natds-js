@@ -11,20 +11,20 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 * **natds-react:** added code SpotIcon 
 * **natds-react:** update Icons with SpotIcons 
 
-**natds-icons:** filled-growthplan-diamondgem  
-**natds-icons:** filled-growthplan-crystal 
-**natds-icons:** outlined-growthplan-crystal  
-**natds-icons:** outlined-growthplan-diamondgem
+* **natds-icons:** filled-growthplan-diamondgem  
+* **natds-icons:** filled-growthplan-crystal 
+* **natds-icons:** outlined-growthplan-crystal  
+* **natds-icons:** outlined-growthplan-diamondgem
 
-spoticon-growthplan-crystal 
-spoticon-growthplan-diamondgem 
-spoticon-growthplan-flowertulip 
-spoticon-growthplan-graphic 
-spoticon-growthplan-laurelwreath 
-spoticon-growthplan-trophy 
-spoticon-growthplan-trophyaward 
-spoticon-growthplan-trophydiamond 
-spoticon-growthplan-trophysapphire 
+* **natds-icons:** spoticon-growthplan-crystal 
+* **natds-icons:** spoticon-growthplan-diamondgem 
+* **natds-icons:** spoticon-growthplan-flowertulip 
+* **natds-icons:** spoticon-growthplan-graphic 
+* **natds-icons:** spoticon-growthplan-laurelwreath 
+* **natds-icons:** spoticon-growthplan-trophy 
+* **natds-icons:** spoticon-growthplan-trophyaward 
+* **natds-icons:** spoticon-growthplan-trophydiamond 
+* **natds-icons:** spoticon-growthplan-trophysapphire 
 
 ### Bug Fixes
 * **natds-react:**  fixed accessibility ghost area remover
