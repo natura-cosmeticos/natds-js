@@ -7,9 +7,9 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features 
 
-natds-rn: create GrowthPlanProvider
-natds-rn: added code SpotIcon 
-natds-rn: update Icons with SpotIcons 
+* **natds-react:** create GrowthPlanProvider
+* **natds-react:** added code SpotIcon 
+* **natds-react:** update Icons with SpotIcons 
 
 **natds-icons:** filled-growthplan-diamondgem  
 **natds-icons:** filled-growthplan-crystal 
