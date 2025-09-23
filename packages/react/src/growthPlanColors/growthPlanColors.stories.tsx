@@ -92,7 +92,7 @@ Utilize esta visualização para verificar as cores disponíveis, seus nomes, va
 `
 
 export default {
-  title: 'GrowthPlanColors/Growth Plan',
+  title: 'Growth Plan/Colors',
   parameters: {
     componentSubtitle: '',
     docs: { description: { component: componentStatus } }
