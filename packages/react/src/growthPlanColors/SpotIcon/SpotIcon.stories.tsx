@@ -174,7 +174,7 @@ Use o **Playground** para testar todos os temas do Growth Plan em tempo real! Se
 `
 
 export default {
-  title: 'Growth Plan/SpotIcon',
+  title: 'Growth Plan/Patterns/Spot Icon',
   component: SpotIcon,
   parameters: {
     componentSubtitle: 'Ícones com tamanhos limitados entre medium e hugeX para o Growth Plan',
