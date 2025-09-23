@@ -5,8 +5,28 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [2.71.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.71.0-alpha.DSY-6503.19.0...@naturacosmeticos/natds-react@2.71.0) (2025-09-22)
 
-**Note:** Version bump only for package @naturacosmeticos/natds-react
+Features
+natds-rn: create GrowthPlanProvider
+natds-rn: added code SpotIcon 
+natds-rn: update Icons with SpotIcons 
 
+**natds-icons:** filled-growthplan-diamondgem  
+**natds-icons:** filled-growthplan-crystal 
+**natds-icons:** outlined-growthplan-crystal  
+**natds-icons:** outlined-growthplan-diamondgem
+
+spoticon-growthplan-crystal 
+spoticon-growthplan-diamondgem 
+spoticon-growthplan-flowertulip 
+spoticon-growthplan-graphic 
+spoticon-growthplan-laurelwreath 
+spoticon-growthplan-trophy 
+spoticon-growthplan-trophyaward 
+spoticon-growthplan-trophydiamond 
+spoticon-growthplan-trophysapphire 
+
+### Bug Fixes
+* **natds-react:**  fixed accessibility ghost area remover
 
 
 
