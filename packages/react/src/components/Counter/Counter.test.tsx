@@ -45,7 +45,7 @@ describe('Counter', () => {
   it('should disabled onIncrement when maxValue is reached', () => {
     const onIncrementMock = jest.fn()
     const { component } = renderWithTheme(
-      <Counter {...defaultProps} value={99} onIncrement={onIncrementMock} />
+      <Counter {...defaultProps} value={999} onIncrement={onIncrementMock} />
     )
     fireEvent.click(component.getByTestId('onIncrement-btn'))
 
