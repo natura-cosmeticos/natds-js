@@ -18,7 +18,7 @@ const Counter = React.forwardRef<HTMLDivElement, CounterProps>(({
   disabled,
   readOnly,
   label,
-  maxValue = 99,
+  maxValue = 999,
   minValue = 0,
   onDecrement,
   onIncrement,
@@ -58,7 +58,7 @@ const Counter = React.forwardRef<HTMLDivElement, CounterProps>(({
           readOnly={readOnly}
           onChange={onChange}
           value={value}
-          maxLength={2}
+          maxLength={3}
           inputMode="numeric"
           {...accessibilityInput}
         />
